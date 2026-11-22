@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "vaiana",
+  "version": 1,
+  "title": "Vaiana en de oceaan.",
+  "emoji": "🌊",
+  "text": "Op een mooi eiland in de grote oceaan woont een meisje. Ze heet Vaiana. Het eiland heet Motunui. Er staan palmbomen met kokosnoten, er zijn witte stranden en het water is helder en blauw. Vaiana's papa is het opperhoofd van het eiland. En later wordt Vaiana het opperhoofd. Vaiana houdt van de oceaan. Al van toen ze heel klein was. Elke dag staat ze aan het strand en kijkt ze naar de golven. Ze wil zo graag de zee op. Maar haar papa zegt altijd: Nee, Vaiana. Niemand gaat verder dan het rif. De zee is gevaarlijk. Vaiana heeft een oma. Oma Tala. Oma Tala danst graag met de golven, en ze vertelt de mooiste verhalen. Oma is de enige die begrijpt dat Vaiana de zee zo graag ziet. Op een dag gebeurt er iets vreemds op het eiland. De kokosnoten zijn bruin en zacht vanbinnen. De vissers vangen geen vissen meer. Het eiland wordt ziek. Oma Tala neemt Vaiana mee naar een geheime grot. Daarin staan grote, oude boten. Kijk, zegt oma. Lang geleden waren onze voorouders zeevaarders. Ze zeilden over de hele oceaan. Ze vonden de weg met de sterren. Oma geeft Vaiana een klein, groen steentje. Het gloeit een beetje. Dit is het hart van Te Fiti, zegt oma. Te Fiti is het eiland dat leven geeft aan alles. Maar het hart werd lang geleden gestolen door de halfgod Maui. Daarom wordt ons eiland ziek. Jij moet Maui vinden, en samen moeten jullie het hart terugbrengen. Vaiana is bang. Maar ze is ook dapper. Op een nacht, als iedereen slaapt, stapt ze in een kleine boot. Ze neemt haar haan mee, Heihei. Heihei is een beetje dom. Hij eet steentjes en loopt altijd tegen dingen aan. Vaiana zeilt de zee op, voorbij het rif. De golven zijn groot. Het waait hard. Maar Vaiana houdt vol. En de oceaan helpt haar. Het water is een beetje magisch. Het duwt haar boot in de goede richting. Na een lange reis vindt Vaiana een klein eiland. Daar woont Maui. Maui is groot en sterk, met lange krullen en tekeningen op zijn huid. Hij heeft een grote haak. Daarmee kan hij veranderen in dieren. In een havik, een haai, of zelfs een hagedis. Maui is een beetje een opschepper. Ik ben Maui! zegt hij. Ik heb de zon gevangen en eilanden uit de zee getrokken! Vaiana zegt: En je hebt het hart van Te Fiti gestolen. Breng het terug! Eerst wil Maui niet. Maar Vaiana blijft vragen. En ze is zo dapper, dat Maui haar uiteindelijk helpt. Samen zeilen ze verder. Maui leert Vaiana hoe ze de weg vindt met de sterren. En hoe ze het zeil moet draaien in de wind. Vaiana leert snel. Dan komen ze bij Te Fiti. Maar daar staat een grote vuurberg. Hij is boos en heet. Hij gooit met vuur en as. Maui wil vechten. Maar Vaiana ziet iets. Op de borst van het vuurmonster is een gat, precies in de vorm van een spiraal. Het hart past erin! Vaiana loopt heel rustig naar het monster. Ze is niet bang. Ze zingt zachtjes. Het monster wordt stil. Ik weet wie je bent, zegt Vaiana. Je bent Te Fiti. Je bent alleen boos, omdat je je hart kwijt bent. Ze legt het groene steentje in het gat. En dan gebeurt er iets prachtigs. Het vuur dooft. Het monster verandert in een groene vrouw, vol bloemen en planten. Het is Te Fiti! Overal groeien bloemen en bomen. Maui zegt sorry. Te Fiti vergeeft hem. Vaiana zeilt terug naar huis. Op Motunui zijn de kokosnoten weer wit en vers. Er zijn weer vissen. Haar papa omhelst haar. Je bent een echte zeevaarder, zegt hij trots. En vanaf die dag zeilen de mensen van Motunui weer over de oceaan. Met Vaiana voorop. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Waar woont Vaiana?",
+      "right": "🏝️",
+      "wrong": [
+        "🏔️",
+        "🏙️"
+      ],
+      "say": "Vaiana woont op een eiland."
+    },
+    {
+      "question": "Welk dier neemt Vaiana mee op de boot?",
+      "right": "🐓",
+      "wrong": [
+        "🐷",
+        "🐕"
+      ],
+      "say": "Vaiana neemt haar haan Heihei mee."
+    },
+    {
+      "question": "Welke kleur heeft het hart van Te Fiti?",
+      "right": "🟢",
+      "wrong": [
+        "🔴",
+        "🔵"
+      ],
+      "say": "Het hart van Te Fiti is een groen steentje."
+    },
+    {
+      "question": "Waarmee vinden de zeevaarders de weg?",
+      "right": "⭐",
+      "wrong": [
+        "🗺️",
+        "📱"
+      ],
+      "say": "Ze vinden de weg met de sterren."
+    },
+    {
+      "question": "In wat verandert het vuurmonster?",
+      "right": "🌺",
+      "wrong": [
+        "🐉",
+        "🌋"
+      ],
+      "say": "Het monster verandert in Te Fiti, vol bloemen."
+    }
+  ],
+  "words": [
+    {
+      "word": "het eiland",
+      "emoji": "🏝️",
+      "say": "Vaiana woont op een eiland."
+    },
+    {
+      "word": "de oceaan",
+      "emoji": "🌊",
+      "say": "Vaiana houdt van de oceaan."
+    },
+    {
+      "word": "de kokosnoten",
+      "emoji": "🥥",
+      "say": "Aan de palmbomen hangen kokosnoten."
+    },
+    {
+      "word": "de boot",
+      "emoji": "⛵",
+      "say": "Vaiana zeilt in een kleine boot."
+    },
+    {
+      "word": "de haan",
+      "emoji": "🐓",
+      "say": "Heihei is een domme haan."
+    },
+    {
+      "word": "de sterren",
+      "emoji": "⭐",
+      "say": "De sterren wijzen de weg."
+    }
+  ]
+}

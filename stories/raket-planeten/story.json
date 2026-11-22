@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "raket-planeten",
+  "version": 1,
+  "title": "Een reis langs de planeten.",
+  "emoji": "🚀",
+  "text": "Lotte ligt in bed, maar ze kan niet slapen. Door het raam kijkt ze naar de sterren. Papa, vraagt ze, wat is er allemaal in de ruimte? Papa gaat op de rand van het bed zitten. Weet je wat? zegt hij. We gaan op reis. In ons hoofd. Doe je ogen maar dicht. Lotte doet haar ogen dicht. We stappen in een raket, zegt papa. Een grote, witte raket, met een rode punt. We doen onze helmen op. We gespen ons vast. Tien, negen, acht, zeven, zes, vijf, vier, drie, twee, één. Lancering! Vroeeemmm! De raket schiet de lucht in. Lotte voelt het in haar buik. We gaan door de wolken. De lucht wordt donkerder en donkerder. En dan zijn we in de ruimte. Het is er helemaal zwart, met overal fonkelende sterren. En in de ruimte zweef je. Je hoeft niet te lopen. Je drijft rond, net als in het water. Kijk eens achter je, zegt papa. Daar is een grote blauwe bal, met witte wolken en groene stukken. Dat is de Aarde! Daar wonen wij. Daar is ons huis, en de school, en oma. Dag Aarde! zegt Lotte. Dan vliegen we eerst naar de maan. De maan is grijs en vol kuilen. Er is geen lucht en geen water. Je kan er heel hoog springen. Boing! Boing! Lotte giechelt. Verder gaan we. Nu komen we bij de planeten. Alle planeten draaien rond de zon, als kinderen in een grote kring rond de juf. Eerst vliegen we naar Mars. Mars is rood, zegt papa. Er is rood stof en er zijn hoge bergen. Er zijn robotjes op Mars, die mensen gestuurd hebben. Ze rijden rond en maken foto's. Dan komen we bij de allergrootste planeet. Jupiter! Jupiter is zo groot dat de Aarde er wel duizend keer in zou passen. Hij heeft strepen, oranje en wit en bruin. En hij heeft een grote rode vlek. Dat is een storm, die al heel lang waait. Wauw, fluistert Lotte. En dan, zegt papa, de mooiste planeet van allemaal. Saturnus! Saturnus heeft ringen rondom. Grote, glinsterende ringen, van ijs en steentjes. Het lijkt wel een hoed met een brede rand. Mag ik op de ring glijden? vraagt Lotte. Papa lacht. In ons hoofd mag alles! Lotte glijdt over de ring van Saturnus. Zoeeef! Daarna wordt het kouder en kouder. Want we zijn heel ver van de zon. Hier zijn Uranus en Neptunus. Twee blauwe planeten. Ze zijn koud, ijskoud. Daar wil je je dikke jas aan. Brrr, zegt Lotte en ze trekt haar deken hoger. En de zon? vraagt Lotte. De zon is eigenlijk ook een ster, zegt papa. Een hele grote, en heel dichtbij. Daarom is ze zo fel en zo warm. Alle andere sterren zijn ook zonnen. Maar ze zijn zo ver weg dat ze heel klein lijken. Lotte is stil. Zoveel sterren, zegt ze. Zoveel, zegt papa. Meer dan alle zandkorrels op het strand. Dan is het tijd om terug te gaan. We draaien de raket. We vliegen langs Saturnus, langs Jupiter, langs Mars. Daar is de maan weer. En daar is de grote blauwe bal. Onze Aarde. We gaan door de wolken. En pluf, we landen. Precies in jouw bed. Lotte geeuwt. Papa? Ja? Later word ik astronaut. Dat kan, zegt papa. Hij geeft haar een kus. Maar nu eerst slapen. Lotte kijkt nog één keer naar de sterren. Welterusten, Saturnus, fluistert ze. En ze valt in slaap. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Waarmee gaan Lotte en papa op reis?",
+      "right": "🚀",
+      "wrong": [
+        "✈️",
+        "🚂"
+      ],
+      "say": "Ze gaan op reis met een raket."
+    },
+    {
+      "question": "Welke kleur heeft de planeet Mars?",
+      "right": "🔴",
+      "wrong": [
+        "🔵",
+        "🟢"
+      ],
+      "say": "Mars is een rode planeet."
+    },
+    {
+      "question": "Welke planeet heeft ringen?",
+      "right": "🪐",
+      "wrong": [
+        "🌍",
+        "🌕"
+      ],
+      "say": "Saturnus heeft grote ringen."
+    },
+    {
+      "question": "Wat is de zon eigenlijk?",
+      "right": "⭐",
+      "wrong": [
+        "🌕",
+        "🔥"
+      ],
+      "say": "De zon is eigenlijk een ster."
+    },
+    {
+      "question": "Wat wil Lotte later worden?",
+      "right": "👩‍🚀",
+      "wrong": [
+        "👩‍🍳",
+        "👩‍🏫"
+      ],
+      "say": "Lotte wil astronaut worden."
+    }
+  ],
+  "words": [
+    {
+      "word": "de raket",
+      "emoji": "🚀",
+      "say": "De raket schiet de lucht in."
+    },
+    {
+      "word": "de Aarde",
+      "emoji": "🌍",
+      "say": "Wij wonen op de Aarde."
+    },
+    {
+      "word": "de maan",
+      "emoji": "🌕",
+      "say": "Op de maan kan je hoog springen."
+    },
+    {
+      "word": "de planeten",
+      "emoji": "🪐",
+      "say": "De planeten draaien rond de zon."
+    },
+    {
+      "word": "de zon",
+      "emoji": "☀️",
+      "say": "De zon is een grote ster."
+    },
+    {
+      "word": "de sterren",
+      "emoji": "⭐",
+      "say": "De sterren fonkelen in de nacht."
+    }
+  ]
+}

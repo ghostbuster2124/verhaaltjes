@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "vrachtwagen",
+  "version": 1,
+  "title": "De grote vrachtwagen.",
+  "emoji": "🚚",
+  "text": "Mijn naam is Bram. Ik ben vijf jaar. En mijn papa is vrachtwagenchauffeur. Hij rijdt met een grote, rode vrachtwagen. Hij heet Rode Reus. Want hij is heel groot en heel rood. Elke dag rijdt papa met Rode Reus over de wegen. Naar winkels, naar fabrieken en naar de haven. Hij brengt dingen van de ene plaats naar de andere. Vandaag is een speciale dag. Ik mag mee met papa! De hele dag! Het is vakantie. Om zes uur in de ochtend maakt papa me wakker. Het is nog donker buiten. Ik trek mijn kleren aan en mijn geel petje. Papa geeft me een boterham en een beker melk. Dan gaan we naar de grote parking, waar Rode Reus staat. Wauw, wat is hij groot van dichtbij! De wielen zijn groter dan ik. Ik tel ze. Een, twee, drie, vier, vijf, zes. Er zijn heel veel wielen. Om in de cabine te komen, moet ik een trapje op klimmen. Papa helpt me. In de cabine is het gezellig. Er is een groot stuur. Er zijn knopjes en lichtjes. En achter de stoelen is zelfs een bedje, om te slapen als papa ver moet rijden. Ik krijg een speciaal stoeltje, met een gordel. Klik. Klaar? vraagt papa. Klaar! zeg ik. Papa draait aan de sleutel. Rrrrooommm! Rode Reus bromt. Hij trilt een beetje, als een grote kat die spint. En dan rijden we. Ik zit heel hoog. Ik kan over de auto's kijken. Ik zie alles. De huizen, de bomen, de koeien in de wei. Eerst rijden we naar een grote fabriek. Daar maken ze speelgoed. Een man met een heftruck laadt dozen in de vrachtwagen. Heel veel dozen. Er zitten fietsjes in, en poppen, en blokken. Papa zet een handtekening op een papier. Dan rijden we verder. Op de grote autostrade. Papa rijdt rustig. Niet te snel. Vrachtwagens mogen niet zo snel rijden als auto's, vertelt papa. Want ze zijn zwaar. Ze hebben veel tijd nodig om te stoppen. Ik zie andere vrachtwagens. Een blauwe, een groene, een met een lange tank vol melk. Ik zwaai naar de chauffeurs. Sommige toeteren terug. Toet toet! Ik moet lachen. Papa heeft een knop voor de grote toeter. Mag ik ook eens? Papa knikt. Ik druk op de knop. TOEEEET! Wat een lawaai! Een vogel vliegt geschrokken weg. Om twaalf uur stoppen we op een parking. Hier eten veel chauffeurs. We gaan binnen in een klein restaurant. Ik krijg frietjes. Papa drinkt een koffie. De andere chauffeurs zeggen hallo. Is dat je hulpje? vraagt een vrouw met een rode jas. Ja, zegt papa trots. Dit is Bram, mijn copiloot. Na het eten rijden we naar een grote speelgoedwinkel in de stad. Daar laden we de dozen uit. Ik help mee. Ik draag een kleine doos. De winkelbediende geeft me een sticker van een vrachtwagen. En weet je wat ik zie in de winkel? De fietsjes die wij gebracht hebben. Ze staan al in de rekken. Een meisje kijkt naar een roze fietsje. Kijk, papa, fluister ik. Die hebben wij gebracht! Zo is het, zegt papa. Zonder vrachtwagens is er niets in de winkels. Geen speelgoed, geen kleren en geen eten. In de namiddag rijden we terug naar huis. De zon zakt. De lucht wordt oranje. Ik geeuw. Mijn ogen worden zwaar. Als ik wakker word, staan we op de parking. Papa tilt me uit de cabine. Was het een fijne dag, copiloot? vraagt hij. Ik knik. Papa, later word ik ook vrachtwagenchauffeur. Dan rijden we samen. Jij met Rode Reus, en ik met Kleine Reus. Papa lacht en geeft me een knuffel. Afgesproken, zegt hij. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welke kleur heeft de vrachtwagen van papa?",
+      "right": "🔴",
+      "wrong": [
+        "🔵",
+        "🟢"
+      ],
+      "say": "De vrachtwagen is rood."
+    },
+    {
+      "question": "Wat is er achter de stoelen in de cabine?",
+      "right": "🛏️",
+      "wrong": [
+        "🛁",
+        "📺"
+      ],
+      "say": "Achter de stoelen is een bedje."
+    },
+    {
+      "question": "Wat zit er in de dozen?",
+      "right": "🧸",
+      "wrong": [
+        "🍎",
+        "📚"
+      ],
+      "say": "In de dozen zit speelgoed."
+    },
+    {
+      "question": "Wat eet Bram op de parking?",
+      "right": "🍟",
+      "wrong": [
+        "🍝",
+        "🥗"
+      ],
+      "say": "Bram eet frietjes."
+    },
+    {
+      "question": "Wat krijgt Bram van de winkelbediende?",
+      "right": "🚚",
+      "wrong": [
+        "🍭",
+        "🎈"
+      ],
+      "say": "Bram krijgt een sticker van een vrachtwagen."
+    }
+  ],
+  "words": [
+    {
+      "word": "de vrachtwagen",
+      "emoji": "🚚",
+      "say": "Papa rijdt met een grote vrachtwagen."
+    },
+    {
+      "word": "de wielen",
+      "emoji": "🛞",
+      "say": "De vrachtwagen heeft veel wielen."
+    },
+    {
+      "word": "de dozen",
+      "emoji": "📦",
+      "say": "Er zitten fietsjes in de dozen."
+    },
+    {
+      "word": "de toeter",
+      "emoji": "📯",
+      "say": "Toeeet, doet de toeter."
+    },
+    {
+      "word": "de frietjes",
+      "emoji": "🍟",
+      "say": "Bram eet frietjes."
+    },
+    {
+      "word": "de fietsjes",
+      "emoji": "🚲",
+      "say": "De fietsjes staan in de winkel."
+    }
+  ]
+}

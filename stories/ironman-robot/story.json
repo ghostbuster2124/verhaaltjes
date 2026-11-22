@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "ironman-robot",
+  "version": 1,
+  "title": "Iron Man en het kleine robotje.",
+  "emoji": "🤖",
+  "text": "Tony Stark is een heel slimme uitvinder. Hij woont in een groot huis aan de zee, met heel veel ramen. Onder zijn huis heeft hij een werkplaats. Daar staan computers, schermen die oplichten en heel veel gereedschap. Tony maakt er de gekste uitvindingen. En hij heeft één heel speciale uitvinding gemaakt: een pak van metaal. Rood en goud. Als Tony het aantrekt, wordt hij Iron Man! Dan kan hij vliegen, met vuur onder zijn voeten. Zoeeef! En in zijn handen zitten lampen die stralen. Op een dag werkt Tony aan iets nieuws. Een klein robotje. Het is niet groter dan een kat. Het heeft twee ronde ogen die blauw oplichten, twee armpjes en wieltjes in plaats van voeten. Tony noemt het Bolt. Bolt doet zijn ogen open. Piep! Hallo, zegt Tony. Ik ben Tony. Jij bent Bolt. Bolt piept vrolijk. Hij rijdt rond in de werkplaats. Maar hij is nog wat onhandig. Hij botst tegen de tafel. Bonk! Hij laat een schroevendraaier vallen. Klang! Hij rijdt over de staart van de kat. Miauw! Oeps, piept Bolt. Tony lacht. Je moet nog veel leren, Bolt. Maar dat is niet erg. Iedereen moet oefenen. Elke dag oefent Bolt. Hij leert dingen oprapen met zijn armpjes. Hij leert rond de tafel rijden zonder te botsen. Hij leert de kat een balletje toe te rollen. En hij leert een kopje koffie brengen, zonder te morsen. Wel, bijna zonder te morsen. Op een dag rinkelt er een alarm. Tring, tring! Op het scherm verschijnt een kaart van de stad. Een grote kraan is omgevallen bij de haven. Er zit een man vast in een klein kantoortje, onder de zware ijzeren balken. Tony trekt zijn pak aan. Klik, klak, klik. Iron Man is klaar! Bolt, jij blijft hier, zegt Iron Man. En hij vliegt weg. Zoeeef! Maar Bolt wil helpen. Hij rolt naar buiten, over de weg, helemaal naar de haven. Iron Man is er al. Hij tilt met zijn sterke armen een grote balk op. Hou vol! roept hij naar de man in het kantoortje. Maar de deur van het kantoortje zit vast. En het gat tussen de balken is heel klein. Iron Man past er niet door. Zijn pak is te groot. Dan hoort hij iets. Piep! Het is Bolt! Bolt, wat doe jij hier? Maar dan krijgt Iron Man een idee. Bolt, jij bent klein! Jij past erdoor! Bolt rijdt door het smalle gat. Hij komt bij de deur. Hij steekt zijn armpje in het slot. Hij draait. Klik! De deur gaat open. De man kruipt naar buiten. Hij is een beetje stoffig, maar hij is in orde. Dank je wel! zegt de man. Hij aait Bolt over zijn kopje. Wat een dapper robotje! Bolt piept heel trots. Zijn ogen lichten op, helemaal blauw. Iron Man tilt Bolt op en houdt hem vast. Goed gedaan, kleine man. Ik zei wel dat je thuis moest blijven, maar je hebt iemand gered. Samen vliegen ze terug naar huis. Iron Man vliegt, en Bolt zit op zijn schouder. Bolt kijkt naar de stad onder hem, met alle lichtjes. Piep, piep! Thuis maakt Tony iets voor Bolt. Een klein rood en gouden kapje. Nu lijkt Bolt een beetje op Iron Man. Jij bent nu ook een held, zegt Tony. Want weet je wat ik vandaag geleerd heb? Je hoeft niet groot te zijn om te helpen. Soms is klein net heel goed. Bolt piept. En hij brengt Tony een kopje koffie. Zonder te morsen. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welke kleuren heeft het pak van Iron Man?",
+      "right": "🔴",
+      "wrong": [
+        "🟢",
+        "🟣"
+      ],
+      "say": "Het pak van Iron Man is rood en goud."
+    },
+    {
+      "question": "Wat maakt Tony in zijn werkplaats?",
+      "right": "🤖",
+      "wrong": [
+        "🚗",
+        "🧸"
+      ],
+      "say": "Tony maakt een klein robotje."
+    },
+    {
+      "question": "Wat heeft Bolt in plaats van voeten?",
+      "right": "🛞",
+      "wrong": [
+        "🦶",
+        "🪽"
+      ],
+      "say": "Bolt heeft wieltjes."
+    },
+    {
+      "question": "Wat is er omgevallen bij de haven?",
+      "right": "🏗️",
+      "wrong": [
+        "🌳",
+        "🚢"
+      ],
+      "say": "Een grote kraan is omgevallen."
+    },
+    {
+      "question": "Waarom kan Bolt helpen?",
+      "right": "🐭",
+      "wrong": [
+        "🐘",
+        "🦒"
+      ],
+      "say": "Bolt is klein en past door het gat."
+    }
+  ],
+  "words": [
+    {
+      "word": "het robotje",
+      "emoji": "🤖",
+      "say": "Bolt is een klein robotje."
+    },
+    {
+      "word": "het gereedschap",
+      "emoji": "🔧",
+      "say": "In de werkplaats ligt gereedschap."
+    },
+    {
+      "word": "de wieltjes",
+      "emoji": "🛞",
+      "say": "Bolt rijdt op wieltjes."
+    },
+    {
+      "word": "de kraan",
+      "emoji": "🏗️",
+      "say": "De kraan is omgevallen."
+    },
+    {
+      "word": "de deur",
+      "emoji": "🚪",
+      "say": "Bolt maakt de deur open."
+    },
+    {
+      "word": "de koffie",
+      "emoji": "☕",
+      "say": "Bolt brengt een kopje koffie."
+    }
+  ]
+}

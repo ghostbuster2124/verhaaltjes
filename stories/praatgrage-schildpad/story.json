@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "praatgrage-schildpad",
+  "version": 1,
+  "title": "De schildpad die te veel praatte.",
+  "emoji": "🐢",
+  "text": "Dit is een verhaal uit India, uit het oude boek met dierenverhalen. Aan een mooi meer, met lotusbloemen en hoge rietstengels, woonde een schildpad. Hij heette Kambu. Kambu had twee beste vrienden. Twee witte ganzen. Ze heetten Hamsa en Hamsi. Elke dag kwamen de ganzen naar het meer. Dan zaten ze met z'n drieën in de zon en praatten ze. Of liever, Kambu praatte. Kambu praatte heel veel. Hij praatte over het weer, over de vissen, over de wolken. Hij praatte 's morgens en 's avonds. Hij praatte zelfs als hij at. De ganzen vonden hem heel lief. Maar soms zeiden ze: Kambu, je moet ook eens luisteren. Op een zomer regende het helemaal niet. Dag na dag scheen de zon. Het was heet. En het meer werd kleiner en kleiner. Het water verdween. Eerst werd het een plasje. En toen was er alleen nog modder. De vissen waren weg. De lotusbloemen hingen slap. Hamsa en Hamsi waren ongerust. We moeten hier weg, zeiden ze. Achter de bergen is een groot meer. Daar is altijd water. Wij kunnen ernaartoe vliegen. Maar Kambu werd verdrietig. Ik kan niet vliegen, zei hij. Ik ben een schildpad. Ik ben veel te traag. Ik zal hier blijven, in de droge modder. Daar dachten de ganzen over na. Ze wilden hun vriend niet achterlaten. Toen kreeg Hamsa een idee. We nemen een stevige stok, zei ze. Ik neem het ene eind in mijn snavel. Hamsi neemt het andere eind. En jij, Kambu, bijt in het midden van de stok. Dan vliegen we je mee! Kambu was zo blij. Ja, ja, ja! riep hij. Wat een goed idee! Maar Hamsi keek heel ernstig. Er is wel één ding, zei ze. Je moet je mond dicht houden. De hele reis lang. Want als je je mond opendoet, dan laat je de stok los. En dan val je naar beneden. Kambu knikte. Ik zal niets zeggen, beloofde hij. Geen enkel woord. Ze zochten een stevige stok. Kambu beet erin, heel hard. De ganzen namen elk een eind in hun snavel. Ze sloegen hun vleugels uit. En flap, flap, flap! Ze vlogen de lucht in, met Kambu hangend aan de stok. Kambu keek naar beneden. Wat was alles klein! De bomen leken wel broccoli. De huizen leken wel blokjes. Hij wilde zo graag iets zeggen. Maar hij hield zijn mond dicht. Ze vlogen over een dorp. Daar speelden kinderen op straat. Ze keken omhoog. Kijk! riepen de kinderen. Twee ganzen dragen een schildpad! Wat grappig! Wat een rare vogel! Ze lachten en wezen. Kambu hoorde het. Hij vond het helemaal niet leuk dat ze lachten. Hij wilde iets terugroepen. Hij wilde zeggen: Ik ben geen rare vogel! Ik ben een schildpad, en dit zijn mijn vrienden! Hij hield het niet meer. Hij deed zijn mond open. Wat... En hij liet de stok los. Hij viel naar beneden! Gelukkig vlogen ze heel laag, over een grote hooiberg. Plof! Kambu viel recht in het zachte hooi. Hij was niet gewond, alleen een beetje geschrokken. Zijn schild zat vol strootjes. De ganzen vlogen snel naar beneden. Kambu! Gaat het? Kambu keek een beetje beschaamd. Het spijt me, zei hij. Ik had mijn mond moeten houden. Hamsa lachte. We proberen het nog eens, zei ze. Maar deze keer luister je naar de kinderen niet, hé. Kambu knikte. Hij beet weer in de stok. En deze keer zei hij niets. De hele reis lang. Ook niet toen de koeien naar hem loeiden. Eindelijk landden ze bij het grote meer. Het water was blauw en koel. Kambu sprong erin. Plons! Hij zwom rond van blijdschap. En toen mocht hij weer praten. En hij praatte! Hij praatte de hele middag over de reis. De ganzen lachten. De les van dit verhaal? Soms is het slim om even stil te zijn. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welk dier is Kambu?",
+      "right": "🐢",
+      "wrong": [
+        "🐸",
+        "🐊"
+      ],
+      "say": "Kambu is een schildpad."
+    },
+    {
+      "question": "Wie zijn de vrienden van Kambu?",
+      "right": "🦢",
+      "wrong": [
+        "🦆",
+        "🦉"
+      ],
+      "say": "Zijn vrienden zijn twee witte ganzen."
+    },
+    {
+      "question": "Waarom moeten ze weg van het meer?",
+      "right": "☀️",
+      "wrong": [
+        "❄️",
+        "🌊"
+      ],
+      "say": "Het is heet en het water verdwijnt."
+    },
+    {
+      "question": "Waaraan hangt Kambu tijdens het vliegen?",
+      "right": "🪵",
+      "wrong": [
+        "🪢",
+        "🧺"
+      ],
+      "say": "Kambu bijt in een stevige stok."
+    },
+    {
+      "question": "Waarin valt Kambu?",
+      "right": "🌾",
+      "wrong": [
+        "💧",
+        "🌵"
+      ],
+      "say": "Kambu valt in het zachte hooi."
+    }
+  ],
+  "words": [
+    {
+      "word": "de schildpad",
+      "emoji": "🐢",
+      "say": "De schildpad praat heel veel."
+    },
+    {
+      "word": "de ganzen",
+      "emoji": "🪿",
+      "say": "De ganzen kunnen vliegen."
+    },
+    {
+      "word": "de stok",
+      "emoji": "🪵",
+      "say": "Kambu bijt in de stok."
+    },
+    {
+      "word": "de lotusbloemen",
+      "emoji": "🪷",
+      "say": "Op het meer groeien lotusbloemen."
+    },
+    {
+      "word": "het hooi",
+      "emoji": "🌾",
+      "say": "Kambu valt in het zachte hooi."
+    },
+    {
+      "word": "het water",
+      "emoji": "💧",
+      "say": "Het water van het meer is koel."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "pjmasks-catboy",
+  "version": 1,
+  "title": "PJ Masks. Catboy en de nacht.",
+  "emoji": "🐱",
+  "text": "Overdag zijn Connor, Amaya en Greg gewone kinderen. Ze gaan naar school, ze spelen op de speelplaats en ze eten hun boterhammen. Maar 's nachts, als iedereen slaapt, worden ze helden! Dan trekken ze hun pyjama aan. Ze drukken op het knopje op hun armband. En hup, ze veranderen! Connor wordt Catboy, in een blauw pak met kattenoortjes. Hij kan heel snel rennen en heel hoog springen. En hij heeft supergoede oren. Amaya wordt Owlette, in een rood pak met vleugels. Ze kan vliegen en ze heeft uilenogen, waarmee ze heel ver kan kijken. Greg wordt Gekko, in een groen pak. Hij kan tegen muren op klimmen en hij is supersterk. Catboy is snel als een kat. Owlette kijkt als een uil. En Gekko klimt als een hagedis. Samen zijn ze de PJ Masks! Op een dag, op school, is er iets vreemds aan de hand. De juf zoekt haar sleutels. De conciërge zoekt zijn hamer. En Connor zoekt zijn rode speelgoedauto. Alles is weg! Iemand steelt dingen, fluistert Amaya. Vannacht gaan we op onderzoek, zegt Connor. Die nacht, als de maan aan de hemel staat, trekken ze hun pyjama aan. PJ Masks, we gaan! roept Catboy. Ze rennen naar hun hoofdkwartier. Dat is een grote toren in het park, met een kattenauto, een uilenvliegtuig en een hagedissenwagen. Catboy springt in de kattenauto. Vroem! Ze rijden door de stille stad. Alle lichtjes zijn uit. Iedereen slaapt. Catboy spitst zijn oren. Hij hoort iets. Een zacht gegiechel. Hihihi. Het komt van de school! Ze sluipen naar de school. Owlette vliegt boven het dak. Met haar uilenogen kijkt ze rond. Ik zie iemand! fluistert ze. Bij de zandbak! Daar staat een meisje in een paarse cape. Het is Lunagirl! Ze heeft een grote zak bij zich. In de zak zitten de sleutels, de hamer, en de rode speelgoedauto. Lunagirl! roept Catboy. Waarom neem je al die dingen mee? Lunagirl schrikt. Ze wil wegvliegen op haar maanplank. Maar Gekko klimt snel tegen de muur op en houdt de plank tegen. Catboy springt voor haar. Hij is supersnel. Lunagirl kan niet meer weg. Ze kijkt naar de grond. Ik wilde alleen maar spelen, zegt ze zachtjes. Overdag ben ik altijd alleen. Niemand speelt met mij. Dus nam ik dingen mee, zodat ik ook iets had om mee te spelen. Catboy kijkt naar Owlette en Gekko. Ze knikken. Lunagirl, zegt Catboy, stelen mag niet. De juf heeft haar sleutels nodig. De conciërge heeft zijn hamer nodig. Maar als je iemand wil om mee te spelen, dan kan je het ook gewoon vragen. Lunagirl kijkt op. Echt? Wil jij met mij spelen? Natuurlijk, zegt Owlette. Maar eerst brengen we alles terug. Samen leggen ze de sleutels terug op het bureau van de juf. De hamer in de kast van de conciërge. En de rode auto in de bak van Connor. En dan, in het maanlicht, spelen ze samen. Catboy en Lunagirl doen een wedstrijdje rennen. Owlette en Lunagirl vliegen om het hardst. Gekko bouwt een groot zandkasteel. Lunagirl lacht. Ze heeft nog nooit zoveel plezier gehad. Als de zon opkomt, moet Lunagirl gaan. Dank je wel, PJ Masks, zegt ze. Mag ik nog eens komen spelen? Altijd, zegt Catboy. Maar dan zonder iets mee te nemen. Lunagirl knikt en ze vliegt weg op haar maanplank. De volgende ochtend op school vindt de juf haar sleutels. De conciërge vindt zijn hamer. En Connor vindt zijn rode auto. Vreemd, zegt de juf. Ik had ze nochtans overal gezocht. Connor, Amaya en Greg kijken elkaar aan en glimlachen. Ze zeggen niets. Want het is hun geheim. PJ Masks, hoera! Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welk dier is Catboy?",
+      "right": "🐱",
+      "wrong": [
+        "🐶",
+        "🦉"
+      ],
+      "say": "Catboy is een kat."
+    },
+    {
+      "question": "Wat kan Owlette?",
+      "right": "🪽",
+      "wrong": [
+        "🏊",
+        "🎸"
+      ],
+      "say": "Owlette kan vliegen."
+    },
+    {
+      "question": "Wanneer worden de kinderen helden?",
+      "right": "🌙",
+      "wrong": [
+        "☀️",
+        "🌈"
+      ],
+      "say": "Ze worden 's nachts helden."
+    },
+    {
+      "question": "Welke speelgoedauto is Connor kwijt?",
+      "right": "🚗",
+      "wrong": [
+        "🚙",
+        "🚕"
+      ],
+      "say": "Connor is zijn rode auto kwijt."
+    },
+    {
+      "question": "Waarom nam Lunagirl dingen mee?",
+      "right": "🧸",
+      "wrong": [
+        "🍔",
+        "😴"
+      ],
+      "say": "Lunagirl wilde ook spelen."
+    }
+  ],
+  "words": [
+    {
+      "word": "de kat",
+      "emoji": "🐱",
+      "say": "Catboy heeft oortjes van een kat."
+    },
+    {
+      "word": "de uil",
+      "emoji": "🦉",
+      "say": "Owlette heeft ogen als een uil."
+    },
+    {
+      "word": "de hagedis",
+      "emoji": "🦎",
+      "say": "Gekko is een hagedis."
+    },
+    {
+      "word": "de sleutels",
+      "emoji": "🔑",
+      "say": "De juf zoekt haar sleutels."
+    },
+    {
+      "word": "de hamer",
+      "emoji": "🔨",
+      "say": "De conciërge zoekt zijn hamer."
+    },
+    {
+      "word": "de maan",
+      "emoji": "🌙",
+      "say": "De maan staat aan de hemel."
+    }
+  ]
+}

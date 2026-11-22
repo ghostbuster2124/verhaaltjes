@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "sneeuwwitje",
+  "version": 1,
+  "title": "Sneeuwwitje en de zeven dwergen.",
+  "emoji": "🍎",
+  "text": "Er was eens een prinsesje. Ze had een huid zo wit als sneeuw, wangen zo rood als een appel en haar zo zwart als de nacht. Daarom heette ze Sneeuwwitje. Sneeuwwitje woonde in een groot kasteel. Maar ze had een stiefmoeder, de koningin. De koningin was heel mooi, maar ook heel jaloers. Ze had een toverspiegel aan de muur. Elke dag vroeg ze: Spiegeltje, spiegeltje aan de wand, wie is de mooiste van het land? En de spiegel zei altijd: Gij, koningin, zijt de mooiste van het land. Maar op een dag zei de spiegel iets anders. Sneeuwwitje is nu de mooiste van het land. De koningin werd woedend. Sneeuwwitje moet weg! riep ze. Een jager moest Sneeuwwitje naar het donkere bos brengen. Maar de jager had een goed hart. Loop weg, kindje, zei hij. Loop ver weg en kom nooit meer terug. Sneeuwwitje liep door het bos. Het was donker en de takken leken wel armen. Ze was bang. Maar de dieren van het bos hielpen haar. Een konijntje, een hertje en een paar vogeltjes wezen haar de weg. Zo kwam ze bij een piepklein huisje. Alles was er klein. Zeven kleine stoeltjes. Zeven kleine bordjes. Zeven kleine bedjes. Sneeuwwitje was zo moe, dat ze op de bedjes in slaap viel. Die avond kwamen de bewoners thuis. Het waren zeven dwergen! Ze werkten de hele dag in de bergen, waar ze naar edelstenen zochten. Ze droegen elk een puntmuts en ze hadden een lange baard. Hé, wie slaapt er in onze bedjes? vroegen ze. Sneeuwwitje werd wakker en vertelde haar verhaal. Je mag bij ons blijven, zeiden de dwergen. Maar doe nooit de deur open voor vreemden! Sneeuwwitje was blij. Ze kookte lekkere soep. Ze zong liedjes. En de dwergen floten als ze naar hun werk gingen. Maar de koningin vroeg weer aan haar spiegel: Wie is de mooiste van het land? En de spiegel zei: Sneeuwwitje, in het huisje van de zeven dwergen. De koningin werd nog bozer. Ze verkleedde zich als een oud vrouwtje. Ze nam een mooie rode appel. Maar het was een betoverde appel. Wie erin beet, viel in een diepe slaap. Klop, klop. Lief kind, zei het oude vrouwtje. Wil je een appel? Sneeuwwitje wist dat ze de deur niet mocht openen. Maar het vrouwtje leek zo vriendelijk. Ze nam de appel en beet erin. En meteen viel ze in een diepe slaap. Toen de dwergen thuiskwamen, waren ze heel verdrietig. Ze maakten een mooi bed van glas en legden Sneeuwwitje erin, met bloemen eromheen. Elke dag kwamen ze bij haar zitten. Op een dag kwam er een prins voorbij op zijn witte paard. Hij zag Sneeuwwitje en vond haar de liefste prinses die hij ooit had gezien. Toen de dwergen het glazen bed optilden, struikelde een van hen. Bonk! En het stukje appel viel uit de mond van Sneeuwwitje. Ze deed haar ogen open. Waar ben ik? vroeg ze. Bij ons! riepen de dwergen. Ze dansten van blijdschap. De koningin vroeg nog één keer aan haar spiegel wie de mooiste was. Toen de spiegel het antwoord gaf, brak hij in duizend stukjes. De koningin liep weg en werd nooit meer gezien. Sneeuwwitje en de prins gaven een groot feest. Natuurlijk waren de zeven dwergen er ook bij. En ze leefden nog lang en gelukkig. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat zegt de koningin tegen de spiegel?",
+      "right": "🪞",
+      "wrong": [
+        "🎤",
+        "📺"
+      ],
+      "say": "Ze vraagt aan de spiegel wie de mooiste is."
+    },
+    {
+      "question": "Hoeveel dwergen zijn er?",
+      "right": "7️⃣",
+      "wrong": [
+        "3️⃣",
+        "5️⃣"
+      ],
+      "say": "Er zijn zeven dwergen."
+    },
+    {
+      "question": "Wat dragen de dwergen op hun hoofd?",
+      "right": "🎅",
+      "wrong": [
+        "👑",
+        "🎩"
+      ],
+      "say": "De dwergen dragen een puntmuts."
+    },
+    {
+      "question": "Wat geeft de koningin aan Sneeuwwitje?",
+      "right": "🍎",
+      "wrong": [
+        "🍐",
+        "🍌"
+      ],
+      "say": "Ze geeft haar een betoverde appel."
+    },
+    {
+      "question": "Wie komt er op een wit paard?",
+      "right": "🤴",
+      "wrong": [
+        "🧙",
+        "👮"
+      ],
+      "say": "Een prins komt op een wit paard."
+    }
+  ],
+  "words": [
+    {
+      "word": "de appel",
+      "emoji": "🍎",
+      "say": "De betoverde appel is rood."
+    },
+    {
+      "word": "de spiegel",
+      "emoji": "🪞",
+      "say": "De spiegel hangt aan de muur."
+    },
+    {
+      "word": "het huisje",
+      "emoji": "🏠",
+      "say": "De dwergen wonen in een klein huisje."
+    },
+    {
+      "word": "de bedjes",
+      "emoji": "🛏️",
+      "say": "Er staan zeven kleine bedjes."
+    },
+    {
+      "word": "het bos",
+      "emoji": "🌲",
+      "say": "Sneeuwwitje loopt door het donkere bos."
+    },
+    {
+      "word": "het paard",
+      "emoji": "🐴",
+      "say": "De prins rijdt op een wit paard."
+    }
+  ]
+}

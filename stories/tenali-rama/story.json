@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "tenali-rama",
+  "version": 1,
+  "title": "Tenali Rama en de dieven.",
+  "emoji": "🪣",
+  "text": "Lang geleden leefde er in het zuiden van India een slimme man. Hij heette Tenali Rama. Hij woonde in de stad Vijayanagara en hij was een vriend van de koning. De koning vroeg hem vaak om raad, want Tenali Rama kon heel goed nadenken. Hij vond altijd een slimme oplossing. Het was zomer. Het was heel warm en het had al lang niet meer geregend. Achter het huis van Tenali Rama lag een grote tuin. Er stonden mangobomen en bananenplanten en mooie bloemen. Maar alles was droog. De bloemen hingen slap. De bladeren werden geel. Elke dag moest Tenali Rama water halen uit de diepe put in zijn tuin. Emmer na emmer. Het was zwaar werk. Op een avond zat Tenali Rama met zijn vrouw op de veranda. Het was donker. De krekels tjirpten. Plots zag Tenali Rama iets bewegen achter de struiken. Hij keek goed. Het waren drie mannen. Ze fluisterden met elkaar. Dieven! dacht Tenali Rama. Ze willen vannacht inbreken in ons huis! Zijn vrouw werd bang. Wat moeten we doen? fluisterde ze. Tenali Rama glimlachte. Hij had al een plan. Hij begon heel luid te praten, zodat de dieven het konden horen. Lieve vrouw, zei hij luid, er zijn veel dieven in de stad. Ik ben bang dat ze ons goud komen stelen. Weet je wat? We stoppen al ons goud en onze juwelen in de grote kist. En dan gooien we de kist in de put. Daar zal niemand hem ooit vinden! Zijn vrouw begreep er niets van. Maar Tenali Rama knipoogde. Toen begreep ze het. Ze gingen samen naar binnen. Ze vulden een grote, zware kist met stenen. Heel veel stenen. Toen droegen ze de kist naar buiten. Pfff, wat is ons goud zwaar, zei Tenali Rama luid. En plons! Hij gooide de kist in de diepe put. Daarna gingen ze naar binnen en deden het licht uit. Maar ze sliepen niet. Ze keken stiekem door het raam. De drie dieven kwamen tevoorschijn. Haha! fluisterden ze. Het goud ligt in de put! Ze lieten een emmer in de put zakken en begonnen water op te halen. Emmer na emmer na emmer. Ze gooiden het water opzij, in de tuin. Ze moesten de put leeg krijgen om bij de kist te kunnen. De hele nacht werkten ze. Ze zweetten en zuchtten. Hun armen deden pijn. Het water stroomde over de grond, langs de mangobomen, langs de bananenplanten en langs de bloemen. Toen de zon opkwam, was de put bijna leeg. Eindelijk zagen de dieven de kist. Ze trokken hem naar boven en deden hem open. Stenen! Alleen maar stenen! Op dat moment stapte Tenali Rama naar buiten. Goeiemorgen, vrienden! zei hij vriendelijk. Dank je wel dat jullie mijn hele tuin water hebben gegeven! De dieven keken om zich heen. De hele tuin was nat. De bloemen stonden weer recht. De bladeren glommen. De dieven schaamden zich en liepen snel weg. Ze kwamen nooit meer terug. Die dag vertelde Tenali Rama het verhaal aan de koning. De koning lachte zo hard dat zijn kroon er bijna afviel. Tenali Rama, zei hij, jij bent echt de slimste man van mijn rijk! Je hebt geen ruzie gemaakt en geen pijn gedaan. Je hebt gewoon goed nagedacht. En weet je wat de les is? Met je hoofd kan je soms meer doen dan met je handen. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Waarom is de tuin droog?",
+      "right": "☀️",
+      "wrong": [
+        "❄️",
+        "🌧️"
+      ],
+      "say": "Het is heel warm en het heeft lang niet geregend."
+    },
+    {
+      "question": "Hoeveel dieven zijn er?",
+      "right": "3️⃣",
+      "wrong": [
+        "1️⃣",
+        "7️⃣"
+      ],
+      "say": "Er zijn drie dieven."
+    },
+    {
+      "question": "Wat stopt Tenali Rama in de kist?",
+      "right": "🪨",
+      "wrong": [
+        "🪙",
+        "💎"
+      ],
+      "say": "Hij stopt stenen in de kist."
+    },
+    {
+      "question": "Waarmee halen de dieven het water uit de put?",
+      "right": "🪣",
+      "wrong": [
+        "🥄",
+        "🧽"
+      ],
+      "say": "De dieven halen het water op met een emmer."
+    },
+    {
+      "question": "Wat gebeurt er met de tuin?",
+      "right": "🌸",
+      "wrong": [
+        "🔥",
+        "🍂"
+      ],
+      "say": "De tuin krijgt water en de bloemen staan weer recht."
+    }
+  ],
+  "words": [
+    {
+      "word": "de emmer",
+      "emoji": "🪣",
+      "say": "De dieven halen water met een emmer."
+    },
+    {
+      "word": "de put",
+      "emoji": "🕳️",
+      "say": "De kist ligt in de diepe put."
+    },
+    {
+      "word": "de kist",
+      "emoji": "📦",
+      "say": "De kist zit vol stenen."
+    },
+    {
+      "word": "de stenen",
+      "emoji": "🪨",
+      "say": "In de kist zitten alleen stenen."
+    },
+    {
+      "word": "de bloemen",
+      "emoji": "🌸",
+      "say": "De bloemen staan weer recht."
+    },
+    {
+      "word": "de koning",
+      "emoji": "👑",
+      "say": "De koning lacht heel hard."
+    }
+  ]
+}

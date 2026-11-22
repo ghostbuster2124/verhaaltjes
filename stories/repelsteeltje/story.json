@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "repelsteeltje",
+  "version": 1,
+  "title": "Repelsteeltje.",
+  "emoji": "🧵",
+  "text": "Er was eens een arme molenaar. Hij woonde met zijn dochter in een oude molen bij de rivier. Zijn dochter was lief en mooi en slim. Maar de molenaar had een grote mond. Hij vertelde graag dingen die niet waar waren, om indruk te maken. Op een dag kwam de koning voorbij. De molenaar wilde opscheppen. Mijn dochter kan stro spinnen tot goud! zei hij. Dat is niet waar natuurlijk. Niemand kan stro spinnen tot goud. Maar de koning hield heel erg van goud. Zijn ogen begonnen te glinsteren. Breng je dochter morgen naar mijn kasteel, zei hij. Dan zal ik zien of het waar is. De volgende dag stond het meisje in het kasteel. De koning bracht haar naar een kamer vol stro. In het midden stond een spinnewiel. Spin dit stro tot goud, zei de koning. Morgenvroeg moet het klaar zijn. En hij deed de deur op slot. Het meisje zat op de grond en begon te huilen. Ze wist helemaal niet hoe ze stro tot goud moest spinnen. Toen ging de deur open. Er kwam een klein, raar mannetje binnen. Hij had een lange baard en een puntige hoed. Waarom huil je, meisje? vroeg hij. Ik moet dit stro tot goud spinnen, snikte ze. En ik weet niet hoe. Wat geef je mij als ik het doe? vroeg het mannetje. Mijn ketting, zei het meisje. Het mannetje nam de ketting. Hij ging aan het spinnewiel zitten. Snor, snor, snor. Drie keer draaien, en de spoel was vol goud. Snor, snor, snor. De hele nacht spon hij. En de volgende ochtend lag de kamer vol met gouden draad. De koning was blij. Maar hij wilde nog meer goud. Hij bracht het meisje naar een grotere kamer, met nog meer stro. Weer huilde het meisje. Weer kwam het mannetje. Wat geef je mij nu? vroeg hij. Mijn ring, zei het meisje. En weer spon het mannetje alles tot goud. De derde nacht bracht de koning haar naar de allergrootste kamer. Als je dit tot goud spint, zei hij, dan word je mijn koningin. Het mannetje kwam weer. Maar het meisje had niets meer om te geven. Dan beloof je mij je eerste kindje, als je koningin bent, zei het mannetje. Het meisje was zo bang dat ze ja zei. Ze dacht: Wie weet wat er nog gebeurt. Het mannetje spon alles tot goud. De koning trouwde met het meisje. Ze werd koningin. Een jaar later kreeg ze een lief klein baby'tje. Ze was zo gelukkig, dat ze het mannetje helemaal was vergeten. Maar op een dag stond hij in haar kamer. Geef mij wat je beloofd hebt, zei hij. De koningin schrok. Ze bood hem al het goud van het hele rijk. Maar het mannetje wilde geen goud. Ze huilde zo hard, dat het mannetje toch een beetje medelijden kreeg. Ik geef je drie dagen, zei hij. Als je mijn naam kan raden, dan mag je je kindje houden. De koningin dacht de hele nacht na. Ze stuurde boden door het hele land om namen te zoeken. De eerste dag zei ze: Heet je Kaspar? Melchior? Balthasar? Nee, nee, nee, lachte het mannetje. De tweede dag zei ze de gekste namen. Heet je Ribbenkast? Schapenbeen? Rijgsnoer? Nee, nee, nee! De derde dag kwam er een bode terug. Ik heb iets vreemds gezien, zei hij. Diep in het bos, bij een klein huisje, brandde een vuurtje. Een klein mannetje danste eromheen, op één been. En hij zong: Vandaag bak ik, morgen brouw ik, en dan haal ik het kind van de koningin. Wat ben ik blij dat niemand weet, dat ik Repelsteeltje heet! De koningin was zo blij. Toen het mannetje kwam, zei ze eerst: Heet je Kees? Nee! Heet je Jan? Nee! Heet je misschien... Repelsteeltje? Het mannetje werd rood van woede. Wie heeft je dat verteld? riep hij. Hij stampte zo hard met zijn voet dat hij door de vloer zakte. En hij liep weg, het bos in, en hij kwam nooit meer terug. De koningin hield haar kindje stevig vast. En de molenaar? Die heeft nooit meer opgeschept. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat moet het meisje tot goud spinnen?",
+      "right": "🌾",
+      "wrong": [
+        "🧶",
+        "🍃"
+      ],
+      "say": "Ze moet stro tot goud spinnen."
+    },
+    {
+      "question": "Wat geeft ze de eerste nacht aan het mannetje?",
+      "right": "📿",
+      "wrong": [
+        "👑",
+        "🍎"
+      ],
+      "say": "Ze geeft hem haar ketting."
+    },
+    {
+      "question": "Wat geeft ze de tweede nacht?",
+      "right": "💍",
+      "wrong": [
+        "👟",
+        "🧸"
+      ],
+      "say": "Ze geeft hem haar ring."
+    },
+    {
+      "question": "Wat moet de koningin raden?",
+      "right": "🔤",
+      "wrong": [
+        "🔢",
+        "🎨"
+      ],
+      "say": "Ze moet de naam van het mannetje raden."
+    },
+    {
+      "question": "Rond wat danst het mannetje in het bos?",
+      "right": "🔥",
+      "wrong": [
+        "🌳",
+        "⛲"
+      ],
+      "say": "Hij danst rond een vuurtje."
+    }
+  ],
+  "words": [
+    {
+      "word": "het stro",
+      "emoji": "🌾",
+      "say": "De kamer ligt vol met stro."
+    },
+    {
+      "word": "het goud",
+      "emoji": "🪙",
+      "say": "Het stro wordt goud."
+    },
+    {
+      "word": "de ketting",
+      "emoji": "📿",
+      "say": "Het meisje geeft haar ketting."
+    },
+    {
+      "word": "de ring",
+      "emoji": "💍",
+      "say": "Het meisje geeft haar ring."
+    },
+    {
+      "word": "het vuurtje",
+      "emoji": "🔥",
+      "say": "Het mannetje danst rond het vuurtje."
+    },
+    {
+      "word": "het baby'tje",
+      "emoji": "👶",
+      "say": "De koningin krijgt een baby'tje."
+    }
+  ]
+}

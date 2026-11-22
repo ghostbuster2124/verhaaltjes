@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "simba",
+  "version": 1,
+  "title": "De Leeuwenkoning. Simba.",
+  "emoji": "🦁",
+  "text": "Ver weg, in Afrika, ligt een groot land met geel gras, hoge bomen en een warme zon. Daar wonen heel veel dieren. Olifanten, giraffen, zebra's en neushoorns. De koning van alle dieren is een sterke leeuw. Hij heet Mufasa. Op een ochtend is er groot feest. Alle dieren komen naar een hoge rots. Want koning Mufasa en koningin Sarabi hebben een baby gekregen. Een klein leeuwtje! Hij heet Simba. Een wijze oude aap, Rafiki, tilt Simba hoog in de lucht. Alle dieren juichen en buigen. Hoera voor Simba! Simba groeit op en wordt een vrolijk, ondeugend leeuwtje. Hij springt, hij rent en hij brult. Wel, hij probeert te brullen. Rrrr, piept hij. Zijn papa lacht. Op een dag neemt Mufasa Simba mee naar de top van de rots. Kijk, Simba, zegt hij. Alles wat de zon raakt, is ons land. Later word jij de koning. Wauw, zegt Simba. Dan mag ik alles doen wat ik wil! Mufasa schudt zijn grote hoofd. Een koning moet voor iedereen zorgen, zegt hij. Voor de kleine mier en voor de grote olifant. Alles hoort bij elkaar. Simba heeft een beste vriendin. Ze heet Nala. Samen spelen ze verstoppertje in het hoge gras. Maar Simba heeft ook een oom. Hij heet Scar. Scar is jaloers. Hij wil zelf koning zijn. Op een dag gebeurt er iets heel verdrietigs. Mufasa sterft, en Scar zegt tegen Simba: Het is jouw schuld. Loop weg en kom nooit meer terug! Simba is heel bang en verdrietig. Hij rent en rent, ver weg, tot hij niet meer kan. Hij valt neer in de hete woestijn. Dan komen er twee grappige dieren aan. Een stokstaartje, Timon, en een wrattenzwijn, Pumbaa. Hé, kleintje! Gaat het? Ze nemen Simba mee naar hun jungle. Daar is het groen en koel, met watervallen en lekkere vruchten. Timon en Pumbaa leren Simba een nieuw lied. Geen zorgen, zingen ze. Pumbaa eet graag kevers en wormpjes. Bah! zegt Simba eerst. Maar dan proeft hij toch. Hmm, knapperig! Simba groeit op in de jungle. Hij wordt een grote, sterke leeuw met dikke manen. Op een dag komt er een leeuwin aan. Het is Nala! Simba! roept ze. Je leeft! Je moet terugkomen. Scar is een slechte koning. Er is geen eten meer en het land is droog en grijs. Simba twijfelt. Hij is nog steeds bang. Dan komt de oude aap Rafiki. Kom mee, zegt hij. Hij brengt Simba naar een stil meertje. Kijk in het water, zegt Rafiki. Simba ziet zijn eigen gezicht. Maar het lijkt wel op zijn papa! Je papa leeft in jou, zegt Rafiki. Simba kijkt naar de sterren. Hij hoort de stem van zijn papa in de wind. Vergeet niet wie je bent. Simba weet het nu. Ik ga terug! Samen met Nala, Timon en Pumbaa loopt hij terug naar de hoge rots. Simba staat tegenover Scar. Ik ben Simba, zegt hij. Ik ben de zoon van Mufasa. Scar schrikt. Alle leeuwinnen staan achter Simba. Scar moet weggaan, en hij komt niet meer terug. Dan begint het te regenen. Het gras wordt weer groen. De bloemen gaan open. De dieren komen terug. Simba klimt op de hoge rots en brult. ROAAAR! Nu is het een echte brul, luid en sterk. Simba is de nieuwe koning. Een koning die zorgt voor iedereen, groot en klein. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welk dier is Simba?",
+      "right": "🦁",
+      "wrong": [
+        "🐯",
+        "🐻"
+      ],
+      "say": "Simba is een leeuw."
+    },
+    {
+      "question": "Welk dier tilt Simba hoog in de lucht?",
+      "right": "🐒",
+      "wrong": [
+        "🦒",
+        "🐘"
+      ],
+      "say": "De wijze aap Rafiki tilt Simba op."
+    },
+    {
+      "question": "Wie is het wrattenzwijn?",
+      "right": "🐗",
+      "wrong": [
+        "🐷",
+        "🦛"
+      ],
+      "say": "Pumbaa is het wrattenzwijn."
+    },
+    {
+      "question": "Wat eet Pumbaa graag?",
+      "right": "🐛",
+      "wrong": [
+        "🍰",
+        "🍕"
+      ],
+      "say": "Pumbaa eet graag kevers en wormpjes."
+    },
+    {
+      "question": "Wat gebeurt er als Simba koning wordt?",
+      "right": "🌧️",
+      "wrong": [
+        "❄️",
+        "🌪️"
+      ],
+      "say": "Het begint te regenen en het gras wordt weer groen."
+    }
+  ],
+  "words": [
+    {
+      "word": "de leeuw",
+      "emoji": "🦁",
+      "say": "Simba is een leeuw."
+    },
+    {
+      "word": "de aap",
+      "emoji": "🐒",
+      "say": "De aap Rafiki is heel wijs."
+    },
+    {
+      "word": "de rots",
+      "emoji": "🪨",
+      "say": "De koning staat op de hoge rots."
+    },
+    {
+      "word": "regenen",
+      "emoji": "🌧️",
+      "say": "Na de regen wordt het gras groen."
+    },
+    {
+      "word": "de sterren",
+      "emoji": "⭐",
+      "say": "Simba kijkt naar de sterren."
+    },
+    {
+      "word": "de koning",
+      "emoji": "👑",
+      "say": "Simba wordt de nieuwe koning."
+    }
+  ]
+}

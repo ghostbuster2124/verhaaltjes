@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "tijl-uilenspiegel",
+  "version": 1,
+  "title": "Tijl Uilenspiegel.",
+  "emoji": "🦉",
+  "text": "Lang geleden, in Vlaanderen, leefde er een jongen die Tijl heette. Tijl Uilenspiegel. Hij woonde in Damme, een klein stadje vlak bij Brugge. Tijl had altijd een muts op met twee punten, en aan elke punt hing een belletje. Tingeling, deed het als hij liep. En Tijl had altijd een uil en een spiegel bij zich. Een uil, omdat die slim is. En een spiegel, zodat de mensen zichzelf eens goed konden bekijken. Tijl was een grapjas. Hij hield van grappen en streken. Maar zijn grappen waren nooit gemeen voor arme mensen. Hij hield vooral de rijke en de opschepperige mensen voor de gek. Mensen die dachten dat ze beter waren dan een ander. Op een dag kwam Tijl in een stad waar een heel gierige bakker woonde. De bakker bakte de lekkerste broden. Maar hij gaf nooit iets aan de arme kinderen die voor zijn winkel stonden. Hij joeg ze weg met zijn bezem. Weg, jullie! riep hij. Hier is niets gratis! Tijl zag het. Hij kreeg een idee. Hij ging de winkel binnen. Goeiedag, bakker, zei hij beleefd. Ik werk voor een rijke heer. Hij wil een grote zak vol broden. De bakker wreef in zijn handen. Een rijke heer! Hij vulde een grote zak met broden. Tien broden, twintig broden. Tijl droeg de zak naar buiten. Maar onderweg maakte hij stiekem een klein gaatje in de zak. Uit het gaatje vielen de broden, één voor één, op straat. Plof, plof, plof. En wie raapte ze op? De arme kinderen! Ze juichten en ze aten. Toen Tijl bij de deur stond, riep hij: Oei, bakker! De rijke heer heeft geen geld bij zich. Ik breng de zak terug. De bakker nam de zak. Hij was bijna leeg. Waar zijn mijn broden? riep hij. Tijl wees naar de straat, waar de kinderen zaten te smullen. Die zijn bij mensen die honger hadden, zei hij. En ik denk dat jij vandaag een goede daad hebt gedaan, bakker. Weet je hoe fijn dat voelt? De bakker was eerst boos. Maar toen keek hij naar de kinderen. Ze lachten. Ze zwaaiden naar hem. Dank je wel, bakker! Dank je wel! Er gebeurde iets in het hart van de bakker. Het werd warm. Tijl hield zijn spiegel voor het gezicht van de bakker. Kijk eens, zei hij. Zie je dat? Je lacht! De bakker keek. Het was waar. Hij lachte. Vanaf die dag gaf de bakker elke avond de broden die hij niet had verkocht aan de kinderen. Daarna trok Tijl verder. Hij kwam in een kasteel waar een heer woonde die heel trots was op zijn mooie schilderijen. Tijl zei dat hij een schilder was. Ik zal het mooiste schilderij maken dat je ooit gezien hebt, zei hij. Maar, alleen slimme mensen kunnen het zien. Domme mensen zien niets. Tijl ging een week in een kamer zitten. Hij at en hij sliep. Maar hij schilderde niets. Toen toonde hij de heer een lege muur. Kijk eens, wat mooi! zei Tijl. De heer zag niets. Maar hij wilde niet dom lijken. Prachtig! zei hij. Wat een kleuren! Alle mensen in het kasteel zeiden hetzelfde. Prachtig, prachtig! Tot er een klein meisje binnenkwam. Ze keek naar de muur. Maar er is niets! zei ze. Het is gewoon een witte muur! Iedereen werd stil. Tijl lachte zo hard dat zijn belletjes rinkelden. Het meisje heeft gelijk, zei hij. Durf altijd te zeggen wat je ziet, ook als de anderen iets anders zeggen. De heer bloosde. Maar toen moest hij ook lachen. Tijl Uilenspiegel reisde nog lang rond, met zijn uil, zijn spiegel en zijn muts met belletjes. En in Damme staat vandaag nog een standbeeld van hem. Als je ernaar kijkt, lijkt het alsof hij je toeknipoogt. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welk dier heeft Tijl bij zich?",
+      "right": "🦉",
+      "wrong": [
+        "🐈",
+        "🦜"
+      ],
+      "say": "Tijl heeft een uil bij zich."
+    },
+    {
+      "question": "Wat hangt er aan zijn muts?",
+      "right": "🔔",
+      "wrong": [
+        "🎀",
+        "⭐"
+      ],
+      "say": "Aan zijn muts hangen belletjes."
+    },
+    {
+      "question": "Wat bakt de gierige bakker?",
+      "right": "🍞",
+      "wrong": [
+        "🍕",
+        "🍰"
+      ],
+      "say": "De bakker bakt broden."
+    },
+    {
+      "question": "Wie rapen de broden op?",
+      "right": "🧒",
+      "wrong": [
+        "🐦",
+        "🐕"
+      ],
+      "say": "De arme kinderen rapen de broden op."
+    },
+    {
+      "question": "Wie zegt dat de muur leeg is?",
+      "right": "👧",
+      "wrong": [
+        "👴",
+        "👸"
+      ],
+      "say": "Een klein meisje zegt dat de muur leeg is."
+    }
+  ],
+  "words": [
+    {
+      "word": "de uil",
+      "emoji": "🦉",
+      "say": "Tijl heeft een slimme uil."
+    },
+    {
+      "word": "de spiegel",
+      "emoji": "🪞",
+      "say": "Tijl houdt een spiegel voor."
+    },
+    {
+      "word": "de belletjes",
+      "emoji": "🔔",
+      "say": "De belletjes doen tingeling."
+    },
+    {
+      "word": "de broden",
+      "emoji": "🍞",
+      "say": "De bakker bakt lekkere broden."
+    },
+    {
+      "word": "de bezem",
+      "emoji": "🧹",
+      "say": "De bakker heeft een bezem."
+    },
+    {
+      "word": "de schilderijen",
+      "emoji": "🖼️",
+      "say": "De heer is trots op zijn schilderijen."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "toystory",
+  "version": 1,
+  "title": "Toy Story. Woody en Buzz.",
+  "emoji": "🤠",
+  "text": "In een slaapkamer vol speelgoed woont een jongen die Andy heet. Andy heeft heel veel speelgoed. Een roze spaarvarken, een dinosaurus, een aardappelmannetje en een hond met een springveer als lijf. Maar zijn allerliefste speelgoed is Woody. Woody is een cowboy. Hij heeft een bruine hoed, een geel hemd en een touwtje op zijn rug. Als je eraan trekt, zegt hij: Er zit een slang in mijn laars! En weet je wat het geheim is van al dat speelgoed? Als Andy er niet is, komen ze tot leven! Dan praten ze, en lopen ze, en spelen ze met elkaar. Maar zodra er iemand binnenkomt, plof, liggen ze weer heel stil. Op een dag is het de verjaardag van Andy. Hij krijgt een groot cadeau. Hij scheurt het papier eraf. En daar is hij: een ruimtevaarder! Hij is wit en groen en paars, met vleugels op zijn rug en een knopje op zijn arm. Buzz Lightyear! roept Andy blij. Hij legt Buzz op zijn bed, op de plek waar Woody altijd ligt. Als Andy weg is, staat Buzz op. Hij kijkt rond. Hier spreekt Buzz Lightyear, zegt hij met een zware stem. Mijn ruimteschip is geland op een vreemde planeet. Woody rolt met zijn ogen. Je bent geen echte ruimtevaarder, zegt hij. Je bent speelgoed, net als wij. Maar Buzz gelooft het niet. Hij denkt dat hij echt kan vliegen. Naar de oneindigheid en verder! roept hij. Alle speelgoed vindt Buzz geweldig. Woody vindt dat niet leuk. Andy speelt nu altijd met Buzz. Woody voelt zich vergeten. Hij is jaloers. Op een dag gaat Andy met zijn mama naar een pizzarestaurant. Woody en Buzz gaan stiekem mee. Maar ze maken ruzie in de auto. En plots zijn ze verloren, ver weg van Andy, op een groot parkeerterrein. Oh nee, zegt Woody. Dit is allemaal mijn schuld. Ze komen terecht in het huis van de buurjongen, Sid. Sid is niet lief voor speelgoed. Hij doet er rare dingen mee. Woody en Buzz zijn bang. Buzz ziet op de tv een reclame voor speelgoed. Voor Buzz Lightyear-speelgoed. Dan begrijpt hij het. Ik ben echt speelgoed, zegt hij zachtjes. Ik kan niet echt vliegen. Hij is heel verdrietig. Woody gaat naast hem zitten. Buzz, zegt hij, jij bent wel speelgoed. Maar je bent het speelgoed van Andy. En dat is het allerbelangrijkste wat er is. Andy houdt van jou. Buzz kijkt op. Hij lacht een beetje. Woody, zegt hij, dan moeten we samen terug naar Andy! Maar Andy gaat verhuizen. De verhuiswagen vertrekt al! Woody en Buzz rennen naar buiten. Ze springen op een speelgoedauto. Ze rijden de straat af, achter de verhuiswagen aan. Maar de auto is te traag. Woody heeft een idee. Buzz, je vleugels! Buzz drukt op het knopje. Zijn vleugels klappen open. Woody houdt hem stevig vast. Ze springen de lucht in, en ze vliegen, of eigenlijk vallen ze, maar heel mooi en met stijl, recht naar de auto van Andy. Plof! Ze landen in een doos, naast Andy. Andy kijkt. Woody! Buzz! Daar zijn jullie! Hij knuffelt ze allebei. Woody en Buzz kijken elkaar aan en knipogen. Vanaf die dag zijn Woody en Buzz de beste vrienden. Andy speelt met hen allebei. En als het licht uitgaat, fluistert Buzz: Naar de oneindigheid. En Woody fluistert terug: En verder! Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat is Woody?",
+      "right": "🤠",
+      "wrong": [
+        "👮",
+        "👨‍🚀"
+      ],
+      "say": "Woody is een cowboy."
+    },
+    {
+      "question": "Wat is Buzz?",
+      "right": "👨‍🚀",
+      "wrong": [
+        "🤠",
+        "🧙"
+      ],
+      "say": "Buzz is een ruimtevaarder."
+    },
+    {
+      "question": "Wat gebeurt er als Andy er niet is?",
+      "right": "🧸",
+      "wrong": [
+        "😴",
+        "🌧️"
+      ],
+      "say": "Het speelgoed komt tot leven."
+    },
+    {
+      "question": "Waarom is Woody eerst niet blij met Buzz?",
+      "right": "😒",
+      "wrong": [
+        "😂",
+        "😴"
+      ],
+      "say": "Woody is jaloers op Buzz."
+    },
+    {
+      "question": "Wat doet Buzz open om te vliegen?",
+      "right": "🪽",
+      "wrong": [
+        "🎈",
+        "☂️"
+      ],
+      "say": "Buzz klapt zijn vleugels open."
+    }
+  ],
+  "words": [
+    {
+      "word": "de cowboy",
+      "emoji": "🤠",
+      "say": "Woody is een cowboy met een hoed."
+    },
+    {
+      "word": "de ruimtevaarder",
+      "emoji": "👨‍🚀",
+      "say": "Buzz is een ruimtevaarder."
+    },
+    {
+      "word": "het cadeau",
+      "emoji": "🎁",
+      "say": "Andy krijgt een groot cadeau."
+    },
+    {
+      "word": "het speelgoed",
+      "emoji": "🧸",
+      "say": "Het speelgoed komt tot leven."
+    },
+    {
+      "word": "de vleugels",
+      "emoji": "🪽",
+      "say": "Buzz heeft vleugels op zijn rug."
+    },
+    {
+      "word": "de verhuiswagen",
+      "emoji": "🚚",
+      "say": "De verhuiswagen vertrekt."
+    }
+  ]
+}
