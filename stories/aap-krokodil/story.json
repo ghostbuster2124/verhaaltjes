@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "id": "aap-krokodil",
+  "version": 1,
+  "title": "De slimme aap en de krokodil.",
+  "emoji": "🐊",
+  "text": "Dit is een verhaal uit India, uit een heel oud boek met dierenverhalen. Aan de oever van een brede rivier stond een grote boom. Een jamunboom, vol met zoete, paarse vruchtjes. In die boom woonde een aap. Hij heette Raktamukha. Dat is een moeilijke naam, dus wij noemen hem gewoon Aap. Aap was vrolijk en vriendelijk. Hij sprong van tak tot tak en at de lekkere vruchtjes. Op een dag kwam er een krokodil naar de boom gezwommen. Hij was moe en hij had honger. Aap gooide een paar vruchtjes naar beneden. Hier, vriend, eet maar! De krokodil at ze op. Mmm, wat lekker! Dank je wel! Vanaf die dag kwam de krokodil elke dag terug. Aap gooide vruchtjes, en ze praatten en lachten samen. Ze werden goede vrienden. De krokodil nam ook vruchtjes mee naar huis, voor zijn vrouw. Maar zijn vrouw was hebberig. Als die vruchtjes zo zoet zijn, zei ze, hoe zoet moet dan het hart van die aap zijn! Ik wil het hart van de aap opeten! Breng hem naar mij! De krokodil wou niet. Aap was zijn vriend. Maar zijn vrouw zeurde en zeurde. Dus de volgende dag zei de krokodil: Aap, mijn vrouw wil je graag ontmoeten. Ze heeft een groot feestmaal gemaakt. Spring op mijn rug, dan zwem ik je naar ons huis aan de overkant. Aap kon niet zwemmen, maar hij vertrouwde zijn vriend. Hij sprong op de rug van de krokodil. Midden op de rivier, waar het water heel diep was, zei de krokodil: Het spijt me, Aap. Mijn vrouw wil eigenlijk jouw hart opeten. Aap schrok. Maar hij bleef rustig. Hij dacht heel snel na. Oh, zei hij, waarom heb je dat niet eerder gezegd? Ik heb mijn hart niet bij mij! Ik bewaar het altijd in de boom, in een holletje. Zwem snel terug, dan haal ik het. De krokodil was niet zo slim. Oh, zei hij, en hij zwom terug naar de boom. Zodra ze bij de oever waren, sprong Aap met één grote sprong in de boom. Hoog, hoog, tot op de bovenste tak. Domme krokodil! riep hij naar beneden. Niemand bewaart zijn hart in een boom! Mijn hart zit gewoon in mijn borst. En een echte vriend zou nooit zijn vriend bedriegen. De krokodil schaamde zich heel erg en zwom weg. En Aap? Die bleef in zijn boom, at zijn vruchtjes en was voortaan wat voorzichtiger met wie hij vertrouwde. Want als je slim blijft en rustig nadenkt, kom je altijd uit de problemen.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Waar woont de aap?",
+      "right": "🌳",
+      "wrong": [
+        "🏠",
+        "🕳️"
+      ],
+      "say": "De aap woont in een grote boom."
+    },
+    {
+      "question": "Welk dier wordt de vriend van de aap?",
+      "right": "🐊",
+      "wrong": [
+        "🐘",
+        "🦁"
+      ],
+      "say": "De krokodil wordt de vriend van de aap."
+    },
+    {
+      "question": "Wat gooit de aap naar beneden?",
+      "right": "🫐",
+      "wrong": [
+        "🪨",
+        "🥥"
+      ],
+      "say": "De aap gooit zoete vruchtjes naar beneden."
+    },
+    {
+      "question": "Waar zegt de aap dat zijn hart is?",
+      "right": "🌳",
+      "wrong": [
+        "🏰",
+        "🏖️"
+      ],
+      "say": "De aap zegt dat zijn hart in de boom is."
+    },
+    {
+      "question": "Wat doet de aap als ze terug bij de boom zijn?",
+      "right": "🦘",
+      "wrong": [
+        "😴",
+        "🏊"
+      ],
+      "say": "De aap springt hoog in de boom."
+    }
+  ]
+}

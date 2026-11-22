@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "id": "reuzenraap",
+  "version": 1,
+  "title": "De reuzenraap.",
+  "emoji": "🥕",
+  "text": "Er was eens een opa die een groentetuintje had. In de lente plantte hij allemaal zaadjes. Wortelzaadjes, slazaadjes en één klein raapzaadje. Groei maar goed, klein raapje, zei opa, en hij gaf het water. Spetter, spetter. De zon scheen, het regende een beetje, en het raapje groeide. Het groeide en groeide. Het werd groot. En groter. En nog groter! Het werd de grootste raap van de hele wereld. Een reuzenraap! In de herfst zei opa: Nu ga ik mijn raap uit de grond trekken. Hij pakte de bladeren vast en hij trok. Hij trok en trok. Hmmmmpf! Maar de raap bleef zitten. Opa riep oma. Oma, kom eens helpen! Oma pakte opa vast, en opa pakte de raap vast. En ze trokken en trokken. Hmmmmpf! Maar de raap bleef zitten. Oma riep het kleindochtertje. Kom eens helpen! Het meisje pakte oma vast, oma pakte opa vast, opa pakte de raap vast. En ze trokken en trokken. Hmmmmpf! Maar de raap bleef zitten. Het meisje riep de hond. Woef, kom eens helpen! De hond pakte het meisje vast, het meisje pakte oma vast, oma pakte opa vast, opa pakte de raap vast. En ze trokken en trokken. Hmmmmpf! Maar de raap bleef zitten. De hond riep de kat. Miauw, kom eens helpen! De kat pakte de hond vast, de hond pakte het meisje vast, het meisje pakte oma vast, oma pakte opa vast, en opa pakte de raap vast. En ze trokken en trokken. Hmmmmpf! Maar de raap bleef nog altijd zitten. Toen riep de kat het allerkleinste diertje van de tuin. Het muisje! Piep, ik kom al! Het muisje was zo klein. Kan zo'n klein muisje wel helpen? Het muisje pakte de kat vast, de kat pakte de hond vast, de hond pakte het meisje vast, het meisje pakte oma vast, oma pakte opa vast, opa pakte de raap vast. Eén, twee, drie, trekken! Hmmmmmmpf! En plop! De raap schoot uit de grond! En iedereen viel achterover op zijn billen. Boem! Opa, oma, het meisje, de hond, de kat en het muisje lagen allemaal in het gras, en ze lachten zo hard. Hahaha! Zie je wel, zei opa. Samen zijn we sterk. En zelfs het allerkleinste muisje kan het verschil maken. Die avond maakte oma een grote pot raapsoep. En iedereen at mee. Het muisje kreeg het eerste kommetje.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wie plant het raapzaadje?",
+      "right": "👴",
+      "wrong": [
+        "👮",
+        "👸"
+      ],
+      "say": "Opa plant het raapzaadje."
+    },
+    {
+      "question": "Hoe groot wordt de raap?",
+      "right": "🏔️",
+      "wrong": [
+        "🐜",
+        "🍒"
+      ],
+      "say": "De raap wordt reuzegroot."
+    },
+    {
+      "question": "Welk dier helpt als eerste dier trekken?",
+      "right": "🐶",
+      "wrong": [
+        "🐴",
+        "🐷"
+      ],
+      "say": "De hond helpt als eerste dier trekken."
+    },
+    {
+      "question": "Wie is het allerkleinste dat helpt?",
+      "right": "🐭",
+      "wrong": [
+        "🐘",
+        "🐄"
+      ],
+      "say": "Het muisje is het allerkleinste dat helpt."
+    },
+    {
+      "question": "Wat maakt oma van de raap?",
+      "right": "🍲",
+      "wrong": [
+        "🍰",
+        "🧃"
+      ],
+      "say": "Oma maakt raapsoep."
+    }
+  ]
+}

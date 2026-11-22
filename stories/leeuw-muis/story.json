@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "id": "leeuw-muis",
+  "version": 1,
+  "title": "De leeuw en het muisje.",
+  "emoji": "🦁",
+  "text": "In een warm land, op de grote savanne, lag een leeuw te slapen onder een boom. Hij was de koning van alle dieren. Hij had een grote gouden manen rond zijn hoofd, en scherpe tanden, en als hij brulde, dan trilde de grond. Maar nu sliep hij. Snurk, snurk. Een klein grijs muisje kwam voorbij. Ze was op zoek naar zaadjes. Ze lette niet goed op, en hop, ze liep zo over de neus van de leeuw. Kriebel, kriebel. De leeuw werd wakker. Met één poot ving hij het muisje. Grrr! bromde hij. Wie durft mij wakker te maken? Ik ga je opeten! Het muisje beefde. Oh, alsjeblieft, grote koning, laat me gaan! Ik ben maar een klein muisje. Ik ben niet eens een hapje voor u. En als u mij laat gaan, dan zal ik u ooit ook helpen. De leeuw begon hard te lachen. Hahaha! Jij? Mij helpen? Zo'n piepklein muisje kan toch geen grote leeuw helpen! Maar hij moest zo hard lachen, dat hij zijn poot optilde. Ga maar, kleintje. Het muisje rende weg. Dank u wel, grote koning! Ik zal het nooit vergeten! Een paar dagen later ging de leeuw jagen in het bos. Maar daar hadden jagers een groot net gespannen tussen de bomen. De leeuw zag het niet. Woesj! Hij liep er recht in. Het net viel over hem heen. Hij probeerde los te komen. Hij trok, hij beet, hij rolde. Maar hoe meer hij bewoog, hoe meer hij in de knoop raakte. Hij zat vast. Toen brulde de leeuw, zo luid als hij kon. ROOOAAAR! Alle dieren hoorden het. De vogels vlogen weg. De zebra's renden weg. Maar het kleine muisje hoorde het ook. Dat is mijn koning, zei ze. Hij heeft hulp nodig! En ze rende zo snel ze kon naar de leeuw. Wees maar niet bang, zei het muisje. Ik help u. En het muisje begon te knabbelen aan de touwen van het net. Knabbel, knabbel, knabbel. Met haar kleine scherpe tandjes beet ze touw na touw door. Het duurde lang, maar ze gaf niet op. En toen: knip! Het laatste touw was door. De leeuw was vrij! De leeuw keek naar het kleine muisje. Hij was zo dankbaar. Ik heb je uitgelachen, zei hij, omdat je zo klein was. Maar jij hebt mij gered. Dank je wel, kleine vriendin. En vanaf die dag waren de leeuw en het muisje de allerbeste vrienden. Want ook de kleinsten kunnen groot zijn.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wie is de koning van alle dieren?",
+      "right": "🦁",
+      "wrong": [
+        "🐘",
+        "🐒"
+      ],
+      "say": "De leeuw is de koning van alle dieren."
+    },
+    {
+      "question": "Wie maakt de leeuw wakker?",
+      "right": "🐭",
+      "wrong": [
+        "🐦",
+        "🐝"
+      ],
+      "say": "Het muisje maakt de leeuw wakker."
+    },
+    {
+      "question": "Waarin raakt de leeuw verstrikt?",
+      "right": "🕸️",
+      "wrong": [
+        "🕳️",
+        "🌊"
+      ],
+      "say": "De leeuw raakt verstrikt in een net."
+    },
+    {
+      "question": "Hoe helpt het muisje de leeuw?",
+      "right": "🦷",
+      "wrong": [
+        "🔥",
+        "💧"
+      ],
+      "say": "Het muisje knabbelt de touwen door met haar tandjes."
+    },
+    {
+      "question": "Wat worden de leeuw en het muisje?",
+      "right": "🤝",
+      "wrong": [
+        "😠",
+        "😴"
+      ],
+      "say": "De leeuw en het muisje worden de beste vrienden."
+    }
+  ]
+}

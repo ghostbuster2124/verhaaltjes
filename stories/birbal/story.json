@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "id": "birbal",
+  "version": 1,
+  "title": "Birbal en de pot met rijst.",
+  "emoji": "🍲",
+  "text": "Lang geleden was er in India een machtige keizer. Hij heette Akbar. Hij woonde in een groot paleis met torens en tuinen. En hij had een heel slimme vriend, die hem altijd raad gaf. Die vriend heette Birbal. Birbal was zo slim, dat hij elk probleem kon oplossen. Op een koude winteravond zei Akbar: Het is zo koud! Ik denk dat niemand een hele nacht in het ijskoude water van het meer kan staan. Wie dat kan, krijgt van mij duizend gouden munten! Een arme man hoorde dat. Hij had geld nodig voor zijn familie. Ik zal het doen, zei hij. Die nacht stapte de man in het ijskoude meer. Brrr! Het water kwam tot aan zijn buik. Zijn tanden klapperden. Maar hij bleef staan. De hele nacht lang. Ver weg, aan de muur van het paleis, brandde een klein lampje. De man keek de hele nacht naar dat lichtje, en dacht aan zijn familie. De volgende ochtend kwam hij uit het water. Hij was koud, maar hij had het gedaan! Hij ging naar de keizer. Ik heb de hele nacht in het meer gestaan. Akbar vroeg: Hoe heb je dat volgehouden? Ik keek naar het lampje aan de paleismuur, zei de man. Akbar fronste. Aha! Dan heb je je warm gehouden met het licht van mijn lampje. Dat telt niet. Je krijgt geen goud! De arme man ging verdrietig weg. Birbal had alles gehoord. Hij vond het niet eerlijk. Die middag kwam Birbal niet naar het paleis. Akbar wachtte en wachtte. Waar blijft Birbal? Hij stuurde een bode. De bode kwam terug: Birbal zegt dat hij komt zodra zijn khichdi klaar is. Khichdi is een gerecht van rijst en linzen. Akbar wachtte nog een uur. Nog altijd geen Birbal. Toen ging Akbar zelf kijken. En wat zag hij? Birbal zat in zijn tuin. Hij had een heel klein vuurtje gemaakt op de grond. En de pot met rijst hing heel hoog, wel drie meter hoger, aan een tak van een boom. Birbal! riep Akbar. Zo wordt je rijst toch nooit warm! Dat vuurtje is veel te ver weg! Birbal glimlachte. Majesteit, als een klein lampje ver weg een man in een ijskoud meer kan verwarmen, dan kan mijn vuurtje toch ook mijn rijst koken? Akbar was even stil. Toen begon hij te lachen. Hahaha! Je hebt gelijk, Birbal. Ik was niet eerlijk. De arme man kreeg toch zijn duizend gouden munten. En Akbar en Birbal aten samen een lekkere, warme khichdi. Gekookt op een gewoon vuur, natuurlijk.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Hoe heet de keizer?",
+      "right": "👑",
+      "wrong": [
+        "🧙",
+        "🤡"
+      ],
+      "say": "De keizer heet Akbar."
+    },
+    {
+      "question": "Waar moet de arme man de hele nacht staan?",
+      "right": "🌊",
+      "wrong": [
+        "🔥",
+        "🛏️"
+      ],
+      "say": "De arme man moet de hele nacht in het koude meer staan."
+    },
+    {
+      "question": "Waar kijkt de man de hele nacht naar?",
+      "right": "🪔",
+      "wrong": [
+        "🌙",
+        "📺"
+      ],
+      "say": "De man kijkt naar een lampje aan de paleismuur."
+    },
+    {
+      "question": "Waar hangt Birbal zijn pot met rijst?",
+      "right": "🌳",
+      "wrong": [
+        "🏠",
+        "🚗"
+      ],
+      "say": "Birbal hangt zijn pot hoog in een boom."
+    },
+    {
+      "question": "Wat krijgt de arme man op het einde?",
+      "right": "🪙",
+      "wrong": [
+        "🍎",
+        "🧦"
+      ],
+      "say": "De arme man krijgt toch zijn gouden munten."
+    }
+  ]
+}

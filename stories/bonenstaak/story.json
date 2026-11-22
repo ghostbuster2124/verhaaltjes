@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "id": "bonenstaak",
+  "version": 1,
+  "title": "Sjaak en de bonenstaak.",
+  "emoji": "🌱",
+  "text": "Er was eens een jongen die Sjaak heette. Hij woonde met zijn mama in een klein huisje. Ze waren heel arm. Ze hadden alleen nog een koe, en die koe gaf geen melk meer. Sjaak, zei mama, ga naar de markt en verkoop onze koe. Dan kunnen we eten kopen. Sjaak vertrok met de koe. Onderweg kwam hij een vreemde oude man tegen. Wat een mooie koe, zei de man. Ik ruil haar voor vijf toverbonen. Toverbonen! Sjaak vond dat geweldig, en hij ruilde de koe. Maar toen hij thuiskwam, werd mama boos. Vijf bonen voor onze koe? En ze gooide de bonen door het raam. Die nacht gebeurde er iets magisch. De bonen begonnen te groeien. Ze groeiden en groeiden, hoger dan het huis, hoger dan de bomen, helemaal tot in de wolken. De volgende ochtend keek Sjaak uit het raam. Wauw! Een bonenstaak tot in de hemel! Sjaak begon te klimmen. Hij klom en klom, hoger en hoger, door de wolken. En boven de wolken zag hij een groot kasteel. Hij klopte aan. Een grote vrouw deed open. Ze was de vrouw van een reus. Snel, verstop je, zei ze. Mijn man de reus komt eraan! Bonk, bonk, bonk. De grond schudde. Daar kwam de reus. Hij was zo groot als een boom. Hij snuffelde. Fie, fa, fom, ik ruik een mensenkind! Maar zijn vrouw zei: Nee hoor, je ruikt de soep. Eet maar. De reus at zijn soep en daarna haalde hij een kip uit een kooi. Leg! zei de reus. En de kip legde een ei. Een gouden ei! Toen pakte de reus een gouden harp. Speel! En de harp speelde vanzelf een mooi liedje. De reus werd moe en viel in slaap. Snurk, snurk! Sjaak sloop uit zijn verstopplek. Hij nam de kip onder zijn arm. Maar toen hij de harp pakte, riep de harp: Baas! Baas! Help! De reus werd wakker. Grrrr! Sjaak rende zo snel hij kon naar de bonenstaak, en klom naar beneden. Mama, snel, de bijl! Mama gaf Sjaak de bijl, en hak, hak, hak, de bonenstaak viel om. De reus moest boven blijven, in zijn wolkenkasteel. Hij kon nooit meer naar beneden. Vanaf die dag legde de kip elke dag een gouden ei. Sjaak en zijn mama waren nooit meer arm. Ze kochten zelfs hun koe terug. En 's avonds speelde de gouden harp mooie liedjes voor hen.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welk dier verkoopt Sjaak?",
+      "right": "🐄",
+      "wrong": [
+        "🐖",
+        "🐑"
+      ],
+      "say": "Sjaak verkoopt de koe."
+    },
+    {
+      "question": "Wat krijgt Sjaak voor de koe?",
+      "right": "🫘",
+      "wrong": [
+        "🪙",
+        "🍎"
+      ],
+      "say": "Sjaak krijgt vijf toverbonen."
+    },
+    {
+      "question": "Tot waar groeit de bonenstaak?",
+      "right": "☁️",
+      "wrong": [
+        "🏠",
+        "🌊"
+      ],
+      "say": "De bonenstaak groeit tot in de wolken."
+    },
+    {
+      "question": "Wat legt de kip van de reus?",
+      "right": "🥚",
+      "wrong": [
+        "💎",
+        "🍬"
+      ],
+      "say": "De kip legt gouden eieren."
+    },
+    {
+      "question": "Welk muziekinstrument speelt vanzelf?",
+      "right": "🪕",
+      "wrong": [
+        "🥁",
+        "🎺"
+      ],
+      "say": "De gouden harp speelt vanzelf."
+    }
+  ]
+}

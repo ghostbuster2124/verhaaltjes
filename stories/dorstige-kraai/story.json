@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "id": "dorstige-kraai",
+  "version": 1,
+  "title": "De dorstige kraai.",
+  "emoji": "🐦",
+  "text": "Het was een hete, hete zomerdag. De zon brandde. Het gras was geel en droog. De bloemen hingen slap. En alle beekjes en plasjes waren opgedroogd. Hoog in de lucht vloog een zwarte kraai. Hij had al de hele dag gevlogen, en hij had zo'n dorst. Kra, kra, zei hij met een schorre stem. Water, ik heb water nodig. Hij vloog over de velden. Geen water. Hij vloog over het dorp. Geen water. Hij werd moe en zijn vleugels werden zwaar. En toen zag hij iets glinsteren in een tuin. Een kruik! Een grote aarden kruik, onder een boom. Snel vloog de kraai naar beneden. Hij keek in de kruik. Ja, er zat water in! Maar oei. Het water zat helemaal onderaan, op de bodem. En de kruik had een lange smalle hals. De kraai stak zijn snavel erin. Hij kon er niet bij. Hij rekte zijn nek uit, zo ver als hij kon. Nog altijd niet. Hij probeerde de kruik om te duwen. Duw! Duw! Maar de kruik was te zwaar. Wat nu? De kraai ging op de rand zitten en dacht na. Hij dacht en dacht. Hij keek om zich heen. Op de grond lagen allemaal kleine steentjes. Ronde steentjes, platte steentjes, witte en grijze steentjes. En toen had hij een idee! Hij nam een steentje in zijn snavel en liet het in de kruik vallen. Plons! Hij nam nog een steentje. Plons! En nog een. Plons! En weet je wat er gebeurde? Elke keer als er een steentje in de kruik viel, kwam het water een klein beetje hoger. De steentjes duwden het water omhoog! De kraai werkte heel hard. Eén, twee, drie, tien, twintig steentjes. Plons, plons, plons. Het water kwam hoger, en hoger, en nog hoger. Tot het bijna aan de rand stond. Toen stak de kraai zijn snavel in de kruik, en hij dronk. Slurp, slurp, slurp! Het water was fris en koel. Mmm! Wat lekker! De kraai dronk tot hij geen dorst meer had. Toen ging hij in de schaduw van de boom zitten, en hij zong een tevreden liedje. Kra, kra, kraaa! Een klein musje had alles gezien. Wat ben jij slim, kraai! zei het musje. De kraai lachte. Ik ben niet sterker dan een ander, zei hij. Maar als je niet opgeeft, en je denkt goed na, dan vind je altijd een oplossing. En hij liet het musje ook drinken.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welke kleur heeft de kraai?",
+      "right": "⚫",
+      "wrong": [
+        "⚪",
+        "🔴"
+      ],
+      "say": "De kraai is zwart."
+    },
+    {
+      "question": "Wat zoekt de kraai?",
+      "right": "💧",
+      "wrong": [
+        "🍞",
+        "🪺"
+      ],
+      "say": "De kraai zoekt water."
+    },
+    {
+      "question": "Waarin vindt de kraai water?",
+      "right": "🏺",
+      "wrong": [
+        "🛁",
+        "🥤"
+      ],
+      "say": "De kraai vindt water in een kruik."
+    },
+    {
+      "question": "Wat gooit de kraai in de kruik?",
+      "right": "🪨",
+      "wrong": [
+        "🍃",
+        "🌸"
+      ],
+      "say": "De kraai gooit steentjes in de kruik."
+    },
+    {
+      "question": "Welk vogeltje mag daarna ook drinken?",
+      "right": "🐦",
+      "wrong": [
+        "🦉",
+        "🦆"
+      ],
+      "say": "Het musje mag daarna ook drinken."
+    }
+  ]
+}

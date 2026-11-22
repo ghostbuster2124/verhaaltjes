@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "id": "rups-rosa",
+  "version": 1,
+  "title": "Rups Rosa wordt een vlinder.",
+  "emoji": "🐛",
+  "text": "Op een groen blaadje, in een grote tuin, lag een klein wit eitje. Het lag daar heel stil in de zon. En op een ochtend: krak! Het eitje ging open. Er kroop een piepklein rupsje uit. Ze was groen, met kleine roze stipjes. Ze heette Rosa. Rosa had honger. Heel veel honger. Ze knabbelde aan het blaadje waar ze op zat. Knabbel, knabbel. Mmm, lekker! Ze at het hele blaadje op. Maar ze had nog altijd honger. Dus kroop ze naar het volgende blaadje. En het volgende. Op een dag ontmoette Rosa een lieveheersbeestje. Het was rood met zwarte stipjes. Dag rupsje, zei het lieveheersbeestje. Wat ben jij aan het doen? Eten, zei Rosa met volle mond. Ik moet groot en sterk worden. Waarom? vroeg het lieveheersbeestje. Dat weet ik niet, zei Rosa. Mijn buik zegt het. Rosa at en at. Ze at blaadjes van de appelboom. Ze at blaadjes van de rozenstruik. Ze at een stukje sla uit de moestuin van de tuinman. En ze groeide. Ze werd langer, en dikker, en sterker. Ze ontmoette een slak. De slak droeg zijn huisje op zijn rug, en hij was heel traag. Rosa, zei de slak, jij bent wel heel dik geworden! Dat klopt, lachte Rosa, en ik ben heel moe. Op een dag voelde Rosa iets raars. Ze wou niet meer eten. Ze wou slapen. Heel lang slapen. Ze kroop naar een takje. Ze hing zichzelf ondersteboven, en ze spon een zacht, bruin huisje om zich heen. Een cocon. Daarin viel ze in slaap. Het lieveheersbeestje en de slak kwamen kijken. Waar is Rosa? Ze zagen alleen maar een bruin pakketje aan een takje. Ze wachtten. Eén dag. Twee dagen. Een week. Twee weken! Toen, op een zonnige ochtend, bewoog het bruine pakketje. Krrrrk. Er kwam een scheurtje in. En er kroop iets uit. Iets met natte, gevouwen vleugels. De vleugels gingen langzaam open in de zon. Ze waren roze en oranje, met gele stippen, en ze glinsterden. Het was een vlinder! Een prachtige vlinder! Rosa? vroeg het lieveheersbeestje. Ben jij dat? Ja, ik ben het! zei de vlinder. Nu weet ik waarom ik zoveel moest eten! Rosa sloeg haar vleugels uit, en ze vloog omhoog, over de tuin, over de bloemen. Ze dronk zoete nectar uit een roos. En elke dag kwam ze dag zeggen tegen haar vriendjes, het lieveheersbeestje en de slak.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Waaruit komt Rosa?",
+      "right": "🥚",
+      "wrong": [
+        "🌰",
+        "🍎"
+      ],
+      "say": "Rosa komt uit een klein eitje."
+    },
+    {
+      "question": "Wat eet Rosa de hele tijd?",
+      "right": "🍃",
+      "wrong": [
+        "🍕",
+        "🍫"
+      ],
+      "say": "Rosa eet blaadjes."
+    },
+    {
+      "question": "Welk diertje is rood met zwarte stipjes?",
+      "right": "🐞",
+      "wrong": [
+        "🐝",
+        "🐜"
+      ],
+      "say": "Het lieveheersbeestje is rood met zwarte stipjes."
+    },
+    {
+      "question": "Wat maakt Rosa om in te slapen?",
+      "right": "🫘",
+      "wrong": [
+        "🛏️",
+        "⛺"
+      ],
+      "say": "Rosa maakt een cocon om in te slapen."
+    },
+    {
+      "question": "Wat wordt Rosa op het einde?",
+      "right": "🦋",
+      "wrong": [
+        "🐦",
+        "🐝"
+      ],
+      "say": "Rosa wordt een prachtige vlinder."
+    }
+  ]
+}

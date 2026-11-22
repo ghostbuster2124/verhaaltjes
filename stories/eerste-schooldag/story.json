@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "id": "eerste-schooldag",
+  "version": 1,
+  "title": "Anaya's eerste schooldag.",
+  "emoji": "🎒",
+  "text": "Anaya is drie jaar en een half. Haar papa en mama komen uit India, en thuis spreken ze Hindi. Maar Anaya woont in Antwerpen, en vandaag is een heel grote dag. Vandaag gaat ze voor de eerste keer naar school, naar de kleuterklas! Anaya heeft een nieuwe rugzak. Hij is paars, met een eenhoorn erop. Mama heeft haar brooddoos klaargemaakt. Er zit een kleine paratha in, en stukjes appel, en een koekje. En een flesje water. Kom, zegt papa, we gaan! Maar op de stoep van de school blijft Anaya staan. Er zijn zoveel kindjes. En ze spreken allemaal Nederlands. Anaya kent een beetje Nederlands, maar ze is een beetje bang. Ze knijpt in de hand van mama. Mama gaat door haar knieën. Weet je wat, Anaya? Iedereen is een beetje bang op zijn eerste dag. Zelfs de juf! En ik kom je straks weer halen. Beloofd. De juf komt naar hen toe. Ze heet juf Lies. Ze heeft krullend haar en een vrolijke glimlach. Dag Anaya! Welkom in onze klas! Anaya zegt heel zacht: Dag juf. In de klas is het gezellig. Er is een poppenhoek, een bouwhoek, een leeshoek en een grote tafel met verf. Anaya zwaait naar mama. Ze moet een klein beetje wenen. Juf Lies geeft haar een knuffel. Kom, zegt de juf, wil je een tekening maken? Anaya gaat aan de tafel zitten. Naast haar zit een meisje met een staartje. Ik ben Lotte, zegt het meisje. Wat ga jij tekenen? Een olifant, zegt Anaya. In India zijn er veel olifanten. Lotte maakt grote ogen. Echt waar? Mag ik ook een olifant tekenen? Samen tekenen ze twee olifanten. Een grijze en een roze. Hihihi, een roze olifant! In de speeltijd spelen Anaya en Lotte op de glijbaan. Ze glijden samen naar beneden. Wiiieee! Bij het eten opent Anaya haar brooddoos. Lotte kijkt naar de paratha. Wat is dat? Dat is een paratha, zegt Anaya. Een soort plat brood. Wil je proeven? Lotte proeft. Mmm, lekker! En Lotte geeft Anaya een stukje van haar boterham met kaas. Na de middag zingt de juf een liedje. Anaya kent de woorden nog niet, maar ze klapt mee. Klap, klap, klap. En dan leert Anaya de klas een woordje in het Hindi. Namaste! Dat is hallo, zegt ze, met haar handjes tegen elkaar. Namaste! zeggen alle kindjes. Om drie uur staat mama aan de schoolpoort. Anaya rent naar haar toe. Mama, ik heb een vriendinnetje! Ze heet Lotte! Ga ik morgen weer naar school?",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welke kleur heeft de rugzak van Anaya?",
+      "right": "🟣",
+      "wrong": [
+        "🟢",
+        "🟠"
+      ],
+      "say": "De rugzak van Anaya is paars."
+    },
+    {
+      "question": "Wat zit er in de brooddoos van Anaya?",
+      "right": "🫓",
+      "wrong": [
+        "🍔",
+        "🌭"
+      ],
+      "say": "Er zit een paratha in de brooddoos van Anaya."
+    },
+    {
+      "question": "Welk dier tekenen Anaya en Lotte?",
+      "right": "🐘",
+      "wrong": [
+        "🐟",
+        "🐔"
+      ],
+      "say": "Anaya en Lotte tekenen een olifant."
+    },
+    {
+      "question": "Waar spelen ze in de speeltijd?",
+      "right": "🛝",
+      "wrong": [
+        "🏊",
+        "⛸️"
+      ],
+      "say": "Ze spelen op de glijbaan."
+    },
+    {
+      "question": "Welk Hindi-woordje leert Anaya aan de klas?",
+      "right": "🙏",
+      "wrong": [
+        "👋",
+        "👍"
+      ],
+      "say": "Anaya leert de klas namaste zeggen."
+    }
+  ]
+}

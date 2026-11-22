@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "id": "vliegerfeest",
+  "version": 1,
+  "title": "Het grote vliegerfeest.",
+  "emoji": "🪁",
+  "text": "In januari is het in India een speciaal feest. Het heet Makar Sankranti, en in sommige steden heet het Uttarayan. Dan is de winter bijna voorbij, en de zon komt elke dag een beetje langer schijnen. En weet je wat de mensen dan doen? Ze laten vliegers op! Duizenden en duizenden vliegers! Kavya woont in Antwerpen, maar dit jaar viert ze het feest bij haar neefjes in Ahmedabad, in India. Kavya, zegt haar neef Vihaan, morgen gaan we vliegeren op het dak! Op het dak? vraagt Kavya. Ja! In India zijn de daken plat, en iedereen gaat naar boven. De avond voor het feest maken ze samen vliegers. Ze nemen dun gekleurd papier en lichte stokjes van bamboe. Ze plakken en ze knippen. Kavya maakt een roze vlieger, met een grote gele zon erop. En een lange staart van linten. De volgende ochtend klimmen ze de trap op naar het dak. Wauw! Kavya kijkt rond. Op alle daken staan mensen. Kindjes, mama's, papa's, opa's en oma's. En in de lucht vliegen al honderden vliegers. Rode, groene, blauwe, paarse, met strepen en met sterren. De lucht ziet eruit als een groot kleurig schilderij. Vihaan houdt het touw vast. Kavya houdt de vlieger omhoog. Een, twee, drie, loslaten! De wind pakt de vlieger, en woesj! Hij vliegt omhoog. Hoger en hoger! Kavya mag het touw ook vasthouden. Ze voelt hoe de wind aan de vlieger trekt. Hihihi, hij wil weg! Overal hoor je mensen roepen. Kai po che! Dat roepen ze als ze een andere vlieger hebben laten vallen. Want het is ook een spel: de vliegers proberen elkaars touwtje door te knippen. Maar Kavya wil gewoon dat haar roze vlieger zo hoog mogelijk vliegt. Op het dak is het een groot feest. Er is muziek. En tante brengt lekkere dingen. Chikki, dat is een snoepje van pinda's en suiker, knapperig en zoet. En er zijn ladoos van sesamzaadjes. Mmm! Kavya's vlieger vliegt de hele dag. Hij danst tussen de wolken. 's Avonds, als het donker wordt, laten de mensen kleine lantaarns op. Ze zweven naar boven, als kleine sterretjes. Wat is het mooi. Moe maar blij gaat Kavya slapen. En als ze terug in Antwerpen is, neemt ze haar roze vlieger mee. Op een winderige dag gaat ze met papa naar het park. En ze laat haar vlieger hoog over de Schelde vliegen.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat laten de mensen op met dit feest?",
+      "right": "🪁",
+      "wrong": [
+        "🎈",
+        "🚀"
+      ],
+      "say": "Met dit feest laten de mensen vliegers op."
+    },
+    {
+      "question": "Waar staan de mensen om te vliegeren?",
+      "right": "🏠",
+      "wrong": [
+        "🚢",
+        "🌳"
+      ],
+      "say": "De mensen staan op het dak om te vliegeren."
+    },
+    {
+      "question": "Wat staat er op de vlieger van Kavya?",
+      "right": "☀️",
+      "wrong": [
+        "🌙",
+        "⭐"
+      ],
+      "say": "Er staat een grote gele zon op de vlieger van Kavya."
+    },
+    {
+      "question": "Van welke nootjes is het snoepje chikki?",
+      "right": "🥜",
+      "wrong": [
+        "🌰",
+        "🥥"
+      ],
+      "say": "Chikki is gemaakt van pinda's."
+    },
+    {
+      "question": "Wat laten de mensen 's avonds opstijgen?",
+      "right": "🏮",
+      "wrong": [
+        "🎆",
+        "🌙"
+      ],
+      "say": "'s Avonds laten de mensen lantaarns opstijgen."
+    }
+  ]
+}

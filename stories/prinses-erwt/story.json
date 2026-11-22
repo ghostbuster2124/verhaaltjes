@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "id": "prinses-erwt",
+  "version": 1,
+  "title": "De prinses op de erwt.",
+  "emoji": "👸",
+  "text": "Er was eens een prins die heel graag wou trouwen met een echte prinses. Niet zomaar een prinses, maar een echte, echte prinses. Hij reisde over de hele wereld. Hij ontmoette veel prinsessen. Maar altijd was er iets niet helemaal juist. De ene was niet vriendelijk. De andere lachte nooit. En weer een andere was alleen maar met haar kroon bezig. De prins kwam verdrietig terug naar zijn kasteel. Op een avond was er een vreselijk onweer. Het regende pijpenstelen. De bliksem flitste. Flits! De donder rommelde. Boem! En toen werd er op de poort van het kasteel geklopt. Klop, klop, klop. De oude koning ging zelf de poort openen. Daar stond een meisje. Ze was helemaal nat. Het water liep uit haar haren, over haar kleren en in haar schoenen. Goedenavond, zei ze. Ik ben een prinses, en ik ben verdwaald in het onweer. Mag ik hier slapen? Een prinses? dacht de oude koningin. Dat zullen we wel eens zien. Ze ging naar de slaapkamer voor gasten. Ze haalde alle dekens en kussens van het bed. En op de bodem van het bed legde ze één klein groen erwtje. Dan legde ze er een matras bovenop. En nog een matras. En nog een. Twintig matrassen! En bovenop de matrassen legde ze nog twintig zachte donsdekens. Het bed was zo hoog, dat het meisje met een ladder naar boven moest klimmen. Slaap lekker, zei de koningin met een glimlach. De volgende ochtend zat iedereen aan het ontbijt. Het meisje kwam binnen. Ze had donkere kringen onder haar ogen, en ze geeuwde. Hoe heb je geslapen? vroeg de koningin. Oh, heel slecht, zei het meisje. Ik heb bijna geen oog dichtgedaan. Er lag iets hards in mijn bed. Ik heb overal blauwe plekken! De koningin klapte in haar handen. Zie je wel! Alleen een echte prinses kan een klein erwtje voelen door twintig matrassen en twintig dekens heen! De prins was zo blij. Hij had eindelijk een echte prinses gevonden. En ze was ook nog heel lief, en heel grappig. Ze lachten samen, ze wandelden samen in de tuin, en later trouwden ze. En het erwtje? Dat werd in een glazen kastje gelegd, in het museum van het kasteel. Als het niet gestolen is, dan ligt het daar nog altijd.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat zoekt de prins?",
+      "right": "👸",
+      "wrong": [
+        "🐉",
+        "🪙"
+      ],
+      "say": "De prins zoekt een echte prinses."
+    },
+    {
+      "question": "Wat voor weer is het als de prinses aanklopt?",
+      "right": "⛈️",
+      "wrong": [
+        "☀️",
+        "🌈"
+      ],
+      "say": "Het is onweer als de prinses aanklopt."
+    },
+    {
+      "question": "Wat legt de koningin onder de matrassen?",
+      "right": "🟢",
+      "wrong": [
+        "🍎",
+        "🥚"
+      ],
+      "say": "De koningin legt een erwtje onder de matrassen."
+    },
+    {
+      "question": "Hoe klimt de prinses in het hoge bed?",
+      "right": "🪜",
+      "wrong": [
+        "🛗",
+        "🎈"
+      ],
+      "say": "De prinses klimt met een ladder in het bed."
+    },
+    {
+      "question": "Hoe heeft de prinses geslapen?",
+      "right": "😫",
+      "wrong": [
+        "😴",
+        "😂"
+      ],
+      "say": "De prinses heeft heel slecht geslapen."
+    }
+  ]
+}

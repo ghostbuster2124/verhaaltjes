@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "id": "haas-schildpad",
+  "version": 1,
+  "title": "De haas en de schildpad.",
+  "emoji": "🐢",
+  "text": "In een groene wei, aan de rand van het bos, woonden allemaal dieren. Er was een haas met lange oren en sterke achterpoten. Hij was de snelste van iedereen. Zoef! En hij liet het ook altijd weten. Ik ben de snelste! riep hij elke dag. Niemand is zo snel als ik! In dezelfde wei woonde ook een schildpad. Ze had een groot, hard schild op haar rug, en ze liep heel, heel traag. Stapje, stapje, stapje. De haas lachte haar altijd uit. Hahaha! Kijk naar die schildpad. Tegen de tijd dat zij aan de overkant van de wei is, is het al winter! Op een dag zei de schildpad: Haas, zullen we een wedstrijd doen? Een race tot aan de grote eik op de heuvel? De haas viel bijna om van het lachen. Jij? Tegen mij? Dat win ik met mijn ogen dicht! Alle dieren kwamen kijken. De uil was de scheidsrechter. Hij zwaaide met zijn vleugel. Klaar? Af! Zoef! De haas schoot weg. In een paar seconden was hij al een heel eind. De schildpad zette haar eerste stapje. Stapje. Stapje. Stapje. Halverwege keek de haas achterom. Hij zag de schildpad niet eens meer. Pfff, zei de haas. Ik heb nog tijd zat. Ik ga even een dutje doen in de zon. Hij ging liggen in het zachte gras onder een boom. De zon was warm. De vogeltjes floten een slaapliedje. En de haas viel in een diepe slaap. Snurk, snurk. Ondertussen stapte de schildpad door. Stapje, stapje, stapje. Ze stopte niet. Ze rustte niet. Ze keek alleen maar vooruit, naar de grote eik. Ze stapte langs de slapende haas. Stilletjes, stilletjes. Stapje, stapje, stapje. Ze stapte de heuvel op. Het was zwaar, maar ze ging door. Toen de haas wakker werd, was de zon al bijna onder. Oei! Hij sprong op en rende zo snel hij kon naar de heuvel. Zoef, zoef, zoef! Maar toen hij boven kwam, zag hij iets onvoorstelbaars. Daar, onder de grote eik, stond de schildpad. Ze was er al! Alle dieren juichten. Hoera voor de schildpad! De haas was zo beschaamd. Zijn oren hingen naar beneden. Gefeliciteerd, schildpad, zei hij zacht. De schildpad glimlachte. Dank je, haas. Weet je, je hoeft niet de snelste te zijn. Als je rustig doorzet en niet opgeeft, kom je er altijd. En vanaf die dag lachte de haas nooit meer met iemand die traag was.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wie is het snelste dier?",
+      "right": "🐇",
+      "wrong": [
+        "🐢",
+        "🐌"
+      ],
+      "say": "De haas is het snelste dier."
+    },
+    {
+      "question": "Wat heeft de schildpad op haar rug?",
+      "right": "🛡️",
+      "wrong": [
+        "🎒",
+        "🪽"
+      ],
+      "say": "De schildpad heeft een hard schild op haar rug."
+    },
+    {
+      "question": "Wie is de scheidsrechter?",
+      "right": "🦉",
+      "wrong": [
+        "🦊",
+        "🐻"
+      ],
+      "say": "De uil is de scheidsrechter."
+    },
+    {
+      "question": "Wat doet de haas halverwege?",
+      "right": "😴",
+      "wrong": [
+        "🍽️",
+        "🏊"
+      ],
+      "say": "De haas gaat slapen halverwege."
+    },
+    {
+      "question": "Wie wint de wedstrijd?",
+      "right": "🐢",
+      "wrong": [
+        "🐇",
+        "🦉"
+      ],
+      "say": "De schildpad wint de wedstrijd."
+    }
+  ]
+}

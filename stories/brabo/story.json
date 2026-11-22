@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "id": "brabo",
+  "version": 1,
+  "title": "Brabo en de reus van Antwerpen.",
+  "emoji": "✋",
+  "text": "Heel lang geleden, nog voor er een grote stad was, stroomde er een brede rivier door ons land. Die rivier heet de Schelde. Aan de rivier stond een kasteel. En in dat kasteel woonde een reus. Een grote, brommerige reus. Hij heette Druon Antigoon. Hij was zo groot als een toren, met handen zo groot als een tafel. De reus had een vervelende gewoonte. Elke boot die over de Schelde voorbij zijn kasteel wou varen, moest hem betalen. Geld, of graan, of vis. Wie niet betaalde, kon niet verder. Dan riep hij met zijn bulderstem: Niemand komt voorbij zonder te betalen! En hij hield de boot tegen met zijn grote hand. De schippers waren bang. De mensen in de dorpjes langs de rivier werden steeds armer. Want alles moesten ze aan de reus geven. Op een dag kwam er een jonge soldaat langs. Hij heette Brabo. Brabo was dapper en slim, en hij had een goed hart. Hij hoorde de verhalen van de schippers. Dat is niet eerlijk, zei Brabo. De rivier is van iedereen. Ik ga met die reus praten. De mensen lachten. Praten? Met de reus? Die luistert naar niemand! Maar Brabo ging toch. Hij stapte in een klein bootje en roeide naar het kasteel. De reus stond al te wachten, met zijn handen in zijn zij. Betalen, klein mannetje! Nee, zei Brabo. Ik betaal niet. De rivier is van iedereen. De reus werd zo boos, dat hij stampte. Boem! Het water spatte hoog op. Hij stak zijn grote hand uit om het bootje van Brabo te pakken. Maar Brabo was snel. Hij sprong opzij, en hij greep de grote handschoen van de reus. Een reuzehandschoen, zo groot als een zeil. En met al zijn kracht trok hij die handschoen uit en gooide hem ver weg in de Schelde. Plons! De reus schrok. Zonder zijn handschoen kon hij de boten niet meer tegenhouden. En alle mensen aan de oever begonnen te juichen en te roepen. Ga weg, reus! De rivier is van iedereen! De reus voelde zich zo beschaamd, dat hij zijn kasteel verliet en wegstapte, ver weg, en nooit meer terugkwam. Vanaf die dag konden alle boten vrij over de Schelde varen. De dorpjes werden rijk, en groeiden uit tot een grote stad. En die stad kreeg een naam, omdat Brabo daar de hand van de reus had weggeworpen: hand werpen. Antwerpen! En als je nu op de Grote Markt in Antwerpen komt, dan zie je een grote fontein. En bovenop staat Brabo, die nog altijd de hand van de reus gooit.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Hoe heet de rivier?",
+      "right": "🌊",
+      "wrong": [
+        "🏔️",
+        "🌳"
+      ],
+      "say": "De rivier heet de Schelde."
+    },
+    {
+      "question": "Wat moeten de boten doen bij de reus?",
+      "right": "🪙",
+      "wrong": [
+        "🎤",
+        "💃"
+      ],
+      "say": "De boten moeten de reus betalen."
+    },
+    {
+      "question": "Hoe heet de dappere soldaat?",
+      "right": "🧑",
+      "wrong": [
+        "🐉",
+        "👸"
+      ],
+      "say": "De dappere soldaat heet Brabo."
+    },
+    {
+      "question": "Wat gooit Brabo in de rivier?",
+      "right": "🧤",
+      "wrong": [
+        "👑",
+        "🪨"
+      ],
+      "say": "Brabo gooit de handschoen van de reus in de rivier."
+    },
+    {
+      "question": "Welke stad heeft haar naam van dit verhaal?",
+      "right": "🏙️",
+      "wrong": [
+        "🏝️",
+        "🏕️"
+      ],
+      "say": "Antwerpen heeft haar naam van dit verhaal."
+    }
+  ]
+}
