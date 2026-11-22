@@ -1,0 +1,43 @@
+{
+  "format": 1,
+  "id": "rapunzel",
+  "version": 1,
+  "title": "Rapunzel en haar lange haren.",
+  "emoji": "👱‍♀️",
+  "text": "Hoog in een verborgen toren, diep in het bos, woonde een meisje. Ze heette Rapunzel. En weet je wat er heel bijzonder was aan Rapunzel? Haar haren! Rapunzel had gouden haren die superlang waren. Wel twintig meter lang! Zo lang, dat ze van boven in de toren helemaal tot op de grond hingen. Amai! Rapunzel woonde in de toren met moeder Gothel. Maar moeder Gothel was eigenlijk niet haar echte mama. Ze hield Rapunzel in de toren, omdat Rapunzels haren een geheime toverkracht hadden. Als Rapunzel een liedje zong, dan begonnen haar haren te gloeien als een lampje. En dan werd iedereen die ze aanraakte weer jong en gezond. Rapunzel, laat je haar zakken! riep moeder Gothel altijd beneden aan de toren. En dan gooide Rapunzel haar lange haren naar buiten. Zoef! En moeder Gothel klom naar boven. Rapunzel mocht nooit naar buiten. Nooit! Wat ambetant! Maar ze verveelde zich niet. Ze schilderde de muren vol met bloemen en sterren. Ze bakte koekjes. Ze las boeken. Ze speelde gitaar. En ze had een klein vriendje. Een klein groen diertje, een kameleon! Een kameleon is een soort hagedisje. Hij heette Pascal. Pascal kon van kleur veranderen. Als hij op een rode stoel zat, werd hij rood. Als hij op een gele bloem zat, werd hij geel. Kiekeboe, waar is Pascal? Hihihi, daar zit hij! Elk jaar, op haar verjaardag, gebeurde er iets wonderlijks. Dan keek Rapunzel 's avonds uit het raam. En in de verte zweefden er duizenden lichtjes de lucht in. Het waren lantaarns! Gele, gloeiende lantaarns die als sterretjes naar boven zweefden. Rapunzel droomde ervan om die zwevende lichtjes één keer van dichtbij te zien. Dat was haar allergrootste wens. Op een dag klom er iemand de toren in. Het was een jongen. Hij heette Flynn Rider. Flynn was een grappige avonturier, maar ook een beetje een dief. Hij was op de vlucht. Rapunzel schrok zo hard, dat ze hem op zijn hoofd sloeg met haar koekenpan. Bong! Plof, daar lag Flynn. Hihihi! Toen Flynn wakker werd, zei Rapunzel: Ik wil de lichtjes zien. Jij moet mij erheen brengen! Flynn zuchtte. Allez dan. Rapunzel klom voor de eerste keer in haar leven uit de toren, met haar lange haren als een touw. Zoef! En toen ze met haar blote voetjes in het gras stond, riep ze: Gras! Echt gras! Wat is dit plezant! Onderweg kwamen ze een groot wit paard tegen. Hij heette Maximus. Maximus was het paard van de wachters van het kasteel. Hij was heel stoer en wilde Flynn eigenlijk vangen. Hiiihii! Maar Rapunzel aaide hem over zijn neus en zei: Wees lief, Maximus. En toen werd Maximus ook haar vriendje. Ze beleefden spannende avonturen. Ze kwamen in een herberg vol stoere mannen, maar die bleken allemaal lieve dromen te hebben. Ze vluchtten voor wachters. Ze zaten vast in een grot vol water. Plons! Maar Rapunzels haren gloeiden, en zo vonden ze de weg naar buiten. En toen was het eindelijk zover. Het was haar verjaardag. Flynn nam Rapunzel mee in een klein bootje op het water. Het werd donker. En toen, heel langzaam, zweefde er één lichtje omhoog. En nog één. En nog één. Duizenden zwevende lichtjes vulden de lucht en weerspiegelden in het water. Rapunzel had tranen in haar ogen, zo mooi was het. Flynn gaf haar ook een lantaarn, en samen lieten ze die opstijgen. Later ontdekte Rapunzel dat ze eigenlijk een echte prinses was. De koning en de koningin waren haar mama en papa! Ze hadden haar al die jaren gezocht. Elk jaar lieten ze de lichtjes los, in de hoop dat ze ooit terug zou komen. Rapunzel ging terug naar het kasteel. Ze gaf haar mama en papa een dikke knuffel. En Pascal werd blij en roze. En Flynn en Maximus? Die bleven voor altijd haar beste vrienden.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat is er heel bijzonder aan Rapunzel?",
+      "right": "👱‍♀️",
+      "wrong": [
+        "👃",
+        "👂"
+      ]
+    },
+    {
+      "question": "Welk klein groen diertje is haar vriendje?",
+      "right": "🦎",
+      "wrong": [
+        "🐢",
+        "🐊"
+      ]
+    },
+    {
+      "question": "Wat wil Rapunzel heel graag zien op haar verjaardag?",
+      "right": "🏮",
+      "wrong": [
+        "🎆",
+        "🌈"
+      ]
+    }
+  ]
+}

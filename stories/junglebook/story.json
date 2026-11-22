@@ -1,0 +1,43 @@
+{
+  "format": 1,
+  "id": "junglebook",
+  "version": 1,
+  "title": "Jungle Book. Mowgli en Baloe.",
+  "emoji": "🐻",
+  "text": "Diep in de warme jungle van India, waar de bomen hoog zijn en de lianen naar beneden hangen, wonen allemaal dieren. Olifanten, apen, slangen, beren, tijgers en panters. Op een dag vond de zwarte panter Bagheera iets in een mandje, aan de rivier. Iets kleins, dat huilde. Oeheuheu! Het was een mensenbaby! Een klein jongetje. Bagheera bracht hem naar een familie wolven. De wolven voedden het jongetje op als hun eigen kindje. Ze noemden hem Mowgli. Mowgli groeide op in de jungle. Hij kon klimmen als een aap, zwemmen als een vis, en rennen met de wolven. Hij wist niet eens dat hij een mensenkind was. Ik ben een wolf! zei Mowgli. Auwoeoeoe! Mowgli's beste vriend was Bagheera. Bagheera was een panter. Een grote kat, sterk en snel. En Bagheera was helemaal zwart. Zo zwart als de nacht. Alleen zijn ogen waren geel. Bagheera was serieus en slim. Hij paste altijd op Mowgli. Maar op een dag kwam er slecht nieuws. De gemene tijger Shere Khan was terug in de jungle. Shere Khan was groot en oranje met zwarte strepen, en hij hield niet van mensen. Grrrrr! Ik wil dat mensenkind! bromde hij. Mowgli moet weg, zeiden de wolven. Hij moet naar het mensendorp, waar hij veilig is. Dus nam Bagheera Mowgli mee. Maar Mowgli wilde niet. Ik wil in de jungle blijven! Ik wil niet naar het dorp! Wat ambetant! 's Nachts sliepen ze in een boom. Maar daar kwam een lange slang. Kaa, de slang! Hij had grote ronde ogen die draaiden. Vertrouw maar op mij, sissssste Kaa. Mowgli werd helemaal duizelig. Maar Bagheera gaf Kaa een klap. Bonk! En Kaa gleed weg. Ssssss. De volgende dag liep Mowgli alleen weg. Hij was boos. Maar toen hoorde hij iemand zingen en neuriën. Dubidubidoe! Er kwam een grote, dikke, grijze beer aangewaggeld. Hij was groot en zacht en luilekker. Het was Baloe, de beer! Baloe was grappig en luidruchtig. Hij hield van eten, dansen en luieren. Hij krabde zijn rug tegen een boom. Krab, krab, krab. Aaaah, lekker! Hé, kleine man, zei Baloe. Wie ben jij? Ik ben Mowgli, zei Mowgli. En ik wil niet naar het dorp. Baloe lachte. Dan blijf je toch gewoon bij mij! Ik leer je alles over de jungle! En Baloe leerde Mowgli de allerbeste dingen. Hij leerde hem dansen en zingen. Dubidubidoe! Hij leerde hem grommen als een beer. Grrrr! Mowgli deed het na. Grrr! Hihihi, nog harder! GRRRR! Baloe leerde hem ook om te ontspannen. Je moet je niet zoveel zorgen maken, zei Baloe. Neem het rustig. Neem gewoon wat je nodig hebt. Samen dreven ze op het water van de rivier. Baloe lag op zijn rug, en Mowgli lag op zijn buik. Plons, ze dreven zachtjes met de stroom mee. En ze plukten fruit. Weet je welk fruit? Bananen! Gele, lekkere bananen. Baloe schudde aan een boom. En plok, plok, plok! Daar vielen de bananen naar beneden. Baloe pelde er een en stak hem in zijn mond. Hap! Mmmm! Mowgli at er ook eentje. Lekker! Maar toen kwamen er apen. Oe oe aa aa! Ze grepen Mowgli en zwierden met hem door de bomen naar hun koning, de grote aap koning Louie. Koning Louie wilde leren hoe mensen vuur maakten. Baloe en Bagheera kwamen Mowgli redden. Baloe verkleedde zich als aap, met kokosnoten als oren. Hihihi! En ze dansten tot het hele apenpaleis instortte. Boem! Toen zei Bagheera tegen Baloe: Mowgli moet echt naar het dorp. Shere Khan zoekt hem. Baloe was verdrietig, maar hij wist dat Bagheera gelijk had. En toen kwam Shere Khan. Grrrrr! Hij sloop door het gras. Hij sprong op Mowgli af. Maar Baloe was er! Hij hield de tijger vast aan zijn staart. En er sloeg een bliksem in een boom. Vuur! Mowgli nam een brandende tak en bond die aan de staart van Shere Khan. De tijger schrok zo hard dat hij wegrende en nooit meer terugkwam. Wiuuuu! Dan liepen ze samen naar de rand van het mensendorp. Mowgli hoorde een meisje zingen bij de rivier. Ze droeg een kruik water. Mowgli was nieuwsgierig. Hij liep achter haar aan, het dorp in. Hij keek nog één keer om. Baloe en Bagheera zwaaiden. Daag, kleine man! En dan dansten Baloe en Bagheera samen terug de jungle in. Dubidubidoe!",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welk dier is de grote luie vriend Baloe?",
+      "right": "🐻",
+      "wrong": [
+        "🦍",
+        "🐅"
+      ]
+    },
+    {
+      "question": "Welk fruit plukken Mowgli en Baloe in de jungle?",
+      "right": "🍌",
+      "wrong": [
+        "🍒",
+        "🍋"
+      ]
+    },
+    {
+      "question": "Welke kleur heeft de panter Bagheera?",
+      "right": "🐈‍⬛",
+      "wrong": [
+        "⚪",
+        "🟡"
+      ]
+    }
+  ]
+}

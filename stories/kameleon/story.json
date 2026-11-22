@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "id": "kameleon",
+  "version": 1,
+  "title": "Kiki het kameleontje en haar kleuren.",
+  "emoji": "🦎",
+  "text": "Dit is Kiki. Kiki is een klein kameleontje. Een kameleon is een soort hagedisje, met een lange krulstaart en twee grote ronde oogjes die alle kanten op kunnen kijken. En weet je wat er heel bijzonder is aan Kiki? Kiki verandert van kleur! Niet als ze op een rode stoel zit, of op een groen blaadje. Nee. Kiki verandert van kleur als ze iets voelt. Op een ochtend werd Kiki wakker. De zon scheen door het raam. Mama gaf haar een dikke kus en er lagen pannenkoeken op tafel. Mmm! Kiki voelde zich zo blij. En kijk: Kiki werd helemaal geel! Geel als de zon. Geel als een banaan. Als Kiki blij is, dan wordt ze geel. Kiki ging naar school, naar de kleuterklas. Ze zwaaide naar de juf. Dag juf! En ze ging spelen in de bouwhoek. Ze bouwde een hele hoge toren van blokken. Eén blok, twee blokken, drie blokken, wel tien blokken hoog! Maar toen kwam Max, en Max duwde de toren om. Boem! Alle blokken vielen op de grond. Kiki voelde iets heets in haar buik. Ze balde haar vuistjes en ze stampte met haar voet. En kijk: Kiki werd helemaal rood! Rood als een tomaat. Rood als een brandweerwagen. Als Kiki boos is, dan wordt ze rood. De juf kwam erbij. Kiki, zei de juf, ik zie dat je boos bent. Dat mag. Kom, we ademen samen. Diep in door je neus, en langzaam uit door je mond. Diep in, en uit. Diep in, en uit. En Kiki zei tegen Max: Ik vind dat niet leuk, Max. Max keek naar de grond. Sorry, Kiki. Zal ik helpen om een nieuwe toren te bouwen? En langzaam werd Kiki weer gewoon. Na de speeltijd rende Kiki over de speelplaats. Maar oei, ze viel! Haar knie deed pijn. En plots miste ze haar mama heel erg. Er rolde een traan over haar wang. En nog een. Kiki werd helemaal blauw. Blauw als de regen. Blauw als de zee. Als Kiki verdrietig is, dan wordt ze blauw. De juf ging naast haar zitten. Ze zei niets. Ze gaf Kiki gewoon een dikke knuffel. Een warme, zachte knuffel. En die knuffel hielp. Kiki voelde zich al een beetje beter. 's Middags werd de lucht plots heel donker. En toen: Flits! Een bliksem. En BOEM! Een harde donder. Het was onweer! Kiki schrok zo hard. Haar hartje bonkte. Boem boem boem. Ze kroop onder de tafel. En Kiki werd helemaal paars. Als Kiki bang is, dan wordt ze paars. Maar de juf zei: Ik ben hier. Je bent veilig. Het onweer is buiten, en wij zijn binnen. Samen telden ze: één, twee, drie, vier, vijf. Boem! De donder was al verder weg. Één, twee, drie, vier, vijf, zes, zeven, acht. Boemmm. Nog verder weg! En toen kwam de zon terug. En weet je wat er aan de hemel stond? Een regenboog! Met alle kleuren: rood, oranje, geel, groen, blauw en paars. Na school kwam mama Kiki halen. Kiki kroop op haar schoot en vertelde alles. Over de pannenkoeken, de toren, de knie en het onweer. En terwijl ze vertelde, werd Kiki rustig. Heel rustig. En ze werd groen. Zacht groen, als het gras. Als Kiki rustig is, dan wordt ze groen. Mama, vroeg Kiki, is het erg dat ik zoveel kleuren heb? Mama lachte. Nee hoor, schat. Iedereen heeft al die kleuren vanbinnen. Blij, boos, verdrietig, bang en rustig. Al je gevoelens mogen er zijn. Als je erover praat, dan wordt het altijd een beetje lichter. Kiki glimlachte. En weet je welke kleur ze toen werd? Geel natuurlijk!",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welk dier is Kiki?",
+      "right": "🦎",
+      "wrong": [
+        "🐸",
+        "🐢"
+      ],
+      "say": "Kiki is een klein kameleontje."
+    },
+    {
+      "question": "Welke kleur wordt Kiki als ze blij is?",
+      "right": "🟡",
+      "wrong": [
+        "🟣",
+        "🔵"
+      ],
+      "say": "Als Kiki blij is, wordt ze geel."
+    },
+    {
+      "question": "Welke kleur wordt Kiki als ze boos is?",
+      "right": "🔴",
+      "wrong": [
+        "🟢",
+        "🟡"
+      ],
+      "say": "Als Kiki boos is, wordt ze rood."
+    },
+    {
+      "question": "Wat helpt Kiki als ze verdrietig is?",
+      "right": "🤗",
+      "wrong": [
+        "🍭",
+        "📺"
+      ],
+      "say": "Een dikke knuffel van de juf helpt Kiki."
+    },
+    {
+      "question": "Waar wordt Kiki bang van?",
+      "right": "⛈️",
+      "wrong": [
+        "🌈",
+        "🎈"
+      ],
+      "say": "Kiki wordt bang van het onweer."
+    }
+  ]
+}

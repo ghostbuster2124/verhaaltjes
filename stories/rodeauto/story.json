@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "id": "rodeauto",
+  "version": 1,
+  "title": "Roetsj, het kleine rode autootje.",
+  "emoji": "🚗",
+  "text": "In een grote stad, met hoge huizen en drukke straten, woont een klein autootje. Hij heet Roetsj. Roetsj is rood, knalrood, en hij heeft twee grote koplampen die er uitzien als vriendelijke ogen. Elke ochtend doet hij zijn motor aan. Vroem, vroem! Goeiemorgen, stad! Vandaag mag Roetsj naar de zee rijden, om oma Bus te bezoeken. Hij is heel blij. Hij toetert: Toet toet! en vertrekt. Eerst rijdt Roetsj door de stad. Er zijn veel auto's. Grote auto's, kleine auto's, een gele taxi en een blauwe politiewagen. Iedereen moet goed oppassen. Daar staat een verkeerslicht. Het licht springt op rood. Roetsj weet het: bij rood moet je stoppen. Piiiep, doen zijn remmen. Hij wacht netjes. Een mama met een kinderwagen steekt over op het zebrapad. Dan springt het licht op oranje. Opletten! En dan op groen. Bij groen mag je rijden! Vroem, daar gaat Roetsj weer. Aan de rand van de stad rijdt Roetsj over een landweg. Gisteren heeft het veel geregend, en de weg is vol plassen. Splash! Splash! Roetsj rijdt door een plas. En nog een. En nog een, een hele grote! SPLASH! Oei. Nu is Roetsj helemaal vuil, vol bruine modder. Zijn rode kleur kun je bijna niet meer zien. Zo kan ik niet bij oma aankomen, zegt Roetsj. Gelukkig is er een carwash langs de weg. Roetsj rijdt naar binnen. Eerst komt er water. Sproeisproei! Dan komt er zeep, met heel veel bubbels. Bubbels op zijn dak, bubbels op zijn wielen, bubbels overal. Hihihi, dat kriebelt, lacht Roetsj. Dan draaien er grote zachte borstels. Wroem, wroem. En op het einde blaast er warme wind. Woesj! Roetsj glimt weer helemaal. Knalrood en proper! Roetsj rijdt verder. Hij zingt een liedje. Maar plots hoort hij: Pssssst! Wat is dat? Roetsj begint te wiebelen. Oei, oei! Er zat een scherpe nagel op de weg, en die is in zijn wiel gegaan. Zijn wiel is plat! Roetsj kan niet meer verder rijden. Hij staat aan de kant van de weg en hij is een beetje verdrietig. Hoe moet ik nu bij oma geraken? Gelukkig staat er een eindje verder een garage. De garagist komt naar buiten. Hij heeft een blauwe overall aan en een grote moersleutel in zijn hand. Wat is er met jou, klein autootje? Mijn wiel is plat, zegt Roetsj. Geen probleem, zegt de garagist. Ik maak je wiel weer heel! Hij tilt Roetsj op met een krik. Hij haalt de nagel eruit. Hij plakt het gaatje dicht. En dan pompt hij het wiel weer vol met lucht. Pomp, pomp, pomp. Zo, zegt de garagist. Je bent weer zo goed als nieuw. Dankjewel! toetert Roetsj. Toet toet! Roetsj rijdt verder, over de lange autostrade, door een donkere tunnel waar hij zijn lichten aanzet, en over een hoge brug. En dan ziet hij het in de verte: de zee! Blauw en glinsterend. En daar, op de parking aan het strand, staat oma Bus. Een grote gele bus met een heleboel ramen. Dag Roetsj! roept oma Bus. Wat ben jij mooi rood en proper! Roetsj vertelt alles: over het rode licht, over de modder, over de bubbels in de carwash en over zijn platte wiel. Oma Bus luistert en lacht. Wat een avontuur! En die avond kijken Roetsj en oma Bus samen naar de zon, die als een grote oranje bal in de zee zakt. Zalig.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welke kleur heeft het autootje Roetsj?",
+      "right": "🔴",
+      "wrong": [
+        "🔵",
+        "🟢"
+      ],
+      "say": "Het autootje Roetsj is rood."
+    },
+    {
+      "question": "Bij welke kleur mag Roetsj weer rijden?",
+      "right": "🟢",
+      "wrong": [
+        "🔴",
+        "🟣"
+      ],
+      "say": "Bij groen licht mag Roetsj rijden."
+    },
+    {
+      "question": "Wat is er overal in de carwash?",
+      "right": "🫧",
+      "wrong": [
+        "🔥",
+        "🌵"
+      ],
+      "say": "In de carwash zijn er overal zeepbubbels."
+    },
+    {
+      "question": "Wat is er kapot aan Roetsj?",
+      "right": "🛞",
+      "wrong": [
+        "🚪",
+        "🪟"
+      ],
+      "say": "Het wiel van Roetsj is plat."
+    },
+    {
+      "question": "Wie maakt het wiel weer heel?",
+      "right": "👨‍🔧",
+      "wrong": [
+        "👨‍🍳",
+        "👩‍🚀"
+      ],
+      "say": "De garagist maakt het wiel weer heel."
+    }
+  ]
+}

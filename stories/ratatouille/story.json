@@ -1,0 +1,43 @@
+{
+  "format": 1,
+  "id": "ratatouille",
+  "version": 1,
+  "title": "Ratatouille. Remy de kookmuis.",
+  "emoji": "👨‍🍳",
+  "text": "In het land Frankrijk ligt een grote, mooie stad. Ze heet Parijs. In Parijs staat een heel hoge toren van ijzer. Die heet de Eiffeltoren. 's Avonds glinstert hij met duizenden lichtjes. Er zijn bruggen over de rivier, gezellige straatjes en heel veel restaurants waar je lekker kan eten. Maar ons verhaal begint niet in Parijs. Het begint in een klein huisje op het platteland. Op de zolder woont een familie ratjes. Een van die ratjes, een klein grijs muisje met grote oren, heet Remy. Remy is anders dan de andere ratjes. De andere ratjes eten alles. Afval, oude schillen en vuile dingen uit de vuilbak. Smak smak! Maar Remy niet. Remy heeft een supergoede neus. Snuif, snuif! Hij kan alles ruiken. Hij weet precies welk eten lekker is en welk eten vies is. Remy houdt van lekker eten. Echt lekker eten. Hij proeft een stukje kaas. Mmm! En dan een stukje aardbei. Mmmm! En dan kaas en aardbei samen. Dan ziet hij allemaal kleurtjes en hoort hij muziek in zijn hoofd. Mmmmm, zalig! Remy wil maar één ding worden. Hij wil een echte chef-kok worden! Een kok in een groot restaurant, met een witte schort en een hoge witte muts. Zijn grote held is de beroemde kok Gusteau. Gusteau heeft een boek geschreven, en daarin staat: Iedereen kan koken! Op een dag gaat het mis. De oude dame die in het huisje woont ziet de ratjes. Aaaah! roept ze. Ze rennen allemaal weg. Remy valt in de riolen. Plons! Hij spoelt weg, door donkere gangen. En als hij eindelijk naar boven klimt en uit een dakraam kijkt, wat ziet hij dan? De Eiffeltoren! Hij is in Parijs! Amai! En recht voor hem ligt het restaurant van Gusteau. Remy kijkt door het raam van de keuken. Daar werkt een jonge jongen. Hij heet Linguini. Linguini is lang en dun en een beetje onhandig. Hij is de afwasser. Hij poetst de potten en pannen. Maar Linguini morst per ongeluk in de soep. Oeps! En de soep wordt helemaal vies. Remy kan het niet laten. Hij springt in de keuken. Hij doet er een beetje dit in, een beetje dat, wat kruiden, wat zout. Roer, roer, roer! En de soep wordt heerlijk! Iedereen in het restaurant vindt het de lekkerste soep ooit. Maar ze denken dat Linguini het gemaakt heeft! Linguini ziet Remy. Een rat in de keuken? Dat mag niet! Maar dan krijgen ze een idee. Remy kan koken, en Linguini niet. Linguini kan in de keuken werken, en Remy niet. Laten we samenwerken! Maar hoe? Remy verstopt zich onder de hoge witte koksmuts van Linguini! Daar zit hij, op Linguini's hoofd, verborgen onder de muts. Niemand kan hem zien. En Remy trekt aan de haren van Linguini. Als Remy aan de rechterkant trekt, gaat Linguini's rechterarm omhoog. Als hij aan de linkerkant trekt, gaat de linkerarm omhoog. Zo bestuurt Remy hem, als een marionet! Links, rechts, roeren, snijden! Hihihi! Ze oefenen de hele nacht. In het begin gaat het helemaal mis. Linguini botst tegen de kast. Bonk! Hij valt over een emmer. Plats! Maar dan lukt het. Ze snijden samen groentjes, superfijn en supersnel. Hak, hak, hak, hak! Ze roeren in de pannen. Ze proeven de sauzen. Het wordt het lekkerste eten van heel Parijs. Maar dan komt de strengste eetcriticus van Frankrijk. Hij heet Anton Ego. Hij is lang, mager, en hij lacht nooit. Als hij zegt dat een restaurant slecht is, dan komt er niemand meer. Brr! Remy weet wat hij moet maken. Ratatouille! Een gewoon gerecht met groentjes. Courgette, aubergine, tomaat en paprika. In dunne schijfjes, mooi in een rondje gelegd. Hij zet het voor Anton Ego. Anton Ego neemt één hapje. Hap. En dan wordt hij stil. Want het smaakt precies zoals de ratatouille die zijn mama vroeger maakte, toen hij nog een klein jongetje was. Hij wordt warm vanbinnen. En hij glimlacht! Voor de eerste keer! Dan wil Anton Ego de kok zien. En Linguini vertelt de waarheid. Remy komt tevoorschijn. Een rat! Maar Anton Ego zegt: Iedereen kan koken. Ook een klein muisje. En vanaf toen heeft Remy zijn eigen restaurant in Parijs, met uitzicht op de Eiffeltoren. Hij draagt een kleine witte koksmuts. En hij is de beste chef-kok van heel Frankrijk. Bon appétit!",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat wil het muisje Remy graag worden?",
+      "right": "👨‍🍳",
+      "wrong": [
+        "👮",
+        "👨‍🚒"
+      ]
+    },
+    {
+      "question": "Waar verstopt Remy zich in de keuken?",
+      "right": "👒",
+      "wrong": [
+        "🍲",
+        "👟"
+      ]
+    },
+    {
+      "question": "In welke stad speelt dit verhaal zich af?",
+      "right": "🗼",
+      "wrong": [
+        "🏰",
+        "🌷"
+      ]
+    }
+  ]
+}

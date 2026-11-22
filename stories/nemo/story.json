@@ -1,0 +1,43 @@
+{
+  "format": 1,
+  "id": "nemo",
+  "version": 1,
+  "title": "Finding Nemo. Zwemmen in het koraalrif.",
+  "emoji": "🐠",
+  "text": "Diep in de warme blauwe oceaan ligt een koraalrif. Daar groeien koralen in alle kleuren van de regenboog. En daar wonen allemaal vissen. Gele vissen, paarse vissen en gestreepte vissen. Blub, blub! In een zachte zeeanemoon, die wiebelt als een grote pluizige plant, woont een klein visje. Hij heet Nemo. Nemo is een clownvisje. Hij is oranje met witte strepen. En Nemo heeft één klein vinnetje dat wat kleiner is dan het andere. Dat noemt hij zijn geluksvin. Nemo woont samen met zijn papa. Papa heet Marlin. Papa Marlin is heel lief, maar ook heel bang. Hij is altijd bezorgd. Nemo, pas op! Nemo, niet te ver! Nemo, voorzichtig! Op een dag is het de eerste schooldag van Nemo. Joepie! Hij zwemt op de rug van de juf. De juf is een grote rog die zingt over alle dieren van de zee. Nemo is zo blij. Maar dan zien de vriendjes een boot in de verte. Een boot! Wie durft er naartoe te zwemmen? Nemo wil laten zien dat hij flink is. Hij zwemt helemaal tot aan de boot en tikt ertegen. Tik! Maar dan komt er een duiker. Klik! Een flits van een fototoestel. En de duiker vangt Nemo in een netje! Papa! roept Nemo. De duiker neemt hem mee op de boot. Vroem! Weg is Nemo. Papa Marlin zwemt zo snel als hij kan. Nemo! Nemo! Maar de boot is veel te snel. Dan botst papa Marlin tegen een andere vis. Bonk! Het is een vrolijke blauwe vis met een geel staartje. Ze heet Dory. Dory is blauw, heel blauw, zo blauw als de lucht. Ze is supervriendelijk. Ik heb een boot gezien! zegt Dory. Volg mij! Ze zwemmen samen. Maar na een tijdje draait Dory zich om. Waarom volg je mij? Wie ben jij? Papa Marlin kijkt verbaasd. Je zei toch dat je de boot gezien had? Dory lacht. Hihihi! Sorry, ik vergeet alles heel snel. Alles wat net gebeurd is, ben ik na vijf seconden alweer vergeten. Dat zit in mijn familie, denk ik. Of toch niet? Ik ben het vergeten! Dory vergeet alles. Haar naam weet ze wel. Maar wat er net gebeurd is, dat vergeet ze altijd. Toch is Dory heel flink, en ze geeft nooit op. Ze heeft een liedje: Gewoon blijven zwemmen, gewoon blijven zwemmen! Blub blub blub! Papa Marlin en Dory beleven samen een groot avontuur. Ze ontmoeten drie haaien die beloven geen vissen meer te eten. Vissen zijn vriendjes, geen eten! Maar oei, toch beginnen ze te happen. Hap! Snel wegzwemmen! Dory kan lezen, en ze leest het adres op de duikbril van de duiker: Sydney! Daar moeten ze naartoe. Ze zwemmen door een veld vol roze kwallen. Die prikken! Au! Ze surfen op de stroming met grappige zeeschildpadden. Die zeggen: Cool, man! Wiiie! En ze worden opgeslokt door een grote walvis. Dory praat walvistaal: Oooeeeeoooo! En de walvis spuit hen naar buiten. Pfffft! Precies in Sydney! Ondertussen zit Nemo in een aquarium bij een tandarts. Daar wonen andere vissen, en die helpen Nemo om te ontsnappen. Nemo is heel dapper. Hij zwemt door een buis, en floep, hij is in de zee! En dan, eindelijk, vindt papa Marlin hem terug. Nemo! Papa! Ze geven elkaar een dikke vinnenknuffel. Ze zwemmen samen terug naar huis, naar het koraalrif. En Dory gaat ook mee. Ze woont nu naast hen. En elke dag zegt ze: Hallo! Ik ben Dory! Wie zijn jullie? En dan lachen Nemo en papa Marlin. Hihihi!",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welk dier is Nemo?",
+      "right": "🐠",
+      "wrong": [
+        "🐙",
+        "🦀"
+      ]
+    },
+    {
+      "question": "Welke kleur heeft Dory?",
+      "right": "🔵",
+      "wrong": [
+        "🟡",
+        "🟢"
+      ]
+    },
+    {
+      "question": "Wat vergeet Dory heel snel?",
+      "right": "🧠",
+      "wrong": [
+        "🏊",
+        "😴"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "format": 1,
+  "id": "peterpan",
+  "version": 1,
+  "title": "Peter Pan en Nooitgedachtland.",
+  "emoji": "✨",
+  "text": "In een groot huis in Londen woont een meisje. Ze heet Wendy. Ze heeft twee broertjes. John, die een bril draagt en een hoge hoed, en Michael, de kleinste, die altijd zijn teddybeer vasthoudt. En ze hebben een hond als oppas. Een grote, lieve hond die Nana heet. Woef! Wendy vertelt elke avond verhaaltjes aan haar broertjes. Spannende verhalen over piraten en over een jongen die nooit groot wil worden. Die jongen heet Peter Pan. Maar op een nacht, toen iedereen sliep, gebeurde er iets. Het raam ging open. Kriiek. En er vloog een jongen naar binnen. Hij droeg een groen pakje en een groen puntmutsje met een rode veer. Het was Peter Pan! Het echte Peter Pan! En bij hem was een klein lichtje dat rond zoefde. Pling, pling, pling! Het was een elfje. Een piepklein meisje met vleugeltjes, dat gloeide als een sterretje. Ze heette Tinkerbel. Peter Pan zocht zijn schaduw. Die was hij verloren! Hij liep rond, en zijn schaduw liep weg van hem. Hihihi! Wendy werd wakker. Ze naaide de schaduw weer vast aan zijn voeten. Kom mee naar Nooitgedachtland, zei Peter. Daar word je nooit groot. Daar is het altijd feest! Maar hoe gaan we daar naartoe? vroeg Wendy. Vliegen natuurlijk! zei Peter. Maar Wendy en haar broertjes konden niet vliegen. Toen pakte Peter Tinkerbel vast, en schudde haar zachtjes. Pling, pling, pling! Er dwarrelde glinsterend goudstof van haar af. Elfenstof! Toverstof! Het viel als sterretjes op Wendy, John en Michael. Denk aan iets heel fijns, zei Peter. Iets dat je blij maakt. Kerstmis. Snoepjes. Sneeuw. En plots: hup! Ze zweefden van de grond! Ze vlogen! Wiiie! Ze vlogen uit het raam, over de daken van Londen, langs de grote klok die Big Ben heet. Bong, bong! Tweede ster rechts, en dan rechtdoor tot de ochtend! Ze kwamen aan in Nooitgedachtland. Een eiland vol bergen, watervallen, bossen en stranden. Er woonden zeemeerminnen die op de rotsen lagen. Er woonden indianenkinderen en dieren. En er woonden de Verloren Jongens, die zich verkleedden als beertjes en vosjes en konijntjes. Zij woonden in een geheim huis onder een boom. Maar in de baai lag een groot piratenschip. Met zwarte zeilen en een vlag met een doodshoofd. En op dat schip woonde de gemene Kapitein Haak. Kapitein Haak had een rode jas, een grote hoed met een veer, een lange zwarte krulsnor. En in plaats van zijn linkerhand had hij een ijzeren haak. Want lang geleden had Peter Pan, in een gevecht, zijn hand aan een krokodil gevoerd. Die krokodil vond Kapitein Haak zo lekker, dat hij hem overal achtervolgde. Hij wilde de rest ook opeten! Kapitein Haak was superbang van die krokodil. Echt superbang! En weet je wat er zo grappig was? De krokodil had ook een wekker ingeslikt. En die wekker zat nog altijd in zijn buik. Dus overal waar de krokodil zwom, hoorde je: Tik-tak. Tik-tak. Tik-tak. Als Kapitein Haak dat hoorde, werd hij helemaal bleek. Hij beefde van zijn hoed tot zijn laarzen. Smie! Smie! Help! Het is de krokodil! En dan sprong hij in de armen van zijn dikke piratenhelper, Smie. Hihihi! Wendy en de jongens beleefden prachtige avonturen. Ze zwommen bij de zeemeerminnen. Ze dansten rond het kampvuur. Ze vlogen met Peter door de lucht. Maar Kapitein Haak ving Wendy en de Verloren Jongens. Hij zette ze op zijn schip. Ze moesten over de plank lopen, boven het water. En in het water zwom de krokodil. Tik-tak, tik-tak. Maar daar kwam Peter Pan aangevlogen! Zoef! Ik ben hier! riep hij. Peter en Kapitein Haak vochten met hun zwaarden. Kling, klang, kling! Peter vloog rond zijn hoofd. Kiekeboe, Haak, hier ben ik! Hij was veel te snel. En plots: plons! Kapitein Haak viel in het water. En wie zat daar met zijn mond open? Tik-tak, tik-tak, de krokodil! Help, help! Kapitein Haak zwom zo snel als hij kon weg, met de krokodil achter hem aan. Hap, hap, hap! Hihihi! Iedereen lachte. Tinkerbel strooide elfenstof over het hele piratenschip. Pling! En het schip vloog door de lucht, met gouden zeilen, terug naar Londen. Wendy, John en Michael landden veilig in hun bedjes. En Peter Pan zwaaide en vloog terug naar Nooitgedachtland. Daag! En als je goed luistert 's nachts, hoor je misschien wel het pling-pling van Tinkerbel aan je raam.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat strooit elfje Tinkerbel zodat de kinderen kunnen vliegen?",
+      "right": "✨",
+      "wrong": [
+        "🧂",
+        "❄️"
+      ]
+    },
+    {
+      "question": "Welk dier maakt Kapitein Haak superbang?",
+      "right": "🐊",
+      "wrong": [
+        "🦈",
+        "🐍"
+      ]
+    },
+    {
+      "question": "Welk geluid komt er uit de buik van de krokodil?",
+      "right": "⏰",
+      "wrong": [
+        "🔔",
+        "📯"
+      ]
+    }
+  ]
+}

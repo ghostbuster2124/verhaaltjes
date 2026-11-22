@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "id": "ramayana",
+  "version": 1,
+  "title": "Rama, Sita en de sterke aap Hanuman.",
+  "emoji": "🏹",
+  "text": "Lang, lang geleden, in een mooi koninkrijk in India dat Ayodhya heette, woonde een lieve prins. Hij heette Rama. Rama was vriendelijk, dapper en eerlijk, en hij kon heel goed schieten met zijn pijl en boog. Rama was getrouwd met Sita. Sita was mooi en slim en ze hield van alle dieren en bloemen. En Rama had een broer die altijd bij hem was. Hij heette Lakshmana. Op een dag moesten Rama, Sita en Lakshmana weggaan uit het paleis. Ze gingen wonen in het grote bos, in een klein huisje van takken en bladeren. Het was er rustig en mooi. Er waren vogels en vlinders en bloemen. Op een dag zag Sita iets wonderlijks tussen de bomen. Een hert! Een gouden hert, met zilveren vlekjes, dat glinsterde in de zon. Oh, wat is dat hert mooi, zei Sita. Rama, wil je het voor mij gaan zoeken? Rama ging het hert achterna, en even later ging Lakshmana ook kijken. Sita was even alleen. Maar dat gouden hert was een truc! Het was een truc van de boze koning Ravana. Ravana was een reus met tien hoofden en twintig armen. Hij woonde op een eiland ver weg in de zee, het eiland Lanka. Ravana kwam aangevlogen in een vliegende wagen, en hij nam Sita mee, ver weg naar zijn eiland. Toen Rama en Lakshmana terugkwamen, was Sita weg. Rama was zo verdrietig. Sita! riep hij. Waar ben je? Rama en Lakshmana gingen op zoek. Ze zochten en zochten, door bossen en over bergen. En op een dag kwamen ze in een land vol apen. Daar ontmoetten ze een heel bijzondere aap. Hij heette Hanuman. Hanuman was de sterkste aap van de hele wereld. Hij had een lange staart en hij kon heel hoog springen. Hanuman zei: Rama, ik zal je helpen. Ik zal Sita vinden! Hanuman ging aan de rand van de zee staan. Hij maakte zich groot, groter en groter, zo groot als een berg. En toen sprong hij! Hij sprong over de hele zee, helemaal tot op het eiland Lanka. Daar zocht hij overal. En in een mooie tuin, onder een boom, vond hij Sita. Ze was alleen en verdrietig. Hanuman gaf haar de ring van Rama. Sita, Rama komt je halen, fluisterde hij. Wees niet bang. Sita glimlachte voor het eerst in lange tijd. Hanuman sprong terug over de zee en vertelde alles aan Rama. Maar hoe kon Rama naar het eiland gaan? De zee was zo groot. De apen hadden een idee. We bouwen een brug! Duizenden apen droegen stenen naar de zee. Ze schreven de naam van Rama op elke steen, en kijk: de stenen bleven drijven! Steen na steen, dag na dag, bouwden de apen een lange brug over de zee. Rama, Lakshmana, Hanuman en alle apen liepen over de brug naar het eiland. Rama vocht dapper tegen de boze koning Ravana, met zijn pijl en boog. En het goede won van het slechte. Rama en Sita zagen elkaar terug, en ze gaven elkaar een dikke knuffel. Toen gingen ze terug naar huis, naar Ayodhya. Het was een donkere nacht, zonder maan. Maar de mensen van Ayodhya wilden dat Rama en Sita de weg naar huis zouden vinden. Dus zetten ze overal lichtjes. Kleine olielampjes, voor elk huis, op elk dak, langs elke weg. Duizenden lichtjes! Het hele land straalde. Iedereen was blij en danste en zong. En weet je wat? Elk jaar steken de mensen nog altijd lichtjes aan, om te vieren dat Rama en Sita thuiskwamen, en dat het licht wint van het donker. Dat feest heet Diwali.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welk dier is Hanuman?",
+      "right": "🐒",
+      "wrong": [
+        "🐘",
+        "🐯"
+      ],
+      "say": "Hanuman is een sterke aap."
+    },
+    {
+      "question": "Welk mooi dier ziet Sita in het bos?",
+      "right": "🦌",
+      "wrong": [
+        "🐰",
+        "🐻"
+      ],
+      "say": "Sita ziet een gouden hert in het bos."
+    },
+    {
+      "question": "Hoeveel hoofden heeft de boze koning Ravana?",
+      "right": "🔟",
+      "wrong": [
+        "2️⃣",
+        "3️⃣"
+      ],
+      "say": "De boze koning Ravana heeft tien hoofden."
+    },
+    {
+      "question": "Wat geeft Hanuman aan Sita?",
+      "right": "💍",
+      "wrong": [
+        "🍎",
+        "👟"
+      ],
+      "say": "Hanuman geeft de ring van Rama aan Sita."
+    },
+    {
+      "question": "Wat zetten de mensen overal als Rama thuiskomt?",
+      "right": "🪔",
+      "wrong": [
+        "🎈",
+        "⛄"
+      ],
+      "say": "De mensen zetten overal kleine lichtjes."
+    }
+  ]
+}

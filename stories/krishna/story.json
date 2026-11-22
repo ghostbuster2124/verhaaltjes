@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "id": "krishna",
+  "version": 1,
+  "title": "De kleine Krishna en de pot met boter.",
+  "emoji": "🧈",
+  "text": "Lang geleden, in een klein dorpje in India dat Gokul heette, woonde een jongetje. Hij heette Krishna. Krishna was een heel bijzonder jongetje. Zijn huid was blauw, zo blauw als de lucht. Hij had grote stralende ogen, en in zijn haar droeg hij altijd een mooie pauwenveer. En Krishna was heel ondeugend! In het dorp woonden veel koeien. Elke ochtend melkten de mensen de koeien. Van de melk maakten ze boter. Witte, zachte, romige boter. En weet je wat Krishna het allerliefst at? Boter! Hij kon er geen genoeg van krijgen. Mama Yashoda wist dat. Daarom deed ze de boter in een grote aarden pot. En die pot hing ze heel hoog aan het plafond, aan een touw. Zo, zei mama. Daar kan die kleine boterdief niet bij! Maar Krishna was slim. Toen mama naar de markt ging, riep hij al zijn vriendjes. Kom, we maken een toren! De grootste jongen ging onderaan staan. Een andere jongen klom op zijn schouders. En helemaal bovenaan klom Krishna. Wiebel, wiebel! Voorzichtig! Krishna strekte zijn armen uit, en ja, hij kon de pot aanraken. Hij stak zijn hand erin en haalde een grote hand vol boter eruit. Mmm! Hij gaf een beetje aan elk vriendje. En door het open raam keken een paar aapjes binnen. Oe oe, aa aa! Krishna lachte en gooide ook een klodder boter naar de aapjes. Hier, voor jullie! De aapjes smulden ervan. Maar toen hoorden ze voetstappen. Oei! Mama Yashoda kwam thuis! Alle vriendjes sprongen van elkaar af. Plof, plof, plof! De aapjes vluchtten door het raam. En Krishna stond daar, midden in de keuken. Krishna, zei mama streng, heb jij boter gegeten? Ik? zei Krishna met grote onschuldige ogen. Nee hoor, mama, ik niet! Maar mama keek naar zijn gezicht. Rond zijn mond zat allemaal witte boter. Op zijn wangen. Op zijn neus. En zelfs op zijn pauwenveer! Mama probeerde boos te kijken, maar het lukte niet. Ze moest lachen. Wat ben je toch een ondeugende kleine boterdief, zei ze, en ze gaf hem een dikke knuffel. 's Middags ging Krishna met de koeien naar de wei. Hij had een fluit bij zich, een fluit van bamboe. Hij ging onder een boom zitten aan de rivier, en hij begon te spelen. Wat een mooie muziek! Zo zacht en zo zoet. En weet je wat er gebeurde? Alle koeien kwamen naar hem toe. Ze stopten met grazen en ze kwamen dicht bij Krishna staan om te luisteren. Moe, deden de koeien zachtjes. De vogels stopten met fluiten en luisterden mee. De pauwen kwamen dichterbij en spreidden hun mooie veren. En zelfs de vissen in de rivier staken hun kopjes boven het water. Iedereen werd rustig en blij van Krishna's muziek. Toen de zon onderging, wandelde Krishna terug naar huis, met alle koeien achter zich aan, en zijn fluit nog steeds spelend. Mama Yashoda stond aan de deur te wachten. Kom maar binnen, mijn kleine blauwe jongen, zei ze. Ik heb iets lekkers voor je. En wat denk je dat het was? Een kommetje verse boter! Maar deze keer, gewoon op tafel.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat eet de kleine Krishna het allerliefst?",
+      "right": "🧈",
+      "wrong": [
+        "🍕",
+        "🥕"
+      ],
+      "say": "Krishna eet het allerliefst boter."
+    },
+    {
+      "question": "Welke kleur heeft Krishna?",
+      "right": "🔵",
+      "wrong": [
+        "🟢",
+        "🟠"
+      ],
+      "say": "Krishna heeft een blauwe huid."
+    },
+    {
+      "question": "Wat draagt Krishna in zijn haar?",
+      "right": "🪶",
+      "wrong": [
+        "👑",
+        "🌸"
+      ],
+      "say": "Krishna draagt een pauwenveer in zijn haar."
+    },
+    {
+      "question": "Welke diertjes kijken door het raam en krijgen ook boter?",
+      "right": "🐒",
+      "wrong": [
+        "🐘",
+        "🐟"
+      ],
+      "say": "De aapjes krijgen ook een beetje boter."
+    },
+    {
+      "question": "Welke dieren komen luisteren naar zijn fluit?",
+      "right": "🐄",
+      "wrong": [
+        "🐔",
+        "🐷"
+      ],
+      "say": "De koeien komen luisteren naar de fluit van Krishna."
+    }
+  ]
+}

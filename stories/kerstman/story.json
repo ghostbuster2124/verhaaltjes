@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "id": "kerstman",
+  "version": 1,
+  "title": "De Kerstman en het kleinste rendier.",
+  "emoji": "🎅",
+  "text": "Helemaal in het noorden van de wereld, op de Noordpool, is het altijd koud. Daar sneeuwt het bijna elke dag, en alles is wit. En daar, in een gezellig huis met rode luiken en een rokende schoorsteen, woont de Kerstman. De Kerstman heeft een lange witte baard, een rood pak met witte randjes, en een dikke buik die schudt als hij lacht. Ho, ho, ho! Het hele jaar door werkt de Kerstman samen met zijn helpers, de kleine elfjes. In de grote werkplaats maken ze speelgoed voor alle kinderen van de wereld. Poppen en treintjes, puzzels en ballen, knuffelberen en tekendozen. Tik, tik, tik, doen de hamertjes. En als alles klaar is, pakken de elfjes de cadeautjes in, met kleurig papier en mooie strikken. Achter het huis staat de stal van de rendieren. De rendieren trekken de slee van de Kerstman. Ze zijn groot en sterk, met een bruine vacht en een gewei op hun hoofd. En ze kunnen vliegen! Maar het allerkleinste rendier heet Sterretje. Ze heet zo, omdat ze een klein wit sterretje op haar hoofd heeft, tussen haar oogjes. Sterretje is nog te klein om de slee te trekken. Elke avond kijkt ze naar de grote rendieren die oefenen met vliegen. Zou ik dat ooit ook kunnen? vraagt ze aan de Kerstman. De Kerstman aait haar over haar kopje. Op een dag, Sterretje. Op een dag. Dan is het eindelijk kerstavond. De slee is helemaal vol met cadeautjes. De Kerstman trekt zijn warme laarzen aan. De grote rendieren staan klaar. Allez, vertrekken! roept de Kerstman. En de slee vliegt de lucht in. Tingeling, tingeling, doen de belletjes. Maar wat de Kerstman niet weet: Sterretje is stiekem achter de slee aan gevlogen! Ze wil zo graag mee. Halverwege de nacht begint het plots heel hard te sneeuwen. Er komt een sneeuwstorm. Er hangt een dikke mist. De Kerstman ziet niets meer. Geen huizen, geen lichtjes, niets. Oh nee, zegt de Kerstman. Hoe moet ik nu de weg vinden? Alle kindjes wachten op hun cadeautjes! En dan hoort hij een stemmetje naast de slee. Kerstman, ik kan helpen! Het is Sterretje! Sterretje? Wat doe jij hier? Sterretje heeft heel grote, heldere oogjes. En ze kan in het donker heel ver kijken, verder dan alle andere rendieren. Volg mij! roept ze. Ik zie de sterren door de wolken heen, en ik zie de lichtjes van de huizen! Sterretje vliegt vooraan, en de slee volgt haar. Over de bergen, over de zee, over de bossen en over de steden. Ook over Antwerpen! In elk huis gaat de Kerstman zachtjes naar binnen, door de schoorsteen. Hij legt de cadeautjes onder de kerstboom, die vol ballen en lichtjes hangt. En wat vindt hij op tafel? Een glaasje melk en een koekje voor de Kerstman. En een wortel voor de rendieren! Mmm, dank je wel, kindjes, fluistert de Kerstman. Knabbel, knabbel, doen de rendieren. En Sterretje krijgt de allergrootste wortel. Zo bezoeken ze alle huizen, één voor één, tot alle cadeautjes weg zijn. Als de zon opkomt, landen ze weer op de Noordpool. De elfjes juichen. Hoera! De Kerstman tilt Sterretje op. Zonder jou, kleine Sterretje, waren we de weg kwijtgeraakt. Jij hebt kerstmis gered! Ho, ho, ho! En vanaf dat jaar mag Sterretje elk jaar vooraan vliegen, voor de slee. Het kleinste rendier, met het grootste hart. En in de huizen over de hele wereld worden de kinderen wakker, en ze rennen naar de kerstboom. Kijk! De Kerstman is geweest! Vrolijk kerstfeest!",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Waar woont de Kerstman?",
+      "right": "❄️",
+      "wrong": [
+        "🏝️",
+        "🌋"
+      ],
+      "say": "De Kerstman woont op de Noordpool, waar het altijd sneeuwt."
+    },
+    {
+      "question": "Welke dieren trekken de slee van de Kerstman?",
+      "right": "🦌",
+      "wrong": [
+        "🐴",
+        "🐕"
+      ],
+      "say": "De rendieren trekken de slee van de Kerstman."
+    },
+    {
+      "question": "Wat heeft het kleine rendier op haar hoofd?",
+      "right": "⭐",
+      "wrong": [
+        "🌙",
+        "❤️"
+      ],
+      "say": "Sterretje heeft een klein wit sterretje op haar hoofd."
+    },
+    {
+      "question": "Wat zetten de kinderen klaar voor de rendieren?",
+      "right": "🥕",
+      "wrong": [
+        "🍕",
+        "🍦"
+      ],
+      "say": "De kinderen zetten een wortel klaar voor de rendieren."
+    },
+    {
+      "question": "Waar legt de Kerstman de cadeautjes?",
+      "right": "🎄",
+      "wrong": [
+        "🛁",
+        "🚗"
+      ],
+      "say": "De Kerstman legt de cadeautjes onder de kerstboom."
+    }
+  ]
+}

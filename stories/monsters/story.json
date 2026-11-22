@@ -1,0 +1,42 @@
+{
+  "format": 1,
+  "id": "monsters",
+  "version": 1,
+  "title": "Monsters en Co. Boe in Monsterstad.",
+  "emoji": "👁️",
+  "text": "Weet jij wat er achter de deur van je kast zit? Ik zal je een geheimpje vertellen. Achter elke kastdeur ligt een andere wereld. Een wereld vol monsters! Die wereld heet Monsterstad. In Monsterstad wonen duizenden monsters. Grote monsters, kleine monsters, harige monsters, slijmerige monsters, monsters met tentakels en monsters met tien armen. Ze gaan naar het werk, ze drinken koffie en ze lezen de krant, net als wij. En in Monsterstad wonen twee beste vrienden. De eerste is Sulley. Sulley is groot, heel groot, en heel vriendelijk. Hij heeft hoorntjes op zijn hoofd en een dikke, zachte vacht. En welke kleur heeft die vacht? Blauw! Lichtblauw, met paarse stippen. Roaar! doet Sulley, als hij brult. De tweede is Mike. Mike is klein en groen en rond als een bal, met twee dunne armpjes en twee dunne beentjes. En Mike heeft maar één oog! Eén groot oog, middenin zijn gezicht. Als hij knipoogt, doet hij gewoon heel zijn oog dicht. Knip! Hihihi! Mike is heel grappig. Hij praat de hele tijd en hij vertelt graag moppen. Sulley en Mike werken samen bij een grote fabriek. Die heet Monsters en Co. En weet je wat ze daar doen? Ze maken energie voor de lampen en de auto's van Monsterstad. En die energie halen ze bij kindjes! In de fabriek staan duizenden deuren. Elke deur gaat naar de slaapkamer van een kindje. De monsters moeten 's nachts door die deur gaan en de kindjes laten schrikken. Boe! En als een kindje gilt, Aaaah!, dan wordt dat gegil opgevangen in een grote gele fles. Dat is de energie. Maar het rare is: de monsters zijn zelf heel bang van kindjes! Ze denken dat kindjes giftig zijn. Als een monster een sokje van een kindje op zijn rug heeft, dan komen er mannen in gele pakken. Code twee-drie-één-twee! En ze scheren het monster helemaal kaal. Hihihi! Op een avond is Sulley alleen in de fabriek. Hij ziet een deur die nog openstaat. En dan stapt er iets door de deur. Iets kleins. Een klein mensenmeisje! Ze heeft twee staartjes en een roze pyjama. Aaaah! roept Sulley. Hij is heel bang. Maar het meisje is helemaal niet bang. Ze lacht. Kittie! roept ze tegen Sulley. Ze noemt hem Kittie, omdat hij lijkt op een grote poes. Sulley stopt haar in een tas en loopt naar Mike. Mike is ook bang. Een kind! Een kind! Ze verstoppen haar thuis. Ze noemen haar Boe. Boe is heel lief. Ze tekent, ze speelt verstoppertje, en ze eet. Ze lacht heel hard. Hihihi! En als Boe lacht, dan gebeurt er iets vreemds. Alle lampen in het huis gaan feller branden! Ze knipperen en flitsen. En sommige lampen ontploffen zelfs. Pang! Sulley begint Boe heel graag te zien. En Boe Sulley ook. Ze wil niet meer van hem weg. Maar er is een gemene monster in de fabriek. Hij heet Randall. Hij is paars, heeft heel veel pootjes en kan onzichtbaar worden, zoals een kameleon. Ssssss. Hij wil Boe vangen. Hij heeft een gemene machine gemaakt. Sulley en Mike moeten Boe redden. Ze rennen door de fabriek. Ze springen op deuren die aan lange rails hangen en die heel snel bewegen. Zoef! Zoef! Door duizenden deuren, door allemaal slaapkamers over de hele wereld. Op het einde gooien ze Randall door een deur naar een heel ver land, waar hij nooit meer terugkomt. Byebye, Randall! En dan ontdekken ze iets geweldigs. Het lachen van kindjes geeft veel meer energie dan het gillen. Wel honderd keer meer! Lachen is het sterkste wat er is! Dus vanaf nu doen de monsters iets anders. Ze laten de kindjes niet meer schrikken. Ze laten de kindjes lachen! Mike vertelt moppen. Hij doet gekke dansjes. Hij valt expres op zijn gezicht. Plof! En alle kindjes lachen. Hahaha! De gele flessen worden vol, nog voller dan ooit. En Boe? Sulley bracht haar veilig terug naar haar bedje. Hij stopte haar in en gaf haar een knuffel. Daag, Boe. En later, op een dag, deed hij haar deur weer open. Kittie! riep Boe. En Sulley glimlachte zijn allergrootste glimlach.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Hoeveel ogen heeft het groene monstertje Mike?",
+      "right": "👁️",
+      "wrong": [
+        "👀",
+        "🕷️"
+      ]
+    },
+    {
+      "question": "Welke kleur vacht heeft de grote vriendelijke Sulley?",
+      "right": "🔵",
+      "wrong": [
+        "🟠",
+        "⚫"
+      ]
+    },
+    {
+      "question": "Wat maakt de kinderen zo blij in Monsterstad?",
+      "right": "😂",
+      "wrong": [
+        "😭",
+        "😴"
+      ]
+    }
+  ]
+}
