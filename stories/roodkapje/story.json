@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "roodkapje",
+  "version": 1,
+  "title": "Roodkapje en de wolf.",
+  "emoji": "🧺",
+  "text": "Er was eens een klein meisje. Ze droeg altijd een rood kapje op haar hoofd. Dat kapje had ze gekregen van haar oma. Daarom noemde iedereen haar Roodkapje. Op een ochtend zei mama: Roodkapje, oma is ziek. Wil jij haar een mandje brengen? Er zit taart in, en een flesje sap, en een paar appeltjes. Ja, mama! zei Roodkapje. Mama gaf haar een kus. Wees voorzichtig, zei ze. Blijf op het pad in het bos, en praat niet met vreemden. Beloofd, mama! Roodkapje nam het mandje en ging op weg. Het huisje van oma stond aan de andere kant van het bos. Het was een mooie dag. De zon scheen door de bomen. De vogeltjes zongen. Tjiep, tjiep! Roodkapje huppelde over het pad. Maar achter een dikke boom zat iemand te loeren. Het was de grote, grijze wolf. Hij had honger. Heel veel honger. Goeiemorgen, meisje, zei de wolf met een lieve stem. Waar ga jij naartoe? Roodkapje was het vergeten. Ze mocht niet praten met vreemden. Naar mijn oma, zei ze. Ze woont in het huisje bij de drie grote eiken. Ze is ziek. Wat lief, zei de wolf. Kijk eens, daar staan prachtige bloemen. Pluk er een paar voor je oma. Dan wordt ze vast blij. Roodkapje vond dat een goed idee. Ze ging van het pad af en plukte bloemen. Een gele, een blauwe, een paarse. Ondertussen rende de wolf zo snel als hij kon naar het huisje van oma. Klop, klop, klop. Wie is daar? vroeg oma. Ik ben het, Roodkapje, zei de wolf met een hoge stem. Kom maar binnen, kindje. De wolf ging naar binnen. Oma schrok heel erg en ze verstopte zich snel in de grote kast. De wolf trok de slaapmuts van oma aan. Hij kroop in bed en trok de dekens tot aan zijn neus. Even later kwam Roodkapje aan. De deur stond open. Oma? riep ze. Ze liep naar het bed. Maar oma zag er heel raar uit. Oma, wat heb jij grote oren! Dat is om je beter te kunnen horen, zei de wolf. Oma, wat heb jij grote ogen! Dat is om je beter te kunnen zien. Oma, wat heb jij grote handen! Dat is om je beter te kunnen vastpakken. Oma, wat heb jij een grote mond! Dat is om je beter te kunnen opeten! En de wolf sprong uit bed. Roodkapje gilde zo hard als ze kon. Help! Help! Buiten liep een jager voorbij. Hij hoorde het gegil en rende naar binnen. Wat is hier aan de hand? riep hij met een zware stem. De wolf schrok zich een hoedje. Hij liet de slaapmuts vallen en sprong door het raam naar buiten. Hij rende het bos in, zo ver als hij kon, en hij kwam nooit meer terug. De kastdeur ging open. Daar was oma! Ze was een beetje stoffig, maar ze was helemaal in orde. Oma! riep Roodkapje en ze vloog haar in de armen. De jager hielp oma terug in haar bed. Roodkapje gaf haar de bloemen en het mandje. Ze aten samen taart en ze dronken sap. De jager kreeg ook een stuk. Mmm, lekker! Oma voelde zich al veel beter. Toen Roodkapje naar huis ging, dacht ze na. Ik ga voortaan altijd op het pad blijven, zei ze. En ik praat nooit meer met vreemden. Zelfs niet als ze heel lief doen. Mama was heel blij dat haar meisje veilig thuiskwam. En de wolf? Die durfde nooit meer in de buurt te komen. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat draagt Roodkapje op haar hoofd?",
+      "right": "🔴",
+      "wrong": [
+        "🟢",
+        "🔵"
+      ],
+      "say": "Roodkapje draagt een rood kapje."
+    },
+    {
+      "question": "Wat brengt Roodkapje naar oma?",
+      "right": "🧺",
+      "wrong": [
+        "🎒",
+        "📦"
+      ],
+      "say": "Roodkapje brengt een mandje naar oma."
+    },
+    {
+      "question": "Wie ontmoet ze in het bos?",
+      "right": "🐺",
+      "wrong": [
+        "🦊",
+        "🐻"
+      ],
+      "say": "Ze ontmoet de grote, grijze wolf."
+    },
+    {
+      "question": "Waar verstopt oma zich?",
+      "right": "🚪",
+      "wrong": [
+        "🛁",
+        "🌳"
+      ],
+      "say": "Oma verstopt zich in de grote kast."
+    },
+    {
+      "question": "Wie komt Roodkapje helpen?",
+      "right": "🤠",
+      "wrong": [
+        "👮",
+        "🧙"
+      ],
+      "say": "De jager komt helpen."
+    }
+  ],
+  "words": [
+    {
+      "word": "het mandje",
+      "emoji": "🧺",
+      "say": "In het mandje zit taart."
+    },
+    {
+      "word": "de wolf",
+      "emoji": "🐺",
+      "say": "De wolf heeft grote oren."
+    },
+    {
+      "word": "de oma",
+      "emoji": "👵",
+      "say": "Oma ligt ziek in bed."
+    },
+    {
+      "word": "de bloemen",
+      "emoji": "🌼",
+      "say": "Roodkapje plukt bloemen."
+    },
+    {
+      "word": "het bos",
+      "emoji": "🌲",
+      "say": "Het huisje staat in het bos."
+    },
+    {
+      "word": "het bed",
+      "emoji": "🛏️",
+      "say": "De wolf kruipt in het bed."
+    }
+  ]
+}

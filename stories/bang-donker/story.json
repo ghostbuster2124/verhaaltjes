@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "bang-donker",
+  "version": 1,
+  "title": "Bang in het donker.",
+  "emoji": "🔦",
+  "text": "Mila is vijf jaar. Overdag is ze heel dapper. Ze klimt in het klimrek tot helemaal bovenaan. Ze aait grote honden. Ze springt van de hoogste trap van de glijbaan. Maar 's avonds, als het licht uitgaat, dan is Mila niet zo dapper. Dan is ze bang in het donker. Op een avond leest papa een verhaaltje voor. Mila ligt in bed met haar knuffelkonijn Flos. Dan geeft papa haar een kusje. Slaap lekker, schat. Hij doet het licht uit. Klik. En de deur gaat dicht. Het is donker. Heel donker. Mila trekt het deken op tot aan haar neus. Ze kijkt rond. In de hoek staat iets groots. Het heeft lange armen. Het beweegt niet. Is het een monster? Mila houdt haar adem in. En dan hoort ze iets. Krrrr. Krrrr. Een raar geluid, aan het raam. Papa! roept Mila. Papa komt meteen. Hij doet het licht aan. Wat is er, Mila? Er is een monster in de hoek! fluistert Mila. Met lange armen. En er is iets aan het raam! Papa kijkt in de hoek. Daar staat de kapstok. Met haar badjas en haar sjaal eraan. Kijk, zegt papa. Dat is je kapstok. De lange armen zijn je badjas. Mila kijkt. Oh. Dan gaat papa naar het raam. Hij doet het gordijn open. Buiten staat een boom. Een tak raakt het raam als de wind waait. Krrrr. Dat is de boom, zegt papa. Hij zegt welterusten. Mila lacht een beetje. Maar ze is nog steeds een beetje bang. Papa gaat op de rand van het bed zitten. Weet je, Mila, zegt hij, in het donker ziet alles er anders uit. Je ogen kunnen niet goed zien. En dan maakt je hoofd er zelf iets van. Een kapstok wordt een monster. Een tak wordt een geluid. Maar alles is precies hetzelfde als overdag. Ik heb een idee, zegt papa. Hij gaat naar beneden en komt terug met een zaklamp. Een kleine, blauwe zaklamp. Dit is jouw monsterzoeklamp, zegt papa. Als je iets ziet in het donker, dan schijn je erop. Dan zie je meteen wat het echt is. Papa doet het licht weer uit. Mila neemt de zaklamp. Klik. Ze schijnt in de hoek. Kapstok. Ze schijnt naar het raam. Gordijn. Ze schijnt onder het bed. Alleen een sok en een puzzelstukje. Ze schijnt naar het plafond. Daar ziet ze de lichtgevende sterretjes die mama erop heeft geplakt. Ze glinsteren. Wat mooi, zegt Mila. In het donker is je kamer ook mooi, zegt papa. Overdag zie je de sterren niet. Dan doet papa nog iets. Hij zet een klein nachtlampje in het stopcontact. Het geeft een zacht, oranje licht. Als een kleine zon die slaapt. Zo, zegt papa. Nu is het niet helemaal donker. En de deur laat ik op een kiertje open. Dan hoor je ons beneden. Mila knikt. Ze knuffelt Flos. Flos is ook een beetje bang, zegt ze. Dan moet jij Flos goed vasthouden, zegt papa. Jij bent nu de beschermer van Flos. Papa geeft haar nog een kusje. Mila ligt in bed. Ze kijkt naar de sterretjes op het plafond. Ze hoort mama en papa praten beneden. Ze hoort de tak tegen het raam. Krrrr. Dat is de boom, fluistert ze tegen Flos. Hij zegt welterusten. Ze schijnt nog één keer met haar zaklamp naar de hoek. Dag kapstok, zegt ze. En dan doet ze haar ogen dicht. De volgende ochtend komt mama haar wakker maken. Mila! Heb je goed geslapen? Mila rekt zich uit. Ja, mama! En weet je wat? Ik heb op monsters gejaagd met mijn zaklamp. Er waren er geen. Alleen een kapstok, een boom en een heleboel sterren. Mama lacht. Wat ben jij dapper, zegt ze. Ook in het donker. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Waarvoor is Mila bang?",
+      "right": "🌑",
+      "wrong": [
+        "🐶",
+        "🌊"
+      ],
+      "say": "Mila is bang in het donker."
+    },
+    {
+      "question": "Welke knuffel heeft Mila?",
+      "right": "🐰",
+      "wrong": [
+        "🐻",
+        "🐶"
+      ],
+      "say": "Mila heeft een knuffelkonijn."
+    },
+    {
+      "question": "Wat staat er echt in de hoek?",
+      "right": "🧥",
+      "wrong": [
+        "👹",
+        "🐻"
+      ],
+      "say": "Het is de kapstok met haar badjas."
+    },
+    {
+      "question": "Wat maakt het geluid aan het raam?",
+      "right": "🌳",
+      "wrong": [
+        "🐈",
+        "👻"
+      ],
+      "say": "Een tak van de boom tikt tegen het raam."
+    },
+    {
+      "question": "Wat krijgt Mila van papa?",
+      "right": "🔦",
+      "wrong": [
+        "🕯️",
+        "📺"
+      ],
+      "say": "Mila krijgt een zaklamp."
+    }
+  ],
+  "words": [
+    {
+      "word": "de zaklamp",
+      "emoji": "🔦",
+      "say": "Mila schijnt met de zaklamp."
+    },
+    {
+      "word": "het knuffelkonijn",
+      "emoji": "🐰",
+      "say": "Flos is een zacht knuffelkonijn."
+    },
+    {
+      "word": "de boom",
+      "emoji": "🌳",
+      "say": "De tak van de boom tikt tegen het raam."
+    },
+    {
+      "word": "het raam",
+      "emoji": "🪟",
+      "say": "Het geluid komt van het raam."
+    },
+    {
+      "word": "de sterretjes",
+      "emoji": "⭐",
+      "say": "Op het plafond zijn sterretjes."
+    },
+    {
+      "word": "het nachtlampje",
+      "emoji": "💡",
+      "say": "Het nachtlampje geeft zacht licht."
+    }
+  ]
+}

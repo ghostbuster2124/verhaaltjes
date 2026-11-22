@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "brandweer",
+  "version": 1,
+  "title": "Op bezoek bij de brandweer.",
+  "emoji": "🚒",
+  "text": "Vandaag gaat de klas van Ilias op uitstap. Ze gaan naar de brandweerkazerne! Ilias is zo blij, dat hij de hele nacht bijna niet geslapen heeft. Hij heeft zijn rode trui aangedaan. Want brandweerwagens zijn rood. De bus stopt voor een groot gebouw. Er zijn grote rode poorten. En voor de poorten staat een vrouw in een donkerblauw pak met gele strepen. Goeiemorgen, kinderen! zegt ze. Ik ben Fatima. Ik ben brandweervrouw. Welkom in onze kazerne! Fatima doet de grote poort open. Daar staan ze. Drie grote brandweerwagens. Ze zijn knalrood en glanzend. Er zitten ladders op, en slangen, en blauwe lichten. Wauw! roepen de kinderen allemaal tegelijk. Fatima toont de grootste wagen. Dit is de autopomp, zegt ze. Hierin zit een grote tank met water. Wel tweeduizend liter. Dat is zoveel als tien badkuipen vol! Met deze slang spuiten we het water op het vuur. En kijk eens hier, zegt ze. Dit is de ladderwagen. De ladder kan heel hoog. Tot op het dak van een flatgebouw. Zo kunnen we mensen redden die hoog in een gebouw zitten. Mag ik eens in de wagen? vraagt Ilias. Natuurlijk! zegt Fatima. Om de beurt mogen de kinderen in de cabine klimmen. Ilias gaat achter het grote stuur zitten. Hij drukt op een knop. Wie-wa-wie-wa! De sirene gaat aan! De blauwe lichten flitsen. Iedereen lacht en houdt zijn oren dicht. Dan toont Fatima haar kleren. Een brandweerpak beschermt ons tegen het vuur, zegt ze. Het is heel dik en sterk. We hebben een helm op ons hoofd, handschoenen aan onze handen en grote laarzen aan onze voeten. Ze trekt alles aan. De jas, de broek, de laarzen, de helm. En dan zet ze nog een masker op. Op haar rug hangt een fles met lucht. Zo kan ze ademen in de rook. Nu klinkt ze een beetje als een robot. Shhhh, puh. Shhhh, puh. Zien jullie? zegt ze. Zo zie ik er een beetje eng uit. Maar als je ooit een brandweerman of brandweervrouw ziet in dit pak, moet je niet bang zijn. Wij komen helpen. Verstop je nooit, maar roep heel hard. Dan vinden we je. Daarna leert Fatima hen wat je moet doen als er brand is. Ze zingt het als een liedje. Brand? Niet verstoppen. Snel naar buiten. Niets meenemen. En bel één, één, twee. Waarom moet je niets meenemen? vraagt Lotte. Ook niet je knuffel? Nee, zegt Fatima. Jij bent veel belangrijker dan je knuffel. Een knuffel kan je opnieuw kopen. Jou niet. Dan toont ze iets heel grappigs. Een lange, glanzende paal, die door een gat in het plafond naar beneden gaat. Als er een oproep komt, zegt Fatima, en wij zitten boven, dan glijden we langs deze paal naar beneden. Dat gaat sneller dan de trap. Een brandweerman komt van boven naar beneden gegleden. Zoeeef! De kinderen klappen. En dan gaat er een bel. Tring! Tring! Tring! Een oproep! Fatima en de andere brandweerlui rennen naar hun wagen. Ze trekken hun laarzen aan. Ze springen in de wagen. De poort gaat open. Wie-wa-wie-wa! En weg zijn ze. De kinderen kijken met grote ogen. Even later komt de wagen terug. Wat was het? vraagt de juf. Een poesje dat vastzat in een boom, lacht Fatima. Het zit nu weer veilig bij zijn baasje. Op het einde mogen de kinderen nog met de slang spuiten. Op een oefenhuisje van hout. Ilias houdt de slang stevig vast. Het water spuit heel hard. Pssssj! Hij raakt het raampje. Goed zo! zegt Fatima. Jij bent een echte brandweerman. Ilias krijgt een rood brandweerpetje en een sticker. In de bus terug houdt hij zijn petje stevig vast. Juf, zegt hij, als ik groot ben, word ik brandweerman. Dan glij ik elke dag langs de paal! Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welke kleur hebben de brandweerwagens?",
+      "right": "🔴",
+      "wrong": [
+        "🔵",
+        "🟡"
+      ],
+      "say": "De brandweerwagens zijn rood."
+    },
+    {
+      "question": "Wat zet Fatima op haar hoofd?",
+      "right": "⛑️",
+      "wrong": [
+        "🎩",
+        "👒"
+      ],
+      "say": "Fatima zet een helm op."
+    },
+    {
+      "question": "Wat moet je doen als er brand is?",
+      "right": "🏃",
+      "wrong": [
+        "🛏️",
+        "🧸"
+      ],
+      "say": "Snel naar buiten gaan, en niets meenemen."
+    },
+    {
+      "question": "Wat gaat er aan als Ilias op de knop drukt?",
+      "right": "🚨",
+      "wrong": [
+        "🎵",
+        "💡"
+      ],
+      "say": "De sirene gaat aan."
+    },
+    {
+      "question": "Wie zat er vast in de boom?",
+      "right": "🐈",
+      "wrong": [
+        "🐦",
+        "🐒"
+      ],
+      "say": "Een poesje zat vast in een boom."
+    }
+  ],
+  "words": [
+    {
+      "word": "de brandweerwagen",
+      "emoji": "🚒",
+      "say": "De brandweerwagen is rood."
+    },
+    {
+      "word": "de ladder",
+      "emoji": "🪜",
+      "say": "De ladder gaat heel hoog."
+    },
+    {
+      "word": "de helm",
+      "emoji": "⛑️",
+      "say": "De brandweervrouw draagt een helm."
+    },
+    {
+      "word": "de laarzen",
+      "emoji": "👢",
+      "say": "Fatima trekt grote laarzen aan."
+    },
+    {
+      "word": "de sirene",
+      "emoji": "🚨",
+      "say": "De sirene doet wie-wa-wie-wa."
+    },
+    {
+      "word": "het water",
+      "emoji": "💧",
+      "say": "Het water spuit uit de slang."
+    }
+  ]
+}

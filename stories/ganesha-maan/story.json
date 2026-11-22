@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "ganesha-maan",
+  "version": 1,
+  "title": "Ganesha en de maan.",
+  "emoji": "🌙",
+  "text": "Dit is een verhaal uit India, over Ganesha. Ganesha is een vrolijke god met het hoofd van een olifant. Hij heeft grote oren, een lange slurf en een dikke buik. En hij houdt van snoepjes. Vooral van modaks. Dat zijn zoete balletjes, gevuld met kokos en suiker. Mmm! Ganesha heeft ook een vriendje. Een klein muisje. Het muisje is zijn rijdier. Ja, echt waar! Ganesha rijdt overal naartoe op zijn kleine muisje. Op een avond was het feest. Het was de verjaardag van Ganesha. Overal in het land maakten de mensen lekker eten voor hem. Ganesha ging op bezoek bij alle huizen. En overal kreeg hij modaks. Eén modak hier, twee modaks daar, tien modaks in dat huis. Ganesha at en at en at. Zijn buik werd zo dik, zo rond als een grote bal. Het was al laat toen Ganesha op weg ging naar huis. De sterren fonkelden en de maan scheen helder. Ganesha zat op zijn muisje. Maar hij was zo zwaar! Het muisje hijgde. Puf, puf, puf. Plots kroop er een slang over de weg. Het muisje schrok. Iiieh! Het sprong opzij. En Ganesha? Hij viel van zijn muisje, op de grond. Bonk! Zijn dikke buik plofte. En alle modaks rolden eruit, over de weg. Ganesha zat op de grond, tussen de modaks. Hij zag er een beetje gek uit. Zijn kroon stond scheef en zijn slurf zat vol kruimels. Van hoog in de lucht keek de maan naar beneden. En de maan begon te lachen. Hahaha! Kijk die Ganesha! Wat een dikke buik! Wat zie je er gek uit! Hahaha! Ganesha keek op. Hij vond het niet leuk dat de maan hem uitlachte. Iemand uitlachen als hij valt, dat doe je niet. Ganesha stond op. Hij schudde het stof van zijn kleren. Hij keek boos naar de maan. Maan, zei hij met een zware stem, jij bent heel mooi. Maar je bent niet lief. Je lacht iemand uit die gevallen is. Daarom zal niemand nog naar jou willen kijken! En wat gebeurde er? De maan werd donker. Helemaal donker. Niemand kon de maan nog zien. De nachten werden zwart. De mensen hadden geen licht meer om de weg te vinden. De kinderen konden niet meer naar de maan kijken voor ze gingen slapen. En de maan? Die was heel eenzaam. Niemand keek nog naar hem. Hij was verdrietig. Toen begreep de maan dat hij fout was geweest. Hij ging naar Ganesha. Het spijt me, Ganesha, zei de maan zachtjes. Ik had je niet mogen uitlachen. Ik zal het nooit meer doen. Ganesha keek naar de maan. Hij zag dat de maan echt spijt had. En Ganesha had een groot hart, net zo groot als zijn buik. Ik vergeef je, zei Ganesha. Je mag weer schijnen. Maar je zal niet altijd helemaal rond zijn. Elke maand word je een beetje kleiner, tot je bijna weg bent. En dan word je weer groter, tot je helemaal rond bent. Zo vergeet je nooit wat er gebeurd is. En zo gebeurt het nog altijd. Kijk maar eens naar de maan. Soms is hij een dun streepje. Soms is hij een halve maan. En soms is hij helemaal rond. Daarna raapte Ganesha zijn modaks op. Hij gaf er een paar aan zijn muisje, want dat had hard gewerkt. En samen gingen ze naar huis. De les van dit verhaal? Lach nooit iemand uit. En als je een fout maakt, zeg dan gewoon sorry. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welk hoofd heeft Ganesha?",
+      "right": "🐘",
+      "wrong": [
+        "🦁",
+        "🐒"
+      ],
+      "say": "Ganesha heeft het hoofd van een olifant."
+    },
+    {
+      "question": "Waarop rijdt Ganesha?",
+      "right": "🐭",
+      "wrong": [
+        "🐴",
+        "🐘"
+      ],
+      "say": "Ganesha rijdt op een muisje."
+    },
+    {
+      "question": "Waarvan schrikt het muisje?",
+      "right": "🐍",
+      "wrong": [
+        "🐈",
+        "🦉"
+      ],
+      "say": "Het muisje schrikt van een slang."
+    },
+    {
+      "question": "Wie lacht Ganesha uit?",
+      "right": "🌕",
+      "wrong": [
+        "☀️",
+        "⭐"
+      ],
+      "say": "De maan lacht Ganesha uit."
+    },
+    {
+      "question": "Wat zegt de maan op het einde?",
+      "right": "🙏",
+      "wrong": [
+        "😂",
+        "😡"
+      ],
+      "say": "De maan zegt sorry."
+    }
+  ],
+  "words": [
+    {
+      "word": "de olifant",
+      "emoji": "🐘",
+      "say": "Ganesha heeft het hoofd van een olifant."
+    },
+    {
+      "word": "het muisje",
+      "emoji": "🐭",
+      "say": "Ganesha rijdt op een muisje."
+    },
+    {
+      "word": "de maan",
+      "emoji": "🌕",
+      "say": "De maan schijnt in de nacht."
+    },
+    {
+      "word": "de slang",
+      "emoji": "🐍",
+      "say": "Een slang kruipt over de weg."
+    },
+    {
+      "word": "de snoepjes",
+      "emoji": "🍬",
+      "say": "Ganesha houdt van snoepjes."
+    },
+    {
+      "word": "de kroon",
+      "emoji": "👑",
+      "say": "De kroon van Ganesha staat scheef."
+    }
+  ]
+}

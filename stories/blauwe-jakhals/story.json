@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "blauwe-jakhals",
+  "version": 1,
+  "title": "De blauwe jakhals.",
+  "emoji": "🐺",
+  "text": "Dit is een oud verhaal uit India. Het komt uit een boek met dierenverhalen, de Panchatantra. Lang geleden woonde er in een groot bos een jakhals. Een jakhals lijkt een beetje op een vos en een beetje op een hond. Deze jakhals heette Chandu. Op een avond had Chandu heel veel honger. Er was niets meer te eten in het bos. Dan ga ik maar naar het dorp, dacht hij. Misschien vind ik daar iets lekkers. Hij sloop het dorp binnen. Het was donker. Maar de honden van het dorp roken hem meteen. Waf, waf, waf! Ze blaften en ze renden achter hem aan. Chandu liep zo snel als hij kon. Hij rende door de straatjes, langs de huisjes en over een binnenplaats. En plons! Hij viel in een grote ton vol blauwe verf. Die verf was van de man die stoffen kleurt. Chandu klom uit de ton. De honden waren weg. Ze konden hem niet meer ruiken door de verf. Chandu liep terug naar het bos. De volgende ochtend keek hij in het water van de rivier. Wat zag hij? Hij was helemaal blauw! Blauwe oren, een blauwe neus, een blauwe staart. Oei, dacht hij. Maar toen kreeg Chandu een idee. Een slim idee, vond hij zelf. Hij ging midden in het bos staan. De andere dieren kwamen kijken. De haas, de hertjes, de aap, de olifant, en zelfs de leeuw en de tijger. Wat is dat voor een dier? fluisterden ze. Zo'n blauw dier hebben we nog nooit gezien! Chandu zette een hoge borst op. Ik ben een speciaal dier, zei hij. De hemel heeft mij gestuurd. Ik ben jullie nieuwe koning! De dieren waren onder de indruk. Ze bogen voor de blauwe koning. Vanaf die dag moesten ze hem elke dag het lekkerste eten brengen. Mango's, bananen, honing. Chandu lag de hele dag in de schaduw en deed niets. En weet je wat hij ook deed? Hij stuurde alle andere jakhalzen weg uit het bos. Want hij was bang dat zij hem zouden herkennen. Zo leefde Chandu een tijdje als een koning. Maar op een avond, toen de maan opkwam, hoorde hij in de verte een geluid. Het waren de andere jakhalzen. Ze huilden naar de maan, zoals jakhalzen dat doen. Auuuuw! Auuuuw! En Chandu? Hij kon het niet laten. Het zat in zijn hart. Hij gooide zijn kop in de lucht en huilde mee. Auuuuuw! De dieren keken elkaar aan. Hé, zei de aap. Dat geluid ken ik. Dat is geen speciale koning, zei de olifant. Dat is gewoon een jakhals! Hij heeft ons voor de gek gehouden, brulde de leeuw. Chandu schrok. Hij sprong op en rende weg, zo snel als hij kon. Weg uit het bos, en hij kwam nooit meer terug. Na een paar weken ging de blauwe verf eraf. Toen was Chandu weer een gewone jakhals. En weet je wat? Dat was eigenlijk veel fijner. Hij mocht terug bij zijn familie wonen. Ze huilden samen naar de maan. En hij moest niet meer bang zijn dat iemand zijn geheim zou ontdekken. De les van dit verhaal: doe niet alsof je iemand anders bent. Je bent goed zoals je bent. En wie liegt, wordt uiteindelijk toch ontdekt. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Waarom gaat de jakhals naar het dorp?",
+      "right": "🍖",
+      "wrong": [
+        "😴",
+        "🎉"
+      ],
+      "say": "De jakhals heeft honger en zoekt eten."
+    },
+    {
+      "question": "Wie blaffen naar de jakhals?",
+      "right": "🐕",
+      "wrong": [
+        "🐈",
+        "🐄"
+      ],
+      "say": "De honden blaffen naar hem."
+    },
+    {
+      "question": "In welke kleur verf valt hij?",
+      "right": "🔵",
+      "wrong": [
+        "🔴",
+        "🟡"
+      ],
+      "say": "Hij valt in blauwe verf."
+    },
+    {
+      "question": "Wat zegt de blauwe jakhals dat hij is?",
+      "right": "👑",
+      "wrong": [
+        "👮",
+        "👨‍🍳"
+      ],
+      "say": "Hij zegt dat hij de nieuwe koning is."
+    },
+    {
+      "question": "Hoe ontdekken de dieren zijn geheim?",
+      "right": "🌕",
+      "wrong": [
+        "🌧️",
+        "🌈"
+      ],
+      "say": "Hij huilt naar de maan, net als een jakhals."
+    }
+  ],
+  "words": [
+    {
+      "word": "de verf",
+      "emoji": "🎨",
+      "say": "De jakhals valt in de blauwe verf."
+    },
+    {
+      "word": "de honden",
+      "emoji": "🐕",
+      "say": "De honden blaffen heel luid."
+    },
+    {
+      "word": "de maan",
+      "emoji": "🌕",
+      "say": "De jakhalzen huilen naar de maan."
+    },
+    {
+      "word": "de rivier",
+      "emoji": "🏞️",
+      "say": "Hij kijkt in het water van de rivier."
+    },
+    {
+      "word": "de olifant",
+      "emoji": "🐘",
+      "say": "De olifant is groot en sterk."
+    },
+    {
+      "word": "de mango's",
+      "emoji": "🥭",
+      "say": "De dieren brengen mango's."
+    }
+  ]
+}
