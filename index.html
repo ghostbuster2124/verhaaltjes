@@ -206,6 +206,33 @@
   .panel summary{cursor:pointer;font-weight:700;padding:8px 0}
   .panel .story-row .e img{width:44px;height:44px;object-fit:cover;border-radius:8px;vertical-align:middle}
   .panel .badges{font-size:12px;color:#777;font-weight:400;display:block}
+
+  /* ---------- subtitles (v3) ---------- */
+  .subs{display:none;margin:0 auto;width:min(92vw,150vh);min-height:12.5vh;padding:1vh 2.4vw;border-radius:3vh;
+        background:rgba(20,8,55,.55);font-size:4.6vh;line-height:1.25;font-weight:800;
+        flex-wrap:wrap;justify-content:center;align-content:center;gap:.2vh 1.1vw;text-shadow:0 .3vh 0 rgba(0,0,0,.35);z-index:2;position:relative}
+  #player.subson .subs{display:flex}
+  .subs.long{font-size:3.9vh}
+  .subs span{display:inline-block;transition:color .12s,transform .12s;border-radius:1vh}
+  .subs span.on{color:#ffd23f;transform:scale(1.1)}
+  #player.subson .pics{height:46vh}
+  #player.subson .story-em{font-size:24vh}
+  #player.subson .topbar{padding:1.2vh 2vw}
+  #player.subson .round{width:10.5vh;height:10.5vh;font-size:5.6vh}
+  #player.subson .progress-wrap{padding:1.6vh 8vw 1vh}
+  #player.subson .track{height:4vh}
+  #player.subson .star{font-size:8vh}
+  #player.subson .player-bottom{padding:1.6vh 0 2.4vh}
+  #player.subson .quizbtn{padding:1.4vh 4vw;font-size:4.4vh}
+  #player.subson .quizbtn .q{font-size:7vh}
+  .qtext{display:none;text-align:center;font-size:4.6vh;font-weight:800;padding:0 4vw 1.5vh;text-shadow:0 .3vh 0 rgba(0,0,0,.35)}
+  #quiz.subson .qtext{display:block}
+  .panel .timer{display:none;background:#fff8e1;border:2px solid #ffd23f;border-radius:14px;padding:12px;margin:10px 0}
+  .panel .timer .tm-cur{font-size:15px;color:#555;min-height:22px}
+  .panel .timer .tm-next{font-size:20px;font-weight:800;color:#222;margin:8px 0}
+  .panel .timer .tm-go{width:100%;padding:22px!important;font-size:22px!important;background:#17b24a!important}
+  .panel .timer .tm-go:disabled{opacity:.4}
+  .panel .timer .tm-pos{font-family:ui-monospace,monospace;font-size:13px;color:#777}
 </style>
 </head>
 <body>
@@ -233,6 +260,7 @@
     <div class="pics" id="pics"><img id="picA" alt=""><img id="picB" alt=""></div>
     <button class="playbtn" id="playBtn" aria-label="Afspelen">▶️</button>
   </div>
+  <div class="subs" id="subs" aria-hidden="true"></div>
   <div class="progress-wrap">
     <div class="track">
       <div class="fill" id="fill"></div>
@@ -259,6 +287,7 @@
     <img class="qpic" id="quizPic" alt="">
     <button class="round" id="replayQ" aria-label="Vraag opnieuw">🔊</button>
   </div>
+  <div class="qtext" id="qText"></div>
   <div class="answers" id="answers"></div>
 </section>
 
@@ -280,6 +309,26 @@
   <div class="panel">
     <h2>⚙️ Parent settings</h2>
     <p>Hidden from your daughter: hold the ⚙️ button for about 1.5 seconds to open this panel.</p>
+
+    <h3>📦 Add a story pack</h3>
+    <p>A story pack is a <b>.zip</b> (or a folder) with a <code>story.json</code> and its pictures, MP3s and subtitles. Pick one or more; a story with the same code is replaced. Use <b>⬇️ Pack</b> on a story below to make one.</p>
+    <div class="row">
+      <label class="btn">📦 Choose story pack(s)<input type="file" id="pickPack" multiple></label>
+      <label class="btn" style="background:#eee;color:#333">🗂️ Choose a story folder<input type="file" id="pickPackFolder" webkitdirectory multiple></label>
+    </div>
+    <div class="status" id="packStatus">Story packs you add are kept on this tablet and work offline.</div>
+
+    <h3>💬 Subtitles</h3>
+    <div class="row"><select id="subsSel">
+      <option value="words">On, the word being read lights up</option>
+      <option value="sentence">On, just the sentence</option>
+      <option value="off">Off (only listening)</option>
+    </select></div>
+    <p style="font-size:14px">Subtitles come from the story text. With an MP3 they follow its timing file (<code>story.vtt</code>) if there is one, otherwise they're estimated. Make one in ✏️ Edit → ⏱️ Time the subtitles.</p>
+
+    <h3>📚 Story library (the stories folder of your website)</h3>
+    <div class="status" id="libStatus">…</div>
+    <div class="row"><button class="light" id="libRefresh">🔄 Check for new stories</button></div>
 
     <h3>🎵🖼️ Load MP3s and pictures in one go (optional)</h3>
     <p>Select many audio files and pictures at once. The file name says where each one goes. They're stored inside the app on this tablet and keep working offline. (You can also add them one by one with ✏️ on a story, below.)</p>
@@ -311,7 +360,7 @@
       <button class="light" id="exportStories">⬇️ Back up</button>
       <label class="btn" style="background:#eee;color:#333">⬆️ Restore backup<input type="file" id="importStories" accept=".json,application/json"></label>
     </div>
-    <details id="builtinDetails"><summary>Built-in stories (20) ▸ tap to open</summary><div id="builtinList"></div></details>
+    <details id="builtinDetails"><summary id="builtinSum">Library stories ▸ tap to open</summary><div id="builtinList"></div></details>
 
     <div id="editor" style="display:none">
       <h3 id="edHead">➕ New story</h3>
@@ -322,6 +371,16 @@
       <span class="lbl">Story text (read aloud by the voice when there's no MP3; mention the answers in it!)</span>
       <textarea id="edText" placeholder="Er was eens een kleine draak…"></textarea>
       <div class="slot"><b>🎵 Story MP3</b> (the long audio)<div id="edAudio"></div></div>
+      <div class="slot"><b>💬 Subtitles</b> (each sentence of the story text is one line)<div id="edSubs"></div>
+        <div class="timer" id="timer">
+          <div class="tm-pos"></div>
+          <div class="tm-cur"></div>
+          <div class="tm-next"></div>
+          <button class="tm-go">👆 This line starts NOW</button>
+          <div class="row"><button class="light tm-play">▶ Play</button><button class="light tm-undo">↩ Oops, redo the last line</button>
+            <button class="tm-done">✔ Use these subtitles</button><button class="light tm-cancel">Cancel</button></div>
+          <p style="font-size:13px;margin-top:6px">Tap the green button each time the voice <b>starts</b> the sentence shown in bold. Takes as long as the story.</p>
+        </div></div>
       <div class="slot"><b>🖼️ Card picture</b> (on the home screen; also shown while listening if there are no story pictures)
         <div class="thumbs" id="edCover"></div></div>
       <div class="slot"><b>🖼️ Story pictures</b>: shown one after another while she listens, spread evenly over the story. Put them in story order (◀ ▶ to move).
@@ -346,6 +405,7 @@
     <h3>🧹 Other</h3>
     <div class="row">
       <button class="light" id="resetStars">Reset ⭐ progress</button>
+      <button class="light" id="useLibPics">🖼️ Use the library's pictures</button>
       <button class="red" id="clearAudio">Delete stored MP3s</button>
     </div>
 
@@ -355,73 +415,205 @@
 
 <script>
 /* =====================================================================
-   STORY DATA — 20 stories, 3 questions each
-   file: base name of the MP3 (frozen → frozen.mp3, frozen_q1.mp3 …)
-   Also accepted: story1.mp3 / story1_q1.mp3
+   STORY LIBRARY (v3)
+   The stories live in the stories/ folder next to the app, one folder per story:
+     stories/index.json            {"stories":["frozen","simba",…]}  ← order on the home screen
+     stories/frozen/story.json     title, text, questions + the names of its files
+     stories/frozen/card.jpg, 1.jpg, 2.jpg … story.mp3, story.vtt, q1.mp3 …
+   The same folder, zipped, is a "story pack" you can add on the tablet (⚙️ panel).
+   Everything is saved on the tablet the first time (wifi), then works offline.
+   Raise "version" in a story.json when you replace one of its files.
    ===================================================================== */
-const STORIES = [
- {file:"frozen", emoji:"❄️", title:"Frozen. De sneeuwpop Olaf.",
-  text:"Hoog in de bergen van Arendelle, waar de sneeuw zo wit is als suiker, woont een koningin met een heel bijzondere toverkracht. Ze heet Elsa. Als Elsa met haar handjes zwaait, dan dwarrelen er sneeuwvlokjes door de lucht. Swiesj! En als ze met haar voet op de grond tikt, tik, dan wordt de vloer helemaal glad en glanzend ijs. Elsa heeft een zusje. Ze heet Anna. Anna is vrolijk en dapper en ze lacht heel graag. Maar op een dag werd Elsa bang voor haar eigen toverkracht. Ze liep weg, hoog de bergen in, en daar bouwde ze een prachtig ijspaleis. Het paleis glinsterde in de zon als een grote diamant. Amai, wat was dat schoon! Maar Elsa was ook een beetje eenzaam, helemaal alleen in dat grote paleis. Dus wat deed ze? Ze maakte een sneeuwpop! Ze rolde een grote sneeuwbal voor de buik, een middelgrote voor het lijf, en een kleine voor het hoofd. Ze stak twee takjes in zijn zij als armpjes. En als neus? Als neus kreeg hij een lange, oranje wortel! En toen gebeurde er iets magisch. Pling! De sneeuwpop knipperde met zijn ogen en begon te praten. Hallo! Ik ben Olaf, en ik hou van warme knuffels! Hihihi! Olaf was de grappigste sneeuwpop van de hele wereld. Hij danste, hij zong, en zijn hoofd viel soms per ongeluk van zijn lijf. Plof! Oeps! Dan zette hij het gewoon weer terug. Kiekeboe! Ondertussen ging Anna op zoek naar haar zus Elsa. Maar de bergen waren hoog en de sneeuw was diep. Gelukkig kwam ze een sterke jongen tegen. Hij heette Kristoff. En Kristoff had een heel goede vriend die hem altijd hielp: een rendier! Het rendier heette Sven. Sven had een groot gewei op zijn hoofd en een warme bruine vacht. Hij trok de slee door de sneeuw. Hop, hop, hop! En als Kristoff een wortel uit zijn zak haalde, dan deden ze samen: eentje voor jou, en eentje voor mij. Knabbel, knabbel! Onderweg vonden ze Olaf. Amai, wat schrok Sven! Hij likte aan de wortelneus van Olaf. Slurp! Hihihi, dat kriebelt, lachte Olaf. Toen vertelde Olaf zijn grote geheim. Weet je waar ik van droom? zei hij. Ik droom van de zomer! Van de warme zon op mijn buik! Van zandkastelen en ijsjes en in het gras liggen! Kristoff keek hem raar aan. Maar Olaf, zei hij, jij bent een sneeuwpop. Als het zomer wordt, dan smelt je! Maar Olaf vond dat niet erg. Hij zong vrolijk over de zon en de zomer, en hij deed alsof hij op het strand lag. Zalig, zei Olaf. Samen trokken ze verder door de sneeuw. Sven de rendier trok de slee, Kristoff hield de teugels vast, Anna keek uit naar het ijspaleis, en Olaf zong. Zwoesj! Ze gleden een heuvel af over het gladde ijs. Wiiiie! Eindelijk vonden ze Elsa. Maar Elsa was nog steeds bang. Ze dacht dat ze iedereen pijn zou doen met haar ijs. Het werd overal koud, nog kouder, het allerkoudste. Brrr! Anna werd helemaal stijf van de kou. Oei, oei! Maar toen deed Anna iets heel liefs. Ze beschermde haar zus Elsa. En Elsa gaf haar zusje een dikke knuffel en begon te wenen van liefde. En kijk, door die echte liefde smolt al het ijs! Drup, drup, drup! De zon kwam terug en de bloemen gingen open. En Olaf? Elsa zwaaide met haar handjes en maakte een klein sneeuwwolkje boven zijn hoofd. Zo kon Olaf eindelijk genieten van de zomer, van de warme zon, zonder te smelten! Ik ben zo content, riep Olaf. En Kristoff? Die kreeg een gloednieuwe slee. En zijn trouwe rendier Sven kreeg een hele zak vol wortels. Knabbel, knabbel! Iedereen was blij, en ze leefden nog lang en gelukkig.",
-  q:[["Wat heeft Olaf als neus?","🥕",["🍌","🪨"]],["Welk dier helpt Kristoff?","🦌",["🐶","🐴"]],["Waar droomt Olaf van?","☀️",["🌧️","🌙"]]]},
- {file:"simba", emoji:"🦁", title:"De Leeuwenkoning. Simba's grote brul.",
-  text:"Ver, ver weg, in het warme Afrika, ligt een grote savanne. Daar is het gras hoog en geel, en de zon schijnt heel de dag. Daar wonen olifanten, giraffen, zebra's en vogels in alle kleuren. En op een hoge rots, de Koningsrots, woont de koning van alle dieren: de leeuw Mufasa. Op een mooie ochtend werd er iets heel speciaals geboren. Een klein leeuwtje! Hij heette Simba. Simba was een leeuw, net als zijn papa. Hij had zachte gouden haartjes en kleine pootjes en een klein staartje met een pluimpje. Alle dieren van de savanne kwamen kijken. De olifanten toeterden: Toeteroe! De vogels floten: Fiew fiew! En de oude wijze aap Rafiki hield Simba hoog in de lucht, zodat iedereen hem kon zien. Hoera, riepen alle dieren. Simba groeide op en hij was heel nieuwsgierig. Hij wilde alles zien en alles weten. Papa Mufasa liet hem de hele savanne zien. Alles waar het zonlicht schijnt, zei Mufasa, dat is ons land. Later word jij de koning, Simba. Simba oefende elke dag zijn brul. Hij opende zijn mond heel wijd en deed: Roar! Maar het klonk nog heel klein, als een poesje. Miauw! Hihihi! De vogels lachten. Maar Simba gaf niet op. Simba had een vriendinnetje. Ze heette Nala. Samen speelden ze verstoppertje in het hoge gras. Kiekeboe! Ze sprongen over stenen en ze renden achter vlinders aan. Maar op een dag liepen ze te ver weg, naar een donkere plek waar ze niet mochten komen. Oei! Daar woonden de hyena's. Hihihaha, lachten de hyena's gemeen. Gelukkig kwam papa Mufasa hen redden met een grote, luide brul. ROOOAR! Later gebeurde er iets heel verdrietigs, en Simba liep weg van huis. Hij liep en liep, door het zand, door de hitte, tot hij heel moe was. Toen viel hij in slaap onder een boom. Toen Simba zijn oogjes opendeed, zag hij twee gekke gezichten. Het ene was een klein dier met een lange staart: een stokstaartje. Hij heette Timon. Het andere was een dik, vriendelijk wrattenzwijn met grote slagtanden. Hij heette Pumbaa. Pumbaa leek een beetje op een everzwijn, en hij lachte heel hard. Hohoho! Hallo kleine, zei Timon. Waarom ben je zo verdrietig? Weet je wat jij moet doen? Je moet je geen zorgen maken. Hakuna Matata! Dat betekent: geen zorgen! Simba ging bij Timon en Pumbaa wonen in de groene jungle. Daar was het fris en er waren watervallen. Plons! En ze lagen de hele dag te luieren. Maar toen kreeg Simba honger. Wat eten jullie eigenlijk? vroeg hij. Pumbaa tilde een grote boomstam op. En daaronder kropen allemaal beestjes! Wormpjes, kevertjes en rupsjes. Insecten! Mmm, zei Timon. Slijmerig maar lekker! Simba keek een beetje vies. Bah! Maar hij had zoveel honger. Hij nam een wormpje en slurpte het op. Slurp! En weet je wat? Het viel goed mee! Slijmerig maar lekker, lachte Simba. Vanaf toen aten ze samen elke dag insecten. Zo werd Simba groot en sterk. Hij kreeg een dikke, mooie manen rond zijn hoofd, net als zijn papa. Op een dag kwam Nala hem zoeken. Simba, je moet terugkomen! De savanne heeft je nodig! Simba dacht na. Hij keek naar de sterren, en het leek alsof zijn papa naar hem knipoogde. Toen wist Simba het. Hij moest naar huis gaan. Samen met Nala, Timon en Pumbaa liep Simba terug naar de Koningsrots. Hij joeg de gemene hyena's weg. Hij klom helemaal tot boven op de hoge rots. En toen liet hij een brul horen, zo luid, dat de hele savanne ervan trilde. ROOOOAAAAR! Alle dieren juichten. Simba was de nieuwe koning! En Timon en Pumbaa dansten van blijdschap. Hakuna Matata!",
-  q:[["Welk dier is Simba?","🦁",["🐘","🦒"]],["Wie zijn de twee grappige vrienden van Simba?","🐗",["🐒","🦜"]],["Wat eet Simba samen met Timon en Pumbaa?","🐛",["🍕","🍎"]]]},
- {file:"vaiana", emoji:"🌊", title:"Vaiana en de grote oceaan.",
-  text:"Midden in de grote blauwe oceaan ligt een klein eiland. Het heet Motunui. Daar is het altijd warm, het zand is wit, en er groeien overal hoge palmbomen. En in die palmbomen groeien kokosnoten! Grote, bruine, harige kokosnoten. Tok! Daar valt er eentje op de grond. Tok tok! Op dat eiland woont een meisje. Ze heet Vaiana. Haar papa is het opperhoofd van het eiland. Vaiana is dapper en slim, en ze houdt meer van de zee dan van wat dan ook. Toen Vaiana nog heel klein was, waggelde ze naar het strand. Daar zag ze een klein schildpadje dat naar de zee wilde. Vaiana hielp het schildpadje. En toen gebeurde er iets magisch. De oceaan ging opzij, als een muur van water, en speelde met haar. Splasj! Het water kriebelde aan haar teentjes. Hihihi! Vanaf toen was de oceaan haar allerbeste vriend. Vaiana had ook een huisdier. Een haan! Hij heette Heihei. Heihei was een beetje dom. Hij liep tegen bomen aan, bonk, en hij at steentjes op. Pik, pik, pik! Tok tok tokkedok! Maar iedereen vond hem toch lief. Op een dag gebeurde er iets ergs. De kokosnoten op het eiland werden zwart en zacht. Bah! En de vissers vingen geen enkele vis meer. Het eiland werd ziek. Vaiana's oma vertelde haar een geheim. Lang geleden, zei oma, heeft de halfgod Maui een klein groen steentje gestolen. Dat was het hart van de godin Te Fiti. Sindsdien gaat alles kapot. Iemand moet het hart terugbrengen. En wie denk je dat de oceaan had gekozen? Vaiana! Dus op een nacht nam Vaiana een houten zeilboot. Ze hees het grote zeil omhoog, en de wind blies erin. Woesj! Het zeilbootje vloog over de golven. Plons, plons! Vaiana keek achterom naar haar eiland. Ik kom terug, beloofde ze. Maar wie zat daar stiekem verstopt in de boot, onder een deksel? Tok tok? Het was Heihei, de haan! Hij was per ongeluk meegereisd. Heihei, wat doe jij hier? lachte Vaiana. Heihei keek haar dom aan en at nog een steentje op. Pik! Vaiana zeilde dagen en nachten. De golven waren hoog. Splasj! Soms viel ze in het water, maar de oceaan zette haar altijd terug in de boot. Plof! Dank je, oceaan! Eindelijk vond ze een eiland met de halfgod Maui. Maui was groot en sterk, met allemaal tekeningen op zijn lijf, en een magische haak waarmee hij kon veranderen in dieren. In een havik, in een haai, en zelfs in een klein kevertje! Maui was een beetje stoer en een beetje opschepperig. Maar Vaiana zei: Jij gaat mee! We brengen samen het hart terug! Samen zeilden ze verder. Ze vochten tegen kleine piraten in kokosnootharnassen. Ze daalden af naar een glinsterende onderwaterwereld met een reuzenkrab vol schatten. En Vaiana leerde van Maui hoe je kunt zeilen met de sterren. Kijk naar de sterren, zei Maui, dan vind je altijd de weg. Op het einde kwamen ze bij een groot lava monster. Grrr! Vuur en rook! Maar Vaiana was slim. Ze zag dat het lavamonster eigenlijk de godin Te Fiti was, die verdrietig was omdat haar hart weg was. Vaiana liep heel rustig naar haar toe, en ze legde het groene steentje terug. Pling! Alles werd groen! Bloemen, bomen, gras en bladeren groeiden overal. Vaiana zeilde terug naar huis, met Heihei op haar schoot. En op haar eiland waren de kokosnoten weer bruin en lekker. Tok! De vissen zwommen terug. De mensen dansten op het strand. En Vaiana leerde iedereen weer zeilen over de grote blauwe oceaan.",
-  q:[["Welk dier reist stiekem mee op de boot van Vaiana?","🐔",["🐱","🐷"]],["Waarmee reist Vaiana over de oceaan?","⛵",["🚂","✈️"]],["Wat groeit er op het eiland van Vaiana?","🥥",["🍓","🍐"]]]},
- {file:"assepoester", emoji:"👠", title:"Assepoester en het glazen muiltje.",
-  text:"Er was eens een lief meisje dat Assepoester heette. Ze woonde in een groot huis met haar stiefmoeder en twee stiefzussen. Maar die waren helemaal niet lief. Ze waren gemeen en lui. Assepoester, poets de vloer! riep de stiefmoeder. Assepoester, was mijn jurk! riep de ene stiefzus. Assepoester, maak mijn ontbijt! riep de andere. Wat ambetant! Assepoester moest de hele dag werken. Ze schrobde, ze veegde en ze kookte. Schrob, schrob, schrob! Haar kleren werden grijs van de as uit de haard. Daarom noemden ze haar Assepoester. Maar Assepoester bleef altijd vriendelijk. En ze had heel lieve vriendjes. Weet je wie? De muisjes! Kleine grijze muisjes met roze oortjes en lange staartjes. Piep piep! De muisjes woonden in een holletje in de muur. Ze hielpen Assepoester met alles. Ze droegen draadjes en knoopjes, en ze maakten haar bed op. Piep piep, wij helpen je, Assepoester! En er waren ook vogeltjes die zongen. Tjiep tjiep! Op een dag kwam er een brief van het paleis. De prins gaf een groot bal! Alle meisjes van het land mochten komen dansen. De stiefzussen sprongen op en neer. Ik ga met de prins dansen! Nee, ik! Mag ik ook mee? vroeg Assepoester zachtjes. De stiefmoeder lachte. Jij? Alleen als je al je werk gedaan hebt en een mooie jurk hebt! Assepoester had geen mooie jurk. Maar de muisjes en de vogeltjes gingen aan de slag. Ze naaiden en ze knipten, de hele dag. Tik tik tik. En kijk: een schone roze jurk! Assepoester was zo blij. Maar toen de stiefzussen het zagen, trokken ze de jurk helemaal kapot. Rrrrits! Assepoester liep naar de tuin en begon te wenen. Snik, snik. Maar toen begon er iets te schitteren. Pling, pling! Een oud vrouwtje met een toverstokje verscheen. Het was haar goede fee! Niet wenen, liefje, zei de fee. Jij gaat naar het bal! De fee keek rond in de tuin. Ze zag een grote, dikke, oranje pompoen. Ze zwaaide met haar toverstokje en zei: Bibbidi-Bobbidi-Boe! Poef! De pompoen werd groter en groter, en veranderde in een prachtige gouden koets met wielen! Amai! Toen keek ze naar de muisjes. Bibbidi-Bobbidi-Boe! De muisjes veranderden in vier witte paarden. Hiiihii! En het paard van de stal werd de koetsier. En dan Assepoester zelf. Bibbidi-Bobbidi-Boe! Haar kapotte jurk veranderde in een glinsterende blauwe baljurk. En aan haar voetjes droeg ze twee glazen muiltjes, schoentjes die schitterden als sterretjes. Maar onthoud één ding, zei de fee. Om twaalf uur 's nachts is de betovering voorbij. Dan wordt alles weer zoals het was. De gouden koets reed naar het paleis. Klipklop, klipklop. Toen Assepoester binnenkwam, keek iedereen. Wie is dat mooie meisje? De prins zag haar en vroeg: Wil je met mij dansen? Ze dansten en dansten, de hele avond. Het was zo plezant! Maar plots: Bong! De klok begon te slaan. Bong! Bong! Het was twaalf uur! Oh nee, ik moet weg! riep Assepoester. Ze rende de grote trap van het paleis af. Tik tik tik. En op de trap verloor ze één van haar glazen schoentjes! Maar ze had geen tijd om het op te rapen. Bong! Poef! De koets werd weer een pompoen, en de paarden werden weer muisjes. Piep piep! De volgende dag zocht de prins overal naar het meisje met het glazen schoentje. Elk meisje moest het passen. De stiefzussen duwden en trokken, maar hun voeten waren veel te groot. Au au au! Toen mocht Assepoester het passen. En wat denk je? Het schoentje paste perfect! De prins was zo blij. Assepoester trouwde met de prins, en de muisjes kwamen ook mee naar het paleis. Piep piep, hoera!",
-  q:[["Wat verandert de fee in een gouden koets?","🎃",["🍉","🥔"]],["Welke diertjes helpen Assepoester?","🐭",["🐸","🕷️"]],["Wat verliest Assepoester op de trap van het paleis?","👠",["👑","👜"]]]},
- {file:"sneeuwwitje", emoji:"🍎", title:"Sneeuwwitje en de zeven dwergen.",
-  text:"Er was eens, lang geleden, een prinses met een huid zo wit als sneeuw, lippen zo rood als een appel en haren zo zwart als de nacht. Haar naam was Sneeuwwitje. Sneeuwwitje woonde in een kasteel met haar stiefmoeder, de koningin. Maar de koningin was jaloers en gemeen. Ze had een toverspiegel aan de muur. Elke dag ging ze voor de spiegel staan en vroeg ze: Spiegeltje, spiegeltje aan de wand, wie is de mooiste van het hele land? En de spiegel antwoordde altijd: U, mijn koningin, bent de mooiste van het land. Maar op een dag zei de spiegel iets anders. Sneeuwwitje is nu de mooiste van het land. Oei! De koningin werd zo boos dat ze rood werd. Grrrr! Ze stampte met haar voeten. Dat kan niet! Ik wil de mooiste zijn! Sneeuwwitje moest snel wegvluchten. Ze liep het grote donkere bos in. De bomen leken op monsters met lange armen. Oehoe, riep een uil. Kraak, deed een tak. Sneeuwwitje was bang, en ze liep en liep. Maar de dieren van het bos waren lief. De konijntjes, de vogeltjes en de hertjes brachten haar naar een veilig plekje. Daar, tussen de bomen, stond een piepklein huisje. Sneeuwwitje klopte op de deur. Klop klop. Maar niemand deed open. Ze ging voorzichtig naar binnen. Amai! Alles was zo klein! Er stond een tafeltje met zeven kleine bordjes. Zeven kleine bekertjes. Zeven kleine stoeltjes. En boven stonden zeven kleine bedjes. Zeven! Wie zou hier wonen? Maar het was er wel heel vuil. Sneeuwwitje en de dieren poetsten het hele huis. Schrob, schrob! En daarna viel ze in slaap over de bedjes. Toen het donker werd, hoorde je in de verte gezang. Hei ho, hei ho! Daar kwamen zeven kleine mannetjes met lange baarden en puntmutsen. Het waren de zeven dwergen! Ze werkten de hele dag in de mijn, waar ze glinsterende diamanten zochten. Tik, tak, tik, met hun houweeltjes! Er waren er zeven. Er was Doc, de baas met zijn brilletje. Er was Brompot, die altijd boos keek. Er was Giechel, die altijd lachte. Hihihi! Er was Bloosje, die rood werd als je naar hem keek. Er was Slaapkop, die altijd moe was. Gaaap! Er was Niesje, die heel hard kon niezen. Hatsjoe! En er was Stoetel, de kleinste, die niet kon praten maar wel grappig was. Een, twee, drie, vier, vijf, zes, zeven dwergen! Ze schrokken toen ze Sneeuwwitje zagen. Maar Sneeuwwitje was zo lief. Ze maakte een lekkere soep voor hen. Slurp, slurp! Het was zo lekker. Mag ik bij jullie blijven? vroeg ze. Ja! riepen de dwergen. Zelfs Brompot zei: Allez, vooruit dan. Maar in het kasteel vroeg de koningin weer aan haar spiegel: Wie is de mooiste van het land? En de spiegel zei: Sneeuwwitje, bij de zeven dwergen in het bos. Toen maakte de koningin een toverdrank. Blub, blub, blub! Ze veranderde zichzelf in een oud, krom vrouwtje met een grote neus. En ze nam een mand met appels. Bovenop lag de mooiste: een glimmende rode appel. Maar die appel was betoverd! De volgende dag waren de dwergen aan het werk. Sneeuwwitje was alleen. Klop klop. Het oude vrouwtje stond aan de deur. Wil je een lekkere appel, liefje? Sneeuwwitje nam de rode appel en beet erin. Hap! En plof! Ze viel in een diepe, diepe slaap. De dwergen waren heel verdrietig. Maar toen kwam er een prins op een wit paard. Klipklop. Hij zag Sneeuwwitje en gaf haar een klein kusje. En kijk! Sneeuwwitje deed haar ogen open. Ze werd wakker! De zeven dwergen dansten en sprongen van blijdschap. Hoera! En Sneeuwwitje en de prins leefden nog lang en gelukkig. De dwergen kwamen elke week op bezoek, en Sneeuwwitje maakte altijd lekkere soep.",
-  q:[["Hoeveel dwergen wonen er in het kleine huisje?","7️⃣",["2️⃣","🔟"]],["Welk stuk fruit geeft de boze koningin aan Sneeuwwitje?","🍎",["🍊","🍇"]],["Waar vraagt de koningin wie de mooiste van het land is?","🪞",["📖","🖼️"]]]},
- {file:"rapunzel", emoji:"👱‍♀️", title:"Rapunzel en haar lange haren.",
-  text:"Hoog in een verborgen toren, diep in het bos, woonde een meisje. Ze heette Rapunzel. En weet je wat er heel bijzonder was aan Rapunzel? Haar haren! Rapunzel had gouden haren die superlang waren. Wel twintig meter lang! Zo lang, dat ze van boven in de toren helemaal tot op de grond hingen. Amai! Rapunzel woonde in de toren met moeder Gothel. Maar moeder Gothel was eigenlijk niet haar echte mama. Ze hield Rapunzel in de toren, omdat Rapunzels haren een geheime toverkracht hadden. Als Rapunzel een liedje zong, dan begonnen haar haren te gloeien als een lampje. En dan werd iedereen die ze aanraakte weer jong en gezond. Rapunzel, laat je haar zakken! riep moeder Gothel altijd beneden aan de toren. En dan gooide Rapunzel haar lange haren naar buiten. Zoef! En moeder Gothel klom naar boven. Rapunzel mocht nooit naar buiten. Nooit! Wat ambetant! Maar ze verveelde zich niet. Ze schilderde de muren vol met bloemen en sterren. Ze bakte koekjes. Ze las boeken. Ze speelde gitaar. En ze had een klein vriendje. Een klein groen diertje, een kameleon! Een kameleon is een soort hagedisje. Hij heette Pascal. Pascal kon van kleur veranderen. Als hij op een rode stoel zat, werd hij rood. Als hij op een gele bloem zat, werd hij geel. Kiekeboe, waar is Pascal? Hihihi, daar zit hij! Elk jaar, op haar verjaardag, gebeurde er iets wonderlijks. Dan keek Rapunzel 's avonds uit het raam. En in de verte zweefden er duizenden lichtjes de lucht in. Het waren lantaarns! Gele, gloeiende lantaarns die als sterretjes naar boven zweefden. Rapunzel droomde ervan om die zwevende lichtjes één keer van dichtbij te zien. Dat was haar allergrootste wens. Op een dag klom er iemand de toren in. Het was een jongen. Hij heette Flynn Rider. Flynn was een grappige avonturier, maar ook een beetje een dief. Hij was op de vlucht. Rapunzel schrok zo hard, dat ze hem op zijn hoofd sloeg met haar koekenpan. Bong! Plof, daar lag Flynn. Hihihi! Toen Flynn wakker werd, zei Rapunzel: Ik wil de lichtjes zien. Jij moet mij erheen brengen! Flynn zuchtte. Allez dan. Rapunzel klom voor de eerste keer in haar leven uit de toren, met haar lange haren als een touw. Zoef! En toen ze met haar blote voetjes in het gras stond, riep ze: Gras! Echt gras! Wat is dit plezant! Onderweg kwamen ze een groot wit paard tegen. Hij heette Maximus. Maximus was het paard van de wachters van het kasteel. Hij was heel stoer en wilde Flynn eigenlijk vangen. Hiiihii! Maar Rapunzel aaide hem over zijn neus en zei: Wees lief, Maximus. En toen werd Maximus ook haar vriendje. Ze beleefden spannende avonturen. Ze kwamen in een herberg vol stoere mannen, maar die bleken allemaal lieve dromen te hebben. Ze vluchtten voor wachters. Ze zaten vast in een grot vol water. Plons! Maar Rapunzels haren gloeiden, en zo vonden ze de weg naar buiten. En toen was het eindelijk zover. Het was haar verjaardag. Flynn nam Rapunzel mee in een klein bootje op het water. Het werd donker. En toen, heel langzaam, zweefde er één lichtje omhoog. En nog één. En nog één. Duizenden zwevende lichtjes vulden de lucht en weerspiegelden in het water. Rapunzel had tranen in haar ogen, zo mooi was het. Flynn gaf haar ook een lantaarn, en samen lieten ze die opstijgen. Later ontdekte Rapunzel dat ze eigenlijk een echte prinses was. De koning en de koningin waren haar mama en papa! Ze hadden haar al die jaren gezocht. Elk jaar lieten ze de lichtjes los, in de hoop dat ze ooit terug zou komen. Rapunzel ging terug naar het kasteel. Ze gaf haar mama en papa een dikke knuffel. En Pascal werd blij en roze. En Flynn en Maximus? Die bleven voor altijd haar beste vrienden.",
-  q:[["Wat is er heel bijzonder aan Rapunzel?","👱‍♀️",["👃","👂"]],["Welk klein groen diertje is haar vriendje?","🦎",["🐢","🐊"]],["Wat wil Rapunzel heel graag zien op haar verjaardag?","🏮",["🎆","🌈"]]]},
- {file:"toystory", emoji:"🤠", title:"Toy Story. Het speelgoed komt tot leven.",
-  text:"In een gezellig huis woont een jongetje dat Andy heet. Andy heeft een slaapkamer vol speelgoed. Er is een dinosaurus die Rex heet. Er is een varkentje dat een spaarpot is. Er is een meneer Aardappelhoofd. Er zijn kleine groene soldaatjes. En er is een hond met een veer in zijn buik. Maar het allerliefste speelgoed van Andy is Woody. Woody is een cowboy! Hij heeft een bruine cowboyhoed, laarzen met sporen en een sheriffster op zijn borst. Als je aan het touwtje in zijn rug trekt, dan zegt hij: Er zit een slang in mijn laars! Jiehaa! Maar het speelgoed van Andy heeft een groot geheim. Weet je wanneer het speelgoed tot leven komt? Als Andy de kamer uit gaat en de deur dicht doet! Klik. Dan wordt het muisstil. En dan, één, twee, drie, begint al het speelgoed te bewegen! Ze rekken zich uit. Ze praten. Ze lachen. Ze spelen spelletjes. Hihihi! Maar zodra ze voetstappen horen op de trap, stamp, stamp, en de deur gaat weer open, dan roept Woody: Iedereen op je plaats! En plof, alles ligt weer stil. Niemand mag het geheim weten. Woody is de baas van de kamer. Hij houdt vergaderingen en zorgt dat iedereen zich gedraagt. Op een dag is Andy jarig. Hij krijgt pakjes. En in één pakje zit iets nieuws. Iets dat glimt en piept! Het is een ruimteman! Hij heet Buzz Lightyear. Buzz heeft een witte en groene ruimtepak, een helm die open en dicht gaat, een laser op zijn arm, en vleugels op zijn rug. Pieuw pieuw! Buzz kijkt rond en denkt dat hij echt in de ruimte is. Buzz Lightyear voor het ruimtecommando! zegt hij. En weet je wat Buzz denkt dat hij kan? Vliegen! Echt vliegen, als een raket, naar de sterren. Naar de oneindigheid en daar voorbij! roept hij, en hij springt van het bed. Zoef! Hij botst tegen een bal, en een auto, en hij draait rond aan een lampje, en landt weer op het bed. Al het speelgoed klapt. Wauw! Maar Woody zegt: Dat is geen vliegen. Dat is vallen met stijl. Woody wordt een beetje jaloers. Want Andy speelt nu de hele tijd met Buzz in plaats van met hem. Andy's kamer hangt vol met ruimtespullen. Woody voelt zich alleen. Op een dag gaat het mis. Woody en Buzz maken ruzie, en ze vallen per ongeluk uit de auto bij een tankstation. Oei! Daar staan ze, helemaal alleen, en Andy rijdt weg. Vroem! Woody en Buzz moeten samenwerken. Ze springen in een pizzawagen en komen in een groot pizzarestaurant. Daar zitten kleine groene speelgoedmannetjes met drie oogjes in een grijpmachine. Ooooh, de klauw! zeggen ze. Maar dan worden ze meegenomen door Sid. Sid is de buurjongen, en die is niet lief voor speelgoed. Hij maakt rare dingen van speelgoed en blaast het op met vuurwerk. Help! In Sids huis ziet Buzz een reclame op televisie. En dan begrijpt hij het. Hij is geen echte ruimteman. Hij is speelgoed. Hij kan niet echt vliegen. Buzz is verdrietig. Maar Woody zegt: Buzz, jij bent heel belangrijk. Andy houdt van jou! Jij bent zijn speelgoed. En dat is het allerbeste wat er is. Samen bedenken ze een plan. Al het speelgoed van Sid helpt mee. Ze laten Sid eens goed schrikken, zodat hij voortaan lief zal zijn voor speelgoed. Boe! Dan rennen Woody en Buzz achter de verhuiswagen van Andy aan. Ze zitten op een speelgoedauto, en Buzz heeft een vuurpijl op zijn rug. Pssssj! Boem! De vuurpijl schiet de lucht in, en Buzz spreidt zijn vleugels. En ze vliegen, echt, door de lucht. Dit is geen vliegen, roept Buzz. Dit is vallen met stijl! En ze landen, plof, precies in Andy's auto. Andy is zo blij dat hij zijn twee favoriete speelgoedjes terug heeft. En vanaf toen zijn Woody en Buzz de allerbeste vrienden.",
-  q:[["Wat voor speelgoed is Woody?","🤠",["🤖","🦖"]],["Wat denkt Buzz Lightyear dat hij kan doen?","🚀",["🏊","🎸"]],["Wanneer komt het speelgoed tot leven?","🚪",["🛁","🍽️"]]]},
- {file:"nemo", emoji:"🐠", title:"Finding Nemo. Zwemmen in het koraalrif.",
-  text:"Diep in de warme blauwe oceaan ligt een koraalrif. Daar groeien koralen in alle kleuren van de regenboog. En daar wonen allemaal vissen. Gele vissen, paarse vissen en gestreepte vissen. Blub, blub! In een zachte zeeanemoon, die wiebelt als een grote pluizige plant, woont een klein visje. Hij heet Nemo. Nemo is een clownvisje. Hij is oranje met witte strepen. En Nemo heeft één klein vinnetje dat wat kleiner is dan het andere. Dat noemt hij zijn geluksvin. Nemo woont samen met zijn papa. Papa heet Marlin. Papa Marlin is heel lief, maar ook heel bang. Hij is altijd bezorgd. Nemo, pas op! Nemo, niet te ver! Nemo, voorzichtig! Op een dag is het de eerste schooldag van Nemo. Joepie! Hij zwemt op de rug van de juf. De juf is een grote rog die zingt over alle dieren van de zee. Nemo is zo blij. Maar dan zien de vriendjes een boot in de verte. Een boot! Wie durft er naartoe te zwemmen? Nemo wil laten zien dat hij flink is. Hij zwemt helemaal tot aan de boot en tikt ertegen. Tik! Maar dan komt er een duiker. Klik! Een flits van een fototoestel. En de duiker vangt Nemo in een netje! Papa! roept Nemo. De duiker neemt hem mee op de boot. Vroem! Weg is Nemo. Papa Marlin zwemt zo snel als hij kan. Nemo! Nemo! Maar de boot is veel te snel. Dan botst papa Marlin tegen een andere vis. Bonk! Het is een vrolijke blauwe vis met een geel staartje. Ze heet Dory. Dory is blauw, heel blauw, zo blauw als de lucht. Ze is supervriendelijk. Ik heb een boot gezien! zegt Dory. Volg mij! Ze zwemmen samen. Maar na een tijdje draait Dory zich om. Waarom volg je mij? Wie ben jij? Papa Marlin kijkt verbaasd. Je zei toch dat je de boot gezien had? Dory lacht. Hihihi! Sorry, ik vergeet alles heel snel. Alles wat net gebeurd is, ben ik na vijf seconden alweer vergeten. Dat zit in mijn familie, denk ik. Of toch niet? Ik ben het vergeten! Dory vergeet alles. Haar naam weet ze wel. Maar wat er net gebeurd is, dat vergeet ze altijd. Toch is Dory heel flink, en ze geeft nooit op. Ze heeft een liedje: Gewoon blijven zwemmen, gewoon blijven zwemmen! Blub blub blub! Papa Marlin en Dory beleven samen een groot avontuur. Ze ontmoeten drie haaien die beloven geen vissen meer te eten. Vissen zijn vriendjes, geen eten! Maar oei, toch beginnen ze te happen. Hap! Snel wegzwemmen! Dory kan lezen, en ze leest het adres op de duikbril van de duiker: Sydney! Daar moeten ze naartoe. Ze zwemmen door een veld vol roze kwallen. Die prikken! Au! Ze surfen op de stroming met grappige zeeschildpadden. Die zeggen: Cool, man! Wiiie! En ze worden opgeslokt door een grote walvis. Dory praat walvistaal: Oooeeeeoooo! En de walvis spuit hen naar buiten. Pfffft! Precies in Sydney! Ondertussen zit Nemo in een aquarium bij een tandarts. Daar wonen andere vissen, en die helpen Nemo om te ontsnappen. Nemo is heel dapper. Hij zwemt door een buis, en floep, hij is in de zee! En dan, eindelijk, vindt papa Marlin hem terug. Nemo! Papa! Ze geven elkaar een dikke vinnenknuffel. Ze zwemmen samen terug naar huis, naar het koraalrif. En Dory gaat ook mee. Ze woont nu naast hen. En elke dag zegt ze: Hallo! Ik ben Dory! Wie zijn jullie? En dan lachen Nemo en papa Marlin. Hihihi!",
-  q:[["Welk dier is Nemo?","🐠",["🐙","🦀"]],["Welke kleur heeft Dory?","🔵",["🟡","🟢"]],["Wat vergeet Dory heel snel?","🧠",["🏊","😴"]]]},
- {file:"winnie", emoji:"🍯", title:"Winnie de Poeh en de honingpot.",
-  text:"Ergens ver weg ligt een groot bos. Het heet het Honderd Bunderbos. Daar zijn hoge bomen, een riviertje met een bruggetje en zachte groene weides. En daar woont een beer. Een lieve, gele beer met een rood truitje dat een beetje te klein is. Hij heet Winnie de Poeh. Winnie de Poeh is niet zo slim, zegt hij zelf. Ik ben een beer met heel weinig verstand. Maar hij is wel heel lief. En weet je wat Winnie de Poeh het allerliefst eet? Honing! Zoete, gele, plakkerige honing! Mmm! Hij eet honing bij het ontbijt, honing als tussendoortje, en honing als avondeten. En soms ook nog een klein beetje honing voor het slapengaan. Op een ochtend werd Poeh wakker. Zijn buikje maakte geluiden. Knor! Knor! Rommel, rommel. Oei, zei Poeh. Tijd voor iets kleins. Hij liep naar de kast en pakte zijn honingpot. Maar de pot was leeg! Hij keek erin. Leeg. Hij stak zijn hoofd erin. Helemaal leeg! Oh, bah, zei Poeh. Wat ambetant. Dus ging Winnie de Poeh op zoek naar honing. Eerst ging hij naar zijn vriendje Knorretje. Knorretje is heel klein. Het is een klein biggetje, en hij is roze! Helemaal roze, met een roze snuitje en roze oortjes. Hij draagt een groen-roze pakje. Knorretje is een beetje bang van alles. Oh d-d-d-dag Poeh, zei Knorretje. Wat ga je doen? Honing zoeken, zei Poeh. Ga je mee? Ze liepen samen door het bos. En toen kwam er iemand aan, boing, boing, boing! Het was Teigetje! Teigetje is oranje met zwarte strepen, en hij springt op zijn staart als op een veer. Boing! Hoehoehoe! Het leukste van Teigers is dat ik de enige ben! riep hij. En boem, hij sprong Poeh omver. Plof! Hihihi! Teigetje ging ook mee. Ze liepen verder en kwamen bij een hele hoge boom. Poeh luisterde. Zoem, zoem, zoem. Zoemmmm. Hoor je dat? zei Poeh. Dat geluid betekent: bijen! En bijen maken honing! In die hoge boom zat een grote bijenkorf. De bijen vlogen in en uit. Zoem, zoem! Ze maakten daar de lekkerste honing van het hele bos. Poeh begon te klimmen. Hup, hup, hup. Hoger en hoger. Maar krak! De tak brak! En Poeh viel naar beneden, door alle takken. Au, au, au! Plof, in een doornstruik. Toen had Poeh een idee. Hij nam een blauwe ballon. Hij rolde door de modder, zodat hij er bruin uitzag. En hij zweefde met de ballon naar boven. Ik ben gewoon een klein zwart regenwolkje, zei Poeh tegen de bijen. Ik ben helemaal geen beer. Hij stak zijn poot in de bijenkorf. Mmm, honing! Maar de bijen waren niet dom. Zoem? Zoem! Zoemmmmm! Die wolk heeft een berenpoot! Ze werden boos en vlogen achter Poeh aan. Help! riep Poeh. Hij liet de ballon los en plons! Hij viel in de modderpoel. De bijen zoemden weg. Zoem zoem zoem. Knorretje en Teigetje kwamen aangelopen. Gaat het, Poeh? Poeh stond op, helemaal vies, en zei: Ik denk dat het de verkeerde soort bijen waren. Toen kwam Christopher Robin, het jongetje dat de beste vriend van Poeh is. Gekke oude beer, zei hij lachend. Ze gingen allemaal op bezoek bij Konijn. Konijn heeft een moestuin met wortels en kolen. En weet je wat Konijn in zijn kast had staan? Een grote pot honing! Konijn zuchtte. Allez, vooruit dan, Poeh. Poeh at en at en at. Slurp, smak! Zo veel, dat zijn buik heel rond werd. En toen hij naar buiten wilde, bleef hij vastzitten in de deur van Konijn! Oei! Iedereen trok aan Poeh. Een, twee, drie, trekken! Floep! Daar vloog Poeh naar buiten, en iedereen lachte. En die avond lag Winnie de Poeh tevreden in zijn bedje. Met een volle buik, en lieve vriendjes. Wat wil een beer nog meer?",
-  q:[["Wat eet Winnie de Poeh het allerliefst?","🍯",["🧀","🥕"]],["Welke kleur heeft het kleine vriendje Knorretje?","🐷",["🟣","🟤"]],["Welke insecten maken de honing in de boom?","🐝",["🦋","🐜"]]]},
- {file:"belle", emoji:"🌹", title:"Belle en het Beest.",
-  text:"In een klein dorpje in Frankrijk, met kleine huisjes en een bakkerij en een fontein, woonde een slim meisje. Ze heette Belle. En weet je wat Belle het allerliefst deed? Boeken lezen! Belle las de hele dag. Als ze over straat liep, las ze. Als ze bij de fontein zat, las ze. Ze las over verre landen, over draken en over prinsen. Ze ging elke dag naar de boekenwinkel. Heeft u een nieuw boek? Ja, zei de boekenman, en hij gaf haar haar lievelingsboek cadeau. De mensen in het dorp vonden Belle een beetje raar. Een meisje dat altijd leest? Maar Belle vond dat niet erg. In het dorp woonde ook een stoere man. Hij heette Gaston. Gaston vond zichzelf heel knap en heel sterk. Hij wilde met Belle trouwen. Maar Belle vond Gaston dom en opschepperig. Nee, dank je, zei ze. Belle woonde samen met haar papa, Maurice. Papa was een uitvinder. Hij maakte rare machines die piepten en floten. Tuut! Pfft! Op een dag reed papa met zijn paard naar de markt. Maar hij verdwaalde in het donkere bos. Wolven huilden: Auwoeooo! Papa vluchtte, en kwam bij een groot, donker kasteel. Het paard kwam alleen terug naar huis. Hiiihii! Belle schrok. Waar is papa? Ze sprong op het paard en reed naar het kasteel. Het kasteel was groot en koud. De deur ging open. Kriiieeek. Hallo? riep Belle. En daar, in een koude kamer, vond ze haar papa. Maar toen kwam er iemand. Een groot, harig Beest met horens en tanden en een lange cape. GRRRROAAAR! Het was het Beest, de baas van het kasteel. Belle was bang, maar ook dapper. Laat mijn papa gaan, zei ze. Dan blijf ik hier. En zo bleef Belle in het kasteel. Maar het kasteel was betoverd! Lang geleden was het Beest een prins geweest. Een prins die niet lief was. Een tovenares had hem betoverd in een Beest. En alle mensen in het kasteel waren veranderd in voorwerpen. Er was een kandelaar met kaarsjes op zijn handen. Hij heette Lumière, en hij sprak met een grappig Frans accent. Er was een klok die Zwengel heette. Tik tak! En er was een vriendelijke dikke theepot. Ze heette Mevrouw Tuit. Zij kon praten, en ze kon thee schenken. Klokklokklok, een warm kopje thee, liefje? Haar zoontje was een klein kopje met een barstje. Hij heette Barstje, en hij sprong rond op tafel. Hihihi! De voorwerpen maakten een heerlijk feestmaal voor Belle. De borden dansten, de vorken zongen, en Lumière deed een grote show. Wees onze gast! Belle lachte en klapte in haar handen. Het Beest was in het begin heel boos en brullerig. Grrr! Maar Belle zei: Als je wil dat ik vriendelijk ben, moet jij ook vriendelijk zijn. Het Beest schrok. Dat had nog nooit iemand tegen hem gezegd. Langzaam veranderde het Beest. Hij leerde zachtjes praten. Hij voerde samen met Belle de vogeltjes in de sneeuw. Tjiep tjiep. En op een dag zei hij: Belle, ik heb een verrassing. Hij deed een grote deur open. En daarachter? Een enorme bibliotheek, vol boeken tot aan het plafond! Duizenden boeken! Belle kon haar ogen niet geloven. Dit is allemaal van jou, zei het Beest. Amai! Op een avond trok Belle een gele baljurk aan. Het Beest droeg een blauw pak. En ze dansten samen in de grote balzaal, terwijl Mevrouw Tuit zachtjes zong. Maar Gaston was jaloers. Hij kwam met een hele groep mensen naar het kasteel om het Beest te vangen. De voorwerpen vochten terug. Lumière blies vuur, en de kast sprong op de mensen. Hihihi! Ze liepen allemaal weg. Het Beest raakte gewond. Belle huilde en zei: Ik hou van jou. En toen gebeurde er iets magisch. Pling, pling, pling! Er dwarrelden lichtjes rond het Beest. Hij zweefde in de lucht. En het Beest veranderde terug in een knappe prins! Ook Lumière, Mevrouw Tuit, Zwengel en Barstje werden weer mensen. Het kasteel werd licht en mooi. En Belle en de prins dansten, en leefden nog lang en gelukkig. Met heel veel boeken natuurlijk.",
-  q:[["Wat doet Belle het allerliefst?","📚",["⚽","🎨"]],["Welk voorwerp in het kasteel kan praten en thee schenken?","🫖",["⏰","🧹"]],["Wat gebeurt er met het Beest op het einde?","🤴",["🐸","🐻"]]]},
- {file:"aladdin", emoji:"🪔", title:"Aladdin en de wonderlamp.",
-  text:"Ver weg, in een warm land met veel zand en hoge zandduinen, ligt een drukke stad. Ze heet Agrabah. Er zijn markten vol fruit, tapijten en potten. De mensen roepen: Verse dadels! Mooie stoffen! En kamelen lopen door de straten. Bloeh! In die stad woont een slimme jongen. Hij heet Aladdin. Aladdin is arm. Hij heeft geen huis en geen geld. Maar hij heeft wel een groot hart. En hij heeft een beste maatje: een klein aapje! Het aapje heet Abu. Abu draagt een klein rood vestje en een klein hoedje. Hij zit altijd op de schouder van Aladdin. Oe oe aa aa! En Abu pikt soms stiekem een banaan of een appel op de markt. Abu, niet doen! lacht Aladdin. In het paleis woont een prinses. Ze heet Jasmine. Ze heeft een grote tijger als huisdier, die Rajah heet. Grrr! Jasmine verveelt zich in het paleis. Ze mag nooit naar buiten. Dus op een dag verkleedt ze zich en sluipt ze naar de markt. Daar ontmoet ze Aladdin. Ze worden meteen vrienden. Maar in het paleis woont ook een gemene tovenaar. Hij heet Jafar. Hij heeft een lange zwarte baard en een slangenstok, en op zijn schouder zit een rode papegaai die Jago heet. Kraa! Jafar wil de baas worden over heel Agrabah. Jafar weet dat er in de woestijn een geheime grot is. Een grot in de vorm van een grote leeuwenkop. En in die grot ligt een oude, stoffige olielamp. Een magische wonderlamp! Maar alleen iemand met een goed hart mag naar binnen. Dus Jafar stuurt Aladdin. Aladdin en Abu gaan de grot in. Woaaa! Overal liggen goud en juwelen en schatten. Raak niets aan behalve de lamp! bromt de grot. Maar Abu ziet een grote rode diamant. Ooooh! Hij pakt hem vast. En dan begint alles te trillen. Boem! Boem! De grot stort in! Gelukkig vinden ze een vriendje: een magisch vliegend tapijt! Een echt tapijt, met gouden franjes, dat kan vliegen en kan zwaaien met zijn hoekjes. Het tapijt redt hen. Zoef! Maar ze zitten vast in het donker. Aladdin kijkt naar de lamp. Hij is vuil. Hij wrijft erover. Wrijf, wrijf, wrijf. En dan: Poef! Er komt rook uit de lamp. Blauwe rook! Steeds meer. En uit de rook komt een grote, grappige blauwe Geest! Een reus, met een staart van rook in plaats van benen. Tienduizend jaar in die lamp, dat geeft een stijve nek! roept de Geest. Hij is supergrappig. Hij verandert in een kip, in een olifant, in een juf en in een draak. Hihihi! Jij bent mijn nieuwe baas, zegt de Geest. Je mag drie wensen doen. Maar je mag niet wensen dat iemand verliefd op je wordt, en je mag geen extra wensen wensen! Aladdin is slim. Hij krijgt de Geest zover dat hij hen uit de grot brengt, zonder dat hij een wens gebruikt. Ha! Dan doet Aladdin zijn eerste wens. Ik wens dat ik een prins word! Poef! Aladdin wordt prins Ali, met een grote optocht met olifanten en kamelen en muziek. Toeteroe! 's Avonds gaat Aladdin naar het balkon van Jasmine. Vertrouw je mij? vraagt hij. Hij steekt zijn hand uit. Jasmine stapt op het vliegend tapijt. En ze vliegen samen door de lucht! Zoef! Hoog boven de wolken, langs de sterren, over de piramides en over de zee. Het is zo mooi. Jasmine lacht. Ze herkent Aladdin van de markt. Maar de gemene Jafar steelt de wonderlamp. Nu is Jafar de baas van de Geest! Hij wordt sultan. Hij wordt de machtigste tovenaar. Hahaha, lacht hij gemeen. Maar Aladdin is slim. Jafar, zegt hij, de Geest is veel sterker dan jij! Dan wens ik dat ik een Geest word! roept Jafar. Poef! Jafar wordt een rode Geest. Maar alle Geesten moeten in een lamp wonen! Floep! Jafar wordt in een zwarte lamp gezogen. En de Geest gooit die lamp heel ver weg. Boem! Aladdin heeft nog één wens over. Hij kijkt naar de Geest. Geest, ik wens dat jij vrij bent! De Geest kan het niet geloven. Ik ben vrij! Ik ben vrij! Hij danst en springt van blijdschap. En de sultan zegt dat Aladdin met Jasmine mag trouwen. Ze vliegen samen op het tapijt naar de maan. En Abu? Abu krijgt alle bananen die hij wil. Oe oe aa aa!",
-  q:[["Welk diertje is het maatje van Aladdin?","🐒",["🦜","🐪"]],["Waar zit de blauwe Geest in verstopt?","🪔",["📦","🏺"]],["Waarmee vliegen Aladdin en Jasmine door de lucht?","🧶",["🎈","🚁"]]]},
- {file:"ariel", emoji:"🧜‍♀️", title:"De kleine zeemeermin. Ariël.",
-  text:"Diep, diep onder de zee, waar het water blauw en groen is, ligt een prachtig paleis van parelmoer en koraal. Daar woont koning Triton, de koning van de zee. Hij heeft een gouden drietand en een lange witte baard. En hij heeft zeven dochters. De jongste heet Ariël. Ariël is een zeemeermin. Ze heeft lang, vuurrood haar en ze heeft geen benen. In plaats van benen heeft Ariël een lange, glinsterende groene vissenstaart! Daarmee zwemt ze supersnel door het water. Plons! Floep! Ariël heeft een stem zo mooi als een vogeltje. Als ze zingt, luistert iedereen. Aaaa-aaa-aaa! Ariël heeft twee vriendjes. Het eerste is Botje, een klein geel visje met blauwe strepen. Botje is een beetje bang, maar hij gaat altijd mee. En het tweede is Sebastiaan. Sebastiaan is een rode krab! Hij heeft twee grote scharen. Knip, knip! Sebastiaan moet van koning Triton op Ariël passen. Ariël, voorzichtig! roept hij altijd. Maar Ariël luistert niet altijd. Ariël is heel nieuwsgierig naar de mensen boven het water. Ze heeft een geheime grot. En in die grot verzamelt ze spulletjes van mensen. Vorken, klokken, lepels, een pijp en een spiegel. Ze weet niet wat al die dingen zijn. Ze gaat het vragen aan de meeuw Jutter. Dit, zegt Jutter, en hij houdt een vork omhoog, is een kammetje! Daarmee kam je je haar! En Ariël kamt haar haar met een vork. Hihihi! Ariël wil zo graag op het land wonen. Ze wil lopen, en dansen, en springen op benen. Op een avond zwemt ze naar boven. Daar ziet ze een boot met vuurwerk. Boem! Paf! Op de boot is een knappe prins. Hij heet Erik. Maar dan komt er een storm. Donder en bliksem! Kaboem! De boot vergaat, en Erik valt in de zee. Plons! Ariël redt hem. Ze trekt hem naar het strand en zingt een liedje voor hem. Erik hoort haar mooie stem, maar hij ziet haar niet goed. Dan zwemt Ariël snel weg. Ariël is verliefd. Maar papa Triton wordt boos. Mensen zijn gevaarlijk! zegt hij. Hij maakt al haar spulletjes in de grot kapot. Boem! Ariël huilt. Dan komen er twee gemene palingen. Floetsam en Jetsam. Ssssss. Onze bazin kan je helpen, fluisteren ze. Hun bazin is de zeeheks Ursula. Ursula is half mens, half inktvis, met acht lange paarse armen. Ze woont in een donkere grot. Hahaha! lacht ze. Ik kan je benen geven, liefje, zegt Ursula. Maar in ruil wil ik iets van jou. Je stem! Je mooie zingstem! Ariël twijfelt. Maar ze wil zo graag benen. Ze zegt ja. Ursula zwaait met haar armen. Zing, zegt ze. En Ariël zingt: Aaaa-aaa-aaa! En haar stem vliegt als een gouden lichtje uit haar mond, in een schelp om de nek van Ursula. Floep! Plots verandert Ariëls staart in twee benen! Ze moet snel naar boven zwemmen. Botje en Sebastiaan helpen haar. Op het strand probeert ze te stappen. Wiebel, wiebel, plof! Hihihi! Prins Erik vindt haar op het strand. Hij vindt haar lief en grappig. Maar ze kan niet praten. Ze gaan samen met een bootje op het meer. Sebastiaan zingt een liedje, de kikkers kwaken, en de vogeltjes fluiten. Bijna geeft Erik haar een kusje. Maar Floetsam en Jetsam laten het bootje omvallen. Plons! Dan verandert Ursula zichzelf in een mooi meisje, met de stem van Ariël. En prins Erik denkt dat zij het meisje van het strand is! Oei, oei! Maar Jutter de meeuw, Botje, Sebastiaan en alle dieren helpen. De vogels pikken naar Ursula. De zeehonden duwen. En de schelp om haar nek valt kapot. Krak! De stem vliegt terug naar Ariël. Aaaa-aaa-aaa! Erik hoort het. Jij bent het! roept hij. Op het einde verslaan Erik en Ariël de zeeheks. Papa Triton ziet hoeveel Ariël van Erik houdt. Hij zwaait met zijn drietand, en Ariël krijgt voor altijd benen. Ze trouwen op een groot schip. En alle zeemeerminnen en vissen en Sebastiaan de krab zwaaien. Daaag Ariël!",
-  q:[["Wat heeft Ariël in plaats van benen?","🧜‍♀️",["🐙","🪽"]],["Welk rood zeedier past op Ariël?","🦀",["🦞","🐳"]],["Wat geeft Ariël aan de zeeheks in ruil voor benen?","🎶",["👑","💍"]]]},
- {file:"cars", emoji:"🚗", title:"Cars. Bliksem McQueen.",
-  text:"Vroem, vroem! In de wereld van de auto's woont een heel snelle raceauto. Hij heet Bliksem McQueen. Bliksem McQueen is rood. Knalrood! Met een grote gele bliksem op zijn zijkant en het nummer vijfennegentig. Ka-tsjauw! Dat is zijn kreet. Bliksem doet mee aan grote races. Daar zitten duizenden auto's op de tribune te juichen. Hij wil maar één ding: de grote race winnen en de Piston Cup krijgen, de grootste beker van allemaal. Ik ben snelheid! zegt Bliksem. Maar Bliksem is ook een beetje een opschepper. Hij heeft geen vrienden. Hij denkt dat hij alles alleen kan. Na een race eindigt hij gelijk met twee andere auto's. Er komt een nieuwe race in Californië. Bliksem wil daar zo snel mogelijk zijn. Hij zit in een grote vrachtwagen die Mack heet. Rijden, Mack, rijden! De hele nacht door! Maar Mack wordt moe. Hij valt bijna in slaap. Gaaap. Er komen ondeugende auto's die hem plagen. En pats! De deur gaat open, en Bliksem rolt naar buiten op de grote weg. Oei! Mack rijdt verder zonder hem. Wacht! Mack! roept Bliksem. Bliksem rijdt verkeerd. Hij raakt de weg kwijt. Hij rijdt heel snel een klein dorpje binnen. Het heet Radiator Springs. Er komt een politieauto achter hem aan. Wiuu wiuu! Bliksem schrikt, en hij rijdt door het dorpje, over palen, door bloemen en over de weg. Krak, boem, bonk! Hij sleept een standbeeld mee. En de hele weg is kapot! De volgende ochtend moet Bliksem naar de rechter. De rechter is een oude, blauwe auto. Hij heet Doc Hudson. Jij hebt onze weg kapot gemaakt, zegt hij. Dus jij moet de weg repareren! Bliksem moet een grote, zware machine trekken die Bessie heet. Bessie spuwt hete, zwarte teer op de weg. Pfft! Bliksem moet de hele weg opnieuw maken. Wat een werk! Maar in Radiator Springs vindt Bliksem een nieuwe vriend. Het is een oude, roestige, bruine sleepwagen met grote tanden en een haak aan zijn achterkant. Hij heet Takel. Takel is grappig en superlief. Hallo! Ik ben Takel! zegt hij. Takel kan heel goed achteruitrijden. Kijk naar mij! Ik hoef niet te kijken waar ik naartoe ga, ik moet alleen weten waar ik geweest ben! Hihihi! Takel neemt Bliksem mee 's nachts naar de weide. Daar staan tractors te slapen. En weet je wat ze doen? Ze tractortippen! Takel toetert: Toet! En de tractors schrikken zo hard dat ze omvallen. Boemmm! Hihihi! Bliksem lacht. Hij heeft nog nooit zoveel plezier gehad. Ook de andere auto's in het dorp worden zijn vrienden. Sally, de mooie blauwe auto. Luigi en Guido die banden verkopen. Ramone die auto's verft. En Flo die benzine verkoopt in haar café. En Doc Hudson? Doc blijkt vroeger zelf een heel bekende raceauto te zijn geweest! Hij leert Bliksem hoe je goed door een bocht rijdt op het zand. Draai rechts om links te gaan. Bliksem maakt de weg helemaal af. Mooie, zwarte, gladde weg. Iedereen is blij. Het dorpje is weer mooi en vol lichtjes. Dan komt de grote race. Bliksem rijdt heel snel. Maar zijn vrienden van Radiator Springs zijn er ook! Doc is zijn coach en Takel helpt bij de banden. Bliksem doet de bocht zoals Doc het hem geleerd heeft. Vroeeem! Maar vlak voor het einde krijgt een oude raceauto een ongeluk. Bliksem stopt, net voor de finish. Hij gaat terug en duwt de oude auto over de finishlijn. Hij wint de race niet. Maar iedereen klapt en juicht voor hem. Bliksem heeft iets geleerd: vrienden hebben is veel belangrijker dan bekers winnen. En hij gaat wonen in Radiator Springs, bij zijn allerbeste vriend Takel. Ka-tsjauw!",
-  q:[["Welke kleur heeft de raceauto Bliksem McQueen?","🚗",["🚙","🚕"]],["Wat voor wagen is zijn nieuwe vriend Takel?","🛻",["🚒","🚜"]],["Wat moet Bliksem McQueen doen in het dorpje?","🛣️",["🧼","⛽"]]]},
- {file:"encanto", emoji:"🏠", title:"Encanto. Het magische huis.",
-  text:"Hoog in de groene bergen van Colombia, waar vlinders vliegen en de bloemen in alle kleuren bloeien, staat een heel bijzonder huis. Het heet Casita. En Casita is een magisch huis! Casita kan bewegen! De vloertegels dansen op en neer. Klik klak, klik klak! De deuren gaan vanzelf open en dicht. Klap, klap! De ramen fladderen als vleugeltjes. En als je de trap op wil, dan wordt de trap een glijbaan. Wiiie! Casita is als een groot, lief huisdier. In Casita woont de familie Madrigal. Er wonen opa's en oma's, tantes en ooms en heel veel kinderen. De baas is Abuela, de oma. Lang geleden kreeg Abuela een magische kaars. Die kaars brandt altijd. En dankzij die kaars krijgt elk kind in de familie een magische gave als het vijf jaar wordt. Elk kind heeft een eigen deur. En als je je gave krijgt, gaat je deur gloeien. Pling! Er is Luisa. Luisa is supersterk! Ze kan een huis optillen. Ze kan zelfs ezels optillen, en die balken: Hie-ha! Ze draagt ze gewoon op haar schouders. Hup! Er is Isabela. Isabela is heel mooi en heel netjes. En Isabela kan bloemen laten groeien! Overal waar ze komt, groeien er bloemen. Rozen, lelies en bloemen in alle kleuren. Ploep, ploep, ploep! Als ze lacht, dan valt er een regen van roze bloemetjes. Er is tante Pepa. Als zij blij is, schijnt de zon. Maar als ze verdrietig is, dan regent het boven haar hoofd. Een klein wolkje. Drup, drup! En als ze boos is, dan dondert het. Boem! Er is neefje Antonio. Hij kan met dieren praten. Hij heeft een vriendje, een jaguar. Rrrr! Er is neef Camilo, die in iedereen kan veranderen. Poef, nu is hij Abuela! Hihihi! En er is Mirabel. Mirabel is vrolijk en lief. Ze heeft krullend zwart haar en ze draagt een grote, ronde, groene bril. Maar Mirabel heeft geen gave. Toen zij vijf jaar werd, ging ze naar haar deur. Maar haar deur ging niet gloeien. Er gebeurde niets. Helemaal niets. Mirabel is daar een beetje verdrietig om. Iedereen in de familie heeft iets magisch, behalve zij. Maar ze helpt wel altijd iedereen. Ze danst, ze zingt, en ze maakt iedereen aan het lachen. Op een avond is er een groot feest, want Antonio krijgt zijn gave. Maar dan ziet Mirabel iets vreemds. Krak! Er komen barsten in de muren van Casita. Krak! Krak! De kaars begint te flikkeren. De magie gaat weg! Niemand gelooft Mirabel. Maar Mirabel gaat op onderzoek. Ze klimt en ze zoekt. Ze vindt haar oom Bruno, die zich verstopt had in de muren met zijn rattenvriendjes. Bruno kan de toekomst zien. Hij heeft een visioen gezien. En op dat visioen staat Mirabel. Met haar groene bril! Mirabel gaat praten met haar zussen. Luisa vertelt dat ze moe is, dat ze altijd sterk moet zijn. Isabela vertelt dat ze eigenlijk niet altijd perfect wil zijn. Ze wil ook eens iets wilds laten groeien. En plots laat Isabela een grote cactus groeien! Pfoeh! En klimplanten en paarse bloemen. Ze lacht. Wat is dat plezant! Maar Abuela is boos op Mirabel. En dan gebeurt het. Krak! Krak! Boem! Het huis valt in elkaar. Casita is kapot. De kaars dooft uit. Pfff. De magie is weg. Mirabel loopt weg, naar de rivier. Daar vindt Abuela haar. En Abuela vertelt haar verhaal. Hoe ze vroeger moest vluchten. Hoe ze de kaars kreeg. En Abuela zegt: Het spijt me, Mirabel. Jij bent heel belangrijk. Jij bent het wonder van onze familie. Mirabel brengt de hele familie weer samen. Iedereen helpt mee om een nieuw huis te bouwen. Luisa tilt, Isabela laat bloemen groeien, en het hele dorp helpt. En Mirabel? Mirabel maakt een nieuwe deurknop voor het huis. Ze steekt hem in de deur. En pling! Alles begint te gloeien! De magie komt terug! De vloertegels dansen weer. Klik klak! De deuren klappen. Casita leeft weer! Mirabel, met haar grote groene bril, heeft de magie van de familie gered.",
-  q:[["Wat kan het magische huis Casita doen?","🏠",["🚀","🌊"]],["Wat kan de ene zus van Mirabel laten groeien?","🌸",["🌳","🍄"]],["Wie redt de magie van de familie?","👓",["🐶","🧙‍♂️"]]]},
- {file:"monsters", emoji:"👁️", title:"Monsters en Co. Boe in Monsterstad.",
-  text:"Weet jij wat er achter de deur van je kast zit? Ik zal je een geheimpje vertellen. Achter elke kastdeur ligt een andere wereld. Een wereld vol monsters! Die wereld heet Monsterstad. In Monsterstad wonen duizenden monsters. Grote monsters, kleine monsters, harige monsters, slijmerige monsters, monsters met tentakels en monsters met tien armen. Ze gaan naar het werk, ze drinken koffie en ze lezen de krant, net als wij. En in Monsterstad wonen twee beste vrienden. De eerste is Sulley. Sulley is groot, heel groot, en heel vriendelijk. Hij heeft hoorntjes op zijn hoofd en een dikke, zachte vacht. En welke kleur heeft die vacht? Blauw! Lichtblauw, met paarse stippen. Roaar! doet Sulley, als hij brult. De tweede is Mike. Mike is klein en groen en rond als een bal, met twee dunne armpjes en twee dunne beentjes. En Mike heeft maar één oog! Eén groot oog, middenin zijn gezicht. Als hij knipoogt, doet hij gewoon heel zijn oog dicht. Knip! Hihihi! Mike is heel grappig. Hij praat de hele tijd en hij vertelt graag moppen. Sulley en Mike werken samen bij een grote fabriek. Die heet Monsters en Co. En weet je wat ze daar doen? Ze maken energie voor de lampen en de auto's van Monsterstad. En die energie halen ze bij kindjes! In de fabriek staan duizenden deuren. Elke deur gaat naar de slaapkamer van een kindje. De monsters moeten 's nachts door die deur gaan en de kindjes laten schrikken. Boe! En als een kindje gilt, Aaaah!, dan wordt dat gegil opgevangen in een grote gele fles. Dat is de energie. Maar het rare is: de monsters zijn zelf heel bang van kindjes! Ze denken dat kindjes giftig zijn. Als een monster een sokje van een kindje op zijn rug heeft, dan komen er mannen in gele pakken. Code twee-drie-één-twee! En ze scheren het monster helemaal kaal. Hihihi! Op een avond is Sulley alleen in de fabriek. Hij ziet een deur die nog openstaat. En dan stapt er iets door de deur. Iets kleins. Een klein mensenmeisje! Ze heeft twee staartjes en een roze pyjama. Aaaah! roept Sulley. Hij is heel bang. Maar het meisje is helemaal niet bang. Ze lacht. Kittie! roept ze tegen Sulley. Ze noemt hem Kittie, omdat hij lijkt op een grote poes. Sulley stopt haar in een tas en loopt naar Mike. Mike is ook bang. Een kind! Een kind! Ze verstoppen haar thuis. Ze noemen haar Boe. Boe is heel lief. Ze tekent, ze speelt verstoppertje, en ze eet. Ze lacht heel hard. Hihihi! En als Boe lacht, dan gebeurt er iets vreemds. Alle lampen in het huis gaan feller branden! Ze knipperen en flitsen. En sommige lampen ontploffen zelfs. Pang! Sulley begint Boe heel graag te zien. En Boe Sulley ook. Ze wil niet meer van hem weg. Maar er is een gemene monster in de fabriek. Hij heet Randall. Hij is paars, heeft heel veel pootjes en kan onzichtbaar worden, zoals een kameleon. Ssssss. Hij wil Boe vangen. Hij heeft een gemene machine gemaakt. Sulley en Mike moeten Boe redden. Ze rennen door de fabriek. Ze springen op deuren die aan lange rails hangen en die heel snel bewegen. Zoef! Zoef! Door duizenden deuren, door allemaal slaapkamers over de hele wereld. Op het einde gooien ze Randall door een deur naar een heel ver land, waar hij nooit meer terugkomt. Byebye, Randall! En dan ontdekken ze iets geweldigs. Het lachen van kindjes geeft veel meer energie dan het gillen. Wel honderd keer meer! Lachen is het sterkste wat er is! Dus vanaf nu doen de monsters iets anders. Ze laten de kindjes niet meer schrikken. Ze laten de kindjes lachen! Mike vertelt moppen. Hij doet gekke dansjes. Hij valt expres op zijn gezicht. Plof! En alle kindjes lachen. Hahaha! De gele flessen worden vol, nog voller dan ooit. En Boe? Sulley bracht haar veilig terug naar haar bedje. Hij stopte haar in en gaf haar een knuffel. Daag, Boe. En later, op een dag, deed hij haar deur weer open. Kittie! riep Boe. En Sulley glimlachte zijn allergrootste glimlach.",
-  q:[["Hoeveel ogen heeft het groene monstertje Mike?","👁️",["👀","🕷️"]],["Welke kleur vacht heeft de grote vriendelijke Sulley?","🔵",["🟠","⚫"]],["Wat maakt de kinderen zo blij in Monsterstad?","😂",["😭","😴"]]]},
- {file:"dombo", emoji:"🐘", title:"Dombo. Het vliegende olifantje.",
-  text:"Hoog in de lucht vliegen ooievaars. Ze dragen kleine pakjes in een doekje aan hun snavel. En in die pakjes zitten baby'tjes voor de dieren. Een baby beertje, een baby kangoeroe en een baby giraf. Maar één ooievaar was laat. Heel laat. Hij vloog en vloog met een groot, zwaar pakje, naar het circus. Daar woonde mama olifant, mevrouw Jumbo. Ze wachtte al zo lang op haar baby. Het circus is een plezante plek. Er is een grote tent met rode en witte strepen. Er zijn clowns met rode neuzen. Toet toet! Er zijn acrobaten die door de lucht vliegen. Er zijn paarden die dansen, en leeuwen die door een ring springen. En er is een circustrein die van stad naar stad rijdt. Tsjoeke tsjoeke, tuuut! Mama Jumbo maakte het pakje open. En daar zat een klein, schattig, grijs olifantje. Hij was zo lief, met zijn kleine slurfje en zijn grote blauwe oogjes. Alle andere olifanten zeiden: Ooooh, wat schattig! Maar toen niesde het olifantje. Hatsjoe! En floep, daar vielen zijn oren open. En wat waren die oren groot! Enorm groot! Zo groot als twee dekens. Ze sleepten bijna over de grond. De andere olifanten begonnen te lachen. Hahaha! Kijk eens naar die oren! Hij heet niet Jumbo, maar Dombo! En zo kreeg het olifantje zijn naam: Dombo. Mama Jumbo hield heel veel van Dombo. Ze wiegde hem met haar slurf en waste hem in het badje. Spetter spetter! Ze speelden kiekeboe met zijn grote oren. Maar op een dag plaagden kinderen Dombo, en trokken ze aan zijn oren. Mama Jumbo werd boos en beschermde hem. Toen sloten de circusbazen mama Jumbo op. Dombo was heel alleen en verdrietig. Snik. Maar toen kwam er een klein vriendje. Een muisje! Hij heette Timmie. Timmie droeg een klein rood jasje en een hoedje. De andere olifanten waren heel bang van het muisje. Iiiieee, een muis! En ze sprongen op een tonnetje. Hihihi! Maar Timmie was heel lief tegen Dombo. Niet wenen, Dombo, zei hij. Ik ga jou helpen. Wij gaan van jou een ster maken! In het circus moest Dombo een kunstje doen. Hij moest op een bal staan, boven op een hele toren van olifanten. Maar Dombo struikelde over zijn grote oren. Plof! En de hele olifantentoren viel om. Boem, bonk, krak! Oei! De tent viel in elkaar. Toen moest Dombo een clown zijn. Hij moest van een brandend huisje in een emmer water springen. Plons! Iedereen lachte. Maar Dombo vond het niet leuk. Hij was zo verdrietig. Timmie nam Dombo mee om zijn mama te bezoeken. Mama Jumbo kon haar slurf door de tralies steken. Ze wiegde Dombo en zong een zacht slaapliedje. Dombo voelde zich even weer warm en veilig. Op een ochtend werden Dombo en Timmie wakker. Ze lagen niet in het circus. Ze lagen bovenaan in een hoge boom! Hoe kwamen ze daar? Er zaten zwarte kraaien rondom hen. Kraa, kraa! Hihihi, lachten de kraaien. Een olifant in een boom! Timmie dacht na. En toen begreep hij het. Dombo, jij bent gevlogen! Met je grote oren! Jouw oren zijn eigenlijk vleugels! Maar Dombo durfde niet. Hij was bang. Toen had de kraai een idee. Hij gaf Timmie een zwarte kraaienveer. Timmie gaf de veer aan Dombo. Hier, Dombo, dit is een toverveer. Een magische veer! Als je die vasthoudt in je slurf, dan kan je vliegen! Dombo nam de veer in zijn slurf. Hij liep naar de rand van de rots. Hij sloeg zijn grote oren uit. Flap, flap, flap! En hop! Hij vloog! Hij vloog echt, hoog door de lucht! Wiiiie! De kraaien juichten. Kraa kraa, hoera! Die avond was er weer een show in het circus. Dombo stond bovenop het brandende huisje. Hij hield de toverveer in zijn slurf. Hij sprong. Maar oei! De veer viel uit zijn slurf! Dombo schrok. Ik kan niet vliegen zonder mijn veer! Maar Timmie riep: Dombo! De veer is helemaal niet magisch! Jij kan het zelf! Jouw oren zijn de magie! En Dombo sloeg zijn oren uit. Flap, flap, flap! En hij vloog! Rond en rond, door de hele circustent! Hij spoot water met zijn slurf op de clowns. Pfffft! Hihihi! Iedereen in het circus klapte zijn handen stuk. Dombo werd de grootste ster van het circus. Mama Jumbo werd vrijgelaten, en ze kreeg een speciale wagon in de circustrein. Dombo vloog vrolijk rond de trein. En niemand lachte nog om zijn grote oren. Want die grote oren waren het mooiste wat hij had.",
-  q:[["Wat is er heel groot aan het olifantje Dombo?","👂",["🦶","🦷"]],["Wat geeft het muisje aan Dombo om te durven vliegen?","🪶",["🎈","☂️"]],["Waar woont Dombo?","🎪",["🏰","🌲"]]]},
- {file:"bambi", emoji:"🦌", title:"Bambi. Vriendjes in het bos.",
-  text:"Het is lente in het grote bos. De vogeltjes zingen. Tjiep, tjiep! De bloemetjes gaan open. De zon schijnt door de bladeren van de hoge bomen. En overal zijn dieren. Eekhoorntjes, konijntjes, vogeltjes, muisjes en uilen. Ze wonen allemaal samen in het bos. Op een ochtend vliegt een vogeltje rond. Wakker worden, wakker worden! Er is een prinsje geboren! Alle dieren van het bos komen kijken. Op een zacht bedje van bladeren ligt een klein hertje naast zijn mama. Hij heeft grote bruine oogjes, lange wimpers, en witte vlekjes op zijn rug. Het is een hertje, en zijn naam is Bambi. Een klein grijs konijntje hupt dichterbij. Hij heeft een wit staartje en lange oren. Hij heet Stampertje. En weet je waarom hij Stampertje heet? Omdat hij altijd met zijn achterpoot op de grond stampt! Stamp, stamp, stamp! Tok tok tok! Als hij blij is, stampt hij. Als hij praat, stampt hij. Hij kan het gewoon niet laten. Hihihi! Bambi probeert op te staan. Zijn pootjes zijn nog heel wiebelig. Wiebel, wiebel! Plof! Daar valt hij. Hij probeert het nog eens. Wiebel, wiebel, plof! Stampertje lacht. Hij kan nog niet zo goed lopen, he? Maar Bambi geeft niet op. En na een tijdje staat hij. Hoera! Stampertje wordt Bambi's beste vriend. Kom, Bambi, ik leer je alles! Ze huppelen samen door het bos. Stampertje leert Bambi springen over een boomstam. Hop! Plof! Hihihi, nog eens! Hop! Ja! Stampertje leert Bambi ook praten. Dat is een vogel, Bambi. Zeg eens vogel. Vo, vo, vogel! zegt Bambi. Hij is zo trots. En dan ziet hij een vlinder. Vogel! Nee, lacht Stampertje, dat is een vlinder. Dan ziet Bambi een bloem. Vlinder! Nee, dat is een bloem! En dan steekt er uit de bloemen een klein zwart diertje met een witte streep zijn kopje omhoog. Bloem? zegt Bambi. Het diertje bloost. Hij is een stinkdiertje. Maar hij vindt het zo lief dat Bambi hem Bloem noemt, dat hij voortaan Bloempje heet. Bloempje is een beetje verlegen. Als hij bloost, wordt hij helemaal rood. Zo hebben Bambi en zijn vriendjes een plezante tijd in het bos. Ze spelen in het gras, ze verstoppen zich achter de bomen, en ze ruiken aan de bloemen. Op een dag regent het. Drup, drup, drup! Eerst een klein beetje. Dan steeds harder. Kletter kletter! En dan donder en bliksem. Boem! De dieren kruipen in hun holletjes. Bambi kruipt dicht tegen zijn mama aan. Na de regen schijnt de zon weer, en alles glinstert. Mama neemt Bambi mee naar de grote weide. Daar staan nog meer herten. Bambi ziet een meisjeshertje. Ze heet Feline. Ze speelt met hem en hij wordt helemaal verlegen. Dan komt er een groot, sterk hert met een enorm gewei. Dat is de grote prins van het bos. Iedereen wordt stil. Hij kijkt even naar Bambi. Dan wordt het herfst. De bladeren worden rood en oranje en geel. Ze dwarrelen naar beneden. Ritsel, ritsel. En dan wordt het winter. Bambi ziet voor de eerste keer sneeuw. Wat is dat? Al dat wit! Hij steekt zijn neus erin. Brrr, koud! Hij hapt in de sneeuw. Hihihi! Stampertje roept: Kom, Bambi! Kom glijden op de vijver! De vijver is helemaal bevroren tot ijs. Stampertje glijdt op zijn buik. Zoef! Bambi stapt op het ijs. Maar zijn pootjes glijden uit alle kanten. Wiebel, wiebel, plats! Daar ligt hij, met vier pootjes uit elkaar, op zijn buik. Hahaha! Stampertje lacht zo hard dat hij met zijn poot stampt. Stamp, stamp! Kom, ik help je. En Stampertje duwt Bambi over het ijs. Bloempje slaapt in de winter in zijn holletje. Gaaap. Welterusten, Bloempje! En dan wordt het weer lente. De vogeltjes zingen weer. Bambi is groot geworden. Hij heeft een mooi gewei gekregen. Stampertje is ook groot, en Bloempje ook. Bambi groeit op en wordt de nieuwe prins van het bos. En met zijn vriendjes Stampertje en Bloempje woont hij nog lang en gelukkig in het grote, groene bos.",
-  q:[["Welk dier is Bambi?","🦌",["🦊","🐿️"]],["Wat doet het konijntje Stampertje met zijn poot?","🐇",["🥁","💃"]],["Waar wonen Bambi en zijn vriendjes?","🌳",["🏖️","🏙️"]]]},
- {file:"peterpan", emoji:"✨", title:"Peter Pan en Nooitgedachtland.",
-  text:"In een groot huis in Londen woont een meisje. Ze heet Wendy. Ze heeft twee broertjes. John, die een bril draagt en een hoge hoed, en Michael, de kleinste, die altijd zijn teddybeer vasthoudt. En ze hebben een hond als oppas. Een grote, lieve hond die Nana heet. Woef! Wendy vertelt elke avond verhaaltjes aan haar broertjes. Spannende verhalen over piraten en over een jongen die nooit groot wil worden. Die jongen heet Peter Pan. Maar op een nacht, toen iedereen sliep, gebeurde er iets. Het raam ging open. Kriiek. En er vloog een jongen naar binnen. Hij droeg een groen pakje en een groen puntmutsje met een rode veer. Het was Peter Pan! Het echte Peter Pan! En bij hem was een klein lichtje dat rond zoefde. Pling, pling, pling! Het was een elfje. Een piepklein meisje met vleugeltjes, dat gloeide als een sterretje. Ze heette Tinkerbel. Peter Pan zocht zijn schaduw. Die was hij verloren! Hij liep rond, en zijn schaduw liep weg van hem. Hihihi! Wendy werd wakker. Ze naaide de schaduw weer vast aan zijn voeten. Kom mee naar Nooitgedachtland, zei Peter. Daar word je nooit groot. Daar is het altijd feest! Maar hoe gaan we daar naartoe? vroeg Wendy. Vliegen natuurlijk! zei Peter. Maar Wendy en haar broertjes konden niet vliegen. Toen pakte Peter Tinkerbel vast, en schudde haar zachtjes. Pling, pling, pling! Er dwarrelde glinsterend goudstof van haar af. Elfenstof! Toverstof! Het viel als sterretjes op Wendy, John en Michael. Denk aan iets heel fijns, zei Peter. Iets dat je blij maakt. Kerstmis. Snoepjes. Sneeuw. En plots: hup! Ze zweefden van de grond! Ze vlogen! Wiiie! Ze vlogen uit het raam, over de daken van Londen, langs de grote klok die Big Ben heet. Bong, bong! Tweede ster rechts, en dan rechtdoor tot de ochtend! Ze kwamen aan in Nooitgedachtland. Een eiland vol bergen, watervallen, bossen en stranden. Er woonden zeemeerminnen die op de rotsen lagen. Er woonden indianenkinderen en dieren. En er woonden de Verloren Jongens, die zich verkleedden als beertjes en vosjes en konijntjes. Zij woonden in een geheim huis onder een boom. Maar in de baai lag een groot piratenschip. Met zwarte zeilen en een vlag met een doodshoofd. En op dat schip woonde de gemene Kapitein Haak. Kapitein Haak had een rode jas, een grote hoed met een veer, een lange zwarte krulsnor. En in plaats van zijn linkerhand had hij een ijzeren haak. Want lang geleden had Peter Pan, in een gevecht, zijn hand aan een krokodil gevoerd. Die krokodil vond Kapitein Haak zo lekker, dat hij hem overal achtervolgde. Hij wilde de rest ook opeten! Kapitein Haak was superbang van die krokodil. Echt superbang! En weet je wat er zo grappig was? De krokodil had ook een wekker ingeslikt. En die wekker zat nog altijd in zijn buik. Dus overal waar de krokodil zwom, hoorde je: Tik-tak. Tik-tak. Tik-tak. Als Kapitein Haak dat hoorde, werd hij helemaal bleek. Hij beefde van zijn hoed tot zijn laarzen. Smie! Smie! Help! Het is de krokodil! En dan sprong hij in de armen van zijn dikke piratenhelper, Smie. Hihihi! Wendy en de jongens beleefden prachtige avonturen. Ze zwommen bij de zeemeerminnen. Ze dansten rond het kampvuur. Ze vlogen met Peter door de lucht. Maar Kapitein Haak ving Wendy en de Verloren Jongens. Hij zette ze op zijn schip. Ze moesten over de plank lopen, boven het water. En in het water zwom de krokodil. Tik-tak, tik-tak. Maar daar kwam Peter Pan aangevlogen! Zoef! Ik ben hier! riep hij. Peter en Kapitein Haak vochten met hun zwaarden. Kling, klang, kling! Peter vloog rond zijn hoofd. Kiekeboe, Haak, hier ben ik! Hij was veel te snel. En plots: plons! Kapitein Haak viel in het water. En wie zat daar met zijn mond open? Tik-tak, tik-tak, de krokodil! Help, help! Kapitein Haak zwom zo snel als hij kon weg, met de krokodil achter hem aan. Hap, hap, hap! Hihihi! Iedereen lachte. Tinkerbel strooide elfenstof over het hele piratenschip. Pling! En het schip vloog door de lucht, met gouden zeilen, terug naar Londen. Wendy, John en Michael landden veilig in hun bedjes. En Peter Pan zwaaide en vloog terug naar Nooitgedachtland. Daag! En als je goed luistert 's nachts, hoor je misschien wel het pling-pling van Tinkerbel aan je raam.",
-  q:[["Wat strooit elfje Tinkerbel zodat de kinderen kunnen vliegen?","✨",["🧂","❄️"]],["Welk dier maakt Kapitein Haak superbang?","🐊",["🦈","🐍"]],["Welk geluid komt er uit de buik van de krokodil?","⏰",["🔔","📯"]]]},
- {file:"junglebook", emoji:"🐻", title:"Jungle Book. Mowgli en Baloe.",
-  text:"Diep in de warme jungle van India, waar de bomen hoog zijn en de lianen naar beneden hangen, wonen allemaal dieren. Olifanten, apen, slangen, beren, tijgers en panters. Op een dag vond de zwarte panter Bagheera iets in een mandje, aan de rivier. Iets kleins, dat huilde. Oeheuheu! Het was een mensenbaby! Een klein jongetje. Bagheera bracht hem naar een familie wolven. De wolven voedden het jongetje op als hun eigen kindje. Ze noemden hem Mowgli. Mowgli groeide op in de jungle. Hij kon klimmen als een aap, zwemmen als een vis, en rennen met de wolven. Hij wist niet eens dat hij een mensenkind was. Ik ben een wolf! zei Mowgli. Auwoeoeoe! Mowgli's beste vriend was Bagheera. Bagheera was een panter. Een grote kat, sterk en snel. En Bagheera was helemaal zwart. Zo zwart als de nacht. Alleen zijn ogen waren geel. Bagheera was serieus en slim. Hij paste altijd op Mowgli. Maar op een dag kwam er slecht nieuws. De gemene tijger Shere Khan was terug in de jungle. Shere Khan was groot en oranje met zwarte strepen, en hij hield niet van mensen. Grrrrr! Ik wil dat mensenkind! bromde hij. Mowgli moet weg, zeiden de wolven. Hij moet naar het mensendorp, waar hij veilig is. Dus nam Bagheera Mowgli mee. Maar Mowgli wilde niet. Ik wil in de jungle blijven! Ik wil niet naar het dorp! Wat ambetant! 's Nachts sliepen ze in een boom. Maar daar kwam een lange slang. Kaa, de slang! Hij had grote ronde ogen die draaiden. Vertrouw maar op mij, sissssste Kaa. Mowgli werd helemaal duizelig. Maar Bagheera gaf Kaa een klap. Bonk! En Kaa gleed weg. Ssssss. De volgende dag liep Mowgli alleen weg. Hij was boos. Maar toen hoorde hij iemand zingen en neuriën. Dubidubidoe! Er kwam een grote, dikke, grijze beer aangewaggeld. Hij was groot en zacht en luilekker. Het was Baloe, de beer! Baloe was grappig en luidruchtig. Hij hield van eten, dansen en luieren. Hij krabde zijn rug tegen een boom. Krab, krab, krab. Aaaah, lekker! Hé, kleine man, zei Baloe. Wie ben jij? Ik ben Mowgli, zei Mowgli. En ik wil niet naar het dorp. Baloe lachte. Dan blijf je toch gewoon bij mij! Ik leer je alles over de jungle! En Baloe leerde Mowgli de allerbeste dingen. Hij leerde hem dansen en zingen. Dubidubidoe! Hij leerde hem grommen als een beer. Grrrr! Mowgli deed het na. Grrr! Hihihi, nog harder! GRRRR! Baloe leerde hem ook om te ontspannen. Je moet je niet zoveel zorgen maken, zei Baloe. Neem het rustig. Neem gewoon wat je nodig hebt. Samen dreven ze op het water van de rivier. Baloe lag op zijn rug, en Mowgli lag op zijn buik. Plons, ze dreven zachtjes met de stroom mee. En ze plukten fruit. Weet je welk fruit? Bananen! Gele, lekkere bananen. Baloe schudde aan een boom. En plok, plok, plok! Daar vielen de bananen naar beneden. Baloe pelde er een en stak hem in zijn mond. Hap! Mmmm! Mowgli at er ook eentje. Lekker! Maar toen kwamen er apen. Oe oe aa aa! Ze grepen Mowgli en zwierden met hem door de bomen naar hun koning, de grote aap koning Louie. Koning Louie wilde leren hoe mensen vuur maakten. Baloe en Bagheera kwamen Mowgli redden. Baloe verkleedde zich als aap, met kokosnoten als oren. Hihihi! En ze dansten tot het hele apenpaleis instortte. Boem! Toen zei Bagheera tegen Baloe: Mowgli moet echt naar het dorp. Shere Khan zoekt hem. Baloe was verdrietig, maar hij wist dat Bagheera gelijk had. En toen kwam Shere Khan. Grrrrr! Hij sloop door het gras. Hij sprong op Mowgli af. Maar Baloe was er! Hij hield de tijger vast aan zijn staart. En er sloeg een bliksem in een boom. Vuur! Mowgli nam een brandende tak en bond die aan de staart van Shere Khan. De tijger schrok zo hard dat hij wegrende en nooit meer terugkwam. Wiuuuu! Dan liepen ze samen naar de rand van het mensendorp. Mowgli hoorde een meisje zingen bij de rivier. Ze droeg een kruik water. Mowgli was nieuwsgierig. Hij liep achter haar aan, het dorp in. Hij keek nog één keer om. Baloe en Bagheera zwaaiden. Daag, kleine man! En dan dansten Baloe en Bagheera samen terug de jungle in. Dubidubidoe!",
-  q:[["Welk dier is de grote luie vriend Baloe?","🐻",["🦍","🐅"]],["Welk fruit plukken Mowgli en Baloe in de jungle?","🍌",["🍒","🍋"]],["Welke kleur heeft de panter Bagheera?","🐈‍⬛",["⚪","🟡"]]]},
- {file:"ratatouille", emoji:"👨‍🍳", title:"Ratatouille. Remy de kookmuis.",
-  text:"In het land Frankrijk ligt een grote, mooie stad. Ze heet Parijs. In Parijs staat een heel hoge toren van ijzer. Die heet de Eiffeltoren. 's Avonds glinstert hij met duizenden lichtjes. Er zijn bruggen over de rivier, gezellige straatjes en heel veel restaurants waar je lekker kan eten. Maar ons verhaal begint niet in Parijs. Het begint in een klein huisje op het platteland. Op de zolder woont een familie ratjes. Een van die ratjes, een klein grijs muisje met grote oren, heet Remy. Remy is anders dan de andere ratjes. De andere ratjes eten alles. Afval, oude schillen en vuile dingen uit de vuilbak. Smak smak! Maar Remy niet. Remy heeft een supergoede neus. Snuif, snuif! Hij kan alles ruiken. Hij weet precies welk eten lekker is en welk eten vies is. Remy houdt van lekker eten. Echt lekker eten. Hij proeft een stukje kaas. Mmm! En dan een stukje aardbei. Mmmm! En dan kaas en aardbei samen. Dan ziet hij allemaal kleurtjes en hoort hij muziek in zijn hoofd. Mmmmm, zalig! Remy wil maar één ding worden. Hij wil een echte chef-kok worden! Een kok in een groot restaurant, met een witte schort en een hoge witte muts. Zijn grote held is de beroemde kok Gusteau. Gusteau heeft een boek geschreven, en daarin staat: Iedereen kan koken! Op een dag gaat het mis. De oude dame die in het huisje woont ziet de ratjes. Aaaah! roept ze. Ze rennen allemaal weg. Remy valt in de riolen. Plons! Hij spoelt weg, door donkere gangen. En als hij eindelijk naar boven klimt en uit een dakraam kijkt, wat ziet hij dan? De Eiffeltoren! Hij is in Parijs! Amai! En recht voor hem ligt het restaurant van Gusteau. Remy kijkt door het raam van de keuken. Daar werkt een jonge jongen. Hij heet Linguini. Linguini is lang en dun en een beetje onhandig. Hij is de afwasser. Hij poetst de potten en pannen. Maar Linguini morst per ongeluk in de soep. Oeps! En de soep wordt helemaal vies. Remy kan het niet laten. Hij springt in de keuken. Hij doet er een beetje dit in, een beetje dat, wat kruiden, wat zout. Roer, roer, roer! En de soep wordt heerlijk! Iedereen in het restaurant vindt het de lekkerste soep ooit. Maar ze denken dat Linguini het gemaakt heeft! Linguini ziet Remy. Een rat in de keuken? Dat mag niet! Maar dan krijgen ze een idee. Remy kan koken, en Linguini niet. Linguini kan in de keuken werken, en Remy niet. Laten we samenwerken! Maar hoe? Remy verstopt zich onder de hoge witte koksmuts van Linguini! Daar zit hij, op Linguini's hoofd, verborgen onder de muts. Niemand kan hem zien. En Remy trekt aan de haren van Linguini. Als Remy aan de rechterkant trekt, gaat Linguini's rechterarm omhoog. Als hij aan de linkerkant trekt, gaat de linkerarm omhoog. Zo bestuurt Remy hem, als een marionet! Links, rechts, roeren, snijden! Hihihi! Ze oefenen de hele nacht. In het begin gaat het helemaal mis. Linguini botst tegen de kast. Bonk! Hij valt over een emmer. Plats! Maar dan lukt het. Ze snijden samen groentjes, superfijn en supersnel. Hak, hak, hak, hak! Ze roeren in de pannen. Ze proeven de sauzen. Het wordt het lekkerste eten van heel Parijs. Maar dan komt de strengste eetcriticus van Frankrijk. Hij heet Anton Ego. Hij is lang, mager, en hij lacht nooit. Als hij zegt dat een restaurant slecht is, dan komt er niemand meer. Brr! Remy weet wat hij moet maken. Ratatouille! Een gewoon gerecht met groentjes. Courgette, aubergine, tomaat en paprika. In dunne schijfjes, mooi in een rondje gelegd. Hij zet het voor Anton Ego. Anton Ego neemt één hapje. Hap. En dan wordt hij stil. Want het smaakt precies zoals de ratatouille die zijn mama vroeger maakte, toen hij nog een klein jongetje was. Hij wordt warm vanbinnen. En hij glimlacht! Voor de eerste keer! Dan wil Anton Ego de kok zien. En Linguini vertelt de waarheid. Remy komt tevoorschijn. Een rat! Maar Anton Ego zegt: Iedereen kan koken. Ook een klein muisje. En vanaf toen heeft Remy zijn eigen restaurant in Parijs, met uitzicht op de Eiffeltoren. Hij draagt een kleine witte koksmuts. En hij is de beste chef-kok van heel Frankrijk. Bon appétit!",
-  q:[["Wat wil het muisje Remy graag worden?","👨‍🍳",["👮","👨‍🚒"]],["Waar verstopt Remy zich in de keuken?","👒",["🍲","👟"]],["In welke stad speelt dit verhaal zich af?","🗼",["🏰","🌷"]]]},
-];
-STORIES.forEach((s,i)=>s.id=i+1);
+let STORIES=[];
+const LIB_CACHE="verhaaltjes-library";
+const IMG_RE=/\.(jpe?g|png|webp|gif|bmp|svg)$/i, AUD_RE=/\.(mp3|m4a|aac|wav|ogg|opus)$/i, SUB_RE=/\.(vtt|srt)$/i;
+const MIME={jpg:"image/jpeg",jpeg:"image/jpeg",png:"image/png",webp:"image/webp",gif:"image/gif",bmp:"image/bmp",svg:"image/svg+xml",
+  mp3:"audio/mpeg",m4a:"audio/mp4",aac:"audio/aac",wav:"audio/wav",ogg:"audio/ogg",opus:"audio/ogg",vtt:"text/vtt",srt:"text/plain",json:"application/json"};
+const extOf=n=>(String(n).match(/\.([a-z0-9]+)$/i)||[,""])[1].toLowerCase();
+const typed=(blob,name)=>{const t=MIME[extOf(name)];return t&&blob.type!==t?new Blob([blob],{type:t}):blob};
+const cleanId=x=>String(x||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"")
+  .replace(/[^a-z0-9-]+/g,"-").replace(/^-+|-+$/g,"").slice(0,40);
+const fetchBlob=url=>fetch(url).then(r=>r.ok?r.blob():null).catch(()=>null);
+const splitSentences=t=>(String(t||"").match(/[^.!?]+[.!?]*/g)||[t||""]).map(x=>x.trim()).filter(Boolean);
+
+/* story.json → the app's own story object. reg(fileName, key, kind) is told about every file it names
+   (kind: img / aud / sub); the keys are the same ones the ⚙️ panel uses (frozen_1, frozen_q1_a …). */
+function packToStory(j,file,reg){
+  if(!j||typeof j!=="object")return null;
+  const qs=Array.isArray(j.questions)?j.questions:[];
+  const title=String(j.title||"").trim(),text=String(j.text||"").trim();
+  if(!title||!text||!qs.length)return null;
+  const use=(name,key,kind)=>{if(typeof name==="string"&&name.trim())reg(name.trim(),key,kind)};
+  use(j.card,file,"img");
+  (Array.isArray(j.pictures)?j.pictures:[]).slice(0,40).forEach((p,k)=>use(p,`${file}_${k+1}`,"img"));
+  use(j.audio,file,"aud");use(j.title_audio,`${file}_title`,"aud");use(j.subtitles,file,"sub");
+  const q=qs.slice(0,MAXQ).map((x,i)=>{
+    x=x||{};const n=i+1,w=Array.isArray(x.wrong)?x.wrong:[];
+    const ans=[x.right,w[0],w[1]].map((a,k)=>{
+      a=String(a==null?"":a).trim();
+      if(IMG_RE.test(a)){use(a,`${file}_q${n}_${"abc"[k]}`,"img");return ""}
+      return a;
+    });
+    use(x.picture,`${file}_q${n}`,"img");use(x.audio,`${file}_q${n}`,"aud");use(x.say_audio,`${file}_q${n}_answer`,"aud");
+    const r=[String(x.question||"").trim(),ans[0],[ans[1],ans[2]]];
+    if(x.say)r.push(String(x.say).trim());
+    return r;
+  });
+  return {file,emoji:String(j.emoji||"📖"),title,text,q,version:j.version||1};
+}
+
+const Lib={
+  img:{},aud:{},sub:{},files:[],ids:[],state:"loading",missing:[],have:0,total:0,fail:0,busy:false,
+  // network first (so new stories show up), the saved copy when offline
+  async json(url){
+    let data=null;
+    try{
+      const ctl=new AbortController();const tm=setTimeout(()=>ctl.abort(),6000);
+      const r=await fetch(url,{cache:"no-cache",signal:ctl.signal});clearTimeout(tm);
+      if(r.ok){data=await r.clone().json();try{const c=await caches.open(LIB_CACHE);await c.put(url,r)}catch(e){}}
+    }catch(e){}
+    if(!data){try{const c=await caches.open(LIB_CACHE);const r=await c.match(url);if(r)data=await r.json()}catch(e){}}
+    return data;
+  },
+  async load(){
+    const idx=await this.json("stories/index.json");
+    const list=idx&&Array.isArray(idx.stories)?idx.stories:Array.isArray(idx)?idx:null;
+    this.img={};this.aud={};this.sub={};this.files=[];this.ids=[];this.missing=[];
+    if(!list){this.state="none";return []}
+    const jsons=await Promise.all(list.map(id=>this.json(`stories/${encodeURIComponent(id)}/story.json`)));
+    const out=[];
+    list.forEach((folder,i)=>{
+      const file=cleanId(folder),j=jsons[i];
+      if(!file||!j||this.ids.includes(file)){this.missing.push(folder);return}
+      const v=encodeURIComponent(j.version||1);
+      const s=packToStory(j,file,(name,key,kind)=>{
+        const url=`stories/${encodeURIComponent(folder)}/${name.split("/").map(encodeURIComponent).join("/")}?v=${v}`;
+        this[kind][key]=url;this.files.push(url);
+      });
+      if(s){s.lib=folder;out.push(s);this.ids.push(file)}else this.missing.push(folder);
+    });
+    this.state="ok";
+    return out;
+  },
+  // download every file of the library once, so it all works offline
+  async sync(onProgress){
+    if(this.busy||!window.caches||!this.files.length)return;
+    this.busy=true;
+    try{
+      const c=await caches.open(LIB_CACHE);
+      const want=[...new Set(this.files.map(u=>new URL(u,location.href).href))];
+      const wantSet=new Set(want);
+      for(const req of await c.keys()) if(/\/stories\//.test(req.url)&&!/\.json(\?|$)/i.test(req.url)&&!wantSet.has(req.url)) await c.delete(req);
+      const todo=[];this.have=0;this.fail=0;this.total=want.length;
+      for(const u of want){if(await c.match(u))this.have++;else todo.push(u)}
+      onProgress&&onProgress();
+      let i=0;
+      const worker=async()=>{
+        while(i<todo.length){
+          const u=todo[i++];
+          try{const r=await fetch(u,{cache:"no-cache"});if(r.ok&&r.status===200){await c.put(u,r);this.have++}else this.fail++}catch(e){this.fail++}
+          onProgress&&onProgress();
+        }
+      };
+      await Promise.all([worker(),worker(),worker()]);
+    }catch(e){}
+    this.busy=false;onProgress&&onProgress();
+  },
+  statusText(){
+    if(this.state==="loading")return "📚 Library: loading…";
+    if(this.state==="none")return "📚 Library: stories/index.json not found (offline before the first download, or opened as a local file).";
+    let t=`📚 Library: ${this.ids.length} stories from the stories folder.`;
+    if(this.total)t+=`\n${this.have===this.total?"✅":"⏳"} Saved for offline use: ${this.have} of ${this.total} files`+(this.busy?" (downloading…)":"")+(this.fail?` · ⚠️ ${this.fail} could not be downloaded (check the file names in story.json)`:"");
+    if(this.missing.length)t+=`\n⚠️ Skipped (folder or story.json missing or not valid): ${this.missing.join(", ")}`;
+    return t;
+  }
+};
+
+/* =====================================================================
+   SUBTITLES (v3)
+   ===================================================================== */
+// .vtt or .srt text → [{start,end,text,words:[{t,a}]|null}]  (word times from <00:00:01.200> tags, if any)
+function parseSubs(txt){
+  const ts=x=>{const m=String(x).trim().match(/^(?:(\d+):)?(\d{1,2}):(\d{1,2})[.,](\d{1,3})/);
+    return m?(+(m[1]||0))*3600+(+m[2])*60+(+m[3])+(+m[4].padEnd(3,"0"))/1000:NaN};
+  const cues=[];
+  String(txt||"").replace(/\r/g,"").split(/\n\s*\n/).forEach(block=>{
+    const lines=block.split("\n");const i=lines.findIndex(l=>l.includes("-->"));if(i<0)return;
+    const [l,r]=lines[i].split("-->");const start=ts(l),end=ts(r.trim().split(/\s+/)[0]);
+    if(isNaN(start))return;
+    const raw=lines.slice(i+1).join(" ");
+    const parts=raw.split(/<(\d[\d:.,]*)>/);
+    let text="",words=parts.length>1?[]:null;
+    for(let k=0;k<parts.length;k+=2){
+      let seg=parts[k].replace(/<[^>]*>/g,"").replace(/\s+/g," ");
+      if(!text)seg=seg.replace(/^ /,"");else if(text.endsWith(" "))seg=seg.replace(/^ /,"");
+      const t=k===0?start:ts(parts[k-1]);
+      if(words&&seg.trim())words.push({t:isNaN(t)?start:t,a:text.length+(seg.startsWith(" ")?1:0)});
+      text+=seg;
+    }
+    text=text.trim();if(!text)return;
+    cues.push({start,end:isNaN(end)?start+4:end,text,words});
+  });
+  return cues.sort((a,b)=>a.start-b.start);
+}
+const vttTime=t=>{t=Math.max(0,t);const h=Math.floor(t/3600),m=Math.floor(t/60)%60,s=t%60;
+  return `${String(h).padStart(2,"0")}:${String(m).padStart(2,"0")}:${s.toFixed(3).padStart(6,"0")}`};
+function makeVtt(sents,starts,dur){
+  let o="WEBVTT\n\n";
+  sents.forEach((s,i)=>{if(starts[i]==null)return;
+    const end=starts[i+1]!=null?starts[i+1]:Math.max(starts[i]+1,dur||starts[i]+5);
+    o+=`${i+1}\n${vttTime(starts[i])} --> ${vttTime(end)}\n${s}\n\n`});
+  return o;
+}
+// timed subtitles saved on this tablet, by story code (IndexedDB "subs")
+const Subs={
+  text:{},
+  async put(file,t){
+    if(t){this.text[file]=t;await Store.tx("subs","readwrite",st=>st.put(t,file))}
+    else if(file in this.text){delete this.text[file];await Store.tx("subs","readwrite",st=>st.delete(file))}
+  },
+  has(file){return !!(this.text[file]||Lib.sub[file])}
+};
+// what's shown under the picture while she listens
+const Cap={
+  spans:[],text:null,idx:-1,cues:null,sents:[],ends:[],chars:1,
+  mode(){return safe(()=>localStorage.getItem("vh_subs"))||"words"},
+  on(){return this.mode()!=="off"},
+  apply(){const on=this.on();$("#player").classList.toggle("subson",on);$("#quiz").classList.toggle("subson",on)},
+  setSents(sents){this.sents=sents;let acc=0;this.ends=sents.map(s=>acc+=s.length+1);this.chars=Math.max(1,acc)},
+  show(text){
+    if(text===this.text)return;this.text=text;this.idx=-1;
+    const el=$("#subs");el.textContent="";this.spans=[];el.classList.toggle("long",String(text||"").length>95);
+    for(const m of String(text||"").matchAll(/\S+/g)){
+      const sp=document.createElement("span");sp.textContent=m[0];sp._a=m.index;el.appendChild(sp);this.spans.push(sp);
+    }
+  },
+  hl(ci){
+    let k=-1;
+    if(this.mode()==="words"&&ci>=0)for(let i=0;i<this.spans.length;i++){if(this.spans[i]._a<=ci)k=i;else break}
+    if(k===this.idx)return;
+    if(this.idx>=0&&this.spans[this.idx])this.spans[this.idx].classList.remove("on");
+    if(k>=0)this.spans[k].classList.add("on");
+    this.idx=k;
+  },
+  // MP3 playing: use the timing file, or estimate from the story text
+  atTime(t,dur){
+    if(!this.on())return;
+    if(this.cues&&this.cues.length){
+      let c=null;for(const x of this.cues){if(x.start<=t+0.05)c=x;else break}
+      if(!c){this.show("");return}
+      this.show(c.text);
+      if(c.words){let ci=-1;for(const w of c.words){if(w.t<=t+0.05)ci=w.a;else break}this.hl(ci)}
+      else this.hl(Math.floor((t-c.start)/Math.max(.3,c.end-c.start)*c.text.length));
+      return;
+    }
+    if(!dur||!this.sents.length)return;
+    const ci=t/dur*this.chars;let k=0;
+    while(k<this.sents.length-1&&ci>=this.ends[k])k++;
+    this.show(this.sents[k]);this.hl(ci-(k?this.ends[k-1]:0));
+  }
+};
+
 let CUSTOM=[];               // stories you add yourself in the ⚙️ panel
 let OVR={};                  // your changes to built-in stories (text / questions), by file name
 const MAXQ=8;                // up to 8 questions per story
@@ -450,9 +642,9 @@ const Store={
   open(){
     return new Promise(res=>{
       try{
-        const r=indexedDB.open("verhaaltjes-audio",3);
+        const r=indexedDB.open("verhaaltjes-audio",4);
         r.onupgradeneeded=()=>{const d=r.result;
-          for(const n of ["audio","stories","images"]) if(!d.objectStoreNames.contains(n))d.createObjectStore(n);};
+          for(const n of ["audio","stories","images","subs"]) if(!d.objectStoreNames.contains(n))d.createObjectStore(n);};
         r.onsuccess=()=>{this.db=r.result;res(true)};
         r.onerror=()=>res(false);
         r.onblocked=()=>res(false);
@@ -473,6 +665,7 @@ const Store={
     if(!await this.open()) return;
     await this.readAll("audio",(k,v)=>this.mem(k,v));
     await this.readAll("images",(k,v)=>Img.mem(k,v));
+    await this.readAll("subs",(k,v)=>{Subs.text[k]=v});
   },
   mem(base,blob){
     if(this.urls[base]) URL.revokeObjectURL(this.urls[base]);
@@ -534,6 +727,7 @@ const Store={
     const re=new RegExp("^"+file+"($|_)");
     for(const k of Object.keys(this.blobs)) if(re.test(k)) await this.del(k);
     for(const k of Object.keys(Img.blobs)) if(re.test(k)) await Img.del(k);
+    await Subs.put(file,null);
   },
   async clear(){
     Object.values(this.urls).forEach(u=>URL.revokeObjectURL(u));this.urls={};this.blobs={};
@@ -543,10 +737,12 @@ const Store={
   candidates(bases){
     const out=[];
     bases.forEach(b=>{if(this.urls[b]) out.push(this.urls[b])});
+    bases.forEach(b=>{if(Lib.aud[b]) out.push(Lib.aud[b])});
     bases.forEach(b=>out.push("audio/"+b+".mp3"));
     return out;
   },
-  first(bases){for(const b of bases)if(this.blobs[b])return this.blobs[b];return null}
+  first(bases){for(const b of bases)if(this.blobs[b])return this.blobs[b];return null},
+  has(b){return !!(this.urls[b]||Lib.aud[b])}
 };
 
 /* =====================================================================
@@ -568,9 +764,15 @@ const Img={
     for(const k of Object.keys(this.blobs)) if(re.test(k)&&!(k in want)) await this.del(k);
     for(const [k,b] of Object.entries(want)) if(this.blobs[k]!==b) await this.put(k,b);
   },
-  url(k){return this.urls[k]||null},
-  storyKeys(file){const out=[];for(let k=1;k<=40;k++)if(this.blobs[`${file}_${k}`])out.push(`${file}_${k}`);return out},
-  storyPics(file){return this.storyKeys(file).map(k=>this.urls[k])},
+  url(k){return this.urls[k]||Lib.img[k]||null},
+  // the tablet's own story pictures if it has any, otherwise the library's
+  storyKeys(file){
+    const out=[];for(let k=1;k<=40;k++)if(this.blobs[`${file}_${k}`])out.push(`${file}_${k}`);
+    if(!out.length)for(let k=1;k<=40;k++)if(Lib.img[`${file}_${k}`])out.push(`${file}_${k}`);
+    return out;
+  },
+  storyPics(file){return this.storyKeys(file).map(k=>this.url(k))},
+  async get(k,rb){if(this.blobs[k])return this.blobs[k];if(!Lib.img[k])return null;const b=await fetchBlob(Lib.img[k]);if(b&&rb)rb[k]=b;return b},
   count(){return Object.keys(this.blobs).length}
 };
 // make photos smaller (max 1400 px) so many fit on the tablet; keeps transparency (webp)
@@ -639,21 +841,27 @@ if(TTS.ok){TTS.pick();speechSynthesis.onvoiceschanged=()=>TTS.pick();setTimeout(
 /* Story read-aloud: sentence by sentence so pause/resume and progress work on Android */
 const Reader={
   sents:[],i:0,playing:false,token:0,
-  load(text){this.sents=(text.match(/[^.!?]+[.!?]*/g)||[text]).map(s=>s.trim()).filter(Boolean);this.i=0;this.playing=false;this.token++},
+  load(text){this.sents=splitSentences(text);this.i=0;this.playing=false;this.token++},
   play(){this.playing=true;this.next()},
   next(){
     const tok=++this.token;
     if(this.i>=this.sents.length){this.playing=false;Player.ended();return}
     Player.progress(this.i/this.sents.length);
-    if(!TTS.ok){setTimeout(()=>{if(tok===this.token&&this.playing){this.i++;this.next()}},1500);return}
+    if(!TTS.ok){Cap.show(this.sents[this.i]);setTimeout(()=>{if(tok===this.token&&this.playing){this.i++;this.next()}},1500);return}
     const s=this.sents[this.i];
     const u=TTS.utter(s);
-    u.onboundary=e=>{if(tok===this.token&&e.charIndex!=null)Player.progress((this.i+Math.min(1,e.charIndex/s.length))/this.sents.length)};
-    const go=()=>{if(tok!==this.token||!this.playing)return;this.i++;setTimeout(()=>this.next(),120)};
+    Cap.show(s);Cap.hl(-1);clearInterval(this.est);
+    u.onstart=()=>{if(tok!==this.token)return;Cap.hl(0);
+      if(!this.realWords){const t0=Date.now();this.est=setInterval(()=>{if(tok!==this.token||this.realWords){clearInterval(this.est);return}
+        Cap.hl(Math.floor((Date.now()-t0)/1000*13*(u.rate||1)))},150)}};
+    u.onboundary=e=>{if(tok!==this.token||e.charIndex==null)return;
+      if(e.name!=="sentence"){this.realWords=true;clearInterval(this.est);Cap.hl(e.charIndex)}
+      Player.progress((this.i+Math.min(1,e.charIndex/s.length))/this.sents.length)};
+    const go=()=>{clearInterval(this.est);if(tok!==this.token||!this.playing)return;this.i++;setTimeout(()=>this.next(),120)};
     u.onend=go;u.onerror=e=>{if(tok!==this.token)return;if(e&&(e.error==="interrupted"||e.error==="canceled"))return;Player.pause()};
     safe(()=>speechSynthesis.resume());speechSynthesis.speak(u);
   },
-  pause(){this.playing=false;this.token++;TTS.stop()},
+  pause(){this.playing=false;this.token++;clearInterval(this.est);TTS.stop()},
   stop(){this.pause();this.i=0}
 };
 
@@ -755,6 +963,8 @@ const doneSet=()=>new Set(safe(()=>JSON.parse(localStorage.getItem("vh_done")||"
 function markDone(id){const s=doneSet();s.add(id);safe(()=>localStorage.setItem("vh_done",JSON.stringify([...s])))}
 function renderHome(){
   const g=$("#grid");const done=doneSet();g.innerHTML="";
+  if(!ALL().length){g.innerHTML=Lib.state==="loading"?'<div style="grid-column:1/-1;text-align:center;font-size:12vh;padding-top:12vh">⏳</div>':
+    '<div style="grid-column:1/-1;text-align:center;font-size:4vh;padding:8vh 6vw;line-height:1.5">📚❓<br>No stories found yet.<br><small style="opacity:.7">Parents: connect to wifi once and reopen the app, or add a story pack via ⚙️.</small></div>';return}
   ALL().forEach((s,i)=>{
     const [a,b]=COLORS[i%COLORS.length];
     const c=document.createElement("div");
@@ -797,6 +1007,7 @@ const Player={
     $("#ttschip").classList.remove("show");
     this.progress(0);this.setBtn("wait");
     Reader.load(s.text);
+    Cap.apply();Cap.cues=null;Cap.setSents(Reader.sents);Cap.show(Reader.sents[0]||"");
     this.cands=Store.candidates(storyBases(s));this.ci=0;this.mode="loading";
     this.tryNext();
   },
@@ -810,9 +1021,22 @@ const Player={
   onMeta(){
     if(this.mode!=="loading")return;
     clearTimeout(this.loadTimer);this.mode="mp3";this.setBtn("play");
+    this.loadCues(this.s,this.cands[this.ci-1]);
     if(this.autoplay)this.play();
   },
   onError(){if(this.mode==="loading")this.tryNext()},
+  // timed subtitles: the tablet's own, or the library's when the library MP3 is playing
+  loadCues(s,src){
+    const f=s.file;
+    if(Subs.text[f]){Cap.cues=parseSubs(Subs.text[f]);return}
+    if(Lib.sub[f]&&Object.values(Lib.aud).includes(src))
+      fetch(Lib.sub[f]).then(r=>r.ok?r.text():"").then(t=>{if(this.s===s&&t){Cap.cues=parseSubs(t);if(audioEl.duration)Cap.atTime(audioEl.currentTime,audioEl.duration)}}).catch(()=>{});
+  },
+  tick(){
+    if(this.mode!=="mp3"||audioEl.paused)return;
+    Cap.atTime(audioEl.currentTime,audioEl.duration);
+    requestAnimationFrame(()=>this.tick());
+  },
   useTTS(){
     clearTimeout(this.loadTimer);
     safe(()=>{audioEl.removeAttribute("src");audioEl.load()});
@@ -821,7 +1045,7 @@ const Player={
   },
   isPlaying(){return this.mode==="mp3"?!audioEl.paused:(this.mode==="tts"&&Reader.playing)},
   play(){
-    if(this.mode==="mp3"){audioEl.play().then(()=>{}).catch(()=>this.setBtn("play"))}
+    if(this.mode==="mp3"){audioEl.play().then(()=>this.tick()).catch(()=>this.setBtn("play"))}
     else if(this.mode==="tts"){Reader.play()}
     else return;
     this.setBtn("pause");$("#storyEm").classList.add("playing");$("#star").classList.add("go");
@@ -869,7 +1093,7 @@ const Player={
 audioEl.addEventListener("loadedmetadata",()=>Player.onMeta());
 audioEl.addEventListener("canplay",()=>Player.onMeta());
 audioEl.addEventListener("error",()=>Player.onError());
-audioEl.addEventListener("timeupdate",()=>{if(Player.mode==="mp3"&&audioEl.duration)Player.progress(audioEl.currentTime/audioEl.duration)});
+audioEl.addEventListener("timeupdate",()=>{if(Player.mode==="mp3"&&audioEl.duration){Player.progress(audioEl.currentTime/audioEl.duration);Cap.atTime(audioEl.currentTime,audioEl.duration)}});
 audioEl.addEventListener("ended",()=>{if(Player.mode==="mp3")Player.ended()});
 audioEl.addEventListener("pause",()=>{if(Player.mode==="mp3"&&!audioEl.ended){Player.setBtn("play");$("#storyEm").classList.remove("playing")}});
 $("#playBtn").addEventListener("click",()=>{ac();Player.toggle()});
@@ -887,7 +1111,7 @@ $("#titleSpk").addEventListener("click",()=>{
 const Quiz={
   s:null,i:0,lock:false,
   start(s){
-    this.s=s;this.i=0;show("quiz");$("#quizEm").textContent=s.emoji;
+    this.s=s;this.i=0;show("quiz");$("#quizEm").textContent=s.emoji;Cap.apply();
     $("#dots").innerHTML=s.q.map(()=>"<span>⭐</span>").join("");
     $("#quiz").classList.toggle("many",s.q.length>5);
     this.render();
@@ -895,6 +1119,7 @@ const Quiz={
   render(){
     const s=this.s,q=s.q[this.i],n=this.i+1;this.lock=false;
     document.querySelectorAll("#dots span").forEach((d,k)=>d.classList.toggle("on",k<this.i));
+    $("#qText").textContent=q[0];
     const qp=Img.url(`${s.file}_q${n}`),pic=$("#quizPic");
     if(qp)pic.src=qp;else pic.removeAttribute("src");
     pic.classList.toggle("show",!!qp);$(".quiz-ask").classList.toggle("haspic",!!qp);$("#quiz").classList.toggle("haspic",!!qp);
@@ -927,7 +1152,7 @@ const Quiz={
       SFX.chime();confetti(60,["⭐","🎉","✨"]);
       document.querySelectorAll("#dots span")[this.i].classList.add("on");
       const s=this.s,i=this.i,sentence=(s.q[i][3]||"").trim();
-      const hasAns=!!sentence||ansBases(s,i).some(k=>Store.urls[k]);
+      const hasAns=!!sentence||ansBases(s,i).some(k=>Store.has(k));
       const praise=PRAISE[Math.floor(Math.random()*PRAISE.length)];
       if(!hasAns){
         setTimeout(()=>TTS.say(praise),500);
@@ -979,11 +1204,28 @@ document.querySelectorAll("[data-home]").forEach(b=>b.addEventListener("click",(
   ["pointerup","pointerleave","pointercancel"].forEach(ev=>g.addEventListener(ev,cancel));
   g.addEventListener("contextmenu",e=>e.preventDefault());
 })();
-function openParent(){stopEverything();$("#parent").classList.add("show");updateAudioStatus();fillVoiceSelect();renderStoryLists();updateAppStatus()}
+function openParent(){stopEverything();$("#parent").classList.add("show");updateAudioStatus();fillVoiceSelect();renderStoryLists();updateAppStatus();updateLibStatus();$("#subsSel").value=Cap.mode()}
+function updateLibStatus(){const el=$("#libStatus");if(el)el.textContent=Lib.statusText()}
+async function handlePacks(list){
+  const files=[...list];if(!files.length)return;
+  const st=$("#packStatus");st.textContent=`Reading ${files.length} file(s)…`;
+  try{const r=await importAny(files,t=>st.textContent=t);st.textContent=r.text}
+  catch(e){st.textContent="⚠️ Something went wrong: "+e.message}
+  renderStoryLists();updateAudioStatus();
+}
+$("#pickPack").addEventListener("change",e=>{handlePacks(e.target.files);e.target.value=""});
+$("#pickPackFolder").addEventListener("change",e=>{handlePacks(e.target.files);e.target.value=""});
+$("#subsSel").addEventListener("change",e=>{safe(()=>localStorage.setItem("vh_subs",e.target.value));Cap.apply()});
+$("#libRefresh").addEventListener("click",async()=>{$("#libStatus").textContent="🔄 Checking…";await loadLibrary();renderStoryLists()});
+document.querySelector("#timer .tm-go").addEventListener("click",()=>Timer.tap());
+document.querySelector("#timer .tm-undo").addEventListener("click",()=>Timer.undo());
+document.querySelector("#timer .tm-done").addEventListener("click",()=>Timer.done());
+document.querySelector("#timer .tm-cancel").addEventListener("click",()=>Timer.close());
+document.querySelector("#timer .tm-play").addEventListener("click",()=>{const a=Timer.a;if(!a)return;a.paused?a.play().catch(()=>{}):a.pause();Timer.draw()});
 $("#closeParent").addEventListener("click",()=>{$("#parent").classList.remove("show");renderHome()});
 
 function updateAudioStatus(extra=""){
-  const has=b=>!!Store.urls[b];
+  const has=b=>Store.has(b);
   let st=0,qs=0,tt=0,nq=0;const missing=[];
   const list=ALL();
   list.forEach(s=>{
@@ -996,17 +1238,27 @@ function updateAudioStatus(extra=""){
     `Stored on this tablet: story MP3s ${st}/${list.length} · question MP3s ${qs}/${nq} · titles ${tt}/${list.length} · pictures ${Img.count()}\n`+
     (Store.db?"Storage: ✅ available (works offline)":"Storage: ⚠️ not available here; files only last until the page is closed")+
     (missing.length&&missing.length<list.length?`\nStories without a stored MP3 (the read-aloud voice will be used): ${missing.join(", ")}`:"")+
-    (st===0?"\nNo MP3s stored yet. The app will look in the audio/ folder, otherwise the read-aloud voice reads the story.":"");
+    (st===0?"\nNo MP3s yet: the read-aloud voice reads the stories.":"");
 }
 async function handleFiles(list){
   const files=[...list];if(!files.length)return;
   $("#audioStatus").textContent=`Saving ${files.length} files… (pictures are made smaller first, this can take a moment)`;
+  if(files.some(f=>/\.zip$/i.test(f.name)||/(^|\/)story\.json$/i.test(f.webkitRelativePath||f.name))){
+    const r=await importAny(files);updateAudioStatus(r.text);renderStoryLists();return}
   const r=await Store.add(files);
   updateAudioStatus(`✅ ${r.n} audio files loaded (${r.saved} saved for offline use), ${r.pics} pictures saved.`);renderStoryLists();
 }
 $("#pickFiles").addEventListener("change",e=>{handleFiles(e.target.files);e.target.value=""});
 $("#pickFolder").addEventListener("change",e=>{handleFiles(e.target.files);e.target.value=""});
 $("#clearAudio").addEventListener("click",async()=>{if(confirm("Delete all stored MP3s?")){await Store.clear();updateAudioStatus("🗑️ Deleted.")}});
+$("#useLibPics").addEventListener("click",async()=>{
+  const ids=STORIES.filter(s=>Object.keys(Lib.img).some(k=>k===s.file||k.startsWith(s.file+"_"))).map(s=>s.file);
+  const keys=Object.keys(Img.blobs).filter(k=>ids.some(f=>ownedImgs(f).test(k)));
+  if(!keys.length){alert("Nothing to do: the library stories already use the library's pictures.");return}
+  if(!confirm(`Remove ${keys.length} copies of pictures stored on this tablet for library stories, and show the library's pictures instead? (Your own stories are not touched.)`))return;
+  for(const k of keys)await Img.del(k);
+  renderHome();renderStoryLists();updateAudioStatus(`🖼️ ${keys.length} picture copies removed: the library's pictures are used now.`);
+});
 $("#resetStars").addEventListener("click",()=>{safe(()=>localStorage.removeItem("vh_done"));alert("⭐ progress reset.")});
 
 function fillVoiceSelect(){
@@ -1039,16 +1291,18 @@ const esc=t=>String(t==null?"":t).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",
 /* ---------- story lists in the panel ---------- */
 function storyRow(s,builtin){
   const r=document.createElement("div");r.className="story-row";
-  const npics=Img.storyKeys(s.file).length,hasA=storyBases(s).some(b=>Store.urls[b]);
-  r.innerHTML=`<span class="e"></span><span class="t"></span><button class="light">✏️ Edit</button>`+(builtin?``:`<button class="red">🗑️</button>`);
+  const npics=Img.storyKeys(s.file).length,hasA=storyBases(s).some(b=>Store.has(b));
+  r.innerHTML=`<span class="e"></span><span class="t"></span><button class="light">✏️ Edit</button><button class="light">⬇️ Pack</button>`+(builtin?``:`<button class="red">🗑️</button>`);
   const cov=Img.url(s.file);
   if(cov){const im=document.createElement("img");im.src=cov;r.querySelector(".e").appendChild(im)}else r.querySelector(".e").textContent=s.emoji;
   r.querySelector(".t").textContent=s.title;
   const bd=document.createElement("span");bd.className="badges";
-  bd.textContent=`${s.q.length} questions · 🖼️ ${npics} story pictures · ${hasA?"🎵 MP3":"🗣️ voice"}`+(builtin&&OVR[s.file]?" · changed by you":"")+(builtin?"":` · code: ${s.file}`);
+  bd.textContent=`${s.q.length} questions · 🖼️ ${npics} story pictures · ${hasA?"🎵 MP3":"🗣️ voice"}`+(Subs.has(s.file)?" · 💬 timed subtitles":"")+
+    (builtin&&OVR[s.file]?" · changed on this tablet":"")+` · code: ${s.file}`;
   r.querySelector(".t").appendChild(bd);
-  const [ed,del]=r.querySelectorAll("button");
+  const [ed,pk,del]=r.querySelectorAll("button");
   ed.onclick=()=>openEditor(s);
+  pk.onclick=async()=>{pk.textContent="⏳";try{download(await storyPack(merged(s)),`${s.file}.zip`)}catch(e){alert("Could not make the pack: "+e.message)}pk.textContent="⬇️ Pack"};
   if(del)del.onclick=async()=>{if(!confirm(`Delete "${s.title}" with its pictures and MP3s?`))return;
     await Store.deleteStory(s.file);CUSTOM=CUSTOM.filter(x=>x.file!==s.file);renderStoryLists();updateAudioStatus()};
   return r;
@@ -1059,28 +1313,33 @@ function renderStoryLists(){
   CUSTOM.forEach(s=>box.appendChild(storyRow(s,false)));
   const bl=$("#builtinList");bl.innerHTML="";
   STORIES.map(merged).forEach(s=>bl.appendChild(storyRow(s,true)));
+  $("#builtinSum").textContent=`Library stories (${STORIES.length}) ▸ tap to open`;
 }
 const renderCustomList=renderStoryLists;
 
 /* ---------- editor ---------- */
 let ED=null;   // what's being edited: texts + Blobs, written to storage on "Save"
-function openEditor(s){
+async function openEditor(s){
+  Timer.close();
   const file=s?s.file:"eigen"+Date.now().toString(36);
   const st=s||{file,custom:true,q:[["","",["",""]],["","",["",""]],["","",["",""]]]};
-  ED={s:st,file,isNew:!s,builtin:!!(s&&!s.custom),
-      emoji:s?s.emoji:"",title:s?s.title:"",text:s?s.text:"",
-      audio:s?Store.first(storyBases(s)):null,
-      cover:Img.blobs[file]||null,
-      pics:Img.storyKeys(file).map(k=>Img.blobs[k]),
-      qs:st.q.map((q,i)=>{const n=i+1;return{
+  $("#editor").style.display="block";$("#edHead").textContent="⏳ Loading…";$("#edMsg").style.display="none";
+  const rb={};const get=k=>Img.get(k,rb);   // rb: the library's own pictures, so unchanged ones aren't copied
+  const pics=(await Promise.all(Img.storyKeys(file).map(get))).filter(Boolean);
+  const qs=await Promise.all(st.q.map(async(q,i)=>{const n=i+1;return{
         t:q[0],say:q[3]||"",
-        pic:Img.blobs[`${file}_q${n}`]||null,
+        pic:await get(`${file}_q${n}`),
         audio:s?Store.first(qBases(s,i)):null,
         sayAudio:s?Store.first(ansBases(s,i)):null,
-        ans:[{e:q[1],img:Img.blobs[`${file}_q${n}_a`]||null},
-             {e:q[2][0]||"",img:Img.blobs[`${file}_q${n}_b`]||null},
-             {e:q[2][1]||"",img:Img.blobs[`${file}_q${n}_c`]||null}]}})};
-  $("#editor").style.display="block";
+        libAudio:!!Lib.aud[`${file}_q${n}`],libSay:!!Lib.aud[`${file}_q${n}_answer`],
+        ans:[{e:q[1],img:await get(`${file}_q${n}_a`)},
+             {e:q[2][0]||"",img:await get(`${file}_q${n}_b`)},
+             {e:q[2][1]||"",img:await get(`${file}_q${n}_c`)}]}}));
+  ED={s:st,file,isNew:!s,builtin:!!(s&&!s.custom),rb,
+      emoji:s?s.emoji:"",title:s?s.title:"",text:s?s.text:"",
+      audio:s?Store.first(storyBases(s)):null,libAudio:!!Lib.aud[file],
+      subs:Subs.text[file]||null,libSubs:!!Lib.sub[file],
+      cover:await get(file),pics,qs};
   $("#edHead").textContent=ED.isNew?"➕ New story":`✏️ ${s.title}`;
   $("#edEmoji").value=ED.emoji;$("#edTitle").value=ED.title;$("#edText").value=ED.text;
   $("#edReset").style.display=ED.builtin&&OVR[file]?"inline-block":"none";
@@ -1121,7 +1380,7 @@ function picSlot(get,set,label){
 }
 // one MP3 slot: ✅ stored ▶ ✕, or "choose"
 let edPlayer=null;
-function audioSlot(get,set){
+function audioSlot(get,set,lib){
   const w=document.createElement("div");w.className="aud";
   const draw=()=>{
     w.innerHTML="";const b=get();
@@ -1134,15 +1393,34 @@ function audioSlot(get,set){
       w.appendChild(filePick("audio/*",false,"Replace","light small",async f=>{set(f[0]);draw()}));
       const x=document.createElement("button");x.className="red small";x.textContent="✕";x.onclick=()=>{set(null);draw()};w.appendChild(x);
     }else{
-      const sp=document.createElement("span");sp.textContent="No MP3: the read-aloud voice is used.";w.appendChild(sp);
+      const sp=document.createElement("span");sp.textContent=lib?"🎵 MP3 from the library. Choose one to use your own on this tablet.":"No MP3: the read-aloud voice is used.";w.appendChild(sp);
       w.appendChild(filePick("audio/*",false,"🎵 Choose MP3","small",async f=>{set(f[0]);draw()}));
     }
   };
   draw();return w;
 }
+// subtitles slot in the editor
+function renderSubsSlot(){
+  const w=$("#edSubs");if(!w||!ED)return;w.innerHTML="";
+  const p=document.createElement("div");p.className="aud";
+  const n=ED.subs?parseSubs(ED.subs).length:0;
+  const sp=document.createElement("span");
+  sp.textContent=ED.subs?`✅ Timed subtitles: ${n} lines`+(n?"":" ⚠️ (no lines could be read from this file)"):
+    ED.libSubs&&!ED.audio?"✅ Timed subtitles from the library.":
+    (ED.audio||ED.libAudio)?"No timing file: subtitles are estimated from the MP3 length (fine for most stories).":
+    "The read-aloud voice shows each sentence while it reads. Nothing to do.";
+  p.appendChild(sp);
+  p.appendChild(filePick("",false,"📄 Load .vtt / .srt","light small",async f=>{
+    const t=await f[0].text();if(!parseSubs(t).length){edMsg("⚠️ No subtitle lines found in that file. It must be a .vtt or .srt file.");return}
+    ED.subs=t;renderSubsSlot()}));
+  if(ED.audio||ED.libAudio){const b=document.createElement("button");b.className="small";b.textContent="⏱️ Time the subtitles";b.onclick=()=>Timer.open();p.appendChild(b)}
+  if(ED.subs){const x=document.createElement("button");x.className="red small";x.textContent="✕";x.onclick=()=>{ED.subs=null;renderSubsSlot()};p.appendChild(x)}
+  w.appendChild(p);
+}
 function renderEditor(){
   // story audio + card picture
-  const ea=$("#edAudio");ea.innerHTML="";ea.appendChild(audioSlot(()=>ED.audio,b=>ED.audio=b));
+  const ea=$("#edAudio");ea.innerHTML="";ea.appendChild(audioSlot(()=>ED.audio,b=>{ED.audio=b;renderSubsSlot()},ED.libAudio));
+  renderSubsSlot();
   const ec=$("#edCover");ec.innerHTML="";ec.appendChild(picSlot(()=>ED.cover,b=>ED.cover=b,"Card picture"));
   // story pictures
   const ep=$("#edPics");ep.innerHTML="";
@@ -1173,8 +1451,8 @@ function renderEditor(){
       <input type="text" class="qsay" placeholder="Olaf heeft een wortel als neus.">
       <span class="lbl">🎵 MP3 of the answer sentence (optional)</span><div class="qsa"></div>`;
     d.querySelector(".qt").value=q.t;d.querySelector(".qsay").value=q.say;
-    d.querySelector(".qa").appendChild(audioSlot(()=>q.audio,b=>q.audio=b));
-    d.querySelector(".qsa").appendChild(audioSlot(()=>q.sayAudio,b=>q.sayAudio=b));
+    d.querySelector(".qa").appendChild(audioSlot(()=>q.audio,b=>q.audio=b,q.libAudio));
+    d.querySelector(".qsa").appendChild(audioSlot(()=>q.sayAudio,b=>q.sayAudio=b,q.libSay));
     d.querySelector(".qp").appendChild(picSlot(()=>q.pic,b=>q.pic=b,"Question picture"));
     const ar=d.querySelector(".ansrow");
     q.ans.forEach((a,k)=>{
@@ -1217,12 +1495,15 @@ async function saveEditor(){
   if(E.builtin)OVR[file]=rec;
   else{CUSTOM=CUSTOM.filter(x=>x.file!==file);CUSTOM.push(rec);CUSTOM.sort((a,b)=>(a.created||0)-(b.created||0))}
   // pictures
-  const wantI={};
-  if(E.cover)wantI[file]=E.cover;
-  E.pics.forEach((b,k)=>wantI[`${file}_${k+1}`]=b);
-  E.qs.forEach((x,i)=>{const n=i+1;if(x.pic)wantI[`${file}_q${n}`]=x.pic;
-    x.ans.forEach((a,k)=>{if(a.img)wantI[`${file}_q${n}_${"abc"[k]}`]=a.img})});
+  const wantI={},keep=(k,b)=>{if(b&&E.rb[k]!==b)wantI[k]=b};
+  keep(file,E.cover);
+  const libPics=Object.keys(Lib.img).filter(k=>new RegExp(`^${file}_\\d+$`).test(k)).length;
+  const sameAsLib=E.pics.length===libPics&&E.pics.every((b,k)=>E.rb[`${file}_${k+1}`]===b);
+  if(!sameAsLib)E.pics.forEach((b,k)=>wantI[`${file}_${k+1}`]=b);
+  E.qs.forEach((x,i)=>{const n=i+1;keep(`${file}_q${n}`,x.pic);
+    x.ans.forEach((a,k)=>keep(`${file}_q${n}_${"abc"[k]}`,a.img))});
   await Img.sync(ownedImgs(file),wantI);
+  await Subs.put(file,E.subs||null);Timer.close();
   // audio (also replaces old "story5_q1"-style names of built-in stories)
   const wantA={};
   if(E.audio)wantA[file]=E.audio;
@@ -1235,7 +1516,7 @@ async function saveEditor(){
   $("#audioStatus").scrollIntoView({behavior:"smooth"});
 }
 $("#newStory").addEventListener("click",()=>openEditor(null));
-$("#edCancel").addEventListener("click",()=>{ED=null;if(edPlayer)edPlayer.pause();$("#editor").style.display="none"});
+$("#edCancel").addEventListener("click",()=>{Timer.close();ED=null;if(edPlayer)edPlayer.pause();$("#editor").style.display="none"});
 $("#edSave").addEventListener("click",saveEditor);
 $("#edPreview").addEventListener("click",()=>{const t=$("#edText").value.trim();if(t)TTS.say(t.slice(0,220))});
 $("#edReset").addEventListener("click",async()=>{
@@ -1244,13 +1525,223 @@ $("#edReset").addEventListener("click",async()=>{
   ED=null;$("#editor").style.display="none";renderStoryLists();updateAudioStatus("↺ Original text and questions restored.");
 });
 
+/* =====================================================================
+   STORY PACKS (v3): a .zip (or a folder) with story.json + its pictures, MP3s and subtitles.
+   Add one on the tablet, or share one ("⬇️ Pack") to put it in the stories/ folder online.
+   ===================================================================== */
+async function unzip(file){
+  const buf=new Uint8Array(await file.arrayBuffer()),dv=new DataView(buf.buffer,buf.byteOffset,buf.byteLength);
+  let e=-1;for(let i=buf.length-22;i>=Math.max(0,buf.length-65557);i--)if(dv.getUint32(i,true)===0x06054b50){e=i;break}
+  if(e<0)throw new Error("not a zip");
+  const n=dv.getUint16(e+10,true);let p=dv.getUint32(e+16,true);const out=[];
+  const dec=new TextDecoder("utf-8");
+  for(let k=0;k<n;k++){
+    if(dv.getUint32(p,true)!==0x02014b50)break;
+    const method=dv.getUint16(p+10,true),csize=dv.getUint32(p+20,true),nlen=dv.getUint16(p+28,true),
+          xlen=dv.getUint16(p+30,true),clen=dv.getUint16(p+32,true),lho=dv.getUint32(p+42,true);
+    const name=dec.decode(buf.subarray(p+46,p+46+nlen));p+=46+nlen+xlen+clen;
+    if(name.endsWith("/"))continue;
+    const start=lho+30+dv.getUint16(lho+26,true)+dv.getUint16(lho+28,true);
+    const data=buf.subarray(start,start+csize);
+    let blob=null;
+    if(method===0)blob=new Blob([data]);
+    else if(method===8&&window.DecompressionStream)
+      blob=await new Response(new Blob([data]).stream().pipeThrough(new DecompressionStream("deflate-raw"))).blob();
+    if(blob)out.push({path:name,blob:typed(blob,name)});
+  }
+  return out;
+}
+const CRC=(()=>{const t=new Uint32Array(256);for(let n=0;n<256;n++){let c=n;for(let k=0;k<8;k++)c=c&1?0xEDB88320^(c>>>1):c>>>1;t[n]=c>>>0}return t})();
+function crc32(u){let c=0xFFFFFFFF;for(let i=0;i<u.length;i++)c=CRC[(c^u[i])&255]^(c>>>8);return (c^0xFFFFFFFF)>>>0}
+// files: [{name, blob}] → a .zip Blob (stored, not compressed: pictures and MP3s are compressed already)
+async function makeZip(files){
+  const enc=new TextEncoder(),parts=[],central=[];let off=0;
+  for(const f of files){
+    const data=new Uint8Array(await f.blob.arrayBuffer()),name=enc.encode(f.name),crc=crc32(data);
+    const h=new DataView(new ArrayBuffer(30));
+    h.setUint32(0,0x04034b50,true);h.setUint16(4,20,true);h.setUint16(6,0x800,true);h.setUint16(8,0,true);
+    h.setUint32(14,crc,true);h.setUint32(18,data.length,true);h.setUint32(22,data.length,true);h.setUint16(26,name.length,true);
+    parts.push(h.buffer,name,data);
+    const c=new DataView(new ArrayBuffer(46));
+    c.setUint32(0,0x02014b50,true);c.setUint16(4,20,true);c.setUint16(6,20,true);c.setUint16(8,0x800,true);
+    c.setUint32(16,crc,true);c.setUint32(20,data.length,true);c.setUint32(24,data.length,true);c.setUint16(28,name.length,true);
+    c.setUint32(42,off,true);central.push(c.buffer,name);
+    off+=30+name.length+data.length;
+  }
+  const csize=central.reduce((a,b)=>a+b.byteLength,0);
+  const e=new DataView(new ArrayBuffer(22));
+  e.setUint32(0,0x06054b50,true);e.setUint16(8,files.length,true);e.setUint16(10,files.length,true);
+  e.setUint32(12,csize,true);e.setUint32(16,off,true);
+  return new Blob([...parts,...central,e.buffer],{type:"application/zip"});
+}
+function download(blob,name){
+  const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=name;
+  document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),60000);
+}
+
+/* ---------- export one story as a pack ---------- */
+const EXT={"image/jpeg":"jpg","image/png":"png","image/webp":"webp","image/gif":"gif","audio/mpeg":"mp3","audio/mp3":"mp3",
+  "audio/mp4":"m4a","audio/x-m4a":"m4a","audio/aac":"aac","audio/wav":"wav","audio/x-wav":"wav","audio/ogg":"ogg"};
+async function storyPack(s){
+  const file=s.file,files=[];
+  const j={format:1,id:file,version:1,title:s.title,emoji:s.emoji,text:s.text};
+  const imgBlob=async k=>Img.blobs[k]||(Lib.img[k]?await fetchBlob(Lib.img[k]):null);
+  const audBlob=async(bases,k)=>Store.first(bases)||(Lib.aud[k]?await fetchBlob(Lib.aud[k]):null);
+  const add=(base,blob,def)=>{const name=`${base}.${EXT[(blob.type||"").split(";")[0]]||def}`;files.push({name,blob});return name};
+  let b;
+  if(b=await imgBlob(file))j.card=add("card",b,"jpg");
+  const pics=[];for(const k of Img.storyKeys(file)){const x=await imgBlob(k);if(x)pics.push(add(String(pics.length+1),x,"jpg"))}
+  if(pics.length)j.pictures=pics;
+  if(b=await audBlob(storyBases(s),file))j.audio=add("story",b,"mp3");
+  const subs=Subs.text[file]||(Lib.sub[file]?await fetch(Lib.sub[file]).then(r=>r.ok?r.text():null).catch(()=>null):null);
+  if(subs){const vtt=/^\s*WEBVTT/.test(subs)?subs:"WEBVTT\n\n"+subs.replace(/(\d\d:\d\d:\d\d),(\d+)/g,"$1.$2");
+    files.push({name:"story.vtt",blob:new Blob([vtt],{type:"text/vtt"})});j.subtitles="story.vtt"}
+  if(b=await audBlob(titleBases(s),`${file}_title`))j.title_audio=add("title",b,"mp3");
+  j.questions=[];
+  for(const [i,q] of s.q.entries()){
+    const n=i+1,o={question:q[0]};
+    const ans=await Promise.all([0,1,2].map(async k=>{const x=await imgBlob(`${file}_q${n}_${"abc"[k]}`);
+      return x?add(`q${n}_${"abc"[k]}`,x,"jpg"):(k===0?q[1]:q[2][k-1])}));
+    o.right=ans[0];o.wrong=[ans[1],ans[2]];
+    if(q[3])o.say=q[3];
+    if(b=await imgBlob(`${file}_q${n}`))o.picture=add(`q${n}`,b,"jpg");
+    if(b=await audBlob(qBases(s,i),`${file}_q${n}`))o.audio=add(`q${n}`,b,"mp3");
+    if(b=await audBlob(ansBases(s,i),`${file}_q${n}_answer`))o.say_audio=add(`q${n}_answer`,b,"mp3");
+    j.questions.push(o);
+  }
+  files.unshift({name:"story.json",blob:new Blob([JSON.stringify(j,null,2)+"\n"],{type:"application/json"})});
+  return makeZip(files.map(f=>({name:`${file}/${f.name}`,blob:f.blob})));
+}
+
+/* ---------- add packs (zip / folder / loose files with a story.json) ---------- */
+async function importAny(list,say){
+  let entries=[];const notes=[];
+  for(const f of list){
+    const path=f.webkitRelativePath||f.name;
+    if(/\.zip$/i.test(f.name)||/zip/.test(f.type)){
+      try{say&&say(`Opening ${f.name}…`);(await unzip(f)).forEach(e=>entries.push(e))}
+      catch(e){notes.push(`⚠️ ${f.name}: this zip could not be opened.`)}
+    }else entries.push({path,blob:f});
+  }
+  entries=entries.filter(e=>!/(^|\/)(__MACOSX|\.)/.test(e.path));
+  const jsons=entries.filter(e=>/(^|\/)story\.json$/i.test(e.path));
+  const used=new Set();let added=0;
+  for(const pj of jsons){
+    const dir=pj.path.slice(0,pj.path.length-"story.json".length);
+    const mine=entries.filter(e=>e.path.startsWith(dir)&&!jsons.some(o=>o!==pj&&o.path.length>pj.path.length&&e.path.startsWith(o.path.slice(0,-10))));
+    mine.forEach(e=>used.add(e));
+    const by={};mine.forEach(e=>by[e.path.slice(dir.length).toLowerCase()]=e.blob);
+    const folder=dir.replace(/\/$/,"").split("/").pop();
+    let j;try{j=JSON.parse(await pj.blob.text())}catch(e){notes.push(`⚠️ ${folder||"story.json"}: story.json is not valid JSON (check commas and quotes).`);continue}
+    // files with the usual names are used even when story.json doesn't list them
+    const names=Object.keys(by),find=re=>names.find(n=>re.test(n));
+    if(!j.card)j.card=find(/^card\.(jpe?g|png|webp|gif)$/);
+    if(!Array.isArray(j.pictures)||!j.pictures.length)
+      j.pictures=names.filter(n=>/^\d+\.(jpe?g|png|webp|gif)$/.test(n)).sort((a,b)=>parseInt(a)-parseInt(b));
+    if(!j.audio)j.audio=find(/^story\.(mp3|m4a|aac|wav|ogg|opus)$/);
+    if(!j.subtitles)j.subtitles=find(/^story\.(vtt|srt)$/);
+    if(!j.title_audio)j.title_audio=find(/^title\.(mp3|m4a|aac|wav|ogg|opus)$/);
+    (j.questions||[]).forEach((q,i)=>{if(!q)return;const n=i+1;
+      if(!q.picture)q.picture=find(new RegExp(`^q${n}\\.(jpe?g|png|webp|gif)$`));
+      if(!q.audio)q.audio=find(new RegExp(`^q${n}\\.(mp3|m4a|aac|wav|ogg|opus)$`));
+      if(!q.say_audio)q.say_audio=find(new RegExp(`^q${n}_answer\\.(mp3|m4a|aac|wav|ogg|opus)$`));
+      if(!q.right)q.right=find(new RegExp(`^q${n}_a\\.(jpe?g|png|webp|gif)$`));
+      if(!Array.isArray(q.wrong))q.wrong=[];
+      ["b","c"].forEach((l,k)=>{if(!q.wrong[k])q.wrong[k]=find(new RegExp(`^q${n}_${l}\\.(jpe?g|png|webp|gif)$`))||""});
+    });
+    const file=cleanId(j.id||folder||j.title)||("verhaal"+Date.now().toString(36));
+    const imgs={},auds={};let subBlob=null;const miss=[];
+    const s=packToStory(j,file,(name,key,kind)=>{
+      const b=by[name.toLowerCase().replace(/^\.\//,"")];if(!b){miss.push(name);return}
+      if(kind==="img")imgs[key]=typed(b,name);else if(kind==="aud")auds[key]=typed(b,name);else subBlob=b;
+    });
+    if(!s){notes.push(`⚠️ ${folder||file}: story.json needs a "title", a "text" and at least one question.`);continue}
+    say&&say(`Saving "${s.title}"… (pictures are made smaller first)`);
+    for(const k of Object.keys(imgs))imgs[k]=await shrinkImage(imgs[k]);
+    const isLib=STORIES.some(x=>x.file===file);
+    let rec;
+    if(isLib){rec={file,builtin:true,emoji:s.emoji,title:s.title,text:s.text,q:s.q};OVR[file]=rec}
+    else{const old=CUSTOM.find(x=>x.file===file);
+      rec={file,custom:true,created:(old&&old.created)||Date.now(),emoji:s.emoji,title:s.title,text:s.text,q:s.q};
+      CUSTOM=CUSTOM.filter(x=>x.file!==file);CUSTOM.push(rec);CUSTOM.sort((a,b)=>(a.created||0)-(b.created||0))}
+    await Store.saveStory(rec);
+    await Img.sync(ownedImgs(file),imgs);
+    await Store.sync(ownedAudio(findStory(file)),auds);
+    await Subs.put(file,subBlob?await subBlob.text():null);
+    added++;
+    notes.push(`✅ "${s.title}" (code ${file}): ${s.q.length} questions, ${Img.storyKeys(file).length} story pictures, `+
+      `${auds[file]?"MP3":"read-aloud voice"}, ${subBlob?"timed subtitles":"estimated subtitles"}`+(isLib?" · replaces the library version on this tablet":"")+
+      (miss.length?`\n   ⚠️ named in story.json but not found: ${miss.join(", ")}`:""));
+  }
+  // anything else: the old way, by file name (frozen_1.jpg, frozen_q1.mp3 …)
+  const rest=entries.filter(e=>!used.has(e));
+  if(rest.length){
+    const r=await Store.add(rest.map(e=>e.blob instanceof File?e.blob:new File([e.blob],e.path.split("/").pop(),{type:e.blob.type})));
+    if(r.n||r.pics)notes.push(`✅ ${r.n} audio files and ${r.pics} pictures added by file name.`);
+  }
+  safe(()=>navigator.storage&&navigator.storage.persist&&navigator.storage.persist());
+  return {added,text:notes.join("\n")||"Nothing found to add. Pick a story pack .zip, or a folder with a story.json in it."};
+}
+
+/* ---------- ⏱️ subtitle timing: tap when each sentence starts ---------- */
+const Timer={
+  a:null,sents:[],marks:[],url:null,
+  open(){
+    syncEd();if(!ED)return;
+    this.sents=splitSentences(ED.text);
+    if(!this.sents.length){edMsg("⚠️ Type the story text first: each sentence becomes one subtitle line.");return}
+    if(!ED.audio&&!Lib.aud[ED.file]){edMsg("⚠️ Add the story MP3 first.");return}
+    this.close(true);
+    const src=ED.audio?(this.url=URL.createObjectURL(ED.audio)):Lib.aud[ED.file];
+    this.a=new Audio(src);this.marks=[];
+    this.a.ontimeupdate=()=>this.draw();this.a.onended=()=>this.draw();
+    $("#timer").style.display="block";this.draw();
+    $("#timer").scrollIntoView({behavior:"smooth",block:"center"});
+  },
+  draw(){
+    const n=this.marks.length,b=$("#timer");if(!this.a)return;
+    const cur=n?this.sents[n-1]:"",nxt=this.sents[n];
+    b.querySelector(".tm-pos").textContent=`${n} of ${this.sents.length} lines timed · ⏱ ${vttTime(this.a.currentTime||0).slice(3,8)}`+
+      (this.a.duration?` / ${vttTime(this.a.duration).slice(3,8)}`:"");
+    b.querySelector(".tm-cur").textContent=cur?`🔊 ${cur}`:"Press ▶ Play, then tap the big button the moment the voice starts the first sentence.";
+    b.querySelector(".tm-next").textContent=nxt||"✅ All lines are timed. Press ✔ Use these subtitles.";
+    b.querySelector(".tm-go").disabled=!nxt;
+    b.querySelector(".tm-play").textContent=this.a.paused?"▶ Play":"⏸ Pause";
+  },
+  tap(){
+    if(!this.a||this.marks.length>=this.sents.length)return;
+    if(this.a.paused)this.a.play().catch(()=>{});
+    this.marks.push(this.a.currentTime);this.draw();
+  },
+  undo(){
+    if(!this.a||!this.marks.length)return;
+    const t=this.marks.pop();this.a.currentTime=Math.max(0,t-2);this.draw();
+  },
+  done(){
+    if(!this.a)return;
+    if(!this.marks.length){this.close();return}
+    let sents=this.sents.slice(0,this.marks.length);
+    if(this.marks.length<this.sents.length){
+      if(!confirm(`Only ${this.marks.length} of ${this.sents.length} lines are timed. The rest will be added to the last line. OK?`))return;
+      sents[sents.length-1]+=" "+this.sents.slice(this.marks.length).join(" ");
+    }
+    ED.subs=makeVtt(sents,this.marks,this.a.duration);
+    this.close();renderEditor();edMsg(`✅ Subtitles timed (${sents.length} lines). Press 💾 Save story to keep them.`);
+  },
+  close(keepBox){
+    if(this.a){this.a.pause();this.a=null}
+    if(this.url){URL.revokeObjectURL(this.url);this.url=null}
+    if(!keepBox)$("#timer").style.display="none";
+  }
+};
+
 /* ---------- backup: texts, questions AND pictures (MP3s not included: too big) ---------- */
 const blobToData=b=>new Promise(r=>{const f=new FileReader();f.onload=()=>r(f.result);f.onerror=()=>r(null);f.readAsDataURL(b)});
 $("#exportStories").addEventListener("click",async()=>{
   const btn=$("#exportStories");btn.textContent="⏳ …";
   const images={};for(const [k,b] of Object.entries(Img.blobs)){const d=await blobToData(b);if(d)images[k]=d}
   const pick=({file,emoji,title,text,q,created,builtin})=>({file,emoji,title,text,q,created,builtin});
-  const data=JSON.stringify({app:"verhaaltjes",version:2,stories:CUSTOM.map(pick).concat(Object.values(OVR).map(pick)),images});
+  const data=JSON.stringify({app:"verhaaltjes",version:3,stories:CUSTOM.map(pick).concat(Object.values(OVR).map(pick)),images,subs:Subs.text});
   const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([data],{type:"application/json"}));
   a.download="verhaaltjes-backup.json";document.body.appendChild(a);a.click();a.remove();
   btn.textContent="⬇️ Back up";
@@ -1262,7 +1753,7 @@ $("#importStories").addEventListener("change",async e=>{
     const okQ=q=>Array.isArray(q)&&q.length>=1&&q.length<=MAXQ&&q.every(x=>Array.isArray(x)&&typeof x[0]==="string"&&Array.isArray(x[2]));
     for(const x of list){
       if(!x||!x.title||!x.text||!okQ(x.q))continue;
-      if(x.builtin&&STORIES.some(b=>b.file===x.file)){
+      if(x.builtin&&(STORIES.some(b=>b.file===x.file)||!STORIES.length)){
         const rec={file:x.file,builtin:true,emoji:x.emoji,title:x.title,text:x.text,q:x.q};
         await Store.saveStory(rec);OVR[x.file]=rec;n++;continue;
       }
@@ -1273,6 +1764,7 @@ $("#importStories").addEventListener("change",async e=>{
       if(typeof u!=="string"||!u.startsWith("data:image/"))continue;
       try{await Img.put(k,await (await fetch(u)).blob());p++}catch(err){}
     }
+    for(const [k,t] of Object.entries(d.subs||{}))if(typeof t==="string")await Subs.put(k,t);
     renderStoryLists();updateAudioStatus(`✅ ${n} stories and ${p} pictures restored.`);
   }catch(err){alert("This file could not be read.")}
 });
@@ -1296,11 +1788,32 @@ if("serviceWorker" in navigator&&location.protocol.startsWith("http")){
 }
 updateAppStatus();
 
-renderHome();
+let SAVED=[];
+async function loadLibrary(){
+  Lib.state="loading";updateLibStatus();
+  const lib=await Lib.load();
+  if(lib.length||!STORIES.length)STORIES=lib.map((s,i)=>Object.assign(s,{id:i+1}));
+  // a story added on this tablet that is now also in the library (same code): show it once.
+  // Unchanged copies are dropped so the library version is used; changed ones stay as "changed on this tablet".
+  const libBy={};STORIES.forEach(b=>libBy[b.file]=b);
+  const same=(a,b)=>JSON.stringify([a.title,a.text,a.q])===JSON.stringify([b.title,b.text,b.q]);
+  OVR={};
+  for(const r of SAVED){
+    const b=libBy[r.file];if(!b)continue;
+    if(!r.builtin&&same(r,b)){await Store.removeStoryRecord(r.file);continue}
+    OVR[r.file]=Object.assign({},r,{builtin:true,custom:false});
+  }
+  SAVED=SAVED.filter(r=>!libBy[r.file]||OVR[r.file]);
+  CUSTOM=CUSTOM.filter(c=>!libBy[c.file]);
+  if(screen==="home")renderHome();
+  updateLibStatus();
+  Lib.sync(updateLibStatus);
+}
+Cap.apply();renderHome();
 Store.loadAll().then(async()=>{
-  const saved=await Store.getStories();
-  CUSTOM=saved.filter(s=>!s.builtin).map(s=>Object.assign(s,{custom:true}));
-  OVR={};saved.filter(s=>s.builtin&&STORIES.some(b=>b.file===s.file)).forEach(s=>OVR[s.file]=s);
+  SAVED=await Store.getStories();
+  CUSTOM=SAVED.filter(s=>!s.builtin).map(s=>Object.assign(s,{custom:true}));
+  await loadLibrary();
   renderHome();renderStoryLists();updateAudioStatus();
 });
 </script>
