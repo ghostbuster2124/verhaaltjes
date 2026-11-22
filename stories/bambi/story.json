@@ -1,0 +1,43 @@
+{
+  "format": 1,
+  "id": "bambi",
+  "version": 1,
+  "title": "Bambi. Vriendjes in het bos.",
+  "emoji": "🦌",
+  "text": "Het is lente in het grote bos. De vogeltjes zingen. Tjiep, tjiep! De bloemetjes gaan open. De zon schijnt door de bladeren van de hoge bomen. En overal zijn dieren. Eekhoorntjes, konijntjes, vogeltjes, muisjes en uilen. Ze wonen allemaal samen in het bos. Op een ochtend vliegt een vogeltje rond. Wakker worden, wakker worden! Er is een prinsje geboren! Alle dieren van het bos komen kijken. Op een zacht bedje van bladeren ligt een klein hertje naast zijn mama. Hij heeft grote bruine oogjes, lange wimpers, en witte vlekjes op zijn rug. Het is een hertje, en zijn naam is Bambi. Een klein grijs konijntje hupt dichterbij. Hij heeft een wit staartje en lange oren. Hij heet Stampertje. En weet je waarom hij Stampertje heet? Omdat hij altijd met zijn achterpoot op de grond stampt! Stamp, stamp, stamp! Tok tok tok! Als hij blij is, stampt hij. Als hij praat, stampt hij. Hij kan het gewoon niet laten. Hihihi! Bambi probeert op te staan. Zijn pootjes zijn nog heel wiebelig. Wiebel, wiebel! Plof! Daar valt hij. Hij probeert het nog eens. Wiebel, wiebel, plof! Stampertje lacht. Hij kan nog niet zo goed lopen, he? Maar Bambi geeft niet op. En na een tijdje staat hij. Hoera! Stampertje wordt Bambi's beste vriend. Kom, Bambi, ik leer je alles! Ze huppelen samen door het bos. Stampertje leert Bambi springen over een boomstam. Hop! Plof! Hihihi, nog eens! Hop! Ja! Stampertje leert Bambi ook praten. Dat is een vogel, Bambi. Zeg eens vogel. Vo, vo, vogel! zegt Bambi. Hij is zo trots. En dan ziet hij een vlinder. Vogel! Nee, lacht Stampertje, dat is een vlinder. Dan ziet Bambi een bloem. Vlinder! Nee, dat is een bloem! En dan steekt er uit de bloemen een klein zwart diertje met een witte streep zijn kopje omhoog. Bloem? zegt Bambi. Het diertje bloost. Hij is een stinkdiertje. Maar hij vindt het zo lief dat Bambi hem Bloem noemt, dat hij voortaan Bloempje heet. Bloempje is een beetje verlegen. Als hij bloost, wordt hij helemaal rood. Zo hebben Bambi en zijn vriendjes een plezante tijd in het bos. Ze spelen in het gras, ze verstoppen zich achter de bomen, en ze ruiken aan de bloemen. Op een dag regent het. Drup, drup, drup! Eerst een klein beetje. Dan steeds harder. Kletter kletter! En dan donder en bliksem. Boem! De dieren kruipen in hun holletjes. Bambi kruipt dicht tegen zijn mama aan. Na de regen schijnt de zon weer, en alles glinstert. Mama neemt Bambi mee naar de grote weide. Daar staan nog meer herten. Bambi ziet een meisjeshertje. Ze heet Feline. Ze speelt met hem en hij wordt helemaal verlegen. Dan komt er een groot, sterk hert met een enorm gewei. Dat is de grote prins van het bos. Iedereen wordt stil. Hij kijkt even naar Bambi. Dan wordt het herfst. De bladeren worden rood en oranje en geel. Ze dwarrelen naar beneden. Ritsel, ritsel. En dan wordt het winter. Bambi ziet voor de eerste keer sneeuw. Wat is dat? Al dat wit! Hij steekt zijn neus erin. Brrr, koud! Hij hapt in de sneeuw. Hihihi! Stampertje roept: Kom, Bambi! Kom glijden op de vijver! De vijver is helemaal bevroren tot ijs. Stampertje glijdt op zijn buik. Zoef! Bambi stapt op het ijs. Maar zijn pootjes glijden uit alle kanten. Wiebel, wiebel, plats! Daar ligt hij, met vier pootjes uit elkaar, op zijn buik. Hahaha! Stampertje lacht zo hard dat hij met zijn poot stampt. Stamp, stamp! Kom, ik help je. En Stampertje duwt Bambi over het ijs. Bloempje slaapt in de winter in zijn holletje. Gaaap. Welterusten, Bloempje! En dan wordt het weer lente. De vogeltjes zingen weer. Bambi is groot geworden. Hij heeft een mooi gewei gekregen. Stampertje is ook groot, en Bloempje ook. Bambi groeit op en wordt de nieuwe prins van het bos. En met zijn vriendjes Stampertje en Bloempje woont hij nog lang en gelukkig in het grote, groene bos.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welk dier is Bambi?",
+      "right": "🦌",
+      "wrong": [
+        "🦊",
+        "🐿️"
+      ]
+    },
+    {
+      "question": "Wat doet het konijntje Stampertje met zijn poot?",
+      "right": "🐇",
+      "wrong": [
+        "🥁",
+        "💃"
+      ]
+    },
+    {
+      "question": "Waar wonen Bambi en zijn vriendjes?",
+      "right": "🌳",
+      "wrong": [
+        "🏖️",
+        "🏙️"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "id": "ganesha",
+  "version": 1,
+  "title": "Ganesha en de wedstrijd rond de wereld.",
+  "emoji": "🐘",
+  "text": "Lang geleden, in India, hoog in de bergen, woonde een heel bijzondere familie. Papa heette Shiva en mama heette Parvati. En ze hadden twee zonen. De ene zoon heette Kartikeya. Hij was snel en sterk, en hij had een prachtige pauw met lange blauwe en groene veren. Op die pauw kon hij door de lucht vliegen. Woesj! De andere zoon heette Ganesha. En Ganesha zag er heel speciaal uit. Hij had het hoofd van een olifant! Met grote flapperende oren, een lange slurf en twee kleine slimme oogjes. Hij had een dikke ronde buik, want Ganesha hield heel erg van zoete snoepjes. Zijn lievelingssnoepjes waren kleine zoete bolletjes, die je modaks noemt. Mmm! En Ganesha had een heel klein vriendje dat hem overal naartoe droeg. Een muisje! Het muisje heette Mushika. Piep piep! Ganesha was misschien niet de snelste, maar hij was wel heel slim. Daarom komen mensen nog altijd naar Ganesha als ze iets nieuws beginnen. Op een dag kreeg papa Shiva een cadeautje. Een heel speciale mango. Een gouden mango, die glinsterde in de zon. Wie deze mango eet, zei papa, die wordt heel wijs. Ik wil hem! riep Kartikeya. Nee, ik wil hem! riep Ganesha. Mama Parvati lachte. We hebben maar één mango, zei ze. Dus doen we een wedstrijd. Wie het eerst drie keer rond de hele wereld gaat, die krijgt de gouden mango. Kartikeya sprong meteen op zijn pauw. Dat is makkelijk! Mijn pauw vliegt supersnel. Tot straks! En woesj, weg was hij. Over de bergen, over de zeeën, over de bossen en over de woestijnen. Ganesha keek naar zijn kleine muisje. Mushika keek terug. Piep? Oei. Met een klein muisje rond de hele wereld? Dat duurt wel honderd jaar! Ganesha ging zitten en dacht na. Hij dacht en dacht. Zijn grote oren flapperden, en zijn slurf krulde. Wat is eigenlijk de wereld? dacht hij. Wat is voor mij het allerbelangrijkste? En toen wist hij het! Hij stond op, en hij vroeg aan papa en mama: Willen jullie even samen hier gaan zitten? Papa en mama gingen naast elkaar zitten. En toen begon Ganesha te wandelen. Met zijn muisje naast zich wandelde hij rond zijn mama en papa. Eén keer rond. Twee keer rond. Drie keer rond. Toen boog hij en zei: Klaar! Papa en mama keken verbaasd. Maar Ganesha, zei mama, je bent niet rond de wereld gegaan. Toch wel, zei Ganesha met een glimlach. Jullie zijn mijn hele wereld. Jullie hebben mij alles gegeven. Mijn papa en mijn mama zijn voor mij belangrijker dan alle bergen en alle zeeën samen. Papa en mama waren zo ontroerd. Wat ben jij een slimme en lieve jongen, zei papa. Jij hebt gewonnen! En hij gaf Ganesha de gouden mango. Een tijdje later kwam Kartikeya terug op zijn pauw. Hij was moe en bezweet. Ik ben drie keer rond de wereld gevlogen! Ik heb gewonnen! Maar toen zag hij dat Ganesha de mango al had. Hoe kan dat nou? Ganesha legde alles uit. Eerst was Kartikeya een beetje boos. Maar toen begreep hij het. Mama en papa zijn ook mijn hele wereld, zei hij zacht. En weet je wat Ganesha toen deed? Hij nam de gouden mango en hij brak hem in twee stukken. Eén stuk voor mij, en één stuk voor jou, broer. Samen delen is nog veel lekkerder. En de twee broers aten samen de zoete mango op, terwijl het muisje en de pauw vrolijk rondliepen. Mmm!",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat voor hoofd heeft Ganesha?",
+      "right": "🐘",
+      "wrong": [
+        "🦁",
+        "🐵"
+      ],
+      "say": "Ganesha heeft het hoofd van een olifant."
+    },
+    {
+      "question": "Welk diertje is het vriendje van Ganesha?",
+      "right": "🐭",
+      "wrong": [
+        "🐱",
+        "🐶"
+      ],
+      "say": "Een klein muisje is het vriendje van Ganesha."
+    },
+    {
+      "question": "Op welke vogel vliegt zijn broer?",
+      "right": "🦚",
+      "wrong": [
+        "🦆",
+        "🦉"
+      ],
+      "say": "Zijn broer vliegt op een pauw."
+    },
+    {
+      "question": "Welke vrucht is de prijs van de wedstrijd?",
+      "right": "🥭",
+      "wrong": [
+        "🍎",
+        "🍌"
+      ],
+      "say": "De prijs is een gouden mango."
+    },
+    {
+      "question": "Wat doet Ganesha op het einde met de mango?",
+      "right": "🤝",
+      "wrong": [
+        "🗑️",
+        "😴"
+      ],
+      "say": "Ganesha deelt de mango met zijn broer."
+    }
+  ]
+}

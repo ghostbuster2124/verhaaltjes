@@ -1,0 +1,43 @@
+{
+  "format": 1,
+  "id": "belle",
+  "version": 1,
+  "title": "Belle en het Beest.",
+  "emoji": "🌹",
+  "text": "In een klein dorpje in Frankrijk, met kleine huisjes en een bakkerij en een fontein, woonde een slim meisje. Ze heette Belle. En weet je wat Belle het allerliefst deed? Boeken lezen! Belle las de hele dag. Als ze over straat liep, las ze. Als ze bij de fontein zat, las ze. Ze las over verre landen, over draken en over prinsen. Ze ging elke dag naar de boekenwinkel. Heeft u een nieuw boek? Ja, zei de boekenman, en hij gaf haar haar lievelingsboek cadeau. De mensen in het dorp vonden Belle een beetje raar. Een meisje dat altijd leest? Maar Belle vond dat niet erg. In het dorp woonde ook een stoere man. Hij heette Gaston. Gaston vond zichzelf heel knap en heel sterk. Hij wilde met Belle trouwen. Maar Belle vond Gaston dom en opschepperig. Nee, dank je, zei ze. Belle woonde samen met haar papa, Maurice. Papa was een uitvinder. Hij maakte rare machines die piepten en floten. Tuut! Pfft! Op een dag reed papa met zijn paard naar de markt. Maar hij verdwaalde in het donkere bos. Wolven huilden: Auwoeooo! Papa vluchtte, en kwam bij een groot, donker kasteel. Het paard kwam alleen terug naar huis. Hiiihii! Belle schrok. Waar is papa? Ze sprong op het paard en reed naar het kasteel. Het kasteel was groot en koud. De deur ging open. Kriiieeek. Hallo? riep Belle. En daar, in een koude kamer, vond ze haar papa. Maar toen kwam er iemand. Een groot, harig Beest met horens en tanden en een lange cape. GRRRROAAAR! Het was het Beest, de baas van het kasteel. Belle was bang, maar ook dapper. Laat mijn papa gaan, zei ze. Dan blijf ik hier. En zo bleef Belle in het kasteel. Maar het kasteel was betoverd! Lang geleden was het Beest een prins geweest. Een prins die niet lief was. Een tovenares had hem betoverd in een Beest. En alle mensen in het kasteel waren veranderd in voorwerpen. Er was een kandelaar met kaarsjes op zijn handen. Hij heette Lumière, en hij sprak met een grappig Frans accent. Er was een klok die Zwengel heette. Tik tak! En er was een vriendelijke dikke theepot. Ze heette Mevrouw Tuit. Zij kon praten, en ze kon thee schenken. Klokklokklok, een warm kopje thee, liefje? Haar zoontje was een klein kopje met een barstje. Hij heette Barstje, en hij sprong rond op tafel. Hihihi! De voorwerpen maakten een heerlijk feestmaal voor Belle. De borden dansten, de vorken zongen, en Lumière deed een grote show. Wees onze gast! Belle lachte en klapte in haar handen. Het Beest was in het begin heel boos en brullerig. Grrr! Maar Belle zei: Als je wil dat ik vriendelijk ben, moet jij ook vriendelijk zijn. Het Beest schrok. Dat had nog nooit iemand tegen hem gezegd. Langzaam veranderde het Beest. Hij leerde zachtjes praten. Hij voerde samen met Belle de vogeltjes in de sneeuw. Tjiep tjiep. En op een dag zei hij: Belle, ik heb een verrassing. Hij deed een grote deur open. En daarachter? Een enorme bibliotheek, vol boeken tot aan het plafond! Duizenden boeken! Belle kon haar ogen niet geloven. Dit is allemaal van jou, zei het Beest. Amai! Op een avond trok Belle een gele baljurk aan. Het Beest droeg een blauw pak. En ze dansten samen in de grote balzaal, terwijl Mevrouw Tuit zachtjes zong. Maar Gaston was jaloers. Hij kwam met een hele groep mensen naar het kasteel om het Beest te vangen. De voorwerpen vochten terug. Lumière blies vuur, en de kast sprong op de mensen. Hihihi! Ze liepen allemaal weg. Het Beest raakte gewond. Belle huilde en zei: Ik hou van jou. En toen gebeurde er iets magisch. Pling, pling, pling! Er dwarrelden lichtjes rond het Beest. Hij zweefde in de lucht. En het Beest veranderde terug in een knappe prins! Ook Lumière, Mevrouw Tuit, Zwengel en Barstje werden weer mensen. Het kasteel werd licht en mooi. En Belle en de prins dansten, en leefden nog lang en gelukkig. Met heel veel boeken natuurlijk.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat doet Belle het allerliefst?",
+      "right": "📚",
+      "wrong": [
+        "⚽",
+        "🎨"
+      ]
+    },
+    {
+      "question": "Welk voorwerp in het kasteel kan praten en thee schenken?",
+      "right": "🫖",
+      "wrong": [
+        "⏰",
+        "🧹"
+      ]
+    },
+    {
+      "question": "Wat gebeurt er met het Beest op het einde?",
+      "right": "🤴",
+      "wrong": [
+        "🐸",
+        "🐻"
+      ]
+    }
+  ]
+}

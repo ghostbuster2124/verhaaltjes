@@ -1,0 +1,43 @@
+{
+  "format": 1,
+  "id": "aladdin",
+  "version": 1,
+  "title": "Aladdin en de wonderlamp.",
+  "emoji": "🪔",
+  "text": "Ver weg, in een warm land met veel zand en hoge zandduinen, ligt een drukke stad. Ze heet Agrabah. Er zijn markten vol fruit, tapijten en potten. De mensen roepen: Verse dadels! Mooie stoffen! En kamelen lopen door de straten. Bloeh! In die stad woont een slimme jongen. Hij heet Aladdin. Aladdin is arm. Hij heeft geen huis en geen geld. Maar hij heeft wel een groot hart. En hij heeft een beste maatje: een klein aapje! Het aapje heet Abu. Abu draagt een klein rood vestje en een klein hoedje. Hij zit altijd op de schouder van Aladdin. Oe oe aa aa! En Abu pikt soms stiekem een banaan of een appel op de markt. Abu, niet doen! lacht Aladdin. In het paleis woont een prinses. Ze heet Jasmine. Ze heeft een grote tijger als huisdier, die Rajah heet. Grrr! Jasmine verveelt zich in het paleis. Ze mag nooit naar buiten. Dus op een dag verkleedt ze zich en sluipt ze naar de markt. Daar ontmoet ze Aladdin. Ze worden meteen vrienden. Maar in het paleis woont ook een gemene tovenaar. Hij heet Jafar. Hij heeft een lange zwarte baard en een slangenstok, en op zijn schouder zit een rode papegaai die Jago heet. Kraa! Jafar wil de baas worden over heel Agrabah. Jafar weet dat er in de woestijn een geheime grot is. Een grot in de vorm van een grote leeuwenkop. En in die grot ligt een oude, stoffige olielamp. Een magische wonderlamp! Maar alleen iemand met een goed hart mag naar binnen. Dus Jafar stuurt Aladdin. Aladdin en Abu gaan de grot in. Woaaa! Overal liggen goud en juwelen en schatten. Raak niets aan behalve de lamp! bromt de grot. Maar Abu ziet een grote rode diamant. Ooooh! Hij pakt hem vast. En dan begint alles te trillen. Boem! Boem! De grot stort in! Gelukkig vinden ze een vriendje: een magisch vliegend tapijt! Een echt tapijt, met gouden franjes, dat kan vliegen en kan zwaaien met zijn hoekjes. Het tapijt redt hen. Zoef! Maar ze zitten vast in het donker. Aladdin kijkt naar de lamp. Hij is vuil. Hij wrijft erover. Wrijf, wrijf, wrijf. En dan: Poef! Er komt rook uit de lamp. Blauwe rook! Steeds meer. En uit de rook komt een grote, grappige blauwe Geest! Een reus, met een staart van rook in plaats van benen. Tienduizend jaar in die lamp, dat geeft een stijve nek! roept de Geest. Hij is supergrappig. Hij verandert in een kip, in een olifant, in een juf en in een draak. Hihihi! Jij bent mijn nieuwe baas, zegt de Geest. Je mag drie wensen doen. Maar je mag niet wensen dat iemand verliefd op je wordt, en je mag geen extra wensen wensen! Aladdin is slim. Hij krijgt de Geest zover dat hij hen uit de grot brengt, zonder dat hij een wens gebruikt. Ha! Dan doet Aladdin zijn eerste wens. Ik wens dat ik een prins word! Poef! Aladdin wordt prins Ali, met een grote optocht met olifanten en kamelen en muziek. Toeteroe! 's Avonds gaat Aladdin naar het balkon van Jasmine. Vertrouw je mij? vraagt hij. Hij steekt zijn hand uit. Jasmine stapt op het vliegend tapijt. En ze vliegen samen door de lucht! Zoef! Hoog boven de wolken, langs de sterren, over de piramides en over de zee. Het is zo mooi. Jasmine lacht. Ze herkent Aladdin van de markt. Maar de gemene Jafar steelt de wonderlamp. Nu is Jafar de baas van de Geest! Hij wordt sultan. Hij wordt de machtigste tovenaar. Hahaha, lacht hij gemeen. Maar Aladdin is slim. Jafar, zegt hij, de Geest is veel sterker dan jij! Dan wens ik dat ik een Geest word! roept Jafar. Poef! Jafar wordt een rode Geest. Maar alle Geesten moeten in een lamp wonen! Floep! Jafar wordt in een zwarte lamp gezogen. En de Geest gooit die lamp heel ver weg. Boem! Aladdin heeft nog één wens over. Hij kijkt naar de Geest. Geest, ik wens dat jij vrij bent! De Geest kan het niet geloven. Ik ben vrij! Ik ben vrij! Hij danst en springt van blijdschap. En de sultan zegt dat Aladdin met Jasmine mag trouwen. Ze vliegen samen op het tapijt naar de maan. En Abu? Abu krijgt alle bananen die hij wil. Oe oe aa aa!",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welk diertje is het maatje van Aladdin?",
+      "right": "🐒",
+      "wrong": [
+        "🦜",
+        "🐪"
+      ]
+    },
+    {
+      "question": "Waar zit de blauwe Geest in verstopt?",
+      "right": "🪔",
+      "wrong": [
+        "📦",
+        "🏺"
+      ]
+    },
+    {
+      "question": "Waarmee vliegen Aladdin en Jasmine door de lucht?",
+      "right": "🧶",
+      "wrong": [
+        "🎈",
+        "🚁"
+      ]
+    }
+  ]
+}

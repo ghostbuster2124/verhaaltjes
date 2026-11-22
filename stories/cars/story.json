@@ -1,0 +1,43 @@
+{
+  "format": 1,
+  "id": "cars",
+  "version": 1,
+  "title": "Cars. Bliksem McQueen.",
+  "emoji": "🚗",
+  "text": "Vroem, vroem! In de wereld van de auto's woont een heel snelle raceauto. Hij heet Bliksem McQueen. Bliksem McQueen is rood. Knalrood! Met een grote gele bliksem op zijn zijkant en het nummer vijfennegentig. Ka-tsjauw! Dat is zijn kreet. Bliksem doet mee aan grote races. Daar zitten duizenden auto's op de tribune te juichen. Hij wil maar één ding: de grote race winnen en de Piston Cup krijgen, de grootste beker van allemaal. Ik ben snelheid! zegt Bliksem. Maar Bliksem is ook een beetje een opschepper. Hij heeft geen vrienden. Hij denkt dat hij alles alleen kan. Na een race eindigt hij gelijk met twee andere auto's. Er komt een nieuwe race in Californië. Bliksem wil daar zo snel mogelijk zijn. Hij zit in een grote vrachtwagen die Mack heet. Rijden, Mack, rijden! De hele nacht door! Maar Mack wordt moe. Hij valt bijna in slaap. Gaaap. Er komen ondeugende auto's die hem plagen. En pats! De deur gaat open, en Bliksem rolt naar buiten op de grote weg. Oei! Mack rijdt verder zonder hem. Wacht! Mack! roept Bliksem. Bliksem rijdt verkeerd. Hij raakt de weg kwijt. Hij rijdt heel snel een klein dorpje binnen. Het heet Radiator Springs. Er komt een politieauto achter hem aan. Wiuu wiuu! Bliksem schrikt, en hij rijdt door het dorpje, over palen, door bloemen en over de weg. Krak, boem, bonk! Hij sleept een standbeeld mee. En de hele weg is kapot! De volgende ochtend moet Bliksem naar de rechter. De rechter is een oude, blauwe auto. Hij heet Doc Hudson. Jij hebt onze weg kapot gemaakt, zegt hij. Dus jij moet de weg repareren! Bliksem moet een grote, zware machine trekken die Bessie heet. Bessie spuwt hete, zwarte teer op de weg. Pfft! Bliksem moet de hele weg opnieuw maken. Wat een werk! Maar in Radiator Springs vindt Bliksem een nieuwe vriend. Het is een oude, roestige, bruine sleepwagen met grote tanden en een haak aan zijn achterkant. Hij heet Takel. Takel is grappig en superlief. Hallo! Ik ben Takel! zegt hij. Takel kan heel goed achteruitrijden. Kijk naar mij! Ik hoef niet te kijken waar ik naartoe ga, ik moet alleen weten waar ik geweest ben! Hihihi! Takel neemt Bliksem mee 's nachts naar de weide. Daar staan tractors te slapen. En weet je wat ze doen? Ze tractortippen! Takel toetert: Toet! En de tractors schrikken zo hard dat ze omvallen. Boemmm! Hihihi! Bliksem lacht. Hij heeft nog nooit zoveel plezier gehad. Ook de andere auto's in het dorp worden zijn vrienden. Sally, de mooie blauwe auto. Luigi en Guido die banden verkopen. Ramone die auto's verft. En Flo die benzine verkoopt in haar café. En Doc Hudson? Doc blijkt vroeger zelf een heel bekende raceauto te zijn geweest! Hij leert Bliksem hoe je goed door een bocht rijdt op het zand. Draai rechts om links te gaan. Bliksem maakt de weg helemaal af. Mooie, zwarte, gladde weg. Iedereen is blij. Het dorpje is weer mooi en vol lichtjes. Dan komt de grote race. Bliksem rijdt heel snel. Maar zijn vrienden van Radiator Springs zijn er ook! Doc is zijn coach en Takel helpt bij de banden. Bliksem doet de bocht zoals Doc het hem geleerd heeft. Vroeeem! Maar vlak voor het einde krijgt een oude raceauto een ongeluk. Bliksem stopt, net voor de finish. Hij gaat terug en duwt de oude auto over de finishlijn. Hij wint de race niet. Maar iedereen klapt en juicht voor hem. Bliksem heeft iets geleerd: vrienden hebben is veel belangrijker dan bekers winnen. En hij gaat wonen in Radiator Springs, bij zijn allerbeste vriend Takel. Ka-tsjauw!",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welke kleur heeft de raceauto Bliksem McQueen?",
+      "right": "🚗",
+      "wrong": [
+        "🚙",
+        "🚕"
+      ]
+    },
+    {
+      "question": "Wat voor wagen is zijn nieuwe vriend Takel?",
+      "right": "🛻",
+      "wrong": [
+        "🚒",
+        "🚜"
+      ]
+    },
+    {
+      "question": "Wat moet Bliksem McQueen doen in het dorpje?",
+      "right": "🛣️",
+      "wrong": [
+        "🧼",
+        "⛽"
+      ]
+    }
+  ]
+}

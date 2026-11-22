@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "id": "goudlokje",
+  "version": 1,
+  "title": "Goudlokje en de drie beren.",
+  "emoji": "🐻",
+  "text": "Diep in het bos stond een klein houten huisje. Daar woonden drie beren. Er was een grote papa beer, met een zware brombeerstem. Er was een middelgrote mama beer, met een zachte stem. En er was een klein beertje, met een piepklein stemmetje. Op een ochtend maakte mama beer pap voor het ontbijt. Ze schepte de pap in drie kommetjes. Een grote kom voor papa beer, een middelgrote kom voor mama beer, en een klein kommetje voor het kleine beertje. Maar de pap was nog veel te warm. Kom, zei papa beer, we gaan een wandeling maken in het bos, en dan is de pap afgekoeld. En de drie beren gingen wandelen. In hetzelfde bos woonde ook een meisje met lange gouden krullen. Haar haren waren zo geel en zo glanzend als goud. Daarom heette ze Goudlokje. Goudlokje was aan het wandelen, en ze zag het huisje van de beren. Wat een schattig huisje, dacht ze. Ze klopte op de deur. Klop, klop. Niemand deed open. De deur stond op een kier. Goudlokje ging gewoon naar binnen. Oei, dat mag je eigenlijk niet doen! In de keuken zag ze de drie kommetjes pap. Mmm, dat ruikt lekker! Ze had zo'n honger. Ze proefde van de grote kom. Au, au! Deze pap is veel te heet! Ze proefde van de middelgrote kom. Bah! Deze pap is veel te koud! Toen proefde ze van het kleine kommetje. Mmm! Deze pap is net goed! En ze at het hele kommetje leeg. Slurp, slurp, op! Daarna wilde Goudlokje even zitten. Er stonden drie stoelen. Ze klom op de grote stoel. Oei, deze stoel is veel te hard! Ze ging op de middelgrote stoel zitten. Pff, deze stoel is veel te zacht, ik zak erin weg! Toen ging ze op het kleine stoeltje zitten. Ah, dit stoeltje is net goed! Maar toen hoorde ze krak, krak, KRAK! Het kleine stoeltje brak in stukken, en Goudlokje viel op de grond. Plof! Nu was Goudlokje heel moe. Ze ging de trap op naar boven. Daar stonden drie bedden. Ze ging op het grote bed liggen. Veel te hoog! Ze ging op het middelgrote bed liggen. Veel te zacht! Toen ging ze in het kleine bedje liggen. Dit bedje is net goed, zuchtte ze. En ze viel in een diepe slaap. Ronk, ronk. Even later kwamen de drie beren thuis. Papa beer keek naar zijn kom. Wie heeft er van mijn pap gegeten? bromde hij met zijn zware stem. Wie heeft er van mijn pap gegeten? zei mama beer. En het kleine beertje piepte: Wie heeft er van mijn pap gegeten, en alles opgegeten? Toen zagen ze de stoelen. Wie heeft er op mijn stoel gezeten? zei papa beer. En het kleine beertje begon te wenen: Wie heeft er op mijn stoeltje gezeten, en het helemaal kapotgemaakt? De drie beren gingen de trap op. Wie heeft er in mijn bed gelegen? bromde papa beer. En het kleine beertje riep: Kijk! Er ligt iemand in mijn bedje! En ze ligt er nog steeds in! Goudlokje werd wakker. Ze zag drie beren naast het bed staan. Ze schrok zo hard! Ze sprong uit het bedje, rende de trap af en de deur uit, zo snel als ze kon. Maar thuis dacht Goudlokje na. Ik ben zomaar in hun huisje gegaan. Ik heb hun pap opgegeten en het stoeltje kapotgemaakt. Dat was niet lief van mij. De volgende dag ging Goudlokje terug naar het huisje van de beren. Ze had een mandje vol verse aardbeien bij zich. Ze klopte op de deur. Klop, klop. En deze keer wachtte ze netjes tot iemand opendeed. Sorry, zei Goudlokje. Het spijt me heel erg. Ik heb aardbeien voor jullie meegebracht. Papa beer lijmde het stoeltje weer heel, mama beer maakte nieuwe pap, en het kleine beertje en Goudlokje aten samen de aardbeien op. En vanaf die dag waren ze de beste vriendjes.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Hoeveel beren wonen er in het huisje?",
+      "right": "3️⃣",
+      "wrong": [
+        "2️⃣",
+        "5️⃣"
+      ],
+      "say": "Er wonen drie beren in het huisje."
+    },
+    {
+      "question": "Wat eet Goudlokje uit het kleine kommetje?",
+      "right": "🥣",
+      "wrong": [
+        "🍕",
+        "🍌"
+      ],
+      "say": "Goudlokje eet pap uit het kleine kommetje."
+    },
+    {
+      "question": "Welke kleur heeft het haar van Goudlokje?",
+      "right": "🟡",
+      "wrong": [
+        "⚫",
+        "🟤"
+      ],
+      "say": "Goudlokje heeft gouden, gele krullen."
+    },
+    {
+      "question": "Waar valt Goudlokje in slaap?",
+      "right": "🛏️",
+      "wrong": [
+        "🛁",
+        "🚗"
+      ],
+      "say": "Goudlokje valt in slaap in het bedje van het kleine beertje."
+    },
+    {
+      "question": "Wat brengt Goudlokje mee als ze terugkomt?",
+      "right": "🍓",
+      "wrong": [
+        "🧦",
+        "🔨"
+      ],
+      "say": "Goudlokje brengt een mandje aardbeien mee."
+    }
+  ]
+}

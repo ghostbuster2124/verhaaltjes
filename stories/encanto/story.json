@@ -1,0 +1,42 @@
+{
+  "format": 1,
+  "id": "encanto",
+  "version": 1,
+  "title": "Encanto. Het magische huis.",
+  "emoji": "🏠",
+  "text": "Hoog in de groene bergen van Colombia, waar vlinders vliegen en de bloemen in alle kleuren bloeien, staat een heel bijzonder huis. Het heet Casita. En Casita is een magisch huis! Casita kan bewegen! De vloertegels dansen op en neer. Klik klak, klik klak! De deuren gaan vanzelf open en dicht. Klap, klap! De ramen fladderen als vleugeltjes. En als je de trap op wil, dan wordt de trap een glijbaan. Wiiie! Casita is als een groot, lief huisdier. In Casita woont de familie Madrigal. Er wonen opa's en oma's, tantes en ooms en heel veel kinderen. De baas is Abuela, de oma. Lang geleden kreeg Abuela een magische kaars. Die kaars brandt altijd. En dankzij die kaars krijgt elk kind in de familie een magische gave als het vijf jaar wordt. Elk kind heeft een eigen deur. En als je je gave krijgt, gaat je deur gloeien. Pling! Er is Luisa. Luisa is supersterk! Ze kan een huis optillen. Ze kan zelfs ezels optillen, en die balken: Hie-ha! Ze draagt ze gewoon op haar schouders. Hup! Er is Isabela. Isabela is heel mooi en heel netjes. En Isabela kan bloemen laten groeien! Overal waar ze komt, groeien er bloemen. Rozen, lelies en bloemen in alle kleuren. Ploep, ploep, ploep! Als ze lacht, dan valt er een regen van roze bloemetjes. Er is tante Pepa. Als zij blij is, schijnt de zon. Maar als ze verdrietig is, dan regent het boven haar hoofd. Een klein wolkje. Drup, drup! En als ze boos is, dan dondert het. Boem! Er is neefje Antonio. Hij kan met dieren praten. Hij heeft een vriendje, een jaguar. Rrrr! Er is neef Camilo, die in iedereen kan veranderen. Poef, nu is hij Abuela! Hihihi! En er is Mirabel. Mirabel is vrolijk en lief. Ze heeft krullend zwart haar en ze draagt een grote, ronde, groene bril. Maar Mirabel heeft geen gave. Toen zij vijf jaar werd, ging ze naar haar deur. Maar haar deur ging niet gloeien. Er gebeurde niets. Helemaal niets. Mirabel is daar een beetje verdrietig om. Iedereen in de familie heeft iets magisch, behalve zij. Maar ze helpt wel altijd iedereen. Ze danst, ze zingt, en ze maakt iedereen aan het lachen. Op een avond is er een groot feest, want Antonio krijgt zijn gave. Maar dan ziet Mirabel iets vreemds. Krak! Er komen barsten in de muren van Casita. Krak! Krak! De kaars begint te flikkeren. De magie gaat weg! Niemand gelooft Mirabel. Maar Mirabel gaat op onderzoek. Ze klimt en ze zoekt. Ze vindt haar oom Bruno, die zich verstopt had in de muren met zijn rattenvriendjes. Bruno kan de toekomst zien. Hij heeft een visioen gezien. En op dat visioen staat Mirabel. Met haar groene bril! Mirabel gaat praten met haar zussen. Luisa vertelt dat ze moe is, dat ze altijd sterk moet zijn. Isabela vertelt dat ze eigenlijk niet altijd perfect wil zijn. Ze wil ook eens iets wilds laten groeien. En plots laat Isabela een grote cactus groeien! Pfoeh! En klimplanten en paarse bloemen. Ze lacht. Wat is dat plezant! Maar Abuela is boos op Mirabel. En dan gebeurt het. Krak! Krak! Boem! Het huis valt in elkaar. Casita is kapot. De kaars dooft uit. Pfff. De magie is weg. Mirabel loopt weg, naar de rivier. Daar vindt Abuela haar. En Abuela vertelt haar verhaal. Hoe ze vroeger moest vluchten. Hoe ze de kaars kreeg. En Abuela zegt: Het spijt me, Mirabel. Jij bent heel belangrijk. Jij bent het wonder van onze familie. Mirabel brengt de hele familie weer samen. Iedereen helpt mee om een nieuw huis te bouwen. Luisa tilt, Isabela laat bloemen groeien, en het hele dorp helpt. En Mirabel? Mirabel maakt een nieuwe deurknop voor het huis. Ze steekt hem in de deur. En pling! Alles begint te gloeien! De magie komt terug! De vloertegels dansen weer. Klik klak! De deuren klappen. Casita leeft weer! Mirabel, met haar grote groene bril, heeft de magie van de familie gered.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat kan het magische huis Casita doen?",
+      "right": "🏠",
+      "wrong": [
+        "🚀",
+        "🌊"
+      ]
+    },
+    {
+      "question": "Wat kan de ene zus van Mirabel laten groeien?",
+      "right": "🌸",
+      "wrong": [
+        "🌳",
+        "🍄"
+      ]
+    },
+    {
+      "question": "Wie redt de magie van de familie?",
+      "right": "👓",
+      "wrong": [
+        "🐶",
+        "🧙‍♂️"
+      ]
+    }
+  ]
+}

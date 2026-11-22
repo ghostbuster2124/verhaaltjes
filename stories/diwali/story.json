@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "id": "diwali",
+  "version": 1,
+  "title": "Mira viert Diwali, het feest van het licht.",
+  "emoji": "🪔",
+  "text": "Dit is Mira. Mira is vijf jaar en ze woont in Antwerpen, met papa, mama en haar kleine broertje Arjun. Mira gaat naar de kleuterklas. Maar deze week is er thuis iets heel speciaals. Het is bijna Diwali! Diwali is het feest van het licht. Mira's oma en opa wonen ver weg in India, en daar vieren ze ook Diwali. Mira belt hen met de tablet. Hallo oma! Hallo opa! Het is bijna Diwali! Een paar dagen voor het feest gaat de hele familie poetsen. Het hele huis moet blinken! Papa stofzuigt. Vroemmm. Mama wast de ramen. Mira helpt met de stofdoek. En Arjun? Arjun ruimt zijn speelgoed op. Nou ja, een beetje. Hihi. Daarna gaan ze naar de winkel. Mira krijgt een nieuw kleedje voor het feest. Een roze kleedje met gouden randjes, dat glinstert als ze draait. Amai, wat is het mooi! Dan is het eindelijk Diwali. 's Ochtends maakt Mira samen met mama een rangoli. Een rangoli is een tekening op de grond voor de deur, gemaakt van gekleurd poeder. Mama tekent eerst een grote bloem met krijt. Dan strooit Mira het poeder. Roze poeder voor de blaadjes. Geel poeder voor het hartje. Groen poeder rondom, en blauwe puntjes overal. Strooi, strooi. Het is een prachtige bloem van alle kleuren! Een rangoli zegt: welkom, iedereen is welkom in ons huis. In de keuken bakt oma Leela, die bij hen op bezoek is, allemaal lekkere snoepjes. Ronde gele ladoos, zoete balletjes die naar boter en suiker ruiken. En kleine vierkantjes met nootjes erop. Mira mag een ladoo proeven. Mmm! Zo zoet en zo zacht! Als het donker wordt, komt het mooiste moment. Papa haalt een doos met kleine olielampjes uit de kast. Ze zijn gemaakt van klei, en ze heten diya's. In elk lampje zit een beetje olie en een katoenen lontje. Mama steekt de lampjes aan, één voor één, en Mira zet ze voorzichtig neer. Want vuur is heet, daar moet je goed mee opletten! Ze zet lampjes op de vensterbank, op de trap, bij de deur en naast de rangoli. Het hele huis straalt van de kleine lichtjes. Het is zo mooi en zo warm. Dan vertelt papa een verhaal. Het verhaal van prins Rama en prinses Sita. Hoe ze terugkwamen naar huis na een lange reis, en hoe de mensen overal lichtjes zetten, zodat ze de weg zouden vinden. Daarom steken wij ook lichtjes aan, zegt papa. Om te zeggen: het licht is sterker dan het donker, en het goede is sterker dan het slechte. Daarna komt de hele familie op bezoek. Tantes, nonkels, neefjes en nichtjes. Iedereen draagt mooie kleren. Ze geven elkaar dozen met snoepjes en cadeautjes. Happy Diwali! Gelukkige Diwali! roept iedereen. Ze eten samen, ze lachen en ze dansen. En dan, buiten in de lucht: Pang! Pang! Vuurwerk! Rode, groene en gouden sterren aan de donkere hemel. Ooooh! zegt Arjun, en hij houdt zijn oortjes dicht. Mira geeft hem een hand. Die nacht slaapt Mira met een glimlach in. De volgende dag gaat Mira naar school. Ze heeft een grote doos bij zich. Wat zit erin? Ladoos! Voor de juf en voor alle kindjes van de klas. Mira vertelt over Diwali: over het poetsen, de rangoli, de lichtjes en het vuurwerk. En de juf zegt: Wat een mooi feest, Mira. Dank je wel dat je het met ons deelt. Zullen we samen ook een rangoli maken? En die middag maakt de hele klas een grote, kleurige rangoli op de speelplaats. Happy Diwali, iedereen!",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat steken ze aan bij Diwali?",
+      "right": "🪔",
+      "wrong": [
+        "🎃",
+        "🎄"
+      ],
+      "say": "Bij Diwali steken ze kleine olielampjes aan."
+    },
+    {
+      "question": "Waarmee maakt Mira een rangoli?",
+      "right": "🎨",
+      "wrong": [
+        "📚",
+        "🧱"
+      ],
+      "say": "Mira maakt een rangoli met gekleurd poeder."
+    },
+    {
+      "question": "Wat krijgt Mira nieuw voor het feest?",
+      "right": "👗",
+      "wrong": [
+        "🧢",
+        "🧤"
+      ],
+      "say": "Mira krijgt een nieuw roze kleedje voor het feest."
+    },
+    {
+      "question": "Wat zien ze 's avonds in de lucht?",
+      "right": "🎆",
+      "wrong": [
+        "🌈",
+        "🚁"
+      ],
+      "say": "'s Avonds zien ze vuurwerk in de lucht."
+    },
+    {
+      "question": "Voor wie brengt Mira de ladoos mee naar school?",
+      "right": "👩‍🏫",
+      "wrong": [
+        "👮",
+        "👨‍🚒"
+      ],
+      "say": "Mira brengt de ladoos mee voor de juf en de klas."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "format": 1,
+  "id": "assepoester",
+  "version": 1,
+  "title": "Assepoester en het glazen muiltje.",
+  "emoji": "👠",
+  "text": "Er was eens een lief meisje dat Assepoester heette. Ze woonde in een groot huis met haar stiefmoeder en twee stiefzussen. Maar die waren helemaal niet lief. Ze waren gemeen en lui. Assepoester, poets de vloer! riep de stiefmoeder. Assepoester, was mijn jurk! riep de ene stiefzus. Assepoester, maak mijn ontbijt! riep de andere. Wat ambetant! Assepoester moest de hele dag werken. Ze schrobde, ze veegde en ze kookte. Schrob, schrob, schrob! Haar kleren werden grijs van de as uit de haard. Daarom noemden ze haar Assepoester. Maar Assepoester bleef altijd vriendelijk. En ze had heel lieve vriendjes. Weet je wie? De muisjes! Kleine grijze muisjes met roze oortjes en lange staartjes. Piep piep! De muisjes woonden in een holletje in de muur. Ze hielpen Assepoester met alles. Ze droegen draadjes en knoopjes, en ze maakten haar bed op. Piep piep, wij helpen je, Assepoester! En er waren ook vogeltjes die zongen. Tjiep tjiep! Op een dag kwam er een brief van het paleis. De prins gaf een groot bal! Alle meisjes van het land mochten komen dansen. De stiefzussen sprongen op en neer. Ik ga met de prins dansen! Nee, ik! Mag ik ook mee? vroeg Assepoester zachtjes. De stiefmoeder lachte. Jij? Alleen als je al je werk gedaan hebt en een mooie jurk hebt! Assepoester had geen mooie jurk. Maar de muisjes en de vogeltjes gingen aan de slag. Ze naaiden en ze knipten, de hele dag. Tik tik tik. En kijk: een schone roze jurk! Assepoester was zo blij. Maar toen de stiefzussen het zagen, trokken ze de jurk helemaal kapot. Rrrrits! Assepoester liep naar de tuin en begon te wenen. Snik, snik. Maar toen begon er iets te schitteren. Pling, pling! Een oud vrouwtje met een toverstokje verscheen. Het was haar goede fee! Niet wenen, liefje, zei de fee. Jij gaat naar het bal! De fee keek rond in de tuin. Ze zag een grote, dikke, oranje pompoen. Ze zwaaide met haar toverstokje en zei: Bibbidi-Bobbidi-Boe! Poef! De pompoen werd groter en groter, en veranderde in een prachtige gouden koets met wielen! Amai! Toen keek ze naar de muisjes. Bibbidi-Bobbidi-Boe! De muisjes veranderden in vier witte paarden. Hiiihii! En het paard van de stal werd de koetsier. En dan Assepoester zelf. Bibbidi-Bobbidi-Boe! Haar kapotte jurk veranderde in een glinsterende blauwe baljurk. En aan haar voetjes droeg ze twee glazen muiltjes, schoentjes die schitterden als sterretjes. Maar onthoud één ding, zei de fee. Om twaalf uur 's nachts is de betovering voorbij. Dan wordt alles weer zoals het was. De gouden koets reed naar het paleis. Klipklop, klipklop. Toen Assepoester binnenkwam, keek iedereen. Wie is dat mooie meisje? De prins zag haar en vroeg: Wil je met mij dansen? Ze dansten en dansten, de hele avond. Het was zo plezant! Maar plots: Bong! De klok begon te slaan. Bong! Bong! Het was twaalf uur! Oh nee, ik moet weg! riep Assepoester. Ze rende de grote trap van het paleis af. Tik tik tik. En op de trap verloor ze één van haar glazen schoentjes! Maar ze had geen tijd om het op te rapen. Bong! Poef! De koets werd weer een pompoen, en de paarden werden weer muisjes. Piep piep! De volgende dag zocht de prins overal naar het meisje met het glazen schoentje. Elk meisje moest het passen. De stiefzussen duwden en trokken, maar hun voeten waren veel te groot. Au au au! Toen mocht Assepoester het passen. En wat denk je? Het schoentje paste perfect! De prins was zo blij. Assepoester trouwde met de prins, en de muisjes kwamen ook mee naar het paleis. Piep piep, hoera!",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat verandert de fee in een gouden koets?",
+      "right": "🎃",
+      "wrong": [
+        "🍉",
+        "🥔"
+      ]
+    },
+    {
+      "question": "Welke diertjes helpen Assepoester?",
+      "right": "🐭",
+      "wrong": [
+        "🐸",
+        "🕷️"
+      ]
+    },
+    {
+      "question": "Wat verliest Assepoester op de trap van het paleis?",
+      "right": "👠",
+      "wrong": [
+        "👑",
+        "👜"
+      ]
+    }
+  ]
+}

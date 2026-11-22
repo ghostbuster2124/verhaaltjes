@@ -1,0 +1,42 @@
+{
+  "format": 1,
+  "id": "frozen",
+  "version": 1,
+  "title": "Frozen. De sneeuwpop Olaf.",
+  "emoji": "❄️",
+  "text": "Hoog in de bergen van Arendelle, waar de sneeuw zo wit is als suiker, woont een koningin met een heel bijzondere toverkracht. Ze heet Elsa. Als Elsa met haar handjes zwaait, dan dwarrelen er sneeuwvlokjes door de lucht. Swiesj! En als ze met haar voet op de grond tikt, tik, dan wordt de vloer helemaal glad en glanzend ijs. Elsa heeft een zusje. Ze heet Anna. Anna is vrolijk en dapper en ze lacht heel graag. Maar op een dag werd Elsa bang voor haar eigen toverkracht. Ze liep weg, hoog de bergen in, en daar bouwde ze een prachtig ijspaleis. Het paleis glinsterde in de zon als een grote diamant. Amai, wat was dat schoon! Maar Elsa was ook een beetje eenzaam, helemaal alleen in dat grote paleis. Dus wat deed ze? Ze maakte een sneeuwpop! Ze rolde een grote sneeuwbal voor de buik, een middelgrote voor het lijf, en een kleine voor het hoofd. Ze stak twee takjes in zijn zij als armpjes. En als neus? Als neus kreeg hij een lange, oranje wortel! En toen gebeurde er iets magisch. Pling! De sneeuwpop knipperde met zijn ogen en begon te praten. Hallo! Ik ben Olaf, en ik hou van warme knuffels! Hihihi! Olaf was de grappigste sneeuwpop van de hele wereld. Hij danste, hij zong, en zijn hoofd viel soms per ongeluk van zijn lijf. Plof! Oeps! Dan zette hij het gewoon weer terug. Kiekeboe! Ondertussen ging Anna op zoek naar haar zus Elsa. Maar de bergen waren hoog en de sneeuw was diep. Gelukkig kwam ze een sterke jongen tegen. Hij heette Kristoff. En Kristoff had een heel goede vriend die hem altijd hielp: een rendier! Het rendier heette Sven. Sven had een groot gewei op zijn hoofd en een warme bruine vacht. Hij trok de slee door de sneeuw. Hop, hop, hop! En als Kristoff een wortel uit zijn zak haalde, dan deden ze samen: eentje voor jou, en eentje voor mij. Knabbel, knabbel! Onderweg vonden ze Olaf. Amai, wat schrok Sven! Hij likte aan de wortelneus van Olaf. Slurp! Hihihi, dat kriebelt, lachte Olaf. Toen vertelde Olaf zijn grote geheim. Weet je waar ik van droom? zei hij. Ik droom van de zomer! Van de warme zon op mijn buik! Van zandkastelen en ijsjes en in het gras liggen! Kristoff keek hem raar aan. Maar Olaf, zei hij, jij bent een sneeuwpop. Als het zomer wordt, dan smelt je! Maar Olaf vond dat niet erg. Hij zong vrolijk over de zon en de zomer, en hij deed alsof hij op het strand lag. Zalig, zei Olaf. Samen trokken ze verder door de sneeuw. Sven de rendier trok de slee, Kristoff hield de teugels vast, Anna keek uit naar het ijspaleis, en Olaf zong. Zwoesj! Ze gleden een heuvel af over het gladde ijs. Wiiiie! Eindelijk vonden ze Elsa. Maar Elsa was nog steeds bang. Ze dacht dat ze iedereen pijn zou doen met haar ijs. Het werd overal koud, nog kouder, het allerkoudste. Brrr! Anna werd helemaal stijf van de kou. Oei, oei! Maar toen deed Anna iets heel liefs. Ze beschermde haar zus Elsa. En Elsa gaf haar zusje een dikke knuffel en begon te wenen van liefde. En kijk, door die echte liefde smolt al het ijs! Drup, drup, drup! De zon kwam terug en de bloemen gingen open. En Olaf? Elsa zwaaide met haar handjes en maakte een klein sneeuwwolkje boven zijn hoofd. Zo kon Olaf eindelijk genieten van de zomer, van de warme zon, zonder te smelten! Ik ben zo content, riep Olaf. En Kristoff? Die kreeg een gloednieuwe slee. En zijn trouwe rendier Sven kreeg een hele zak vol wortels. Knabbel, knabbel! Iedereen was blij, en ze leefden nog lang en gelukkig.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat heeft Olaf als neus?",
+      "right": "🥕",
+      "wrong": [
+        "🍌",
+        "🪨"
+      ]
+    },
+    {
+      "question": "Welk dier helpt Kristoff?",
+      "right": "🦌",
+      "wrong": [
+        "🐶",
+        "🐴"
+      ]
+    },
+    {
+      "question": "Waar droomt Olaf van?",
+      "right": "☀️",
+      "wrong": [
+        "🌧️",
+        "🌙"
+      ]
+    }
+  ]
+}
