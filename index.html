@@ -22,7 +22,7 @@
                radial-gradient(circle at 85% 90%,#1f7fd1 0,transparent 45%),
                linear-gradient(160deg,var(--bg1),var(--bg2));
     color:var(--white);
-    user-select:none;-webkit-user-select:none;touch-action:manipulation;
+    user-select:none;-webkit-user-select:none;touch-action:manipulation;-webkit-touch-callout:none;
   }
   button{font-family:inherit;border:none;cursor:pointer;color:inherit;touch-action:manipulation}
   .screen{position:fixed;inset:0;display:none;flex-direction:column}
@@ -884,6 +884,20 @@ function playClip(bases,fallbackText,onStart,onEnd){
   };
   tryNext();
 }
+
+/* iPad / iPhone: sound may only start after a tap. The first tap anywhere "unlocks" the
+   story player, the clip player and the voice, so stories can start by themselves later. */
+const SILENT="data:audio/wav;base64,UklGRrQBAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YZABAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA";
+let mediaUnlocked=false;
+function unlockMedia(){
+  if(mediaUnlocked)return;mediaUnlocked=true;
+  for(const el of [audioEl,clip]){
+    safe(()=>{if(el.src)return;el.src=SILENT;const p=el.play();if(p&&p.then)p.then(()=>{if(el.src===SILENT){el.pause();el.removeAttribute("src")}}).catch(()=>{})});
+  }
+  safe(()=>{if(TTS.ok){const u=new SpeechSynthesisUtterance(" ");u.volume=0;speechSynthesis.speak(u)}});
+}
+document.addEventListener("pointerdown",unlockMedia,true);
+document.addEventListener("touchend",unlockMedia,true);
 
 /* =====================================================================
    WEB AUDIO SOUND EFFECTS
