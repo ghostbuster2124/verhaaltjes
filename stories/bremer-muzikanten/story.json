@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "bremer-muzikanten",
+  "version": 1,
+  "title": "De Bremer stadsmuzikanten.",
+  "emoji": "🎺",
+  "text": "Er was eens een ezel. Hij had zijn hele leven hard gewerkt voor de molenaar. Elke dag droeg hij zware zakken meel naar de molen. Maar nu was hij oud geworden. Zijn rug deed pijn en hij liep niet meer zo snel. De molenaar zei: Jij bent te oud. Ik heb je niet meer nodig. De ezel was verdrietig. Maar toen kreeg hij een idee. Ik heb nog altijd een mooie stem, dacht hij. Ia, ia! Ik ga naar de stad Bremen. Daar word ik muzikant! En hij vertrok. Onderweg zag hij een hond langs de weg liggen. De hond hijgde. Wat is er, vriend? vroeg de ezel. Ach, zei de hond. Ik ben oud. Ik kan niet meer jagen. Mijn baas wil me niet meer. Kom met mij mee naar Bremen, zei de ezel. We worden muzikanten. Ik speel op de luit, en jij slaat op de trommel. De hond kwispelde. Waf! Goed idee! Ze liepen samen verder. Even later zagen ze een kat. Ze zat op een muurtje en keek heel droevig. Wat scheelt er, oude kat? vroegen ze. Ik ben oud, miauwde de kat. Mijn tanden zijn bot. Ik kan geen muizen meer vangen. Mijn bazin wil me niet meer. Kom met ons mee naar Bremen, zeiden de ezel en de hond. Jij kan zo mooi zingen in de nacht. De kat sprong van het muurtje. Miauw! Daarna kwamen ze langs een boerderij. Op het hek zat een haan. Hij kraaide zo hard als hij kon. Kukeleku! Waarom kraai je zo hard? vroegen de vrienden. Morgen komt er bezoek, zei de haan. En de boerin wil van mij soep maken! Dan kraai ik nog één keer zo hard als ik kan. Kom met ons mee! zeiden ze. Naar Bremen! Met jouw stem worden we beroemd. De haan vloog van het hek. Kukeleku! En zo liepen ze met z'n vieren. De ezel, de hond, de kat en de haan. Maar de stad Bremen was ver. Het werd donker. Ze kwamen in een groot bos. Daar zagen ze een lichtje tussen de bomen. Het was een huis. Ze slopen ernaartoe. De ezel was de grootste. Hij keek door het raam. Wat zie je? vroeg de haan. Ik zie een tafel vol eten, zei de ezel. Brood, kaas, worst en taart. En er zitten rovers aan tafel. Vier rovers, die hun gestolen goud tellen. Oh, wat hadden de dieren een honger. Ze bedachten een plan. De ezel ging met zijn voorpoten op de vensterbank staan. De hond sprong op de rug van de ezel. De kat klom op de rug van de hond. En de haan vloog op het hoofd van de kat. Toen begonnen ze allemaal tegelijk te zingen. De ezel balkte: Ia, ia! De hond blafte: Waf, waf! De kat miauwde: Miauw! En de haan kraaide: Kukeleku! En toen sprongen ze door het raam naar binnen. Kletter, rinkel, boem! De rovers schrokken zich een hoedje. Een monster! riepen ze. Een spook! En ze renden het bos in, zo snel als ze konden. De vier vrienden gingen aan tafel. Ze aten en ze aten, tot hun buik helemaal rond was. Toen gingen ze slapen. De ezel in de stal, de hond achter de deur, de kat bij de warme haard, en de haan op het dak. Midden in de nacht kwam een rover terug. Hij sloop naar binnen. Maar de kat krabde hem. De hond beet in zijn been. De ezel gaf hem een trap. En de haan kraaide: Kukeleku! De rover rende weg en zei tegen de anderen: Er woont een heks, een man met een mes, een monster en een rechter die roept: breng die schurk hier! De rovers kwamen nooit meer terug. En de vier vrienden? Ze zijn nooit in Bremen geraakt. Ze vonden het zo fijn in het huisje in het bos, dat ze er bleven wonen. En elke avond maakten ze samen muziek. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welk dier begint de reis?",
+      "right": "🫏",
+      "wrong": [
+        "🐴",
+        "🐄"
+      ],
+      "say": "De ezel begint de reis."
+    },
+    {
+      "question": "Naar welke stad willen de dieren gaan?",
+      "right": "🏙️",
+      "wrong": [
+        "🏝️",
+        "🏔️"
+      ],
+      "say": "Ze willen naar de stad Bremen."
+    },
+    {
+      "question": "Welk dier zit helemaal bovenaan?",
+      "right": "🐓",
+      "wrong": [
+        "🐈",
+        "🐕"
+      ],
+      "say": "De haan zit helemaal bovenaan."
+    },
+    {
+      "question": "Wie zitten er in het huis in het bos?",
+      "right": "🥷",
+      "wrong": [
+        "👮",
+        "👸"
+      ],
+      "say": "Er zitten rovers in het huis."
+    },
+    {
+      "question": "Wat doen de vier vrienden elke avond?",
+      "right": "🎶",
+      "wrong": [
+        "📺",
+        "⚽"
+      ],
+      "say": "Ze maken elke avond samen muziek."
+    }
+  ],
+  "words": [
+    {
+      "word": "de ezel",
+      "emoji": "🫏",
+      "say": "De ezel is oud en moe."
+    },
+    {
+      "word": "de hond",
+      "emoji": "🐕",
+      "say": "De hond slaat op de trommel."
+    },
+    {
+      "word": "de kat",
+      "emoji": "🐈",
+      "say": "De kat zingt mooi in de nacht."
+    },
+    {
+      "word": "de haan",
+      "emoji": "🐓",
+      "say": "De haan kraait kukeleku."
+    },
+    {
+      "word": "de trommel",
+      "emoji": "🥁",
+      "say": "Bam, bam, doet de trommel."
+    },
+    {
+      "word": "het huis",
+      "emoji": "🏠",
+      "say": "De vrienden wonen in het huis."
+    }
+  ]
+}

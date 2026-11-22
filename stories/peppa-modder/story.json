@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "peppa-modder",
+  "version": 1,
+  "title": "Peppa Pig en de modderplassen.",
+  "emoji": "🐷",
+  "text": "Dit is Peppa. Peppa is een vrolijk roze varkentje. Ze woont in een klein huisje bovenop een heuvel, samen met haar mama, haar papa en haar kleine broertje George. George is nog klein. Hij houdt het allermeest van zijn speelgoeddinosaurus. Dino! Dino! zegt hij altijd. Op een ochtend wordt Peppa wakker. Ze hoort een geluid op het raam. Tik, tik, tik. Het regent! Het regent de hele ochtend. Peppa en George kijken door het raam. Mama, mogen we buiten spelen? vraagt Peppa. Nog niet, lieverd, zegt mama Varken. Het regent nog. Peppa zucht. George zucht ook. Ze spelen binnen met blokken. Ze maken een tekening. Maar ze kijken steeds weer door het raam. En dan, eindelijk, stopt de regen. De zon komt achter de wolken vandaan. Hoera! roept Peppa. Mama, mag het nu? Mama lacht. Ja, nu mag het. Maar trek eerst je laarzen aan. En je regenjas. Peppa trekt haar rode laarzen aan. George trekt zijn blauwe laarzen aan. En ze rennen naar buiten. Buiten is alles nat. Het gras glinstert. Overal liggen plassen. Kleine plassen, grote plassen. En helemaal onderaan de heuvel ligt de allergrootste plas. Een modderplas! Bruin en glad en heel erg modderig. Peppa houdt van modderplassen. Ze houdt er meer van dan van alles in de hele wereld. Kijk, George! roept Peppa. Een modderplas! En ze springt erin. Pats! De modder spat alle kanten op. George lacht. Hij springt ook. Pats! Peppa en George springen en springen. Op en neer, op en neer. Ze worden helemaal bruin van de modder. Hun laarzen, hun jassen, zelfs hun snoet. Ze knorren van plezier. Knor, knor! Dan komt Peppa haar vriendin Suzy Schaap voorbij. Suzy draagt een wit jasje. Hallo, Suzy! roept Peppa. Kom je ook springen? Suzy kijkt naar de modder. Mijn mama zegt dat ik mijn jasje proper moet houden. Peppa denkt na. Dan moet je gewoon je laarzen aandoen, zegt ze. En je regenjas! Suzy rent naar huis en komt terug in haar gele regenjas en haar groene laarzen. En ze springt mee. Pats! Iedereen lacht. Daarna komt Danny Hond, en Rebecca Konijn, en Pedro Pony. Allemaal springen ze in de grote modderplas. Wat een feest! Dan horen ze een zware stem. Ho, ho, ho! Wat is dat hier? Het is papa Varken. Hij is groot en hij heeft een bril. Papa! roept Peppa. Wil je ook springen? Papa Varken kijkt naar de modderplas. Hmm, zegt hij. Ik ben eigenlijk heel goed in springen in modderplassen. Hij neemt een aanloop. Een, twee, drie. En hij springt. PATS! De modder spat tot aan de boom. Iedereen is helemaal bruin. Hihi! Papa! Ook mama Varken komt kijken. Ze schudt haar hoofd, maar ze lacht. En weet je wat? Ze springt ook! Pats! Daarna gaan Peppa en George naar binnen. Ze trekken hun vuile kleren uit en ze gaan in bad. Het water wordt bruin, maar het schuim is wit en zacht. Peppa blaast een zeepbel. George maakt een baard van schuim. Die avond liggen ze moe in bed. George knuffelt zijn dino. Peppa geeft een geeuw. Mama, zegt ze, mag het morgen weer regenen? Mama lacht en geeft haar een kusje op haar snoet. We zullen zien. Slaap lekker. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welke kleur heeft Peppa?",
+      "right": "🩷",
+      "wrong": [
+        "🤎",
+        "💚"
+      ],
+      "say": "Peppa is een roze varkentje."
+    },
+    {
+      "question": "Waar speelt George het liefst mee?",
+      "right": "🦖",
+      "wrong": [
+        "🚂",
+        "⚽"
+      ],
+      "say": "George speelt het liefst met zijn dinosaurus."
+    },
+    {
+      "question": "Wat moeten Peppa en George aantrekken?",
+      "right": "👢",
+      "wrong": [
+        "👟",
+        "🩴"
+      ],
+      "say": "Ze trekken hun laarzen en hun regenjas aan."
+    },
+    {
+      "question": "Waar springen ze in?",
+      "right": "🟤",
+      "wrong": [
+        "🔵",
+        "⚪"
+      ],
+      "say": "Ze springen in de bruine modderplas."
+    },
+    {
+      "question": "Wie springt er op het einde het hardst?",
+      "right": "👨",
+      "wrong": [
+        "👧",
+        "👶"
+      ],
+      "say": "Papa Varken springt het hardst."
+    }
+  ],
+  "words": [
+    {
+      "word": "het varkentje",
+      "emoji": "🐷",
+      "say": "Peppa is een roze varkentje."
+    },
+    {
+      "word": "de regen",
+      "emoji": "🌧️",
+      "say": "De regen tikt op het raam."
+    },
+    {
+      "word": "de laarzen",
+      "emoji": "👢",
+      "say": "Peppa trekt haar rode laarzen aan."
+    },
+    {
+      "word": "de regenjas",
+      "emoji": "🧥",
+      "say": "Suzy draagt een gele regenjas."
+    },
+    {
+      "word": "het bad",
+      "emoji": "🛁",
+      "say": "Na het spelen gaan ze in bad."
+    },
+    {
+      "word": "de zeepbel",
+      "emoji": "🫧",
+      "say": "Peppa blaast een zeepbel."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "winnie",
+  "version": 1,
+  "title": "Winnie de Poeh en de honingpot.",
+  "emoji": "🍯",
+  "text": "Diep in het Honderd Bunderbos woont een kleine beer. Hij is geel en hij heeft een rood truitje aan. Hij is niet zo slim, zegt hij zelf, maar hij heeft een heel groot hart. Zijn naam is Winnie de Poeh. En Poeh houdt van één ding meer dan van alles in de wereld. Honing! Zoete, gouden, kleverige honing. Op een ochtend wordt Poeh wakker. Zijn buik rommelt. Grrrr. Tijd voor een hapje, denkt Poeh. Hij loopt naar de kast. Daar staan zijn honingpotten. Hij kijkt in de eerste pot. Leeg. Hij kijkt in de tweede pot. Leeg. Hij kijkt in de derde pot, en hij steekt er zijn hele hoofd in. Leeg! Oh, foei, zegt Poeh. Geen honing meer. Wat moet een beer nu doen? Poeh gaat naar buiten. Het is een mooie dag. De zon schijnt door de bladeren. Dan hoort hij iets. Zzzzz. Zzzzz. Hij kijkt omhoog. Hoog in een grote eik hangt een bijenkorf. En waar bijen zijn, is honing! Poeh probeert in de boom te klimmen. Hij klimt omhoog, tak na tak. Maar hij is een beetje te rond. Krak! Een tak breekt. En Poeh valt naar beneden, in een struik. Au. Daar komt zijn beste vriendje aangelopen. Het is Knorretje, een klein roze varkentje met een gestreept pakje. Poeh, wat doe jij in die struik? Ik zoek honing, zegt Poeh. Maar de boom is te hoog. Zullen we hulp vragen? vraagt Knorretje. Ze gaan naar het huis van Christoffel Robin. Christoffel Robin is een jongen, en hij is de beste vriend van alle dieren in het bos. Ik heb een idee, zegt Christoffel Robin. Hij haalt een blauwe ballon. Een grote. Poeh houdt de ballon vast. En hup, hij zweeft omhoog. Hoger en hoger. Tot bij de bijenkorf. Kijk! roept Poeh. Ik ben een kleine zwarte regenwolk! Dan denken de bijen dat ik geen beer ben. Maar de bijen zijn niet dom. Zzzzz! Ze vliegen rond Poeh. Ze zoemen boos. Een bij landt op zijn neus. Oei! Christoffel Robin! roept Poeh. Ik geloof dat de bijen iets vermoeden! Christoffel Robin trekt aan het touwtje. Poeh komt weer naar beneden. Plof. Geen honing. Poeh zucht. Hij gaat op een boomstronk zitten. Dan komt Teigetje aangesprongen. Boing, boing, boing! Teigetje is een tijger met strepen en een staart als een veer. Hallo, Poeh! Waarom zo droevig? Geen honing, zegt Poeh. Daarna komt Iejoor aangesjokt, de grijze ezel. En Konijn, die een moestuin heeft. En kleine Roe met zijn mama Kanga. Iedereen hoort het verhaal van Poeh. Konijn kijkt op zijn klok. Weet je, zegt hij, ik heb nog een pot honing in mijn kast. Je mag hem hebben. En ik heb nog wat in mijn tas, zegt Kanga. Iedereen gaat naar huis en komt terug. Konijn met een pot honing. Kanga met een pot honing. Teigetje met een klein potje, maar hij heeft er stiekem al een beetje van gegeten. Zelfs Iejoor brengt iets. Een distel. Want dat eet hij zelf het liefst. Poeh is zo blij. Zijn ogen glanzen. Maar dan doet hij iets heel liefs. Hij kijkt naar al zijn vrienden. Weet je wat? zegt hij. Laten we samen eten. Een picknick! Ze spreiden een deken uit op het gras, onder de grote eik. Iedereen zit in een kring. Ze eten honing op hun boterham. Ze lachen en ze vertellen verhalen. Teigetje springt rond. Iejoor glimlacht zelfs een klein beetje. Knorretje leunt tegen Poeh. Poeh, zegt hij, wat is het allerlekkerste? Poeh denkt heel lang na. Dan zegt hij: Honing is heel lekker. Maar honing eten met vrienden, dat is nog het allerlekkerste. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welk dier is Winnie de Poeh?",
+      "right": "🐻",
+      "wrong": [
+        "🐷",
+        "🐯"
+      ],
+      "say": "Winnie de Poeh is een beer."
+    },
+    {
+      "question": "Waar houdt Poeh het meest van?",
+      "right": "🍯",
+      "wrong": [
+        "🍫",
+        "🍪"
+      ],
+      "say": "Poeh houdt het meest van honing."
+    },
+    {
+      "question": "Waar hangt de bijenkorf?",
+      "right": "🌳",
+      "wrong": [
+        "🏠",
+        "🪨"
+      ],
+      "say": "De bijenkorf hangt in een hoge boom."
+    },
+    {
+      "question": "Waarmee zweeft Poeh omhoog?",
+      "right": "🎈",
+      "wrong": [
+        "🪁",
+        "🚁"
+      ],
+      "say": "Poeh zweeft omhoog met een ballon."
+    },
+    {
+      "question": "Wat doen de vrienden op het einde samen?",
+      "right": "🧺",
+      "wrong": [
+        "⚽",
+        "😴"
+      ],
+      "say": "Ze houden samen een picknick."
+    }
+  ],
+  "words": [
+    {
+      "word": "de honing",
+      "emoji": "🍯",
+      "say": "Poeh houdt van zoete honing."
+    },
+    {
+      "word": "de bijen",
+      "emoji": "🐝",
+      "say": "De bijen zoemen boos."
+    },
+    {
+      "word": "de ballon",
+      "emoji": "🎈",
+      "say": "Poeh zweeft aan een blauwe ballon."
+    },
+    {
+      "word": "het varkentje",
+      "emoji": "🐷",
+      "say": "Knorretje is een klein varkentje."
+    },
+    {
+      "word": "de tijger",
+      "emoji": "🐯",
+      "say": "Teigetje is een tijger met strepen."
+    },
+    {
+      "word": "de ezel",
+      "emoji": "🫏",
+      "say": "Iejoor is een grijze ezel."
+    }
+  ]
+}

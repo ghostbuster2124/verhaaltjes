@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "kikkerkoning",
+  "version": 1,
+  "title": "De kikkerkoning.",
+  "emoji": "🐸",
+  "text": "Er was eens een koning die een heel mooie dochter had. De jongste prinses was zo mooi, dat zelfs de zon verbaasd was als ze op haar gezicht scheen. Achter het kasteel lag een groot, donker bos. En in dat bos, onder een oude boom, was een put. Een diepe put, met koel, helder water. Op warme dagen ging de prinses daar spelen. Ze nam altijd haar liefste speelgoed mee. Een gouden bal. Ze gooide de bal omhoog en ving hem weer. Omhoog en vangen. Omhoog en vangen. Op een dag gooide ze de bal heel hoog. Ze miste hem. En de gouden bal rolde over de grond, recht in de put. Plons! De prinses keek in de put. Het water was zo diep, dat ze de bodem niet kon zien. Haar gouden bal was weg. Ze begon te huilen. Ze huilde steeds harder. Toen hoorde ze een stem. Waarom huil je zo, prinses? Ze keek rond. Er was niemand. Alleen een kikker. Een dikke, groene kikker, die zijn kop uit het water stak. Ik huil omdat mijn gouden bal in de put is gevallen, snikte de prinses. Ik kan hem voor je halen, kwaakte de kikker. Maar wat krijg ik daarvoor? Alles wat je wil! zei de prinses. Mijn kleren, mijn parels, mijn edelstenen, zelfs mijn gouden kroontje! De kikker schudde zijn kop. Dat wil ik allemaal niet. Ik wil dat je mijn vriendje bent. Dat ik naast je mag zitten aan tafel. Dat ik van je gouden bordje mag eten. En dat ik in je bedje mag slapen. Beloof je dat? Ja, ja, ik beloof het, zei de prinses snel. Maar ondertussen dacht ze: Wat praat die domme kikker. Hij kan toch nooit uit die put. De kikker dook naar beneden. Even later kwam hij terug, met de gouden bal in zijn bek. Hij gooide hem op het gras. De prinses pakte haar bal en rende weg, terug naar het kasteel. Wacht! riep de kikker. Neem me mee! Maar de prinses luisterde niet. De volgende avond zat de prinses aan tafel met de koning. Ze aten soep van gouden bordjes. Toen hoorden ze iets op de trap. Plits, plats, plits, plats. Er werd op de deur geklopt. Prinses, prinses, doe open! De prinses ging kijken. Daar zat de kikker. Ze schrok en sloeg de deur dicht. Wie was dat? vroeg de koning. De prinses vertelde alles. De koning keek heel ernstig. Wat je belooft, dat moet je ook doen, zei hij. Laat hem binnen. De prinses moest de deur opendoen. De kikker hupte naar binnen. Zet me op de tafel, zei hij. De prinses deed het, met een vies gezicht. De kikker at van haar gouden bordje. Hij smakte. De prinses at bijna niets. Na het eten zei de kikker: Ik ben moe. Breng me naar je kamer. De prinses begon te huilen. Ze vond de koude, natte kikker zo vies. Maar de koning zei: Hij heeft jou geholpen toen je verdrietig was. Nu moet jij hem ook helpen. De prinses droeg de kikker naar boven. Ze zette hem op een kussen in een hoekje. Maar toen gebeurde er iets wonderlijks. De kikker begon te groeien. Hij werd groter en groter. Zijn groene huid werd een mooie mantel. En opeens stond er een prins! Een jonge prins met vriendelijke ogen. Een boze heks had mij betoverd, zei hij. Alleen een prinses die haar belofte hield, kon mij redden. Dank je wel. De prinses schaamde zich. Ik was niet lief voor jou, zei ze. Het spijt me. De prins glimlachte. Je hebt je belofte gehouden. Dat is wat telt. Ze werden de beste vrienden. Later trouwden ze en ze leefden nog lang en gelukkig. En de gouden bal? Daar speelden ze samen mee, bij de put in het bos. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat valt er in de put?",
+      "right": "⚽",
+      "wrong": [
+        "👑",
+        "💍"
+      ],
+      "say": "De gouden bal valt in de put."
+    },
+    {
+      "question": "Wie haalt de bal uit de put?",
+      "right": "🐸",
+      "wrong": [
+        "🐟",
+        "🦆"
+      ],
+      "say": "De kikker haalt de bal uit de put."
+    },
+    {
+      "question": "Wat wil de kikker in ruil?",
+      "right": "🤝",
+      "wrong": [
+        "💎",
+        "🪙"
+      ],
+      "say": "De kikker wil haar vriendje zijn."
+    },
+    {
+      "question": "Wat zegt de koning over een belofte?",
+      "right": "✅",
+      "wrong": [
+        "❌",
+        "❓"
+      ],
+      "say": "Wat je belooft, moet je ook doen."
+    },
+    {
+      "question": "In wie verandert de kikker?",
+      "right": "🤴",
+      "wrong": [
+        "🧙",
+        "🐴"
+      ],
+      "say": "De kikker verandert in een prins."
+    }
+  ],
+  "words": [
+    {
+      "word": "de kikker",
+      "emoji": "🐸",
+      "say": "De kikker is dik en groen."
+    },
+    {
+      "word": "de bal",
+      "emoji": "⚽",
+      "say": "De gouden bal valt in de put."
+    },
+    {
+      "word": "de put",
+      "emoji": "🕳️",
+      "say": "Het water in de put is diep."
+    },
+    {
+      "word": "het bordje",
+      "emoji": "🍽️",
+      "say": "De kikker eet van haar gouden bordje."
+    },
+    {
+      "word": "het bedje",
+      "emoji": "🛏️",
+      "say": "De kikker wil in haar bedje slapen."
+    },
+    {
+      "word": "de prins",
+      "emoji": "🤴",
+      "say": "De kikker wordt een prins."
+    }
+  ]
+}

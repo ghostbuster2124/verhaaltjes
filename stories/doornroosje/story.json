@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "doornroosje",
+  "version": 1,
+  "title": "Doornroosje.",
+  "emoji": "🌹",
+  "text": "Lang geleden leefden er een koning en een koningin. Ze wilden heel graag een kindje. En eindelijk, op een mooie lentedag, werd er een prinsesje geboren. Ze was zo lief en zo klein. De koning en de koningin waren zo blij, dat ze een groot feest gaven. Ze nodigden iedereen uit. Ook de feeën van het land. Er waren twaalf goede feeën. Elke fee gaf het prinsesje een wens. Jij zal heel lief zijn, zei de eerste fee. Jij zal mooi kunnen zingen, zei de tweede. Jij zal slim zijn. Jij zal dapper zijn. En zo verder. Maar er was nog een dertiende fee. Die was niet uitgenodigd. Want de koning had maar twaalf gouden borden. De dertiende fee was heel boos. Ze kwam toch naar het feest, in een zwarte mantel. Ze riep: Als de prinses vijftien jaar is, zal ze zich prikken aan een spinnewiel. En dan zal ze sterven! Iedereen schrok. De koningin begon te huilen. Maar de twaalfde fee had haar wens nog niet gegeven. Ik kan de vloek niet wegtoveren, zei ze. Maar ik kan hem zachter maken. De prinses zal niet sterven. Ze zal in een diepe slaap vallen. Honderd jaar lang. De koning liet alle spinnewielen van het land verbranden. Zo kon het prinsesje zich nooit prikken. Het prinsesje groeide op. Ze was lief en slim en dapper, en ze zong heel mooi. Op de dag dat ze vijftien werd, wandelde ze door het kasteel. Ze kwam bij een oude toren, waar ze nog nooit was geweest. Ze klom de wenteltrap op. Bovenaan was een klein deurtje. Ze duwde het open. Daar zat een oud vrouwtje. Ze zat te spinnen aan een spinnewiel. Wat is dat? vroeg de prinses. Ze had nog nooit een spinnewiel gezien. Kom maar kijken, zei het vrouwtje. De prinses raakte het spinnewiel aan. Au! Ze prikte zich in haar vinger. En meteen viel ze in een diepe slaap. En niet alleen de prinses. Iedereen in het kasteel viel in slaap. De koning en de koningin op hun troon. De kok in de keuken. De paarden in de stal. De honden op de binnenplaats. Zelfs de vliegen op de muur. Het vuur in de haard ging uit. Alles was stil. Rondom het kasteel begon een haag te groeien. Een haag van rozen, met scherpe doornen. Elk jaar werd ze hoger en dikker. Tot je het kasteel niet meer kon zien. Alleen de vlag op de hoogste toren. De mensen vertelden het verhaal van de slapende prinses. Ze noemden haar Doornroosje. Veel prinsen probeerden door de haag te komen. Maar de doornen waren te scherp. Niemand kwam erdoor. Na honderd jaar kwam er een jonge prins in het land. Hij hoorde het verhaal. Ik wil Doornroosje zien, zei hij. Iedereen zei: Het lukt je nooit. Maar de prins ging toch. En weet je wat? Precies die dag waren de honderd jaar om. De doornen veranderden in prachtige bloemen. De haag ging vanzelf open, als een poort. De prins liep het kasteel binnen. Hij zag de slapende paarden, de slapende honden en de slapende kok. Hij klom de toren op. Daar lag Doornroosje. Ze sliep zo vredig. De prins gaf haar een kusje op haar wang. En Doornroosje deed haar ogen open. Ze lachte. Ben je daar eindelijk? zei ze. En het hele kasteel werd wakker. De koning en de koningin rekten zich uit. De honden blaften. De paarden hinnikten. Het vuur in de haard begon weer te branden. De kok bakte verder aan zijn taart. Er kwam een groot feest. En dit keer werden alle feeën uitgenodigd. Alle dertien. Want de koning had nu dertien gouden borden. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Waarom werd de dertiende fee niet uitgenodigd?",
+      "right": "🍽️",
+      "wrong": [
+        "🎈",
+        "🐴"
+      ],
+      "say": "De koning had maar twaalf gouden borden."
+    },
+    {
+      "question": "Waaraan prikt de prinses zich?",
+      "right": "🧵",
+      "wrong": [
+        "🌵",
+        "✂️"
+      ],
+      "say": "Ze prikt zich aan een spinnewiel."
+    },
+    {
+      "question": "Hoelang slaapt de prinses?",
+      "right": "💯",
+      "wrong": [
+        "1️⃣",
+        "🔟"
+      ],
+      "say": "Ze slaapt honderd jaar lang."
+    },
+    {
+      "question": "Wat groeit er rond het kasteel?",
+      "right": "🌹",
+      "wrong": [
+        "🌻",
+        "🌵"
+      ],
+      "say": "Er groeit een haag van rozen met doornen."
+    },
+    {
+      "question": "Hoe wordt Doornroosje wakker?",
+      "right": "💋",
+      "wrong": [
+        "⏰",
+        "🔔"
+      ],
+      "say": "De prins geeft haar een kusje."
+    }
+  ],
+  "words": [
+    {
+      "word": "de rozen",
+      "emoji": "🌹",
+      "say": "Rond het kasteel groeien rozen."
+    },
+    {
+      "word": "de fee",
+      "emoji": "🧚",
+      "say": "Elke fee geeft een wens."
+    },
+    {
+      "word": "het kasteel",
+      "emoji": "🏰",
+      "say": "Iedereen in het kasteel slaapt."
+    },
+    {
+      "word": "de toren",
+      "emoji": "🗼",
+      "say": "De prinses klimt de toren op."
+    },
+    {
+      "word": "de borden",
+      "emoji": "🍽️",
+      "say": "De koning heeft gouden borden."
+    },
+    {
+      "word": "de paarden",
+      "emoji": "🐴",
+      "say": "De paarden slapen in de stal."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "krishna-kaliya",
+  "version": 1,
+  "title": "Krishna en de grote slang.",
+  "emoji": "🐍",
+  "text": "Dit is een verhaal uit India, over de kleine Krishna. Krishna was een jongetje met een blauwe huid. Hij droeg een pauwenveer in zijn haar en hij speelde prachtig op zijn fluit. Hij woonde in het dorp Gokul, aan de rivier de Yamuna. Krishna paste samen met zijn vriendjes op de koeien. Elke dag namen ze de koeien mee naar de weide aan de rivier. Daar was het gras groen en het water koel. De jongens speelden, en de koeien graasden. Maar op een dag gebeurde er iets vreemds. De koeien dronken van het water van de rivier. En meteen vielen ze om. Ze werden heel ziek. Ook een paar jongens die hadden gedronken, voelden zich slecht. De vogels die boven de rivier vlogen, vielen in het water. De bloemen aan de kant werden bruin. Wat is er aan de hand? vroegen de jongens. Een oude man uit het dorp wist het. In het diepe water van de rivier, zei hij, woont een grote slang. Hij heet Kaliya. Hij heeft wel vijf koppen. En hij is giftig. Zijn gif maakt het hele water vies. Niemand durft in de buurt te komen. De jongens werden bang. Maar Krishna niet. Ik ga met Kaliya praten, zei hij. Niet doen, Krishna! riepen zijn vriendjes. Hij is te groot! Hij is te gevaarlijk! Krishna glimlachte. Maak je geen zorgen, zei hij. Hij klom in een hoge boom aan de rivier. Een boom die nog groen was. Hij keek naar het donkere water. En hup! Hij sprong erin. Plons! Het water borrelde. Zijn vriendjes renden naar het dorp. Help! Krishna is in de rivier gesprongen! Zijn mama Yashoda kwam aangelopen. En zijn papa, en alle mensen van het dorp. Ze stonden aan de rivier. Ze waren heel bang. Diep onder water werd Kaliya wakker. Wie durft er in mijn rivier te zwemmen? siste hij. Hij kwam naar boven, met zijn vijf grote koppen. Sssssss! Hij kronkelde zich rond Krishna. Iedereen aan de kant gilde. Maar Krishna werd groter en groter. Zo groot, dat de slang hem moest loslaten. En toen sprong Krishna op de koppen van de slang. Hij begon te dansen. Hij danste van de ene kop naar de andere. Hij danste sierlijk en licht, maar elke stap was zo zwaar als een berg. Kaliya werd moe. Hij zakte dieper en dieper in het water. Toen kwamen de vrouwen van Kaliya naar boven. Alstublieft, Krishna, smeekten ze. Laat onze man leven. Hij heeft spijt. Krishna stopte met dansen. Kaliya, zei hij streng, je hebt het water vies gemaakt. De koeien zijn ziek. De vogels zijn ziek. Dat mag niet. Kaliya boog zijn vijf koppen. Het spijt me, zei hij. Ik zal weggaan. Ga naar de grote zee, zei Krishna. Daar is plaats genoeg voor jou. En laat deze rivier proper. Kaliya en zijn familie zwommen weg, ver weg, naar de zee. En ze kwamen nooit meer terug. Krishna stapte uit het water. Hij speelde op zijn fluit. En toen gebeurde er iets moois. Het water werd helder en blauw. De bloemen gingen weer open. De vogels zongen. En de koeien stonden weer op. Ze loeiden blij. Boe! Yashoda nam Krishna in haar armen. Ze gaf hem duizend kusjes. Je bent zo dapper, zei ze. Maar spring nooit meer zomaar in de rivier! Krishna lachte. Die avond vierde het hele dorp feest. En als de mensen van Gokul nu naar de heldere rivier kijken, denken ze aan de kleine Krishna die danste op de slang. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welke kleur heeft de huid van Krishna?",
+      "right": "🔵",
+      "wrong": [
+        "🔴",
+        "🟢"
+      ],
+      "say": "Krishna heeft een blauwe huid."
+    },
+    {
+      "question": "Waarop speelt Krishna?",
+      "right": "🪈",
+      "wrong": [
+        "🥁",
+        "🎸"
+      ],
+      "say": "Krishna speelt op zijn fluit."
+    },
+    {
+      "question": "Welk dier woont in de rivier?",
+      "right": "🐍",
+      "wrong": [
+        "🐊",
+        "🐟"
+      ],
+      "say": "Een grote slang woont in de rivier."
+    },
+    {
+      "question": "Hoeveel koppen heeft de slang?",
+      "right": "5️⃣",
+      "wrong": [
+        "1️⃣",
+        "3️⃣"
+      ],
+      "say": "De slang heeft vijf koppen."
+    },
+    {
+      "question": "Wat doet Krishna op de koppen van de slang?",
+      "right": "💃",
+      "wrong": [
+        "😴",
+        "🍽️"
+      ],
+      "say": "Krishna danst op de koppen van de slang."
+    }
+  ],
+  "words": [
+    {
+      "word": "de slang",
+      "emoji": "🐍",
+      "say": "De slang heeft vijf koppen."
+    },
+    {
+      "word": "de koeien",
+      "emoji": "🐄",
+      "say": "Krishna past op de koeien."
+    },
+    {
+      "word": "de rivier",
+      "emoji": "🏞️",
+      "say": "Het water van de rivier wordt helder."
+    },
+    {
+      "word": "de fluit",
+      "emoji": "🪈",
+      "say": "Krishna speelt op zijn fluit."
+    },
+    {
+      "word": "de boom",
+      "emoji": "🌳",
+      "say": "Krishna klimt in een hoge boom."
+    },
+    {
+      "word": "de pauwenveer",
+      "emoji": "🪶",
+      "say": "Krishna draagt een pauwenveer."
+    }
+  ]
+}

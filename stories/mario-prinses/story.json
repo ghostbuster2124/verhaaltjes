@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "mario-prinses",
+  "version": 1,
+  "title": "Mario en de prinses in het kasteel.",
+  "emoji": "🍄",
+  "text": "In het Paddenstoelenrijk is alles vrolijk en kleurig. Er staan groene heuvels, grote paddenstoelen en gouden muntjes die zweven in de lucht. Daar woont Mario. Mario is een loodgieter. Hij draagt een rode pet, een blauwe salopette en hij heeft een grote snor. Hij kan heel hoog springen. Hup! Hij woont samen met zijn broer Luigi. Luigi is langer en draagt een groene pet. Op een ochtend komt er een klein paddenstoeltje aangerend. Het is Toad. Hij heeft een witte hoed met rode stippen. Mario! Mario! roept Toad. Er is iets ergs gebeurd! Bowser heeft prinses Peach meegenomen naar zijn kasteel! Bowser is een grote schildpad met stekels op zijn rug. Hij kan vuur spuwen en hij brult heel luid. Maar eigenlijk is hij vooral een beetje eenzaam en jaloers. Geen zorgen, Toad, zegt Mario. Ik ga de prinses halen! Let's go! Mario trekt zijn pet recht en vertrekt. Eerst moet hij door het groene land. Er lopen kleine bruine paddenstoelen rond, de Goomba's. Ze zijn boos en ze willen hem tegenhouden. Maar Mario springt over hen heen. Hup, hup, hup! Dan ziet hij een blok met een vraagteken erop. Pling! Mario springt er met zijn hoofd tegen. Er komt een rode paddenstoel uit. Mario eet hem op en, wauw, hij wordt groot en sterk! Daarna moet Mario door een lange groene buis. Hij glijdt naar beneden, zoef, en komt uit in een donkere grot onder de grond. Daar ligt een heleboel gouden muntjes. Pling, pling, pling! Mario verzamelt ze allemaal. Uit de grot komt hij bij een groot meer. Hoe moet hij daar nu over? Dan hoort hij een vrolijk geluid. Het is Yoshi, de groene dinosaurus met de lange tong. Yoshi! roept Mario. Wil je me helpen? Yoshi knikt. Mario springt op zijn rug en Yoshi rent over de stenen in het water. Hop, hop, hop, tot aan de overkant. Daar staat het kasteel van Bowser. Het is donker en grijs, en rondom ligt hete lava. Hoog in de toren ziet Mario prinses Peach. Ze draagt een roze jurk en een gouden kroontje. Ze zwaait. Mario! Mario dankt Yoshi en loopt het kasteel binnen. Er zijn lange trappen en vuurballen die rondvliegen. Mario springt en duikt. Eindelijk komt hij in de grote zaal. Daar staat Bowser. Graaaw! brult Bowser. De prinses blijft bij mij! Waarom heb je haar meegenomen? vraagt Mario. Bowser kijkt naar de grond. Omdat niemand ooit naar mijn kasteel komt, bromt hij. Iedereen gaat altijd naar het feest van de prinses. En ik word nooit uitgenodigd. Prinses Peach hoort het. Oh Bowser, zegt ze zachtjes. Als je dat gewoon had gevraagd, dan had ik je uitgenodigd. Maar je mag iemand niet zomaar meenemen. Dat is niet lief. Bowser zucht. Sorry, mompelt hij. Mario ziet een grote knop op de vloer. Hij springt erop. Klik! De deur van de toren gaat open. Prinses Peach komt naar beneden. Dank je wel, Mario! Die avond is er een groot feest in het kasteel van de prinses. Er is taart en muziek en lichtjes. Luigi is er, en Toad, en Yoshi. En wie staat daar, een beetje verlegen, bij de deur? Bowser! Met een cadeautje in zijn grote klauwen. Kom maar binnen, zegt de prinses. Bowser lacht. Iedereen danst, en Mario springt van blijdschap zo hoog als hij kan. Wahoo! Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welke kleur heeft de pet van Mario?",
+      "right": "🔴",
+      "wrong": [
+        "🟢",
+        "🟡"
+      ],
+      "say": "Mario heeft een rode pet."
+    },
+    {
+      "question": "Wie heeft prinses Peach meegenomen?",
+      "right": "🐢",
+      "wrong": [
+        "🐸",
+        "🐍"
+      ],
+      "say": "Bowser, de grote schildpad, heeft haar meegenomen."
+    },
+    {
+      "question": "Wat komt er uit het blok met het vraagteken?",
+      "right": "🍄",
+      "wrong": [
+        "🍎",
+        "⭐"
+      ],
+      "say": "Er komt een rode paddenstoel uit het blok."
+    },
+    {
+      "question": "Wie helpt Mario over het meer?",
+      "right": "🦖",
+      "wrong": [
+        "🐬",
+        "🦆"
+      ],
+      "say": "Yoshi, de groene dinosaurus, helpt Mario."
+    },
+    {
+      "question": "Waarom was Bowser boos?",
+      "right": "💌",
+      "wrong": [
+        "🍔",
+        "🌧️"
+      ],
+      "say": "Bowser werd nooit uitgenodigd voor het feest."
+    }
+  ],
+  "words": [
+    {
+      "word": "de paddenstoel",
+      "emoji": "🍄",
+      "say": "Mario eet een rode paddenstoel."
+    },
+    {
+      "word": "de muntjes",
+      "emoji": "🪙",
+      "say": "Mario verzamelt gouden muntjes."
+    },
+    {
+      "word": "het kasteel",
+      "emoji": "🏰",
+      "say": "Bowser woont in een donker kasteel."
+    },
+    {
+      "word": "de prinses",
+      "emoji": "👸",
+      "say": "De prinses draagt een roze jurk."
+    },
+    {
+      "word": "het kroontje",
+      "emoji": "👑",
+      "say": "De prinses heeft een gouden kroontje."
+    },
+    {
+      "word": "de taart",
+      "emoji": "🎂",
+      "say": "Op het feest is er taart."
+    }
+  ]
+}
