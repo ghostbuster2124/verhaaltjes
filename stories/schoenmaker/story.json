@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "schoenmaker",
+  "version": 1,
+  "title": "De schoenmaker en de elfjes.",
+  "emoji": "👞",
+  "text": "Er was eens een schoenmaker. Hij woonde met zijn vrouw in een klein huisje in een klein straatje. Hij maakte de mooiste schoenen van het hele dorp. Maar hij was oud geworden en hij werkte niet zo snel meer. De mensen kochten hun schoenen liever in de grote winkel in de stad. Daarom was de schoenmaker heel arm. Op een avond had hij nog maar één klein stukje leer over. Genoeg voor één paar schoenen. Morgen maak ik mijn laatste paar schoenen, zuchtte hij. Hij knipte het leer in de juiste vorm. Hij legde de stukjes klaar op zijn werktafel, samen met de naald en de draad. Toen ging hij slapen. De volgende ochtend kwam de schoenmaker in zijn werkplaats. Hij wreef in zijn ogen. Wat zag hij daar? Op de tafel stond een paar schoenen. Helemaal klaar! De steekjes waren piepklein en heel netjes. De schoenen glommen. Het waren de mooiste schoenen die hij ooit had gezien. Vrouw! riep hij. Kom eens kijken! Wie heeft dit gedaan? Zijn vrouw wist het ook niet. Die dag kwam er een rijke meneer in de winkel. Hij zag de schoenen en paste ze. Ze pasten perfect! Hij betaalde er heel veel geld voor. Met dat geld kocht de schoenmaker leer voor twee paar schoenen. Die avond knipte hij weer alles klaar en ging slapen. En de volgende ochtend? Twee paar schoenen, helemaal klaar! Zo ging het elke nacht. Een paar laarzen. Een paar sandalen. Een paar dansschoentjes voor een prinses. De schoenmaker verkocht ze allemaal. Hij was niet meer arm. Maar wie hielp hem toch? Op een avond, vlak voor Kerstmis, zei zijn vrouw: Weet je wat? Laten we ons vannacht verstoppen. Dan zien we wie ons helpt. Ze verstopten zich achter een gordijn. Ze lieten een kaars branden. Om middernacht hoorden ze een zacht geluidje. Tik, tik, tik. Twee piepkleine elfjes kwamen door het raam naar binnen. Ze hadden puntige oortjes. Maar ze hadden geen kleren aan, alleen een paar oude lapjes. Ze waren blootsvoets. De elfjes sprongen op de tafel. Ze pakten de naald en de draad. Ze naaiden en ze klopten met een klein hamertje. Tik, tik, tik. Ze werkten heel snel. Ze zongen een liedje erbij. Voor de zon opkwam, waren alle schoenen klaar. En hup, weg waren ze, door het raam. De schoenmaker en zijn vrouw keken elkaar aan. Die lieve elfjes, zei de vrouw. Ze helpen ons elke nacht. Maar ze hebben het zelf zo koud. Ze hebben niet eens kleren. Laten we ze iets teruggeven. De vrouw naaide twee kleine hemdjes, twee broekjes en twee jasjes. Ze breide twee paar sokjes. En de schoenmaker maakte twee paar piepkleine schoentjes, de mooiste die hij ooit maakte. Op kerstavond legden ze alles op de tafel, in plaats van het leer. Om middernacht kwamen de elfjes weer. Ze zagen de kleertjes. Ze keken verbaasd. Toen trokken ze alles aan. De hemdjes, de broekjes, de jasjes, de sokjes en de schoentjes. Alles paste perfect. De elfjes dansten van blijdschap over de tafel. Ze huppelden en ze lachten. En ze zongen: Nu zijn we twee mooie heertjes, wat moeten we nog schoenmaker zijn? En ze dansten het raam uit, de nacht in. De elfjes kwamen nooit meer terug. Maar dat gaf niet. De schoenmaker had geleerd hoe ze zo'n mooie, kleine steekjes maakten. Zijn schoenen waren nu de beroemdste van het land. En elke kerstavond legden de schoenmaker en zijn vrouw een klein cadeautje op de vensterbank. Voor de elfjes. Je weet maar nooit. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat maakt de schoenmaker?",
+      "right": "👞",
+      "wrong": [
+        "🎩",
+        "👗"
+      ],
+      "say": "De schoenmaker maakt schoenen."
+    },
+    {
+      "question": "Wie maken de schoenen 's nachts?",
+      "right": "🧝",
+      "wrong": [
+        "🐭",
+        "👻"
+      ],
+      "say": "Twee kleine elfjes maken de schoenen."
+    },
+    {
+      "question": "Waar verstoppen de schoenmaker en zijn vrouw zich?",
+      "right": "🪟",
+      "wrong": [
+        "🛏️",
+        "🚪"
+      ],
+      "say": "Ze verstoppen zich achter een gordijn."
+    },
+    {
+      "question": "Wat hebben de elfjes niet?",
+      "right": "👕",
+      "wrong": [
+        "👂",
+        "🔨"
+      ],
+      "say": "De elfjes hebben geen kleren."
+    },
+    {
+      "question": "Wat krijgen de elfjes als cadeau?",
+      "right": "🧦",
+      "wrong": [
+        "🍪",
+        "🧸"
+      ],
+      "say": "Ze krijgen kleertjes, sokjes en schoentjes."
+    }
+  ],
+  "words": [
+    {
+      "word": "de schoenen",
+      "emoji": "👞",
+      "say": "De schoenmaker maakt mooie schoenen."
+    },
+    {
+      "word": "de draad",
+      "emoji": "🧵",
+      "say": "De elfjes naaien met naald en draad."
+    },
+    {
+      "word": "het hamertje",
+      "emoji": "🔨",
+      "say": "Tik, tik, doet het hamertje."
+    },
+    {
+      "word": "de kaars",
+      "emoji": "🕯️",
+      "say": "Er brandt een kaars in de nacht."
+    },
+    {
+      "word": "de sokjes",
+      "emoji": "🧦",
+      "say": "De vrouw breit twee paar sokjes."
+    },
+    {
+      "word": "het raam",
+      "emoji": "🪟",
+      "say": "De elfjes komen door het raam."
+    }
+  ]
+}

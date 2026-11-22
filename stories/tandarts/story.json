@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "tandarts",
+  "version": 1,
+  "title": "Naar de tandarts.",
+  "emoji": "🦷",
+  "text": "Vandaag is een speciale dag voor Noor. Ze gaat voor de eerste keer naar de tandarts. Noor is vijf jaar en ze is een beetje zenuwachtig. Mama, wat doet een tandarts eigenlijk? vraagt ze aan het ontbijt. Mama smeert een boterham. Een tandarts kijkt of je tanden gezond zijn, zegt mama. Je tanden zijn heel belangrijk. Daarmee bijt je in een appel, en kauw je op je boterham. En daarmee lach je! Noor lacht heel breed. Kijk, mama, al mijn tanden! Mama telt ze. Twintig witte tandjes, zegt ze. Wat een mooie! Na het ontbijt poetst Noor haar tanden. Twee minuten lang, met haar roze tandenborstel en een beetje tandpasta. Boven, onder, links, rechts. En ook achteraan, waar de kiezen staan. Dan gaan ze met de auto naar de tandarts. In de wachtkamer liggen boekjes en er staat een grote bak met speelgoed. Er zit ook een jongetje met zijn papa. Hij heet Milan. Ben jij ook bang? fluistert Noor. Milan schudt zijn hoofd. Nee hoor. Ik ben al drie keer geweest. Het kriebelt een beetje, meer niet. Dan gaat de deur open. Er komt een vrouw met een witte jas en een vriendelijke glimlach. Noor? Kom maar binnen. Ik ben dokter Sara, de tandarts. De kamer is licht en proper. In het midden staat een grote, blauwe stoel. Wil je in mijn speciale stoel zitten? vraagt dokter Sara. Die kan omhoog en omlaag, net als een lift. Noor klimt in de stoel. Zoem, de stoel gaat omhoog. En dan kantelt hij een beetje naar achter. Noor ligt bijna. Boven haar hoofd hangt een grote lamp. Wauw, zegt Noor. Het is net een ruimteschip! Dokter Sara lacht. Kijk, dit zijn mijn hulpjes. Ze laat een klein spiegeltje zien, aan een lange steel. Met dit spiegeltje kan ik achter je tanden kijken. Mag ik even in je mond kijken? Doe maar heel wijd open, zoals een leeuw. Noor doet haar mond heel wijd open. Aaaah! Dokter Sara kijkt naar elke tand. Ze telt ze, net als mama. Twintig, zegt ze. En allemaal gezond! Jij poetst heel goed, Noor. Noor is trots. Daarna mag ze een slokje water nemen en spoelen. En dan pft, uitspuwen in een klein wasbakje naast de stoel. Dat is grappig. Dokter Sara toont ook een groot gebit van plastic en een reuzegrote tandenborstel. Kijk, zo moet je poetsen. Kleine rondjes, boven en onder. Ook langs de achterkant. En weet je wat de tanden niet zo leuk vinden? Wat dan? vraagt Noor. Heel veel snoep en frisdrank, zegt dokter Sara. Daar komen gaatjes van. Maar water, fruit, kaas en groenten, daar worden je tanden blij van. Dan is het klaar. Al? vraagt Noor. Het deed helemaal geen pijn! Dokter Sara geeft haar een sticker met een lachende tand. En een nieuwe tandenborstel, een paarse. Noor glundert. In de wachtkamer zit Milan nog. Het kriebelde inderdaad een beetje! zegt Noor. Milan steekt zijn duim op. Op de terugweg in de auto kijkt Noor naar haar sticker. Mama, zegt ze, mag ik volgend jaar weer naar dokter Sara? Natuurlijk, zegt mama. Elk jaar gaan we op bezoek. Die avond poetst Noor haar tanden met haar nieuwe paarse tandenborstel. Twee minuten lang. Kleine rondjes, boven en onder. Slaap lekker, tandjes, zegt ze. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Waar gaat Noor vandaag naartoe?",
+      "right": "🦷",
+      "wrong": [
+        "🏊",
+        "🎪"
+      ],
+      "say": "Noor gaat naar de tandarts."
+    },
+    {
+      "question": "Hoe wijd doet Noor haar mond open?",
+      "right": "🦁",
+      "wrong": [
+        "🐭",
+        "🐟"
+      ],
+      "say": "Noor doet haar mond heel wijd open, zoals een leeuw."
+    },
+    {
+      "question": "Waarmee kijkt de tandarts achter de tanden?",
+      "right": "🪞",
+      "wrong": [
+        "🔦",
+        "🔍"
+      ],
+      "say": "De tandarts kijkt met een klein spiegeltje."
+    },
+    {
+      "question": "Waar komen gaatjes van?",
+      "right": "🍭",
+      "wrong": [
+        "🥕",
+        "🧀"
+      ],
+      "say": "Van heel veel snoep komen gaatjes."
+    },
+    {
+      "question": "Welke kleur heeft de nieuwe tandenborstel?",
+      "right": "🟣",
+      "wrong": [
+        "🟢",
+        "🟠"
+      ],
+      "say": "De nieuwe tandenborstel is paars."
+    }
+  ],
+  "words": [
+    {
+      "word": "de tanden",
+      "emoji": "🦷",
+      "say": "Noor heeft twintig witte tanden."
+    },
+    {
+      "word": "de tandenborstel",
+      "emoji": "🪥",
+      "say": "Noor poetst met haar tandenborstel."
+    },
+    {
+      "word": "het spiegeltje",
+      "emoji": "🪞",
+      "say": "De tandarts kijkt met een spiegeltje."
+    },
+    {
+      "word": "de stoel",
+      "emoji": "💺",
+      "say": "De stoel gaat omhoog en omlaag."
+    },
+    {
+      "word": "de lamp",
+      "emoji": "💡",
+      "say": "Boven haar hoofd hangt een lamp."
+    },
+    {
+      "word": "de appel",
+      "emoji": "🍎",
+      "say": "Met je tanden bijt je in een appel."
+    }
+  ]
+}

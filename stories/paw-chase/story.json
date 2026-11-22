@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "paw-chase",
+  "version": 1,
+  "title": "Paw Patrol. Chase zoekt het verloren puppy.",
+  "emoji": "🐶",
+  "text": "In het stadje Adventure Bay staat een hoge toren aan de zee. Dat is de uitkijktoren van de Paw Patrol. Daar wonen zes dappere puppy's en een jongen die Ryder heet. Ryder is tien jaar en hij is de baas van de Paw Patrol. Als er iemand in nood is, roept hij de puppy's. En dan rennen ze naar hun voertuigen en komen ze helpen. Want geen klus is te groot, en geen pup is te klein! Er is Chase, de politiehond met zijn blauwe pet. Marshall, de brandweerhond. Skye, die kan vliegen met haar helikopter. Rubble, de bouwhond met zijn graafmachine. Rocky, die alles recycleert. En Zuma, die van het water houdt. Op een zaterdagochtend spelen de puppy's met een bal op het gras. Dan piept Ryder zijn tablet. Piep, piep! Het is burgemeester Goodway. Ze klinkt heel ongerust. Ryder! roept ze. Ik heb hulp nodig. Mijn kippetje Chickaletta is weggelopen. En ik zag ook een klein, verdwaald puppy in het park. Het huilde. Ryder knikt. Geen zorgen, burgemeester. Geen klus is te groot! Hij drukt op zijn tablet. Paw Patrol, naar de uitkijktoren! De puppy's rennen naar binnen. Ze springen in de lift en stellen zich op in een rij. Klaar om te helpen, Ryder! roept Chase. Ryder legt alles uit. We moeten een verdwaald puppy vinden in het park. Chase, jij hebt de beste neus. Jij kan sporen volgen! Chase blaft. Chase gaat aan de slag! En Skye, jij kijkt van boven met je helikopter. Jippie! Laat ons vliegen! roept Skye. De puppy's glijden langs de glijbaan naar hun voertuigen. Chase rijdt met zijn politieauto. Wiu wiu! Skye vliegt met haar roze helikopter. Ryder rijdt op zijn quad. In het park is het druk. Er spelen kinderen. Er rijden fietsen. Chase snuffelt aan de grond. Snuf, snuf. Hij ruikt bloemen, en gras, en een broodje kaas. En dan ruikt hij iets anders. Een puppy! Ik heb een spoor! blaft hij. Chase volgt het spoor. Langs de vijver, onder de brug, tot aan een grote struik. Van boven roept Skye: Ryder! Ik zie iets bewegen in de struik! Chase kijkt in de struik. Daar zit een klein, bruin puppy met witte oortjes. Het bibbert. Het piept zachtjes. Dag kleintje, zegt Chase heel lief. Ik ben Chase. Ben je verdwaald? Het puppy knikt. Ik heet Pip, snikt het. Ik speelde met een vlinder en toen was mijn baasje weg. Chase gaat naast Pip zitten. Hij geeft haar een likje op haar neus. Wij gaan jouw baasje zoeken, zegt hij. Dat beloof ik. Chase heeft een idee. Hij zet zijn megafoon op. Hallo, park! roept hij. Wie heeft een klein bruin puppy met witte oortjes verloren? Aan de andere kant van het park springt een meisje op. Pip! Mijn Pip! Ze rent naar hen toe en knuffelt haar puppy. Pip kwispelt zo hard dat haar hele lijfje wiebelt. Dank je wel, Chase! zegt het meisje. Graag gedaan, zegt Chase. Maar weet je wat Pip nog nodig heeft? Een halsband met haar naam en jouw telefoonnummer. Dan kan iedereen helpen als ze weer verdwaalt. En dan horen ze iets. Tok, tok, tok. Uit dezelfde struik komt een kip gewandeld. Het is Chickaletta! Burgemeester Goodway komt aangelopen en neemt haar kippetje in haar armen. Chickaletta! Daar ben je! Iedereen lacht. Twee verloren vriendjes gevonden op één dag! Goed gedaan, Paw Patrol! zegt Ryder. Als jullie hulp nodig hebben, roep dan maar. Die avond krijgen alle puppy's een extra hondenkoekje. En Chase krijgt er twee, want hij had de beste neus. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welke pup is de politiehond?",
+      "right": "🚓",
+      "wrong": [
+        "🚒",
+        "🚁"
+      ],
+      "say": "Chase is de politiehond."
+    },
+    {
+      "question": "Waarmee vliegt Skye?",
+      "right": "🚁",
+      "wrong": [
+        "✈️",
+        "🎈"
+      ],
+      "say": "Skye vliegt met haar helikopter."
+    },
+    {
+      "question": "Wat gebruikt Chase om het puppy te vinden?",
+      "right": "👃",
+      "wrong": [
+        "👂",
+        "👀"
+      ],
+      "say": "Chase gebruikt zijn goede neus."
+    },
+    {
+      "question": "Waar zit het puppy?",
+      "right": "🌳",
+      "wrong": [
+        "🏠",
+        "🚗"
+      ],
+      "say": "Het puppy zit in een grote struik."
+    },
+    {
+      "question": "Welk dier van de burgemeester was ook weg?",
+      "right": "🐔",
+      "wrong": [
+        "🐈",
+        "🦆"
+      ],
+      "say": "Het kippetje Chickaletta was ook weg."
+    }
+  ],
+  "words": [
+    {
+      "word": "de puppy's",
+      "emoji": "🐶",
+      "say": "De puppy's helpen iedereen."
+    },
+    {
+      "word": "de politieauto",
+      "emoji": "🚓",
+      "say": "Chase rijdt met zijn politieauto."
+    },
+    {
+      "word": "de helikopter",
+      "emoji": "🚁",
+      "say": "Skye vliegt met haar helikopter."
+    },
+    {
+      "word": "de neus",
+      "emoji": "👃",
+      "say": "Chase heeft een heel goede neus."
+    },
+    {
+      "word": "de kip",
+      "emoji": "🐔",
+      "say": "De kip heet Chickaletta."
+    },
+    {
+      "word": "de struik",
+      "emoji": "🌳",
+      "say": "Het puppy zit in de struik."
+    }
+  ]
+}

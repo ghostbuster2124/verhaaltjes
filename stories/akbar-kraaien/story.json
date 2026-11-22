@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "akbar-kraaien",
+  "version": 1,
+  "title": "Birbal telt de kraaien.",
+  "emoji": "🐦‍⬛",
+  "text": "Lang geleden leefde er in India een grote keizer. Hij heette Akbar. Hij woonde in een prachtig paleis van rode steen, met torens en tuinen en fonteinen. Keizer Akbar had een beste vriend. Dat was Birbal. Birbal was de slimste man van het hele rijk. Hij had op elke vraag een antwoord. Keizer Akbar vond het leuk om Birbal moeilijke vragen te stellen. Vragen die eigenlijk niemand kon beantwoorden. Hij wilde zien of Birbal ooit eens zou zeggen: Dat weet ik niet. Op een warme middag wandelden ze samen door de tuin van het paleis. De bloemen geurden. De pauwen liepen trots rond. En in de bomen zaten heel veel kraaien. Zwarte kraaien, die kraaiden. Kra! Kra! Kra! Keizer Akbar keek naar de kraaien. Hij kreeg een idee. Hij glimlachte. Birbal, zei hij, ik heb een vraag voor jou. Hoeveel kraaien zijn er in onze hele stad? Alle hovelingen die meeliepen, keken elkaar aan. Wat een moeilijke vraag! Niemand kan alle kraaien tellen! Ze vliegen toch de hele tijd rond. Ze dachten: Nu weet Birbal het eindelijk eens niet. Maar Birbal dacht even na. Hij streek over zijn baard. Hij keek naar de lucht. Toen zei hij heel rustig: Er zijn eenennegentigduizend, vierhonderd en twaalf kraaien in onze stad, majesteit. Keizer Akbar fronste zijn wenkbrauwen. Zoveel? zei hij. Ben je daar zeker van? Heel zeker, zei Birbal. Als u me niet gelooft, majesteit, dan kan u ze laten tellen. De keizer lachte. Maar Birbal, zei hij, en als mijn mannen ze tellen, en er zijn er minder? Wat dan? Dan, zei Birbal, zijn er een paar kraaien op vakantie. Ze zijn op bezoek bij hun familie in een andere stad. De hovelingen moesten lachen. En als er meer zijn? vroeg de keizer. Dan, zei Birbal met een knipoog, hebben onze kraaien bezoek gekregen van hun neven en nichten uit andere steden. Want kraaien houden ook van een feestje! Nu moest keizer Akbar zo hard lachen dat hij zijn buik moest vasthouden. Hij lachte zo luid dat de pauwen ervan schrokken. Hahaha! Birbal, jij bent onmogelijk! Jij hebt altijd een antwoord! Hij gaf Birbal een klap op zijn schouder. Maar toen werd hij weer ernstig. Birbal, zei hij, vertel me eens eerlijk. Weet jij echt hoeveel kraaien er zijn? Birbal lachte. Nee, majesteit, zei hij. Niemand weet dat. Maar u stelde een vraag waar geen echt antwoord op bestaat. Dus heb ik u een antwoord gegeven dat niemand kan controleren. En het was een grappig antwoord. Dat is soms ook slim. De keizer knikte. Je hebt gelijk, zei hij. Sommige vragen zijn er niet om een antwoord te vinden. Ze zijn er om een beetje te lachen en na te denken. Als beloning gaf de keizer Birbal een mooie gouden ring. En die avond liet hij in de tuin veel graan strooien. Voor alle kraaien van de stad, zei hij. En ook voor hun neven en nichten. De kraaien kwamen allemaal. Kra! Kra! Kra! Ze pikten het graan op. Birbal en de keizer zaten op een bankje en keken ernaar. Zullen we ze toch eens tellen? vroeg de keizer. Een, twee, drie, vier... Birbal lachte. Dan zijn we volgend jaar nog bezig, majesteit! En samen lachten ze, terwijl de zon onderging achter het rode paleis. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Hoe heet de keizer?",
+      "right": "👑",
+      "wrong": [
+        "🧙",
+        "👮"
+      ],
+      "say": "De keizer heet Akbar."
+    },
+    {
+      "question": "Welke vogels zitten er in de bomen?",
+      "right": "🐦‍⬛",
+      "wrong": [
+        "🦜",
+        "🦢"
+      ],
+      "say": "Er zitten zwarte kraaien in de bomen."
+    },
+    {
+      "question": "Wat vraagt de keizer aan Birbal?",
+      "right": "🔢",
+      "wrong": [
+        "🎨",
+        "🎵"
+      ],
+      "say": "Hij vraagt hoeveel kraaien er in de stad zijn."
+    },
+    {
+      "question": "Waar zijn de kraaien als er minder zijn?",
+      "right": "🧳",
+      "wrong": [
+        "😴",
+        "🏊"
+      ],
+      "say": "Dan zijn ze op vakantie."
+    },
+    {
+      "question": "Wat strooit de keizer voor de kraaien?",
+      "right": "🌾",
+      "wrong": [
+        "🍬",
+        "🍕"
+      ],
+      "say": "De keizer laat graan strooien."
+    }
+  ],
+  "words": [
+    {
+      "word": "de kraaien",
+      "emoji": "🐦‍⬛",
+      "say": "De kraaien roepen kra kra."
+    },
+    {
+      "word": "de pauwen",
+      "emoji": "🦚",
+      "say": "De pauwen lopen in de tuin."
+    },
+    {
+      "word": "het paleis",
+      "emoji": "🏰",
+      "say": "Het paleis is van rode steen."
+    },
+    {
+      "word": "de ring",
+      "emoji": "💍",
+      "say": "Birbal krijgt een gouden ring."
+    },
+    {
+      "word": "het graan",
+      "emoji": "🌾",
+      "say": "De kraaien pikken het graan op."
+    },
+    {
+      "word": "de fonteinen",
+      "emoji": "⛲",
+      "say": "In de tuin zijn fonteinen."
+    }
+  ]
+}

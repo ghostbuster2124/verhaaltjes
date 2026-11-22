@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "bluey-ballon",
+  "version": 1,
+  "title": "Bluey en het ballonspel.",
+  "emoji": "🎈",
+  "text": "Dit is Bluey. Bluey is een blauw hondje. Ze is zes jaar en ze houdt van spelletjes. Heel veel spelletjes. Ze woont in een huis met een grote tuin, samen met haar zusje Bingo, haar mama Chilli en haar papa Bandit. Bingo is vier jaar en ze is oranje. Het is een warme zondag. Buiten zingen de vogels. Bluey en Bingo vervelen zich. Papa, wat kunnen we doen? vraagt Bluey. Papa denkt na. Hij krabt aan zijn kin. Wacht even, zegt hij. Hij gaat naar de kast en komt terug met een rode ballon. Hij blaast hem op. Pfff, pfff, pfff. De ballon wordt groter en groter. Papa knoopt hem dicht. Dit is het spelletje, zegt papa. De ballon mag de grond niet raken. Nooit! Want de vloer is lava. Ooooh! roepen Bluey en Bingo. Papa tikt de ballon omhoog. Hij zweeft door de kamer. Bluey springt en tikt hem terug. Tik! Bingo rent en tikt hem omhoog. Tik! Papa duikt over de zetel en tikt hem nog net op tijd. Tik! De ballon gaat hoger en lager. Hij zweeft over de tafel. Hij botst tegen de lamp. Bingo kruipt onder de stoel. Bluey springt op de zetel. Papa doet een rare sprong en valt op de grond. Bonk! Bluey en Bingo lachen zo hard dat ze bijna de ballon vergeten. Bijna! Dan wordt het moeilijker. De ballon zweeft naar de keuken. Daar is mama aan het koken. Mama! roept Bluey. De ballon! Mama draait zich om. Met haar houten lepel tikt ze de ballon terug. Tik! Goed zo, mama! Nu speelt mama ook mee. Met z'n vieren rennen ze door het huis. De ballon zweeft door de gang, de trap op, en weer naar beneden. Hij gaat naar buiten, door de open deur, de tuin in. Buiten waait er een beetje wind. Dat is lastig. De ballon zweeft naar de boom. Hij blijft bijna haken aan een tak. Bingo klimt op de schommel en tikt hem weg. Tik! Hij zweeft naar het zwembadje. Bluey springt erin, met kleren en al. Plons! Maar ze tikt de ballon omhoog. Tik! Hoera! Dan komen de buren kijken over de haag. Mag ik meedoen? vraagt Lucky, het hondje van hiernaast. Natuurlijk! zegt Bluey. Hoe meer, hoe beter! Nu spelen ze met z'n vijven. Ze tellen hoe vaak ze tikken. Tachtig, eenentachtig, tweeëntachtig. Het wordt heel spannend. Wie laat hem vallen? En dan komt er een windstoot. Woesj! De ballon vliegt over het dak. Hij zweeft weg, hoog in de lucht. Iedereen kijkt omhoog. De ballon wordt kleiner en kleiner. Een klein rood stipje in de blauwe lucht. Oh nee, zegt Bingo. Haar onderlip trilt. Mijn ballon. Papa gaat naast haar zitten. Weet je wat, Bingo? zegt hij. Hij heeft de grond nooit geraakt. Nooit! Dat betekent dat wij gewonnen hebben. Bingo denkt na. Dan lacht ze. Ja! We hebben gewonnen! Bluey springt op en neer. En de ballon gaat nu op reis. Misschien vliegt hij naar de zee. Of naar de wolken. Of naar de maan! Die avond, in bed, praten Bluey en Bingo nog na. Waar zou de ballon nu zijn? fluistert Bingo. Misschien bij de sterren, fluistert Bluey. Papa komt nog even binnen. Hij houdt iets achter zijn rug. Morgen, zegt hij, spelen we het opnieuw. En hij laat een zakje zien. Vol ballonnen. Een gele, een groene, een blauwe en een roze. Bluey en Bingo juichen. Maar nu eerst slapen, zegt papa. En de vloer is geen lava meer. Welterusten. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welk dier is Bluey?",
+      "right": "🐕",
+      "wrong": [
+        "🐈",
+        "🐰"
+      ],
+      "say": "Bluey is een blauw hondje."
+    },
+    {
+      "question": "Welke kleur heeft de ballon?",
+      "right": "🔴",
+      "wrong": [
+        "🟡",
+        "🟢"
+      ],
+      "say": "De ballon is rood."
+    },
+    {
+      "question": "Wat mag de ballon niet raken?",
+      "right": "🟫",
+      "wrong": [
+        "☁️",
+        "🌳"
+      ],
+      "say": "De ballon mag de grond niet raken."
+    },
+    {
+      "question": "Waarmee tikt mama de ballon terug?",
+      "right": "🥄",
+      "wrong": [
+        "🍳",
+        "🧹"
+      ],
+      "say": "Mama tikt met haar houten lepel."
+    },
+    {
+      "question": "Waardoor vliegt de ballon weg?",
+      "right": "🌬️",
+      "wrong": [
+        "🌧️",
+        "❄️"
+      ],
+      "say": "Een windstoot blaast de ballon weg."
+    }
+  ],
+  "words": [
+    {
+      "word": "de ballon",
+      "emoji": "🎈",
+      "say": "De rode ballon zweeft door de kamer."
+    },
+    {
+      "word": "de lava",
+      "emoji": "🌋",
+      "say": "De vloer is lava."
+    },
+    {
+      "word": "de lepel",
+      "emoji": "🥄",
+      "say": "Mama tikt met de lepel."
+    },
+    {
+      "word": "de boom",
+      "emoji": "🌳",
+      "say": "De ballon zweeft naar de boom."
+    },
+    {
+      "word": "de wind",
+      "emoji": "🌬️",
+      "say": "De wind blaast de ballon weg."
+    },
+    {
+      "word": "de zetel",
+      "emoji": "🛋️",
+      "say": "Bluey springt op de zetel."
+    }
+  ]
+}

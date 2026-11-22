@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "minions-banaan",
+  "version": 1,
+  "title": "De Minions en de gouden banaan.",
+  "emoji": "🍌",
+  "text": "Dit zijn de Minions. Ze zijn klein en geel, als gele snoepjes. Sommige hebben één oog, sommige hebben er twee. Ze dragen allemaal een grote bril en een blauwe salopette. En ze praten een heel rare taal. Bello! zeggen ze. Dat betekent hallo. En als ze iets lekker vinden, zeggen ze: Banana! Want weet je waar Minions het allermeest van houden? Van bananen! Er zijn drie Minions die beste vrienden zijn. Kevin is lang, met twee ogen. Hij denkt altijd na. Stuart heeft maar één oog. Hij speelt graag op zijn gitaar. En Bob is de kleinste. Hij heeft twee ogen in twee verschillende kleuren. Hij heeft altijd zijn teddybeer bij zich. Die heet Tim. Op een ochtend zijn Kevin, Stuart en Bob in de keuken. Ze hebben honger. Bob opent de fruitschaal. Leeg! Geen enkele banaan! Banana? zegt Bob verdrietig. Zijn onderlip trilt. Kevin kijkt in de koelkast. Geen banaan. Stuart kijkt in de kast. Geen banaan. Oh nee! Dan ziet Kevin iets op de televisie. Er is een tentoonstelling in het museum. In het midden staat een glazen kist. En daarin ligt een banaan van goud. De gouden banaan! Ze schittert en ze glinstert. Ooooh! zeggen de drie Minions. Hun ogen worden groot. Kevin heeft een plan. Ze gaan naar het museum. Ze willen de gouden banaan zien. Van heel dichtbij. Ze nemen de bus. Maar ze zijn zo klein dat ze niet bij de knop kunnen. Bob klimt op de schouders van Stuart, en Stuart op de schouders van Kevin. Ding! De bus stopt. In het museum is het stil. Er lopen mensen rond die naar schilderijen kijken. De Minions lopen op hun tenen. Sssst, zegt Kevin. Daar staat de glazen kist. En daarin ligt de gouden banaan. Bob drukt zijn neus tegen het glas. Banana! fluistert hij. Hij geeft het glas een kusje. Muah. Maar dan gaat er een alarm af. Tuut tuut tuut! Een rood licht flitst. Een bewaker komt aangelopen. Hé, wat doen jullie daar? De Minions schrikken. Ze rennen weg. Door de grote zaal, onder een bank, achter een standbeeld. Stuart struikelt over zijn eigen voeten. Bob verliest bijna Tim. Ze verstoppen zich in een grote vaas. Ze houden hun adem in. De bewaker loopt voorbij. Hij krabt op zijn hoofd. Vreemd, zegt hij. Ik zag drie gele dingetjes. Dan kijkt hij naar de glazen kist. De gouden banaan ligt er nog. Hij ziet alleen een vlek van een neus en een klein kusje op het glas. Hij lacht. Ach, zegt hij. Kinderen. Iedereen wil de gouden banaan zien. De Minions sluipen naar buiten. Ze zijn opgelucht. Maar ze hebben nog altijd honger. En nog altijd geen banaan. Dan horen ze muziek. Op het plein is een markt. En daar is een kraampje met fruit. Appels, peren, sinaasappels. En bananen! Een hele berg gele bananen! De Minions rennen ernaartoe. De fruitverkoper is een oude man met een grote snor. Willen jullie bananen? vraagt hij. De Minions knikken heel snel. Maar ze hebben geen geld. Stuart heeft een idee. Hij neemt zijn gitaar. Hij speelt een vrolijk liedje. Kevin en Bob dansen. Ze draaien rondjes en ze schudden met hun billen. De mensen op de markt blijven staan. Ze lachen en ze klappen. En ze gooien muntjes in de hoed van Bob. Na het liedje hebben ze genoeg geld. Ze kopen een grote tros bananen. Banana! roepen ze. Thuis eten ze hun bananen op. Gewone gele bananen. Kevin zegt iets in de Minionstaal. Het betekent: Een gewone banaan is eigenlijk veel lekkerder dan een gouden banaan. Want een gouden banaan kan je niet opeten. Bob knikt. Hij geeft een stukje aan Tim de teddybeer. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welke kleur hebben de Minions?",
+      "right": "🟡",
+      "wrong": [
+        "🟢",
+        "🟣"
+      ],
+      "say": "De Minions zijn geel."
+    },
+    {
+      "question": "Waar houden de Minions het meest van?",
+      "right": "🍌",
+      "wrong": [
+        "🍓",
+        "🍕"
+      ],
+      "say": "Minions houden het meest van bananen."
+    },
+    {
+      "question": "Hoe heet de teddybeer van Bob?",
+      "right": "🧸",
+      "wrong": [
+        "🐶",
+        "🐱"
+      ],
+      "say": "De teddybeer van Bob heet Tim."
+    },
+    {
+      "question": "Waar ligt de gouden banaan?",
+      "right": "🏛️",
+      "wrong": [
+        "🏠",
+        "🏫"
+      ],
+      "say": "De gouden banaan ligt in het museum."
+    },
+    {
+      "question": "Hoe verdienen de Minions geld?",
+      "right": "🎸",
+      "wrong": [
+        "🧹",
+        "🚗"
+      ],
+      "say": "Ze spelen muziek en dansen op de markt."
+    }
+  ],
+  "words": [
+    {
+      "word": "de banaan",
+      "emoji": "🍌",
+      "say": "Minions houden van bananen."
+    },
+    {
+      "word": "de bril",
+      "emoji": "👓",
+      "say": "Elke Minion draagt een bril."
+    },
+    {
+      "word": "de gitaar",
+      "emoji": "🎸",
+      "say": "Stuart speelt op zijn gitaar."
+    },
+    {
+      "word": "de teddybeer",
+      "emoji": "🧸",
+      "say": "Bob heeft een teddybeer."
+    },
+    {
+      "word": "het museum",
+      "emoji": "🏛️",
+      "say": "De gouden banaan ligt in het museum."
+    },
+    {
+      "word": "de markt",
+      "emoji": "🛒",
+      "say": "Op de markt zijn er bananen."
+    }
+  ]
+}

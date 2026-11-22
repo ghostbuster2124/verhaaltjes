@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "spiderman-kat",
+  "version": 1,
+  "title": "Spider-Man en het verdwenen katje.",
+  "emoji": "🕷️",
+  "text": "In een grote stad, met hoge gebouwen tot in de wolken, woont een jongen die Peter heet. Peter is vriendelijk en slim. Hij draagt een bril en hij houdt van fotograferen. Maar Peter heeft een geheim. Als hij zijn rood-blauwe pak aantrekt, wordt hij Spider-Man! Dan kan hij tegen muren opklimmen, net als een spin. En uit zijn polsen schiet hij lange, sterke draden. Pfffft! Zo maakt hij een web. Op een zonnige ochtend wandelt Peter door het park. De vogels fluiten en de kinderen spelen op de schommels. Dan hoort hij iemand huilen. Het is een klein meisje met een gele jas en twee staartjes. Ze heet Lotte. Wat is er, Lotte? vraagt Peter. Mijn katje is weg, snikt Lotte. Ze heet Minou. Ze is wit met één zwart oortje. Ze is weggelopen en ik vind haar nergens! Peter knikt. Ik ken iemand die je kan helpen, zegt hij. Wacht hier maar even. Peter loopt snel achter een boom. Hij trekt zijn pak aan. En daar is Spider-Man! Hallo Lotte! roept Spider-Man. Ik ga Minou zoeken. Lotte kijkt met grote ogen. Spider-Man! Echt waar? Spider-Man schiet een draad naar een hoge lantaarnpaal. Pfffft! En hij zwaait door de lucht. Wiiiee! Van gebouw naar gebouw. Hij kijkt goed naar beneden. Hij ziet auto's, fietsen en een man met een hond. Maar geen wit katje. Dan hoort hij iets heel zachtjes. Miauw. Miauw. Het komt van boven! Spider-Man kijkt omhoog. Helemaal bovenaan een hoge toren, op een smal randje, zit een wit katje met één zwart oortje. Het is Minou! Ze durft niet meer naar beneden. Ze bibbert van schrik. Rustig maar, Minou, zegt Spider-Man. Ik kom eraan. Spider-Man klimt tegen de muur van de toren omhoog. Hand, voet, hand, voet. Heel voorzichtig. Hij mag Minou niet laten schrikken. Want dan springt ze misschien. Eindelijk is hij boven. Hij gaat naast Minou zitten en hij praat met een zachte stem. Dag Minou. Jij bent heel dapper. Lotte wacht op jou. Minou kijkt hem aan. Dan stapt ze voorzichtig in zijn armen. Spider-Man houdt haar goed vast. Ze spint zelfs een beetje. Prrr, prrr. Maar hoe moeten ze nu naar beneden? Spider-Man schiet een lange draad naar de toren ernaast. Hij maakt een groot web, als een zachte hangmat. Hou je goed vast, Minou! En hup, ze glijden langs de draad naar beneden. Zoeeef! Heel zacht landen ze in het park, vlak naast Lotte. Minou! roept Lotte. Ze knuffelt haar katje heel stevig. Minou likt aan haar neus. Dank je wel, Spider-Man! Graag gedaan, zegt Spider-Man. Maar Lotte, zet je voortaan een belletje aan haar halsband? Dan hoor je altijd waar ze is. Lotte lacht en knikt. Spider-Man zwaait en verdwijnt achter een boom. Even later komt Peter weer aangewandeld. Heb je je katje gevonden? vraagt hij met een knipoog. Ja! zegt Lotte. Spider-Man heeft haar gered! Ze zat bovenaan de toren. Peter glimlacht. Hij neemt zijn fototoestel en maakt een mooie foto van Lotte en Minou. Die avond, in zijn kamer, denkt Peter na. Je hoeft niet altijd grote boeven te vangen, denkt hij. Een klein katje redden is ook heel belangrijk. Want wie sterk is, helpt anderen. Groot of klein. En dat is wat een echte held doet. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wie is Spider-Man in het echt?",
+      "right": "👦",
+      "wrong": [
+        "👴",
+        "👧"
+      ],
+      "say": "Spider-Man is Peter, een vriendelijke jongen."
+    },
+    {
+      "question": "Welk dier is verdwenen?",
+      "right": "🐈",
+      "wrong": [
+        "🐕",
+        "🐇"
+      ],
+      "say": "Het katje Minou is verdwenen."
+    },
+    {
+      "question": "Waar zit het katje?",
+      "right": "🗼",
+      "wrong": [
+        "🌳",
+        "🚗"
+      ],
+      "say": "Het katje zit bovenaan een hoge toren."
+    },
+    {
+      "question": "Wat maakt Spider-Man uit zijn polsen?",
+      "right": "🕸️",
+      "wrong": [
+        "🎈",
+        "🔥"
+      ],
+      "say": "Spider-Man maakt een web."
+    },
+    {
+      "question": "Wat moet Lotte aan de halsband doen?",
+      "right": "🔔",
+      "wrong": [
+        "🎀",
+        "⭐"
+      ],
+      "say": "Lotte doet een belletje aan de halsband."
+    }
+  ],
+  "words": [
+    {
+      "word": "de spin",
+      "emoji": "🕷️",
+      "say": "Spider-Man klimt als een spin."
+    },
+    {
+      "word": "het web",
+      "emoji": "🕸️",
+      "say": "Spider-Man maakt een sterk web."
+    },
+    {
+      "word": "het katje",
+      "emoji": "🐈",
+      "say": "Het witte katje heet Minou."
+    },
+    {
+      "word": "de toren",
+      "emoji": "🗼",
+      "say": "Minou zit op een hoge toren."
+    },
+    {
+      "word": "het belletje",
+      "emoji": "🔔",
+      "say": "Een belletje maakt tingeling."
+    },
+    {
+      "word": "het fototoestel",
+      "emoji": "📷",
+      "say": "Peter maakt een foto met zijn fototoestel."
+    }
+  ]
+}

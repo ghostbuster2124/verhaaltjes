@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "sonic-ringen",
+  "version": 1,
+  "title": "Sonic en de gouden ringen.",
+  "emoji": "🦔",
+  "text": "Op een groen eiland met heuvels die op en neer gaan, als een achtbaan, woont een egel. Maar niet zomaar een egel. Het is Sonic! Sonic is blauw, met groene ogen, rode schoenen en stekels op zijn rug. En hij is snel. Supersnel! Sneller dan de wind. Sneller dan een raceauto. Als Sonic rent, zie je alleen een blauwe streep. Zoeeef! Op het eiland liggen overal gouden ringen. Ze glinsteren in de zon. Sonic verzamelt ze als hij rent. Pling, pling, pling! De ringen zijn zijn schat. En ze beschermen hem. Sonic heeft ook een beste vriend. Tails, een klein oranje vosje met twee staarten. Tails kan met zijn staarten draaien als een helikopter. Zo kan hij vliegen. En Tails is heel slim. Hij kan alles maken en repareren. Op een ochtend zit Sonic te zonnen op een rots. Dan komt Tails aangevlogen. Sonic! Sonic! roept hij. Dokter Eggman is weer bezig! Dokter Eggman is een man met een grote snor en een ronde buik, als een ei. Hij woont in een grote fabriek vol rook. Hij maakt robots. En hij wil het hele eiland voor zichzelf. Wat doet hij nu? vraagt Sonic. Hij vangt de dieren van het bos, zegt Tails. De konijntjes, de vogeltjes, de eekhoorntjes. Hij stopt ze in robots! Sonic springt op. Dat mag niet! Kom, Tails, we gaan! Sonic rent weg. Zoeeef! Tails vliegt achter hem aan. Ze gaan door het groene bos, over de heuvels, door een grote looping. Sonic rent ondersteboven, rond en rond, en verder. Wiieee! Pling, pling, pling! Ringen verzamelen. Dan komen ze bij de fabriek van dokter Eggman. Er staan robots aan de deur. Grote ijzeren robots, met rode ogen. Halt! zeggen de robots. Hier mag niemand binnen! Sonic lacht. Ik ben niet niemand. Ik ben Sonic! Hij rolt zich op tot een blauwe bal. Hij draait en draait, sneller en sneller. En dan schiet hij weg. Boem! Recht tegen de robot. De robot valt uit elkaar. Klang, klang! En uit de robot springt een klein konijntje. Het is vrij! Het huppelt weg naar het bos. Dank je wel! piept het. Sonic en Tails rennen de fabriek binnen. Overal zijn robots. Sonic springt, rolt en draait. Boem, boem, boem! Uit elke robot springt een dier. Een vogeltje. Een eekhoorn. Een egeltje, net als Sonic, maar dan heel klein. Dan staat hij daar. Dokter Eggman, in zijn vliegende machine. Hohoho! lacht hij. Jij krijgt mij nooit, Sonic! Hij vliegt weg, hoog in de lucht. Sonic kan niet zo hoog springen. Maar Tails kan vliegen! Spring maar, Sonic! roept Tails. Sonic springt. Tails pakt zijn handen vast. En samen vliegen ze omhoog, achter de machine aan. Sonic laat los en rolt zich op. Hij valt bovenop de machine. Boink! De machine wiebelt. Er komt rook uit. Puf, puf, puf. Nee, nee, nee! roept dokter Eggman. En de machine vliegt weg, heel ver, tot achter de horizon. Bye bye, Eggman! roept Sonic. Op het eiland is het weer rustig. Alle dieren zijn terug in het bos. Ze maken een groot feest voor Sonic en Tails. Er is fruit en er zijn chilidogs, het lievelingseten van Sonic. Het konijntje geeft Sonic een gouden ring. Voor jou, omdat je ons gered hebt. Dank je, zegt Sonic. Maar weet je, ik had het niet alleen gekund. Tails heeft me geholpen. Samen zijn we het snelst. Tails wordt helemaal rood van trots. Sonic knipoogt. Kom, Tails, zegt hij. Een wedstrijdje tot aan het strand? Op je plaatsen, klaar, af! Zoeeef! Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welk dier is Sonic?",
+      "right": "🦔",
+      "wrong": [
+        "🐇",
+        "🦊"
+      ],
+      "say": "Sonic is een egel."
+    },
+    {
+      "question": "Welke kleur heeft Sonic?",
+      "right": "🔵",
+      "wrong": [
+        "🔴",
+        "🟢"
+      ],
+      "say": "Sonic is blauw."
+    },
+    {
+      "question": "Wat verzamelt Sonic?",
+      "right": "💍",
+      "wrong": [
+        "🍎",
+        "⭐"
+      ],
+      "say": "Sonic verzamelt gouden ringen."
+    },
+    {
+      "question": "Hoeveel staarten heeft Tails?",
+      "right": "2️⃣",
+      "wrong": [
+        "1️⃣",
+        "4️⃣"
+      ],
+      "say": "Tails heeft twee staarten."
+    },
+    {
+      "question": "Wat stopt dokter Eggman in zijn robots?",
+      "right": "🐇",
+      "wrong": [
+        "🍔",
+        "🪙"
+      ],
+      "say": "Dokter Eggman stopt de dieren in zijn robots."
+    }
+  ],
+  "words": [
+    {
+      "word": "de egel",
+      "emoji": "🦔",
+      "say": "Sonic is een blauwe egel."
+    },
+    {
+      "word": "de ringen",
+      "emoji": "💍",
+      "say": "Sonic verzamelt gouden ringen."
+    },
+    {
+      "word": "het vosje",
+      "emoji": "🦊",
+      "say": "Tails is een oranje vosje."
+    },
+    {
+      "word": "de robots",
+      "emoji": "🤖",
+      "say": "Uit de robots springen dieren."
+    },
+    {
+      "word": "de fabriek",
+      "emoji": "🏭",
+      "say": "Dokter Eggman woont in een fabriek."
+    },
+    {
+      "word": "het konijntje",
+      "emoji": "🐇",
+      "say": "Het konijntje is vrij."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "dinosaurussen",
+  "version": 1,
+  "title": "Dino Dani en de dinosaurussen.",
+  "emoji": "🦕",
+  "text": "Dani is een jongen van zes jaar en hij is gek op dinosaurussen. Hij heeft een dinosaurus op zijn pyjama, een dinosaurus op zijn beker en wel twintig plastic dinosaurussen in een grote doos. Iedereen noemt hem Dino Dani. Vandaag gaat Dani met zijn klas naar het museum. Het grote museum van natuurwetenschappen in Brussel. Daar staan echte skeletten van dinosaurussen. Dani kan bijna niet wachten. In de bus vraagt juf Ellen: Wie weet hoelang geleden de dinosaurussen leefden? Dani steekt zijn vinger op. Heel, heel lang geleden! zegt hij. Nog voor er mensen waren! Juist, zegt de juf. Miljoenen jaren geleden. Dan komen ze aan bij het museum. Het is een groot gebouw. Binnen is het een beetje donker en heel hoog. En dan zien ze het. Een enorm skelet! Het is zo groot als een huis. Het heeft een lange nek en een lange staart. Dat is een brontosaurus! roept Dani. Bijna, zegt een man met een groene trui. Hij werkt in het museum. Ik ben Jonas, zegt hij. Ik ben een dinosaurusonderzoeker. Dat heet een paleontoloog. Dit is een diplodocus, familie van de brontosaurus. Hij had een heel lange nek, zodat hij blaadjes kon eten van de hoogste bomen. Hij at alleen planten. Hij was groot, maar heel lief. Dan gaan ze verder. Er staan nog veel meer skeletten. Kijk, zegt Jonas. Dit is een triceratops. Hij had drie hoorns op zijn hoofd, en een grote kraag van been rond zijn nek. Daarmee kon hij zich beschermen. Hij at ook planten, net als een koe. En dit hier, zegt Jonas met een zware stem, is de koning van de dinosaurussen. De tyrannosaurus rex! Het skelet is heel groot. Het staat op twee sterke poten. Het heeft een reuzegrote kop met scherpe tanden. Maar zijn armpjes zijn heel klein. De kinderen lachen. Die armpjes zijn zo klein! zegt Lina. Hij kon er niet eens mee aan zijn neus krabben. De T-rex at vlees, zegt Jonas. Hij was een jager. Daarom had hij die scherpe tanden. Elke tand was zo groot als een banaan! Wauw, zeggen de kinderen. Dan neemt Jonas hen mee naar een speciale kamer. Daar is een grote zandbak. In het zand liggen botten verstopt. Nep-botten, van gips. Nu zijn jullie paleontologen, zegt Jonas. Hij geeft iedereen een kwastje en een schepje. Zoek maar! Dani graaft heel voorzichtig. Met zijn kwastje veegt hij het zand weg. En daar ziet hij iets wits. Een bot! roept hij. Hij veegt verder. Het is een grote, puntige tand! Goed gevonden! zegt Jonas. Dat is een tand van een T-rex. Daarna leert Jonas hen nog iets. Weet je dat er nog altijd familie van de dinosaurussen leeft? De kinderen kijken verbaasd. Waar dan? De vogels! zegt Jonas. De merels in je tuin en de kippen op de boerderij, dat zijn verre neefjes van de dinosaurussen. Dani kijkt naar buiten. Op het gras huppelt een duif. Dag, kleine dino, fluistert hij. Op het einde mag iedereen een kleine dinosaurus kiezen in de winkel. Dani kiest een triceratops. Zijn eerste triceratops! In de bus terug naar school houdt hij hem stevig vast. Juf, zegt hij, later word ik ook paleontoloog. Dat geloof ik meteen, zegt juf Ellen. Die avond zet Dani zijn nieuwe triceratops naast zijn bed. Slaap lekker, zegt hij. En hij droomt van lange nekken, grote hoorns en kleine armpjes. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Waar gaat de klas van Dani naartoe?",
+      "right": "🏛️",
+      "wrong": [
+        "🏊",
+        "🏥"
+      ],
+      "say": "De klas gaat naar het museum."
+    },
+    {
+      "question": "Wat at de dinosaurus met de lange nek?",
+      "right": "🌿",
+      "wrong": [
+        "🍖",
+        "🐟"
+      ],
+      "say": "De diplodocus at blaadjes van de bomen."
+    },
+    {
+      "question": "Hoeveel hoorns heeft de triceratops?",
+      "right": "3️⃣",
+      "wrong": [
+        "1️⃣",
+        "2️⃣"
+      ],
+      "say": "De triceratops had drie hoorns."
+    },
+    {
+      "question": "Wat vindt Dani in het zand?",
+      "right": "🦷",
+      "wrong": [
+        "💍",
+        "🐚"
+      ],
+      "say": "Dani vindt een tand van een T-rex."
+    },
+    {
+      "question": "Welke dieren zijn familie van de dinosaurussen?",
+      "right": "🐦",
+      "wrong": [
+        "🐟",
+        "🐈"
+      ],
+      "say": "De vogels zijn familie van de dinosaurussen."
+    }
+  ],
+  "words": [
+    {
+      "word": "de dinosaurus",
+      "emoji": "🦕",
+      "say": "De dinosaurus had een lange nek."
+    },
+    {
+      "word": "het skelet",
+      "emoji": "🦴",
+      "say": "Het skelet is zo groot als een huis."
+    },
+    {
+      "word": "het museum",
+      "emoji": "🏛️",
+      "say": "In het museum staan skeletten."
+    },
+    {
+      "word": "de tand",
+      "emoji": "🦷",
+      "say": "De tand van de T-rex is groot."
+    },
+    {
+      "word": "de vogels",
+      "emoji": "🐦",
+      "say": "Vogels zijn familie van de dino's."
+    },
+    {
+      "word": "de bus",
+      "emoji": "🚌",
+      "say": "De klas gaat met de bus."
+    }
+  ]
+}

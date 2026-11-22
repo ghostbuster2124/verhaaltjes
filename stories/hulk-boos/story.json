@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "hulk-boos",
+  "version": 1,
+  "title": "De Hulk leert rustig worden.",
+  "emoji": "💚",
+  "text": "Bruce Banner is een rustige man. Hij draagt een bril, hij leest graag boeken en hij werkt in een laboratorium. Daar doet hij proefjes met buisjes en flesjes. Hij is heel slim en heel vriendelijk. Maar Bruce heeft een geheim. Als hij heel boos wordt, dan gebeurt er iets. Zijn gezicht wordt rood. Zijn handen worden groot. En dan wordt hij groen. Helemaal groen! Hij groeit en groeit, tot hij zo groot is als een huis. Zijn kleren scheuren. Dan is hij niet meer Bruce. Dan is hij de Hulk! De Hulk is supersterk. Hij kan een auto optillen met één hand. Hij kan zo hoog springen als een toren. Maar de Hulk denkt niet goed na. Als hij boos is, dan slaat hij dingen stuk. Bam! Boem! Hulk boos! brult hij dan. Op een dag zit Bruce in het park, op een bankje. Hij eet een broodje. Naast hem zit een jongetje. Hij heet Tibo. Tibo heeft een toren gebouwd van blokken. Een hoge toren. Maar dan komt er een voetbal aangerold. Pats! De toren valt om. Tibo wordt boos. Heel boos. Zijn gezicht wordt rood. Hij stampt met zijn voeten. Hij gooit een blok weg. Grrr! roept hij. Ik ben zo boos! Bruce kijkt naar Tibo. Hij kent dat gevoel heel goed. Hij gaat naast Tibo zitten. Weet je, Tibo, zegt hij, soms word ik ook heel boos. Zo boos dat ik groen word. Tibo stopt met stampen. Hij kijkt naar Bruce. Groen? Echt? Bruce knikt. En dan word ik de Hulk. Tibo zijn mond valt open. Ben jij de Hulk? Bruce legt zijn vinger op zijn lippen. Sssst. Het is een geheimpje. Maar weet je wat ik geleerd heb? Boos zijn is niet erg. Iedereen wordt soms boos. Maar wat je doet als je boos bent, dat is belangrijk. Wat doe jij dan? vraagt Tibo. Ik heb drie trucjes, zegt Bruce. Wil je ze leren? Tibo knikt. Trucje één, zegt Bruce. Diep ademhalen. Doe alsof je een grote ballon opblaast. Adem in door je neus, heel diep, tot in je buik. En dan blaas je heel langzaam uit, door je mond. Pfffff. Ze doen het samen. In door de neus. Pfffff, uit door de mond. Drie keer. Tibo voelt dat zijn buik een beetje rustiger wordt. Trucje twee, zegt Bruce. Tellen. Heel langzaam tot tien. Een, twee, drie, vier, vijf, zes, zeven, acht, negen, tien. Ze tellen samen. Tibo zijn handen zijn niet meer zo gebald. Trucje drie, zegt Bruce. Zeg wat je voelt. Met woorden. Niet met je handen of je voeten. Tibo denkt na. Ik ben boos, zegt hij, omdat mijn toren is omgevallen. Ik had er zo lang aan gewerkt. Dat begrijp ik, zegt Bruce. Dat is echt jammer. Dan komt er een meisje aangerend. Het is haar voetbal. Sorry! zegt ze. Ik heb je toren omgeschopt. Het was per ongeluk. Tibo haalt diep adem. Pfffff. Het is oké, zegt hij. Het was per ongeluk. Het meisje lacht. Zal ik je helpen om een nieuwe toren te bouwen? En samen bouwen ze een nieuwe toren. Nog hoger dan de eerste! Bruce kijkt toe. Hij glimlacht. Maar dan komt er een grote hond voorbij. Hij springt tegen de toren aan. Pats! De toren valt weer om. Tibo kijkt naar Bruce. Bruce kijkt naar Tibo. En dan begint Tibo te lachen. Hij lacht zo hard, dat het meisje ook moet lachen. En Bruce ook. Ademhalen, tellen en praten, zegt Tibo. En soms gewoon lachen! Die avond, thuis, valt Tibo's beker melk om. Hij voelt dat hij boos wordt. Maar dan haalt hij diep adem. Pfffff. Hij telt tot tien. En hij zegt: Mama, mijn melk is omgevallen. Kan je me helpen? Mama is verbaasd. Wat ben jij rustig! Tibo lacht. Ik heb het geleerd van een vriend, zegt hij. Een vriend die soms groen wordt. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welke kleur krijgt de Hulk?",
+      "right": "💚",
+      "wrong": [
+        "❤️",
+        "💙"
+      ],
+      "say": "De Hulk is groen."
+    },
+    {
+      "question": "Wat bouwt Tibo in het park?",
+      "right": "🧱",
+      "wrong": [
+        "🏰",
+        "✈️"
+      ],
+      "say": "Tibo bouwt een toren van blokken."
+    },
+    {
+      "question": "Waardoor valt de toren om?",
+      "right": "⚽",
+      "wrong": [
+        "🌬️",
+        "🐈"
+      ],
+      "say": "Een voetbal rolt tegen de toren."
+    },
+    {
+      "question": "Wat is het eerste trucje van Bruce?",
+      "right": "🎈",
+      "wrong": [
+        "🍦",
+        "🎵"
+      ],
+      "say": "Diep ademhalen, alsof je een ballon opblaast."
+    },
+    {
+      "question": "Tot hoeveel tellen Bruce en Tibo?",
+      "right": "🔟",
+      "wrong": [
+        "3️⃣",
+        "5️⃣"
+      ],
+      "say": "Ze tellen tot tien."
+    }
+  ],
+  "words": [
+    {
+      "word": "groen",
+      "emoji": "💚",
+      "say": "Als Bruce boos is, wordt hij groen."
+    },
+    {
+      "word": "de blokken",
+      "emoji": "🧱",
+      "say": "Tibo bouwt een toren van blokken."
+    },
+    {
+      "word": "de voetbal",
+      "emoji": "⚽",
+      "say": "De voetbal rolt tegen de toren."
+    },
+    {
+      "word": "de ballon",
+      "emoji": "🎈",
+      "say": "Adem alsof je een ballon opblaast."
+    },
+    {
+      "word": "de melk",
+      "emoji": "🥛",
+      "say": "De beker melk valt om."
+    },
+    {
+      "word": "de hond",
+      "emoji": "🐕",
+      "say": "De hond springt tegen de toren."
+    }
+  ]
+}
