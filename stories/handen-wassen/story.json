@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "handen-wassen",
+  "version": 1,
+  "title": "Waarom wassen we onze handen?",
+  "emoji": "🧼",
+  "text": "Sam is vier jaar en hij heeft altijd haast. Hij wil altijd spelen. Met zijn auto's, met zijn blokken en buiten in de zandbak. En hij heeft een hekel aan één ding: handen wassen. Waarom moet dat toch altijd? vraagt hij. Ze zijn toch niet vuil! Op een ochtend speelt Sam in de tuin. Hij graaft in de aarde. Hij aait de kat van de buren. Hij raapt een slak op en bekijkt hem van heel dichtbij. Dan roept papa: Sam! Het is tijd om te eten! Sam rent naar binnen. Hij wil meteen aan tafel gaan zitten. Er staan pannenkoeken op tafel! Wacht even, zegt papa. Eerst je handen wassen. Ach, papa! zegt Sam. Kijk, ze zijn proper! Hij laat zijn handen zien. Er zit een beetje aarde onder zijn nagels, maar verder zien ze er goed uit. Papa gaat op zijn hurken zitten. Weet je, Sam, zegt hij. Op je handen zitten piepkleine beestjes. Ze zijn zo klein dat je ze niet kan zien. Zelfs niet met je allerbeste ogen. Die beestjes heten bacteriën. En sommige heten virussen. Sam kijkt naar zijn handen. Beestjes? Waar? Ze zijn te klein om te zien, zegt papa. Maar ze zijn er wel. De meeste zijn niet erg. Maar sommige kunnen je ziek maken. Dan krijg je buikpijn, of een snotneus, of koorts. En als je met vuile handen een pannenkoek eet, dan gaan de beestjes zo mee naar binnen. Hap! Sam kijkt naar de pannenkoek. Dan kijkt hij naar zijn handen. Bah, zegt hij. Ik wil geen beestjes eten. Papa heeft een idee. Weet je wat? We doen een proefje. Hij neemt een bordje met water. Hij strooit er een beetje peper op. De zwarte peper drijft op het water. Kijk, zegt papa. Doe alsof die peper de beestjes zijn. Steek je vinger maar in het water. Sam steekt zijn vinger in het water. De peper blijft aan zijn vinger plakken. Zie je, zegt papa. Nu doe je een beetje zeep op je vinger. En steek hem dan nog eens in het water. Sam doet een druppeltje zeep op zijn vinger. Hij steekt zijn vinger in het water. En woesj! Alle peper schiet weg, naar de rand van het bord. Wauw! roept Sam. De beestjes vluchten weg van de zeep! Precies, zegt papa. Zeep is heel sterk tegen beestjes. Daarom wassen we onze handen. Kom, ik toon je hoe het moet. Ze gaan samen naar de lavabo. Eerst maak je je handen nat, zegt papa. Dan neem je zeep. En dan wrijf je. Heel goed. De binnenkant en de buitenkant. Tussen je vingers. Je duimen. En onder je nagels, waar de aarde zit. Hoelang? vraagt Sam. Zo lang als je het verjaardagsliedje twee keer zingt, zegt papa. Sam zingt. Lang zal ze leven, lang zal ze leven. Hij zingt het twee keer, heel luid. Ondertussen maakt hij schuim. Heel veel schuim. Het ruikt naar aardbeien. Dan spoel je alles af met water. Sam ziet het bruine water weglopen. En dan droog je je handen af aan de handdoek. Sam droogt zijn handen. Ze ruiken lekker. Ze zijn zacht en schoon. Klaar! zegt hij. Nu mogen de pannenkoeken komen! De pannenkoeken zijn heerlijk, met suiker en een beetje citroen. Wanneer moet ik nog mijn handen wassen? vraagt Sam met een volle mond. Voor het eten, zegt papa. Na het toilet. Als je buiten hebt gespeeld. En als je hebt geniesd in je handen. Sam denkt na. Dat is veel, zegt hij. Maar het is wel leuk met het liedje. Van die dag af wast Sam zijn handen heel goed. En als zijn zusje Lien haar handen niet wil wassen, zegt Sam: Lien, er zitten beestjes op! Kom, ik toon je het proefje met de peper. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat wil Sam eten?",
+      "right": "🥞",
+      "wrong": [
+        "🍕",
+        "🍝"
+      ],
+      "say": "Sam wil pannenkoeken eten."
+    },
+    {
+      "question": "Wat zit er op je handen, ook al zie je het niet?",
+      "right": "🦠",
+      "wrong": [
+        "🐜",
+        "🐛"
+      ],
+      "say": "Er zitten piepkleine beestjes op je handen."
+    },
+    {
+      "question": "Wat strooit papa op het water?",
+      "right": "🧂",
+      "wrong": [
+        "🍬",
+        "🌸"
+      ],
+      "say": "Papa strooit peper op het water."
+    },
+    {
+      "question": "Waar vluchten de beestjes van weg?",
+      "right": "🧼",
+      "wrong": [
+        "🍯",
+        "🧃"
+      ],
+      "say": "De beestjes vluchten weg van de zeep."
+    },
+    {
+      "question": "Wat zingt Sam bij het handen wassen?",
+      "right": "🎂",
+      "wrong": [
+        "🎄",
+        "🌙"
+      ],
+      "say": "Sam zingt twee keer het verjaardagsliedje."
+    }
+  ],
+  "words": [
+    {
+      "word": "de zeep",
+      "emoji": "🧼",
+      "say": "Zeep is sterk tegen beestjes."
+    },
+    {
+      "word": "de bacteriën",
+      "emoji": "🦠",
+      "say": "Bacteriën zijn piepkleine beestjes."
+    },
+    {
+      "word": "het water",
+      "emoji": "💧",
+      "say": "Sam spoelt zijn handen met water."
+    },
+    {
+      "word": "het schuim",
+      "emoji": "🫧",
+      "say": "Sam maakt heel veel schuim."
+    },
+    {
+      "word": "de pannenkoeken",
+      "emoji": "🥞",
+      "say": "De pannenkoeken zijn heerlijk."
+    },
+    {
+      "word": "de lavabo",
+      "emoji": "🚰",
+      "say": "Sam wast zijn handen aan de lavabo."
+    }
+  ]
+}
