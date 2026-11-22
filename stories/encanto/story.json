@@ -38,5 +38,37 @@
         "🧙‍♂️"
       ]
     }
+  ],
+  "words": [
+    {
+      "word": "het huis",
+      "emoji": "🏠",
+      "say": "Het magische huis kan bewegen."
+    },
+    {
+      "word": "de deur",
+      "emoji": "🚪",
+      "say": "Elke deur is een beetje magisch."
+    },
+    {
+      "word": "de kaars",
+      "emoji": "🕯️",
+      "say": "De kaars brandt altijd."
+    },
+    {
+      "word": "de bloemen",
+      "emoji": "🌸",
+      "say": "Isabela laat bloemen groeien."
+    },
+    {
+      "word": "de regen",
+      "emoji": "🌧️",
+      "say": "Tante Pepa maakt regen als ze boos is."
+    },
+    {
+      "word": "de oma",
+      "emoji": "👵",
+      "say": "Oma Alma zorgt voor de familie."
+    }
   ]
 }

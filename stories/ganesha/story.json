@@ -59,5 +59,37 @@
       ],
       "say": "Ganesha deelt de mango met zijn broer."
     }
+  ],
+  "words": [
+    {
+      "word": "de olifant",
+      "emoji": "🐘",
+      "say": "Ganesha heeft een hoofd van een olifant."
+    },
+    {
+      "word": "het muisje",
+      "emoji": "🐭",
+      "say": "Ganesha rijdt op een muisje."
+    },
+    {
+      "word": "de pauw",
+      "emoji": "🦚",
+      "say": "Zijn broer vliegt op een pauw."
+    },
+    {
+      "word": "de wereld",
+      "emoji": "🌍",
+      "say": "De wereld is heel groot."
+    },
+    {
+      "word": "de bergen",
+      "emoji": "⛰️",
+      "say": "De pauw vliegt over de bergen."
+    },
+    {
+      "word": "de snoepjes",
+      "emoji": "🍬",
+      "say": "Ganesha krijgt zijn lievelingssnoepjes."
+    }
   ]
 }

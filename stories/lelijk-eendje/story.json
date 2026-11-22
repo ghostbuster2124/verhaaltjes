@@ -59,5 +59,37 @@
       ],
       "say": "Het lelijke eendje is eigenlijk een zwaan."
     }
+  ],
+  "words": [
+    {
+      "word": "het eendje",
+      "emoji": "🦆",
+      "say": "Het eendje is grijs en groot."
+    },
+    {
+      "word": "de zwaan",
+      "emoji": "🦢",
+      "say": "Het eendje wordt een mooie zwaan."
+    },
+    {
+      "word": "het nest",
+      "emoji": "🪺",
+      "say": "Mama eend zit op het nest."
+    },
+    {
+      "word": "de eitjes",
+      "emoji": "🥚",
+      "say": "Er liggen vijf eitjes in het nest."
+    },
+    {
+      "word": "de kalkoen",
+      "emoji": "🦃",
+      "say": "De kalkoen lacht het eendje uit."
+    },
+    {
+      "word": "het ijs",
+      "emoji": "🧊",
+      "say": "In de winter ligt er ijs op het water."
+    }
   ]
 }

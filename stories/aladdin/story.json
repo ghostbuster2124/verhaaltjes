@@ -39,5 +39,37 @@
         "🚁"
       ]
     }
+  ],
+  "words": [
+    {
+      "word": "de lamp",
+      "emoji": "🪔",
+      "say": "Aladdin wrijft over de lamp."
+    },
+    {
+      "word": "de geest",
+      "emoji": "🧞",
+      "say": "Een grote blauwe geest komt uit de lamp."
+    },
+    {
+      "word": "de grot",
+      "emoji": "🕳️",
+      "say": "De lamp ligt in een donkere grot."
+    },
+    {
+      "word": "het paleis",
+      "emoji": "🏰",
+      "say": "De prinses woont in het paleis."
+    },
+    {
+      "word": "het aapje",
+      "emoji": "🐒",
+      "say": "Aladdin heeft een klein aapje."
+    },
+    {
+      "word": "de woestijn",
+      "emoji": "🏜️",
+      "say": "In de woestijn is het heel warm."
+    }
   ]
 }

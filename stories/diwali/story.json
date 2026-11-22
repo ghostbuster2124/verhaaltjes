@@ -60,5 +60,37 @@
       ],
       "say": "Mira brengt de ladoos mee voor de juf en de klas."
     }
+  ],
+  "words": [
+    {
+      "word": "het lampje",
+      "emoji": "🪔",
+      "say": "Mira zet een lampje bij het raam."
+    },
+    {
+      "word": "de rangoli",
+      "emoji": "🎨",
+      "say": "Mira maakt een rangoli met poeder."
+    },
+    {
+      "word": "het feest",
+      "emoji": "🎉",
+      "say": "Diwali is het feest van het licht."
+    },
+    {
+      "word": "het vuurwerk",
+      "emoji": "🎆",
+      "say": "Het vuurwerk knalt in de lucht."
+    },
+    {
+      "word": "het snoepje",
+      "emoji": "🍬",
+      "say": "Oma geeft Mira een zoet snoepje."
+    },
+    {
+      "word": "de bloem",
+      "emoji": "🌸",
+      "say": "Mira legt een bloem bij de deur."
+    }
   ]
 }

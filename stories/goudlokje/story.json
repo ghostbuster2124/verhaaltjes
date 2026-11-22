@@ -59,5 +59,37 @@
       ],
       "say": "Goudlokje brengt een mandje aardbeien mee."
     }
+  ],
+  "words": [
+    {
+      "word": "de beren",
+      "emoji": "🐻",
+      "say": "De drie beren wonen in het bos."
+    },
+    {
+      "word": "de pap",
+      "emoji": "🥣",
+      "say": "De pap van de kleine beer is lekker."
+    },
+    {
+      "word": "het stoeltje",
+      "emoji": "🪑",
+      "say": "Goudlokje zit op het kleine stoeltje."
+    },
+    {
+      "word": "het bed",
+      "emoji": "🛏️",
+      "say": "Goudlokje slaapt in het kleine bed."
+    },
+    {
+      "word": "het bos",
+      "emoji": "🌲",
+      "say": "Het huisje staat in het bos."
+    },
+    {
+      "word": "het huisje",
+      "emoji": "🏠",
+      "say": "Goudlokje gaat het huisje binnen."
+    }
   ]
 }

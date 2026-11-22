@@ -39,5 +39,37 @@
         "🌈"
       ]
     }
+  ],
+  "words": [
+    {
+      "word": "de haren",
+      "emoji": "👱‍♀️",
+      "say": "Rapunzel heeft heel lange haren."
+    },
+    {
+      "word": "de toren",
+      "emoji": "🗼",
+      "say": "Rapunzel woont in een hoge toren."
+    },
+    {
+      "word": "de kameleon",
+      "emoji": "🦎",
+      "say": "Pascal is een kleine kameleon."
+    },
+    {
+      "word": "de lichtjes",
+      "emoji": "🏮",
+      "say": "De lichtjes vliegen in de lucht."
+    },
+    {
+      "word": "de verjaardag",
+      "emoji": "🎂",
+      "say": "Op haar verjaardag ziet ze de lichtjes."
+    },
+    {
+      "word": "het kasteel",
+      "emoji": "🏰",
+      "say": "De prinses hoort in het kasteel."
+    }
   ]
 }

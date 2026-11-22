@@ -59,5 +59,37 @@
       ],
       "say": "Er ligt een chocoladeletter in haar schoen."
     }
+  ],
+  "words": [
+    {
+      "word": "de stoomboot",
+      "emoji": "🚢",
+      "say": "Sinterklaas komt met de stoomboot."
+    },
+    {
+      "word": "het paard",
+      "emoji": "🐎",
+      "say": "Het paard loopt over de daken."
+    },
+    {
+      "word": "de schoen",
+      "emoji": "👞",
+      "say": "Ik zet mijn schoen bij de schouw."
+    },
+    {
+      "word": "de wortel",
+      "emoji": "🥕",
+      "say": "In de schoen zit een wortel voor het paard."
+    },
+    {
+      "word": "de schoorsteen",
+      "emoji": "🏠",
+      "say": "De cadeautjes komen door de schoorsteen."
+    },
+    {
+      "word": "de tekening",
+      "emoji": "🎨",
+      "say": "Ik maak een tekening voor Sinterklaas."
+    }
   ]
 }

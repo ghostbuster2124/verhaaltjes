@@ -59,5 +59,37 @@
       ],
       "say": "Het musje mag daarna ook drinken."
     }
+  ],
+  "words": [
+    {
+      "word": "de kraai",
+      "emoji": "🐦‍⬛",
+      "say": "De kraai heeft grote dorst."
+    },
+    {
+      "word": "de kruik",
+      "emoji": "🏺",
+      "say": "Er zit een beetje water in de kruik."
+    },
+    {
+      "word": "het water",
+      "emoji": "💧",
+      "say": "De kraai wil water drinken."
+    },
+    {
+      "word": "het steentje",
+      "emoji": "🪨",
+      "say": "De kraai gooit een steentje in de kruik."
+    },
+    {
+      "word": "de zon",
+      "emoji": "☀️",
+      "say": "De zon is heel heet."
+    },
+    {
+      "word": "de boom",
+      "emoji": "🌳",
+      "say": "De kraai rust in de boom."
+    }
   ]
 }

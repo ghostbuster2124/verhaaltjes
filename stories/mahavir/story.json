@@ -59,5 +59,37 @@
       ],
       "say": "Mahavir stapt voorzichtig over de mieren."
     }
+  ],
+  "words": [
+    {
+      "word": "de prins",
+      "emoji": "🤴",
+      "say": "Mahavir is een dappere prins."
+    },
+    {
+      "word": "de slang",
+      "emoji": "🐍",
+      "say": "De slang zit onder de boom."
+    },
+    {
+      "word": "de mier",
+      "emoji": "🐜",
+      "say": "Mahavir loopt voorzichtig om de mier."
+    },
+    {
+      "word": "het paleis",
+      "emoji": "🏰",
+      "say": "Mahavir woont in een paleis."
+    },
+    {
+      "word": "de bomen",
+      "emoji": "🌳",
+      "say": "De kinderen spelen bij de bomen."
+    },
+    {
+      "word": "de bloemen",
+      "emoji": "🌺",
+      "say": "In de tuin staan mooie bloemen."
+    }
   ]
 }

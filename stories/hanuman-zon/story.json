@@ -59,5 +59,37 @@
       ],
       "say": "De wind, zijn papa, vangt Hanuman op."
     }
+  ],
+  "words": [
+    {
+      "word": "de zon",
+      "emoji": "☀️",
+      "say": "De zon is rond en geel."
+    },
+    {
+      "word": "het aapje",
+      "emoji": "🐒",
+      "say": "Hanuman is een klein aapje."
+    },
+    {
+      "word": "de mango",
+      "emoji": "🥭",
+      "say": "Hanuman denkt dat de zon een mango is."
+    },
+    {
+      "word": "de wind",
+      "emoji": "💨",
+      "say": "Papa is de wind."
+    },
+    {
+      "word": "de wolken",
+      "emoji": "☁️",
+      "say": "Hanuman vliegt door de wolken."
+    },
+    {
+      "word": "de vogels",
+      "emoji": "🐦",
+      "say": "De vogels vliegen naast Hanuman."
+    }
   ]
 }

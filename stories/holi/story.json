@@ -59,5 +59,37 @@
       ],
       "say": "Het badwater wordt paars."
     }
+  ],
+  "words": [
+    {
+      "word": "de kleuren",
+      "emoji": "🎨",
+      "say": "Met Holi gooien we met kleuren."
+    },
+    {
+      "word": "het feest",
+      "emoji": "🎉",
+      "say": "Holi is een vrolijk feest."
+    },
+    {
+      "word": "het waterpistooltje",
+      "emoji": "🔫",
+      "say": "Het neefje heeft een waterpistooltje."
+    },
+    {
+      "word": "het vuur",
+      "emoji": "🔥",
+      "say": "De avond voor Holi brandt er een vuur."
+    },
+    {
+      "word": "de bloemen",
+      "emoji": "🌸",
+      "say": "In de lente komen de bloemen."
+    },
+    {
+      "word": "de oma",
+      "emoji": "👵",
+      "say": "Oma lacht met haar gekleurde wang."
+    }
   ]
 }

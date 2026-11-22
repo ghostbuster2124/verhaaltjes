@@ -38,5 +38,37 @@
         "🌲"
       ]
     }
+  ],
+  "words": [
+    {
+      "word": "het olifantje",
+      "emoji": "🐘",
+      "say": "Dombo is een klein olifantje."
+    },
+    {
+      "word": "de oren",
+      "emoji": "👂",
+      "say": "Dombo heeft heel grote oren."
+    },
+    {
+      "word": "het circus",
+      "emoji": "🎪",
+      "say": "Dombo woont in het circus."
+    },
+    {
+      "word": "het muisje",
+      "emoji": "🐭",
+      "say": "Het muisje is de vriend van Dombo."
+    },
+    {
+      "word": "de veer",
+      "emoji": "🪶",
+      "say": "Dombo houdt een veer vast."
+    },
+    {
+      "word": "de clowns",
+      "emoji": "🤡",
+      "say": "De clowns maken grapjes."
+    }
   ]
 }

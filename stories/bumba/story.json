@@ -59,5 +59,37 @@
       ],
       "say": "Bumba maakt een bedje van een oude sok."
     }
+  ],
+  "words": [
+    {
+      "word": "de hoed",
+      "emoji": "🎩",
+      "say": "Bumba zoekt zijn hoed."
+    },
+    {
+      "word": "het clowntje",
+      "emoji": "🤡",
+      "say": "Bumba is een vrolijk clowntje."
+    },
+    {
+      "word": "het circus",
+      "emoji": "🎪",
+      "say": "Bumba woont in het circus."
+    },
+    {
+      "word": "de olifant",
+      "emoji": "🐘",
+      "say": "De olifant helpt zoeken."
+    },
+    {
+      "word": "de zeehond",
+      "emoji": "🦭",
+      "say": "De zeehond speelt met de bal."
+    },
+    {
+      "word": "de bal",
+      "emoji": "⚽",
+      "say": "De bal is rood en rond."
+    }
   ]
 }

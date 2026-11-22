@@ -59,5 +59,37 @@
       ],
       "say": "De wolf probeert binnen te komen langs de schoorsteen."
     }
+  ],
+  "words": [
+    {
+      "word": "het biggetje",
+      "emoji": "🐷",
+      "say": "Het kleinste biggetje is slim."
+    },
+    {
+      "word": "de wolf",
+      "emoji": "🐺",
+      "say": "De wolf blaast en blaast."
+    },
+    {
+      "word": "het stro",
+      "emoji": "🌾",
+      "say": "Het eerste huisje is van stro."
+    },
+    {
+      "word": "het hout",
+      "emoji": "🪵",
+      "say": "Het tweede huisje is van hout."
+    },
+    {
+      "word": "de stenen",
+      "emoji": "🧱",
+      "say": "Het derde huisje is van stenen."
+    },
+    {
+      "word": "de schoorsteen",
+      "emoji": "🏠",
+      "say": "De wolf klimt in de schoorsteen."
+    }
   ]
 }

@@ -59,5 +59,37 @@
       ],
       "say": "De koeien komen luisteren naar de fluit van Krishna."
     }
+  ],
+  "words": [
+    {
+      "word": "de boter",
+      "emoji": "🧈",
+      "say": "Krishna eet graag boter."
+    },
+    {
+      "word": "de pot",
+      "emoji": "🫕",
+      "say": "De pot met boter hangt aan het plafond."
+    },
+    {
+      "word": "de fluit",
+      "emoji": "🎶",
+      "say": "Krishna speelt op zijn fluit."
+    },
+    {
+      "word": "de koeien",
+      "emoji": "🐄",
+      "say": "De koeien luisteren naar de fluit."
+    },
+    {
+      "word": "de melk",
+      "emoji": "🥛",
+      "say": "Mama maakt boter van melk."
+    },
+    {
+      "word": "de aapjes",
+      "emoji": "🐒",
+      "say": "De aapjes eten mee van de boter."
+    }
   ]
 }

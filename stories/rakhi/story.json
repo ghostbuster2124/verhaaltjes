@@ -59,5 +59,37 @@
       ],
       "say": "Riya geeft Dev een pleister."
     }
+  ],
+  "words": [
+    {
+      "word": "het touwtje",
+      "emoji": "🧶",
+      "say": "Riya bindt een touwtje om de pols."
+    },
+    {
+      "word": "de broer",
+      "emoji": "👦",
+      "say": "Riya houdt veel van haar broer."
+    },
+    {
+      "word": "de pols",
+      "emoji": "✋",
+      "say": "Het rakhi-touwtje zit om de pols."
+    },
+    {
+      "word": "het snoepje",
+      "emoji": "🍬",
+      "say": "Riya geeft haar broer een snoepje."
+    },
+    {
+      "word": "het cadeautje",
+      "emoji": "🎁",
+      "say": "Haar broer geeft haar een cadeautje."
+    },
+    {
+      "word": "het bordje",
+      "emoji": "🍽️",
+      "say": "Op het bordje ligt een rakhi."
+    }
   ]
 }

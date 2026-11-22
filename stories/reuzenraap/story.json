@@ -59,5 +59,37 @@
       ],
       "say": "Oma maakt raapsoep."
     }
+  ],
+  "words": [
+    {
+      "word": "de raap",
+      "emoji": "🥕",
+      "say": "De raap is reuzegroot."
+    },
+    {
+      "word": "de opa",
+      "emoji": "👴",
+      "say": "Opa trekt aan de raap."
+    },
+    {
+      "word": "het meisje",
+      "emoji": "👧",
+      "say": "Het meisje helpt opa."
+    },
+    {
+      "word": "de hond",
+      "emoji": "🐕",
+      "say": "De hond trekt aan het meisje."
+    },
+    {
+      "word": "de kat",
+      "emoji": "🐈",
+      "say": "De kat trekt aan de hond."
+    },
+    {
+      "word": "het muisje",
+      "emoji": "🐭",
+      "say": "Het muisje helpt als laatste."
+    }
   ]
 }

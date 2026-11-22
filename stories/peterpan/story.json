@@ -39,5 +39,37 @@
         "📯"
       ]
     }
+  ],
+  "words": [
+    {
+      "word": "het elfje",
+      "emoji": "🧚",
+      "say": "Tinkelbel is een piepklein elfje."
+    },
+    {
+      "word": "de krokodil",
+      "emoji": "🐊",
+      "say": "De krokodil heeft een klok in zijn buik."
+    },
+    {
+      "word": "het schip",
+      "emoji": "🏴‍☠️",
+      "say": "Kapitein Haak heeft een schip."
+    },
+    {
+      "word": "de schaduw",
+      "emoji": "👤",
+      "say": "Peter Pan zoekt zijn schaduw."
+    },
+    {
+      "word": "het sterretje",
+      "emoji": "⭐",
+      "say": "Ze vliegen naar het tweede sterretje."
+    },
+    {
+      "word": "de hond",
+      "emoji": "🐕",
+      "say": "Nana is de hond van de familie."
+    }
   ]
 }

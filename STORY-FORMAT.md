@@ -19,6 +19,9 @@ stories/
     q1.jpg                ← picture shown with question 1 (optional)
     q1_a.jpg              ← answer pictures (optional, instead of emoji)
     q1_answer.mp3         ← full answer sentence spoken (optional)
+    w1.jpg                ← picture for vocabulary word 1 (optional, instead of the emoji)
+    w1.mp3                ← word 1 spoken (optional; otherwise the voice says it)
+    w1_say.mp3            ← example sentence for word 1 spoken (optional)
 ```
 
 Only `story.json` is required. Everything else is optional. A story with only text and emoji works fine.
@@ -53,6 +56,10 @@ Only `story.json` is required. Everything else is optional. A story with only te
       "audio": "q2.mp3",
       "say_audio": "q2_answer.mp3"
     }
+  ],
+  "words": [
+    { "word": "de draak", "emoji": "🐉", "say": "Drakie is een kleine draak." },
+    { "word": "het bos", "picture": "w2.jpg", "audio": "w2.mp3", "say": "Drakie vliegt over het bos." }
   ]
 }
 ```
@@ -68,9 +75,20 @@ Only `story.json` is required. Everything else is optional. A story with only te
 | `audio`, `subtitles`, `title_audio` | File names (optional). |
 | `questions` | 1 to 8. `right` = the right answer, `wrong` = exactly two wrong ones. Each answer is an **emoji or a picture file name**. `say` = full answer sentence said after she taps the right answer. `picture`, `audio`, `say_audio` = optional files. |
 
+| `words` | Optional, up to 12. The **🔤 Woordjes** section: picture cards she taps to hear the word and a short example sentence, then a game ("Waar zie je de slee?"). `word` = the word with *de* / *het*. `emoji` or `picture` = what's shown. `say` = example sentence (optional). `audio`, `say_audio` = optional MP3s; without them the read-aloud voice speaks. The game needs at least 3 words. |
+
 Tips: all text needs `"double quotes"`. There's a comma between items but not after the last one. If the app says story.json isn't valid, paste it into jsonlint.com to find the mistake.
 
 When you add a pack on the tablet, files with the usual names (`card.jpg`, `1.jpg`, `story.mp3`, `story.vtt`, `q1.mp3`, `q1_a.jpg` …) are found even if story.json doesn't list them. **Online, list every file in story.json.** Pictures can be .jpg, .png or .webp. Audio can be .mp3 or .m4a.
+
+## Woordjes (vocabulary)
+
+Stories with a `words` list get a yellow **🔤** button on their home-screen card, and a 🔤 button on the trophy screen after the questions.
+
+* **Look & listen:** one big card per word. The word is said, then the example sentence. Tap the card to hear it again, swipe or tap ▶️ for the next one.
+* **Game 🎮:** after the last card. "Waar zie je de slee?" with 3 pictures. A wrong tap says what that picture is ("Dat is het rendier."), so it still teaches.
+* When she finishes, the 🔤 button on the card gets a ⭐.
+* On the tablet you can change the words in ⚙️ → ✏️ Edit → 🔤 Woordjes (one per line: `emoji | word | sentence`).
 
 ## Subtitles
 
@@ -116,4 +134,4 @@ Hold ⚙️ → **➕ New story** and fill everything in (text, pictures, MP3, q
 
 ## Asking Claude for a new story
 
-> Write a 6-minute Flemish (nl-BE) story for a 5-year-old about [topic], as a Verhaaltjes story.json (format 1, id "[code]"): short sentences, each ending in . ! or ?, with 4 questions, each with 1 right and 2 wrong emoji answers and a full answer sentence in "say". The answers must be clearly mentioned in the story. Also list 6 picture ideas, one per part of the story, for 1.jpg to 6.jpg.
+> Write a 6-minute Flemish (nl-BE) story for a 5-year-old about [topic], as a Verhaaltjes story.json (format 1, id "[code]"): short sentences, each ending in . ! or ?, with 4 questions, each with 1 right and 2 wrong emoji answers and a full answer sentence in "say". The answers must be clearly mentioned in the story. Also add "words": 6 vocabulary words from the story (with de/het), each with an emoji and a short example sentence in "say". Also list 6 picture ideas, one per part of the story, for 1.jpg to 6.jpg.

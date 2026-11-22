@@ -59,5 +59,37 @@
       ],
       "say": "Rosa wordt een prachtige vlinder."
     }
+  ],
+  "words": [
+    {
+      "word": "het rupsje",
+      "emoji": "🐛",
+      "say": "Rosa is een klein rupsje."
+    },
+    {
+      "word": "de vlinder",
+      "emoji": "🦋",
+      "say": "Rosa wordt een mooie vlinder."
+    },
+    {
+      "word": "het blaadje",
+      "emoji": "🍃",
+      "say": "De rups eet een blaadje."
+    },
+    {
+      "word": "het lieveheersbeestje",
+      "emoji": "🐞",
+      "say": "Het lieveheersbeestje is rood met stippen."
+    },
+    {
+      "word": "de slak",
+      "emoji": "🐌",
+      "say": "De slak draagt zijn huisje."
+    },
+    {
+      "word": "het eitje",
+      "emoji": "🥚",
+      "say": "Rosa komt uit een eitje."
+    }
   ]
 }

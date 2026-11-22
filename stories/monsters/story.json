@@ -38,5 +38,37 @@
         "😴"
       ]
     }
+  ],
+  "words": [
+    {
+      "word": "het monster",
+      "emoji": "👹",
+      "say": "Sulley is een groot, lief monster."
+    },
+    {
+      "word": "de deur",
+      "emoji": "🚪",
+      "say": "Achter de deur is een kinderkamer."
+    },
+    {
+      "word": "de fabriek",
+      "emoji": "🏭",
+      "say": "De monsters werken in een fabriek."
+    },
+    {
+      "word": "het oog",
+      "emoji": "👁️",
+      "say": "Mike heeft maar één oog."
+    },
+    {
+      "word": "het sokje",
+      "emoji": "🧦",
+      "say": "Het sokje maakt de monsters bang."
+    },
+    {
+      "word": "de lampen",
+      "emoji": "💡",
+      "say": "De lampen gaan aan als Boe lacht."
+    }
   ]
 }

@@ -59,5 +59,37 @@
       ],
       "say": "De aap springt hoog in de boom."
     }
+  ],
+  "words": [
+    {
+      "word": "de aap",
+      "emoji": "🐒",
+      "say": "De slimme aap woont in een boom."
+    },
+    {
+      "word": "de krokodil",
+      "emoji": "🐊",
+      "say": "De krokodil zwemt in de rivier."
+    },
+    {
+      "word": "de boom",
+      "emoji": "🌳",
+      "say": "De aap klimt hoog in de boom."
+    },
+    {
+      "word": "de rivier",
+      "emoji": "🏞️",
+      "say": "De rivier is breed en diep."
+    },
+    {
+      "word": "het hart",
+      "emoji": "❤️",
+      "say": "De aap zegt: mijn hart zit in de boom!"
+    },
+    {
+      "word": "de vruchtjes",
+      "emoji": "🫐",
+      "say": "De aap eet zoete vruchtjes."
+    }
   ]
 }

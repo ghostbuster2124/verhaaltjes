@@ -59,5 +59,37 @@
       ],
       "say": "De schildpad wint de wedstrijd."
     }
+  ],
+  "words": [
+    {
+      "word": "de haas",
+      "emoji": "🐇",
+      "say": "De haas loopt heel snel."
+    },
+    {
+      "word": "de schildpad",
+      "emoji": "🐢",
+      "say": "De schildpad loopt traag maar wint."
+    },
+    {
+      "word": "de heuvel",
+      "emoji": "⛰️",
+      "say": "De race gaat over de heuvel."
+    },
+    {
+      "word": "de uil",
+      "emoji": "🦉",
+      "say": "De uil is de scheidsrechter."
+    },
+    {
+      "word": "het dutje",
+      "emoji": "😴",
+      "say": "De haas doet een dutje."
+    },
+    {
+      "word": "de race",
+      "emoji": "🏁",
+      "say": "Wie wint de race?"
+    }
   ]
 }

@@ -39,5 +39,37 @@
         "💍"
       ]
     }
+  ],
+  "words": [
+    {
+      "word": "de zeemeermin",
+      "emoji": "🧜‍♀️",
+      "say": "Ariël is een zeemeermin met een staart."
+    },
+    {
+      "word": "de zee",
+      "emoji": "🌊",
+      "say": "Ariël woont diep in de zee."
+    },
+    {
+      "word": "de schelp",
+      "emoji": "🐚",
+      "say": "Ariël vindt een mooie schelp."
+    },
+    {
+      "word": "de meeuw",
+      "emoji": "🦅",
+      "say": "De meeuw vliegt boven het water."
+    },
+    {
+      "word": "de vork",
+      "emoji": "🍴",
+      "say": "Ariël kamt haar haren met een vork."
+    },
+    {
+      "word": "de boot",
+      "emoji": "⛵",
+      "say": "De prins vaart in een boot."
+    }
   ]
 }

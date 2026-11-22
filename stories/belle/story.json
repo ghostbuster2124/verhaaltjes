@@ -39,5 +39,37 @@
         "🐻"
       ]
     }
+  ],
+  "words": [
+    {
+      "word": "het beest",
+      "emoji": "👹",
+      "say": "Het beest woont in een groot kasteel."
+    },
+    {
+      "word": "het kasteel",
+      "emoji": "🏰",
+      "say": "Het kasteel is groot en donker."
+    },
+    {
+      "word": "het boek",
+      "emoji": "📚",
+      "say": "Belle leest graag een boek."
+    },
+    {
+      "word": "het paard",
+      "emoji": "🐴",
+      "say": "Belle rijdt op het paard."
+    },
+    {
+      "word": "de fontein",
+      "emoji": "⛲",
+      "say": "In de tuin staat een fontein."
+    },
+    {
+      "word": "het dorp",
+      "emoji": "🏘️",
+      "say": "Belle woont in een klein dorp."
+    }
   ]
 }

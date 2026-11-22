@@ -39,5 +39,37 @@
         "🏙️"
       ]
     }
+  ],
+  "words": [
+    {
+      "word": "het hertje",
+      "emoji": "🦌",
+      "say": "Bambi is een klein hertje."
+    },
+    {
+      "word": "het bos",
+      "emoji": "🌲",
+      "say": "Bambi woont in het bos."
+    },
+    {
+      "word": "de vlinder",
+      "emoji": "🦋",
+      "say": "Een vlinder zit op de neus van Bambi."
+    },
+    {
+      "word": "de bloem",
+      "emoji": "🌸",
+      "say": "Bambi ruikt aan een bloem."
+    },
+    {
+      "word": "het ijs",
+      "emoji": "🧊",
+      "say": "In de winter ligt er ijs op de vijver."
+    },
+    {
+      "word": "de winter",
+      "emoji": "❄️",
+      "say": "In de winter is alles wit."
+    }
   ]
 }

@@ -39,5 +39,37 @@
         "👜"
       ]
     }
+  ],
+  "words": [
+    {
+      "word": "de prins",
+      "emoji": "🤴",
+      "say": "De prins danst met Assepoester."
+    },
+    {
+      "word": "de fee",
+      "emoji": "🧚",
+      "say": "De fee helpt Assepoester."
+    },
+    {
+      "word": "het toverstokje",
+      "emoji": "🪄",
+      "say": "De fee zwaait met het toverstokje."
+    },
+    {
+      "word": "de pompoen",
+      "emoji": "🎃",
+      "say": "De pompoen wordt een koets."
+    },
+    {
+      "word": "de jurk",
+      "emoji": "👗",
+      "say": "Assepoester krijgt een prachtige jurk."
+    },
+    {
+      "word": "de muisjes",
+      "emoji": "🐭",
+      "say": "De muisjes zijn de vriendjes van Assepoester."
+    }
   ]
 }

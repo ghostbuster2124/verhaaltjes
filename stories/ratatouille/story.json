@@ -39,5 +39,37 @@
         "🌷"
       ]
     }
+  ],
+  "words": [
+    {
+      "word": "de rat",
+      "emoji": "🐀",
+      "say": "Remy is een rat die kan koken."
+    },
+    {
+      "word": "de kok",
+      "emoji": "🧑‍🍳",
+      "say": "De kok draagt een witte muts."
+    },
+    {
+      "word": "de keuken",
+      "emoji": "🍳",
+      "say": "Remy kookt in de keuken."
+    },
+    {
+      "word": "de soep",
+      "emoji": "🍲",
+      "say": "Remy maakt de soep lekker."
+    },
+    {
+      "word": "de Eiffeltoren",
+      "emoji": "🗼",
+      "say": "In Parijs staat de Eiffeltoren."
+    },
+    {
+      "word": "het boek",
+      "emoji": "📖",
+      "say": "Remy leest een kookboek."
+    }
   ]
 }

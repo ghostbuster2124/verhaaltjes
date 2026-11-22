@@ -39,5 +39,37 @@
         "😴"
       ]
     }
+  ],
+  "words": [
+    {
+      "word": "het clownvisje",
+      "emoji": "🐠",
+      "say": "Nemo is een oranje clownvisje."
+    },
+    {
+      "word": "het koraalrif",
+      "emoji": "🪸",
+      "say": "Nemo woont in het koraalrif."
+    },
+    {
+      "word": "de zee",
+      "emoji": "🌊",
+      "say": "De zee is groot en blauw."
+    },
+    {
+      "word": "de boot",
+      "emoji": "🚤",
+      "say": "De boot vaart boven het water."
+    },
+    {
+      "word": "de duiker",
+      "emoji": "🤿",
+      "say": "De duiker neemt een foto."
+    },
+    {
+      "word": "het fototoestel",
+      "emoji": "📷",
+      "say": "De duiker heeft een fototoestel."
+    }
   ]
 }

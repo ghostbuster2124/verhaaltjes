@@ -59,5 +59,37 @@
       ],
       "say": "De garagist maakt het wiel weer heel."
     }
+  ],
+  "words": [
+    {
+      "word": "het autootje",
+      "emoji": "🚗",
+      "say": "Roetsj is een klein rood autootje."
+    },
+    {
+      "word": "het wiel",
+      "emoji": "🛞",
+      "say": "Het autootje heeft vier wielen."
+    },
+    {
+      "word": "het verkeerslicht",
+      "emoji": "🚦",
+      "say": "Bij rood licht stopt het autootje."
+    },
+    {
+      "word": "de carwash",
+      "emoji": "🧽",
+      "say": "In de carwash wordt Roetsj schoon."
+    },
+    {
+      "word": "het zebrapad",
+      "emoji": "🦓",
+      "say": "Bij het zebrapad stopt Roetsj."
+    },
+    {
+      "word": "de zee",
+      "emoji": "🌊",
+      "say": "Roetsj rijdt naar de zee."
+    }
   ]
 }

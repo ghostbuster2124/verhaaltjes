@@ -59,5 +59,37 @@
       ],
       "say": "Ze jagen de wolf weg met een bel en pannen."
     }
+  ],
+  "words": [
+    {
+      "word": "de geitjes",
+      "emoji": "🐐",
+      "say": "Er zijn zeven kleine geitjes."
+    },
+    {
+      "word": "de wolf",
+      "emoji": "🐺",
+      "say": "De wolf klopt op de deur."
+    },
+    {
+      "word": "de deur",
+      "emoji": "🚪",
+      "say": "De geitjes doen de deur niet open."
+    },
+    {
+      "word": "de poot",
+      "emoji": "🐾",
+      "say": "De wolf heeft een zwarte poot."
+    },
+    {
+      "word": "de klok",
+      "emoji": "🕰️",
+      "say": "Het kleinste geitje verstopt zich in de klok."
+    },
+    {
+      "word": "de bakker",
+      "emoji": "👩‍🍳",
+      "say": "De bakker maakt de poot wit."
+    }
   ]
 }

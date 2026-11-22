@@ -233,6 +233,46 @@
   .panel .timer .tm-go{width:100%;padding:22px!important;font-size:22px!important;background:#17b24a!important}
   .panel .timer .tm-go:disabled{opacity:.4}
   .panel .timer .tm-pos{font-family:ui-monospace,monospace;font-size:13px;color:#777}
+
+  /* ---------- WOORDJES (vocabulary) ---------- */
+  .card .wbtn{
+    position:absolute;left:1.2vh;bottom:1.2vh;width:8vh;height:8vh;border-radius:50%;
+    background:linear-gradient(180deg,#ffd23f,#ff9f1c);font-size:4.2vh;display:flex;align-items:center;justify-content:center;
+    box-shadow:0 .4vh 0 rgba(0,0,0,.2);border:.4vh solid #fff
+  }
+  .card .wbtn:active{transform:scale(.88)}
+  .card .wbtn.ok::after{content:"⭐";position:absolute;right:-1.4vh;top:-1.6vh;font-size:3.4vh}
+  #words{z-index:1}
+  #words .w-learn,#words .w-game,#words .w-end{display:none;flex:1;min-height:0}
+  #words[data-mode=learn] .w-learn{display:flex}
+  #words[data-mode=game] .w-game{display:flex}
+  #words[data-mode=end] .w-end{display:flex}
+  .w-learn{align-items:center;justify-content:center;gap:3vw;padding:0 3vw 5vh}
+  .w-learn .round{width:15vh;height:15vh;font-size:8vh;flex:none}
+  .w-learn .round.hide{visibility:hidden}
+  .w-learn .round.go{background:linear-gradient(180deg,#ffd23f,#ff9f1c);animation:pulse .6s ease-in-out infinite alternate}
+  .wcard{
+    height:68vh;width:min(58vw,80vh);border-radius:5vh;background:#fff;color:#4a2380;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2vh;padding:3vh 3vw;
+    box-shadow:0 1.4vh 0 #b9b2d6,0 2.4vh 4vh rgba(0,0,0,.3);border:1vh solid #fff;touch-action:pan-y
+  }
+  .wcard:active{transform:translateY(.6vh)}
+  .wcard.talking{animation:pulse .5s ease-in-out infinite alternate}
+  .wcard.in{animation:cardIn .35s ease-out}
+  @keyframes cardIn{from{transform:scale(.85) rotate(-3deg);opacity:.3}}
+  .wcard .wem{font-size:30vh;line-height:1;pointer-events:none}
+  .wcard img{display:none;flex:1;min-height:0;max-width:100%;object-fit:contain;border-radius:3vh;pointer-events:none}
+  .wcard.pic img{display:block}
+  .wcard.pic .wem{display:none}
+  .wcard .wlabel{font-size:8vh;font-weight:900;line-height:1.1;text-align:center;pointer-events:none}
+  .wcard .wlabel small{display:block;font-size:3.6vh;font-weight:700;opacity:.6;margin-top:1vh}
+  .w-game{flex-direction:column}
+  .w-game .wask{text-align:center;font-size:6vh;font-weight:900;padding:1vh 4vw 0;text-shadow:0 .3vh 0 rgba(0,0,0,.35)}
+  .w-game .ans .lbl{display:none}
+  .w-end{flex-direction:column;align-items:center;justify-content:center;gap:3vh}
+  .w-end .big{font-size:36vh;line-height:1;animation:trophy 1.2s ease-out, bob 2.5s 1.2s ease-in-out infinite;filter:drop-shadow(0 2vh 0 rgba(0,0,0,.25))}
+  .w-end .reward-btns .round{width:18vh;height:18vh;font-size:10vh}
+  #rewardWords{background:linear-gradient(180deg,#ffd23f,#ff9f1c);animation:pulse .6s ease-in-out infinite alternate}
 </style>
 </head>
 <body>
@@ -301,6 +341,33 @@
   <div class="trophy">🏆</div>
   <div class="reward-btns">
     <button class="round" id="rewardHome" aria-label="Naar huis">🏠</button>
+    <button class="round" id="rewardWords" aria-label="Woordjes oefenen" style="display:none">🔤</button>
+  </div>
+</section>
+
+<!-- WOORDJES (vocabulary) -->
+<section class="screen" id="words" data-mode="learn">
+  <div class="topbar">
+    <button class="round" data-home aria-label="Naar huis">🏠</button>
+    <div class="dots" id="wDots"></div>
+    <button class="round" id="wSpk" aria-label="Nog eens zeggen">🔊</button>
+  </div>
+  <div class="w-learn">
+    <button class="round" id="wPrev" aria-label="Vorig woordje">◀️</button>
+    <button class="wcard" id="wCard" aria-label="Woordje"><span class="wem"></span><img alt=""><span class="wlabel"></span></button>
+    <button class="round" id="wNext" aria-label="Volgend woordje">▶️</button>
+  </div>
+  <div class="w-game">
+    <div class="wask" id="wAsk"></div>
+    <div class="answers" id="wAnswers"></div>
+  </div>
+  <div class="w-end">
+    <div class="big">🌟</div>
+    <div class="reward-btns">
+      <button class="round" id="wAgain" aria-label="Woordjes opnieuw">🔁</button>
+      <button class="round" id="wPlay" aria-label="Spelletje">🎮</button>
+      <button class="round" data-home aria-label="Naar huis">🏠</button>
+    </div>
   </div>
 </section>
 
@@ -387,6 +454,9 @@
         <div class="thumbs" id="edPics"></div></div>
       <div id="edQs"></div>
       <div class="row"><button class="light" id="edAddQ">➕ Add a question</button></div>
+      <div class="slot"><b>🔤 Woordjes (vocabulary)</b>: one word per line, as <code>emoji | word | example sentence</code>. The sentence is optional.
+        <textarea id="edWords" style="min-height:140px" placeholder="🦌 | het rendier | Het rendier trekt de slee.&#10;🛷 | de slee | De slee vliegt door de lucht."></textarea>
+        <p style="font-size:13px">Pictures or MP3s for a word (w1.jpg, w1.mp3 …) come from a story pack or the stories folder. Keep the order the same if the word has one.</p></div>
       <div class="row" style="margin-top:12px">
         <button id="edSave">💾 Save story</button>
         <button class="light" id="edPreview">▶ Hear the start</button>
@@ -459,7 +529,16 @@ function packToStory(j,file,reg){
     if(x.say)r.push(String(x.say).trim());
     return r;
   });
-  return {file,emoji:String(j.emoji||"📖"),title,text,q,version:j.version||1};
+  // vocabulary ("woordjes"): n = place in story.json, used for the file keys frozen_w1, frozen_w1_say …
+  const w=[];
+  (Array.isArray(j.words)?j.words:[]).slice(0,MAXW).forEach((x,i)=>{
+    x=x||{};const n=i+1,word=String(x.word||"").trim();if(!word)return;
+    use(x.picture,`${file}_w${n}`,"img");use(x.audio,`${file}_w${n}`,"aud");use(x.say_audio,`${file}_w${n}_say`,"aud");
+    w.push({n,word,emoji:String(x.emoji||"").trim(),say:String(x.say||"").trim()});
+  });
+  const out={file,emoji:String(j.emoji||"📖"),title,text,q,version:j.version||1};
+  if(w.length)out.w=w;
+  return out;
 }
 
 const Lib={
@@ -617,6 +696,7 @@ const Cap={
 let CUSTOM=[];               // stories you add yourself in the ⚙️ panel
 let OVR={};                  // your changes to built-in stories (text / questions), by file name
 const MAXQ=8;                // up to 8 questions per story
+const MAXW=12;               // up to 12 vocabulary words per story
 const merged=s=>OVR[s.file]?Object.assign({},s,OVR[s.file],{id:s.id,custom:false}):s;
 const ALL=()=>STORIES.map(merged).concat(CUSTOM);
 const findStory=file=>ALL().find(x=>x.file===file);
@@ -953,7 +1033,7 @@ function goHome(){
 }
 window.addEventListener("popstate",()=>{stopEverything();show("home");renderHome()});
 safe(()=>history.replaceState({s:"home"},""));
-function stopEverything(){Player.stop();stopClip();Quiz.lock=false}
+function stopEverything(){Player.stop();stopClip();Quiz.lock=false;Words.tok++}
 
 let wakeLock=null;
 async function wake(on){
@@ -987,9 +1067,11 @@ function renderHome(){
     const cov=Img.url(s.file);
     c.innerHTML=(cov?`<img class="cover" alt="">`:`<span class="em">${s.emoji}</span>`)+
       (done.has(s.file)?`<span class="done">⭐</span>`:``)+
-      `<button class="spk" aria-label="Titel">🔊</button>`;
+      `<button class="spk" aria-label="Titel">🔊</button>`+
+      (Words.has(s)?`<button class="wbtn${wordsDone().has(s.file)?" ok":""}" aria-label="Woordjes">🔤</button>`:``);
     if(cov) c.querySelector(".cover").src=cov;
     c.addEventListener("click",e=>{
+      if(e.target.closest(".wbtn")){e.stopPropagation();ac();SFX.tap();goFullscreen();Words.open(s);return}
       if(e.target.closest(".spk")){
         e.stopPropagation();ac();SFX.tap();
         document.querySelectorAll(".card.speaking").forEach(x=>x.classList.remove("speaking"));
@@ -1197,14 +1279,133 @@ $("#replayQ").addEventListener("click",()=>{ac();Quiz.ask()});
    REWARD
    ===================================================================== */
 const Reward={
+  s:null,
   show(s){
-    markDone(s.file);show("reward");
+    this.s=s;markDone(s.file);show("reward");
+    const hasW=Words.has(s);$("#rewardWords").style.display=hasW?"flex":"none";
     SFX.fanfare();confetti(120,["⭐","🌟","🏆","🎉","✨"]);
     setTimeout(()=>confetti(80,["⭐","🎉"]),1500);
-    setTimeout(()=>TTS.say("Amai! Proficiat! Je hebt alle vragen juist! Je bent een echte kampioen!"),900);
+    setTimeout(()=>TTS.say("Amai! Proficiat! Je hebt alle vragen juist! Je bent een echte kampioen!"+(hasW?" Wil je nu de woordjes oefenen?":"")),900);
   }
 };
 $("#rewardHome").addEventListener("click",()=>{SFX.tap();goHome()});
+$("#rewardWords").addEventListener("click",()=>{ac();SFX.tap();if(Reward.s)Words.open(Reward.s)});
+
+/* =====================================================================
+   WOORDJES (vocabulary): look & listen cards, then a "Waar zie je …?" game
+   ===================================================================== */
+const wordsDone=()=>new Set(safe(()=>JSON.parse(localStorage.getItem("vh_words")||"[]"),[]));
+const wBases=(s,w)=>[`${s.file}_w${w.n}`],wSayBases=(s,w)=>[`${s.file}_w${w.n}_say`];
+const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+const Words={
+  s:null,i:0,tok:0,order:[],gi:0,lock:false,
+  has(s){return !!(s&&Array.isArray(s.w)&&s.w.length)},
+  list(){return this.s.w},
+  open(s){
+    if(!this.has(s))return;
+    stopEverything();this.s=s;show("words");this.learn(0);
+  },
+  mode(m){$("#words").dataset.mode=m},
+  dots(n,on){$("#wDots").innerHTML=Array.from({length:n},(_,k)=>`<span class="${k<on?"on":""}">⭐</span>`).join("");
+    $("#wDots").style.fontSize=n>8?"4vh":n>5?"5vh":""},
+  // look & listen: one big card at a time
+  learn(i){
+    const L=this.list();this.i=Math.max(0,Math.min(L.length-1,i));this.mode("learn");
+    const w=L[this.i],card=$("#wCard"),pic=Img.url(`${this.s.file}_w${w.n}`),im=card.querySelector("img");
+    card.classList.toggle("pic",!!pic);if(pic)im.src=pic;else im.removeAttribute("src");
+    card.querySelector(".wem").textContent=w.emoji||this.s.emoji||"🔤";
+    card.querySelector(".wlabel").textContent=w.word;
+    card.classList.remove("in");void card.offsetWidth;card.classList.add("in");
+    this.dots(L.length,this.i+1);
+    $("#wPrev").classList.toggle("hide",this.i===0);
+    const last=this.i===L.length-1;
+    $("#wNext").textContent=last?(L.length>=3?"🎮":"⭐"):"▶️";$("#wNext").classList.toggle("go",last);
+    setTimeout(()=>{if(screen==="words")this.speak()},300);
+  },
+  // the word, then (after a little pause) the example sentence
+  speak(){
+    const s=this.s,w=this.list()[this.i],t=++this.tok,card=$("#wCard");
+    const live=()=>t===this.tok&&screen==="words"&&$("#words").dataset.mode==="learn";
+    card.classList.add("talking");
+    const done=()=>{if(t===this.tok)card.classList.remove("talking")};
+    playClip(wBases(s,w),w.word,null,()=>{
+      if(!live())return;
+      if(!w.say&&!wSayBases(s,w).some(k=>Store.has(k))){done();return}
+      setTimeout(()=>{if(live())playClip(wSayBases(s,w),w.say||w.word,null,done);else done()},600);
+    });
+    setTimeout(done,12000);
+  },
+  next(){
+    const L=this.list();SFX.tap();
+    if(this.i<L.length-1)this.learn(this.i+1);
+    else if(L.length>=3)this.game();
+    else this.end();
+  },
+  prev(){if(this.i>0){SFX.tap();this.learn(this.i-1)}},
+  // game: "Waar zie je de slee?" with 3 pictures
+  game(){
+    this.tok++;stopClip();this.mode("game");
+    this.order=shuffle(this.list().map((_,k)=>k));this.gi=0;this.round();
+  },
+  face(w){return Img.url(`${this.s.file}_w${w.n}`)},
+  round(){
+    const L=this.list(),k=this.order[this.gi],w=L[k];this.lock=false;
+    this.dots(this.order.length,this.gi);
+    const others=shuffle(L.map((_,x)=>x).filter(x=>x!==k)).slice(0,2);
+    const box=$("#wAnswers");box.innerHTML="";
+    shuffle([k,...others]).forEach(x=>{
+      const o=L[x],b=document.createElement("button");b.className="ans";
+      const pic=this.face(o);
+      if(pic){const im=document.createElement("img");im.src=pic;im.alt="";b.appendChild(im)}else b.textContent=o.emoji||"❔";
+      b.addEventListener("click",()=>this.answer(b,x===k,o));box.appendChild(b);
+    });
+    $("#wAsk").textContent=`Waar zie je ${w.word}?`;
+    setTimeout(()=>{if(screen==="words")this.ask()},350);
+  },
+  ask(){
+    const w=this.list()[this.order[this.gi]];
+    TTS.say(`Waar zie je ${w.word}?`);
+  },
+  answer(b,ok,o){
+    if(this.lock)return;ac();
+    const s=this.s,gi=this.gi,t=this.tok;
+    if(ok){
+      this.lock=true;b.classList.add("right");
+      document.querySelectorAll("#wAnswers .ans").forEach(x=>{if(x!==b)x.classList.add("fade")});
+      SFX.chime();confetti(50,["⭐","✨"]);
+      document.querySelectorAll("#wDots span")[gi].classList.add("on");
+      let moved=false;const go=()=>{if(moved||t!==this.tok||this.s!==s||this.gi!==gi||screen!=="words")return;moved=true;
+        this.gi++;if(this.gi>=this.order.length)this.end();else this.round()};
+      setTimeout(()=>{if(t!==this.tok)return;
+        TTS.say(PRAISE[Math.floor(Math.random()*PRAISE.length)],()=>{if(t!==this.tok)return;playClip(wBases(s,o),o.word,null,()=>setTimeout(go,700))})},400);
+      setTimeout(go,9000);
+    }else{
+      b.classList.remove("shake");void b.offsetWidth;b.classList.add("shake");SFX.boop();
+      setTimeout(()=>b.classList.remove("shake"),600);
+      // say what she tapped, so a wrong tap still teaches a word
+      setTimeout(()=>{if(!this.lock)TTS.say(`Dat is ${o.word}. Probeer nog eens!`)},350);
+    }
+  },
+  end(){
+    this.tok++;this.mode("end");$("#wDots").innerHTML="";
+    const d=wordsDone();d.add(this.s.file);safe(()=>localStorage.setItem("vh_words",JSON.stringify([...d])));
+    $("#wPlay").style.display=this.list().length>=3?"flex":"none";
+    SFX.fanfare();confetti(110,["⭐","🌟","🔤","🎉","✨"]);
+    setTimeout(()=>TTS.say("Super! Jij kent alle woordjes van dit verhaal!"),800);
+  }
+};
+$("#wNext").addEventListener("click",()=>{ac();Words.next()});
+$("#wPrev").addEventListener("click",()=>{ac();Words.prev()});
+$("#wSpk").addEventListener("click",()=>{ac();const m=$("#words").dataset.mode;if(m==="learn")Words.speak();else if(m==="game")Words.ask()});
+$("#wAgain").addEventListener("click",()=>{ac();SFX.tap();Words.learn(0)});
+$("#wPlay").addEventListener("click",()=>{ac();SFX.tap();Words.game()});
+(function(){ // tap the card = hear it again, swipe = next / previous
+  const c=$("#wCard");let x0=null,swiped=false;
+  c.addEventListener("pointerdown",e=>{x0=e.clientX;swiped=false});
+  c.addEventListener("pointerup",e=>{if(x0==null)return;const dx=e.clientX-x0;x0=null;
+    if(Math.abs(dx)>60){swiped=true;ac();dx<0?Words.next():Words.prev()}});
+  c.addEventListener("click",()=>{if(swiped){swiped=false;return}ac();Words.speak()});
+})();
 document.querySelectorAll("[data-home]").forEach(b=>b.addEventListener("click",()=>{ac();SFX.tap();goHome()}));
 
 /* =====================================================================
@@ -1311,7 +1512,7 @@ function storyRow(s,builtin){
   if(cov){const im=document.createElement("img");im.src=cov;r.querySelector(".e").appendChild(im)}else r.querySelector(".e").textContent=s.emoji;
   r.querySelector(".t").textContent=s.title;
   const bd=document.createElement("span");bd.className="badges";
-  bd.textContent=`${s.q.length} questions · 🖼️ ${npics} story pictures · ${hasA?"🎵 MP3":"🗣️ voice"}`+(Subs.has(s.file)?" · 💬 timed subtitles":"")+
+  bd.textContent=`${s.q.length} questions · 🔤 ${(s.w||[]).length} words · 🖼️ ${npics} story pictures · ${hasA?"🎵 MP3":"🗣️ voice"}`+(Subs.has(s.file)?" · 💬 timed subtitles":"")+
     (builtin&&OVR[s.file]?" · changed on this tablet":"")+` · code: ${s.file}`;
   r.querySelector(".t").appendChild(bd);
   const [ed,pk,del]=r.querySelectorAll("button");
@@ -1356,6 +1557,7 @@ async function openEditor(s){
       cover:await get(file),pics,qs};
   $("#edHead").textContent=ED.isNew?"➕ New story":`✏️ ${s.title}`;
   $("#edEmoji").value=ED.emoji;$("#edTitle").value=ED.title;$("#edText").value=ED.text;
+  $("#edWords").value=(st.w||[]).map(w=>[w.emoji||"",w.word,w.say||""].join(" | ").replace(/( \| )+$/,"")).join("\n");
   $("#edReset").style.display=ED.builtin&&OVR[file]?"inline-block":"none";
   $("#edMsg").style.display="none";
   renderEditor();
@@ -1500,11 +1702,17 @@ async function saveEditor(){
     if(new Set(em).size!==em.length){edMsg(`⚠️ Question ${i+1}: the answer emojis must be different.`);return}
   }
   edMsg("Saving…");
+  const w=$("#edWords").value.split("\n").map(l=>l.split("|").map(x=>x.trim())).filter(p=>p.some(Boolean)).map((p,i)=>{
+    // "emoji | word | sentence", or just "word | sentence" without an emoji
+    const isEm=p.length>1&&p[0].length<=8&&!/[a-z]/i.test(p[0]);
+    const [em,word,say]=isEm?p:["",p[0],p[1]];
+    return {n:i+1,word:word||"",emoji:em||"",say:say||""};
+  }).filter(x=>x.word).slice(0,MAXW);
   const q=E.qs.map(x=>{const r=[x.t,x.ans[0].e,[x.ans[1].e,x.ans[2].e]];if(x.say)r.push(x.say);return r});
   const file=E.file;
   let rec;
-  if(E.builtin){rec={file,builtin:true,emoji:E.emoji||E.s.emoji,title:E.title,text:E.text,q};}
-  else rec={file,custom:true,created:(E.s&&E.s.created)||Date.now(),emoji:E.emoji||"📖",title:E.title,text:E.text,q};
+  if(E.builtin){rec={file,builtin:true,emoji:E.emoji||E.s.emoji,title:E.title,text:E.text,q,w};}
+  else rec={file,custom:true,created:(E.s&&E.s.created)||Date.now(),emoji:E.emoji||"📖",title:E.title,text:E.text,q,w};
   await Store.saveStory(rec);
   if(E.builtin)OVR[file]=rec;
   else{CUSTOM=CUSTOM.filter(x=>x.file!==file);CUSTOM.push(rec);CUSTOM.sort((a,b)=>(a.created||0)-(b.created||0))}
@@ -1526,7 +1734,7 @@ async function saveEditor(){
   safe(()=>navigator.storage&&navigator.storage.persist&&navigator.storage.persist());
   ED=null;$("#editor").style.display="none";if(edPlayer)edPlayer.pause();
   renderStoryLists();
-  updateAudioStatus(`✅ Saved "${rec.title}" (${q.length} questions, ${E.pics.length} story pictures).`+(E.builtin?"":` Its code for file names is: ${file}`));
+  updateAudioStatus(`✅ Saved "${rec.title}" (${q.length} questions, ${w.length} woordjes, ${E.pics.length} story pictures).`+(E.builtin?"":` Its code for file names is: ${file}`));
   $("#audioStatus").scrollIntoView({behavior:"smooth"});
 }
 $("#newStory").addEventListener("click",()=>openEditor(null));
@@ -1623,6 +1831,16 @@ async function storyPack(s){
     if(b=await audBlob(ansBases(s,i),`${file}_q${n}_answer`))o.say_audio=add(`q${n}_answer`,b,"mp3");
     j.questions.push(o);
   }
+  if(Words.has(s)){
+    j.words=[];
+    for(const w of s.w){
+      const o={word:w.word};if(w.emoji)o.emoji=w.emoji;if(w.say)o.say=w.say;
+      if(b=await imgBlob(`${file}_w${w.n}`))o.picture=add(`w${w.n}`,b,"jpg");
+      if(b=await audBlob(wBases(s,w),`${file}_w${w.n}`))o.audio=add(`w${w.n}`,b,"mp3");
+      if(b=await audBlob(wSayBases(s,w),`${file}_w${w.n}_say`))o.say_audio=add(`w${w.n}_say`,b,"mp3");
+      j.words.push(o);
+    }
+  }
   files.unshift({name:"story.json",blob:new Blob([JSON.stringify(j,null,2)+"\n"],{type:"application/json"})});
   return makeZip(files.map(f=>({name:`${file}/${f.name}`,blob:f.blob})));
 }
@@ -1663,6 +1881,11 @@ async function importAny(list,say){
       if(!Array.isArray(q.wrong))q.wrong=[];
       ["b","c"].forEach((l,k)=>{if(!q.wrong[k])q.wrong[k]=find(new RegExp(`^q${n}_${l}\\.(jpe?g|png|webp|gif)$`))||""});
     });
+    (Array.isArray(j.words)?j.words:[]).forEach((w,i)=>{if(!w)return;const n=i+1;
+      if(!w.picture)w.picture=find(new RegExp(`^w${n}\\.(jpe?g|png|webp|gif)$`));
+      if(!w.audio)w.audio=find(new RegExp(`^w${n}\\.(mp3|m4a|aac|wav|ogg|opus)$`));
+      if(!w.say_audio)w.say_audio=find(new RegExp(`^w${n}_say\\.(mp3|m4a|aac|wav|ogg|opus)$`));
+    });
     const file=cleanId(j.id||folder||j.title)||("verhaal"+Date.now().toString(36));
     const imgs={},auds={};let subBlob=null;const miss=[];
     const s=packToStory(j,file,(name,key,kind)=>{
@@ -1674,17 +1897,18 @@ async function importAny(list,say){
     for(const k of Object.keys(imgs))imgs[k]=await shrinkImage(imgs[k]);
     const isLib=STORIES.some(x=>x.file===file);
     let rec;
-    if(isLib){rec={file,builtin:true,emoji:s.emoji,title:s.title,text:s.text,q:s.q};OVR[file]=rec}
+    if(isLib){rec={file,builtin:true,emoji:s.emoji,title:s.title,text:s.text,q:s.q,w:s.w||[]};OVR[file]=rec}
     else{const old=CUSTOM.find(x=>x.file===file);
-      rec={file,custom:true,created:(old&&old.created)||Date.now(),emoji:s.emoji,title:s.title,text:s.text,q:s.q};
+      rec={file,custom:true,created:(old&&old.created)||Date.now(),emoji:s.emoji,title:s.title,text:s.text,q:s.q,w:s.w||[]};
       CUSTOM=CUSTOM.filter(x=>x.file!==file);CUSTOM.push(rec);CUSTOM.sort((a,b)=>(a.created||0)-(b.created||0))}
     await Store.saveStory(rec);
     await Img.sync(ownedImgs(file),imgs);
     await Store.sync(ownedAudio(findStory(file)),auds);
+    for(const [k,b] of Object.entries(auds))if(/_w\d+(_say)?$/.test(k))await Store.put(k,b);
     await Subs.put(file,subBlob?await subBlob.text():null);
     added++;
     notes.push(`✅ "${s.title}" (code ${file}): ${s.q.length} questions, ${Img.storyKeys(file).length} story pictures, `+
-      `${auds[file]?"MP3":"read-aloud voice"}, ${subBlob?"timed subtitles":"estimated subtitles"}`+(isLib?" · replaces the library version on this tablet":"")+
+      `${auds[file]?"MP3":"read-aloud voice"}, ${subBlob?"timed subtitles":"estimated subtitles"}`+((s.w||[]).length?`, ${s.w.length} woordjes`:"")+(isLib?" · replaces the library version on this tablet":"")+
       (miss.length?`\n   ⚠️ named in story.json but not found: ${miss.join(", ")}`:""));
   }
   // anything else: the old way, by file name (frozen_1.jpg, frozen_q1.mp3 …)
@@ -1754,7 +1978,7 @@ const blobToData=b=>new Promise(r=>{const f=new FileReader();f.onload=()=>r(f.re
 $("#exportStories").addEventListener("click",async()=>{
   const btn=$("#exportStories");btn.textContent="⏳ …";
   const images={};for(const [k,b] of Object.entries(Img.blobs)){const d=await blobToData(b);if(d)images[k]=d}
-  const pick=({file,emoji,title,text,q,created,builtin})=>({file,emoji,title,text,q,created,builtin});
+  const pick=({file,emoji,title,text,q,w,created,builtin})=>({file,emoji,title,text,q,w,created,builtin});
   const data=JSON.stringify({app:"verhaaltjes",version:3,stories:CUSTOM.map(pick).concat(Object.values(OVR).map(pick)),images,subs:Subs.text});
   const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([data],{type:"application/json"}));
   a.download="verhaaltjes-backup.json";document.body.appendChild(a);a.click();a.remove();
@@ -1768,10 +1992,10 @@ $("#importStories").addEventListener("change",async e=>{
     for(const x of list){
       if(!x||!x.title||!x.text||!okQ(x.q))continue;
       if(x.builtin&&(STORIES.some(b=>b.file===x.file)||!STORIES.length)){
-        const rec={file:x.file,builtin:true,emoji:x.emoji,title:x.title,text:x.text,q:x.q};
+        const rec={file:x.file,builtin:true,emoji:x.emoji,title:x.title,text:x.text,q:x.q};if(Array.isArray(x.w))rec.w=x.w;
         await Store.saveStory(rec);OVR[x.file]=rec;n++;continue;
       }
-      const s={file:x.file||("eigen"+Date.now().toString(36)+n),custom:true,created:x.created||Date.now(),emoji:x.emoji||"📖",title:x.title,text:x.text,q:x.q};
+      const s={file:x.file||("eigen"+Date.now().toString(36)+n),custom:true,created:x.created||Date.now(),emoji:x.emoji||"📖",title:x.title,text:x.text,q:x.q};if(Array.isArray(x.w))s.w=x.w;
       await Store.saveStory(s);CUSTOM=CUSTOM.filter(c=>c.file!==s.file);CUSTOM.push(s);n++;
     }
     for(const [k,u] of Object.entries(d.images||{})){

@@ -59,5 +59,37 @@
       ],
       "say": "Nijntje krijgt een aardbeienijsje."
     }
+  ],
+  "words": [
+    {
+      "word": "Nijntje",
+      "emoji": "🐰",
+      "say": "Nijntje gaat naar zee."
+    },
+    {
+      "word": "het emmertje",
+      "emoji": "🪣",
+      "say": "Nijntje vult haar emmertje met zand."
+    },
+    {
+      "word": "het zand",
+      "emoji": "🏖️",
+      "say": "Nijntje bouwt een kasteel in het zand."
+    },
+    {
+      "word": "het krabbetje",
+      "emoji": "🦀",
+      "say": "Een krabbetje loopt opzij."
+    },
+    {
+      "word": "de golven",
+      "emoji": "🌊",
+      "say": "De golven kriebelen aan haar voetjes."
+    },
+    {
+      "word": "de trein",
+      "emoji": "🚂",
+      "say": "Nijntje gaat met de trein naar zee."
+    }
   ]
 }

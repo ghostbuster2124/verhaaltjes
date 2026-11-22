@@ -38,5 +38,37 @@
         "🌙"
       ]
     }
+  ],
+  "words": [
+    {
+      "word": "de sneeuwpop",
+      "emoji": "⛄",
+      "say": "Olaf is een vrolijke sneeuwpop."
+    },
+    {
+      "word": "de sneeuw",
+      "emoji": "❄️",
+      "say": "Elsa maakt sneeuw met haar handen."
+    },
+    {
+      "word": "het ijs",
+      "emoji": "🧊",
+      "say": "Het paleis is van ijs."
+    },
+    {
+      "word": "het rendier",
+      "emoji": "🦌",
+      "say": "Sven is een rendier."
+    },
+    {
+      "word": "de slee",
+      "emoji": "🛷",
+      "say": "Anna rijdt in de slee."
+    },
+    {
+      "word": "de zomer",
+      "emoji": "☀️",
+      "say": "Olaf droomt van de zomer."
+    }
   ]
 }

@@ -39,5 +39,37 @@
         "🟡"
       ]
     }
+  ],
+  "words": [
+    {
+      "word": "de jungle",
+      "emoji": "🌴",
+      "say": "Mowgli woont in de jungle."
+    },
+    {
+      "word": "de beer",
+      "emoji": "🐻",
+      "say": "Baloe is een vrolijke beer."
+    },
+    {
+      "word": "de panter",
+      "emoji": "🐆",
+      "say": "Bagheera is een zwarte panter."
+    },
+    {
+      "word": "de tijger",
+      "emoji": "🐅",
+      "say": "De tijger heeft strepen."
+    },
+    {
+      "word": "de wolven",
+      "emoji": "🐺",
+      "say": "De wolven zorgen voor Mowgli."
+    },
+    {
+      "word": "de rivier",
+      "emoji": "🏞️",
+      "say": "Baloe drijft op de rivier."
+    }
   ]
 }

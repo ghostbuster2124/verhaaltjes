@@ -59,5 +59,37 @@
       ],
       "say": "Kiki wordt bang van het onweer."
     }
+  ],
+  "words": [
+    {
+      "word": "de kameleon",
+      "emoji": "🦎",
+      "say": "De kameleon verandert van kleur."
+    },
+    {
+      "word": "de banaan",
+      "emoji": "🍌",
+      "say": "Kiki wordt geel als een banaan."
+    },
+    {
+      "word": "de tomaat",
+      "emoji": "🍅",
+      "say": "Kiki wordt rood als een tomaat."
+    },
+    {
+      "word": "de brandweerwagen",
+      "emoji": "🚒",
+      "say": "Kiki speelt met de brandweerwagen."
+    },
+    {
+      "word": "de juf",
+      "emoji": "👩‍🏫",
+      "say": "De juf troost Kiki."
+    },
+    {
+      "word": "het onweer",
+      "emoji": "⛈️",
+      "say": "Kiki is bang van het onweer."
+    }
   ]
 }

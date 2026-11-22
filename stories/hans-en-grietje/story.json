@@ -59,5 +59,37 @@
       ],
       "say": "Het witte vogeltje brengt Hans en Grietje terug naar huis."
     }
+  ],
+  "words": [
+    {
+      "word": "het huisje",
+      "emoji": "🏠",
+      "say": "Het huisje is van snoep."
+    },
+    {
+      "word": "de heks",
+      "emoji": "🧙‍♀️",
+      "say": "De heks woont in het snoephuisje."
+    },
+    {
+      "word": "de broodkruimeltjes",
+      "emoji": "🍞",
+      "say": "Hans strooit broodkruimeltjes."
+    },
+    {
+      "word": "het bos",
+      "emoji": "🌲",
+      "say": "Hans en Grietje verdwalen in het bos."
+    },
+    {
+      "word": "de sleutel",
+      "emoji": "🔑",
+      "say": "Grietje pakt de sleutel."
+    },
+    {
+      "word": "de eekhoorntjes",
+      "emoji": "🐿️",
+      "say": "De eekhoorntjes spelen in de bomen."
+    }
   ]
 }

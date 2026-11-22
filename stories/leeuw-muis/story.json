@@ -59,5 +59,37 @@
       ],
       "say": "De leeuw en het muisje worden de beste vrienden."
     }
+  ],
+  "words": [
+    {
+      "word": "de leeuw",
+      "emoji": "🦁",
+      "say": "De leeuw is de koning van het bos."
+    },
+    {
+      "word": "het muisje",
+      "emoji": "🐭",
+      "say": "Het muisje is klein maar dapper."
+    },
+    {
+      "word": "het net",
+      "emoji": "🕸️",
+      "say": "De leeuw zit vast in een net."
+    },
+    {
+      "word": "de knoop",
+      "emoji": "🪢",
+      "say": "Het muisje knaagt aan de knoop."
+    },
+    {
+      "word": "de poot",
+      "emoji": "🐾",
+      "say": "Het muisje zit onder de poot van de leeuw."
+    },
+    {
+      "word": "de zebra",
+      "emoji": "🦓",
+      "say": "De zebra kijkt naar de leeuw."
+    }
   ]
 }

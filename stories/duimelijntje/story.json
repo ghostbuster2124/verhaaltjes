@@ -59,5 +59,37 @@
       ],
       "say": "Duimelijntje krijgt glinsterende vleugeltjes, net als een elfje."
     }
+  ],
+  "words": [
+    {
+      "word": "de duim",
+      "emoji": "👍",
+      "say": "Duimelijntje is zo klein als een duim."
+    },
+    {
+      "word": "de tulp",
+      "emoji": "🌷",
+      "say": "Duimelijntje komt uit een tulp."
+    },
+    {
+      "word": "de zwaluw",
+      "emoji": "🐦",
+      "say": "De zwaluw vliegt met Duimelijntje weg."
+    },
+    {
+      "word": "de veldmuis",
+      "emoji": "🐭",
+      "say": "De veldmuis woont onder de grond."
+    },
+    {
+      "word": "het blad",
+      "emoji": "🍃",
+      "say": "Duimelijntje vaart op een blad."
+    },
+    {
+      "word": "de fee",
+      "emoji": "🧚",
+      "say": "Duimelijntje ontmoet een kleine fee."
+    }
   ]
 }

@@ -59,5 +59,37 @@
       ],
       "say": "De reus verandert in een muisje."
     }
+  ],
+  "words": [
+    {
+      "word": "de kat",
+      "emoji": "🐈",
+      "say": "De slimme kat draagt laarzen."
+    },
+    {
+      "word": "de laarzen",
+      "emoji": "👢",
+      "say": "De kat krijgt mooie laarzen."
+    },
+    {
+      "word": "de koning",
+      "emoji": "👑",
+      "say": "De kat brengt een cadeau naar de koning."
+    },
+    {
+      "word": "het kasteel",
+      "emoji": "🏰",
+      "say": "De reus woont in een groot kasteel."
+    },
+    {
+      "word": "de muis",
+      "emoji": "🐭",
+      "say": "De reus verandert in een muis."
+    },
+    {
+      "word": "de molen",
+      "emoji": "🌾",
+      "say": "De molenaar woont in een molen."
+    }
   ]
 }

@@ -39,5 +39,37 @@
         "⛽"
       ]
     }
+  ],
+  "words": [
+    {
+      "word": "de auto",
+      "emoji": "🏎️",
+      "say": "Bliksem McQueen is een snelle rode auto."
+    },
+    {
+      "word": "de race",
+      "emoji": "🏁",
+      "say": "Bliksem wil de race winnen."
+    },
+    {
+      "word": "de weg",
+      "emoji": "🛣️",
+      "say": "De weg is lang en warm."
+    },
+    {
+      "word": "de beker",
+      "emoji": "🏆",
+      "say": "De winnaar krijgt een grote beker."
+    },
+    {
+      "word": "de politieauto",
+      "emoji": "🚓",
+      "say": "De politieauto rijdt achter Bliksem."
+    },
+    {
+      "word": "de tractor",
+      "emoji": "🚜",
+      "say": "De tractors staan in de weide."
+    }
   ]
 }

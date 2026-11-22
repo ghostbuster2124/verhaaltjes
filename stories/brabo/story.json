@@ -59,5 +59,37 @@
       ],
       "say": "Antwerpen heeft haar naam van dit verhaal."
     }
+  ],
+  "words": [
+    {
+      "word": "de reus",
+      "emoji": "🧔",
+      "say": "De reus is groot en stout."
+    },
+    {
+      "word": "de rivier",
+      "emoji": "🏞️",
+      "say": "De Schelde is een grote rivier."
+    },
+    {
+      "word": "de boot",
+      "emoji": "⛵",
+      "say": "De schippers varen met hun boot."
+    },
+    {
+      "word": "het kasteel",
+      "emoji": "🏰",
+      "say": "De reus woont in een kasteel."
+    },
+    {
+      "word": "de hand",
+      "emoji": "✋",
+      "say": "Brabo gooit de hand van de reus weg."
+    },
+    {
+      "word": "de handschoen",
+      "emoji": "🧤",
+      "say": "De reus heeft een grote handschoen."
+    }
   ]
 }

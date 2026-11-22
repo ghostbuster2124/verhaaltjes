@@ -59,5 +59,37 @@
       ],
       "say": "De prinses heeft heel slecht geslapen."
     }
+  ],
+  "words": [
+    {
+      "word": "het erwtje",
+      "emoji": "🟢",
+      "say": "Onder de matrassen ligt een erwtje."
+    },
+    {
+      "word": "de prinses",
+      "emoji": "👸",
+      "say": "De prinses is nat van de regen."
+    },
+    {
+      "word": "het bed",
+      "emoji": "🛏️",
+      "say": "Het bed is heel hoog."
+    },
+    {
+      "word": "de ladder",
+      "emoji": "🪜",
+      "say": "De prinses klimt op een ladder."
+    },
+    {
+      "word": "de kroon",
+      "emoji": "👑",
+      "say": "De koningin draagt een kroon."
+    },
+    {
+      "word": "het onweer",
+      "emoji": "⛈️",
+      "say": "Buiten is het onweer."
+    }
   ]
 }

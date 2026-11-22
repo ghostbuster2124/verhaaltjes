@@ -59,5 +59,37 @@
       ],
       "say": "De Kerstman legt de cadeautjes onder de kerstboom."
     }
+  ],
+  "words": [
+    {
+      "word": "de kerstman",
+      "emoji": "🎅",
+      "say": "De Kerstman heeft een lange witte baard."
+    },
+    {
+      "word": "het rendier",
+      "emoji": "🦌",
+      "say": "Het rendier trekt de slee."
+    },
+    {
+      "word": "de slee",
+      "emoji": "🛷",
+      "say": "De slee vliegt door de lucht."
+    },
+    {
+      "word": "de cadeautjes",
+      "emoji": "🎁",
+      "say": "De elfjes pakken de cadeautjes in."
+    },
+    {
+      "word": "de elfjes",
+      "emoji": "🧝",
+      "say": "De elfjes maken speelgoed."
+    },
+    {
+      "word": "de kerstboom",
+      "emoji": "🎄",
+      "say": "De cadeautjes liggen onder de kerstboom."
+    }
   ]
 }

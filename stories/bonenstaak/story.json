@@ -59,5 +59,37 @@
       ],
       "say": "De gouden harp speelt vanzelf."
     }
+  ],
+  "words": [
+    {
+      "word": "de bonenstaak",
+      "emoji": "🌱",
+      "say": "De bonenstaak groeit tot in de wolken."
+    },
+    {
+      "word": "de bonen",
+      "emoji": "🫘",
+      "say": "Sjaak krijgt vijf toverbonen."
+    },
+    {
+      "word": "de koe",
+      "emoji": "🐄",
+      "say": "Sjaak ruilt de koe voor bonen."
+    },
+    {
+      "word": "de kip",
+      "emoji": "🐔",
+      "say": "De kip legt gouden eieren."
+    },
+    {
+      "word": "de harp",
+      "emoji": "🎵",
+      "say": "De gouden harp kan zingen."
+    },
+    {
+      "word": "de wolken",
+      "emoji": "☁️",
+      "say": "De reus woont boven de wolken."
+    }
   ]
 }

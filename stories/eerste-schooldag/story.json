@@ -59,5 +59,37 @@
       ],
       "say": "Anaya leert de klas namaste zeggen."
     }
+  ],
+  "words": [
+    {
+      "word": "de school",
+      "emoji": "🏫",
+      "say": "Anaya gaat voor het eerst naar school."
+    },
+    {
+      "word": "de juf",
+      "emoji": "👩‍🏫",
+      "say": "De juf is lief en vrolijk."
+    },
+    {
+      "word": "de brooddoos",
+      "emoji": "🍱",
+      "say": "In de brooddoos zit een paratha."
+    },
+    {
+      "word": "de rugzak",
+      "emoji": "🎒",
+      "say": "Anaya draagt haar rugzak."
+    },
+    {
+      "word": "de eenhoorn",
+      "emoji": "🦄",
+      "say": "Anaya houdt van de eenhoorn."
+    },
+    {
+      "word": "het koekje",
+      "emoji": "🍪",
+      "say": "Anaya eet een koekje."
+    }
   ]
 }

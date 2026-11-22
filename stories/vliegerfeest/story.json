@@ -59,5 +59,37 @@
       ],
       "say": "'s Avonds laten de mensen lantaarns opstijgen."
     }
+  ],
+  "words": [
+    {
+      "word": "de vlieger",
+      "emoji": "🪁",
+      "say": "De vlieger vliegt hoog in de lucht."
+    },
+    {
+      "word": "het touw",
+      "emoji": "🧵",
+      "say": "Ik houd het touw goed vast."
+    },
+    {
+      "word": "de wind",
+      "emoji": "💨",
+      "say": "De wind blaast de vlieger omhoog."
+    },
+    {
+      "word": "het dak",
+      "emoji": "🏠",
+      "say": "We staan op het dak."
+    },
+    {
+      "word": "de zon",
+      "emoji": "☀️",
+      "say": "De zon schijnt op het feest."
+    },
+    {
+      "word": "het snoepje",
+      "emoji": "🍬",
+      "say": "Na het spel eten we een snoepje."
+    }
   ]
 }

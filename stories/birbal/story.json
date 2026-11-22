@@ -59,5 +59,37 @@
       ],
       "say": "De arme man krijgt toch zijn gouden munten."
     }
+  ],
+  "words": [
+    {
+      "word": "de rijst",
+      "emoji": "🍚",
+      "say": "In de pot zit rijst."
+    },
+    {
+      "word": "de pot",
+      "emoji": "🫕",
+      "say": "Birbal hangt de pot hoog in de boom."
+    },
+    {
+      "word": "de keizer",
+      "emoji": "👑",
+      "say": "De keizer woont in een paleis."
+    },
+    {
+      "word": "het paleis",
+      "emoji": "🏰",
+      "say": "Het paleis is groot en mooi."
+    },
+    {
+      "word": "het lampje",
+      "emoji": "💡",
+      "say": "Ver weg brandt een klein lampje."
+    },
+    {
+      "word": "het water",
+      "emoji": "💧",
+      "say": "Het water van het meer is ijskoud."
+    }
   ]
 }

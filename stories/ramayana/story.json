@@ -60,5 +60,37 @@
       ],
       "say": "De mensen zetten overal kleine lichtjes."
     }
+  ],
+  "words": [
+    {
+      "word": "de aap",
+      "emoji": "🐒",
+      "say": "Hanuman is een sterke aap."
+    },
+    {
+      "word": "de pijl",
+      "emoji": "🏹",
+      "say": "Rama schiet met een pijl."
+    },
+    {
+      "word": "het hert",
+      "emoji": "🦌",
+      "say": "Sita ziet een gouden hert."
+    },
+    {
+      "word": "de brug",
+      "emoji": "🌉",
+      "say": "De apen bouwen een brug."
+    },
+    {
+      "word": "het eiland",
+      "emoji": "🏝️",
+      "say": "De reus woont op een eiland."
+    },
+    {
+      "word": "de ring",
+      "emoji": "💍",
+      "say": "Hanuman brengt de ring naar Sita."
+    }
   ]
 }
