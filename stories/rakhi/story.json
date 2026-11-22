@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "id": "rakhi",
+  "version": 1,
+  "title": "Riya en het touwtje van liefde.",
+  "emoji": "🎀",
+  "text": "Riya is vijf jaar, en ze heeft een groot broertje. Hij heet Dev en hij is acht. Soms maken Riya en Dev ruzie. Over de afstandsbediening, of over het laatste koekje. Maar meestal zijn ze de allerbeste vrienden. Vandaag is een speciale dag. Het is Raksha Bandhan. Dat is een Indiaas feest voor broers en zussen. Mama legt het uit: Op Raksha Bandhan bindt een zus een mooi touwtje rond de pols van haar broer. Dat touwtje heet een rakhi. Het betekent: ik zie je graag, en ik wens je het allerbeste. En de broer belooft dat hij altijd voor zijn zus zal zorgen. En de zus zorgt ook voor haar broer, zegt Riya. Natuurlijk, lacht mama. Ze zorgen voor elkaar. Riya wil zelf een rakhi maken. Ze neemt rode en gele draadjes. Ze vlecht ze samen. Over, onder, over, onder. Dan plakt ze er een glinsterende ster op, en een klein pareltje. Het is een beetje scheef, maar het is heel mooi. Mama zet een bordje klaar. Een klein lichtje, wat rode poeder, een paar korreltjes rijst en snoepjes. Dev gaat op een stoel zitten. Hij doet een beetje stoer, maar hij glimlacht. Riya zet een klein rood stipje op zijn voorhoofd. Dan bindt ze de rakhi rond zijn pols. Een knoopje, en nog een knoopje. Zo! Dan stopt ze een snoepje in zijn mond. Een zoete ladoo. Mmm! Nu is het de beurt van Dev. Hij geeft Riya een cadeautje. Riya maakt het open. Het is een tekendoos met wel veertig kleuren! Dank je wel, Dev! En Dev zegt: Ik beloof dat ik altijd voor jou zal zorgen. Ook als je mijn koekje opeet. Hihihi! Die middag gaan ze naar het park. Riya wil op het hoge klimrek. Maar halverwege durft ze niet meer verder. Dev, ik ben bang! Dev klimt meteen naar haar toe. Kom, geef me je hand. Stap voor stap. En samen komen ze helemaal boven. Riya kijkt uit over het hele park. Jij hebt je belofte gehouden, zegt ze. Een paar dagen later valt Dev met zijn fiets. Zijn knie bloedt een beetje. Nu is het Riya die helpt. Ze haalt een pleister en ze blaast op zijn knie. Zo, zegt ze. Ik zorg ook voor jou. De rakhi blijft nog lang rond de pols van Dev. Ook als hij een beetje vuil en rafelig wordt. Hij wil hem niet uitdoen. Want het is het touwtje van liefde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat bindt Riya rond de pols van Dev?",
+      "right": "🎀",
+      "wrong": [
+        "⌚",
+        "💍"
+      ],
+      "say": "Riya bindt een rakhi rond de pols van Dev."
+    },
+    {
+      "question": "Wie is Dev?",
+      "right": "👦",
+      "wrong": [
+        "👴",
+        "👮"
+      ],
+      "say": "Dev is het grote broertje van Riya."
+    },
+    {
+      "question": "Welk snoepje krijgt Dev?",
+      "right": "🍬",
+      "wrong": [
+        "🌶️",
+        "🥦"
+      ],
+      "say": "Dev krijgt een zoete ladoo."
+    },
+    {
+      "question": "Wat krijgt Riya van Dev?",
+      "right": "🖍️",
+      "wrong": [
+        "🧸",
+        "👗"
+      ],
+      "say": "Riya krijgt een tekendoos van Dev."
+    },
+    {
+      "question": "Wat geeft Riya als Dev valt?",
+      "right": "🩹",
+      "wrong": [
+        "🍦",
+        "🎈"
+      ],
+      "say": "Riya geeft Dev een pleister."
+    }
+  ]
+}

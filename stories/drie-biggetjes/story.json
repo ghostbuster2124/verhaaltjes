@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "id": "drie-biggetjes",
+  "version": 1,
+  "title": "De drie kleine biggetjes.",
+  "emoji": "🐷",
+  "text": "Er waren eens drie kleine biggetjes. Ze woonden bij hun mama in een klein huisje op de boerderij. Op een dag zei mama varken: Jullie zijn nu groot. Het is tijd om elk een eigen huisje te bouwen. Maar pas op voor de grote boze wolf! Het eerste biggetje was een beetje lui. Ik bouw mijn huisje van stro, zei hij. Dat gaat heel snel, en dan kan ik de rest van de dag spelen. En inderdaad, in een half uurtje was zijn strohuisje klaar. Het tweede biggetje wou ook snel klaar zijn. Ik bouw mijn huisje van takken en hout, zei hij. Klop, klop, klop. Na een uurtje was zijn houten huisje klaar. Het derde biggetje was heel verstandig. Ik bouw mijn huisje van stenen, zei ze. Dat duurt lang, maar het is sterk. Ze legde steen op steen, steen op steen, de hele dag lang. Haar broertjes lachten haar uit. Kom toch spelen! Nee, zei het derde biggetje, ik werk eerst. 's Avonds kwam de grote boze wolf. Hij klopte op de deur van het strohuisje. Biggetje, biggetje, laat me binnen! Nee, nee, nooit van mijn leven! Dan zal ik blazen en blazen, en je huisje omverblazen! En de wolf blies: Woeeesj! Het strohuisje vloog weg. Het eerste biggetje rende zo snel hij kon naar het houten huisje. De wolf kwam erachteraan. Biggetjes, biggetjes, laat me binnen! Nee, nee, nooit van ons leven! Dan zal ik blazen en blazen, en jullie huisje omverblazen! Woeeeesj! Krak! Het houten huisje viel om. De twee biggetjes renden naar het stenen huisje van hun zusje. Snel, kom binnen! riep ze, en ze deed de deur op slot. Klik. De wolf kwam aan. Biggetjes, biggetjes, laat me binnen! Nee, nee, nooit van ons leven! De wolf blies en blies. Woeeeeeesj! Hij blies tot hij helemaal rood werd. Maar het stenen huisje bleef staan. Geen enkele steen bewoog. Toen probeerde de wolf door de schoorsteen naar binnen te klimmen. Maar het slimme biggetje had een grote pot water op het vuur gezet. De wolf voelde de hete stoom aan zijn staart. Au, au, au! riep hij, en hij sprong uit de schoorsteen en rende weg, het bos in. Hij kwam nooit meer terug. De drie biggetjes dansten van blijdschap. En de volgende dag hielpen de twee broertjes hun zusje. Ze bouwden samen nog twee stenen huisjes, naast elkaar. Want hard werken, zeiden ze, dat loont.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Hoeveel biggetjes zijn er?",
+      "right": "3️⃣",
+      "wrong": [
+        "2️⃣",
+        "5️⃣"
+      ],
+      "say": "Er zijn drie biggetjes."
+    },
+    {
+      "question": "Waarvan bouwt het eerste biggetje zijn huisje?",
+      "right": "🌾",
+      "wrong": [
+        "🪨",
+        "🧊"
+      ],
+      "say": "Het eerste biggetje bouwt een huisje van stro."
+    },
+    {
+      "question": "Wie wil de huisjes omverblazen?",
+      "right": "🐺",
+      "wrong": [
+        "🐻",
+        "🦊"
+      ],
+      "say": "De grote boze wolf wil de huisjes omverblazen."
+    },
+    {
+      "question": "Welk huisje blijft staan?",
+      "right": "🧱",
+      "wrong": [
+        "🌾",
+        "🪵"
+      ],
+      "say": "Het stenen huisje blijft staan."
+    },
+    {
+      "question": "Langs waar probeert de wolf binnen te komen?",
+      "right": "🏠",
+      "wrong": [
+        "🪟",
+        "🚪"
+      ],
+      "say": "De wolf probeert binnen te komen langs de schoorsteen."
+    }
+  ]
+}

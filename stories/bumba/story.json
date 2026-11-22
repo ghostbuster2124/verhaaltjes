@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "id": "bumba",
+  "version": 1,
+  "title": "Bumba en de verdwenen hoed.",
+  "emoji": "🤡",
+  "text": "In een groot circus, met een rood en wit gestreepte tent, woont een klein clowntje. Hij heet Bumba. Bumba heeft een rode neus, grote schoenen en een vrolijke lach. Hihihi! Elke avond doet Bumba een show voor alle kindjes. Hij maakt kunstjes, hij jongleert met ballen en hij valt op zijn billen. Plof! En dan lachen alle kindjes. Maar op een ochtend is er iets mis. Bumba zoekt zijn hoed. Zijn mooie hoed met een bloem erop. Hij kijkt onder zijn bed. Geen hoed. Hij kijkt in de kast. Geen hoed. Oei, oei, zegt Bumba. Vanavond is de show, en ik heb geen hoed! Bumba gaat op zoek in het circus. Eerst gaat hij naar de olifant. De olifant is groot en grijs, met een lange slurf. Olifant, heb jij mijn hoed gezien? De olifant schudt met zijn grote oren. Nee Bumba, maar ik zal je helpen zoeken! Met zijn lange slurf kijkt hij hoog in de boom. Geen hoed. Dan gaan ze naar de zeehond. De zeehond kan een bal op zijn neus laten draaien. Zeehond, heb jij mijn hoed gezien? Ork, ork, zegt de zeehond. Nee, maar ik help ook zoeken! Ze kijken in de grote ton met water. Splash! Geen hoed. Dan horen ze iets. Piep, piep, piep! Het komt uit de koffer met verkleedkleren. Bumba doet de koffer heel voorzichtig open. En wat ziet hij? Zijn hoed! En in de hoed liggen drie kleine muisjes te slapen, dicht tegen elkaar aan. Een mama muis kijkt Bumba bang aan. Sorry Bumba, zegt de mama muis. Mijn kindjes hadden het koud, en jouw hoed is zo zacht en warm. Bumba glimlacht. Hij wil de muisjes niet wakker maken. Hij denkt na. Dan heeft hij een idee! Hij pakt een oude sok, een zachte, gestreepte sok, en hij maakt er een klein bedje van. Heel voorzichtig legt hij de muisjes in het sokkenbedje. Ze slapen gewoon verder. Snurk, snurk. Dank je wel, Bumba, zegt de mama muis. 's Avonds begint de show. Tromgeroffel! Bumba komt op met zijn mooie hoed. De olifant spuit water met zijn slurf. De zeehond draait de bal. En Bumba doet zijn allermooiste kunstje: hij tilt zijn hoed op, en daar zitten de drie muisjes op zijn hoofd! Ze zwaaien met hun pootjes. Alle kindjes klappen en lachen. Hoera voor Bumba! En vanaf die dag doen de muisjes elke avond mee in de show.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat is Bumba?",
+      "right": "🤡",
+      "wrong": [
+        "👮",
+        "👨‍🍳"
+      ],
+      "say": "Bumba is een klein clowntje."
+    },
+    {
+      "question": "Wat is Bumba kwijt?",
+      "right": "🎩",
+      "wrong": [
+        "👟",
+        "🎈"
+      ],
+      "say": "Bumba is zijn hoed kwijt."
+    },
+    {
+      "question": "Welk dier zoekt met zijn lange slurf?",
+      "right": "🐘",
+      "wrong": [
+        "🦒",
+        "🐴"
+      ],
+      "say": "De olifant zoekt met zijn lange slurf."
+    },
+    {
+      "question": "Wie slapen er in de hoed?",
+      "right": "🐭",
+      "wrong": [
+        "🐱",
+        "🐦"
+      ],
+      "say": "Drie kleine muisjes slapen in de hoed."
+    },
+    {
+      "question": "Waar maakt Bumba een bedje van?",
+      "right": "🧦",
+      "wrong": [
+        "📦",
+        "🧸"
+      ],
+      "say": "Bumba maakt een bedje van een oude sok."
+    }
+  ]
+}

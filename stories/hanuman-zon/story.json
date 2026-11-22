@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "id": "hanuman-zon",
+  "version": 1,
+  "title": "Kleine Hanuman en de zon.",
+  "emoji": "🐒",
+  "text": "Lang geleden, in India, woonde er een heel bijzonder aapje. Hij heette Hanuman. Zijn papa was de wind. En daarom kon Hanuman iets wat geen enkel ander aapje kon: hij kon vliegen! Zoef! Hanuman was heel sterk en heel snel, maar hij was ook nog heel klein, en een beetje ondeugend. Op een ochtend werd Hanuman wakker. Zijn buikje rommelde. Grrr. Ik heb honger, zei Hanuman. Mama was even weg om fruit te zoeken. Hanuman keek uit het raam. En daar, aan de hemel, zag hij iets moois. Iets ronds en iets oranje-geels. Het glom en het straalde. Oh, zei Hanuman. Een mango! Een grote, rijpe, zoete mango! Die wil ik opeten! Maar het was geen mango. Het was de zon! Hanuman sprong. Hij sprong zo hoog als hij kon, en hij vloog omhoog. Zoef! Hoger en hoger, voorbij de bomen, voorbij de bergen, voorbij de vogels en door de wolken. De vogels keken verbaasd. Kijk, een vliegend aapje! Hanuman vloog steeds dichter bij de zon. Het werd warm. En warmer. En nog warmer! Pff, wat een warme mango, zei Hanuman. De zon zag het kleine aapje aankomen en moest lachen. Hahaha! Kleine aap, ik ben geen mango! Ik ben de zon! Als je mij opeet, wordt het overal donker, en dan kan niemand meer iets zien. De bloemen kunnen niet groeien, en de kindjes kunnen niet buiten spelen. Hanuman stopte. Oei. Hij schrok zo hard, dat hij met zijn kin tegen een wolk botste. Boink! Au! Zijn kin werd een beetje dik en rond. Hanuman viel langzaam naar beneden, zacht als een veertje, want de wind, zijn papa, ving hem op. Mama stond beneden te wachten. Hanuman! Waar was jij? Ik wou de zon opeten, mama. Ik dacht dat het een mango was! Mama moest lachen, en ze gaf hem een dikke knuffel. Kleine deugniet. Hier, dit is een echte mango. En Hanuman at een lekkere, zoete, echte mango. Mmm! Slurp! Vanaf die dag had Hanuman een rond kinnetje. En weet je, in het oude Indiase woord betekent Hanu: kin. Hanuman, de aap met de dappere kin! Toen Hanuman groot werd, werd hij de sterkste en de liefste helper van prins Rama. De mensen noemen hem ook Mahavir, de grote held. Maar hij bleef altijd een beetje ondeugend, en hij bleef altijd van mango's houden.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welk dier is Hanuman?",
+      "right": "🐒",
+      "wrong": [
+        "🐘",
+        "🐯"
+      ],
+      "say": "Hanuman is een aapje."
+    },
+    {
+      "question": "Wat kan Hanuman wat andere aapjes niet kunnen?",
+      "right": "🕊️",
+      "wrong": [
+        "🏊",
+        "🎨"
+      ],
+      "say": "Hanuman kan vliegen."
+    },
+    {
+      "question": "Wat denkt Hanuman dat de zon is?",
+      "right": "🥭",
+      "wrong": [
+        "🍌",
+        "🍉"
+      ],
+      "say": "Hanuman denkt dat de zon een mango is."
+    },
+    {
+      "question": "Waartegen botst Hanuman met zijn kin?",
+      "right": "☁️",
+      "wrong": [
+        "🌳",
+        "⭐"
+      ],
+      "say": "Hanuman botst met zijn kin tegen een wolk."
+    },
+    {
+      "question": "Wie vangt Hanuman op als hij valt?",
+      "right": "🌬️",
+      "wrong": [
+        "🐦",
+        "🌧️"
+      ],
+      "say": "De wind, zijn papa, vangt Hanuman op."
+    }
+  ]
+}

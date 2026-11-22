@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "id": "duimelijntje",
+  "version": 1,
+  "title": "Duimelijntje, het piepkleine meisje.",
+  "emoji": "🌷",
+  "text": "Er was eens een vrouw die heel graag een kindje wou. Op een dag kreeg ze een zaadje van een oude toverfee. Plant dit zaadje in een bloempot, zei de fee. De vrouw plantte het zaadje en gaf het water. Al snel groeide er een prachtige tulp, rood en geel. De vrouw gaf een kusje op de bloem, en plop! De tulp ging open. En in het midden van de bloem zat een piepklein meisje. Ze was niet groter dan een duim. Daarom noemde de vrouw haar Duimelijntje. Duimelijntje sliep in een halve walnoot, met een rozenblaadje als dekentje. Overdag zat ze in een tulpenblaadje op een bord water en ze roeide heen en weer, en ze zong zo mooi. Maar op een nacht sprong er een grote, natte pad door het raam. Kwaak! Dat meisje is mooi, kwaakte de pad. Zij moet met mijn zoon trouwen! En ze nam de walnoot met Duimelijntje mee naar de beek. Ze zette Duimelijntje op een groot waterlelieblad, midden in het water. Duimelijntje weende. Ze wou niet bij de padden wonen. Maar de visjes in de beek hadden haar gehoord. Ze knabbelden het steeltje van het blad door. En het blad dreef weg, ver weg, met Duimelijntje erop. Een mooie witte vlinder fladderde mee. De hele zomer woonde Duimelijntje alleen in het bos. Ze dronk dauwdruppels en at zoete honing uit de bloemen. Maar toen kwam de herfst, en de winter. Het werd koud. Brrr! Het sneeuwde. Duimelijntje had het zo koud. Ze klopte aan bij het huisje van een veldmuis. Mag ik binnenkomen? vroeg ze. Natuurlijk, zei de veldmuis. Kom maar, het is warm bij mij. Op een dag vond Duimelijntje in de gang onder de grond een zwaluw. De zwaluw lag heel stil. Hij was bijna bevroren. Duimelijntje legde een warm dekentje van hooi over hem heen, en elke dag gaf ze hem water. En kijk, de zwaluw werd weer beter! Toen de lente kwam, zei de zwaluw: Dank je wel, lieve Duimelijntje. Kom, ga mee met mij. Duimelijntje klom op zijn rug, en ze vlogen samen weg, hoog door de lucht, over bossen en bergen, naar een warm land vol bloemen. In elke bloem woonde een piepklein mensje, net zo klein als zij! En de bloemenprins gaf haar een paar glinsterende vleugeltjes. Nu kon Duimelijntje zelf vliegen. En de zwaluw kwam haar elk jaar bezoeken en zong een liedje voor haar.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Waaruit komt Duimelijntje?",
+      "right": "🌷",
+      "wrong": [
+        "🥚",
+        "🍎"
+      ],
+      "say": "Duimelijntje komt uit een tulp."
+    },
+    {
+      "question": "Hoe groot is Duimelijntje?",
+      "right": "👍",
+      "wrong": [
+        "🦒",
+        "🏠"
+      ],
+      "say": "Duimelijntje is zo klein als een duim."
+    },
+    {
+      "question": "Waarin slaapt Duimelijntje?",
+      "right": "🥜",
+      "wrong": [
+        "🛏️",
+        "🥾"
+      ],
+      "say": "Duimelijntje slaapt in een walnoot."
+    },
+    {
+      "question": "Welke vogel helpt Duimelijntje?",
+      "right": "🐦",
+      "wrong": [
+        "🦉",
+        "🦆"
+      ],
+      "say": "De zwaluw helpt Duimelijntje."
+    },
+    {
+      "question": "Wat krijgt Duimelijntje van de bloemenprins?",
+      "right": "🧚",
+      "wrong": [
+        "👑",
+        "💍"
+      ],
+      "say": "Duimelijntje krijgt glinsterende vleugeltjes, net als een elfje."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "id": "zeven-geitjes",
+  "version": 1,
+  "title": "De wolf en de zeven geitjes.",
+  "emoji": "🐐",
+  "text": "Er was eens een mama geit met zeven kleine geitjes. Ze woonden in een gezellig huisje aan de rand van het bos. Op een dag moest mama geit naar het bos om eten te halen. Lieve kindjes, zei ze, ik ga even weg. Doe de deur voor niemand open! Want de wolf is slim. Je herkent hem aan zijn zware stem en zijn zwarte poten. Ja mama, riepen de zeven geitjes. Mama ging weg, en de geitjes deden de deur op slot. Klik. Even later werd er geklopt. Klop, klop. Doe open, kindjes, ik ben het, mama! Maar de stem was zwaar en brommerig. Jij bent onze mama niet! riepen de geitjes. Onze mama heeft een zachte, lieve stem. Jij bent de wolf! De wolf ging weg en at een grote pot honing. Toen werd zijn stem zacht en lief. Hij klopte weer. Doe open, kindjes, ik ben het, mama! Maar hij legde zijn poot op de vensterbank. En de geitjes zagen een grote zwarte poot. Onze mama heeft witte pootjes! Jij bent de wolf! De wolf ging naar de bakker en stak zijn poot in de bloem. Toen was zijn poot helemaal wit. Hij klopte weer. Doe open, kindjes, ik ben het, mama! Ze hoorden een zachte stem en ze zagen een witte poot. Dat is mama! riepen ze. En ze deden de deur open. Maar het was de wolf! Help! De geitjes renden alle kanten op. Het eerste geitje kroop onder de tafel. Het tweede in het bed. Het derde in de kast. Het vierde in de keuken. Het vijfde onder de wasteil. Het zesde achter het gordijn. En het zevende, het allerkleinste, kroop in de grote staande klok. De wolf zocht en zocht, maar hij vond niemand. Grrr! Toen werd hij zo moe, dat hij in het gras ging liggen en in slaap viel. Snurk. Toen kwam mama geit thuis. De deur stond open! Het kleinste geitje riep uit de klok: Mama, hier ben ik! De wolf is hier geweest! Mama riep: Kindjes, waar zijn jullie? Eén voor één kwamen ze tevoorschijn. Zeven geitjes, allemaal veilig! Toen nam mama geit haar grote bel, en alle geitjes namen een pan en een lepel. Ze slopen naar de wolf, en toen: Tingeling! Bonk, bonk, bonk! Mèèèèh! De wolf schrok zo hard, dat hij opsprong en het bos in rende, zo ver als hij kon. Hij kwam nooit meer terug. En de zeven geitjes dansten met mama rond het huisje.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Hoeveel geitjes zijn er?",
+      "right": "7️⃣",
+      "wrong": [
+        "3️⃣",
+        "🔟"
+      ],
+      "say": "Er zijn zeven geitjes."
+    },
+    {
+      "question": "Wat eet de wolf om een zachte stem te krijgen?",
+      "right": "🍯",
+      "wrong": [
+        "🍕",
+        "🥕"
+      ],
+      "say": "De wolf eet honing om een zachte stem te krijgen."
+    },
+    {
+      "question": "Waarmee maakt de wolf zijn poot wit?",
+      "right": "🍚",
+      "wrong": [
+        "🥛",
+        "❄️"
+      ],
+      "say": "De wolf maakt zijn poot wit met bloem."
+    },
+    {
+      "question": "Waar verstopt het kleinste geitje zich?",
+      "right": "🕰️",
+      "wrong": [
+        "🛏️",
+        "🛁"
+      ],
+      "say": "Het kleinste geitje verstopt zich in de klok."
+    },
+    {
+      "question": "Waarmee jagen ze de wolf weg?",
+      "right": "🔔",
+      "wrong": [
+        "💧",
+        "🔦"
+      ],
+      "say": "Ze jagen de wolf weg met een bel en pannen."
+    }
+  ]
+}

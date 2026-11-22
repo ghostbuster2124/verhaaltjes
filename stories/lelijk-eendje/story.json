@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "id": "lelijk-eendje",
+  "version": 1,
+  "title": "Het lelijke eendje.",
+  "emoji": "🦢",
+  "text": "Het was zomer. Aan de rand van een vijver, tussen het hoge riet, zat een mama eend op haar nest. Ze zat te broeden op vijf eieren. Op een dag hoorde ze krak, krak! De eitjes gingen open. Er kwamen vier schattige gele kuikentjes uit. Piep, piep, piep! Maar het vijfde ei was groter dan de andere. En het bleef dicht. Mama eend wachtte, en wachtte. En eindelijk: krak! Er kwam een groot, grijs vogeltje uit, met een lange nek en grote poten. Hmm, zei mama eend. Dat is een vreemd eendje. Maar ik zie hem toch graag. De volgende dag ging mama eend met haar kindjes zwemmen. Het grijze eendje kon heel goed zwemmen, zelfs beter dan de andere. Maar de andere dieren lachten hem uit. Kijk eens, zei de kip, wat een lelijk eendje! Die grote poten! Die grijze veren! zei de kalkoen. Zijn broertjes en zusjes wilden niet met hem spelen. Het lelijke eendje was heel verdrietig. Op een nacht liep hij weg. Hij liep door het riet, over de velden, tot bij een groot meer. Daar woonde hij helemaal alleen. Toen kwam de herfst. Op een avond zag het eendje een groep prachtige vogels overvliegen. Ze waren helemaal wit, met lange sierlijke halzen. Ze vlogen naar het zuiden, naar de warme landen. Wat zijn ze mooi, dacht het eendje. Was ik maar zo mooi. Toen kwam de winter. Het was koud, en het meer bevroor. Het eendje zat vast in het ijs. Brrr! Gelukkig kwam er een boer voorbij. Hij brak het ijs met zijn klomp, en hij nam het eendje mee naar huis, in zijn warme jas. Daar mocht hij bij de kachel zitten tot de winter voorbij was. In de lente ging het eendje weer naar het meer. Hij spreidde zijn vleugels, en hij voelde dat ze groot en sterk geworden waren. Hij vloog over het water. Daar zwommen de mooie witte vogels weer. Het eendje boog zijn kop, want hij dacht dat ze hem zouden uitlachen. Maar toen zag hij zichzelf in het water. Hij was geen lelijk grijs eendje meer. Hij was helemaal wit, met een lange sierlijke hals. Hij was een zwaan! Een prachtige witte zwaan! Kom, zwem met ons mee! riepen de andere zwanen. De kindjes aan de kant riepen: Kijk, die nieuwe zwaan is de allermooiste! En de zwaan was zo gelukkig. Hij had eindelijk zijn familie gevonden.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Hoeveel eieren liggen er in het nest?",
+      "right": "5️⃣",
+      "wrong": [
+        "2️⃣",
+        "🔟"
+      ],
+      "say": "Er liggen vijf eieren in het nest."
+    },
+    {
+      "question": "Wie lacht het lelijke eendje uit?",
+      "right": "🐔",
+      "wrong": [
+        "🐶",
+        "🐸"
+      ],
+      "say": "De kip lacht het lelijke eendje uit."
+    },
+    {
+      "question": "Wie helpt het eendje als het meer bevroren is?",
+      "right": "👨‍🌾",
+      "wrong": [
+        "🦊",
+        "🐻"
+      ],
+      "say": "Een boer helpt het eendje."
+    },
+    {
+      "question": "In welk seizoen is het meer bevroren?",
+      "right": "❄️",
+      "wrong": [
+        "☀️",
+        "🍂"
+      ],
+      "say": "In de winter is het meer bevroren."
+    },
+    {
+      "question": "Wat is het lelijke eendje eigenlijk?",
+      "right": "🦢",
+      "wrong": [
+        "🦆",
+        "🦩"
+      ],
+      "say": "Het lelijke eendje is eigenlijk een zwaan."
+    }
+  ]
+}

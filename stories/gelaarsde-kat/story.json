@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "id": "gelaarsde-kat",
+  "version": 1,
+  "title": "De gelaarsde kat.",
+  "emoji": "🐈",
+  "text": "Er was eens een molenaar met drie zonen. Toen de molenaar heel oud was, gaf hij zijn spullen aan zijn zonen. De oudste kreeg de molen. De tweede kreeg de ezel. En de jongste, die Pieter heette, kreeg alleen maar de kat. Pieter was verdrietig. Wat moet ik nu met een kat? Maar toen begon de kat te praten! Wees maar niet verdrietig, baasje. Geef mij een zak en een paar laarzen, en ik zal je rijk maken. Pieter was zo verbaasd dat hij het deed. Hij kocht een paar mooie rode laarzen voor de kat. En de kat trok ze aan en stapte trots door het dorp. Tik, tak, tik, tak. Iedereen noemde hem de gelaarsde kat. De kat was heel slim. Hij ving een dik konijn in het bos, en hij bracht het naar de koning. Majesteit, zei de kat met een diepe buiging, dit is een cadeau van mijn baas, de markies van Carabas. Dat was natuurlijk Pieter, maar de kat had een deftige naam verzonnen. De koning was blij. Elke week bracht de kat een nieuw cadeau. Een konijn, twee patrijzen, een mand met vis. En de koning vroeg zich af: Wie is toch die rijke markies? Op een dag hoorde de kat dat de koning met zijn dochter, de prinses, langs de rivier zou rijden. Snel, baasje, zei de kat. Ga in de rivier zwemmen. Pieter sprong in het water. Toen de koets van de koning voorbijkwam, riep de kat: Help! Help! De kleren van de markies zijn gestolen! De koning liet meteen de mooiste kleren halen, en Pieter mocht in de koets meerijden. De prinses vond hem heel lief. Ondertussen rende de kat vooruit, naar een groot kasteel. Daar woonde een reus die kon toveren. Ik heb gehoord dat u in elk dier kunt veranderen, zei de kat. Zelfs in een leeuw? Natuurlijk! bulderde de reus, en hij veranderde in een grote brullende leeuw. Grrraaauw! De kat schrok, maar hij bleef slim. Amai! Maar in iets heel kleins, zoals een muis, dat lukt u vast niet. Dat lukt me wel! zei de reus. En plop! Hij werd een klein muisje. Toen deed de kat een sprong, en het muisje rende zo snel weg dat het nooit meer terugkwam. Toen de koets bij het kasteel aankwam, stond de kat aan de poort. Welkom in het kasteel van de markies van Carabas! De koning was onder de indruk. Pieter en de prinses werden de beste vrienden, en later trouwden ze. En de kat? Die kreeg elke dag een bordje vis en mocht zijn laarzen altijd aanhouden.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat krijgt de jongste zoon Pieter?",
+      "right": "🐈",
+      "wrong": [
+        "🐴",
+        "🏭"
+      ],
+      "say": "Pieter krijgt de kat."
+    },
+    {
+      "question": "Wat draagt de kat aan zijn pootjes?",
+      "right": "👢",
+      "wrong": [
+        "🧤",
+        "🧦"
+      ],
+      "say": "De kat draagt laarzen."
+    },
+    {
+      "question": "Welk dier brengt de kat naar de koning?",
+      "right": "🐇",
+      "wrong": [
+        "🐘",
+        "🐊"
+      ],
+      "say": "De kat brengt een konijn naar de koning."
+    },
+    {
+      "question": "Waar zwemt Pieter?",
+      "right": "🏞️",
+      "wrong": [
+        "🏊",
+        "🛁"
+      ],
+      "say": "Pieter zwemt in de rivier."
+    },
+    {
+      "question": "In welk klein dier verandert de reus?",
+      "right": "🐭",
+      "wrong": [
+        "🐜",
+        "🐟"
+      ],
+      "say": "De reus verandert in een muisje."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "id": "hans-en-grietje",
+  "version": 1,
+  "title": "Hans en Grietje en het snoephuisje.",
+  "emoji": "🍬",
+  "text": "Aan de rand van een groot bos woonde een arme houthakker met zijn twee kinderen. De jongen heette Hans, en het meisje heette Grietje. Ze hadden niet veel te eten, maar ze hadden elkaar heel graag. Op een dag gingen Hans en Grietje met hun papa mee het bos in om hout te sprokkelen. Hans had een stuk brood in zijn zak. Onderweg strooide hij kleine kruimeltjes op het pad. Zo vinden we altijd de weg terug, zei hij. Papa hakte hout, en de kinderen speelden tussen de bomen. Ze plukten bramen en ze keken naar de eekhoorntjes. Maar ze liepen te ver weg. Toen ze terug wilden gaan, zochten ze de broodkruimeltjes. Maar die waren weg! De vogeltjes hadden ze allemaal opgegeten. Pik, pik, pik. Oei, zei Grietje. Nu zijn we verdwaald. Ze liepen en liepen. Het werd donker. Uuuh, deed de uil. Grietje hield de hand van Hans stevig vast. De volgende ochtend zagen ze een wit vogeltje. Het zong zo mooi, en het vloog voor hen uit. Volg mij! Ze volgden het vogeltje, en toen zagen ze iets ongelofelijks. Een huisje! Maar niet zomaar een huisje. Het dak was van koek. De muren waren van chocolade. De ramen waren van suiker, en rond de deur hingen snoepjes in alle kleuren. Mmm! Hans brak een stukje van het dak af. Grietje likte aan het raam. Knabbel, knabbel, knuisje, wie knabbelt er aan mijn huisje? riep een stem. De deur ging open, en daar stond een oude heks met een lange neus en een kromme stok. Kom maar binnen, kindjes, zei ze lief. Maar ze was helemaal niet lief. Ze sloot Hans op in een hok en Grietje moest de hele dag poetsen en koken. Maar Grietje was slim. Ze zag dat de heks heel slecht kon zien. Op een dag was de heks in de achterkeuken. Grietje pakte stilletjes de sleutel van de tafel. Klik! Ze deed het hok open. Kom, Hans, snel! Ze deden de heks in het hok en draaiden de sleutel om. Nu kan zij niemand meer pesten, zei Grietje. In het huisje vonden ze een kist vol parels en goud. Ze stopten hun zakken vol, en het witte vogeltje bracht hen terug naar huis. Papa stond aan de deur. Hij had de hele nacht gezocht. Hans! Grietje! Hij knuffelde zijn kinderen zo hard. Met de parels kochten ze eten voor de hele winter, en ze waren nooit meer arm.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat strooit Hans op het pad?",
+      "right": "🍞",
+      "wrong": [
+        "🌸",
+        "🪨"
+      ],
+      "say": "Hans strooit broodkruimeltjes op het pad."
+    },
+    {
+      "question": "Wie eten de kruimeltjes op?",
+      "right": "🐦",
+      "wrong": [
+        "🐭",
+        "🐌"
+      ],
+      "say": "De vogeltjes eten de kruimeltjes op."
+    },
+    {
+      "question": "Waarvan is het huisje gemaakt?",
+      "right": "🍬",
+      "wrong": [
+        "🧱",
+        "🧊"
+      ],
+      "say": "Het huisje is gemaakt van koek en snoep."
+    },
+    {
+      "question": "Wie woont er in het snoephuisje?",
+      "right": "🧙‍♀️",
+      "wrong": [
+        "👸",
+        "👮"
+      ],
+      "say": "Een oude heks woont in het snoephuisje."
+    },
+    {
+      "question": "Wie brengt Hans en Grietje terug naar huis?",
+      "right": "🕊️",
+      "wrong": [
+        "🐺",
+        "🐴"
+      ],
+      "say": "Het witte vogeltje brengt Hans en Grietje terug naar huis."
+    }
+  ]
+}

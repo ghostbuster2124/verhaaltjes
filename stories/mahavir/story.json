@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "id": "mahavir",
+  "version": 1,
+  "title": "Mahavir, de kleine dappere prins.",
+  "emoji": "🙏",
+  "text": "Lang geleden, in India, in een stad met mooie paleizen, werd er een klein prinsje geboren. Hij heette Vardhaman. Papa was de koning en mama was de koningin. Toen Vardhaman geboren werd, gebeurden er allemaal mooie dingen. De bloemen gingen open, de bomen kregen vruchten en iedereen in de stad was blij. Vardhaman groeide op en hij was een heel lief jongetje. Hij was vriendelijk voor iedereen. Voor de mensen, voor de dieren, en zelfs voor de kleinste mier op de grond. Als hij wandelde, keek hij goed waar hij zijn voeten zette, zodat hij geen enkel diertje pijn zou doen. Op een dag speelde Vardhaman met zijn vriendjes in de tuin van het paleis. Ze speelden tikkertje rond een grote boom. Hihihi, jij bent hem! Maar plots stopten de vriendjes. Ze werden bleek. Kijk! riep een jongen. Een slang! Rond de grote boom kronkelde een grote, dikke slang. Ssssss, siste de slang. Hij stak zijn tong uit. Alle vriendjes renden weg en verstopten zich achter de struiken. Help! Maar Vardhaman bleef staan. Hij was niet bang. Hij keek de slang rustig aan. Hij dacht: deze slang is ook maar een dier. Misschien is hij zelf bang van al die kinderen die roepen en rennen. Heel langzaam en heel rustig liep Vardhaman naar de slang toe. Hij sprak zacht: Dag slang. Wees maar niet bang. Ik doe je geen pijn. En weet je wat er gebeurde? De slang werd rustig. Hij stopte met sissen. Vardhaman tilde hem heel voorzichtig op en droeg hem ver weg, naar het bos, waar de slang veilig kon wonen. Dag slang! De vriendjes kwamen achter de struiken vandaan. Amai, Vardhaman, wat ben jij dapper! zeiden ze. Jij bent een echte held! En vanaf die dag noemden de mensen hem Mahavir. Mahavir betekent: de grote held. Maar Mahavir zei: Echt dapper zijn, dat is niet vechten. Echt dapper zijn, dat is rustig blijven en lief zijn voor alles wat leeft. Toen Mahavir groot was, ging hij de hele wereld rond om de mensen dat te leren. Doe geen pijn aan mensen, en ook niet aan dieren. Zeg altijd de waarheid. En deel wat je hebt met anderen. En nog altijd, als mensen een mier zien op de grond, en ze stappen er voorzichtig over, dan denken ze aan de lieve prins Mahavir.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat is Vardhaman?",
+      "right": "🤴",
+      "wrong": [
+        "👨‍🌾",
+        "🧙"
+      ],
+      "say": "Vardhaman is een klein prinsje."
+    },
+    {
+      "question": "Welk dier zien de kinderen bij de boom?",
+      "right": "🐍",
+      "wrong": [
+        "🐯",
+        "🐊"
+      ],
+      "say": "De kinderen zien een slang bij de boom."
+    },
+    {
+      "question": "Wat doen de vriendjes als ze de slang zien?",
+      "right": "🏃",
+      "wrong": [
+        "😴",
+        "💃"
+      ],
+      "say": "De vriendjes rennen weg."
+    },
+    {
+      "question": "Waar brengt Vardhaman de slang naartoe?",
+      "right": "🌳",
+      "wrong": [
+        "🏰",
+        "🌊"
+      ],
+      "say": "Vardhaman brengt de slang naar het bos."
+    },
+    {
+      "question": "Waar stapt Mahavir voorzichtig over?",
+      "right": "🐜",
+      "wrong": [
+        "🪨",
+        "🌸"
+      ],
+      "say": "Mahavir stapt voorzichtig over de mieren."
+    }
+  ]
+}

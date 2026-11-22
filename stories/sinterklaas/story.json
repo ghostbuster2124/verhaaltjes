@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "id": "sinterklaas",
+  "version": 1,
+  "title": "Sinterklaas komt naar Antwerpen.",
+  "emoji": "🎁",
+  "text": "Het is november, en het is koud buiten. De blaadjes zijn van de bomen gevallen. Maar in Antwerpen zijn alle kindjes heel blij. Want Sinterklaas komt! Sinterklaas woont in Spanje, ver weg in het zuiden, waar het warm is. Hij is een oude, lieve man met een lange witte baard, een rode mantel en een hoge rode mijter op zijn hoofd. En hij heeft een gouden staf. Elk jaar komt hij met een grote stoomboot naar ons land. En dit jaar komt de boot aan in Antwerpen, op de Schelde! Anaya staat met papa en mama aan het water. Ze heeft een muts op en een warme sjaal. Er zijn heel veel kindjes. Ze zwaaien met vlaggetjes en ze zingen liedjes. En dan horen ze het: Toeeet! Daar komt de stoomboot! Er komt rook uit de schoorsteen. Op het dek staat Sinterklaas. Hij zwaait naar iedereen. En overal op de boot zijn er Pieten. Ze hebben kleurige kleren aan, en een muts met een veer. Ze klimmen in de touwen, ze maken grapjes en ze maken radslagen. Hoera! Dag Sinterklaas! roept Anaya zo hard ze kan. De boot legt aan. Sinterklaas stapt op zijn grote witte paard. Het paard heet Ozosnel. Hij kan over de daken lopen, zelfs als het donker is. De Pieten gooien snoepjes. Pepernootjes, kleine ronde koekjes die naar kaneel smaken. Anaya vangt er een paar in haar muts. Mmm! 's Avonds zet Anaya haar schoen bij de schouw. Ze legt er een wortel in voor het paard, en een tekening voor Sinterklaas. Ze heeft een stoomboot getekend, met Sinterklaas en Anaya erop. En ze zingt een liedje voor ze gaat slapen. Die nacht rijdt Sinterklaas op zijn paard over de daken. Tik, tik, tik, doen de hoeven. Een Piet klimt door de schoorsteen naar beneden. Hij neemt de wortel en de tekening mee. En hij legt iets in de schoen. De volgende ochtend loopt Anaya meteen naar de schouw. De wortel is weg! En in haar schoen ligt een chocoladeletter. Een grote A van chocolade, voor Anaya! En nog een klein pakje. Anaya maakt het open. Het is een boek vol verhaaltjes! Dank je wel, Sinterklaas! roept Anaya. En op 6 december, het grote feest van Sinterklaas, krijgt ze nog een cadeautje. Maar dat is een geheim!",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Waar woont Sinterklaas?",
+      "right": "🇪🇸",
+      "wrong": [
+        "🇮🇳",
+        "🇧🇪"
+      ],
+      "say": "Sinterklaas woont in Spanje."
+    },
+    {
+      "question": "Waarmee komt Sinterklaas naar Antwerpen?",
+      "right": "🚢",
+      "wrong": [
+        "✈️",
+        "🚂"
+      ],
+      "say": "Sinterklaas komt met de stoomboot."
+    },
+    {
+      "question": "Op welk dier rijdt Sinterklaas?",
+      "right": "🐴",
+      "wrong": [
+        "🐘",
+        "🐪"
+      ],
+      "say": "Sinterklaas rijdt op een wit paard."
+    },
+    {
+      "question": "Wat legt Anaya in haar schoen voor het paard?",
+      "right": "🥕",
+      "wrong": [
+        "🍎",
+        "🍪"
+      ],
+      "say": "Anaya legt een wortel in haar schoen."
+    },
+    {
+      "question": "Wat ligt er de volgende ochtend in haar schoen?",
+      "right": "🍫",
+      "wrong": [
+        "🧦",
+        "🪨"
+      ],
+      "say": "Er ligt een chocoladeletter in haar schoen."
+    }
+  ]
+}

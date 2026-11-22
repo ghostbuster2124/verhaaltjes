@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "id": "nijntje-zee",
+  "version": 1,
+  "title": "Nijntje gaat naar zee.",
+  "emoji": "🐰",
+  "text": "Dit is Nijntje. Nijntje is een klein wit konijntje, met twee lange oren en een klein kruisje als mondje. Op een zonnige dag zegt vader: Nijntje, het is zo warm vandaag. Weet je wat we gaan doen? We gaan naar zee! Hoera! roept Nijntje, en ze springt in het rond. Hop, hop, hop! Moeder pakt een grote tas in. Een handdoek, zonnecrème, een flesje water, boterhammen met kaas en een appel. En Nijntje neemt haar emmertje en haar schepje mee. Een rood emmertje en een geel schepje. Ze rijden met de trein naar zee. Tsjoek, tsjoek, tsjoek. Nijntje kijkt uit het raam. Ze ziet koeien, en schapen, en molens. En dan, in de verte, ziet ze iets blauws en glinsterends. De zee! Op het strand is het zand warm onder haar voetjes. Au, au, warm! Nijntje loopt snel naar het water. De golven komen aangerold. Woesj! En dan rollen ze weer terug. Nijntje springt over de golfjes. Hihihi! Het water is koud en het kriebelt aan haar pootjes. Dan gaat Nijntje een zandkasteel bouwen. Ze schept zand in haar emmertje. Ze klopt erop met haar schepje. Klop, klop. Dan draait ze het emmertje om. Een torentje! En nog een torentje, en nog een. Vader graaft een gracht eromheen. Moeder zoekt schelpjes om het kasteel te versieren. Witte schelpjes, roze schelpjes en een grote schelp met strepen. Wat een prachtig kasteel! Maar dan komt er een grote golf. Woeesj! Het water loopt in de gracht. Kijk, zegt Nijntje, nu heeft mijn kasteel een echte gracht vol water! Dan ziet Nijntje iets bewegen in het zand. Het is een klein krabbetje! Het krabbetje loopt heel grappig, opzij, opzij, opzij. Dag krabbetje, zegt Nijntje. Het krabbetje zwaait met zijn scharen en loopt weer naar het water. 's Middags eten ze hun boterhammen op de handdoek. En als toetje krijgt Nijntje een ijsje. Een aardbeienijsje met een wafeltje. Mmm, lekker! Op het einde van de dag is Nijntje moe. Haar oren hangen een beetje. Ze zwaait naar de zee. Dag zee! Tot de volgende keer! In de trein naar huis valt ze in slaap, met een schelpje in haar pootje. Wat was het een mooie dag.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welk dier is Nijntje?",
+      "right": "🐰",
+      "wrong": [
+        "🐱",
+        "🐻"
+      ],
+      "say": "Nijntje is een klein wit konijntje."
+    },
+    {
+      "question": "Waarmee gaan ze naar zee?",
+      "right": "🚆",
+      "wrong": [
+        "✈️",
+        "🚲"
+      ],
+      "say": "Ze gaan met de trein naar zee."
+    },
+    {
+      "question": "Wat bouwt Nijntje op het strand?",
+      "right": "🏰",
+      "wrong": [
+        "🏠",
+        "🚗"
+      ],
+      "say": "Nijntje bouwt een zandkasteel."
+    },
+    {
+      "question": "Welk diertje loopt opzij?",
+      "right": "🦀",
+      "wrong": [
+        "🐌",
+        "🐢"
+      ],
+      "say": "Het krabbetje loopt opzij."
+    },
+    {
+      "question": "Welk ijsje krijgt Nijntje?",
+      "right": "🍓",
+      "wrong": [
+        "🍫",
+        "🍋"
+      ],
+      "say": "Nijntje krijgt een aardbeienijsje."
+    }
+  ]
+}
