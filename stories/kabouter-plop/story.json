@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "kabouter-plop",
+  "version": 1,
+  "title": "Kabouter Plop en de verjaardag.",
+  "emoji": "🍄",
+  "text": "Diep in het bos, waar de bomen hoog zijn en de paddenstoelen groot, staat een klein dorpje. Daar wonen de kabouters. Ze hebben rode puntmutsen en lange baarden. Hun huisjes zijn gemaakt van hout en ze hebben kleine raampjes. De baas van het dorp is Kabouter Plop. Hij is vrolijk en vriendelijk. Hij heeft een witte baard en een rode muts. Hij woont samen met zijn vriendjes. Kabouter Klus kan alles maken met zijn hamer en zijn zaag. Kabouter Lui slaapt het liefst de hele dag in zijn hangmat. En Kabouter Smul eet graag. Heel graag. Taart, pannenkoeken, koekjes. Alles wat lekker is. Er is ook Kabouterinnetje Kwebbel, die heel veel praat. En die altijd alles als eerste weet. Op een ochtend loopt Plop door het bos. Hij fluit een liedje. Dan komt Kwebbel aangelopen. Plop! Plop! Weet je wat ik gehoord heb? Morgen is Lui jarig! En hij denkt dat iedereen het vergeten is! Plop krabt onder zijn muts. Lui is jarig? Dan moeten we een feest geven! Een verrassingsfeest! Maar sssst, Lui mag het niet weten! Plop gaat naar Klus. Klus, kan jij een cadeau maken voor Lui? Klus denkt na. Lui houdt van slapen, zegt hij. Ik maak een nieuwe, superzachte hangmat. Met een kussentje erbij! Plop gaat naar Smul. Smul, kan jij een taart bakken? Smul zijn ogen worden heel groot. Een taart? Een grote taart? Met slagroom en aardbeien? En hij rent al naar zijn keuken. Kwebbel maakt de slingers. Rood en wit, zoals de mutsen. En ze schrijft op een groot bord: Gelukkige verjaardag, Lui! Maar hoe houden ze het geheim? Lui mag niets merken. Klus maakt veel lawaai met zijn hamer. Tok, tok, tok! Lui wordt wakker. Wat is dat voor lawaai? vraagt hij geeuwend. Plop denkt snel na. Oh, dat is Klus. Hij repareert een, eh, een paddenstoel. Een paddenstoel? vraagt Lui. Ja, een kapotte paddenstoel, zegt Plop. Lui haalt zijn schouders op en gaat weer slapen. Dan ruikt Lui iets lekkers. Mmm, wat ruik ik? Taart? Ik bak een taart voor, eh, voor de eekhoorns! roept Smul vanuit de keuken. Lui kijkt verbaasd. Voor de eekhoorns? Maar hij is te moe om verder te vragen. Hij geeuwt en draait zich om. Dan komt Kwebbel voorbij met de slingers. Ze houdt ze achter haar rug. Maar ze kan het niet laten. Ze moet iets zeggen. Lui, weet je wat morgen is? Morgen is het... Kwebbel! roepen Plop, Klus en Smul tegelijk. Kwebbel slaat haar hand voor haar mond. Morgen is het, eh, dinsdag! Lui begrijpt er niets van. De volgende ochtend wordt Lui wakker. Het is heel stil in het dorp. Niemand zegt goeiemorgen. Niemand zegt gelukkige verjaardag. Lui is een beetje verdrietig. Iedereen is het vergeten, zucht hij. Hij loopt naar het huis van Plop. Hij doet de deur open. En dan: Verrassing! Gelukkige verjaardag, Lui! Alle kabouters springen tevoorschijn. Er hangen rood-witte slingers. Er staat een enorme taart met aardbeien en slagroom. En in het midden van de kamer hangt een nieuwe hangmat, superzacht, met een kussentje. Lui kan het niet geloven. Voor mij? Jullie waren het niet vergeten? Natuurlijk niet, zegt Plop. Daarom maakte Klus zoveel lawaai. En daarom rook je taart. Lui moet lachen. En de kapotte paddenstoel? En de eekhoorns? Iedereen lacht. Ze zingen een liedje voor Lui. Ze eten taart. Smul eet drie stukken. Dan gaat Lui in zijn nieuwe hangmat liggen. Mmm, zegt hij. Die is heerlijk. En weet je wat hij doet? Hij valt meteen in slaap. Plop lacht en trekt een dekentje over hem heen. Slaapwel, Lui. Gelukkige verjaardag. Plop! Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welke kleur hebben de mutsen van de kabouters?",
+      "right": "🔴",
+      "wrong": [
+        "🔵",
+        "🟢"
+      ],
+      "say": "De kabouters hebben rode mutsen."
+    },
+    {
+      "question": "Wie is er jarig?",
+      "right": "😴",
+      "wrong": [
+        "😋",
+        "🔨"
+      ],
+      "say": "Kabouter Lui is jarig."
+    },
+    {
+      "question": "Wat maakt Klus als cadeau?",
+      "right": "🛏️",
+      "wrong": [
+        "🚲",
+        "🧸"
+      ],
+      "say": "Klus maakt een nieuwe, zachte hangmat."
+    },
+    {
+      "question": "Wat zit er op de taart?",
+      "right": "🍓",
+      "wrong": [
+        "🍌",
+        "🍫"
+      ],
+      "say": "Op de taart zitten aardbeien en slagroom."
+    },
+    {
+      "question": "Wie verklapt bijna het geheim?",
+      "right": "🗣️",
+      "wrong": [
+        "🤫",
+        "😴"
+      ],
+      "say": "Kwebbel verklapt bijna het geheim."
+    }
+  ],
+  "words": [
+    {
+      "word": "de paddenstoelen",
+      "emoji": "🍄",
+      "say": "In het bos staan grote paddenstoelen."
+    },
+    {
+      "word": "de muts",
+      "emoji": "🎅",
+      "say": "Plop heeft een rode muts."
+    },
+    {
+      "word": "de hamer",
+      "emoji": "🔨",
+      "say": "Klus werkt met zijn hamer."
+    },
+    {
+      "word": "de taart",
+      "emoji": "🎂",
+      "say": "Smul bakt een grote taart."
+    },
+    {
+      "word": "de aardbeien",
+      "emoji": "🍓",
+      "say": "Op de taart liggen aardbeien."
+    },
+    {
+      "word": "de eekhoorns",
+      "emoji": "🐿️",
+      "say": "De taart is voor de eekhoorns, zegt Smul."
+    }
+  ]
+}

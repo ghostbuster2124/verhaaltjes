@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "krishna-sudama",
+  "version": 1,
+  "title": "Krishna en zijn vriend Sudama.",
+  "emoji": "🍚",
+  "text": "Dit is een verhaal uit India, over vriendschap. Lang geleden gingen twee jongens samen naar school. Niet naar een school zoals de jouwe, maar naar een school in het bos. Daar woonde een wijze leraar. De kinderen woonden bij hem. Ze leerden lezen en rekenen. Ze leerden over de sterren en over de planten. En ze hielpen in het huis. Ze haalden water en ze sprokkelden hout. De ene jongen heette Krishna. Hij was een prins. Hij had een blauwe huid en een pauwenveer in zijn haar. De andere jongen heette Sudama. Hij was heel arm. Zijn kleren waren oud en hadden gaten. Maar Krishna en Sudama waren de allerbeste vrienden. Ze deden alles samen. Ze lachten samen. Ze deelden hun eten. Op een dag gingen ze samen hout zoeken in het bos. Toen begon het heel hard te regenen. Er kwam een storm. Ze verstopten zich onder een grote boom. Sudama had een beetje gepofte rijst bij zich, in een doekje. Hij gaf de helft aan Krishna. Ze aten samen onder de boom, terwijl het regende. Krishna vond het de lekkerste rijst van de hele wereld. Toen ze groot werden, gingen ze elk hun eigen weg. Krishna werd koning van een grote stad, Dwarka. Hij woonde in een paleis van goud, aan de zee. Sudama werd een arme leraar. Hij woonde in een klein hutje met zijn vrouw en zijn kinderen. Ze hadden niet veel eten. Soms hadden de kinderen honger. Op een dag zei de vrouw van Sudama: Waarom ga je niet naar je oude vriend Krishna? Hij is nu koning. Misschien kan hij ons helpen. Sudama schaamde zich. Ik kan niet met lege handen bij een koning aankomen, zei hij. Ik heb niets om hem te geven. Zijn vrouw ging naar de buren. Ze leende een handje gepofte rijst. Ze knoopte het in een oud doekje. Geef hem dit, zei ze. Sudama ging op weg. Hij liep dagen en dagen. Zijn voeten deden pijn. Eindelijk kwam hij bij het gouden paleis. Hij stond aan de poort, in zijn oude kleren. De wachters keken naar hem. Wat moet jij hier? Ik ben een vriend van koning Krishna, zei Sudama zachtjes. De wachters lachten. Maar ze gingen het toch vragen. Toen Krishna de naam Sudama hoorde, sprong hij op van zijn troon. Hij rende naar de poort, op blote voeten. Sudama! riep hij. Mijn vriend! Hij omhelsde Sudama heel stevig. Hij huilde van blijdschap. Hij nam Sudama mee naar binnen. Hij liet hem op zijn eigen troon zitten. Hij waste zelf de vermoeide voeten van Sudama. Iedereen in het paleis keek met grote ogen. De koning wast de voeten van een arme man! Sudama hield het doekje met rijst achter zijn rug. Hij schaamde zich. Maar Krishna zag het. Wat heb je daar, Sudama? Heb je iets voor mij meegebracht? Krishna nam het doekje en deed het open. Gepofte rijst! Net als toen in het bos, onder de boom! Hij at er een handje van. Mmm, zei Krishna. Dit is lekkerder dan al het eten in mijn paleis. Ze praatten de hele nacht. Over vroeger, over de school, over de storm. Sudama vergat helemaal om hulp te vragen. Hij was gewoon blij om zijn vriend te zien. De volgende dag ging Sudama terug naar huis. Krishna had hem niets gegeven. Geen goud, geen geld. Maar Sudama was toch gelukkig. Toen hij bij zijn dorp kwam, kon hij zijn ogen niet geloven. Zijn kleine hutje was weg. In de plaats stond een mooi huis, met een tuin vol fruitbomen. Zijn vrouw en kinderen stonden aan de deur, in nieuwe kleren. Ze lachten. Er was eten genoeg. Krishna had het allemaal gedaan, zonder iets te zeggen. Sudama keek naar de hemel. Dank je wel, mijn vriend, fluisterde hij. Want een echte vriend helpt je, ook als je het niet vraagt. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Waar gaan Krishna en Sudama samen naar school?",
+      "right": "🌳",
+      "wrong": [
+        "🏙️",
+        "🏖️"
+      ],
+      "say": "Ze gaan samen naar school in het bos."
+    },
+    {
+      "question": "Wat deelt Sudama met Krishna onder de boom?",
+      "right": "🍚",
+      "wrong": [
+        "🍎",
+        "🍞"
+      ],
+      "say": "Sudama deelt gepofte rijst."
+    },
+    {
+      "question": "Wat wordt Krishna later?",
+      "right": "👑",
+      "wrong": [
+        "👨‍🌾",
+        "👨‍🍳"
+      ],
+      "say": "Krishna wordt koning."
+    },
+    {
+      "question": "Wat wast Krishna bij Sudama?",
+      "right": "🦶",
+      "wrong": [
+        "👕",
+        "🍽️"
+      ],
+      "say": "Krishna wast de voeten van Sudama."
+    },
+    {
+      "question": "Wat vindt Sudama thuis?",
+      "right": "🏡",
+      "wrong": [
+        "⛺",
+        "🚗"
+      ],
+      "say": "Sudama vindt een mooi nieuw huis."
+    }
+  ],
+  "words": [
+    {
+      "word": "de rijst",
+      "emoji": "🍚",
+      "say": "Sudama geeft gepofte rijst."
+    },
+    {
+      "word": "de boom",
+      "emoji": "🌳",
+      "say": "Ze schuilen onder een grote boom."
+    },
+    {
+      "word": "de storm",
+      "emoji": "🌧️",
+      "say": "Er komt een storm met regen."
+    },
+    {
+      "word": "het paleis",
+      "emoji": "🏰",
+      "say": "Krishna woont in een gouden paleis."
+    },
+    {
+      "word": "de voeten",
+      "emoji": "🦶",
+      "say": "De voeten van Sudama doen pijn."
+    },
+    {
+      "word": "het huis",
+      "emoji": "🏡",
+      "say": "Sudama krijgt een mooi huis."
+    }
+  ]
+}

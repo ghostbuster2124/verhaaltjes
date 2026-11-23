@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "navratri",
+  "version": 1,
+  "title": "Navratri. Dansen met Garba.",
+  "emoji": "💃",
+  "text": "Riya is zes jaar. Ze woont in Antwerpen, maar haar familie komt uit Gujarat, in India. Vandaag is ze heel opgewonden. Want het is Navratri! Navratri betekent negen nachten. Het is een groot feest dat negen avonden duurt. Elke avond dansen de mensen. Ze dansen voor Durga, de godin die heel sterk en dapper is. Durga rijdt op een leeuw. Ze heeft veel armen en ze beschermt iedereen tegen het kwaad. Mama heeft een prachtige jurk voor Riya gekocht. Hij is rood en groen en hij heeft kleine spiegeltjes erop genaaid. Als Riya beweegt, glinsteren de spiegeltjes als sterretjes. De jurk heet een chaniya choli. Riya krijgt ook armbandjes, heel veel, die rinkelen als ze haar arm schudt. En een glinsterend sieraad voor op haar voorhoofd. Mama, ik ben een prinses! roept Riya. Papa trekt een lange, gekleurde kurta aan. Haar kleine broertje Arjun heeft een oranje kurta en een klein tulbandje. Hij ziet er heel grappig uit. Oma doet een mooie sari aan. Ze gaan met de auto naar een grote zaal. Daar zijn heel veel mensen uit Gujarat, uit heel België. Iedereen draagt de mooiste kleren. Rood, geel, roze, groen, blauw. Het lijkt wel een regenboog. In het midden van de zaal staat een klein altaar met een beeld van Durga. Er branden lampjes. Er liggen bloemen en fruit. Eerst doen ze aarti. Iedereen zingt, en de priester zwaait met een schaaltje met een vlammetje. Riya vouwt haar handen. Dan begint de muziek. Er is een trommel, de dhol. Dum, dum, dadum. En er is iemand die zingt. De mensen vormen grote kringen rond het altaar. En ze beginnen te dansen. Dit is garba. Je klapt in je handen. Je draait rond. Je stapt naar voren en naar achter. Klap, klap, draai. Klap, klap, draai. Riya kent de pasjes. Oma heeft ze haar geleerd in de woonkamer. Riya danst in de kring, met oma aan de ene kant en mama aan de andere kant. De kring draait en draait. De rokjes waaien. De spiegeltjes glinsteren. De armbandjes rinkelen. De muziek gaat sneller. Dum dum dadum, dum dum dadum! Iedereen lacht. Zelfs Arjun danst mee, een beetje wiebelend, met zijn tulbandje scheef. Na de garba komt de dandiya. Nu krijgt iedereen twee stokjes. Mooie stokjes, versierd met rode en gouden linten. Je danst met een partner. Je tikt je stokjes tegen elkaar en tegen de stokjes van je partner. Tik, tik, tik-tik! Riya danst met papa. Tik, tak! Dan draait ze rond, en danst ze met de volgende persoon. Een jongen met een groene kurta. Tik, tak! Dan weer een volgende. Een oude meneer met een grijze baard, die heel snel kan dansen. Tik, tak, tik! Riya lacht zo hard dat ze bijna haar stokjes laat vallen. Oma, vraagt Riya, waarom dansen we eigenlijk? Oma vertelt het verhaal. Lang geleden was er een boze demon. Hij was heel sterk. Niemand kon hem verslaan. Toen kwam de godin Durga, op haar leeuw. Ze vocht negen dagen en negen nachten. En op de tiende dag versloeg ze de demon. Daarom dansen we negen nachten. Om te vieren dat het goede wint van het slechte. Riya knikt. Het goede wint altijd, zegt ze. Als we dapper zijn, zegt oma. Net als Durga. Na het dansen is er eten. Dhokla, dat is zacht en geel en een beetje zuur. Samosa's. En zoete laddoos. Riya eet er drie. Het is laat als ze naar huis rijden. Arjun slaapt al in zijn stoeltje. Riya kijkt door het raam naar de lichtjes van de stad. Haar voeten doen een beetje pijn. Maar ze is gelukkig. Mama, zegt ze. Nog acht avonden! Mama lacht. Nog acht avonden dansen. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Hoeveel nachten duurt Navratri?",
+      "right": "9️⃣",
+      "wrong": [
+        "3️⃣",
+        "7️⃣"
+      ],
+      "say": "Navratri duurt negen nachten."
+    },
+    {
+      "question": "Op welk dier rijdt de godin Durga?",
+      "right": "🦁",
+      "wrong": [
+        "🐘",
+        "🐴"
+      ],
+      "say": "Durga rijdt op een leeuw."
+    },
+    {
+      "question": "Wat zit er op de jurk van Riya?",
+      "right": "🪞",
+      "wrong": [
+        "🌸",
+        "⭐"
+      ],
+      "say": "Er zitten kleine spiegeltjes op haar jurk."
+    },
+    {
+      "question": "Wat doe je bij de garba?",
+      "right": "👏",
+      "wrong": [
+        "🏊",
+        "😴"
+      ],
+      "say": "Je klapt in je handen en draait rond."
+    },
+    {
+      "question": "Waarmee dans je de dandiya?",
+      "right": "🥢",
+      "wrong": [
+        "🎈",
+        "🎀"
+      ],
+      "say": "Je danst met twee stokjes."
+    }
+  ],
+  "words": [
+    {
+      "word": "dansen",
+      "emoji": "💃",
+      "say": "Riya danst de hele avond."
+    },
+    {
+      "word": "de jurk",
+      "emoji": "👗",
+      "say": "Riya draagt een mooie jurk."
+    },
+    {
+      "word": "de leeuw",
+      "emoji": "🦁",
+      "say": "Durga rijdt op een leeuw."
+    },
+    {
+      "word": "de trommel",
+      "emoji": "🥁",
+      "say": "De trommel doet dum, dum."
+    },
+    {
+      "word": "de stokjes",
+      "emoji": "🥢",
+      "say": "Bij de dandiya tik je met stokjes."
+    },
+    {
+      "word": "de spiegeltjes",
+      "emoji": "🪞",
+      "say": "De spiegeltjes glinsteren."
+    }
+  ]
+}

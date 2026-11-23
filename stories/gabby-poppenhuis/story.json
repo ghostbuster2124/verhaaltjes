@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "gabby-poppenhuis",
+  "version": 1,
+  "title": "Gabby en het poppenhuis.",
+  "emoji": "🏠",
+  "text": "Dit is Gabby. Gabby is een meisje met krullen en een grote glimlach. Ze heeft een roze haarband en twee kattenoortjes op haar hoofd. Gabby houdt van katten. Heel veel. En ze houdt van knutselen en van verrassingen. In haar kamer staat een groot poppenhuis. Het is roze, met heel veel kamertjes. En het is een magisch poppenhuis! Als Gabby haar oortjes opzet en de magische woorden zegt, dan wordt ze heel klein. Pop, pop, pop! En dan kan ze in het poppenhuis wandelen. Vandaag doet Gabby haar oortjes op. Ze houdt haar handen voor haar ogen. Ze zegt: Pop, pop, pop! En kijk, ze wordt kleiner en kleiner. Ze is zo klein als een muis. En ze staat voor de deur van het poppenhuis. Daar wacht Pandy al. Pandy is haar beste vriendje. Hij is een pluchen panda, maar met een kattenstaart. Want in het poppenhuis zijn alle dieren een beetje kat. Hallo Gabby! zegt Pandy. Wat doen we vandaag? Vandaag geven we een verrassingsfeestje, zegt Gabby. Voor Kitty Fee! Ze is jarig! Kitty Fee is een klein katje met vlindervleugels. Ze woont in de tuin van het poppenhuis. Maar ze mag het niet weten. Het is een verrassing! Sssst! Ze gaan eerst naar de keuken. Daar woont Cakey. Cakey is een cupcake die kan praten. Hij is een beetje een huilebalk, maar hij bakt de lekkerste taarten. Cakey, roept Gabby, kan jij een taart bakken voor Kitty Fee? Een taart? Voor een feestje? Ooh, wat leuk! Cakey springt op en neer. Ze doen bloem in een kom. En eieren. Krak, krak. En suiker. Cakey roert en roert. Dan gaat de taart in de oven. Ondertussen gaan Gabby en Pandy naar de knutselkamer. Daar woont Baby Box. Baby Box is een kartonnen doos, met een schaar en een lijmstift. Zij kan alles knutselen. Baby Box, zegt Gabby, we hebben slingers nodig. En een grote kaart! Baby Box knipt en plakt. Ze maakt slingers van papier, in alle kleuren van de regenboog. En een grote kaart in de vorm van een vlinder. Gabby schrijft erop: Gelukkige verjaardag, Kitty Fee! Daarna gaan ze naar de badkamer. Daar woont MerCat, een zeemeermin-kat. Ze heeft een glinsterende staart. Ze maakt bubbels. Mag ik bubbels maken voor het feestje? vraagt MerCat. Natuurlijk! zegt Gabby. Dan horen ze iets. Ting-a-ling! Er komt een kleine doos aangerold. Een verrassingsdoos! Die komt altijd als er iets speciaals gebeurt. Gabby doet de doos open. Er zitten feesthoedjes in! Voor iedereen een! Alles is klaar. De taart is gebakken. De slingers hangen. De bubbels zweven. Iedereen draagt een hoedje. Nu moeten ze Kitty Fee halen. Gabby gaat naar de tuin. Kitty Fee zit tussen de bloemen. Ze ziet er een beetje droevig uit. Wat is er, Kitty Fee? Iedereen is vandaag zo druk, zegt Kitty Fee. Ik denk dat ze mijn verjaardag vergeten zijn. Gabby glimlacht. Kom eens mee, zegt ze. Ik wil je iets laten zien. Ze lopen samen naar de grote kamer. Gabby doet de deur open. Verrassing! roept iedereen. Kitty Fee kijkt met grote ogen. De slingers, de bubbels, de taart, al haar vrienden. Haar vleugeltjes beginnen te fladderen van blijdschap. Voor mij? Allemaal voor mij? Ze blaast de kaarsjes uit. Ze krijgt de vlinderkaart. En dan dansen ze allemaal. Cakey, Pandy, Baby Box, MerCat, Kitty Fee en Gabby. Na het feest is het tijd om terug te gaan. Gabby zwaait naar al haar vriendjes. Ze zegt: Pop, pop, pop! En ze wordt weer groot, in haar eigen kamer. Ze kijkt in het poppenhuis. Daar, in de grote kamer, hangen nog de slingers. Gabby lacht. Tot morgen, vriendjes. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat heeft Gabby op haar hoofd?",
+      "right": "🐱",
+      "wrong": [
+        "🐰",
+        "🐻"
+      ],
+      "say": "Gabby heeft kattenoortjes op haar hoofd."
+    },
+    {
+      "question": "Hoe klein wordt Gabby?",
+      "right": "🐭",
+      "wrong": [
+        "🐘",
+        "🦒"
+      ],
+      "say": "Gabby wordt zo klein als een muis."
+    },
+    {
+      "question": "Wat bakt Cakey?",
+      "right": "🎂",
+      "wrong": [
+        "🍕",
+        "🥖"
+      ],
+      "say": "Cakey bakt een taart."
+    },
+    {
+      "question": "Welke vleugels heeft Kitty Fee?",
+      "right": "🦋",
+      "wrong": [
+        "🐦",
+        "🦇"
+      ],
+      "say": "Kitty Fee heeft vlindervleugels."
+    },
+    {
+      "question": "Wat zit er in de verrassingsdoos?",
+      "right": "🥳",
+      "wrong": [
+        "🧸",
+        "🍬"
+      ],
+      "say": "Er zitten feesthoedjes in de doos."
+    }
+  ],
+  "words": [
+    {
+      "word": "het poppenhuis",
+      "emoji": "🏠",
+      "say": "Het poppenhuis is magisch."
+    },
+    {
+      "word": "de panda",
+      "emoji": "🐼",
+      "say": "Pandy is een panda met een kattenstaart."
+    },
+    {
+      "word": "de taart",
+      "emoji": "🎂",
+      "say": "Cakey bakt een lekkere taart."
+    },
+    {
+      "word": "de schaar",
+      "emoji": "✂️",
+      "say": "Baby Box knipt met een schaar."
+    },
+    {
+      "word": "de bubbels",
+      "emoji": "🫧",
+      "say": "MerCat maakt bubbels."
+    },
+    {
+      "word": "de vlinder",
+      "emoji": "🦋",
+      "say": "De kaart heeft de vorm van een vlinder."
+    }
+  ]
+}

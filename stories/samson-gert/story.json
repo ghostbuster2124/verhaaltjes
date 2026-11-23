@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "samson-gert",
+  "version": 1,
+  "title": "Samson en Gert en de verloren bal.",
+  "emoji": "🐕",
+  "text": "In een vrolijk huis in Vlaanderen wonen twee beste vrienden. Gert en Samson. Gert is een jongen met een vriendelijke lach. En Samson? Samson is een grote witte hond met lange haren. Maar Samson is geen gewone hond. Samson kan praten! En hij praat soms een beetje verkeerd. Dan zegt hij hondelieske in plaats van hondje. Of Gertje, ik heb een probleempje. Samson en Gert wonen niet alleen. Naast hen woont de burgemeester. Hij is een beetje streng en hij draagt altijd een mooi pak. En hij heeft een fiets. Er is ook Octaaf De Bolle, de man van de winkel. Hij verkoopt koekjes en snoepjes. En Alberto Vermicelli, de Italiaanse kapper, met zijn grappige snor. Op een zonnige zaterdag zegt Gert: Samson, vandaag gaan we voetballen in het park! Joepie! roept Samson. Hij kwispelt zo hard, dat de lamp bijna omvalt. Samson heeft een rode bal. Het is zijn lievelingsbal. Hij heeft hem gekregen voor zijn verjaardag. Ze gaan naar het park. Gert schiet de bal. Samson rent erachteraan. Hij vangt de bal met zijn neus. Hij duwt hem terug. Ze spelen en lachen. Tot Gert een heel harde trap geeft. De bal vliegt hoog door de lucht. Over de bomen. Over de haag. En plons! Hij valt in de vijver van de burgemeester. Oei, zegt Gert. Oei, oei, oei, zegt Samson. Ze lopen naar de vijver. De bal drijft in het midden. Hij is te ver weg om te pakken. Samson probeert met zijn poot. Te kort. Gert probeert met een stok. Te kort. Dan komt de burgemeester naar buiten. Wat gebeurt hier? Wat doen jullie bij mijn vijver? Gert legt alles uit. De burgemeester zucht. Ik heb een groot net, zegt hij. Ik haal het. Maar dan komt Octaaf De Bolle voorbij, met een grote doos koekjes. Ik kan helpen! zegt hij. Hij leunt over de vijver met zijn arm. Maar hij leunt te ver. En plons! Octaaf valt in het water! Hij staat tot aan zijn middel in de vijver. Zijn koekjes drijven rond. Ach, mijn koekjes! roept Octaaf. Samson lacht zo hard dat hij omrolt. Hahaha! Dan komt Alberto aangelopen. Mamma mia! Wat is hier aan de hand? Octaaf staat in de vijver, roept Gert. En onze bal ook! Alberto denkt na. Hij streelt zijn snor. Ik heb een idee! zegt hij. Hij rent naar zijn kapperszaak en komt terug met een haardroger. Een heel grote. Hij zet hem aan. Woesj! De wind blaast over het water. De bal begint te drijven. Langzaam, naar de kant. Dichter en dichter. Samson pakt hem met zijn mond. Hebbes! roept hij. Ook Octaaf klimt uit de vijver. Hij is kletsnat. De burgemeester komt terug met zijn grote net. Maar hij ziet dat alles al opgelost is. Wel, zegt hij. Dan heb ik dit niet meer nodig. Gert helpt Octaaf om zijn koekjes op te rapen. Ze zijn nat. Maar de eendjes in de vijver vinden ze heel lekker. Kwak, kwak! Octaaf moet lachen. Dan zijn de koekjes toch nog opgegeten, zegt hij. Samson geeft Octaaf een lik over zijn gezicht. Sorry, Octaafke, dat ik lachte. Die avond zitten ze met z'n allen in de tuin. Gert speelt op de gitaar. De burgemeester brengt limonade. Octaaf brengt nieuwe koekjes. En Alberto zingt een Italiaans liedje. Samson ligt met zijn rode bal tussen zijn poten. Gertje, zegt hij, dit was de beste zaterdag van het hele jaar. Gert aait hem over zijn kop. Zeker weten, Samson. Zeker weten. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welk dier is Samson?",
+      "right": "🐕",
+      "wrong": [
+        "🐈",
+        "🐻"
+      ],
+      "say": "Samson is een grote witte hond."
+    },
+    {
+      "question": "Welke kleur heeft de bal van Samson?",
+      "right": "🔴",
+      "wrong": [
+        "🔵",
+        "🟡"
+      ],
+      "say": "De bal van Samson is rood."
+    },
+    {
+      "question": "Waar valt de bal in?",
+      "right": "💧",
+      "wrong": [
+        "🌳",
+        "🏠"
+      ],
+      "say": "De bal valt in de vijver."
+    },
+    {
+      "question": "Wie valt er in de vijver?",
+      "right": "🧔",
+      "wrong": [
+        "👦",
+        "🐕"
+      ],
+      "say": "Octaaf De Bolle valt in de vijver."
+    },
+    {
+      "question": "Waarmee blaast Alberto de bal naar de kant?",
+      "right": "💨",
+      "wrong": [
+        "🎈",
+        "🧹"
+      ],
+      "say": "Alberto blaast met een grote haardroger."
+    }
+  ],
+  "words": [
+    {
+      "word": "de hond",
+      "emoji": "🐕",
+      "say": "Samson is een hond die kan praten."
+    },
+    {
+      "word": "de bal",
+      "emoji": "⚽",
+      "say": "Samson speelt met zijn rode bal."
+    },
+    {
+      "word": "de eendjes",
+      "emoji": "🦆",
+      "say": "De eendjes eten de koekjes."
+    },
+    {
+      "word": "de koekjes",
+      "emoji": "🍪",
+      "say": "Octaaf heeft een doos koekjes."
+    },
+    {
+      "word": "de gitaar",
+      "emoji": "🎸",
+      "say": "Gert speelt op de gitaar."
+    },
+    {
+      "word": "de limonade",
+      "emoji": "🍋",
+      "say": "De burgemeester brengt limonade."
+    }
+  ]
+}

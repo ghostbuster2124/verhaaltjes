@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "chhota-bheem",
+  "version": 1,
+  "title": "Chhota Bheem en de laddoos.",
+  "emoji": "🟠",
+  "text": "In het koninkrijk Dholakpur, in India, woont een jongen die Bheem heet. Iedereen noemt hem Chhota Bheem. Chhota betekent klein. Maar Bheem is niet klein in kracht! Hij is de sterkste jongen van het hele land. Bheem heeft een geheim. Als hij laddoos eet, dan wordt hij nog sterker. Laddoos zijn zoete, ronde balletjes. Zijn mama maakt de lekkerste van het hele dorp. Bheem heeft veel vriendjes. Chutki is zijn beste vriendin. Zij maakt de laddoos samen met haar mama. Raju is de kleinste, en hij is heel dapper. Jaggu is een aapje dat kan praten en van boom naar boom springt. En dan zijn er Kalia en de tweeling Dholu en Bholu. Kalia is groot en een beetje een opschepper. Hij wil altijd beter zijn dan Bheem. Op een dag is er een groot feest in het paleis. De koning, Raja Indraverma, heeft een dochter. Prinses Indumati. En het is haar verjaardag. Iedereen uit het dorp mag komen. Er zijn spelletjes, muziek en een grote taart. Maar tijdens het feest gebeurt er iets vreselijks. Er komt een grote wolk stof aan. En uit de wolk komen rovers op paarden! Ze worden geleid door een man met een zwarte snor. Het is de gemene Kirmada. Hij wil het koninkrijk voor zichzelf. Zijn rovers nemen de gouden kroon van de koning mee. En ze nemen prinses Indumati mee naar hun kamp in de bergen. Iedereen schrikt. De koning huilt. Wie kan mijn dochter redden? vraagt hij. Bheem stapt naar voren. Ik ga haar halen, zegt hij. Kalia lacht. Jij? Jij bent maar een kleine jongen! Maar Bheem is niet bang. Chutki geeft hem een zakje met laddoos. Voor als je kracht nodig hebt, zegt ze. Bheem, Raju en Jaggu gaan op weg. Ook Kalia gaat mee. Want hij wil niet dat Bheem alleen de held wordt. Ze lopen door het bos. Ze steken een rivier over. Jaggu springt van boom naar boom en kijkt van bovenaf. Ik zie het kamp! roept hij. Daar, bij de grote rots! In het kamp zitten de rovers rond een vuur. De prinses zit in een houten kooi. Kirmada lacht. Niemand kan mij tegenhouden! Bheem heeft een plan. Jaggu, jij maakt lawaai aan de ene kant. Raju, jij sluipt naar de kooi. Kalia, jij helpt Raju. En ik zorg voor de rovers. Jaggu gooit met kokosnoten. Bonk, bonk! De rovers rennen naar hem toe. Raju en Kalia sluipen naar de kooi. Kalia is sterk. Hij trekt de deur open. Krak! De prinses is vrij. Maar Kirmada ziet het. Hij komt aangestormd met zijn rovers. Bheem staat in de weg. Hij neemt een laddoo uit zijn zakje. Hap! En hij voelt de kracht in zijn armen. Hij tilt een grote boomstam op. En hij laat hem rollen, recht op de rovers af. De rovers vallen om als kegels. Kirmada valt in de modder. Hij is zo vies, dat hij wegrent. En de rovers rennen achter hem aan. Bheem neemt de gouden kroon. Samen brengen ze prinses Indumati terug naar het paleis. Iedereen juicht. De koning is zo blij. Bheem, jij bent een echte held! Bheem schudt zijn hoofd. Ik was het niet alleen, zegt hij. Jaggu, Raju en Kalia hebben ook geholpen. Kalia wordt helemaal rood. Hij geeft Bheem een hand. Je bent een goede vriend, Bheem. Die avond gaat het feest verder. En de koning laat de grootste schaal laddoos van het hele land brengen. Voor alle kinderen van Dholakpur. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat maakt Bheem nog sterker?",
+      "right": "🟠",
+      "wrong": [
+        "🥦",
+        "🍌"
+      ],
+      "say": "Laddoos maken Bheem nog sterker."
+    },
+    {
+      "question": "Welk dier is Jaggu?",
+      "right": "🐒",
+      "wrong": [
+        "🐘",
+        "🦜"
+      ],
+      "say": "Jaggu is een aapje dat kan praten."
+    },
+    {
+      "question": "Wie wordt er meegenomen door de rovers?",
+      "right": "👸",
+      "wrong": [
+        "👑",
+        "👵"
+      ],
+      "say": "Prinses Indumati wordt meegenomen."
+    },
+    {
+      "question": "Waarmee gooit Jaggu?",
+      "right": "🥥",
+      "wrong": [
+        "🍎",
+        "🪨"
+      ],
+      "say": "Jaggu gooit met kokosnoten."
+    },
+    {
+      "question": "Wat laat Bheem naar de rovers rollen?",
+      "right": "🪵",
+      "wrong": [
+        "⚽",
+        "🛞"
+      ],
+      "say": "Bheem laat een grote boomstam rollen."
+    }
+  ],
+  "words": [
+    {
+      "word": "de laddoos",
+      "emoji": "🟠",
+      "say": "Laddoos zijn zoete balletjes."
+    },
+    {
+      "word": "het aapje",
+      "emoji": "🐒",
+      "say": "Jaggu is een praatgraag aapje."
+    },
+    {
+      "word": "de kroon",
+      "emoji": "👑",
+      "say": "De rovers nemen de kroon mee."
+    },
+    {
+      "word": "de paarden",
+      "emoji": "🐴",
+      "say": "De rovers rijden op paarden."
+    },
+    {
+      "word": "de kokosnoten",
+      "emoji": "🥥",
+      "say": "Jaggu gooit met kokosnoten."
+    },
+    {
+      "word": "het vuur",
+      "emoji": "🔥",
+      "say": "De rovers zitten rond het vuur."
+    }
+  ]
+}

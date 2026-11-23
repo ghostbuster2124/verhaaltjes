@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "up-huis",
+  "version": 1,
+  "title": "Up. Het vliegende huis.",
+  "emoji": "🎈",
+  "text": "Carl is een oude meneer. Hij heeft een vierkant hoofd, een grote bril en een wandelstok met vier tennisballetjes eronder. Carl woont in een klein, kleurig huisje. Vroeger woonde hij er met zijn vrouw Ellie. Ellie en Carl hadden samen een droom. Ze wilden ooit naar de Paradijswaterval, in Zuid-Amerika. Een prachtige waterval, boven op een hoge berg, ver weg in de jungle. Maar ze zijn er nooit geraakt. Het leven was altijd te druk. En nu is Ellie er niet meer. Carl is alleen. Hij mist haar heel erg. Rondom het huisje van Carl worden grote gebouwen gebouwd. Er zijn kranen en graafmachines. De bouwers willen dat Carl verhuist. Maar Carl wil niet weg uit het huis van Ellie. Dan krijgt Carl een idee. Een heel gek idee. Carl was vroeger ballonverkoper. Hij heeft nog duizenden ballonnen. Op een ochtend blaast hij ze allemaal op. Rode, gele, blauwe, groene, paarse. Duizenden en duizenden ballonnen. Hij bindt ze vast aan de schoorsteen. En dan, krak, krak, krak. Het huis komt los van de grond. Het zweeft omhoog! Hoger en hoger, boven de stad. Carl staat aan het raam en lacht. Op naar de Paradijswaterval! Maar dan wordt er op de deur geklopt. Klop, klop. Midden in de lucht? Carl doet de deur open. Daar staat een jongetje op de veranda. Hij heet Russell. Hij is een padvinder, met een pet en een hemd vol badges. Hij wilde Carl helpen, om een badge te verdienen. Voor het helpen van oude mensen. En hij was op de veranda toen het huis opsteeg! Carl zucht. Nu moet Russell mee. Ze vliegen dagen en nachten. Over zeeën en over bergen. Door een grote storm. En eindelijk komen ze in Zuid-Amerika. Het huis landt bijna. Ze kunnen de Paradijswaterval zien, aan de andere kant van een grote berg. Carl en Russell trekken het huis aan een touw achter zich aan. Het zweeft boven hen, zoals een grote ballon. In de jungle ontmoeten ze een grote, gekleurde vogel. Ze is zo groot als een struisvogel, met veren in alle kleuren van de regenboog. Ze houdt van chocolade. Russell noemt haar Kevin. Ook al is Kevin eigenlijk een mama-vogel, met kleine kuikentjes thuis. Dan komt er een hond aangerend. Een gewone bruine hond, met een halsband. Hallo! zegt de hond. Ik ben Dug! Russell en Carl kijken verbaasd. Een sprekende hond! Zijn halsband kan zijn gedachten vertalen. Dug is lief en grappig. Ik heb jullie net ontmoet en ik hou al van jullie! zegt hij. Maar er is ook een slechte man in de jungle. Een ontdekkingsreiziger met een groot luchtschip. Hij wil Kevin vangen, om haar mee te nemen naar de stad. Hij vangt Kevin met een net. Russell wil haar redden. Carl moet kiezen. Gaat hij naar de waterval, zijn droom? Of helpt hij zijn nieuwe vrienden? Carl kijkt in het plakboek van Ellie. Op de laatste bladzijde heeft Ellie iets geschreven. Dank je voor het mooie avontuur. Nu is het jouw beurt voor een nieuw avontuur. Carl begrijpt het. Het avontuur zat niet in de waterval. Het avontuur was hun leven samen. En nu heeft hij een nieuw avontuur. Met Russell, met Kevin en met Dug. Carl gooit zware dingen uit zijn huis, zodat het weer kan vliegen. Ze vliegen naar het luchtschip. Ze bevrijden Kevin. Kevin rent terug naar haar kuikentjes in de jungle. Het huis van Carl zakt naar beneden. Het landt precies naast de Paradijswaterval. Precies waar Ellie altijd van droomde. Carl en Russell vliegen terug naar huis met het luchtschip. Dug gaat mee. En Carl geeft Russell zijn laatste badge. Het is een druppel druivensapdop, die Ellie hem gaf toen ze klein waren. De Ellie-badge. Voor de dapperste padvinder van de wereld. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Hoe laat Carl zijn huis vliegen?",
+      "right": "🎈",
+      "wrong": [
+        "🚀",
+        "🪁"
+      ],
+      "say": "Carl bindt duizenden ballonnen aan zijn huis."
+    },
+    {
+      "question": "Waar willen Carl en Ellie naartoe?",
+      "right": "🏞️",
+      "wrong": [
+        "🏙️",
+        "🏖️"
+      ],
+      "say": "Ze willen naar de Paradijswaterval."
+    },
+    {
+      "question": "Wie staat er op de veranda?",
+      "right": "👦",
+      "wrong": [
+        "👵",
+        "🐕"
+      ],
+      "say": "Het jongetje Russell staat op de veranda."
+    },
+    {
+      "question": "Waar houdt de grote vogel Kevin van?",
+      "right": "🍫",
+      "wrong": [
+        "🐟",
+        "🍉"
+      ],
+      "say": "Kevin houdt van chocolade."
+    },
+    {
+      "question": "Welk dier kan praten met zijn halsband?",
+      "right": "🐕",
+      "wrong": [
+        "🐈",
+        "🦜"
+      ],
+      "say": "De hond Dug kan praten."
+    }
+  ],
+  "words": [
+    {
+      "word": "de ballonnen",
+      "emoji": "🎈",
+      "say": "Carl blaast duizenden ballonnen op."
+    },
+    {
+      "word": "het huisje",
+      "emoji": "🏠",
+      "say": "Het huisje vliegt door de lucht."
+    },
+    {
+      "word": "de waterval",
+      "emoji": "🏞️",
+      "say": "De waterval is in Zuid-Amerika."
+    },
+    {
+      "word": "de vogel",
+      "emoji": "🐦",
+      "say": "De vogel heeft alle kleuren."
+    },
+    {
+      "word": "de hond",
+      "emoji": "🐕",
+      "say": "De hond heet Dug."
+    },
+    {
+      "word": "de jungle",
+      "emoji": "🌴",
+      "say": "Ze wandelen door de jungle."
+    }
+  ]
+}

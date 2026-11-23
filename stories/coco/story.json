@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "coco",
+  "version": 1,
+  "title": "Coco en de gitaar.",
+  "emoji": "🎸",
+  "text": "In een kleurig dorpje in Mexico woont een jongen die Miguel heet. Hij is twaalf jaar. Hij woont samen met zijn grote familie. Zijn papa, zijn mama, zijn oma, en zijn heel oude overgrootmoeder, Mama Coco. Mama Coco is zo oud, dat ze bijna niet meer praat. Ze zit de hele dag in haar stoel en glimlacht. De familie van Miguel maakt schoenen. Iedereen maakt schoenen. Maar Miguel wil geen schoenen maken. Miguel wil muziek maken! Hij wil gitaar spelen en zingen. Maar dat mag niet. Want in zijn familie is muziek verboden. Lang geleden is de overgrootvader van Mama Coco weggegaan om muziek te maken. Hij is nooit meer teruggekomen. Sindsdien wil oma niets meer horen van muziek. Geen gitaar, geen liedjes, niets. Maar Miguel oefent stiekem. Op zolder heeft hij een oude gitaar, die hij zelf heeft gemaakt. Hij speelt heel zachtjes, zodat niemand het hoort. Het is de Dag van de Doden. Dat is een groot feest in Mexico. Dan denken de mensen aan hun familie die gestorven is. Ze zetten foto's op een tafel, met bloemen, kaarsjes en lekker eten. Oranje bloemen, overal. Want ze geloven dat de familie die gestorven is, die nacht op bezoek komt. Er is een muziekwedstrijd op het plein. Miguel wil meedoen. Maar zijn gitaar is kapot. Hij gaat naar het graf van een beroemde zanger. Daar hangt een prachtige witte gitaar. Miguel neemt de gitaar van de muur en speelt één noot. Pling! En dan gebeurt er iets magisch. Alles wordt anders. De mensen op het kerkhof kunnen hem niet meer zien. Maar hij ziet nu andere mensen. Skeletten! Vrolijke skeletten, in mooie kleren. Het zijn de mensen die gestorven zijn, op bezoek bij hun familie. Miguel is per ongeluk in het Land van de Doden terechtgekomen! Hij loopt over een brug van oranje bloemenblaadjes. Aan de andere kant is een prachtige stad, vol lichtjes en kleuren. Er vliegen grote, kleurrijke dieren rond, met vleugels. Daar ontmoet Miguel zijn familie. Zijn oudoom en oudtante, die hij alleen van foto's kent. Ze zijn heel verbaasd hem te zien. Miguel, je moet terug naar huis, zeggen ze. Voor de zon opkomt! Anders moet je hier blijven. Miguel ontmoet ook een grappig skelet met een strohoed. Hij heet Hector. Hector speelt ook gitaar. Hij helpt Miguel. Samen zingen ze en spelen ze. Miguel leert veel van Hector. En dan ontdekt Miguel iets bijzonders. Hector is eigenlijk de overgrootvader van Mama Coco! De man die met zijn gitaar wegging. Hij wilde wel terugkomen, maar het lukte niet meer. Hij heeft zijn dochter altijd gemist. Hij schreef een liedje voor haar. Een liedje dat hij altijd zong. Hector is verdrietig. Mama Coco is heel oud, zegt hij. Als zij mij vergeet, dan verdwijn ik helemaal. Want in het Land van de Doden besta je zolang iemand aan je denkt. Miguel moet nu snel terug. De familie geeft hem een bloemenblaadje en een zegen. En pfoeit! Miguel is terug op het kerkhof. Het is bijna ochtend. Hij rent naar huis, met de gitaar. Hij gaat naar Mama Coco. Ze zit in haar stoel. Haar ogen zijn dicht. Mama Coco, zegt Miguel zacht. Ik ken je papa. Hij heeft je nooit vergeten. Hij neemt de gitaar en hij speelt het liedje van Hector. Het liedje dat Hector voor zijn dochter schreef. En Mama Coco doet haar ogen open. Ze glimlacht. En ze begint mee te zingen. Heel zachtjes. Haar stem trilt. Papa, zegt ze. Iedereen in de familie huilt van ontroering. Zelfs oma. Mama Coco haalt een oude foto uit haar la. Het is een foto van Hector. Die zet ze op de tafel bij de andere foto's. Nu wordt Hector nooit meer vergeten. En vanaf die dag is muziek niet meer verboden in het huis van Miguel. De hele familie zingt. En Miguel speelt gitaar, elke avond, voor Mama Coco. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat wil Miguel graag doen?",
+      "right": "🎸",
+      "wrong": [
+        "👟",
+        "⚽"
+      ],
+      "say": "Miguel wil gitaar spelen en zingen."
+    },
+    {
+      "question": "Wat maakt de familie van Miguel?",
+      "right": "👞",
+      "wrong": [
+        "🍞",
+        "🧸"
+      ],
+      "say": "De familie maakt schoenen."
+    },
+    {
+      "question": "Welke kleur hebben de bloemen op het feest?",
+      "right": "🟠",
+      "wrong": [
+        "🔵",
+        "🟣"
+      ],
+      "say": "De bloemen zijn oranje."
+    },
+    {
+      "question": "Wie ziet Miguel in het Land van de Doden?",
+      "right": "💀",
+      "wrong": [
+        "👻",
+        "🧛"
+      ],
+      "say": "Miguel ziet vrolijke skeletten."
+    },
+    {
+      "question": "Wat doet Mama Coco als Miguel het liedje speelt?",
+      "right": "🎶",
+      "wrong": [
+        "😴",
+        "😡"
+      ],
+      "say": "Mama Coco zingt mee."
+    }
+  ],
+  "words": [
+    {
+      "word": "de gitaar",
+      "emoji": "🎸",
+      "say": "Miguel speelt op de gitaar."
+    },
+    {
+      "word": "de schoenen",
+      "emoji": "👞",
+      "say": "De familie maakt schoenen."
+    },
+    {
+      "word": "de bloemen",
+      "emoji": "🌼",
+      "say": "Overal liggen oranje bloemen."
+    },
+    {
+      "word": "de kaarsjes",
+      "emoji": "🕯️",
+      "say": "Op de tafel staan kaarsjes."
+    },
+    {
+      "word": "de skeletten",
+      "emoji": "💀",
+      "say": "De skeletten zijn vrolijk."
+    },
+    {
+      "word": "de foto",
+      "emoji": "🖼️",
+      "say": "Mama Coco heeft een oude foto."
+    }
+  ]
+}

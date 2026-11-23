@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "mighty-bheem",
+  "version": 1,
+  "title": "Mighty Little Bheem en de grote pot.",
+  "emoji": "💪",
+  "text": "In een klein dorpje in India woont een baby'tje. Hij heet Bheem. Bheem is nog heel klein. Hij draagt alleen een luier en een klein oranje sjaaltje. Hij heeft een plukje haar bovenop zijn hoofd. Hij praat nog niet. Hij lacht alleen maar. Maar Bheem is niet zomaar een baby. Bheem is supersterk! Zo sterk als een olifant. Hij kan een koe optillen. Hij kan een boom duwen. En als hij valt, dan valt de grond kapot en niet Bheem. Op een ochtend wordt Bheem wakker. Zijn mama is in de keuken. Ze maakt laddoos. Dat zijn ronde, zoete balletjes, geel en lekker. Bheem houdt van laddoos. Mmm! Mama zet de laddoos in een grote koperen pot. En de pot zet ze hoog op de bovenste plank. Want ze zijn voor het feest van vanavond. Niet voor nu, Bheem! zegt mama met een knipoog. Mama gaat naar de markt. Bheem blijft thuis bij oma. Maar oma valt in slaap in haar stoel. Zzzz. Bheem kijkt naar de pot. Hij kijkt naar oma. Hij kijkt weer naar de pot. Hij kruipt naar de kast. Hij klimt op een krukje. Op een stoel. Op een tafel. Hij strekt zijn armpje. Bijna! Maar dan wiebelt de tafel. En Bheem duikt naar beneden. Bonk! Gelukkig is Bheem heel sterk. Hij heeft geen pijn. Hij lacht alleen maar. Maar dan heeft hij een idee. Als hij niet bij de pot kan, dan moet de pot maar bij hem komen. Hij duwt tegen de kast. Een klein duwtje. Maar Bheem is zo sterk, dat de hele kast door de kamer schuift. Krrrrr! De pot wiebelt. Hij valt van de plank. Bheem vangt hem op met één hand. Hihi! Hij doet de pot open. Hij neemt een laddoo. En nog een. Maar dan hoort hij iets buiten. Mèèèh! Het is een klein geitje. Het geitje zit vast in de put, achter het huis. Het blaat heel bang. Bheem kruipt naar buiten, met de pot onder zijn arm. De put is diep. Het geitje staat helemaal onderaan, in het water. Bheem kijkt in de put. Hij legt de pot neer. Hij pakt het touw van de emmer. Hij laat de emmer zakken, tot bij het geitje. Het geitje springt in de emmer. En Bheem trekt. Hij trekt zo hard, dat de emmer omhoogschiet als een raket. Zoeeef! Het geitje vliegt door de lucht. Bheem vangt het op. Het geitje likt zijn gezicht. Mèèh, mèèh! Dan komen er kinderen aanlopen uit het dorp. Ze hebben het gezien. Wat een sterke baby! Ze klappen in hun handen. Het geitje is van een klein meisje, Chutki. Ze geeft Bheem een kusje op zijn wang. Dank je wel, Bheem! Bheem lacht en wijst naar de pot. Wil je een laddoo? vraagt Chutki. Bheem knikt. Hij deelt de laddoos uit. Een voor Chutki, een voor elk kind uit het dorp. En een voor het geitje. Dan komt mama terug van de markt. Ze ziet de kast midden in de kamer. Ze ziet de lege pot. Ze ziet alle kinderen met suiker op hun gezicht. Bheem! roept ze. Waar zijn mijn laddoos? Maar dan vertelt Chutki wat er gebeurd is. Over het geitje in de put. Over hoe Bheem het gered heeft. Mama glimlacht. Ze tilt Bheem op en geeft hem een dikke knuffel. Mijn kleine held, zegt ze. Dan maak ik maar nieuwe laddoos voor het feest. Die avond is er een groot feest in het dorp. Met lichtjes, muziek en heel veel laddoos. En Bheem? Die zit op de schoot van oma, met een laddoo in elke hand. En hij slaapt. Want redden en delen, daar word je moe van. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat is Bheem nog?",
+      "right": "👶",
+      "wrong": [
+        "👴",
+        "👦"
+      ],
+      "say": "Bheem is nog een baby'tje."
+    },
+    {
+      "question": "Wat maakt mama in de keuken?",
+      "right": "🟠",
+      "wrong": [
+        "🍕",
+        "🍰"
+      ],
+      "say": "Mama maakt laddoos, ronde zoete balletjes."
+    },
+    {
+      "question": "Waar zitten de laddoos in?",
+      "right": "🏺",
+      "wrong": [
+        "📦",
+        "🧺"
+      ],
+      "say": "De laddoos zitten in een grote koperen pot."
+    },
+    {
+      "question": "Welk dier zit vast in de put?",
+      "right": "🐐",
+      "wrong": [
+        "🐈",
+        "🐔"
+      ],
+      "say": "Een klein geitje zit vast in de put."
+    },
+    {
+      "question": "Wat doet Bheem met de laddoos?",
+      "right": "🤲",
+      "wrong": [
+        "🗑️",
+        "🔒"
+      ],
+      "say": "Bheem deelt de laddoos uit."
+    }
+  ],
+  "words": [
+    {
+      "word": "de baby",
+      "emoji": "👶",
+      "say": "Bheem is een sterke baby."
+    },
+    {
+      "word": "de pot",
+      "emoji": "🏺",
+      "say": "De laddoos zitten in de pot."
+    },
+    {
+      "word": "het geitje",
+      "emoji": "🐐",
+      "say": "Het geitje zit in de put."
+    },
+    {
+      "word": "de put",
+      "emoji": "🕳️",
+      "say": "De put is heel diep."
+    },
+    {
+      "word": "de emmer",
+      "emoji": "🪣",
+      "say": "Het geitje springt in de emmer."
+    },
+    {
+      "word": "de oma",
+      "emoji": "👵",
+      "say": "Oma slaapt in haar stoel."
+    }
+  ]
+}

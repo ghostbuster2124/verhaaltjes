@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "leo-hagedis",
+  "version": 1,
+  "title": "Leo, de oude hagedis.",
+  "emoji": "🦎",
+  "text": "In een klas van een lagere school, in een glazen bak, woont een hagedis. Hij heet Leo. Leo is heel oud. Hij is wel vierenzeventig jaar! Hij woont al zijn hele leven in deze klas. Elk jaar komen er nieuwe kinderen. En elk jaar kijkt Leo naar hen van achter zijn glas. In dezelfde bak woont een schildpad. Hij heet Squirtle. Squirtle is ook oud, en een beetje mopperig. Hij praat de hele dag. Leo en Squirtle zijn al heel lang vrienden. Op een dag hoort Leo iets wat hem doet schrikken. Een hagedis zoals jij wordt maar vijfenzeventig jaar oud, zegt de juf tegen de kinderen. Leo telt. Vierenzeventig. Nog maar één jaar! Ik heb nog zoveel dingen niet gedaan, denkt hij. Ik ben nog nooit buiten geweest. Ik heb nog nooit de zee gezien. Ik moet ontsnappen! Leo maakt een plan om te ontsnappen. Maar dan komt er een nieuwe juf. Ze is streng. Ze zegt: Elk weekend neemt een kind het klasdier mee naar huis. Om ervoor te zorgen. Het eerste weekend gaat Leo mee met een meisje. Ze heet Summer. Summer praat heel veel. Zoveel, dat de andere kinderen haar een beetje vervelend vinden. Ze zit altijd alleen. In haar kamer zet Summer de bak van Leo op haar bureau. Ze vertelt hem over haar dag. En dan, wauw, praat Leo terug. Je kan praten! roept Summer. Sssst, zegt Leo. Het is een geheim. Niemand mag het weten. Maar weet je wat? Ik kan je helpen. Leo zegt tegen Summer: Probeer eens om te luisteren. Laat de andere kinderen ook eens iets vertellen. Stel vragen. Dan willen ze vast graag met je praten. Maandag probeert Summer het. Ze luistert. Ze stelt vragen. En weet je wat? Twee meisjes willen naast haar zitten bij het eten. Summer is zo blij. Elk weekend gaat Leo naar een ander kind. Een jongen die bang is om te zwemmen. Leo zegt tegen hem: Iedereen is wel ergens bang voor. Begin klein. Doe eerst je voeten in het water. Een meisje dat niet kan slapen omdat haar mama en papa ruzie maken. Leo luistert naar haar. Hij zegt: Het is niet jouw schuld. En je mag het vertellen aan iemand die je vertrouwt. Een jongen die altijd met zijn tablet speelt en nooit buiten komt. Leo neemt hem mee naar de tuin. Kijk, zegt Leo. Een echte vlinder. Veel mooier dan op je scherm. Elk kind denkt dat Leo alleen met hem praat. Elk kind denkt dat hij een geheim heeft met Leo. Maar Leo helpt ze allemaal. En langzaam veranderen de kinderen. Ze worden dapperder. Ze worden vriendelijker. Ze helpen elkaar. Op een dag ontdekken de kinderen dat Leo met iedereen praat. Ze zijn eerst een beetje boos. Maar dan beseffen ze iets. Leo heeft ons allemaal geholpen, zegt Summer. Nu moeten wij hem helpen. Want de kinderen weten van Leo zijn grote wens. Hij wil de wereld zien, voor het te laat is. Op de laatste dag van het schooljaar gaan de kinderen op uitstap. Naar zee! Ze nemen Leo mee, in een klein mandje. Leo ziet voor het eerst de zee. Het water is zo groot en zo blauw. De golven ruisen. De zon schijnt warm op zijn schubben. Hij voelt het zand onder zijn pootjes. Dit is het mooiste wat ik ooit gezien heb, fluistert Leo. En weet je wat het mooiste nieuws is? De juf heeft het nagekeken. Ze had het mis. Hagedissen zoals Leo kunnen veel ouder worden dan vijfenzeventig. Wel honderd jaar! Leo heeft nog heel veel tijd. Hij zucht van opluchting. En hij lacht. Na de zomer komen er nieuwe kinderen in de klas. En Leo zit weer in zijn glazen bak, met Squirtle. Klaar om te luisteren. Klaar om te helpen. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welk dier is Leo?",
+      "right": "🦎",
+      "wrong": [
+        "🐍",
+        "🐸"
+      ],
+      "say": "Leo is een hagedis."
+    },
+    {
+      "question": "Welk dier woont bij Leo in de bak?",
+      "right": "🐢",
+      "wrong": [
+        "🐟",
+        "🐹"
+      ],
+      "say": "De schildpad Squirtle woont bij Leo."
+    },
+    {
+      "question": "Waar woont Leo?",
+      "right": "🏫",
+      "wrong": [
+        "🏠",
+        "🏥"
+      ],
+      "say": "Leo woont in een klas op school."
+    },
+    {
+      "question": "Wat moet Summer leren?",
+      "right": "👂",
+      "wrong": [
+        "🏃",
+        "✍️"
+      ],
+      "say": "Summer moet leren luisteren."
+    },
+    {
+      "question": "Waar gaat Leo naartoe op het einde?",
+      "right": "🌊",
+      "wrong": [
+        "🏔️",
+        "🏙️"
+      ],
+      "say": "Leo gaat naar de zee."
+    }
+  ],
+  "words": [
+    {
+      "word": "de hagedis",
+      "emoji": "🦎",
+      "say": "Leo is een oude hagedis."
+    },
+    {
+      "word": "de schildpad",
+      "emoji": "🐢",
+      "say": "De schildpad heet Squirtle."
+    },
+    {
+      "word": "de school",
+      "emoji": "🏫",
+      "say": "Leo woont in een school."
+    },
+    {
+      "word": "de vlinder",
+      "emoji": "🦋",
+      "say": "De vlinder is mooier dan op een scherm."
+    },
+    {
+      "word": "de zee",
+      "emoji": "🌊",
+      "say": "Leo ziet voor het eerst de zee."
+    },
+    {
+      "word": "het zand",
+      "emoji": "🏖️",
+      "say": "Leo voelt het zand onder zijn pootjes."
+    }
+  ]
+}

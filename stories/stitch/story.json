@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "stitch",
+  "version": 1,
+  "title": "Lilo en Stitch.",
+  "emoji": "👽",
+  "text": "Op een zonnig eiland in Hawaï woont een meisje dat Lilo heet. Ze is zes jaar. Ze woont samen met haar grote zus Nani in een klein huis bij het strand. Lilo houdt van surfen, van vissen voeren en van rare liedjes. Maar Lilo voelt zich soms alleen. De andere meisjes willen niet met haar spelen. Ze vinden haar een beetje vreemd. Heel ver weg, in de ruimte, woont een klein blauw wezentje. Hij heeft grote oren, zwarte ogen en vier armpjes. Hij heet Experiment 626. Hij is gemaakt door een gekke professor. Hij is heel sterk en heel snel, en een beetje ondeugend. Hij bijt in alles en hij maakt alles kapot. Op een dag ontsnapt hij met een klein ruimteschip. Zoeeef! Hij vliegt door de sterren en crasht op aarde. Precies op het eiland van Lilo. Lilo wil zo graag een hondje. Nani neemt haar mee naar het asiel. Daar zit, tussen de honden, het blauwe wezentje. Hij doet alsof hij een hond is. Waf, zegt hij. Lilo kijkt naar hem en lacht. Die wil ik! Lilo noemt hem Stitch. Stitch woont nu bij Lilo en Nani. Maar hij is niet zoals een gewone hond. Hij bouwt een stad van koekjes en hij gooit ermee. Hij eet het hele koffiekopje op. Hij speelt op de gitaar, heel luid. Hij maakt een gat in de muur. Nani wordt boos. Lilo, die hond moet weg! Maar Lilo wil Stitch houden. Hij is mijn vriend, zegt ze. Ze leert Stitch dingen. Ze leert hem lief zijn. Ze leert hem surfen op de golven. Ze leert hem dansen. En ze vertelt hem over een woord uit Hawaï. Ohana. Ohana betekent familie, zegt Lilo. En familie betekent dat niemand achterblijft. Of vergeten wordt. Stitch kijkt naar Lilo. Ohana, zegt hij zachtjes. Hij heeft nog nooit een familie gehad. Maar de gekke professor is op zoek naar Stitch. Hij komt met een groot ruimteschip naar de aarde. Op een avond neemt hij Stitch mee. En Lilo ook! Het ruimteschip vliegt de lucht in. Nani schreeuwt. Lilo! Stitch kan ontsnappen. Hij ziet het ruimteschip met Lilo erin. En hij weet het. Ohana betekent dat niemand achterblijft. Stitch springt in een ander ruimteschip. Hij vliegt erachteraan. Hij is zo snel. Hij springt op het grote schip. Hij klimt naar binnen. En hij bevrijdt Lilo! Samen vliegen ze terug naar het strand. Nani rent naar hen toe en knuffelt Lilo heel hard. Dan komt de grote baas van de ruimte. Een vrouw met een lange nek. Ze zegt: Dit wezentje moet mee. Het is een gevaarlijk experiment. Maar Lilo houdt Stitch vast. Hij is niet gevaarlijk. Hij is mijn familie. Ik heb hem geadopteerd. Kijk, ik heb er een papier van. De grote baas leest het papier. Ze kijkt naar Stitch. Stitch kijkt heel lief terug. Ze glimlacht. Goed, zegt ze. Dan mag hij blijven. Maar je moet goed op hem passen. En zo blijft Stitch op het eiland. Bij Lilo en Nani. Hij maakt nog steeds soms iets kapot. Maar hij leert elke dag een beetje meer. En elke avond zitten ze met z'n drieën op het strand, en kijken ze naar de zonsondergang. Lilo, Nani en Stitch. Een kleine familie, maar wel een goede. Ohana. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welke kleur heeft Stitch?",
+      "right": "🔵",
+      "wrong": [
+        "🟢",
+        "🔴"
+      ],
+      "say": "Stitch is blauw."
+    },
+    {
+      "question": "Hoeveel armpjes heeft Stitch?",
+      "right": "4️⃣",
+      "wrong": [
+        "2️⃣",
+        "6️⃣"
+      ],
+      "say": "Stitch heeft vier armpjes."
+    },
+    {
+      "question": "Waar komt Stitch vandaan?",
+      "right": "🚀",
+      "wrong": [
+        "🌊",
+        "🌳"
+      ],
+      "say": "Stitch komt uit de ruimte."
+    },
+    {
+      "question": "Wat leert Lilo aan Stitch op de golven?",
+      "right": "🏄",
+      "wrong": [
+        "⛷️",
+        "🚴"
+      ],
+      "say": "Lilo leert Stitch surfen."
+    },
+    {
+      "question": "Wat betekent ohana?",
+      "right": "👨‍👩‍👧",
+      "wrong": [
+        "🍕",
+        "🌺"
+      ],
+      "say": "Ohana betekent familie."
+    }
+  ],
+  "words": [
+    {
+      "word": "het eiland",
+      "emoji": "🏝️",
+      "say": "Lilo woont op een eiland."
+    },
+    {
+      "word": "het strand",
+      "emoji": "🏖️",
+      "say": "Hun huis staat bij het strand."
+    },
+    {
+      "word": "het ruimteschip",
+      "emoji": "🚀",
+      "say": "Stitch vliegt met een ruimteschip."
+    },
+    {
+      "word": "surfen",
+      "emoji": "🏄",
+      "say": "Lilo houdt van surfen."
+    },
+    {
+      "word": "de gitaar",
+      "emoji": "🎸",
+      "say": "Stitch speelt luid op de gitaar."
+    },
+    {
+      "word": "de koekjes",
+      "emoji": "🍪",
+      "say": "Stitch bouwt een stad van koekjes."
+    }
+  ]
+}

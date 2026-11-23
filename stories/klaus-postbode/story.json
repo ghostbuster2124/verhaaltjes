@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "klaus-postbode",
+  "version": 1,
+  "title": "Klaus en de postbode.",
+  "emoji": "✉️",
+  "text": "Er was eens een jongen die Jesper heette. Zijn papa was de baas van alle postbodes van het land. Jesper was rijk en een beetje lui. Hij lag liever in zijn zachte bed dan te werken. Op een dag zei zijn papa: Jesper, het is tijd dat je iets leert. Je wordt postbode. In een klein stadje, helemaal in het noorden. Het heet Smeerensburg. En je moet er zesduizend brieven versturen in één jaar. Anders mag je niet terugkomen. Smeerensburg lag op een koud eiland vol sneeuw. Het was er grijs en donker. De mensen waren niet vriendelijk. Ze hadden altijd ruzie. Twee families maakten al honderden jaren ruzie met elkaar. Ze gooiden met sneeuwballen en met vis. De kinderen gingen niet naar school. En niemand schreef ooit een brief. Jesper zuchtte. Zesduizend brieven? Hier schrijft niemand ook maar één brief! Op een dag liep Jesper ver weg, buiten het stadje. Daar, diep in het bos, stond een groot houten huis. Daar woonde een grote, stille man met een lange witte baard. Hij heette Klaus. Klaus woonde alleen. Hij was houthakker. Maar in zijn huis lag heel veel speelgoed. Houten speelgoed, dat hij zelf had gemaakt. Treintjes, eendjes, poppen. Waarom maak je al dat speelgoed? vroeg Jesper. Klaus zei niets. Hij keek een beetje droevig. Later hoorde Jesper het verhaal. Klaus en zijn vrouw hadden heel graag kinderen gewild. Maar ze hadden er nooit gekregen. Toen zijn vrouw stierf, bleef Klaus alleen achter met al het speelgoed. Op een dag vond Jesper een tekening. Een kind had een tekening gemaakt van zichzelf, heel verdrietig. Jesper bracht het speelgoed van Klaus naar dat kind. Stiekem, 's nachts, door de schoorsteen. De volgende ochtend was het kind zo blij. Het vertelde het aan alle andere kinderen. En toen schreven de kinderen allemaal brieven. Aan Klaus! Lieve Klaus, mag ik ook een speeltje? Jesper was blij. Brieven! Die moest hij bezorgen! Hij hielp Klaus. Elke nacht reden ze met een slee door het stadje. Klaus droeg een rode jas, want het was koud. Ze gingen door de schoorsteen naar binnen. Ze legden het speelgoed in de huizen. En ze gingen weer weg, voor iemand wakker werd. Maar er was een probleem. Klaus had niet genoeg speelgoed voor iedereen. Dus zei Jesper tegen de kinderen: Klaus geeft alleen speelgoed aan lieve kinderen. En toen veranderde er iets. De kinderen werden lief. Ze hielpen hun mama en papa. Ze maakten geen ruzie meer. Ze wilden leren schrijven, om brieven te sturen. Er kwam weer een school. Een juf leerde hen lezen en schrijven. En de mama's en papa's? Die zagen hoe lief hun kinderen waren. Ze begonnen ook lief te doen. Ze zeiden goeiedag tegen elkaar. Ze hielpen elkaar. Zelfs de twee families die altijd ruzie maakten, gingen samen eten. Smeerensburg werd een warm, vrolijk stadje, met lichtjes en muziek. Aan het eind van het jaar had Jesper meer dan zesduizend brieven bezorgd. Hij mocht terug naar huis. Naar zijn zachte bed. Maar Jesper wilde niet meer weg. Hij bleef in Smeerensburg. Want hier had hij vrienden. En hier had hij geleerd hoe fijn het is om iets te geven. Elk jaar, op dezelfde winternacht, reden Jesper en Klaus met de slee rond om speelgoed te brengen. Na een tijd werd Klaus oud. En op een nacht, in de sneeuw, verdween hij. Niemand weet waarheen. Maar elk jaar, op die winternacht, ziet Jesper een slee in de lucht. Met een man met een rode jas en een lange witte baard. En de kinderen krijgen nog altijd speelgoed. Weet jij hoe die man nu heet? Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat moet Jesper worden?",
+      "right": "✉️",
+      "wrong": [
+        "👨‍🍳",
+        "👮"
+      ],
+      "say": "Jesper moet postbode worden."
+    },
+    {
+      "question": "Wat maakt Klaus?",
+      "right": "🪀",
+      "wrong": [
+        "🍞",
+        "👞"
+      ],
+      "say": "Klaus maakt houten speelgoed."
+    },
+    {
+      "question": "Hoe komen ze 's nachts in de huizen?",
+      "right": "🏠",
+      "wrong": [
+        "🪟",
+        "🚪"
+      ],
+      "say": "Ze gaan door de schoorsteen."
+    },
+    {
+      "question": "Welke kleur heeft de jas van Klaus?",
+      "right": "🔴",
+      "wrong": [
+        "🟢",
+        "🔵"
+      ],
+      "say": "Klaus draagt een rode jas."
+    },
+    {
+      "question": "Hoe rijden ze rond in de nacht?",
+      "right": "🛷",
+      "wrong": [
+        "🚲",
+        "🚗"
+      ],
+      "say": "Ze rijden met een slee."
+    }
+  ],
+  "words": [
+    {
+      "word": "de brieven",
+      "emoji": "✉️",
+      "say": "De kinderen schrijven brieven."
+    },
+    {
+      "word": "de sneeuw",
+      "emoji": "❄️",
+      "say": "Het eiland ligt vol sneeuw."
+    },
+    {
+      "word": "de baard",
+      "emoji": "🧔",
+      "say": "Klaus heeft een witte baard."
+    },
+    {
+      "word": "de treintjes",
+      "emoji": "🚂",
+      "say": "Klaus maakt houten treintjes."
+    },
+    {
+      "word": "de slee",
+      "emoji": "🛷",
+      "say": "Ze rijden met de slee."
+    },
+    {
+      "word": "de school",
+      "emoji": "🏫",
+      "say": "Er komt weer een school."
+    }
+  ]
+}
