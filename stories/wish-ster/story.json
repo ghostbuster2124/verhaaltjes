@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "wish-ster",
+  "version": 1,
+  "title": "Asha en de wensster.",
+  "emoji": "🌠",
+  "text": "Op een eiland in de zee ligt een prachtig koninkrijk. Het heet Rosas. De huizen zijn wit, met rode daken. Er zijn bloemen overal. En in het midden staat een groot kasteel op een heuvel. In het kasteel woont koning Magnifico. Hij is een tovenaar. Iedereen in Rosas heeft een wens. Een grote droom. Als je achttien jaar wordt, geef je je wens aan de koning. Hij bewaart alle wensen in zijn kasteel. Ze zweven als glinsterende bellen in een grote zaal. En één keer per maand vervult de koning één wens. Dan is er een groot feest. In Rosas woont een meisje van zeventien jaar. Ze heet Asha. Ze heeft krullen en ze draagt een paarse jurk. Ze woont samen met haar mama en haar opa. Haar opa is honderd jaar. Hij heeft zijn wens al heel lang geleden aan de koning gegeven. Zijn wens is om met zijn muziek mensen te inspireren. Maar zijn wens is nog altijd niet vervuld. Asha wil heel graag voor de koning werken. Ze heeft een gesprek met hem. Ze vraagt of hij de wens van opa wil vervullen. Maar de koning zegt nee. En Asha ontdekt iets. De koning vervult bijna nooit een wens. Hij houdt ze allemaal voor zichzelf. En de mensen zijn hun wens vergeten. Ze weten niet meer waar ze van droomden. Ze voelen zich een beetje leeg. Asha is boos en verdrietig. Die avond gaat ze naar het bos. Ze kijkt naar de sterren. Ze wenst met heel haar hart. Ik wens dat iedereen zijn wens terugkrijgt! En dan gebeurt er iets magisch. Een ster valt uit de hemel. Zoeeef! Ze landt vlak naast Asha. Het is een klein sterretje. Ze is geel en rond, met een vrolijk gezichtje. Ze straalt en ze glinstert. Ze kan niet praten, maar ze kan wel heel veel. Asha noemt haar Ster. Ster strooit sterrenstof op alles. En dan kunnen de dieren en de bomen praten! Asha heeft ook een geitje. Het heet Valentino. Het draagt een pyjama met stippen. Als Ster sterrenstof op hem strooit, begint Valentino te praten. Met een heel zware, diepe stem. Iedereen moet lachen. Asha, Ster en Valentino maken een plan. Ze sluipen in het kasteel. Ze willen de wensen bevrijden. Asha's vrienden helpen. Zeven vrienden, die elk een beetje anders zijn. Eén die altijd niest, één die altijd moe is, één die altijd lacht. Maar de koning ziet het. Hij wordt woedend. Hij pakt een oud, verboden toverboek. Zijn ogen worden groen. Hij wordt een boze tovenaar. Hij vangt Ster in zijn toverstaf. Asha is wanhopig. Maar dan denkt ze aan iets wat haar opa altijd zei. We zijn allemaal gemaakt van sterren. Asha gaat op het plein staan. Ze roept naar alle mensen van Rosas. Ze vertelt hun de waarheid. Over hun wensen. En ze zegt: Iedereen kan wensen. Als we samen wensen, zijn we sterker dan de koning! Alle mensen beginnen te wensen. Met heel hun hart. Ze steken hun handen omhoog. En uit hun handen komt licht. Sterrenlicht! Al dat licht samen is zo sterk, dat de toverstaf van de koning breekt. Ster is vrij! En alle wensen zweven uit het kasteel. Als glinsterende bellen. Elke wens vliegt terug naar de juiste persoon. Opa krijgt zijn wens terug. Hij pakt zijn luit. Hij speelt het mooiste liedje dat Asha ooit gehoord heeft. De koning wordt opgesloten in zijn eigen toverspiegel. En de koningin, die eigenlijk heel lief is, wordt de nieuwe baas van Rosas. Ster moet terug naar de hemel. Maar ze geeft Asha een cadeau. Een toverstokje met een sterretje. Asha wordt de eerste goede fee. Ze helpt mensen om hun wensen waar te maken. En als je vannacht een vallende ster ziet, doe dan een wens. Wie weet is het Ster, die je wens komt halen. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat bewaart de koning in zijn kasteel?",
+      "right": "🫧",
+      "wrong": [
+        "🪙",
+        "👗"
+      ],
+      "say": "De koning bewaart alle wensen."
+    },
+    {
+      "question": "Hoe oud is de opa van Asha?",
+      "right": "💯",
+      "wrong": [
+        "🔟",
+        "5️⃣"
+      ],
+      "say": "Opa is honderd jaar."
+    },
+    {
+      "question": "Wat valt er uit de hemel?",
+      "right": "⭐",
+      "wrong": [
+        "🌧️",
+        "🍎"
+      ],
+      "say": "Een ster valt uit de hemel."
+    },
+    {
+      "question": "Welk dier kan opeens praten?",
+      "right": "🐐",
+      "wrong": [
+        "🐈",
+        "🐶"
+      ],
+      "say": "Het geitje Valentino kan praten."
+    },
+    {
+      "question": "Wat wordt Asha op het einde?",
+      "right": "🧚",
+      "wrong": [
+        "👸",
+        "🧙"
+      ],
+      "say": "Asha wordt de eerste goede fee."
+    }
+  ],
+  "words": [
+    {
+      "word": "de ster",
+      "emoji": "🌠",
+      "say": "De ster valt uit de hemel."
+    },
+    {
+      "word": "het kasteel",
+      "emoji": "🏰",
+      "say": "De koning woont in het kasteel."
+    },
+    {
+      "word": "het geitje",
+      "emoji": "🐐",
+      "say": "Het geitje draagt een pyjama."
+    },
+    {
+      "word": "de bellen",
+      "emoji": "🫧",
+      "say": "De wensen zijn glinsterende bellen."
+    },
+    {
+      "word": "de toverstaf",
+      "emoji": "🪄",
+      "say": "De toverstaf van de koning breekt."
+    },
+    {
+      "word": "het sterrenstof",
+      "emoji": "✨",
+      "say": "Ster strooit sterrenstof."
+    }
+  ]
+}

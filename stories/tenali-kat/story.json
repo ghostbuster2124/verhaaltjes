@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "tenali-kat",
+  "version": 1,
+  "title": "Tenali Rama en de kat die geen melk wou.",
+  "emoji": "🐈",
+  "text": "Dit is een verhaal uit India, over de slimme Tenali Rama. In de stad Vijayanagara woonde een koning. Hij heette Krishnadevaraya. Hij was een goede koning. Maar in zijn paleis was er een probleem. Muizen! Overal muizen. In de keuken, in de kasten, zelfs in de slaapkamer van de koning. Ze knaagden aan het brood. Ze knaagden aan de rijst. Ze knaagden aan de mooie kleren van de koningin. Zo kan het niet verder, zei de koning. We hebben katten nodig. Veel katten! De koning kocht duizend katten. Hij gaf er een aan elke familie in de stad. En bij elke kat kreeg de familie ook een koe. Want een kat heeft melk nodig, zei de koning. Geef je kat elke dag een kom melk. Dan blijft ze sterk en vangt ze veel muizen. Tenali Rama kreeg ook een kat. Een grijze, met witte pootjes. En hij kreeg een mooie bruine koe. Thuis keek Tenali Rama naar zijn kat. Ze was lief en ze spinde. Maar Tenali Rama dacht na. Als ik mijn kat elke dag een grote kom melk geef, dacht hij, dan zit ze vol. Dan heeft ze geen honger meer. En dan vangt ze geen enkele muis. En de melk van de koe? Die kan ik beter aan mijn kinderen geven. Of aan de arme kinderen uit de straat. Dus Tenali Rama verzon een plan. De eerste dag zette hij een kom melk neer. Maar het was een heel hete kom melk. Heel heet, net van het vuur. De kat had dorst. Ze stak haar tong in de melk. Au! Ze brandde haar tongetje. Ze sprong weg. Miauw! Vanaf die dag lustte de kat geen melk meer. Als ze een kom melk zag, liep ze weg. Ze dacht: Melk is heet. Melk doet pijn. En dus moest ze zelf eten zoeken. Ze ving muizen. Heel veel muizen. Ze werd een heel goede jager. Ze was mager, maar sterk en snel. En de melk van de koe? Die gaf Tenali Rama aan zijn kinderen en aan de arme kinderen uit de straat. Ze dronken melk elke ochtend en ze werden groot en sterk. Een paar maanden later wilde de koning weten hoe het met de katten ging. Breng alle katten naar het paleis! zei hij. Ik wil ze zien. Alle families brachten hun kat naar het paleis. De koning keek naar de katten. Ze waren dik. Heel dik. Ze waren zo dik, dat ze bijna niet konden lopen. Ze lagen lui in de zon. Ze geeuwden. Toen er een muis voorbij liep, keken ze niet eens op. Wat zijn ze mooi en dik! zei de koning tevreden. Goed zo, jullie hebben ze veel melk gegeven. Toen kwam Tenali Rama met zijn kat. Zijn kat was mager. Ze had geen dikke buik. De koning fronste zijn wenkbrauwen. Tenali Rama! Wat heb je met je kat gedaan? Ze is zo mager! Heb je haar geen melk gegeven? Majesteit, zei Tenali Rama, mijn kat wil geen melk drinken. Ze lust het niet. De koning lachte. Een kat die geen melk wil? Dat bestaat niet! Probeer het maar, majesteit, zei Tenali Rama. De koning liet een kom melk brengen. Hij zette de kom voor de kat van Tenali Rama. Maar de kat keek naar de melk en sprong weg. Miauw! Ze rende de hele zaal door. De koning was stomverbaasd. Op dat moment liep er een muis door de zaal. Alle dikke katten bleven liggen. Maar de kat van Tenali Rama sprong. Hup! Ze ving de muis in één keer. Alle hovelingen klapten. Tenali Rama vertelde de koning alles. Over de hete melk. Over de muizen. En over de melk die hij aan de kinderen had gegeven. Majesteit, zei hij, een kat die te veel krijgt, wordt lui. Maar de kinderen van onze stad hadden de melk echt nodig. De koning dacht na. Toen begon hij te lachen. Tenali Rama, jij bent slim! Je hebt gelijk. Vanaf nu geven we de melk aan de kinderen. En de katten mogen weer muizen vangen. En zo was het paleis snel vrij van muizen. En alle kinderen van de stad dronken elke ochtend een beker verse melk. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welke dieren zitten er in het paleis?",
+      "right": "🐭",
+      "wrong": [
+        "🐍",
+        "🐦"
+      ],
+      "say": "Er zitten overal muizen in het paleis."
+    },
+    {
+      "question": "Wat krijgt elke familie bij de kat?",
+      "right": "🐄",
+      "wrong": [
+        "🐐",
+        "🐔"
+      ],
+      "say": "Elke familie krijgt ook een koe."
+    },
+    {
+      "question": "Hoe is de melk die Tenali Rama geeft?",
+      "right": "🔥",
+      "wrong": [
+        "🧊",
+        "🍓"
+      ],
+      "say": "De melk is heel heet."
+    },
+    {
+      "question": "Hoe zien de andere katten eruit?",
+      "right": "🐷",
+      "wrong": [
+        "🦴",
+        "🦒"
+      ],
+      "say": "De andere katten zijn heel dik."
+    },
+    {
+      "question": "Wie krijgen de melk op het einde?",
+      "right": "🧒",
+      "wrong": [
+        "🐈",
+        "👑"
+      ],
+      "say": "De kinderen krijgen de melk."
+    }
+  ],
+  "words": [
+    {
+      "word": "de kat",
+      "emoji": "🐈",
+      "say": "De kat vangt muizen."
+    },
+    {
+      "word": "de muizen",
+      "emoji": "🐭",
+      "say": "De muizen knagen aan het brood."
+    },
+    {
+      "word": "de koe",
+      "emoji": "🐄",
+      "say": "Tenali Rama krijgt een bruine koe."
+    },
+    {
+      "word": "de melk",
+      "emoji": "🥛",
+      "say": "De kinderen drinken verse melk."
+    },
+    {
+      "word": "het brood",
+      "emoji": "🍞",
+      "say": "De muizen eten van het brood."
+    },
+    {
+      "word": "de koning",
+      "emoji": "👑",
+      "say": "De koning kocht duizend katten."
+    }
+  ]
+}

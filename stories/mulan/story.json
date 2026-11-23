@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "mulan",
+  "version": 1,
+  "title": "Mulan, het dappere meisje.",
+  "emoji": "🏮",
+  "text": "Lang geleden, in het grote land China, woonde een meisje dat Mulan heette. Mulan woonde met haar papa, haar mama en haar oma in een huis met een mooie tuin. Er stonden bloesembomen en er was een vijver met vissen. Mulan was anders dan de andere meisjes. Ze was wild en slim en ze sprong graag op haar paard. Ze maakte altijd alles een beetje anders dan het hoorde. Op een dag moest Mulan naar de koppelaarster. Dat was een strenge mevrouw die moest beslissen of Mulan een goede bruid kon worden. Mulan werd mooi gemaakt. Met een prachtige jurk, wit poeder op haar gezicht en rode lippen. Maar het ging helemaal mis. Ze morste thee. Er sprong een krekel in de jurk van de mevrouw. En op het einde stond de jurk van de mevrouw zelfs in brand! Jij zal nooit een goede bruid worden! riep de mevrouw. Mulan was verdrietig. Ze keek naar haar spiegelbeeld in de vijver. Wie ben ik eigenlijk? dacht ze. Toen kwam er slecht nieuws. Een groot leger van de Hunnen viel China binnen. De keizer riep alle mannen op om te vechten. Uit elke familie moest één man gaan. Uit de familie van Mulan moest papa gaan. Maar papa was oud. Hij had een slecht been. Hij liep met een stok. Mulan wist dat hij niet sterk genoeg was. Die nacht, terwijl iedereen sliep, deed Mulan iets heel dapper. Ze knipte haar lange haren af met het zwaard van papa. Ze trok de kleren van papa aan. En ze nam zijn harnas. Ze sprong op haar paard en reed weg in de regen. Ze ging in de plaats van haar papa. Als een jongen. Want meisjes mochten niet bij het leger. De voorouders van Mulan zagen het. Ze stuurden een beschermer met haar mee. Een kleine rode draak. Hij heette Mushu. Mushu was niet zo groot als hij zelf dacht. Hij was zo klein als een hagedis. Maar hij praatte heel veel en hij was heel grappig. En Mulan kreeg ook een geluksbrenger mee. Een klein krekeltje, Cri-Kee. In het legerkamp noemde Mulan zich Ping. De andere soldaten dachten dat ze een jongen was. De kapitein heette Shang. Hij was streng. De training was heel zwaar. Mulan kon eerst niets. Ze kon niet zo goed vechten. Ze kon de zware stenen niet dragen. Maar ze gaf niet op. Elke dag oefende ze een beetje meer. Op een dag moesten de soldaten een paal beklimmen. Een lange paal, met twee zware gewichten aan hun polsen. Niemand kon het. Maar Mulan dacht na. Ze bond de twee gewichten aan elkaar en gebruikte ze om de paal vast te pakken. En zo klom ze helemaal naar boven! Iedereen keek met open mond. Toen kwamen de Hunnen. Ze waren met heel veel. Op paarden, met zwaarden, over de besneeuwde bergen. Het leger van Mulan was veel kleiner. Maar Mulan zag een grote berg met heel veel sneeuw. Ze nam een vuurpijl. Ze schoot hem op de top van de berg. Boem! En de sneeuw begon te schuiven. Een enorme lawine rolde naar beneden. Recht op de Hunnen af. De Hunnen werden bedolven onder de sneeuw. Mulan had het leger gered! Maar Mulan was gewond. En toen de dokter haar verzorgde, ontdekten ze haar geheim. Ping was een meisje! De soldaten waren boos. Shang liet haar achter in de sneeuw. Maar Mulan gaf niet op. Ze ontdekte dat de leider van de Hunnen nog leefde. Hij wilde de keizer aanvallen in de stad. Mulan reed zo snel als ze kon naar de keizer. Ze redde de keizer, samen met haar vrienden. Ze verkleedde haar vrienden zelfs als dames, zodat ze in het paleis konden komen! De keizer boog voor Mulan. Iedereen boog voor haar. Het hele land juichte. De keizer gaf haar het zwaard van de leider van de Hunnen. Om aan haar papa te tonen wat ze gedaan had. Mulan ging terug naar huis. Ze knielde voor haar papa. Ze gaf hem het zwaard. Maar papa liet het zwaard vallen. Hij nam Mulan in zijn armen. Het grootste geschenk, zei hij, is dat jij mijn dochter bent. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "In welk land woont Mulan?",
+      "right": "🇨🇳",
+      "wrong": [
+        "🇮🇳",
+        "🇧🇪"
+      ],
+      "say": "Mulan woont in China."
+    },
+    {
+      "question": "Waarom gaat Mulan naar het leger?",
+      "right": "👴",
+      "wrong": [
+        "🎁",
+        "🍜"
+      ],
+      "say": "Ze gaat in de plaats van haar oude papa."
+    },
+    {
+      "question": "Welk dier is Mushu?",
+      "right": "🐉",
+      "wrong": [
+        "🦎",
+        "🐍"
+      ],
+      "say": "Mushu is een kleine rode draak."
+    },
+    {
+      "question": "Welk diertje brengt geluk?",
+      "right": "🦗",
+      "wrong": [
+        "🐞",
+        "🐝"
+      ],
+      "say": "Het krekeltje Cri-Kee brengt geluk."
+    },
+    {
+      "question": "Wat laat Mulan van de berg rollen?",
+      "right": "❄️",
+      "wrong": [
+        "🪨",
+        "💧"
+      ],
+      "say": "Een lawine van sneeuw."
+    }
+  ],
+  "words": [
+    {
+      "word": "de draak",
+      "emoji": "🐉",
+      "say": "Mushu is een kleine draak."
+    },
+    {
+      "word": "het krekeltje",
+      "emoji": "🦗",
+      "say": "Het krekeltje brengt geluk."
+    },
+    {
+      "word": "het paard",
+      "emoji": "🐴",
+      "say": "Mulan rijdt op haar paard."
+    },
+    {
+      "word": "het zwaard",
+      "emoji": "🗡️",
+      "say": "Mulan knipt haar haren met het zwaard."
+    },
+    {
+      "word": "de berg",
+      "emoji": "🏔️",
+      "say": "Er ligt sneeuw op de berg."
+    },
+    {
+      "word": "de keizer",
+      "emoji": "👑",
+      "say": "Mulan redt de keizer."
+    }
+  ]
+}

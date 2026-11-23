@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "frozen-bos",
+  "version": 1,
+  "title": "Elsa en Anna in het betoverde bos.",
+  "emoji": "❄️",
+  "text": "In het koninkrijk Arendelle is het herfst. De bladeren aan de bomen zijn geel, oranje en rood. Koningin Elsa woont in het grote kasteel, samen met haar zus Anna. Elsa heeft een speciale kracht. Ze kan sneeuw en ijs maken met haar handen. Anna heeft geen toverkracht. Maar ze heeft een groot hart en ze is heel dapper. Ze wonen samen met hun vrienden. Kristoff, die van Anna houdt. Zijn rendier Sven. En Olaf, de vrolijke sneeuwpop die nooit smelt. Olaf houdt van knuffels en van vragen stellen. Waarom is de lucht blauw? Waarom hebben bomen geen benen? Op een avond spelen ze allemaal samen een spelletje. Maar Elsa luistert niet. Ze hoort iets. Een stem. Een zachte stem die zingt. Aaa-aaa! Niemand anders hoort het. Alleen Elsa. De stem roept haar. Van ver weg. Uit het noorden. Die nacht volgt Elsa de stem naar buiten. Ze gebruikt haar toverkracht. En opeens gebeurt er iets vreemds. De lichtjes in Arendelle gaan uit. Het water verdwijnt uit de fonteinen. De wind waait hard. Alle mensen moeten het kasteel uit. Elsa weet het. Ik moet naar het noorden, zegt ze. Naar het betoverde bos. Daar komt de stem vandaan. Anna wil mee. Ik laat je niet alleen gaan, zegt ze. Nooit meer. Kristoff, Sven en Olaf gaan ook mee. Ze reizen dagen en dagen. Naar het noorden, waar het betoverde bos ligt. Het bos is omringd door een dikke, magische mist. Niemand kan erdoor. Maar als Elsa haar hand uitsteekt, gaat de mist open. Binnen in het bos is alles een beetje magisch. Er waait een wind die speels is, als een kind. Hij blaast de bladeren rond en hij tilt Olaf op. Olaf noemt de wind Gale. Er is een klein salamandertje van vuur. Het is blauw en schattig, met grote ogen. Maar als het bang wordt, vliegen er vlammen rond. Elsa kalmeert het met een beetje sneeuw. Het salamandertje kruipt op haar hand en spint. Er zijn ook reuzen van steen, die slapen in de rivier. En er is een paard van water, dat in de zee woont. Elsa leert dat het bos vier geesten heeft. Lucht, vuur, aarde en water. En er is een vijfde geest. Die verbindt alles. Elsa begrijpt het. De vijfde geest, dat ben ik! In het bos wonen ook mensen. Het volk van de Northuldra. Ze dragen warme kleren en ze leven samen met de rendieren. Ze vertellen een oud verhaal. Lang geleden bouwde de opa van Elsa en Anna een grote dam. Hij zei dat het een geschenk was. Maar eigenlijk was het een truc. De dam hield het water tegen. Het bos werd ziek. Daarom waren de geesten zo boos. Anna weet wat ze moet doen. De dam moet weg. Het water moet weer vrij stromen. Maar als de dam breekt, stroomt het water naar Arendelle. Het hele koninkrijk kan onder water komen. Anna is bang. Maar het is wat goed is. Elsa gaat naar het noorden, naar de zee. Ze moet het waterpaard temmen. Ze rent over de golven. Ze bevriest het water onder haar voeten. Het paard is wild. Maar Elsa houdt vol. Uiteindelijk springt ze op zijn rug. Het paard wordt rustig. Ze rijdt op het water. Ondertussen maakt Anna de stenen reuzen wakker. Ze lokt ze naar de dam. De reuzen gooien grote rotsen. Boem! Boem! De dam breekt. Het water stroomt. Een enorme golf rolt naar Arendelle. Maar dan komt Elsa. Ze rijdt op het waterpaard, voor de golf uit. Ze steekt haar handen uit. En ze maakt een muur van ijs. Een grote, glanzende muur. De golf botst ertegen. En stopt. Arendelle is gered! Het betoverde bos is genezen. De mist verdwijnt. De zon schijnt. Anna wordt koningin van Arendelle. En Elsa? Elsa blijft in het betoverde bos. Daar hoort ze thuis, bij de geesten. Maar elke week rijdt ze op het waterpaard naar Arendelle. Om haar zus te zien. Want zusjes blijven altijd zusjes. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat kan Elsa maken met haar handen?",
+      "right": "❄️",
+      "wrong": [
+        "🔥",
+        "🌸"
+      ],
+      "say": "Elsa maakt sneeuw en ijs."
+    },
+    {
+      "question": "Wat hoort Elsa in de nacht?",
+      "right": "🎶",
+      "wrong": [
+        "🔔",
+        "🐺"
+      ],
+      "say": "Elsa hoort een stem die zingt."
+    },
+    {
+      "question": "Wat voor dier is het salamandertje van vuur?",
+      "right": "🦎",
+      "wrong": [
+        "🐸",
+        "🐍"
+      ],
+      "say": "Het is een klein salamandertje."
+    },
+    {
+      "question": "Wat moet er weg om het bos te genezen?",
+      "right": "🧱",
+      "wrong": [
+        "🌳",
+        "🏰"
+      ],
+      "say": "De grote dam moet weg."
+    },
+    {
+      "question": "Waarop rijdt Elsa over de zee?",
+      "right": "🐴",
+      "wrong": [
+        "🐋",
+        "⛵"
+      ],
+      "say": "Elsa rijdt op een paard van water."
+    }
+  ],
+  "words": [
+    {
+      "word": "de sneeuw",
+      "emoji": "❄️",
+      "say": "Elsa maakt sneeuw met haar handen."
+    },
+    {
+      "word": "de bladeren",
+      "emoji": "🍂",
+      "say": "In de herfst zijn de bladeren rood."
+    },
+    {
+      "word": "de mist",
+      "emoji": "🌫️",
+      "say": "Rond het bos hangt een dikke mist."
+    },
+    {
+      "word": "de wind",
+      "emoji": "💨",
+      "say": "De wind is speels als een kind."
+    },
+    {
+      "word": "de golf",
+      "emoji": "🌊",
+      "say": "Een grote golf rolt naar Arendelle."
+    },
+    {
+      "word": "het paard",
+      "emoji": "🐴",
+      "say": "Het paard is van water."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "ridley-museum",
+  "version": 1,
+  "title": "Ridley en het museum bij nacht.",
+  "emoji": "🏛️",
+  "text": "Ridley is een meisje van zes jaar. Ze woont op een heel speciale plek. In een museum! Haar mama is de bewaakster van het grote natuurhistorisch museum. Ze passen elke nacht op alle schatten. En ze wonen er ook, in een appartementje bovenin het gebouw. Overdag komen er duizenden bezoekers. Ze kijken naar de dinosaurussen, de mummies, de opgezette dieren en de oude schatten. Maar 's nachts, als alle bezoekers weg zijn, gebeurt er iets magisch. Dan komt alles in het museum tot leven! Ridley is de enige die het weet. Ze is de beschermster van het museum. Mama heeft haar een speciale sleutel gegeven en een rugzak met een zaklamp. Elke nacht helpt Ridley haar vriendjes. Er is Dudley, een grote bizon. Hij is heel sterk, maar ook een beetje bang. Er is Fred, een babydinosaurus. Een triceratops, met drie kleine hoorntjes. Hij is heel nieuwsgierig. En er zijn drie apen, Peaches, Leon en Lil Pete, die altijd grapjes uithalen. Er is ook Ernie, een astronaut die een beetje verdwaald is. En er zijn de mummies, die heel graag dansen. Op een avond doet mama de lichten uit. De laatste bezoekers zijn naar huis. Ridley trekt haar rugzak aan. Ze doet haar zaklamp aan. En ze zegt de magische woorden. Het museum is gesloten, tijd om te spelen! En klik, klik, klik. De dieren knipperen met hun ogen. De bizon schudt zijn kop. De dinosaurus geeuwt. Alles komt tot leven. Maar vannacht is er een probleem. Fred, de kleine dinosaurus, is heel verdrietig. Hij zit in een hoekje en zijn hoorntjes hangen naar beneden. Wat is er, Fred? vraagt Ridley. Ik heb mijn ei verloren, snikt Fred. Mijn ei? vraagt Ridley. Het ei waar ik uitgekomen ben, zegt Fred. Het lag altijd naast mij in mijn vitrine. Het is mijn lievelingsding. En nu is het weg! Ridley denkt na. We gaan het zoeken, zegt ze. Ik beloof het. Ridley, Fred en Dudley gaan op zoek. Eerst gaan ze naar de zaal van de vogels. Daar zitten honderden vogels, op takjes. Hebben jullie een ei gezien? vraagt Ridley. Wij hebben heel veel eieren, zegt een uil. Maar geen dinosaurusei. Dan gaan ze naar de zaal van de zee. Daar hangt een grote blauwe walvis aan het plafond. Heb jij een ei gezien? Nee, zegt de walvis met een diepe stem. Maar de apen zijn hier daarnet voorbijgekomen. Ze lachten heel hard. De apen! zegt Ridley. Die halen altijd grapjes uit. Ze vinden de drie apen in de zaal van de ruimte. Ze springen op en neer bij de raket. En wat hebben ze? Een grijs, rond ding. Ze spelen ermee alsof het een bal is. Ze gooien het naar elkaar. Mijn ei! roept Fred. Voorzichtig! De apen stoppen. Is dit jouw ei? vraagt Peaches. Wij dachten dat het een bal was! Het spijt ons, Fred. De apen geven het ei terug. Fred neemt het voorzichtig vast met zijn kleine pootjes. Hij knuffelt het. Dank je wel, zegt hij. Maar dan zegt Leon de aap: Wij hebben eigenlijk geen bal om mee te spelen. Daarom namen we het ei. Ridley lacht. Ze doet haar rugzak open. Daarin heeft ze een rode bal. Die mogen jullie hebben, zegt ze. Maar vraag het voortaan eerst, oké? Ze brengen Fred met zijn ei terug naar zijn vitrine. Hij gaat ernaast liggen. Hij glimlacht. Dan begint de zon op te komen. Het licht valt door de grote ramen. Snel, iedereen naar je plaats! roept Ridley. De dieren rennen terug. Ze staan stil. Klik, klik, klik. Het museum is weer gewoon een museum. Mama komt Ridley zoeken. Was het een drukke nacht? vraagt ze met een knipoog. Ridley geeuwt. Heel druk, zegt ze. Ik moest een ei zoeken. En ze valt in slaap, op de schoot van mama. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Waar woont Ridley?",
+      "right": "🏛️",
+      "wrong": [
+        "🏰",
+        "🏫"
+      ],
+      "say": "Ridley woont in een museum."
+    },
+    {
+      "question": "Wat gebeurt er 's nachts in het museum?",
+      "right": "✨",
+      "wrong": [
+        "😴",
+        "🌧️"
+      ],
+      "say": "Alles in het museum komt tot leven."
+    },
+    {
+      "question": "Wat heeft Fred verloren?",
+      "right": "🥚",
+      "wrong": [
+        "⚽",
+        "🦴"
+      ],
+      "say": "Fred heeft zijn ei verloren."
+    },
+    {
+      "question": "Wie hebben het ei?",
+      "right": "🐒",
+      "wrong": [
+        "🦉",
+        "🐋"
+      ],
+      "say": "De apen hebben het ei."
+    },
+    {
+      "question": "Wat geeft Ridley aan de apen?",
+      "right": "⚽",
+      "wrong": [
+        "🍌",
+        "🧸"
+      ],
+      "say": "Ridley geeft de apen een rode bal."
+    }
+  ],
+  "words": [
+    {
+      "word": "het museum",
+      "emoji": "🏛️",
+      "say": "Ridley woont in een museum."
+    },
+    {
+      "word": "de dinosaurus",
+      "emoji": "🦕",
+      "say": "Fred is een kleine dinosaurus."
+    },
+    {
+      "word": "het ei",
+      "emoji": "🥚",
+      "say": "Fred is zijn ei kwijt."
+    },
+    {
+      "word": "de bizon",
+      "emoji": "🦬",
+      "say": "De bizon is groot en sterk."
+    },
+    {
+      "word": "de walvis",
+      "emoji": "🐋",
+      "say": "De walvis hangt aan het plafond."
+    },
+    {
+      "word": "de zaklamp",
+      "emoji": "🔦",
+      "say": "Ridley heeft een zaklamp."
+    }
+  ]
+}

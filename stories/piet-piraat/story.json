@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "piet-piraat",
+  "version": 1,
+  "title": "Piet Piraat en de schatkaart.",
+  "emoji": "🏴‍☠️",
+  "text": "Op de grote zee vaart een houten schip. Het heeft witte zeilen en een zwarte vlag met een doodshoofd. Het schip heet De Scheve Schuit. En de kapitein is Piet Piraat. Piet heeft een rode sjaal om zijn hoofd, een gestreept hemd en laarzen. Hij is vrolijk, dapper en hij zingt graag. Op zijn schip wonen nog drie piraten. Berend Brokkenpap is de kok. Hij is groot en sterk, en hij kookt de raarste soepen. Stien is de enige vrouw op het schip. Zij is slim en ze weet altijd wat ze moet doen. En Steven is de jongste piraat. Hij is een beetje onhandig. Hij laat altijd alles vallen. Oeps! Op een ochtend vist Steven met een hengel. Hij voelt iets aan de lijn. Hij trekt. En hij trekt. Het is zwaar! Wat komt er uit het water? Een fles. Een oude, groene fles. Met een papiertje erin. Kapitein! roept Steven. Een flessenpost! Piet Piraat trekt de kurk uit de fles. Plop! Hij haalt het papiertje eruit en rolt het open. Een schatkaart! roept hij. Kijk eens, piraten! Op de kaart staat een eiland. Het heeft de vorm van een banaan. Er staat een grote palmboom op. En onder de palmboom staat een groot rood kruis. Daar ligt de schat! Hoera! roepen de piraten. Ze dansen op het dek. Stien kijkt naar de kaart. Het Banaaneiland, zegt ze. Dat is niet zo ver. Als we naar het zuiden varen, zijn we er morgen. Hijs de zeilen! roept Piet. Koers naar het zuiden! De piraten trekken aan de touwen. De zeilen gaan omhoog. De wind blaast erin. En De Scheve Schuit vaart over de golven. Maar wat de piraten niet weten: er zit iemand anders mee te luisteren. Achter een grote ton zit Kapitein Sabeltand. Hij is een gemene piraat met een lange zwarte baard. Hij wil ook de schat! Hij heeft een kleine boot achter De Scheve Schuit vastgebonden. De volgende ochtend komen ze bij het Banaaneiland. Het is prachtig. Er zijn witte stranden, blauwe golven en groene palmbomen. Ze roeien met de sloep naar het strand. Ze zoeken de grote palmboom. Er staan wel honderd palmbomen! Welke is het? Stien kijkt goed naar de kaart. Hier staat iets geschreven, zegt ze. Tien stappen vanaf de rots die op een schildpad lijkt. Ze zoeken de rots. Daar is hij! Hij lijkt echt op een schildpad, met een kop en vier poten. Piet telt de stappen. Een, twee, drie, vier, vijf, zes, zeven, acht, negen, tien. Hier! Berend begint te graven met zijn schop. Hij graaft en graaft. Het zand vliegt in het rond. En dan, tok! Hij raakt iets hards. Een kist! Een houten kist met ijzeren randen. Maar dan horen ze een stem. Hahaha! Bedankt, Piet Piraat! Het is Kapitein Sabeltand. Hij springt van achter een struik. Hij grijpt de kist. En hij rent ermee naar zijn bootje. Hé! roept Piet. Die schat is van ons! Maar Steven is sneller dan iedereen denkt. Hij struikelt. Zoals altijd. Maar hij struikelt precies tegen Kapitein Sabeltand aan. Sabeltand valt om, met zijn neus in het zand. De kist vliegt door de lucht en landt bij Piet. Goed gedaan, Steven! roept Piet. Ook al was het per ongeluk! Kapitein Sabeltand rent weg naar zijn bootje en roeit snel weg. Nu doen ze de kist open. Wat zit erin? Goud? Diamanten? Nee. Er zit een kleine kist in. En daarin nog een kleinere kist. En daarin nog een kleinere. En helemaal binnenin? Een briefje. Piet leest het voor. De grootste schat van een piraat zijn zijn vrienden. Even is het stil. Dan begint Piet te lachen. Hij legt zijn armen rond Stien, Berend en Steven. Dat is waar, zegt hij. Ik heb de beste schat van de hele zee! Die avond maakt Berend een grote pot soep. Bananensoep. Want ze zijn op het Banaaneiland. En ze zingen piratenliedjes tot de sterren schijnen. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Hoe heet het schip van Piet Piraat?",
+      "right": "⛵",
+      "wrong": [
+        "🚂",
+        "✈️"
+      ],
+      "say": "Het schip heet De Scheve Schuit."
+    },
+    {
+      "question": "Wat vist Steven op uit het water?",
+      "right": "🍾",
+      "wrong": [
+        "🐟",
+        "👢"
+      ],
+      "say": "Steven vist een oude fles op."
+    },
+    {
+      "question": "Welke vorm heeft het eiland?",
+      "right": "🍌",
+      "wrong": [
+        "⭐",
+        "❤️"
+      ],
+      "say": "Het eiland heeft de vorm van een banaan."
+    },
+    {
+      "question": "Op welk dier lijkt de rots?",
+      "right": "🐢",
+      "wrong": [
+        "🐸",
+        "🐘"
+      ],
+      "say": "De rots lijkt op een schildpad."
+    },
+    {
+      "question": "Wat is de grootste schat van een piraat?",
+      "right": "🤝",
+      "wrong": [
+        "🪙",
+        "💎"
+      ],
+      "say": "De grootste schat zijn je vrienden."
+    }
+  ],
+  "words": [
+    {
+      "word": "de piraten",
+      "emoji": "🏴‍☠️",
+      "say": "De piraten varen over de zee."
+    },
+    {
+      "word": "het schip",
+      "emoji": "⛵",
+      "say": "Het schip heeft witte zeilen."
+    },
+    {
+      "word": "de fles",
+      "emoji": "🍾",
+      "say": "In de fles zit een briefje."
+    },
+    {
+      "word": "de schatkaart",
+      "emoji": "🗺️",
+      "say": "Op de schatkaart staat een kruis."
+    },
+    {
+      "word": "de palmboom",
+      "emoji": "🌴",
+      "say": "De schat ligt onder een palmboom."
+    },
+    {
+      "word": "de kist",
+      "emoji": "📦",
+      "say": "Berend vindt een houten kist."
+    }
+  ]
+}

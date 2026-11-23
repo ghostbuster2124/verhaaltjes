@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "ros-beiaard",
+  "version": 1,
+  "title": "Het Ros Beiaard.",
+  "emoji": "🐎",
+  "text": "Dit is een heel oud verhaal uit Vlaanderen. Het gaat over een paard en vier broers. Lang geleden leefden er vier broers. Ze heetten Reinout, Adelaert, Ritsaert en Writsaert. De vier Heemskinderen, zo noemde iedereen hen. Reinout was de oudste en de sterkste. En Reinout had een paard. Maar niet zomaar een paard. Het was een betoverd paard. Het heette Beiaard. Beiaard was groot. Heel groot. Groter dan elk ander paard. Hij had een glanzende vacht en sterke benen. Hij kon sneller lopen dan de wind. Hij kon over rivieren springen. Maar het bijzonderste was dit: als de vier broers op zijn rug wilden, dan werd zijn rug langer! Zo konden ze alle vier tegelijk op Beiaard rijden. Reinout vooraan en zijn drie broertjes erachter. Beiaard was ook heel slim. Hij begreep alles wat Reinout zei. En hij hield van de vier broers, zoals zij van hem hielden. In die tijd regeerde de grote keizer Karel de Grote. Hij was heel machtig. Op een dag kregen de vier broers ruzie met de keizer. Een grote ruzie. De keizer werd zo boos, dat hij zijn soldaten op hen afstuurde. Overal waar de broers gingen, waren de soldaten achter hen aan. Maar Beiaard was te snel. De vier broers sprongen op zijn rug. En Beiaard galoppeerde weg. Over velden. Over heuvels. Door bossen. Niemand kon hem inhalen. Jarenlang vluchtten ze. Jarenlang hielp Beiaard hen. Hij bracht hen in veiligheid. Hij beschermde hen. Hij was hun beste vriend. Maar de broers werden moe van het vluchten. Ze wilden geen ruzie meer. Ze wilden vrede. Ze gingen naar de keizer. Majesteit, zeiden ze. We willen vrede sluiten. Wat moeten we doen? De keizer dacht na. Ik wil vrede, zei hij. Maar op één voorwaarde. Jullie moeten mij het paard Beiaard geven. Dat paard heeft jullie altijd geholpen om te ontsnappen. Ik wil het niet meer zien. De vier broers keken elkaar aan. Hun hart brak. Beiaard was hun vriend. Maar ze wilden vrede. Voor hun families. Voor het land. Reinout ging met tranen in zijn ogen naar Beiaard. Hij aaide hem over zijn neus. Het spijt me, mijn vriend, fluisterde hij. Ze brachten Beiaard naar de keizer. De keizer liet een grote molensteen aan de hals van Beiaard binden. En hij liet hem in de rivier de Schelde gooien. Bij de stad Dendermonde. Iedereen stond aan de oever te kijken. Beiaard zonk in het water. De broers huilden. Maar toen gebeurde er iets wonderlijks. Beiaard was zo sterk, dat hij met zijn hoeven op de stenen stampte. Krak! De molensteen brak in stukken. Beiaard zwom naar boven! Zijn hoofd kwam boven water. Hij hinnikte luid. Hij zwom naar de overkant. Hij klom op de oever. Hij schudde het water van zich af. En hij keek nog één keer naar Reinout. Toen galoppeerde hij weg. Ver weg, het grote bos in. Daar was hij vrij. Niemand kon hem ooit nog vangen. De mensen zeggen dat Beiaard daar nog altijd rondloopt. En als je in het bos de wind hoort hinniken, dan is het misschien Beiaard. In de stad Dendermonde vergeten ze Beiaard nooit. Om de tien jaar is er een groot feest. De Ros Beiaardommegang. Dan maken ze een enorm paard van hout en stof. Het is zo groot als een huis. Twaalf sterke mannen dragen het door de straten. En op zijn rug zitten vier jongens. Vier echte broers uit Dendermonde. Ze spelen de vier Heemskinderen. Het hele stadje staat langs de straat. Iedereen zingt en juicht. En het grote houten paard danst door de stad. Want het Ros Beiaard is de trots van Dendermonde. Het paard dat te sterk was om te verdrinken. En dat nooit vergeten wordt. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Hoeveel broers zijn er?",
+      "right": "4️⃣",
+      "wrong": [
+        "2️⃣",
+        "7️⃣"
+      ],
+      "say": "Er zijn vier broers."
+    },
+    {
+      "question": "Wat is er speciaal aan de rug van Beiaard?",
+      "right": "📏",
+      "wrong": [
+        "🪽",
+        "🌈"
+      ],
+      "say": "De rug van Beiaard wordt langer."
+    },
+    {
+      "question": "Wie wil het paard hebben?",
+      "right": "👑",
+      "wrong": [
+        "🧙",
+        "👮"
+      ],
+      "say": "De keizer wil het paard hebben."
+    },
+    {
+      "question": "Wat binden ze aan de hals van Beiaard?",
+      "right": "🪨",
+      "wrong": [
+        "🎀",
+        "🔔"
+      ],
+      "say": "Ze binden een molensteen aan zijn hals."
+    },
+    {
+      "question": "In welke stad viert men het Ros Beiaard?",
+      "right": "🏘️",
+      "wrong": [
+        "🏖️",
+        "🏔️"
+      ],
+      "say": "In de stad Dendermonde."
+    }
+  ],
+  "words": [
+    {
+      "word": "het paard",
+      "emoji": "🐎",
+      "say": "Beiaard is een betoverd paard."
+    },
+    {
+      "word": "de keizer",
+      "emoji": "👑",
+      "say": "De keizer is machtig."
+    },
+    {
+      "word": "de rivier",
+      "emoji": "🏞️",
+      "say": "Beiaard zwemt in de rivier."
+    },
+    {
+      "word": "de molensteen",
+      "emoji": "🪨",
+      "say": "De molensteen breekt in stukken."
+    },
+    {
+      "word": "het bos",
+      "emoji": "🌲",
+      "say": "Beiaard galoppeert het bos in."
+    },
+    {
+      "word": "het feest",
+      "emoji": "🎉",
+      "say": "Om de tien jaar is er een feest."
+    }
+  ]
+}

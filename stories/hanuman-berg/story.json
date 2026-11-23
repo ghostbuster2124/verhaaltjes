@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "hanuman-berg",
+  "version": 1,
+  "title": "Hanuman en de berg met kruiden.",
+  "emoji": "⛰️",
+  "text": "Dit is een verhaal uit India, over de sterke aap Hanuman. Hanuman was een aap met een groot hart. Hij was sterker dan honderd olifanten. Hij kon vliegen, zo snel als de wind. En hij kon groter en kleiner worden, zoals hij wilde. Hanuman was de beste vriend en helper van prins Rama. Rama vocht tegen de boze reus Ravana, op het eiland Lanka. Want Ravana had Sita gevangen genomen, de vrouw van Rama. Rama had een broer. Hij heette Lakshmana. Lakshmana was altijd bij Rama. Ze deden alles samen. Op een dag, in een groot gevecht, werd Lakshmana geraakt door een pijl. Een betoverde pijl. Lakshmana viel op de grond. Hij deed zijn ogen niet meer open. Hij was heel, heel ziek. Rama knielde naast zijn broer. Hij huilde. Mijn broer, mijn lieve broer, zei hij. Alle apen en beren stonden er stil bij. Ze wisten niet wat ze moesten doen. Toen kwam er een oude dokter. Hij heette Sushena. Hij bekeek Lakshmana heel goed. Er is maar één ding dat hem kan redden, zei hij. Ver weg, in het noorden, in de hoge Himalaya, staat een berg. De Dronagiri. Op die berg groeit een speciaal kruid. Het heet sanjeevani. Het gloeit in het donker, als een lampje. Als Lakshmana dat kruid krijgt, wordt hij beter. Maar het moet vóór de zon opkomt. Anders is het te laat. Iedereen keek naar elkaar. De Himalaya is heel ver weg! Duizenden kilometers! Wie kan daar in één nacht naartoe en terug? Hanuman stapte naar voren. Ik ga, zei hij. Rama legde zijn hand op het hoofd van Hanuman. Ga, mijn vriend, zei hij. Ik vertrouw op jou. Hanuman maakte zich groot. Heel groot. Zo groot als een berg. Hij zette af met zijn sterke benen. En woesj! Hij vloog door de lucht. Over de zee. Over het land. Over rivieren en bossen en dorpen. De wind suisde langs zijn oren. De sterren flitsten voorbij. Eindelijk zag hij de Himalaya. Hoge, witte bergen met sneeuw op de top. Hanuman landde op de Dronagiri. Het was donker. Hij zocht het gloeiende kruid. Maar wat zag hij? De hele berg gloeide! Er waren zoveel planten en kruiden, en ze gloeiden allemaal een beetje. Welke is nu de sanjeevani? Hanuman wist het niet. Hij was geen dokter. Hij zocht en zocht. Maar de nacht ging snel voorbij. Er was geen tijd meer. Toen kreeg Hanuman een idee. Als ik niet weet welk kruid het is, dacht hij, dan neem ik gewoon de hele berg mee! Hanuman maakte zich nog groter. Hij greep de berg met zijn twee sterke armen. Hij trok. De grond rommelde. De stenen kraakten. En jaaah! Hij trok de hele berg uit de grond. Hij tilde hem op, met één hand, zoals een kelner een dienblad. En hij vloog terug. Zo snel als hij kon. Met de hele berg boven zijn hoofd. De mensen in de dorpen keken omhoog. Een vliegende berg! riepen ze. Hanuman vloog over het land, over de zee. In het oosten werd de lucht al een beetje roze. De zon kwam bijna op. Sneller, Hanuman, sneller! Net op tijd landde hij bij Rama. Boem! Hij zette de berg neer. De oude dokter rende naar de berg. Hij wist meteen welk kruid het was. Hij plukte de sanjeevani. Hij maakte er een drankje van. Hij gaf het aan Lakshmana. En op dat moment kwam de zon op. De eerste zonnestralen vielen op het gezicht van Lakshmana. Hij deed zijn ogen open. Hij ging rechtop zitten. Broer? zei hij. Wat is er gebeurd? Rama omhelsde zijn broer. Iedereen juichte. De apen sprongen op en neer. Rama keek naar Hanuman. Hij omhelsde hem ook. Hanuman, zei hij, jij bent de trouwste vriend van de wereld. En daarom, als je ooit een afbeelding ziet van Hanuman, dan zie je hem vaak met een berg in zijn hand. Om te tonen dat een echte vriend alles doet om te helpen. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welk dier is Hanuman?",
+      "right": "🐒",
+      "wrong": [
+        "🐘",
+        "🐻"
+      ],
+      "say": "Hanuman is een aap."
+    },
+    {
+      "question": "Wie wordt er ziek?",
+      "right": "🤴",
+      "wrong": [
+        "🐒",
+        "👸"
+      ],
+      "say": "Lakshmana, de broer van Rama, wordt ziek."
+    },
+    {
+      "question": "Wat doet het speciale kruid in het donker?",
+      "right": "✨",
+      "wrong": [
+        "🎵",
+        "💧"
+      ],
+      "say": "Het kruid gloeit in het donker."
+    },
+    {
+      "question": "Wat neemt Hanuman mee terug?",
+      "right": "⛰️",
+      "wrong": [
+        "🌳",
+        "🌸"
+      ],
+      "say": "Hanuman neemt de hele berg mee."
+    },
+    {
+      "question": "Voor wat moet Hanuman terug zijn?",
+      "right": "🌅",
+      "wrong": [
+        "🌙",
+        "🌧️"
+      ],
+      "say": "Hij moet terug zijn voor de zon opkomt."
+    }
+  ],
+  "words": [
+    {
+      "word": "de berg",
+      "emoji": "⛰️",
+      "say": "Hanuman tilt de hele berg op."
+    },
+    {
+      "word": "de aap",
+      "emoji": "🐒",
+      "say": "Hanuman is een sterke aap."
+    },
+    {
+      "word": "het kruid",
+      "emoji": "🌿",
+      "say": "Het kruid gloeit in het donker."
+    },
+    {
+      "word": "de pijl",
+      "emoji": "🏹",
+      "say": "Lakshmana wordt geraakt door een pijl."
+    },
+    {
+      "word": "de sneeuw",
+      "emoji": "🏔️",
+      "say": "Op de bergen ligt sneeuw."
+    },
+    {
+      "word": "de zon",
+      "emoji": "🌅",
+      "say": "De zon komt op."
+    }
+  ]
+}

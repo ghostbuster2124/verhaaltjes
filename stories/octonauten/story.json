@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "octonauten",
+  "version": 1,
+  "title": "De Octonauten en de walvis.",
+  "emoji": "🐙",
+  "text": "Diep onder de zee, tussen het koraal en de vissen, zweeft een grote onderwaterbasis. Ze ziet eruit als een octopus, met lange armen. Dat is de Octopod. Daar wonen de Octonauten. De Octonauten zijn ontdekkingsreizigers. Ze verkennen de zee. Ze redden dieren die in nood zijn. En ze beschermen de oceaan. De baas is Kapitein Barnacles. Hij is een grote, sterke ijsbeer met een blauwe pet. Hij is dapper en kalm. Kwazii is een oranje kat met een ooglapje. Hij is een beetje een piraat. Hij houdt van avontuur en hij zegt altijd: Ahoi! Peso is een kleine pinguïn. Hij is de dokter. Hij heeft altijd zijn dokterstas bij zich, met pleisters en verband. Hij is een beetje bang, maar als er iemand ziek is, is hij heel dapper. En Professor Inkling is een octopus met een bril. Hij weet alles over de zee. Hij woont in de bibliotheek, tussen de boeken. Op een ochtend gaat het alarm. Tuut, tuut, tuut! Octonauten, naar de lanceerplaats! roept Kapitein Barnacles. Iedereen komt aangelopen. Op het grote scherm verschijnt een bericht. Het komt van een klein visje. Help! Help! Er is een walvis in de baai. Ze zit vast! Ze kan niet meer weg! Octonauten, we gaan! zegt de kapitein. Ze springen in hun duikboot, de Gup-A. Het is een snelle, blauwe duikboot, in de vorm van een vis. Vroem! Ze schieten door het water. Onderweg vertelt Professor Inkling over walvissen via de radio. Walvissen zijn de grootste dieren van de wereld, zegt hij. Ze zijn geen vissen. Ze zijn zoogdieren, zoals wij. Ze moeten naar boven om adem te halen, door een gat op hun rug. En als ze dat doen, spuiten ze een grote fontein. Pfoesj! In de baai zien ze haar. Een enorme, blauwe walvis. Ze is zo lang als drie bussen achter elkaar. Ze ligt in het ondiepe water, dicht bij het strand. Het tij gaat zakken. Het water wordt minder en minder. Als we niets doen, komt ze op het droge te liggen, zegt de kapitein. En dan kan ze niet meer zwemmen. Peso zwemt naar de walvis toe. Hij luistert naar haar hart. Ze is moe, zegt hij, en een beetje bang. Maar ze is niet ziek. Ze moet gewoon terug naar het diepe water. Kwazii zwemt rond de walvis. Ze is te zwaar om te duwen, zegt hij. Zelfs met de Gup-A. Kapitein Barnacles denkt na. Dan kijkt hij naar het water. Het tij komt straks terug. Maar dat duurt nog uren. Zoveel tijd hebben we niet. Dan heeft Peso een idee. Walvissen zingen, zegt hij. Ze roepen naar elkaar, over heel lange afstanden. Misschien kan haar familie haar helpen! Ze roepen Professor Inkling. Hij zoekt in zijn boeken. Hij vindt een opname van een walvislied. Ze laten het afspelen uit de luidsprekers van de Gup-A. Ooooooeeeee. Ooooooeeeee. Een lang, diep, mooi lied. Ver weg, in de diepe zee, horen andere walvissen het. Haar familie! Ze zingen terug. En ze zwemmen naar de baai. Met z'n drieën, vier, vijf. Grote walvissen. Ze zwemmen heen en weer voor de baai. Ze maken grote golven met hun staarten. Het water stroomt naar binnen, rond de vastzittende walvis. Er komt meer water. Ze begint te drijven. Ze beweegt haar staart. Een, twee, drie. Ze is los! Ze zwemt naar haar familie. Ze zingen samen. Ooooeeee! Pfoesj! Ze spuiten allemaal een grote fontein, als een dankjewel. De Octonauten juichen. Goed gedaan, team! zegt de kapitein. Terug in de Octopod schrijft Professor Inkling iets in zijn grote boek. Walvissen helpen elkaar. Net als de Octonauten. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welk dier is Kapitein Barnacles?",
+      "right": "🐻‍❄️",
+      "wrong": [
+        "🐧",
+        "🐱"
+      ],
+      "say": "Kapitein Barnacles is een ijsbeer."
+    },
+    {
+      "question": "Welk dier is Peso, de dokter?",
+      "right": "🐧",
+      "wrong": [
+        "🐙",
+        "🐱"
+      ],
+      "say": "Peso is een pinguïn."
+    },
+    {
+      "question": "Welk dier zit vast in de baai?",
+      "right": "🐋",
+      "wrong": [
+        "🦈",
+        "🐬"
+      ],
+      "say": "Een walvis zit vast in de baai."
+    },
+    {
+      "question": "Hoe halen walvissen adem?",
+      "right": "⛲",
+      "wrong": [
+        "👃",
+        "🫧"
+      ],
+      "say": "Door een gat op hun rug, met een grote fontein."
+    },
+    {
+      "question": "Wat roept de familie van de walvis?",
+      "right": "🎶",
+      "wrong": [
+        "📢",
+        "🔔"
+      ],
+      "say": "Een walvislied roept de familie."
+    }
+  ],
+  "words": [
+    {
+      "word": "de octopus",
+      "emoji": "🐙",
+      "say": "Professor Inkling is een octopus."
+    },
+    {
+      "word": "de walvis",
+      "emoji": "🐋",
+      "say": "De walvis is het grootste dier."
+    },
+    {
+      "word": "de pinguïn",
+      "emoji": "🐧",
+      "say": "Peso is een kleine pinguïn."
+    },
+    {
+      "word": "het koraal",
+      "emoji": "🪸",
+      "say": "De basis zweeft tussen het koraal."
+    },
+    {
+      "word": "de golven",
+      "emoji": "🌊",
+      "say": "De walvissen maken grote golven."
+    },
+    {
+      "word": "de boeken",
+      "emoji": "📚",
+      "say": "Professor Inkling leest boeken."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "spirit-paard",
+  "version": 1,
+  "title": "Spirit, het wilde paard.",
+  "emoji": "🐴",
+  "text": "Lucky is een meisje van twaalf jaar. Ze woont in de grote stad bij haar tante en haar opa. Lucky is wild en vrij. Ze houdt niet van stilzitten. Ze houdt van avontuur. Lucky's mama was een beroemde ruiter. Ze deed kunstjes op een paard, in het circus. Maar Lucky heeft haar mama nooit gekend. Ze was nog een baby toen haar mama er niet meer was. Op een dag gaat Lucky met haar tante op reis. Naar het kleine stadje Miradero, in het wilde westen. Daar woont haar papa. Lucky kent hem niet zo goed. Hij werkt bij de spoorweg. De trein rijdt door uitgestrekte velden, langs bergen en rivieren. Lucky kijkt door het raam. En dan ziet ze ze. Wilde paarden! Een hele kudde, die naast de trein galoppeert. Hun manen wapperen in de wind. Vooraan rent een prachtig paard. Hij is bruin, met een zwarte manen en zwarte staart. Hij kijkt naar Lucky. Lucky kijkt naar hem. En het is alsof ze elkaar al jaren kennen. In Miradero ziet ze het paard weer. Mannen hebben hem gevangen met lasso's. Ze willen hem temmen. Maar het paard is wild. Hij steigert. Hij hinnikt. Hij laat niemand op zijn rug. De mannen worden boos. Lucky sluipt naar de omheining. Ze praat zachtjes tegen het paard. Rustig maar. Ik doe je geen pijn. Het paard snuift. Hij komt dichterbij. Hij laat zijn neus aaien. Lucky geeft hem een appel. Hij eet hem op, uit haar hand. Lucky noemt hem Spirit. Want hij heeft een wilde, vrije geest. Lucky gaat elke dag naar Spirit. Ze brengt hem appels en wortels. Ze praat met hem. Ze zingt voor hem. En langzaam wordt Spirit haar vriend. In Miradero ontmoet Lucky twee meisjes. Pru en Abigail. Pru is de dochter van de man van de stal. Ze rijdt al haar hele leven paard. Ze is rustig en ze weet alles over paarden. Abigail is heel vrolijk en een beetje gek. Ze praat de hele tijd en ze maakt altijd grapjes. Ze worden beste vriendinnen. Pru leert Lucky paardrijden. Op een gewoon paard. Lucky valt eraf. Bonk. Ze klimt er weer op. En valt er weer af. Bonk. Lucky, zegt Pru, je moet het paard niet dwingen. Je moet samen met het paard bewegen. Als een dans. Lucky gaat naar Spirit. Ze kijkt hem in de ogen. Mag ik? vraagt ze. Spirit snuift. Hij buigt zijn hoofd. Lucky klimt voorzichtig op zijn rug. Zonder zadel. Zonder teugels. Spirit staat stil. Dan loopt hij. Langzaam eerst. Dan sneller. En dan galoppeert hij. Lucky houdt zich vast aan zijn manen. De wind waait door haar haren. Ze voelt zich vrij. Zo vrij als een vogel. Maar dan gebeurt er iets ergs. Een gemene man koopt Spirit. Hij wil Spirit en zijn hele kudde verkopen. Hij laadt de paarden in een trein. Hij wil ze ver weg brengen. Lucky, Pru en Abigail moeten iets doen. Ze rijden achter de trein aan. Pru op haar paard Chica Linda. Abigail op haar pony Boomerang. Lucky leent een paard. Ze galopperen naast de rijdende trein. Over de velden. Langs de rivier. Lucky springt op de trein. Ze maakt de deur van de wagon open. Spirit! Spirit springt uit de trein. En alle andere paarden springen achter hem aan. De kudde is vrij! De gemene man staat te roepen. Maar hij kan niets meer doen. De paarden galopperen terug naar de bergen. Spirit kijkt nog één keer naar Lucky. Lucky weet het. Spirit hoort in de vrije natuur. Bij zijn familie. Ga maar, Spirit, zegt ze. Je bent vrij. Spirit galoppeert weg. Maar elke ochtend komt hij terug naar de rand van het stadje. Om Lucky te zien. En samen rijden ze dan door de velden. Lucky, Pru en Abigail. De drie vriendinnen. En Spirit, die altijd vrij blijft. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat ziet Lucky door het raam van de trein?",
+      "right": "🐴",
+      "wrong": [
+        "🐄",
+        "🐑"
+      ],
+      "say": "Lucky ziet wilde paarden."
+    },
+    {
+      "question": "Wat geeft Lucky aan Spirit?",
+      "right": "🍎",
+      "wrong": [
+        "🍫",
+        "🍕"
+      ],
+      "say": "Lucky geeft Spirit een appel."
+    },
+    {
+      "question": "Hoeveel vriendinnen heeft Lucky in Miradero?",
+      "right": "2️⃣",
+      "wrong": [
+        "1️⃣",
+        "5️⃣"
+      ],
+      "say": "Lucky heeft twee vriendinnen, Pru en Abigail."
+    },
+    {
+      "question": "Waarmee wil de gemene man de paarden wegbrengen?",
+      "right": "🚂",
+      "wrong": [
+        "🚢",
+        "✈️"
+      ],
+      "say": "Hij wil de paarden met de trein wegbrengen."
+    },
+    {
+      "question": "Waar gaat Spirit op het einde naartoe?",
+      "right": "⛰️",
+      "wrong": [
+        "🏙️",
+        "🏠"
+      ],
+      "say": "Spirit gaat terug naar de vrije bergen."
+    }
+  ],
+  "words": [
+    {
+      "word": "het paard",
+      "emoji": "🐴",
+      "say": "Spirit is een wild paard."
+    },
+    {
+      "word": "de trein",
+      "emoji": "🚂",
+      "say": "De trein rijdt door de velden."
+    },
+    {
+      "word": "de appel",
+      "emoji": "🍎",
+      "say": "Spirit eet een appel."
+    },
+    {
+      "word": "de wortels",
+      "emoji": "🥕",
+      "say": "Lucky brengt wortels mee."
+    },
+    {
+      "word": "de wind",
+      "emoji": "💨",
+      "say": "De wind waait door haar haren."
+    },
+    {
+      "word": "de bergen",
+      "emoji": "⛰️",
+      "say": "De paarden rennen naar de bergen."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "manneken-pis",
+  "version": 1,
+  "title": "Manneken Pis.",
+  "emoji": "⛲",
+  "text": "In het hart van Brussel, in een klein straatje vlak bij de Grote Markt, staat een piepklein standbeeldje. Het is een jongetje van brons. Hij is niet groter dan een poes. En hij plast in een fonteintje! Dat is Manneken Pis. Hij is het beroemdste mannetje van heel België. Elke dag komen er mensen uit de hele wereld naar hem kijken. Uit Japan, uit Amerika, uit India. Ze nemen foto's en ze lachen. Maar weet je waarom er een plassend jongetje in Brussel staat? Er zijn heel veel verhalen over. Niemand weet welk verhaal echt waar is. Ik vertel je mijn lievelingsverhaal. Lang, lang geleden was Brussel een kleine stad, met een stadsmuur rondom. Er woonden bakkers, smeden, kooplui en ridders. In die tijd was er oorlog. Een vijandig leger stond buiten de muren van de stad. Ze wilden Brussel innemen. Ze hadden een slim en gemeen plan. Ze wilden de stadsmuur opblazen met buskruit. Op een donkere nacht slopen de vijanden naar de muur. Ze legden een grote hoop buskruit tegen de muur. Ze maakten een lange lont, een touw dat brandt. En ze staken de lont aan. Pssssss. Het vuurtje kroop langs de lont, naar het buskruit. Nog even en dan zou de muur ontploffen! Maar er was iemand die het zag. Een klein jongetje. Hij heette Julien. Julien was vijf jaar. Hij kon niet slapen, en hij liep op de stadsmuur rond. Hij keek naar beneden. Hij zag het vuurtje, dat langs de lont kroop. Wat moest hij doen? Hij had geen emmer water. Hij had geen tijd om iemand te roepen. Het vuurtje was al bijna bij het buskruit. Toen kreeg Julien een idee. Een heel gek idee. Hij moest toch al heel dringend plassen. Hij ging op de rand van de muur staan. Hij deed zijn broekje naar beneden. En hij plaste. Recht op het vuurtje. Psssssj! Het vuurtje ging uit. Sssst. De lont was nat. Het buskruit kon niet meer ontploffen. De muur was gered. En de hele stad ook! De volgende ochtend zagen de wachters het natte buskruit. Ze zagen de natte lont. En ze zagen het kleine jongetje, dat lag te slapen op de muur. Toen hij wakker werd, vertelde Julien wat er gebeurd was. De mensen van Brussel lachten. Ze lachten zo hard dat de tranen over hun wangen rolden. Maar ze waren ook heel dankbaar. Dat kleine jongetje had de hele stad gered. Met een plasje! De vijanden zagen dat hun plan mislukt was. Ze gingen weg en ze kwamen nooit meer terug. De burgemeester van Brussel liet een standbeeldje maken. Van Julien, precies zoals hij daar stond, plassend op de muur. Zodat iedereen hem nooit zou vergeten. En zo staat Manneken Pis daar nog altijd. Al honderden jaren. En weet je wat het grappigste is? Manneken Pis heeft een hele kast vol kleren! Wel meer dan duizend pakjes! Mensen uit de hele wereld hebben kleertjes voor hem gemaakt. Er is een pakje van een brandweerman, van een kok, van een astronaut en van een cowboy. Er is een Indisch pakje, een Japans pakje en een Afrikaans pakje. Op speciale dagen trekken ze hem een pakje aan. Met Kerstmis is hij de Kerstman. Op de dag van de muziek heeft hij een gitaar. En soms, op een heel speciale feestdag, plast hij geen water maar fruitsap! Er is ook een Jeanneke Pis, een meisje, en een Zinneke Pis, een hondje. Maar Manneken Pis is de bekendste van allemaal. Als je ooit in Brussel bent, ga dan eens naar hem kijken. Hij is kleiner dan je denkt. Maar hij is heel dapper geweest. En als je goed kijkt, dan zie je dat hij een beetje glimlacht. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "In welke stad staat Manneken Pis?",
+      "right": "🇧🇪",
+      "wrong": [
+        "🇫🇷",
+        "🇮🇳"
+      ],
+      "say": "Manneken Pis staat in Brussel, in België."
+    },
+    {
+      "question": "Hoe groot is Manneken Pis?",
+      "right": "🐈",
+      "wrong": [
+        "🐘",
+        "🦒"
+      ],
+      "say": "Hij is niet groter dan een poes."
+    },
+    {
+      "question": "Wat wilden de vijanden opblazen?",
+      "right": "🧱",
+      "wrong": [
+        "🌉",
+        "⛪"
+      ],
+      "say": "Ze wilden de stadsmuur opblazen."
+    },
+    {
+      "question": "Hoe maakt Julien het vuurtje uit?",
+      "right": "💧",
+      "wrong": [
+        "🪣",
+        "💨"
+      ],
+      "say": "Julien plast op het vuurtje."
+    },
+    {
+      "question": "Wat heeft Manneken Pis in zijn kast?",
+      "right": "👕",
+      "wrong": [
+        "🍫",
+        "📚"
+      ],
+      "say": "Hij heeft een kast vol kleertjes."
+    }
+  ],
+  "words": [
+    {
+      "word": "het fonteintje",
+      "emoji": "⛲",
+      "say": "Manneken Pis plast in een fonteintje."
+    },
+    {
+      "word": "het standbeeldje",
+      "emoji": "🗿",
+      "say": "Het standbeeldje is van brons."
+    },
+    {
+      "word": "de muur",
+      "emoji": "🧱",
+      "say": "Julien staat op de stadsmuur."
+    },
+    {
+      "word": "het vuurtje",
+      "emoji": "🔥",
+      "say": "Het vuurtje kruipt langs de lont."
+    },
+    {
+      "word": "de kleren",
+      "emoji": "👕",
+      "say": "Manneken Pis heeft veel kleren."
+    },
+    {
+      "word": "de foto's",
+      "emoji": "📷",
+      "say": "De mensen nemen foto's."
+    }
+  ]
+}
