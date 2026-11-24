@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "merida",
+  "version": 1,
+  "title": "Merida en de beer.",
+  "emoji": "🏹",
+  "text": "In de bergen van Schotland ligt een kasteel. Daar woont prinses Merida. Ze heeft wild rood haar met heel veel krullen. Merida houdt van boogschieten. Ze rijdt op haar paard Angus door het bos. Ze klimt op rotsen. Ze drinkt uit een waterval. Haar papa is de koning. Hij is groot en vrolijk. Hij heeft maar één been, want een beer heeft het andere been gepakt. Haar mama is de koningin. Ze is streng en heel netjes. Merida heeft ook drie kleine broertjes. Een drieling. Ze zijn heel ondeugend en ze stelen altijd koekjes. Mama wil dat Merida een echte prinses is. Netjes eten. Rechtop zitten. Niet lachen met je mond open. En mama wil dat Merida gaat trouwen. Drie prinsen komen naar het kasteel. Ze doen een wedstrijd boogschieten. Wie wint, mag met Merida trouwen. Maar Merida wil niet trouwen. Ze pakt zelf haar pijl en boog. Ik schiet voor mijn eigen hand! Ze schiet drie keer raak. Recht in het midden. Mama is heel boos. Merida is ook heel boos. Ze maken ruzie. Merida rent het bos in. In het bos ziet Merida blauwe lichtjes. Dwaallichtjes. Ze volgen de lichtjes naar een hutje. Daar woont een oude heks. Merida vraagt een toverspreuk. Ik wil dat mama verandert. De heks geeft haar een taartje. Merida brengt het naar mama. Mama neemt een hapje. En mama verandert. In een grote zwarte beer! O nee! Dat was niet wat Merida bedoelde. Papa mag het niet zien. Papa jaagt op beren! Merida en mama-beer vluchten naar het bos. Mama kan niet praten. Maar ze kan wel knikken. Merida leert mama vissen in de rivier. Mama leert Merida geduld hebben. Ze lachen samen. Voor het eerst in heel lang. De heks heeft een briefje achtergelaten. Om de spreuk te breken moet je herstellen wat stuk is. Merida denkt na. Het tapijt! Ze heeft in haar boosheid het familietapijt kapot gesneden. Maar wat echt stuk is, is de band met mama. Merida naait het tapijt. Ze legt het over mama. Ze huilt. Het spijt me, mama. Ik hou van jou. De zon komt op. Mama verandert terug. Ze knuffelen heel hard. De drie broertjes waren ook beertjes geworden. Ze veranderen ook terug. Gelukkig. Vanaf nu luisteren Merida en mama naar elkaar. En samen rijden ze op paarden door het bos. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welke kleur heeft het haar van Merida?",
+      "right": "🟠",
+      "wrong": [
+        "⚫",
+        "🟡"
+      ],
+      "say": "Merida heeft wild rood haar.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Waarin verandert mama?",
+      "right": "🐻",
+      "wrong": [
+        "🐺",
+        "🦌"
+      ],
+      "say": "Mama verandert in een beer.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Welke kleur hebben de dwaallichtjes?",
+      "right": "🔵",
+      "wrong": [
+        "🔴",
+        "🟢"
+      ],
+      "say": "De dwaallichtjes zijn blauw.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Hoeveel broertjes heeft Merida?",
+      "right": "3️⃣",
+      "wrong": [
+        "1️⃣",
+        "5️⃣"
+      ],
+      "say": "Merida heeft drie broertjes.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de boog",
+      "emoji": "🏹",
+      "say": "Merida schiet met haar boog.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "het paard",
+      "emoji": "🐎",
+      "say": "Merida rijdt op haar paard.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de beer",
+      "emoji": "🐻",
+      "say": "Mama verandert in een beer.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de heks",
+      "emoji": "🧙‍♀️",
+      "say": "De heks woont in een hutje.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de waterval",
+      "emoji": "💦",
+      "say": "Merida drinkt uit de waterval.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "het kasteel",
+      "emoji": "🏰",
+      "say": "Merida woont in een kasteel.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

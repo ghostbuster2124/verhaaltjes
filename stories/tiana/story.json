@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "tiana",
+  "version": 1,
+  "title": "Tiana en de kikker.",
+  "emoji": "🐸",
+  "text": "In een stad vol muziek woont een meisje. Ze heet Tiana. Tiana kookt heel graag. Ze maakt de lekkerste soep en de lekkerste beignets. Dat zijn zoete gebakjes met suiker. Tiana heeft een droom. Ze wil een eigen restaurant. Daarvoor werkt ze heel hard. Dag en nacht. Ze spaart elk muntje in een blik. Op een avond is er een groot verkleedfeest. Tiana bakt beignets voor het feest. Ze draagt een mooie blauwe jurk. Op het balkon ziet ze een kikker. De kikker praat! Ik ben prins Naveen, zegt hij. Een tovenaar heeft me veranderd in een kikker. Als een prinses me een kusje geeft, word ik weer een prins. Ik ben geen prinses, zegt Tiana. Maar de kikker smeekt zo lief. Goed dan. Eén klein kusje. Smak! Maar er gebeurt iets anders. Tiana wordt ook een kikker! Ze krimpt. Ze wordt groen. Ze krijgt plakkerige voetjes. Twee kikkers. Wat nu? Ze springen weg. Ze komen in een groot moeras. In het moeras ontmoeten ze een krokodil. Hij heet Louis. Gelukkig eet Louis geen kikkers. Hij speelt liever trompet. Ze ontmoeten ook een klein vuurvliegje. Hij heet Ray. Zijn achterwerk geeft licht. Ray is verliefd op de mooiste ster aan de hemel. Hij noemt haar Evangeline. Ray wijst de weg. Ga naar mama Odie. Zij is een oude toverkol. Zij kan jullie helpen. Ze reizen door het moeras. Naveen leert Tiana dansen. Tiana leert Naveen koken. Hij moet champignons snijden. Eerst kan hij het niet. Maar hij leert het. Ze worden verliefd. Ook al zijn ze allebei kikkers. Mama Odie woont in een boot in een boom. Ze zegt: Wat je nodig hebt, is niet wat je wilt. Je moet ontdekken wat echt belangrijk is. Tiana denkt na. Ze wil haar restaurant. Maar nog meer wil ze bij Naveen zijn. Tiana en Naveen trouwen in het moeras. Als kikkers. En dan gebeurt er iets wonderlijks. Tiana is nu een prinses, want ze is met een prins getrouwd. Ze geven elkaar een kusje. Er komt een groene glinstering. Ze worden weer mensen! Samen openen ze het restaurant. Louis speelt trompet. Iedereen danst en eet beignets. En boven in de lucht schijnt de ster van Ray. Heel helder. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Wat maakt Tiana het liefst?",
+      "right": "🍳",
+      "wrong": [
+        "🎨",
+        "🎻"
+      ],
+      "say": "Tiana kookt heel graag.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Waarin verandert Tiana na het kusje?",
+      "right": "🐸",
+      "wrong": [
+        "🦋",
+        "🐟"
+      ],
+      "say": "Tiana verandert in een kikker.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat speelt de krokodil Louis?",
+      "right": "🎺",
+      "wrong": [
+        "🥁",
+        "🎸"
+      ],
+      "say": "Louis speelt trompet.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Welk diertje geeft licht?",
+      "right": "🪲",
+      "wrong": [
+        "🐌",
+        "🐞"
+      ],
+      "say": "Ray het vuurvliegje geeft licht.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de kikker",
+      "emoji": "🐸",
+      "say": "De kikker praat.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de krokodil",
+      "emoji": "🐊",
+      "say": "Louis is een krokodil.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "het moeras",
+      "emoji": "🌿",
+      "say": "Ze springen door het moeras.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "het restaurant",
+      "emoji": "🍽️",
+      "say": "Tiana wil een restaurant.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de trompet",
+      "emoji": "🎺",
+      "say": "Louis speelt trompet.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de ster",
+      "emoji": "⭐",
+      "say": "De ster schijnt helder.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

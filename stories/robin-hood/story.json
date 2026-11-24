@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "robin-hood",
+  "version": 1,
+  "title": "Robin Hood, de slimme vos.",
+  "emoji": "🦊",
+  "text": "In het bos van Sherwood woont een vos. Hij heet Robin Hood. Hij draagt een groene hoed met een rode veer. En hij heeft een pijl en boog. Robin Hood woont samen met zijn beste vriend. Kleine Jan. Kleine Jan is eigenlijk een grote beer. Hij is niet klein, hij is reuzengroot! In het land is er een gemene koning. Prins Jan. Hij is een mager leeuwtje met een te grote kroon. Hij zuigt altijd op zijn duim als hij boos is. Prins Jan houdt van goud. Veel goud. Zijn helper, de sheriff, is een dikke wolf. De sheriff neemt het geld af van alle mensen. Zelfs van de arme dieren. Zelfs van een klein konijntje dat jarig is. Het konijntje heeft één muntje gekregen voor zijn verjaardag. De sheriff pakt het af. Robin Hood ziet het. Dat is niet eerlijk! Hij neemt het geld terug van de rijken. En hij geeft het aan de armen. Hij verkleedt zich als oude vrouw. Of als bedelaar. Zo kan hij stiekem bij de koning komen. Het konijntje krijgt van Robin Hood een hoed en een pijl en boog. Voor jouw verjaardag, zegt Robin. Het konijntje schiet een pijl. De pijl vliegt over de muur. Recht in de tuin van het kasteel. Daar woont Marian. Een lieve vossin. Ze is de vriendin van Robin Hood van vroeger. Prins Jan organiseert een boogschietwedstrijd. De winnaar krijgt een gouden pijl. En een kus van Marian. Robin Hood wil meedoen. Maar het is een val! Prins Jan wil hem vangen. Robin verkleedt zich als een ooievaar. Met lange poten en een gele snavel. Niemand herkent hem. Hij schiet. Raak! Midden in de roos. Hij wint! Maar dan valt zijn vermomming af. De soldaten pakken hem. Kleine Jan helpt. Hij verkleedt zich ook. Samen ontsnappen ze. Met Marian. Iedereen danst in het bos. Die nacht sluipen Robin en Kleine Jan in het kasteel. Ze pakken alle zakken goud. Ze geven het terug aan alle dieren in het dorp. Dan komt de goede koning Richard terug van een lange reis. Hij stuurt Prins Jan en de sheriff weg. Ze moeten nu stenen hakken. Robin Hood en Marian trouwen. Het konijntje draagt de sluier. Iedereen in het bos viert feest. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welk dier is Robin Hood?",
+      "right": "🦊",
+      "wrong": [
+        "🐺",
+        "🐻"
+      ],
+      "say": "Robin Hood is een vos.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Welk dier is Kleine Jan?",
+      "right": "🐻",
+      "wrong": [
+        "🐭",
+        "🐰"
+      ],
+      "say": "Kleine Jan is een grote beer.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat geeft Robin aan de arme dieren?",
+      "right": "🪙",
+      "wrong": [
+        "🥕",
+        "🧸"
+      ],
+      "say": "Robin geeft het geld terug aan de armen.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Als welke vogel verkleedt Robin zich?",
+      "right": "🐦",
+      "wrong": [
+        "🦉",
+        "🦆"
+      ],
+      "say": "Robin verkleedt zich als een ooievaar.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de vos",
+      "emoji": "🦊",
+      "say": "Robin Hood is een slimme vos.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de pijl en boog",
+      "emoji": "🏹",
+      "say": "Robin schiet met pijl en boog.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "het goud",
+      "emoji": "🪙",
+      "say": "Prins Jan houdt van goud.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de kroon",
+      "emoji": "👑",
+      "say": "De prins heeft een te grote kroon.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "het konijn",
+      "emoji": "🐇",
+      "say": "Het konijntje is jarig.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "het bos",
+      "emoji": "🌳",
+      "say": "Robin Hood woont in het bos.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}
