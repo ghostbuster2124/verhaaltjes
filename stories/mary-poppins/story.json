@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "mary-poppins",
+  "version": 1,
+  "title": "Mary Poppins komt aanwaaien.",
+  "emoji": "☂️",
+  "text": "In Londen, in een huis met een blauwe deur, wonen twee kinderen. Jane en Michael. Hun papa werkt de hele dag bij de bank. Hij heeft het altijd druk. Hij heeft nooit tijd om te spelen. Jane en Michael zijn ondeugend. Ze lopen weg van elke oppas. Er is geen oppas die wil blijven. De kinderen schrijven een briefje. Gezocht: een lieve oppas. Ze moet grappig zijn. Ze moet spelletjes spelen. En ze moet lief zijn. Papa verscheurt het briefje. Hij gooit het in de open haard. De stukjes vliegen door de schoorsteen naar buiten. De volgende dag waait er een harde oostenwind. En daar, in de lucht, zweeft een vrouw aan een paraplu. Ze landt zachtjes voor de deur. Ze heeft een zwarte hoed, een tas van tapijt en een paraplu met een papegaaienkop. Ik ben Mary Poppins, zegt ze. Ik ben de nieuwe oppas. In haar tas zit van alles. Een lamp, een spiegel, een plant. Hoe kan dat allemaal in zo een kleine tas? De kinderen kijken met grote ogen. Mary Poppins zegt: Tijd om de kamer op te ruimen. De kinderen zuchten. Bah, opruimen. Mary Poppins knipt met haar vingers. Bij elk werkje hoort een spelletje, zegt ze. En dan wordt het werk een feestje. Ze zingt een liedje. Een lepel suiker maakt het medicijn zoet. De speelgoedjes vliegen vanzelf in de kast. De kleertjes vouwen zichzelf op. Mary Poppins heeft een vriend. Bert, de schoorsteenveger. Bert tekent prenten op de stoep met krijt. Ze springen samen in een tekening. Ineens zijn ze in een mooi landschap. Met pinguïns die dansen. En paardjes van een draaimolen die echt galopperen. Ze gaan op bezoek bij oom Albert. Als oom Albert lacht, zweeft hij naar het plafond. Iedereen moet lachen. En iedereen zweeft. Ze drinken thee aan het plafond! Maar papa vindt dat allemaal onzin. Hij neemt de kinderen mee naar de bank. De kinderen zien hoe saai het daar is. Op een avond is papa verdrietig. Hij heeft een probleem op zijn werk. Hij denkt na. Over zijn kinderen. Over hoeveel hij ze mist. Papa maakt een vlieger. Een grote vlieger. Hij neemt Jane en Michael mee naar het park. Samen laten ze de vlieger hoog in de lucht vliegen. Mary Poppins kijkt uit het raam. Haar werk is klaar. De familie is gelukkig. Ze opent haar paraplu. De wind draait. En Mary Poppins zweeft weg. Over de daken van Londen. Tot de volgende keer. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Hoe komt Mary Poppins aan?",
+      "right": "☂️",
+      "wrong": [
+        "🚲",
+        "🚂"
+      ],
+      "say": "Mary Poppins zweeft aan een paraplu.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Welke kop zit er op haar paraplu?",
+      "right": "🦜",
+      "wrong": [
+        "🐶",
+        "🐸"
+      ],
+      "say": "Op haar paraplu zit een papegaaienkop.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat gebeurt er als oom Albert lacht?",
+      "right": "🎈",
+      "wrong": [
+        "😴",
+        "💧"
+      ],
+      "say": "Als oom Albert lacht, zweeft hij naar het plafond.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat maakt papa op het einde?",
+      "right": "🪁",
+      "wrong": [
+        "🎂",
+        "🏠"
+      ],
+      "say": "Papa maakt een vlieger.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de paraplu",
+      "emoji": "☂️",
+      "say": "Mary Poppins vliegt met een paraplu.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de hoed",
+      "emoji": "🎩",
+      "say": "Mary Poppins heeft een zwarte hoed.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de vlieger",
+      "emoji": "🪁",
+      "say": "De vlieger vliegt hoog.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de schoorsteen",
+      "emoji": "🏭",
+      "say": "Bert veegt de schoorsteen.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de pinguïn",
+      "emoji": "🐧",
+      "say": "De pinguïns dansen.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de lepel",
+      "emoji": "🥄",
+      "say": "Een lepel suiker maakt het zoet.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

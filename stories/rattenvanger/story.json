@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "rattenvanger",
+  "version": 1,
+  "title": "De rattenvanger van Hamelen.",
+  "emoji": "🪈",
+  "text": "Lang geleden lag er een stad aan een rivier. Ze heette Hamelen. Het was een mooie stad met puntige daken. Maar in Hamelen was een groot probleem. Ratten. Heel veel ratten. Duizenden ratten! De ratten zaten overal. In de keukens. In de kasten. Ze aten het brood op en de kaas. Ze knaagden aan de schoenen. Ze sliepen zelfs in de hoeden van de mensen. De mensen waren radeloos. Ze gingen naar de burgemeester. Doe iets! roepen ze. De burgemeester was dik en hij hield van geld. Hij wist niet wat hij moest doen. Op een dag kwam er een vreemde man naar de stad. Hij had een lange jas in alle kleuren. Rood, geel, groen en blauw. En hij had een fluit. Ik kan de ratten wegjagen, zei hij. Maar dan wil ik duizend gouden munten. Duizend munten? De burgemeester knikte snel. Ja, ja, als je de ratten maar wegjaagt. De man zette de fluit aan zijn mond. Hij speelde een vreemd en mooi liedje. Tiri-tiri-too. En toen gebeurde het. Uit alle huizen kwamen ratten. Grote ratten, kleine ratten, grijze en bruine ratten. Ze liepen allemaal achter de fluitspeler aan. De fluitspeler liep naar de rivier. Hij liep door het water. De ratten volgden hem. En ze zwommen weg, ver weg. Ze kwamen nooit meer terug. De mensen juichten. De stad was vrij! De fluitspeler ging naar de burgemeester. Nu wil ik mijn duizend munten. Maar de burgemeester lachte. Duizend munten? Voor een liedje? Hier heb je tien munten. Meer krijg je niet. De fluitspeler werd stil. Je hebt beloofd, zei hij. Wie zijn belofte breekt, zal er spijt van krijgen. Hij zette de fluit weer aan zijn mond. Nu speelde hij een ander liedje. Een vrolijk en heerlijk liedje. Alle kinderen van de stad kwamen naar buiten. Ze dansten achter de fluitspeler aan. Door de straten. De stad uit. Naar de berg. De berg ging open. Een poort naar een wondermooi land. Met bloemen en zoete vruchten. De kinderen gingen naar binnen. De ouders waren heel verdrietig. Ze gingen naar de burgemeester. Betaal hem! De burgemeester schaamde zich. Hij nam al zijn goud. Hij gaf het aan de fluitspeler. Het spijt me. Ik had mijn belofte moeten houden. De fluitspeler speelde nog één keer. En alle kinderen kwamen dansend terug. Naar hun mama en papa. Vanaf die dag hield de burgemeester altijd zijn beloftes. En in Hamelen zeggen ze nog steeds: Een belofte is een belofte. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welke dieren zitten er overal in Hamelen?",
+      "right": "🐀",
+      "wrong": [
+        "🐈",
+        "🐦"
+      ],
+      "say": "Er zitten overal ratten.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Welk muziekinstrument heeft de man?",
+      "right": "🪈",
+      "wrong": [
+        "🥁",
+        "🎸"
+      ],
+      "say": "De man speelt op een fluit.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Waar lopen de ratten naartoe?",
+      "right": "🌊",
+      "wrong": [
+        "⛰️",
+        "🏰"
+      ],
+      "say": "De ratten lopen naar de rivier.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat breekt de burgemeester?",
+      "right": "🤝",
+      "wrong": [
+        "🍽️",
+        "🪟"
+      ],
+      "say": "De burgemeester breekt zijn belofte.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de rat",
+      "emoji": "🐀",
+      "say": "De ratten eten de kaas op.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de fluit",
+      "emoji": "🪈",
+      "say": "De man speelt op de fluit.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de rivier",
+      "emoji": "🏞️",
+      "say": "De ratten lopen naar de rivier.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de burgemeester",
+      "emoji": "🤵",
+      "say": "De burgemeester houdt van geld.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de kaas",
+      "emoji": "🧀",
+      "say": "De ratten eten kaas.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de belofte",
+      "emoji": "🤝",
+      "say": "Een belofte moet je houden.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

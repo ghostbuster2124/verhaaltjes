@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "keizer-kleren",
+  "version": 1,
+  "title": "De nieuwe kleren van de keizer.",
+  "emoji": "👑",
+  "text": "Lang geleden woonde er een keizer. Hij hield van mooie kleren. Meer dan van wat dan ook. Hij had een jas voor elk uur van de dag. Een rode jas, een gouden jas, een jas met parels. Hij keek de hele dag in de spiegel. Op een dag kwamen er twee vreemde mannen naar het paleis. Ze zeiden: Wij zijn wevers. Wij kunnen de mooiste stof van de wereld maken. Onze stof is magisch, zeiden ze. Alleen slimme mensen kunnen hem zien. Domme mensen zien niets. De keizer was meteen verkocht. Maak een nieuw pak voor mij! Dan weet ik ook welke van mijn mensen dom zijn. De keizer gaf ze veel goud. En zijde. En gouden draad. De twee mannen zetten een weefgetouw neer. Ze deden alsof ze weefden. Klak, klak, klak. Maar er was helemaal niets. Ze stopten het goud in hun eigen zakken. De keizer stuurde zijn minister om te kijken. De minister keek. Hij zag niets. Helemaal niets. Maar hij dacht: Als ik zeg dat ik niets zie, dan denken ze dat ik dom ben. Dus zei hij: O, wat prachtig! Wat een mooie kleuren! Daarna ging de keizer zelf kijken. Hij zag ook niets. Maar hij durfde het niet te zeggen. Hij zei: Prachtig. Ik ben heel tevreden. Dan kwam de grote dag. Er was een optocht door de stad. De keizer zou zijn nieuwe kleren laten zien. De wevers deden alsof ze hem aankleedden. Hier is uw broek, majesteit. Hier is uw jas. Hier is uw lange mantel. Voelt het niet zo licht als een veertje? De keizer liep naar buiten. In zijn onderbroek! Maar hij liep heel trots. Alle mensen langs de straat zagen het. Maar niemand durfde iets te zeggen. Wat een mooie kleren! riepen ze. Want niemand wilde dom lijken. Toen riep een klein jongetje. Een heel klein jongetje op de schouders van zijn papa. Maar de keizer heeft helemaal niets aan! Het werd stil. En toen begon iedereen te giechelen. Het jongetje heeft gelijk! De keizer is in zijn onderbroek! De keizer werd rood als een tomaat. Hij wist dat het waar was. De twee wevers waren allang weggelopen. Met al het goud. Vanaf die dag luisterde de keizer naar eerlijke mensen. En hij gaf het jongetje een plaats in het paleis. Want iemand die de waarheid durft te zeggen, is heel waardevol. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Waar houdt de keizer het meest van?",
+      "right": "👘",
+      "wrong": [
+        "🍰",
+        "🐴"
+      ],
+      "say": "De keizer houdt van mooie kleren.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wie kan de magische stof zien, volgens de wevers?",
+      "right": "🧠",
+      "wrong": [
+        "👶",
+        "🐶"
+      ],
+      "say": "Alleen slimme mensen kunnen de stof zien, zeggen ze.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat heeft de keizer echt aan in de optocht?",
+      "right": "🩲",
+      "wrong": [
+        "🧥",
+        "👗"
+      ],
+      "say": "De keizer loopt in zijn onderbroek.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wie zegt de waarheid?",
+      "right": "👦",
+      "wrong": [
+        "👴",
+        "🤴"
+      ],
+      "say": "Een klein jongetje zegt de waarheid.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de keizer",
+      "emoji": "🤴",
+      "say": "De keizer houdt van kleren.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de spiegel",
+      "emoji": "🪞",
+      "say": "De keizer kijkt in de spiegel.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de jas",
+      "emoji": "🧥",
+      "say": "De keizer heeft veel jassen.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de draad",
+      "emoji": "🧵",
+      "say": "De wevers krijgen gouden draad.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "het goud",
+      "emoji": "🪙",
+      "say": "De wevers stelen het goud.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de onderbroek",
+      "emoji": "🩲",
+      "say": "De keizer loopt in zijn onderbroek.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}
