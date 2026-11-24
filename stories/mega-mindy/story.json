@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "mega-mindy",
+  "version": 1,
+  "title": "Mega Mindy en de verdwenen taart.",
+  "emoji": "🦸‍♀️",
+  "text": "In het stadje Ministad werkt een vrolijke jonge vrouw bij de politie. Ze heet Mieke. Mieke werkt samen met commissaris Kramer en met agent Toby. Commissaris Kramer is de baas. Hij heeft een grote snor en hij denkt dat hij heel slim is. Maar hij vergeet altijd alles. Toby is jong en een beetje verlegen. Hij is stiekem verliefd op Mega Mindy. Want weet je wat het geheim is van Mieke? Als er gevaar is, dan gaat ze naar haar geheime kamer. Ze draait aan een draaiplateau. En ze verandert in Mega Mindy! Mega Mindy is een superheldin. Ze draagt een rood pak met een gele cape en een masker. Ze kan vliegen. Ze heeft superkrachten. En ze heeft een speciale toverbril. Op een dinsdagochtend is er groot nieuws in Ministad. Vandaag is de grote taartenwedstrijd! Alle bakkers van de stad doen mee. De mooiste en lekkerste taart wint een gouden beker. De burgemeester zal de taarten proeven. Bakker Bert heeft een taart gemaakt van vijf verdiepingen. Met chocolade, aardbeien en een suikeren kasteeltje bovenop. Het is de mooiste taart die hij ooit gemaakt heeft. Hij zet de taart op een tafel op het grote plein. Maar als de burgemeester komt om te proeven, is de taart weg! Verdwenen! Op de tafel liggen alleen nog een paar kruimels. Bakker Bert begint te huilen. Mijn taart! Mijn mooie taart! Commissaris Kramer komt aangelopen met Toby en Mieke. Geen paniek! roept de commissaris. Ik los dit op! Hij kijkt met een vergrootglas naar de tafel. Hmm, zegt hij. Ik zie kruimels. Dus iemand heeft de taart gegeten! Mieke rolt met haar ogen. Dat weten we al, commissaris. Ze glipt weg. Ze rent naar haar geheime kamer. Ze draait op het draaiplateau. Wieeeee! En daar is ze. Mega Mindy! Mega Mindy vliegt naar het plein. Iedereen juicht. Mega Mindy! Mega Mindy zet haar toverbril op. Met die bril kan ze sporen zien die niemand anders kan zien. Ze ziet kleine voetjes. Ze lopen van de tafel naar de rand van het plein. Kleine voetjes, met chocolade aan. Ze volgt het spoor. Door de straat. Langs de bakkerij. Door het park. Tot aan een groot, oud huis. Daar woont Mysterio, de boef van Ministad. Mysterio heeft een zwarte cape en een grote zwarte hoed. Hij wil altijd alles voor zichzelf. Mega Mindy kijkt door het raam. Daar zit Mysterio aan tafel. Met de taart van bakker Bert voor zich! Hij heeft een grote vork in zijn hand. Hehehe, zegt Mysterio. Nu win ik de gouden beker! Ik zeg gewoon dat ik deze taart zelf gebakken heb! Mega Mindy vliegt door het raam naar binnen. Niet zo snel, Mysterio! roept ze. Mysterio schrikt zo erg, dat hij van zijn stoel valt. Mega Mindy! Hij wil wegrennen. Maar Mega Mindy gebruikt haar superkracht. Ze maakt een grote roze zeepbel. De bel zweeft rond Mysterio. Hij zit gevangen! Hij kan niet meer weg. Mega Mindy brengt Mysterio en de taart terug naar het plein. Iedereen klapt. Commissaris Kramer zet zijn hoed recht. Ik wist het, zegt hij. Ik wist dat het Mysterio was. Iedereen lacht. Bakker Bert krijgt zijn taart terug. Er is maar één klein stukje uit. De burgemeester proeft. Mmm! Dit is de lekkerste taart van de hele wereld! Bakker Bert wint de gouden beker. Hij is zo blij. En Mysterio? Die moet de hele week afwassen in de bakkerij. Mega Mindy vliegt weg. Even later komt Mieke weer aangelopen. Heb ik iets gemist? vraagt ze. Toby zucht. Mega Mindy was hier, zegt hij met dromerige ogen. Ze was geweldig. Mieke glimlacht. Ze zegt niets. Want het is haar geheim. Mega Mindy, hoera! Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Waar werkt Mieke?",
+      "right": "👮",
+      "wrong": [
+        "👩‍🍳",
+        "👩‍🏫"
+      ],
+      "say": "Mieke werkt bij de politie."
+    },
+    {
+      "question": "Welke kleur heeft het pak van Mega Mindy?",
+      "right": "🔴",
+      "wrong": [
+        "🔵",
+        "🟢"
+      ],
+      "say": "Mega Mindy draagt een rood pak."
+    },
+    {
+      "question": "Wat is er verdwenen?",
+      "right": "🎂",
+      "wrong": [
+        "👑",
+        "🚗"
+      ],
+      "say": "De taart van bakker Bert is verdwenen."
+    },
+    {
+      "question": "Wat ziet Mega Mindy met haar toverbril?",
+      "right": "👣",
+      "wrong": [
+        "⭐",
+        "🌈"
+      ],
+      "say": "Ze ziet kleine voetjes met chocolade."
+    },
+    {
+      "question": "Waarmee vangt Mega Mindy de boef?",
+      "right": "🫧",
+      "wrong": [
+        "🕸️",
+        "🪢"
+      ],
+      "say": "Met een grote roze zeepbel."
+    }
+  ],
+  "words": [
+    {
+      "word": "de taart",
+      "emoji": "🎂",
+      "say": "De taart heeft vijf verdiepingen."
+    },
+    {
+      "word": "de beker",
+      "emoji": "🏆",
+      "say": "De winnaar krijgt een gouden beker."
+    },
+    {
+      "word": "de bril",
+      "emoji": "👓",
+      "say": "Mega Mindy heeft een toverbril."
+    },
+    {
+      "word": "het vergrootglas",
+      "emoji": "🔍",
+      "say": "De commissaris kijkt met een vergrootglas."
+    },
+    {
+      "word": "de zeepbel",
+      "emoji": "🫧",
+      "say": "Mysterio zit in een zeepbel."
+    },
+    {
+      "word": "de aardbeien",
+      "emoji": "🍓",
+      "say": "Op de taart liggen aardbeien."
+    }
+  ]
+}

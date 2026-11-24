@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "mickey-minnie",
+  "version": 1,
+  "title": "Mickey en Minnie gaan picknicken.",
+  "emoji": "🐭",
+  "text": "In een vrolijk huisje met een rood dak woont Mickey Mouse. Mickey heeft grote ronde oren. Hij draagt een rode broek en gele schoenen. Mickey wordt wakker. De zon schijnt. Wat een mooie dag! Ideaal voor een picknick! Hij belt zijn vriendin Minnie. Minnie heeft een roze strik met witte stippen. Ja, Mickey! Ik maak boterhammen. Mickey belt ook zijn andere vrienden. Donald Duck, Goofy en Pluto, zijn hond. Iedereen neemt iets mee. Minnie maakt boterhammen met kaas. Goofy neemt een grote watermeloen mee. Donald neemt limonade mee. En Mickey bakt koekjes. Ze lopen samen naar de heuvel. Pluto rent voorop. Hij snuffelt aan elke bloem. Ze leggen een rood geblokt kleed op het gras. Ze zetten de mand in het midden. Mmm, alles ziet er lekker uit. Maar dan horen ze een geluid. Bzzzz. Een bijtje! Het bijtje vliegt rond de limonade. Donald wordt boos. Ga weg, bij! Hij zwaait met zijn armen. Hij springt op en neer. Hij kwaakt heel luid. Maar het bijtje blijft. Goofy probeert het bijtje te vangen met zijn hoed. Hij struikelt. Hij valt op de watermeloen. Plets! Overal zitten pitjes. Iedereen lacht. Minnie zegt: Je moet een bij niet boos maken. Blijf rustig, dan gaat ze vanzelf weg. Bijen helpen de bloemen groeien. Iedereen blijft heel stil zitten. Het bijtje vliegt naar een bloem. En dan verder weg. Zie je wel, zegt Minnie. Ze eten hun boterhammen. Ze drinken limonade. Ze eten de koekjes van Mickey. Maar waar is Pluto? Pluto is weg! Iedereen zoekt. Pluto! Pluto! Kom maar! Dan horen ze geblaf achter een struik. Pluto heeft een egeltje gevonden. Het egeltje is verdwaald. Het zoekt zijn mama. Mickey heeft een idee. Hij pakt zijn verrekijker. Hij kijkt rond. Daar! Daar loopt mama egel! Pluto duwt het kleine egeltje voorzichtig met zijn neus naar zijn mama. Het egeltje is blij. Goed gedaan, Pluto! zegt Mickey. Pluto krijgt het laatste koekje. De zon gaat onder. De vrienden ruimen alles netjes op. Ze laten geen afval liggen. Ze lopen samen naar huis. Wat een leuke dag, zegt Minnie. Hot dog! zegt Mickey. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welke kleur heeft de strik van Minnie?",
+      "right": "🩷",
+      "wrong": [
+        "🟢",
+        "🟤"
+      ],
+      "say": "Minnie heeft een roze strik met witte stippen.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat neemt Goofy mee?",
+      "right": "🍉",
+      "wrong": [
+        "🍌",
+        "🍇"
+      ],
+      "say": "Goofy neemt een watermeloen mee.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Welk insect vliegt rond de limonade?",
+      "right": "🐝",
+      "wrong": [
+        "🦋",
+        "🐞"
+      ],
+      "say": "Er vliegt een bijtje rond.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat vindt Pluto achter de struik?",
+      "right": "🦔",
+      "wrong": [
+        "🐇",
+        "🐢"
+      ],
+      "say": "Pluto vindt een egeltje.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de muis",
+      "emoji": "🐭",
+      "say": "Mickey is een muis.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de picknick",
+      "emoji": "🧺",
+      "say": "De vrienden gaan picknicken.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de bij",
+      "emoji": "🐝",
+      "say": "De bij vliegt naar een bloem.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de watermeloen",
+      "emoji": "🍉",
+      "say": "Goofy valt op de watermeloen.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de verrekijker",
+      "emoji": "🔭",
+      "say": "Mickey kijkt met een verrekijker.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de egel",
+      "emoji": "🦔",
+      "say": "Het egeltje zoekt zijn mama.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

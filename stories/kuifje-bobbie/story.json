@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "kuifje-bobbie",
+  "version": 1,
+  "title": "Kuifje en Bobbie.",
+  "emoji": "🐕",
+  "text": "In de stad Brussel woont een jonge reporter. Hij heet Kuifje. Hij heeft een plukje haar dat altijd rechtop staat, als een kuifje. Daarom heet hij zo. Kuifje schrijft verhalen voor de krant. Echte verhalen, over avonturen over de hele wereld. Kuifje heeft een hondje. Een wit hondje met krullend haar. Hij heet Bobbie. Bobbie is heel slim en heel dapper. Alleen houdt hij een beetje te veel van botten. Op een ochtend lopen Kuifje en Bobbie over de markt. Er is een rommelmarkt, met oude spullen. Klokken, boeken, schilderijen, lampen. Kuifje ziet een klein, oud scheepje. Een model van een zeilschip, met witte zeilen en een houten romp. Wat mooi, zegt Kuifje. Hij koopt het scheepje voor een paar munten. Maar zodra hij het gekocht heeft, komen er twee mannen naar hem toe. Ze dragen bolhoeden en ze zien er hetzelfde uit. Het zijn de detectives Jansen en Janssen. Ze werken voor de politie. Opgepast, jongeman! zegt Jansen. Er zijn zakkenrollers op de markt! Ik zou zelfs zeggen, zegt Janssen, er zijn zakkenrollers op de markt. Kuifje lacht. Ze zeggen altijd alles twee keer. Daarna komt er nog een man. Hij heeft een zwarte hoed en een donkere jas. Hij wil het scheepje kopen. Ik geef je er tien keer zoveel geld voor! zegt hij. Maar Kuifje wil niet. Waarom wil iedereen dit scheepje? denkt hij. Thuis zet Kuifje het scheepje op de kast. Bobbie snuffelt eraan. Waf! Dan springt de kat van de buren binnen. Bobbie rent erachteraan. Ze rennen rond de tafel, over de stoel, tegen de kast. Krak! Het scheepje valt op de grond. De mast breekt. En uit de mast rolt een klein papiertje. Kuifje raapt het op. Het is een heel oud briefje. Er staat iets op geschreven, in oude letters. En er staat een tekening op. Een kaart! Een schatkaart! Kijk, Bobbie! zegt Kuifje. Dit is de weg naar een verborgen schat! Daarom wilde iedereen het scheepje! Die nacht hoort Bobbie iets. Hij spitst zijn oren. Grrr. Er is iemand in het huis! Het is de man met de zwarte hoed. Hij sluipt naar de kast. Hij zoekt het scheepje. Bobbie springt uit zijn mand. Waf! Waf! Waf! Hij bijt de man in zijn broekspijp. De man schreeuwt. Kuifje doet het licht aan. De man rent weg, door het raam. Maar hij verliest zijn hoed. In de hoed zit een kaartje. Het is het adres van een groot kasteel buiten de stad. Kuifje en Bobbie gaan erheen. Ze sluipen door de tuin. Ze kijken door het raam. Binnen zitten de man met de zwarte hoed en zijn vrienden. Ze hebben ook een scheepje. Precies hetzelfde! En ook een stukje kaart! Er zijn drie scheepjes, zegt de man. En samen tonen ze de weg naar de schat. We hebben er al twee. We moeten het derde nog vinden! Maar Kuifje heeft het derde stukje. Hij weet het nu. Hij moet snel zijn. Hij rent terug naar huis. Maar de mannen hebben hem gezien. Ze rennen achter hem aan. Kuifje springt in een auto. Bobbie springt erachteraan. Ze rijden door de straten van Brussel. Langs het Atomium, met zijn grote zilveren bollen. Langs de Grote Markt. De mannen rijden achter hen aan. Dan heeft Kuifje een idee. Hij rijdt naar het politiebureau. Daar staan Jansen en Janssen. De mannen rijden er recht op af en ze worden gevangen. Goed gedaan, Kuifje! zegt Jansen. Ik zou zelfs zeggen: heel goed gedaan, zegt Janssen. En de schat? Kuifje kijkt naar de drie stukjes kaart. Die leiden naar een eiland, ver weg in de zee. Bobbie, zegt Kuifje, wat denk je? Gaan we op avontuur? Bobbie kwispelt. Waf! Maar eerst krijgt hij een groot bot. Want vannacht was hij de grootste held van allemaal. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat voor werk doet Kuifje?",
+      "right": "📰",
+      "wrong": [
+        "👨‍🍳",
+        "👮"
+      ],
+      "say": "Kuifje is reporter voor de krant."
+    },
+    {
+      "question": "Welke kleur heeft Bobbie?",
+      "right": "⚪",
+      "wrong": [
+        "🟤",
+        "⚫"
+      ],
+      "say": "Bobbie is een wit hondje."
+    },
+    {
+      "question": "Wat koopt Kuifje op de markt?",
+      "right": "⛵",
+      "wrong": [
+        "🕰️",
+        "📚"
+      ],
+      "say": "Kuifje koopt een oud scheepje."
+    },
+    {
+      "question": "Wat zit er in de mast van het scheepje?",
+      "right": "🗺️",
+      "wrong": [
+        "💎",
+        "🔑"
+      ],
+      "say": "Er zit een schatkaart in de mast."
+    },
+    {
+      "question": "Wat krijgt Bobbie op het einde?",
+      "right": "🦴",
+      "wrong": [
+        "🧀",
+        "🍪"
+      ],
+      "say": "Bobbie krijgt een groot bot."
+    }
+  ],
+  "words": [
+    {
+      "word": "de krant",
+      "emoji": "📰",
+      "say": "Kuifje schrijft voor de krant."
+    },
+    {
+      "word": "het scheepje",
+      "emoji": "⛵",
+      "say": "Kuifje koopt een oud scheepje."
+    },
+    {
+      "word": "de kaart",
+      "emoji": "🗺️",
+      "say": "De kaart toont de weg naar de schat."
+    },
+    {
+      "word": "de hoed",
+      "emoji": "🎩",
+      "say": "De man verliest zijn hoed."
+    },
+    {
+      "word": "het kasteel",
+      "emoji": "🏰",
+      "say": "De mannen zitten in een kasteel."
+    },
+    {
+      "word": "het bot",
+      "emoji": "🦴",
+      "say": "Bobbie houdt van botten."
+    }
+  ]
+}

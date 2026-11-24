@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "luizenleven",
+  "version": 1,
+  "title": "Flik en de mieren.",
+  "emoji": "🐜",
+  "text": "Op een klein eiland woont een kolonie mieren. Ze werken de hele dag. Ze verzamelen zaadjes en graankorrels. Maar het eten is niet voor hen. Het is voor de sprinkhanen. Elk jaar komen de sprinkhanen. Ze zijn groot en gemeen. Ze eten al het eten op. Een van de mieren heet Flik. Flik is anders dan de andere mieren. Hij is een uitvinder. Hij maakt machines om sneller graan te plukken. Maar zijn uitvindingen gaan vaak mis. Op een dag valt zijn machine om. Alle graan voor de sprinkhanen valt in het water! De sprinkhanen komen. Hun baas heet Hopper. Hij is heel boos. Ik kom terug als de laatste bladeren vallen, zegt hij. En dan wil ik dubbel zoveel eten! De mieren zijn bang. Flik heeft een idee. Ik ga sterke krijgers zoeken. Die helpen ons tegen de sprinkhanen. Flik reist naar de grote stad van de insecten. Daar ziet hij een groep insecten. Ze lijken heel stoer. Er is een lieveheersbeestje. Een wandelende tak. Twee pillenkevers. Een rups. Een spin. En een mot. Flik denkt dat het krijgers zijn. Maar het zijn eigenlijk circusartiesten! Clowns en acrobaten. Maar dat weet Flik niet. Ze komen naar het eiland. De mieren zijn heel blij. De artiesten durven niet te zeggen dat ze geen krijgers zijn. Dan wordt een klein mierenprinsesje bijna opgegeten door een vogel. De artiesten redden haar. Met hun circuskunstjes! Nu zijn ze echt helden. Flik heeft een nieuw plan. Sprinkhanen zijn bang voor vogels. We bouwen een nepvogel! Alle mieren helpen. Ze bouwen een grote vogel van bladeren en takjes. De artiesten helpen ook. Hopper komt terug. De nepvogel vliegt. De sprinkhanen schrikken en vluchten weg. Maar dan valt de vogel. De sprinkhanen zien dat het nep is. Hopper is woedend. Maar Flik gaat voor hem staan. Jij hebt ons nodig, Hopper. Wij hebben jou niet nodig. Wij zijn met veel meer! Alle mieren gaan samen staan. Duizenden mieren. De sprinkhanen schrikken. Ze vliegen weg en komen nooit meer terug. De mieren vieren feest. Flik wordt een held. En zijn uitvindingen? Die worden nu door iedereen gebruikt. De artiesten gaan weer verder met hun circus. Ze zwaaien. Tot ziens, vrienden! Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Wat verzamelen de mieren?",
+      "right": "🌾",
+      "wrong": [
+        "🍎",
+        "🧀"
+      ],
+      "say": "De mieren verzamelen graan en zaadjes.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wie eten al het eten op?",
+      "right": "🦗",
+      "wrong": [
+        "🐦",
+        "🐌"
+      ],
+      "say": "De sprinkhanen eten al het eten op.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat zijn de insecten die Flik meeneemt eigenlijk?",
+      "right": "🎪",
+      "wrong": [
+        "🏫",
+        "🚒"
+      ],
+      "say": "Het zijn circusartiesten.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat bouwen de mieren?",
+      "right": "🐦",
+      "wrong": [
+        "🏰",
+        "🚂"
+      ],
+      "say": "De mieren bouwen een nepvogel.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de mier",
+      "emoji": "🐜",
+      "say": "Flik is een mier.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de sprinkhaan",
+      "emoji": "🦗",
+      "say": "De sprinkhanen zijn gemeen.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "het lieveheersbeestje",
+      "emoji": "🐞",
+      "say": "Het lieveheersbeestje is rood.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de rups",
+      "emoji": "🐛",
+      "say": "De rups is een circusartiest.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de spin",
+      "emoji": "🕷️",
+      "say": "De spin doet mee in het circus.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "het graan",
+      "emoji": "🌾",
+      "say": "De mieren verzamelen graan.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}
