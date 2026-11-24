@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "groot",
+  "version": 1,
+  "title": "Groot, de boom die vriendjes maakt.",
+  "emoji": "🌳",
+  "text": "Ver weg in de ruimte vliegt een ruimteschip. Daarin zit een rare groep vrienden. Er is Peter. Hij luistert graag naar muziek op zijn oude cassettespeler. Er is Rocket. Rocket is een wasbeer. Hij is slim en een beetje brutaal. En er is Groot. Groot is een boom. Een boom die kan lopen! Groot kan maar drie woordjes zeggen. Ik ben Groot. Als hij blij is, zegt hij: Ik ben Groot. Als hij boos is, zegt hij: Ik ben Groot. Als hij honger heeft, zegt hij ook: Ik ben Groot. Maar Rocket begrijpt hem altijd. Want Rocket is zijn beste vriend. Op een dag landen ze op een donkere planeet. Er groeit niets. Geen bloemen. Geen gras. Alles is grijs. De mensen op de planeet zijn verdrietig. Er is geen eten meer. Alle planten zijn verdwenen. Groot kijkt rond. Ik ben Groot, zegt hij zachtjes. Wat zegt hij? vraagt Peter. Hij zegt dat hij kan helpen, zegt Rocket. Groot steekt zijn armen uit. Uit zijn vingers groeien takjes. Uit de takjes groeien blaadjes. Groene blaadjes. Dan groeien er bloemen uit. Gele, roze en paarse bloemen. Ze ruiken heerlijk. Groot stopt zijn voeten in de grond. Zijn wortels groeien diep. Om hem heen komt het gras omhoog. Groot blaast. Er vliegen kleine lichtjes door de lucht. Het zijn zaadjes. Ze dwarrelen over de hele planeet. Overal waar een zaadje valt, groeit een plantje. Een appelboom. Een bessenstruik. Een bloem. De kinderen van de planeet rennen naar buiten. Ze plukken appels. Ze dansen tussen de bloemen. Peter zet zijn muziek aan. Iedereen danst. Ook Groot. Hij wiebelt met zijn takken. De kinderen geven Groot een dikke knuffel. Dank je wel, Groot! Groot glimlacht. Ik ben Groot. Wat zegt hij nu? vraagt een meisje. Rocket lacht. Hij zegt: Graag gedaan, vriendjes. En het ruimteschip vliegt verder, naar het volgende avontuur. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Wat is Groot?",
+      "right": "🌳",
+      "wrong": [
+        "🤖",
+        "🐶"
+      ],
+      "say": "Groot is een boom die kan lopen.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Welk dier is Rocket?",
+      "right": "🦝",
+      "wrong": [
+        "🐰",
+        "🦊"
+      ],
+      "say": "Rocket is een wasbeer.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat groeit er uit de vingers van Groot?",
+      "right": "🌸",
+      "wrong": [
+        "🔥",
+        "❄️"
+      ],
+      "say": "Er groeien takjes, blaadjes en bloemen uit zijn vingers.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Welk fruit plukken de kinderen?",
+      "right": "🍎",
+      "wrong": [
+        "🍌",
+        "🍉"
+      ],
+      "say": "De kinderen plukken appels.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de boom",
+      "emoji": "🌳",
+      "say": "Groot is een boom.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de wasbeer",
+      "emoji": "🦝",
+      "say": "Rocket is een wasbeer.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de bloem",
+      "emoji": "🌼",
+      "say": "Groot laat bloemen groeien.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "het zaadje",
+      "emoji": "🌱",
+      "say": "Uit een zaadje groeit een plantje.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de planeet",
+      "emoji": "🪐",
+      "say": "Ze landen op een grijze planeet.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de appel",
+      "emoji": "🍎",
+      "say": "De kinderen plukken een appel.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

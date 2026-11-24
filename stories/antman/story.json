@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "antman",
+  "version": 1,
+  "title": "Ant-Man en de mieren.",
+  "emoji": "🐜",
+  "text": "Scott is een papa. Hij heeft een dochtertje. Ze heet Cassie. Cassie is zes jaar en ze houdt van verhaaltjes. Op een dag krijgt Scott een heel raar pak. Het is rood en zwart. Met een helm. Er zit een knopje op de hand. Als je op het knopje drukt, word je zo klein als een mier. Scott drukt op het knopje. Woesj! Hij krimpt en krimpt. Nu is hij piepklein. Alles is ineens heel groot. Een grasspriet is zo hoog als een boom. Een druppel water is zo groot als een bal. Er komt een mier aan. Een echte mier! Voor Scott is de mier zo groot als een paard. Scott schrikt. Maar de mier is lief. Scott klimt op haar rug. Samen rennen ze door het gras. De mier heet Anthony. Ze worden beste vrienden. In het pak kan Scott ook met de mieren praten. Niet met woorden, maar met zijn gedachten. Zo wordt Scott Ant-Man. De mierenman. Op een dag is Cassie verdrietig. Haar lievelingsring is in een gaatje gevallen. Een heel klein gaatje in de vloer. Niemand kan erbij. Papa lacht. Ik weet raad! Hij drukt op het knopje. Woesj! Hij wordt piepklein. Hij roept zijn vriendjes. Honderd mieren komen aangelopen. Ze lopen in een lange rij. Ant-Man springt in het gaatje. Het is donker en stoffig. Hij ziet een grote spin. Maar de mieren jagen de spin weg. Daar! Daar ligt de ring. Glimmend in het donker. De ring is zwaar voor zo een kleine man. Maar mieren zijn heel sterk. Een mier kan veel meer dragen dan zijn eigen gewicht. Samen tillen de mieren de ring op. Ze dragen hem naar boven, één, twee, één, twee. Dan drukt Scott weer op het knopje. Woesj! Hij wordt weer groot. Cassie juicht. Mijn ring! Dank je wel, papa! Dank je wel, mieren! Cassie legt een klein stukje suiker in de tuin. Voor de mieren. Als bedankje. En Scott weet het nu zeker. Je hoeft niet groot te zijn om een held te zijn. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Hoe klein wordt Scott?",
+      "right": "🐜",
+      "wrong": [
+        "🐘",
+        "🐕"
+      ],
+      "say": "Scott wordt zo klein als een mier.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat valt er in het gaatje?",
+      "right": "💍",
+      "wrong": [
+        "🧸",
+        "⚽"
+      ],
+      "say": "De ring van Cassie valt in het gaatje.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Welk dier jagen de mieren weg?",
+      "right": "🕷️",
+      "wrong": [
+        "🐈",
+        "🐦"
+      ],
+      "say": "De mieren jagen een spin weg.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat geeft Cassie aan de mieren?",
+      "right": "🍬",
+      "wrong": [
+        "🥕",
+        "🍕"
+      ],
+      "say": "Cassie geeft de mieren een stukje suiker.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de mier",
+      "emoji": "🐜",
+      "say": "Een mier is klein maar sterk.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de helm",
+      "emoji": "⛑️",
+      "say": "Scott draagt een helm.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de ring",
+      "emoji": "💍",
+      "say": "Cassie heeft een glimmende ring.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de spin",
+      "emoji": "🕷️",
+      "say": "In het gaatje woont een spin.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de druppel",
+      "emoji": "💧",
+      "say": "Een druppel is zo groot als een bal.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "het gras",
+      "emoji": "🌱",
+      "say": "De mieren rennen door het gras.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

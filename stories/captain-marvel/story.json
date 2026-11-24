@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "captain-marvel",
+  "version": 1,
+  "title": "Captain Marvel, de vliegende heldin.",
+  "emoji": "🌟",
+  "text": "Carol is een piloot. Ze vliegt met snelle vliegtuigen hoog door de lucht. Ze houdt van snelheid. Toen Carol klein was, viel ze vaak. Met de fiets. Met de skates. Bij het honkbal. De andere kinderen lachten. Jij kunt het niet, Carol! Jij bent maar een meisje. Maar Carol stond elke keer weer op. Ze klopte het stof van haar knieën. En ze probeerde het opnieuw. Op een dag vloog Carol met een heel bijzonder vliegtuig. Er zat een magische energie in. Plotseling ging er iets mis. Er was een grote flits. Boem! Carol werd geraakt door het licht. Toen ze wakker werd, was ze anders. Haar handen gloeiden. Ze kon licht schieten uit haar vuisten. En ze kon vliegen! Zonder vliegtuig! Carol kreeg een pak in het blauw, rood en goud. Met een gouden ster op haar borst. Nu heette ze Captain Marvel. Ze vloog door de ruimte, langs de sterren en de planeten. Zo snel als een komeet. Op een dag hoorde ze een noodroep. Een ruimteschip vol kleine wezentjes was in gevaar. Het motortje was kapot. Het schip viel naar een zon. Captain Marvel vloog erheen. Ze duwde het ruimteschip met haar handen. Het was zwaar. Heel zwaar. Ze dacht aan alle keren dat ze gevallen was. En alle keren dat ze weer opgestaan was. Ik kan het, zei ze. Haar handen begonnen te gloeien. Ze duwde nog harder. Het ruimteschip bewoog. Langzaam, weg van de hete zon. Naar een veilige plek. De kleine wezentjes juichten. Ze gaven haar een cadeautje. Een klein glimmend steentje. Captain Marvel vloog terug naar de aarde. Ze landde bij een school. Een meisje was net van haar fiets gevallen. Ze huilde. Captain Marvel hielp haar recht. Weet je wat het geheim is van een held? vroeg ze. Het meisje schudde haar hoofd. Je valt. Maar je staat altijd weer op. Het meisje lachte, stapte op haar fiets en reed weg. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Wat is Carol van beroep?",
+      "right": "✈️",
+      "wrong": [
+        "🚒",
+        "🍳"
+      ],
+      "say": "Carol is een piloot. Ze vliegt met vliegtuigen.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat komt er uit haar handen?",
+      "right": "✨",
+      "wrong": [
+        "💧",
+        "🌸"
+      ],
+      "say": "Uit haar handen komt licht.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat staat er op haar pak?",
+      "right": "⭐",
+      "wrong": [
+        "❤️",
+        "🌙"
+      ],
+      "say": "Er staat een gouden ster op haar pak.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Waar valt het meisje op het einde van af?",
+      "right": "🚲",
+      "wrong": [
+        "🐴",
+        "🪜"
+      ],
+      "say": "Het meisje valt van haar fiets.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "het vliegtuig",
+      "emoji": "✈️",
+      "say": "Carol vliegt met een vliegtuig.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de fiets",
+      "emoji": "🚲",
+      "say": "Het meisje valt van haar fiets.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de planeet",
+      "emoji": "🪐",
+      "say": "Captain Marvel vliegt langs de planeten.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de komeet",
+      "emoji": "☄️",
+      "say": "Ze vliegt zo snel als een komeet.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de zon",
+      "emoji": "☀️",
+      "say": "Het ruimteschip valt naar de zon.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "het ruimteschip",
+      "emoji": "🚀",
+      "say": "Ze duwt het ruimteschip weg.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}
