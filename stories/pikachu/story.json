@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "pikachu",
+  "version": 1,
+  "title": "Ash en Pikachu worden vrienden.",
+  "emoji": "⚡",
+  "text": "In een klein dorpje woont een jongen. Hij heet Ash. Hij is tien jaar. Ash heeft maar één droom. Hij wil de beste Pokémon-trainer van de wereld worden. Pokémon zijn wonderlijke wezentjes. Er zijn er heel veel. Sommige wonen in het water. Sommige in het bos. Sommige kunnen vuur spuwen. Anderen kunnen vliegen. Vandaag mag Ash zijn eerste Pokémon kiezen bij professor Eik. Maar Ash heeft zich verslapen! Hij rent in zijn pyjama naar de professor. Te laat. De andere kinderen hebben al gekozen. Er is nog maar één Pokémon over. De professor opent een rood met witte bal. Er springt een klein geel wezentje uit. Met lange oren met zwarte puntjes, rode wangetjes en een staart als een bliksem. Dit is Pikachu, zegt de professor. Pikachu! zegt Pikachu. Ash is blij. Maar Pikachu wil niet in de bal. Hij wil ook niet luisteren. Als Ash hem wil aaien, krijgt Ash een schok. Bzzzt! Zijn haar staat recht omhoog. Ze gaan op weg. Ash wil Pikachu dragen, maar Pikachu loopt liever zelf. Een eind achter Ash. In een veld ziet Ash een vogel. Hij gooit een steentje. Oei. Het is een Spearow, een boze vogel-Pokémon. En hij roept al zijn vriendjes! Een hele zwerm boze vogels vliegt naar hen toe. Ash pakt Pikachu op en rent. Het begint te regenen. Hard. Pikachu is moe en nat. Ash zet hem voorzichtig neer. Hij gaat voor Pikachu staan, met zijn armen wijd open. Jullie mogen hem niet pijn doen! roept Ash. Ik bescherm hem! Pikachu kijkt naar Ash. Deze jongen wil hem echt beschermen. Pikachu springt over Ash heen. Hij klimt op zijn schouder. Zijn wangetjes knetteren. Pikaaa-chuuu! Er schiet een enorme bliksem uit Pikachu. De vogels vliegen geschrokken weg. De regen stopt. De zon komt door de wolken. Er verschijnt een regenboog. En hoog in de lucht vliegt een prachtige gouden vogel. Ash en Pikachu kijken er samen naar. Vanaf die dag zijn ze beste vrienden. Pikachu loopt niet meer achter Ash. Hij zit altijd op zijn schouder. En ze beleven nog duizend avonturen samen. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welke kleur heeft Pikachu?",
+      "right": "🟡",
+      "wrong": [
+        "🔵",
+        "🟢"
+      ],
+      "say": "Pikachu is geel.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat gebeurt er als Ash Pikachu aait?",
+      "right": "⚡",
+      "wrong": [
+        "💧",
+        "🌸"
+      ],
+      "say": "Ash krijgt een schok.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Welke dieren zijn boos op Ash?",
+      "right": "🐦",
+      "wrong": [
+        "🐟",
+        "🐛"
+      ],
+      "say": "Boze vogels vliegen naar Ash.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat zien ze op het einde in de lucht?",
+      "right": "🌈",
+      "wrong": [
+        "🌙",
+        "🚀"
+      ],
+      "say": "Ze zien een regenboog.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de bal",
+      "emoji": "⚪",
+      "say": "Pikachu wil niet in de bal.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de bliksem",
+      "emoji": "⚡",
+      "say": "Pikachu maakt bliksem.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de vogel",
+      "emoji": "🐦",
+      "say": "De vogels zijn boos.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de regen",
+      "emoji": "🌧️",
+      "say": "Het regent heel hard.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de regenboog",
+      "emoji": "🌈",
+      "say": "Na de regen komt de regenboog.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de schouder",
+      "emoji": "🧍",
+      "say": "Pikachu zit op de schouder van Ash.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

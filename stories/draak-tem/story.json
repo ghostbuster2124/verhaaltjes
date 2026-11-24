@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "draak-tem",
+  "version": 1,
+  "title": "Hikkie en zijn draak Tandloos.",
+  "emoji": "🐉",
+  "text": "Op een koud eiland ligt een dorp van Vikingen. De Vikingen hebben grote baarden en helmen met hoorns. Er is een groot probleem. Elke nacht komen er draken. Ze stelen de schapen en de vissen. De Vikingen vechten tegen de draken. Ze denken dat alle draken gevaarlijk zijn. In het dorp woont een jongen. Hij heet Hikkie. Hij is klein en mager. Hij is niet sterk zoals de andere Vikingen. Maar Hikkie is slim. Hij maakt uitvindingen. Zijn papa is het opperhoofd. Papa wil dat Hikkie een draak vangt. Op een nacht schiet Hikkie met een uitvinding een net in de lucht. Hij raakt een draak! De volgende dag gaat hij zoeken in het bos. Daar ligt de draak. Een zwarte draak met grote groene ogen. Het is een Nachtfuria, de zeldzaamste draak van allemaal. De draak zit vast in het net. Hij kijkt Hikkie aan. Hij is bang. Hikkie wil hem eerst pijn doen. Maar dan ziet hij de bange ogen. En hij snijdt het touw door. De draak vliegt weg. Maar hij kan niet ver. Een stukje van zijn staart is kapot. Zonder dat stukje kan hij niet goed vliegen. Elke dag gaat Hikkie naar de draak. Hij brengt vis. De draak heeft geen tanden als hij lacht. Ze trekken zich terug in zijn mond. Hikkie noemt hem Tandloos. Hikkie maakt een nieuw stukje staart voor Tandloos. Van leer en hout. En een zadel, zodat hij erop kan zitten. Samen leren ze vliegen. Eerst vallen ze vaak in het water. Plons! Maar dan lukt het. Ze vliegen door de wolken. Hikkie juicht. Hikkie leert veel over draken. Ze houden van vis. Ze vinden het fijn als je ze onder hun kin kriebelt. En ze zijn bang van palingen. Draken zijn niet gemeen, zegt Hikkie. Ze zijn gewoon bang voor ons. Net zoals wij bang zijn voor hen. Eerst gelooft papa hem niet. Maar dan komt er een reuzengrote boze draak. Alle Vikingen zijn in gevaar. Hikkie en Tandloos vliegen samen. Ze zijn sneller dan de grote draak. Ze redden het hele dorp. Papa knuffelt Hikkie. Ik ben trots op je, zoon. Vanaf dan wonen de Vikingen en de draken samen. Elke Viking heeft een eigen draak. En Hikkie heeft de allerbeste vriend van de wereld. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welke kleur heeft Tandloos?",
+      "right": "⚫",
+      "wrong": [
+        "🔴",
+        "🟡"
+      ],
+      "say": "Tandloos is een zwarte draak.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat brengt Hikkie elke dag voor Tandloos?",
+      "right": "🐟",
+      "wrong": [
+        "🍎",
+        "🥖"
+      ],
+      "say": "Hikkie brengt vis.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat is er kapot bij Tandloos?",
+      "right": "🦎",
+      "wrong": [
+        "🦷",
+        "👁️"
+      ],
+      "say": "Een stukje van zijn staart is kapot.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat hebben de Vikingen op hun helm?",
+      "right": "🐂",
+      "wrong": [
+        "🌸",
+        "⭐"
+      ],
+      "say": "De Vikingen hebben hoorns op hun helm.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de draak",
+      "emoji": "🐉",
+      "say": "Tandloos is een draak.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de Viking",
+      "emoji": "🧔",
+      "say": "De Viking heeft een grote baard.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de vis",
+      "emoji": "🐟",
+      "say": "Draken eten graag vis.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "het net",
+      "emoji": "🥅",
+      "say": "Hikkie schiet een net.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de staart",
+      "emoji": "🦎",
+      "say": "De draak heeft een staart.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "het schaap",
+      "emoji": "🐑",
+      "say": "De draken stelen schapen.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

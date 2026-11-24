@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "masha-beer",
+  "version": 1,
+  "title": "Masha en de beer bakken een taart.",
+  "emoji": "🐻",
+  "text": "Diep in het bos staat een klein huisje. Daar woont een grote bruine beer. Hij is rustig en houdt van stilte. Hij leest graag een boek. Hij drinkt graag thee. En hij verzorgt zijn moestuin. Met wortels, kolen en bessen. Maar vlakbij woont een klein meisje. Ze heet Masha. Ze draagt een roze sjaaltje en ze is nooit stil. Masha is ondeugend. Ze rent, ze springt, ze stelt duizend vragen. Op een ochtend klopt Masha op de deur van de beer. Klop, klop, klop! Beer! Beer! Het is jouw verjaardag niet, maar we gaan toch een taart bakken! De beer zucht. Maar hij laat Masha binnen. Hij kan nooit nee zeggen tegen Masha. De beer pakt een groot kookboek. We hebben bloem nodig, zegt hij. En eieren, suiker, boter en melk. Masha pakt de zak bloem. Ze schudt te hard. Poef! De hele keuken is wit. De beer is wit. Masha lacht. Je bent een ijsbeer! Dan pakt ze de eieren. Eén ei valt op de grond. Klets! Eén ei valt op het hoofd van de beer. Klets! De beer veegt zijn snuit af. Hij telt tot tien. Rustig blijven, beer. Ze roeren het deeg. Masha roert zo snel dat het deeg door de keuken vliegt. Op het plafond. Op het raam. In de pot van de goudvis. De beer giet wat overblijft in een vorm. Hij zet de taart in de oven. Nu wachten, zegt de beer. Masha kan niet wachten. Is het al klaar? Is het al klaar? Is het al klaar? Na een tijdje ruikt het heerlijk. De taart is klaar. Hij is een beetje scheef. Maar hij ruikt fantastisch. Masha versiert de taart met bessen uit de tuin. Rode bessen, blauwe bessen. Ze maakt er een gezichtje mee. Het gezicht van de beer. Kijk, beer. Dat ben jij! De beer kijkt naar de taart. Hij kijkt naar de rommelige keuken. En dan glimlacht hij toch. Samen eten ze de taart op. Met een kopje thee. Mmm, lekker. Daarna ruimen ze samen op. Masha helpt echt. Nou ja, een beetje. Als Masha naar huis gaat, geeft ze de beer een knuffel. Tot morgen, beer! De beer zakt in zijn stoel. Wat een dag. Maar eigenlijk is hij blij dat hij zo een vriendinnetje heeft. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welke kleur heeft het sjaaltje van Masha?",
+      "right": "🩷",
+      "wrong": [
+        "🟢",
+        "⚫"
+      ],
+      "say": "Masha heeft een roze sjaaltje.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat valt er op het hoofd van de beer?",
+      "right": "🥚",
+      "wrong": [
+        "🍎",
+        "🧈"
+      ],
+      "say": "Er valt een ei op het hoofd van de beer.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Waarmee versiert Masha de taart?",
+      "right": "🫐",
+      "wrong": [
+        "🥕",
+        "🍫"
+      ],
+      "say": "Masha versiert de taart met bessen.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat drinken ze bij de taart?",
+      "right": "🍵",
+      "wrong": [
+        "🧃",
+        "🥛"
+      ],
+      "say": "Ze drinken thee.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de beer",
+      "emoji": "🐻",
+      "say": "De beer is groot en bruin.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de taart",
+      "emoji": "🎂",
+      "say": "Masha en de beer bakken een taart.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "het ei",
+      "emoji": "🥚",
+      "say": "Het ei valt op de grond.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de oven",
+      "emoji": "♨️",
+      "say": "De taart gaat in de oven.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de bessen",
+      "emoji": "🫐",
+      "say": "Masha plukt bessen.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de thee",
+      "emoji": "🍵",
+      "say": "De beer drinkt graag thee.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}
