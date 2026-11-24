@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "super-wings",
+  "version": 1,
+  "title": "Jett en het pakje voor Japan.",
+  "emoji": "✈️",
+  "text": "Dit is Jett. Jett is een klein rood vliegtuigje. Maar Jett is ook een robot! Als hij een opdracht krijgt, verandert hij. Zijn vleugels klappen. Zijn armen en benen komen tevoorschijn. Klik, klak, klik! Nu is hij een robot. Jett brengt pakjes naar kinderen over de hele wereld. Hij is de snelste pakjesbezorger. Hij heeft vrienden. Donnie kan alles bouwen. Dizzy kan mensen redden. Paul is van de politie. Op een ochtend gaat er een belletje op het vliegveld. Er is een pakje! Het moet naar Japan. Jett vliegt omhoog. Zoef! Hij vliegt over de zee. Over de bergen. Langs de wolken. In Japan landt hij bij een klein huis. Daar woont een jongen. Hij heet Kenji. Kenji maakt open en ziet een vlieger. Een vlieger in de vorm van een vis! Kenji is blij. Morgen is het kinderdag, zegt hij. Dan hangen we vissen van stof op. De vissen wapperen in de wind. Maar Kenji is ook verdrietig. Zijn opa heeft een vliegerwedstrijd. Opa is ziek. Hij kan niet meedoen. Jett heeft een idee. Ik help jou! We doen samen mee. De volgende dag is de wedstrijd. Er zijn draken, vogels en vlinders in de lucht. Allemaal vliegers. Kenji laat zijn visvlieger op. Hij gaat omhoog. Hoger en hoger. Maar dan waait er een harde wind. De vlieger draait en tolt. Het touwtje breekt! De vlieger vliegt weg. O nee! roept Kenji. Jett aarzelt niet. Hij verandert in een vliegtuig. Zoef! Hij vliegt de vlieger achterna. Door de wind. Langs de bomen. De vlieger hangt vast in een hoge boom. Jett heeft hulp nodig. Hij roept Donnie. Donnie komt erbij. Hij bouwt snel een lange ladder. Samen halen ze de vlieger uit de boom. Kenji maakt een nieuw touwtje. En de vis vliegt weer. Mooier dan ooit. De visvlieger wint de prijs voor de mooiste vlieger. Kenji krijgt een gouden medaille. Hij brengt de medaille naar zijn opa. Opa glimlacht in zijn bed. Jett zwaait. Ik moet weer gaan. Er wachten nog meer kinderen op een pakje. Hij verandert in een vliegtuig en vliegt weg. Kenji zwaait tot Jett een klein puntje is in de lucht. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welke kleur heeft Jett?",
+      "right": "🔴",
+      "wrong": [
+        "🔵",
+        "🟢"
+      ],
+      "say": "Jett is een rood vliegtuigje.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Naar welk land vliegt Jett?",
+      "right": "🇯🇵",
+      "wrong": [
+        "🇧🇪",
+        "🇮🇳"
+      ],
+      "say": "Jett vliegt naar Japan.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Welke vorm heeft de vlieger van Kenji?",
+      "right": "🐟",
+      "wrong": [
+        "🦋",
+        "🐉"
+      ],
+      "say": "De vlieger heeft de vorm van een vis.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat wint Kenji?",
+      "right": "🥇",
+      "wrong": [
+        "🎂",
+        "🚗"
+      ],
+      "say": "Kenji wint een gouden medaille.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "het vliegtuig",
+      "emoji": "✈️",
+      "say": "Jett is een vliegtuig.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de robot",
+      "emoji": "🤖",
+      "say": "Jett verandert in een robot.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "het pakje",
+      "emoji": "📦",
+      "say": "Jett brengt een pakje.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de vlieger",
+      "emoji": "🪁",
+      "say": "De vlieger vliegt hoog.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de medaille",
+      "emoji": "🥇",
+      "say": "Kenji wint een medaille.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de wind",
+      "emoji": "💨",
+      "say": "De wind waait hard.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}
