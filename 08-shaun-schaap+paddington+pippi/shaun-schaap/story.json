@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "shaun-schaap",
+  "version": 1,
+  "title": "Shaun het schaap en de pizza.",
+  "emoji": "🐑",
+  "text": "Op een boerderij woont een slim schaap. Hij heet Shaun. Hij woont daar met de andere schapen in de wei. Er is ook een hond. De hond heet Bitzer. Hij helpt de boer. Hij heeft een fluitje en een klembord. De boer is lief, maar hij ziet nooit wat de schapen allemaal uitspoken. Hij heeft een bril die hij altijd kwijt is. Op een dag ruikt Shaun iets lekkers. Het komt uit het huis van de boer. De boer eet pizza! Shaun likt zijn lippen. Mmm. De schapen eten altijd gras. Gras, gras en nog eens gras. Shaun wil ook eens pizza. Shaun heeft een plan. Hij fluistert in de oren van de andere schapen. Ze knikken. Eerst moeten ze Bitzer afleiden. Een klein lammetje, Timmy, gooit een bal. Bitzer kan niet anders. Hij moet erachteraan rennen. Dan bellen de schapen naar de pizzeria met de telefoon van de boer. Maar schapen kunnen niet praten. Ze zeggen alleen: Bèèèh. De pizzaman denkt dat iemand pizza met extra kaas zegt. Hij komt de pizza brengen! Maar de boer mag het niet zien. De schapen maken een toren. Eén schaap op het andere. Ze trekken een grote jas aan. Nu lijkt het een mens. De pizzaman belt aan. De schapentoren doet open. Hier is uw pizza. Dat is dan tien euro. Oei. Schapen hebben geen geld. Shaun denkt snel na. Hij geeft de pizzaman een warme gebreide sjaal. Gemaakt van echte schapenwol. De pizzaman lacht. Prima, dank u wel! De schapen rennen naar de schuur. Ze maken de doos open. Een grote warme pizza! Met kaas en tomaat. Ze eten en ze smullen. Maar dan horen ze voetstappen. De boer! Hij komt naar de schuur! Snel, snel! De schapen verstoppen de pizzadoos onder het hooi. Ze gaan allemaal stil staan. Bèèèh. De boer kijkt rond. Hij snuift. Hij ruikt pizza. Maar hij ziet alleen schapen die gras kauwen. De boer haalt zijn schouders op en gaat weer naar huis. De schapen giechelen. Bitzer komt terug met zijn bal. Hij ziet een stukje kaas aan de mond van Shaun. Shaun geeft Bitzer snel het laatste stukje pizza. Bitzer knipoogt. Hij zal niets zeggen. Die nacht slapen de schapen met een volle buik. En ze dromen van pizza. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welk eten wil Shaun proeven?",
+      "right": "🍕",
+      "wrong": [
+        "🍌",
+        "🥦"
+      ],
+      "say": "Shaun wil pizza proeven.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Welk dier helpt de boer?",
+      "right": "🐕",
+      "wrong": [
+        "🐈",
+        "🐴"
+      ],
+      "say": "De hond Bitzer helpt de boer.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat geven de schapen aan de pizzaman?",
+      "right": "🧣",
+      "wrong": [
+        "💰",
+        "🥕"
+      ],
+      "say": "Ze geven een sjaal van schapenwol.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Waar verstoppen de schapen de pizzadoos?",
+      "right": "🌾",
+      "wrong": [
+        "🌳",
+        "🚗"
+      ],
+      "say": "Ze verstoppen de doos onder het hooi.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "het schaap",
+      "emoji": "🐑",
+      "say": "Shaun is een slim schaap.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de hond",
+      "emoji": "🐕",
+      "say": "Bitzer is de hond van de boer.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de pizza",
+      "emoji": "🍕",
+      "say": "De schapen eten pizza.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de boer",
+      "emoji": "👨‍🌾",
+      "say": "De boer zoekt zijn bril.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de schuur",
+      "emoji": "🛖",
+      "say": "De schapen slapen in de schuur.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de wol",
+      "emoji": "🧶",
+      "say": "Van wol maak je een sjaal.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

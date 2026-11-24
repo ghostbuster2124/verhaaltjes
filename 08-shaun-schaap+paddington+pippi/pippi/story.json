@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "pippi",
+  "version": 1,
+  "title": "Pippi Langkous en het paard op de veranda.",
+  "emoji": "🐴",
+  "text": "In een klein stadje staat een oud, gekleurd huis. Het heet Villa Kakelbont. Daar woont een heel bijzonder meisje. Pippi Langkous. Pippi heeft rode vlechtjes die recht opzij staan. Ze heeft sproeten op haar neus. En ze draagt twee verschillende kousen. Eén bruine en één zwarte. Pippi woont helemaal alleen. Nou ja, niet helemaal. Ze woont samen met een aapje, meneer Nilsson. En met een paard. Het paard woont op de veranda! Pippi is het sterkste meisje van de wereld. Ze kan haar paard optillen met haar armen. Zomaar! Naast Villa Kakelbont wonen twee kinderen. Tommy en Annika. Ze zijn altijd heel netjes en braaf. Op een dag zien ze Pippi. Ze loopt achteruit over straat. Waarom loop je achteruit? vraagt Tommy. Waarom niet? zegt Pippi. Dat is toch veel leuker! Tommy en Annika worden haar beste vrienden. Pippi bakt pannenkoeken. Ze gooit het ei hoog in de lucht. Het valt op haar hoofd. Kets! Geeft niets, zegt Pippi. Dat is goed voor het haar. Ze poetst de vloer door met borstels onder haar voeten te binden. Ze schaatst door de keuken. Zwiep, zwiep! Op een dag komt er een circus naar het stadje. Er is een sterke man. Hij heet de Sterke Adolf. Wie mij kan verslaan, krijgt honderd euro! Niemand durft. Maar Pippi stapt naar voren. Ik wil wel. Iedereen lacht. Een klein meisje? Tegen de Sterke Adolf? Maar Pippi pakt de sterke man vast. Ze tilt hem op. Hoog boven haar hoofd. Ze draait hem rond. En ze zet hem zachtjes neer. Het hele circus valt stil. Dan klapt iedereen. Hoera voor Pippi! Pippi krijgt het geld. Maar wat doet ze ermee? Ze koopt snoep. Heel veel snoep. Voor alle kinderen van de stad. Ze delen het snoep uit op het plein. Iedereen krijgt een zak vol. Die avond zitten Tommy, Annika en Pippi op de veranda. Bij het paard. Pippi, word jij later groot? vraagt Annika. Pippi lacht. Grote mensen hebben nooit plezier. Ik blijf altijd een kind. En ik doe altijd wat ik zelf wil. Ze zwaait met haar benen en zingt een liedje. Het paard hinnikt mee. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welke kleur hebben de vlechtjes van Pippi?",
+      "right": "🟠",
+      "wrong": [
+        "⚫",
+        "🟡"
+      ],
+      "say": "Pippi heeft rode vlechtjes.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Welk dier woont er op de veranda?",
+      "right": "🐴",
+      "wrong": [
+        "🐄",
+        "🐷"
+      ],
+      "say": "Er woont een paard op de veranda.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Hoe heet het aapje van Pippi?",
+      "right": "🐒",
+      "wrong": [
+        "🐶",
+        "🐱"
+      ],
+      "say": "Het aapje heet meneer Nilsson.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat koopt Pippi met het geld?",
+      "right": "🍬",
+      "wrong": [
+        "🧸",
+        "👗"
+      ],
+      "say": "Pippi koopt snoep voor alle kinderen.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "het paard",
+      "emoji": "🐴",
+      "say": "Pippi tilt haar paard op.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de aap",
+      "emoji": "🐒",
+      "say": "Meneer Nilsson is een aapje.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de kous",
+      "emoji": "🧦",
+      "say": "Pippi draagt twee verschillende kousen.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "het circus",
+      "emoji": "🎪",
+      "say": "Er komt een circus naar de stad.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "het snoep",
+      "emoji": "🍬",
+      "say": "Pippi deelt snoep uit.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de pannenkoek",
+      "emoji": "🥞",
+      "say": "Pippi bakt pannenkoeken.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

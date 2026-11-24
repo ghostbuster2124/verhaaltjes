@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "paddington",
+  "version": 1,
+  "title": "Paddington, de beer uit Peru.",
+  "emoji": "🧸",
+  "text": "Ver weg, in het donkere oerwoud van Peru, woont een kleine beer. Hij woont bij tante Lucy en oom Pastuzo. Ze eten graag marmelade. Dat is jam van sinaasappels. Ze maken het zelf, van de sinaasappels uit de bomen. Op een dag reist de kleine beer naar Londen. Een grote stad, ver over de zee. Hij reist in een boot, verstopt tussen de dozen. Hij heeft een blauwe jas aan en een rode hoed op. En onder zijn hoed heeft hij altijd een boterham met marmelade. Voor als hij honger krijgt. Op zijn jas hangt een briefje. Daarop staat: Wilt u alstublieft voor deze beer zorgen? Dank u wel. De beer zit op een koffer in het grote treinstation. Er lopen heel veel mensen voorbij. Niemand kijkt naar hem. Dan stopt er een familie. Een papa, een mama en twee kinderen. Mevrouw Brown leest het briefje. Wat ben je lief, zegt ze. Je mag bij ons wonen. Hoe heet je? vraagt ze. De beer zegt zijn naam in de berentaal. Maar die is heel moeilijk. Rrrrooaaar. Mevrouw Brown lacht. Weet je wat, we noemen je Paddington. Naar dit station. Paddington gaat mee naar het huis van de Browns. Alles is nieuw voor hem. In de badkamer wil hij in bad gaan. Hij weet niet hoe de kraan werkt. Het water stroomt over. De hele badkamer staat onder water! Paddington drijft in het bad door de gang. Oeps. Meneer Brown is niet blij. Maar de kinderen vinden Paddington geweldig. Hij is altijd beleefd. Hij zegt altijd dank u wel en alstublieft. Op een dag ziet Paddington een dief. De dief steelt een portemonnee van een oude meneer. Paddington rent erachteraan. Hij springt op een bus. Hij glijdt over een leuning. Hij zet zijn harde stare blik op. Die blik heeft hij geleerd van tante Lucy. De dief schrikt zo erg dat hij de portemonnee laat vallen. De politie pakt hem. Iedereen klapt voor Paddington. Zelfs meneer Brown is trots. Die avond zitten ze samen aan tafel. Paddington schrijft een brief aan tante Lucy. Lieve tante Lucy. Ik woon nu in Londen. Ik heb een nieuwe familie. Ze zijn heel lief voor mij. Ik heb een thuis gevonden. Hij legt de brief neer en neemt een hap van zijn boterham met marmelade. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Waar komt Paddington vandaan?",
+      "right": "🌳",
+      "wrong": [
+        "🏔️",
+        "🏜️"
+      ],
+      "say": "Paddington komt uit het oerwoud van Peru.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat eet Paddington het liefst?",
+      "right": "🍊",
+      "wrong": [
+        "🍌",
+        "🥕"
+      ],
+      "say": "Paddington eet graag marmelade van sinaasappels.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Welke kleur heeft zijn hoed?",
+      "right": "🔴",
+      "wrong": [
+        "🟢",
+        "🟡"
+      ],
+      "say": "Paddington heeft een rode hoed.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat gebeurt er in de badkamer?",
+      "right": "💦",
+      "wrong": [
+        "🔥",
+        "❄️"
+      ],
+      "say": "Het water stroomt over.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de beer",
+      "emoji": "🐻",
+      "say": "Paddington is een kleine beer.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de jas",
+      "emoji": "🧥",
+      "say": "Paddington draagt een blauwe jas.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de hoed",
+      "emoji": "👒",
+      "say": "Onder zijn hoed zit een boterham.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de sinaasappel",
+      "emoji": "🍊",
+      "say": "Marmelade maak je van sinaasappels.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de koffer",
+      "emoji": "🧳",
+      "say": "Paddington zit op een koffer.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de brief",
+      "emoji": "✉️",
+      "say": "Paddington schrijft een brief.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}
