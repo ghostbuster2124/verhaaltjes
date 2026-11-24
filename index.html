@@ -38,6 +38,17 @@
   .home-top{display:flex;align-items:center;justify-content:center;gap:2vw;padding:2vh 2vw 1vh;position:relative}
   .home-top .logo{font-size:9vh;filter:drop-shadow(0 .5vh 0 rgba(0,0,0,.25));animation:bob 3s ease-in-out infinite}
   @keyframes bob{50%{transform:translateY(-1vh) rotate(-4deg)}}
+  .home-top .tab{position:relative;background:none;border:.5vh solid transparent;border-radius:50%;width:15vh;height:15vh;
+        display:flex;align-items:center;justify-content:center;line-height:1;opacity:.6;cursor:pointer;
+        transition:opacity .2s,background .2s,border-color .2s}
+  .home-top .tab.on{opacity:1;background:rgba(255,255,255,.22);border-color:#ffd23f}
+  .home-top .tab:active{transform:scale(.88)}
+  .home-top .tab .badge{position:absolute;right:-.4vh;bottom:-.4vh;min-width:5vh;height:5vh;padding:0 1vh;border-radius:2.5vh;
+        background:#ffd23f;color:#5d3a00;font:900 3vh/5vh system-ui,sans-serif;text-align:center;box-shadow:0 .3vh 0 rgba(0,0,0,.25)}
+  .home-top .tab .badge:empty{display:none}
+  .grid .empty{grid-column:1/-1;text-align:center;font-size:12vh;padding-top:8vh;line-height:1.4}
+  .grid .empty small{display:block;font-size:6vh;opacity:.85}
+  .grid .empty button{margin-top:3vh;font-size:9vh;background:rgba(255,255,255,.2);border-radius:50%;width:16vh;height:16vh}
   .gear{position:absolute;right:1.5vw;top:1.5vh;width:7vh;height:7vh;border-radius:50%;
         background:rgba(255,255,255,.12);font-size:3.5vh;opacity:.55;display:flex;align-items:center;justify-content:center}
   .gear .ring{position:absolute;inset:-.6vh;border-radius:50%;border:.6vh solid #ffd23f;clip-path:inset(0 100% 0 0);transition:none}
@@ -213,6 +224,8 @@
         flex-wrap:wrap;justify-content:center;align-content:center;gap:.2vh 1.1vw;text-shadow:0 .3vh 0 rgba(0,0,0,.35);z-index:2;position:relative}
   #player.subson .subs{display:flex}
   .subs.long{font-size:3.9vh}
+  .subs .en{flex-basis:100%;text-align:center;color:#bfe9ff;font-size:.72em;font-weight:700;margin-top:.4vh}
+  .subs.enonly .en{font-size:1em;color:#fff;margin-top:0}
   .subs span{display:inline-block;transition:color .12s,transform .12s;border-radius:1vh}
   .subs span.on{color:#ffd23f;transform:scale(1.1)}
   #player.subson .pics{height:46vh}
@@ -282,7 +295,7 @@
 <!-- HOME -->
 <section class="screen active" id="home">
   <div class="home-top">
-    <div class="logo">📚</div><div class="logo" style="animation-delay:.5s">🎧</div><div class="logo" style="animation-delay:1s">⭐</div>
+    <button class="logo tab" data-filter="all" aria-label="Alle verhaaltjes">📚</button><button class="logo tab" data-filter="audio" style="animation-delay:.5s" aria-label="Luisterverhaaltjes"><span class="tabem">🎧</span><span class="badge" id="badgeAudio"></span></button><button class="logo tab" data-filter="stars" style="animation-delay:1s" aria-label="Mijn sterren"><span class="tabem">⭐</span><span class="badge" id="badgeStars"></span></button>
     <button class="gear" id="gear" aria-label="Instellingen voor ouders (lang indrukken)"><span class="ring"></span>⚙️</button>
   </div>
   <div class="grid" id="grid"></div>
@@ -391,6 +404,12 @@
       <option value="sentence">On, just the sentence</option>
       <option value="off">Off (only listening)</option>
     </select></div>
+    <div class="row"><select id="langSel">
+      <option value="nl">🇧🇪 Dutch only</option>
+      <option value="both">🇧🇪 Dutch + 🇬🇧 English underneath</option>
+      <option value="en">🇬🇧 English only (the voice stays Dutch)</option>
+    </select></div>
+    <p style="font-size:14px">English lines come from an <code>en.json</code> file in the story's folder on the website. Stories without one just show Dutch.</p>
     <p style="font-size:14px">Subtitles come from the story text. With an MP3 they follow its timing file (<code>story.vtt</code>) if there is one, otherwise they're estimated. Make one in ✏️ Edit → ⏱️ Time the subtitles.</p>
 
     <h3>📚 Story library (the stories folder of your website)</h3>
@@ -559,7 +578,9 @@ const Lib={
     const list=idx&&Array.isArray(idx.stories)?idx.stories:Array.isArray(idx)?idx:null;
     this.img={};this.aud={};this.sub={};this.files=[];this.ids=[];this.missing=[];
     if(!list){this.state="none";return []}
-    const jsons=await Promise.all(list.map(id=>this.json(`stories/${encodeURIComponent(id)}/story.json`)));
+    const [jsons,ens]=await Promise.all([
+      Promise.all(list.map(id=>this.json(`stories/${encodeURIComponent(id)}/story.json`))),
+      Promise.all(list.map(id=>this.json(`stories/${encodeURIComponent(id)}/en.json`)))]);
     const out=[];
     list.forEach((folder,i)=>{
       const file=cleanId(folder),j=jsons[i];
@@ -569,7 +590,9 @@ const Lib={
         const url=`stories/${encodeURIComponent(folder)}/${name.split("/").map(encodeURIComponent).join("/")}?v=${v}`;
         this[kind][key]=url;this.files.push(url);
       });
-      if(s){s.lib=folder;out.push(s);this.ids.push(file)}else this.missing.push(folder);
+      if(s){s.lib=folder;out.push(s);this.ids.push(file);
+        const e=ens[i];if(e&&Array.isArray(e.lines))EN[file]={title:String(e.title||""),lines:e.lines.map(x=>String(x||""))};
+      }else this.missing.push(folder);
     });
     this.state="ok";
     return out;
@@ -657,15 +680,27 @@ const Subs={
 const Cap={
   spans:[],text:null,idx:-1,cues:null,sents:[],ends:[],chars:1,
   mode(){return safe(()=>localStorage.getItem("vh_subs"))||"words"},
+  lang(){return safe(()=>localStorage.getItem("vh_lang"))||"nl"},
+  // English line for Dutch sentence k of the story that's playing (from stories/<code>/en.json)
+  enLine(text,k){
+    const e=typeof Player!=="undefined"&&Player.s&&EN[Player.s.file];if(!e||!text)return "";
+    if(k==null||k<0)k=this.sents.indexOf(String(text).trim());
+    return (k>=0&&e.lines[k])||"";
+  },
   on(){return this.mode()!=="off"},
   apply(){const on=this.on();$("#player").classList.toggle("subson",on);$("#quiz").classList.toggle("subson",on)},
   setSents(sents){this.sents=sents;let acc=0;this.ends=sents.map(s=>acc+=s.length+1);this.chars=Math.max(1,acc)},
-  show(text){
+  show(text,k){
     if(text===this.text)return;this.text=text;this.idx=-1;
-    const el=$("#subs");el.textContent="";this.spans=[];el.classList.toggle("long",String(text||"").length>95);
-    for(const m of String(text||"").matchAll(/\S+/g)){
+    const el=$("#subs");el.textContent="";this.spans=[];
+    const lang=this.lang(),en=lang==="nl"?"":this.enLine(text,k);
+    const enOnly=lang==="en"&&!!en;
+    el.classList.toggle("enonly",enOnly);
+    el.classList.toggle("long",String(enOnly?en:text||"").length>95);
+    if(!enOnly)for(const m of String(text||"").matchAll(/\S+/g)){
       const sp=document.createElement("span");sp.textContent=m[0];sp._a=m.index;el.appendChild(sp);this.spans.push(sp);
     }
+    if(en){const d=document.createElement("div");d.className="en";d.textContent=en;el.appendChild(d)}
   },
   hl(ci){
     let k=-1;
@@ -681,7 +716,7 @@ const Cap={
     if(this.cues&&this.cues.length){
       let c=null;for(const x of this.cues){if(x.start<=t+0.05)c=x;else break}
       if(!c){this.show("");return}
-      this.show(c.text);
+      this.show(c.text,this.cues.length===this.sents.length?this.cues.indexOf(c):-1);
       if(c.words){let ci=-1;for(const w of c.words){if(w.t<=t+0.05)ci=w.a;else break}this.hl(ci)}
       else this.hl(Math.floor((t-c.start)/Math.max(.3,c.end-c.start)*c.text.length));
       return;
@@ -689,10 +724,11 @@ const Cap={
     if(!dur||!this.sents.length)return;
     const ci=t/dur*this.chars;let k=0;
     while(k<this.sents.length-1&&ci>=this.ends[k])k++;
-    this.show(this.sents[k]);this.hl(ci-(k?this.ends[k-1]:0));
+    this.show(this.sents[k],k);this.hl(ci-(k?this.ends[k-1]:0));
   }
 };
 
+const EN={};                 // English subtitles by story file: {title, lines:[one per Dutch sentence]}
 let CUSTOM=[];               // stories you add yourself in the ⚙️ panel
 let OVR={};                  // your changes to built-in stories (text / questions), by file name
 const MAXQ=8;                // up to 8 questions per story
@@ -1055,11 +1091,38 @@ function goFullscreen(){
    ===================================================================== */
 const doneSet=()=>new Set(safe(()=>JSON.parse(localStorage.getItem("vh_done")||"[]"),[]));
 function markDone(id){const s=doneSet();s.add(id);safe(()=>localStorage.setItem("vh_done",JSON.stringify([...s])))}
+/* 📚 🎧 ⭐ tabs at the top of the home screen:
+   📚 = all stories · 🎧 = stories with a real recorded voice (story.mp3) · ⭐ = stories she has earned a star on */
+let homeFilter=safe(()=>localStorage.getItem("vh_filter"),null)||"all";
+if(!["all","audio","stars"].includes(homeFilter))homeFilter="all";
+const hasVoice=s=>storyBases(s).some(b=>Store.has(b));
+const TAB_SAY={all:"Alle verhaaltjes.",audio:"Luisterverhaaltjes.",stars:"Mijn sterren."};
+function setFilter(f,speakIt){
+  homeFilter=f;safe(()=>localStorage.setItem("vh_filter",f));
+  renderHome();$("#grid").scrollTop=0;
+  if(speakIt)safe(()=>TTS.say(TAB_SAY[f]));
+}
+document.querySelectorAll(".home-top .tab").forEach(b=>b.addEventListener("click",()=>{
+  safe(()=>{ac();SFX.tap()});setFilter(b.dataset.filter,true);
+}));
 function renderHome(){
   const g=$("#grid");const done=doneSet();g.innerHTML="";
+  document.querySelectorAll(".home-top .tab").forEach(b=>b.classList.toggle("on",b.dataset.filter===homeFilter));
+  const all=ALL();
+  const nAudio=all.filter(hasVoice).length,nStars=all.filter(s=>done.has(s.file)).length;
+  $("#badgeAudio").textContent=nAudio||"";$("#badgeStars").textContent=nStars||"";
   if(!ALL().length){g.innerHTML=Lib.state==="loading"?'<div style="grid-column:1/-1;text-align:center;font-size:12vh;padding-top:12vh">⏳</div>':
     '<div style="grid-column:1/-1;text-align:center;font-size:4vh;padding:8vh 6vw;line-height:1.5">📚❓<br>No stories found yet.<br><small style="opacity:.7">Parents: connect to wifi once and reopen the app, or add a story pack via ⚙️.</small></div>';return}
-  ALL().forEach((s,i)=>{
+  const keep=homeFilter==="audio"?hasVoice:homeFilter==="stars"?(s=>done.has(s.file)):(()=>true);
+  const shown=all.map((s,i)=>[s,i]).filter(([s])=>keep(s));
+  if(!shown.length){
+    g.innerHTML=homeFilter==="stars"
+      ?'<div class="empty">⭐<small>🎧 ➜ ❓ ➜ ⭐</small><button aria-label="Alle verhaaltjes">📚</button></div>'
+      :'<div class="empty">🎧<small>⏳</small><button aria-label="Alle verhaaltjes">📚</button></div>';
+    g.querySelector(".empty button").addEventListener("click",()=>{safe(()=>{ac();SFX.tap()});setFilter("all",true)});
+    return;
+  }
+  shown.forEach(([s,i])=>{
     const [a,b]=COLORS[i%COLORS.length];
     const c=document.createElement("div");
     c.className="card";c.style.background=`linear-gradient(145deg,${a},${b})`;
@@ -1419,7 +1482,7 @@ document.querySelectorAll("[data-home]").forEach(b=>b.addEventListener("click",(
   ["pointerup","pointerleave","pointercancel"].forEach(ev=>g.addEventListener(ev,cancel));
   g.addEventListener("contextmenu",e=>e.preventDefault());
 })();
-function openParent(){stopEverything();$("#parent").classList.add("show");updateAudioStatus();fillVoiceSelect();renderStoryLists();updateAppStatus();updateLibStatus();$("#subsSel").value=Cap.mode()}
+function openParent(){stopEverything();$("#parent").classList.add("show");updateAudioStatus();fillVoiceSelect();renderStoryLists();updateAppStatus();updateLibStatus();$("#subsSel").value=Cap.mode();$("#langSel").value=Cap.lang()}
 function updateLibStatus(){const el=$("#libStatus");if(el)el.textContent=Lib.statusText()}
 async function handlePacks(list){
   const files=[...list];if(!files.length)return;
@@ -1431,6 +1494,7 @@ async function handlePacks(list){
 $("#pickPack").addEventListener("change",e=>{handlePacks(e.target.files);e.target.value=""});
 $("#pickPackFolder").addEventListener("change",e=>{handlePacks(e.target.files);e.target.value=""});
 $("#subsSel").addEventListener("change",e=>{safe(()=>localStorage.setItem("vh_subs",e.target.value));Cap.apply()});
+$("#langSel").addEventListener("change",e=>{safe(()=>localStorage.setItem("vh_lang",e.target.value))});
 $("#libRefresh").addEventListener("click",async()=>{$("#libStatus").textContent="🔄 Checking…";await loadLibrary();renderStoryLists()});
 document.querySelector("#timer .tm-go").addEventListener("click",()=>Timer.tap());
 document.querySelector("#timer .tm-undo").addEventListener("click",()=>Timer.undo());

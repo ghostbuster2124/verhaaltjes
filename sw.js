@@ -1,7 +1,7 @@
 /* Verhaaltjes – offline service worker (v3).
    After changing index.html, raise the version number below so tablets pick up the new version.
    Stories in the stories/ folder don't need this: the app checks stories/index.json every time it opens with wifi. */
-const VERSION = "verhaaltjes-v3.2";
+const VERSION = "verhaaltjes-v3.4";
 const LIBRARY = "verhaaltjes-library";   // pictures, MP3s and subtitles of the stories/ folder
 const APP_FILES = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./icon-maskable-512.png"];
 
