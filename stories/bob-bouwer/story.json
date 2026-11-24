@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "bob-bouwer",
+  "version": 1,
+  "title": "Bob de Bouwer bouwt een speeltuin.",
+  "emoji": "👷",
+  "text": "Dit is Bob. Bob is een bouwer. Hij draagt een gele helm en een blauwe overall. Bob kan alles bouwen. Huizen, bruggen, scholen en schuren. Bob werkt samen met zijn vriendin Wendy. En met zijn machines. Want Bob zijn machines kunnen praten! Scoop is de gele graafmachine. Muck is de rode kiepwagen. Rolley is de groene wals. En Dizzy is de oranje cementmolen. Op een ochtend belt de burgemeester. Bob, de kinderen hebben geen speeltuin. Kun jij er eentje bouwen? Kunnen we het maken? roept Bob. Ja, dat kunnen we! roepen de machines. Ze rijden naar een groot leeg veld. Er groeit alleen onkruid. Er liggen stenen. Eerst moet het veld vlak worden. Scoop graaft de stenen weg. Muck brengt ze weg in zijn grote bak. Kiep! Daar gaan ze. Rolley rijdt heen en weer. Hij maakt de grond mooi plat. Rollen, rollen, rollen maar! Dan maakt Dizzy cement. Ze draait en draait. Wieee! Het cement komt eruit voor de voeten van de schommel. Bob en Wendy bouwen de schommel. Ze bouwen een hoge glijbaan. En een zandbak. Maar dan begint het te regenen. Het veld wordt een modderpoel. De machines glijden uit. Scoop is bezorgd. We worden nooit op tijd klaar. Bob denkt na. Hij legt grote planken op de modder. Nu kunnen de machines er overheen rijden. Ze werken verder in de regen. Bob zingt een liedje. De machines zingen mee. Werken in de regen is helemaal niet zo erg. Dan stopt de regen. De zon komt tevoorschijn. Er staat een regenboog boven de nieuwe speeltuin. Wendy plant nog bloemen rond het hek. Bob verft een bank in het blauw. De kinderen komen aangerend. Ze klimmen op de glijbaan. Ze schommelen tot hoog in de lucht. Ze bouwen kastelen in de zandbak. Dizzy wil ook van de glijbaan. Maar ze is te groot. Iedereen lacht. De burgemeester bedankt Bob en zijn team. Wat een prachtige speeltuin. Bob zet zijn helm af en lacht. Samen kunnen we alles. Kunnen we het maken? Ja, dat kunnen we! Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welke kleur heeft de helm van Bob?",
+      "right": "🟡",
+      "wrong": [
+        "🔴",
+        "⚪"
+      ],
+      "say": "Bob draagt een gele helm.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat bouwt Bob voor de kinderen?",
+      "right": "🛝",
+      "wrong": [
+        "🏥",
+        "🚉"
+      ],
+      "say": "Bob bouwt een speeltuin.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat valt er tijdens het werk?",
+      "right": "🌧️",
+      "wrong": [
+        "❄️",
+        "🍂"
+      ],
+      "say": "Het begint te regenen.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat legt Bob op de modder?",
+      "right": "🪵",
+      "wrong": [
+        "🧺",
+        "🛏️"
+      ],
+      "say": "Bob legt planken op de modder.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de helm",
+      "emoji": "⛑️",
+      "say": "Bob draagt een helm.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de graafmachine",
+      "emoji": "🚜",
+      "say": "Scoop is een graafmachine.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de glijbaan",
+      "emoji": "🛝",
+      "say": "De kinderen glijden van de glijbaan.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de modder",
+      "emoji": "🟫",
+      "say": "Het veld wordt modder.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de hamer",
+      "emoji": "🔨",
+      "say": "Bob werkt met een hamer.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de bloem",
+      "emoji": "🌷",
+      "say": "Wendy plant bloemen.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

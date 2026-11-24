@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "thomas-trein",
+  "version": 1,
+  "title": "Thomas de kleine blauwe locomotief.",
+  "emoji": "🚂",
+  "text": "Op het eiland Sodor rijden heel veel treinen. Grote treinen, kleine treinen, snelle en trage treinen. Een van die treinen is Thomas. Thomas is een kleine blauwe stoomlocomotief. Hij heeft het nummer één op zijn zijkant. Thomas heeft een vrolijk gezicht. Hij fluit graag. Toet toet! De baas van alle treinen is de Dikke Controleur. Hij draagt een hoge zwarte hoed. Elke ochtend krijgen de treinen een taak. Thomas, zegt de Dikke Controleur, jij brengt vandaag de melk naar de boerderij. En je moet op tijd zijn. Thomas is blij. Hij rijdt met zijn wagonnetjes naar het station. De melkbussen worden ingeladen. Puf, puf, puf. Daar gaat hij. Onderweg ziet Thomas zijn vriend Percy. Percy is groen. Hoi Thomas! Wil je een wedstrijdje doen? Thomas wil het graag. Maar hij denkt aan zijn taak. Nee, Percy. Ik moet de melk wegbrengen. Een beetje verder ziet hij een koe op de rails. Ze kauwt rustig op het gras. Ze kijkt Thomas aan. Boe! Thomas toetert. Toet toet! Ga van de rails, koe! Maar de koe blijft staan. Thomas stopt. Zijn machinist stapt uit. Hij lokt de koe weg met een handje gras. Gelukkig! Dan begint het te regenen. De heuvel is glad. Thomas puft. Hij puft en puft. Maar hij glijdt terug naar beneden. Ik denk dat ik het kan, ik denk dat ik het kan, puft Thomas. Hij probeert het nog eens. Dan komt Percy erachter. Ik duw je, Thomas! Percy duwt van achteren. Thomas trekt van voren. Samen komen ze boven op de heuvel. Hoera! Thomas rijdt de heuvel af naar de boerderij. Net op tijd. De boer is zo blij. Nu kunnen de kinderen melk drinken bij hun ontbijt. Die avond in de remise, waar de treinen slapen, komt de Dikke Controleur langs. Thomas, je was op tijd. Je bent een heel nuttige locomotief. Maar ik kon het niet alleen, zegt Thomas. Percy heeft me geholpen. De Dikke Controleur knikt. Dan zijn jullie allebei heel nuttige locomotieven. Thomas en Percy fluiten tegelijk. Toet toet! En dan vallen ze in slaap. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welke kleur heeft Thomas?",
+      "right": "🔵",
+      "wrong": [
+        "🔴",
+        "🟢"
+      ],
+      "say": "Thomas is blauw.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat brengt Thomas naar de boerderij?",
+      "right": "🥛",
+      "wrong": [
+        "🍞",
+        "🪵"
+      ],
+      "say": "Thomas brengt melk naar de boerderij.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Welk dier staat op de rails?",
+      "right": "🐄",
+      "wrong": [
+        "🐖",
+        "🐑"
+      ],
+      "say": "Er staat een koe op de rails.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wie helpt Thomas de heuvel op?",
+      "right": "🟩",
+      "wrong": [
+        "🟥",
+        "🟨"
+      ],
+      "say": "Percy, de groene trein, helpt Thomas.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de trein",
+      "emoji": "🚂",
+      "say": "Thomas is een trein.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "het station",
+      "emoji": "🚉",
+      "say": "Thomas rijdt naar het station.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de rails",
+      "emoji": "🛤️",
+      "say": "De trein rijdt op de rails.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de koe",
+      "emoji": "🐄",
+      "say": "De koe staat op de rails.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de heuvel",
+      "emoji": "⛰️",
+      "say": "De heuvel is glad.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de hoed",
+      "emoji": "🎩",
+      "say": "De Dikke Controleur draagt een hoed.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

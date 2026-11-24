@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "brandweerman-sam",
+  "version": 1,
+  "title": "Brandweerman Sam en de kat op het dak.",
+  "emoji": "🚒",
+  "text": "In het kleine dorp Pontypandy aan de zee woont brandweerman Sam. Hij is de beste brandweerman van het dorp. Sam heeft een rode brandweerwagen. Die heet Jupiter. Jupiter heeft een lange ladder en een grote waterslang. Bij de brandweer werken ook Elvis, die graag kookt, en Penny, die alles kan maken. Vandaag is een zonnige dag. De kinderen spelen buiten. Norman is de ondeugendste jongen van het dorp. Hij heeft altijd een nieuw plan. Norman wil een vlieger oplaten. Maar hij wil ook zijn kat laten meevliegen. Hij bindt een mandje aan de vlieger. De kat zit in het mandje. Norman, dat is geen goed idee, roept zijn mama. Maar Norman luistert niet. Een windstoot! De vlieger gaat omhoog. Het mandje schommelt. De kat springt eruit. Ze landt op het hoogste dak van het dorp. Ze miauwt heel zielig. De vlieger blijft hangen in een boom. Norman kan er niet meer bij. Bel de brandweer! Iemand belt het noodnummer. Bij de brandweer gaat de bel. Tring tring! Sam, Elvis en Penny trekken snel hun pakken aan. Hun helmen op. Ze springen in Jupiter. Tatuu tatuu! De sirene loeit. Jupiter rijdt door het dorp. Sam zet de ladder tegen het huis. Hij klimt naar boven. Rustig, poesje. De kat is bang. Ze loopt weg naar de schoorsteen. Sam klimt verder. Voorzichtig, stap voor stap. Sam heeft een idee. Hij haalt een stukje vis uit zijn zak. Kom maar, poes. De kat ruikt de vis. Ze komt dichterbij. Sam pakt haar zachtjes vast. Hebbes! Penny haalt met een lange stok de vlieger uit de boom. Sam klimt naar beneden en geeft de kat aan Norman. Norman schaamt zich. Sorry, Sam. Ik had niet goed nagedacht. Sam lacht vriendelijk. Dieren horen niet in een vlieger, Norman. Veiligheid eerst. Elvis heeft voor iedereen pannenkoeken gebakken. Ze eten samen bij de brandweerkazerne. Norman belooft dat hij voortaan beter oplet. Maar iedereen weet het al. Morgen heeft Norman weer een nieuw plan. Gelukkig is Sam er altijd. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welke kleur heeft de brandweerwagen?",
+      "right": "🔴",
+      "wrong": [
+        "🟢",
+        "🟡"
+      ],
+      "say": "De brandweerwagen is rood.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Waar landt de kat?",
+      "right": "🏠",
+      "wrong": [
+        "🌊",
+        "🚗"
+      ],
+      "say": "De kat landt op het dak.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat geeft Sam aan de kat?",
+      "right": "🐟",
+      "wrong": [
+        "🥛",
+        "🧀"
+      ],
+      "say": "Sam geeft de kat een stukje vis.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat heeft Elvis gebakken?",
+      "right": "🥞",
+      "wrong": [
+        "🍕",
+        "🍪"
+      ],
+      "say": "Elvis heeft pannenkoeken gebakken.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de brandweerwagen",
+      "emoji": "🚒",
+      "say": "Jupiter is een brandweerwagen.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de ladder",
+      "emoji": "🪜",
+      "say": "Sam klimt op de ladder.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de helm",
+      "emoji": "⛑️",
+      "say": "Een brandweerman draagt een helm.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de vlieger",
+      "emoji": "🪁",
+      "say": "De vlieger hangt in de boom.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de sirene",
+      "emoji": "🚨",
+      "say": "De sirene loeit.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de pannenkoek",
+      "emoji": "🥞",
+      "say": "Elvis bakt pannenkoeken.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}
