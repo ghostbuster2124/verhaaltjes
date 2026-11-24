@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "apenkoning",
+  "version": 1,
+  "title": "De apenkoning en de brug.",
+  "emoji": "🐒",
+  "text": "Dit is een heel oud verhaal uit India. Het gaat over een wijze apenkoning. Aan de oever van de grote rivier Ganges stond een reusachtige mangoboom. In die boom woonden tachtigduizend apen. Ze werden geleid door een grote, sterke apenkoning. De mango's van die boom waren de zoetste van de wereld. Geel en sappig. Mmm! De apenkoning zei tegen de apen: Let goed op. Laat nooit een mango in de rivier vallen. Als de mensen onze mango's vinden, komen ze ze halen. Maar op een dag viel er toch een mango in het water. Hij dreef weg. Ver weg. Naar de stad van de koning van de mensen. De koning van de mensen zat aan de rivier. Hij zag de mango drijven. Hij proefde hem. Hij was zo zoet! Zo lekker! Ik wil meer van die mango's! De koning ging met zijn soldaten op zoek. Ze volgden de rivier. Dagenlang. Tot ze bij de grote mangoboom kwamen. Ze zagen de apen in de boom. De koning werd boos. Die apen eten mijn mango's! Jaag ze weg! De soldaten kwamen met pijl en boog. De apen waren heel bang. Ze sprongen heen en weer. Ze wisten niet waar ze heen moesten. De apenkoning dacht snel na. Aan de andere kant van de rivier was een veilig bos. Maar de rivier was te breed. De apen konden er niet over springen. De apenkoning was heel sterk. Hij nam een lange bamboestengel. Hij bond hem aan zijn voet. Hij sprong over de rivier. Hij bond de stengel vast aan een boom aan de overkant. Maar de bamboestengel was te kort. Hij kwam er niet helemaal mee. Dus pakte de apenkoning een tak van de mangoboom vast met zijn handen. Zijn eigen lijf werd het laatste stuk van de brug. Loop maar over mij heen, zei hij tegen de apen. Snel! Eén voor één liepen de apen over de bamboe. En over de rug van hun koning. Duizenden en duizenden apen. Naar het veilige bos. De rug van de apenkoning deed pijn. Maar hij hield vast. Tot de allerlaatste aap over was. De koning van de mensen zag het allemaal. Hij was stil. Hij had nog nooit iemand gezien die zo goed voor zijn volk zorgde. Hij liet de apenkoning voorzichtig naar beneden halen. Hij legde hem op een zachte deken. Waarom deed je dat? vroeg de koning. Je had zelf kunnen vluchten. De apenkoning zei: Een echte koning zorgt eerst voor zijn volk. Pas dan voor zichzelf. De koning van de mensen boog zijn hoofd. Ik zal dat nooit vergeten. Hij liet de apen voortaan met rust. En hij werd zelf een betere koning. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "In welke boom wonen de apen?",
+      "right": "🥭",
+      "wrong": [
+        "🍎",
+        "🌴"
+      ],
+      "say": "De apen wonen in een mangoboom.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat valt er in de rivier?",
+      "right": "🥭",
+      "wrong": [
+        "🍌",
+        "🪨"
+      ],
+      "say": "Er valt een mango in de rivier.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat gebruikt de apenkoning als brug?",
+      "right": "🎋",
+      "wrong": [
+        "🪢",
+        "🧱"
+      ],
+      "say": "Hij gebruikt bamboe en zijn eigen lijf.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Voor wie zorgt een echte koning eerst?",
+      "right": "🐒",
+      "wrong": [
+        "💰",
+        "🍽️"
+      ],
+      "say": "Een echte koning zorgt eerst voor zijn volk.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de aap",
+      "emoji": "🐒",
+      "say": "De apen wonen in de boom.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de mango",
+      "emoji": "🥭",
+      "say": "De mango is zoet.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de rivier",
+      "emoji": "🏞️",
+      "say": "De rivier is breed.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de bamboe",
+      "emoji": "🎋",
+      "say": "De apenkoning gebruikt bamboe.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de brug",
+      "emoji": "🌉",
+      "say": "De apen lopen over de brug.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de soldaat",
+      "emoji": "💂",
+      "say": "De soldaten komen met pijl en boog.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

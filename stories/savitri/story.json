@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "savitri",
+  "version": 1,
+  "title": "Savitri, de slimme prinses.",
+  "emoji": "🌺",
+  "text": "Dit is een oud verhaal uit India. Lang geleden leefde er een prinses. Ze heette Savitri. Ze was mooi, maar vooral heel slim en vriendelijk. Haar papa zei: Savitri, je mag zelf kiezen met wie je trouwt. Ga maar op reis en kijk rond. Savitri reisde door het land. In een bos ontmoette ze een jongeman. Hij heette Satyavan. Hij hakte hout voor zijn oude ouders. Zijn papa was blind. Hij zorgde heel goed voor hen. Satyavan was eerlijk, lief en hardwerkend. Savitri wist het meteen. Met hem wil ik trouwen. Maar er was een wijze man aan het hof. Hij zei: Savitri, pas op. Satyavan zal over één jaar ziek worden en weggaan. Dat staat in de sterren geschreven. Savitri werd stil. Maar ze zei: Ik heb gekozen. Ik trouw met hem. En ik zal voor hem zorgen. Ze trouwden. Savitri ging in het bos wonen. In een eenvoudig hutje. Ze kookte en zorgde voor de ouders van Satyavan. Ze was gelukkig. Het jaar ging voorbij. Op de laatste dag ging Satyavan hout hakken. Savitri ging mee. Onder een grote boom werd Satyavan moe. Hij legde zijn hoofd op haar schoot. Hij sloot zijn ogen. Toen kwam er een grote man in donkere kleren. Hij had een touw in zijn hand. Het was Yama. Hij kwam Satyavan halen. Yama liep weg met Satyavan. Maar Savitri liep achter hem aan. Ga terug, Savitri, zei Yama. Dit is mijn taak. Maar Savitri bleef volgen. Ze praatte vriendelijk en wijs met Yama. Over goed zijn. Over trouw zijn. Over zorgen voor elkaar. Yama vond haar woorden zo mooi. Je mag een wens doen, zei hij. Maar niet het leven van Satyavan. Savitri zei: Ik wens dat de papa van Satyavan weer kan zien. Goed, zei Yama. Maar ga nu terug. Savitri bleef volgen. Ze praatte verder. Yama gaf haar een tweede wens. En dan een derde. Bij de derde wens was Savitri slim. Ze zei: Ik wens dat ik veel kinderen krijg. Kinderen van Satyavan. Yama zei ja. En toen begreep hij het. Om die wens uit te laten komen, moest Satyavan blijven leven! Yama lachte. Je bent de slimste die ik ooit ontmoet heb. Hij liet het touw los. Satyavan was vrij. Savitri liep terug naar de boom. Satyavan deed zijn ogen open. Ik heb lang geslapen, zei hij. Ze liepen samen naar huis. De papa van Satyavan kon weer zien. Iedereen was blij. En nog steeds vieren vrouwen in India een feest voor Savitri. Om te vieren dat liefde, trouw en slimheid heel sterk zijn. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Wat doet Satyavan in het bos?",
+      "right": "🪓",
+      "wrong": [
+        "🎣",
+        "🎨"
+      ],
+      "say": "Satyavan hakt hout.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat heeft Yama in zijn hand?",
+      "right": "🪢",
+      "wrong": [
+        "🗡️",
+        "🌸"
+      ],
+      "say": "Yama heeft een touw in zijn hand.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat wenst Savitri eerst?",
+      "right": "👁️",
+      "wrong": [
+        "💰",
+        "🏰"
+      ],
+      "say": "Ze wenst dat de papa van Satyavan weer kan zien.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Hoe is Savitri?",
+      "right": "🧠",
+      "wrong": [
+        "😴",
+        "😠"
+      ],
+      "say": "Savitri is heel slim.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de prinses",
+      "emoji": "👸",
+      "say": "Savitri is een prinses.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de bijl",
+      "emoji": "🪓",
+      "say": "Satyavan hakt hout met een bijl.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "het hutje",
+      "emoji": "🛖",
+      "say": "Ze wonen in een hutje.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de boom",
+      "emoji": "🌳",
+      "say": "Satyavan rust onder een boom.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "het touw",
+      "emoji": "🪢",
+      "say": "Yama heeft een touw.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de wens",
+      "emoji": "🌠",
+      "say": "Savitri doet een wens.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

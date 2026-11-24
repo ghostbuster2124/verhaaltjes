@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "vikram-betaal",
+  "version": 1,
+  "title": "Koning Vikram en de geest in de boom.",
+  "emoji": "👻",
+  "text": "Lang geleden was er in India een dappere en wijze koning. Hij heette Vikram. Op een dag kwam er een tovenaar naar het paleis. Koning, zei hij. In het bos staat een oude boom. In die boom woont een geest. Hij heet Betaal. Breng hem naar mij. Maar je mag onderweg niets zeggen. Geen enkel woord. Vikram was dapper. Hij ging 's nachts naar het bos. Het was donker. De uilen riepen. Hoe hoe. Daar was de oude boom. En aan een tak hing Betaal. Een grappige geest, met lange armen en grote ogen. Hij hing ondersteboven als een vleermuis. Vikram klom in de boom. Hij pakte Betaal en zette hem op zijn rug. Hij begon te lopen. Betaal zei: De weg is lang. Ik vertel je een verhaal. Maar luister goed. Op het einde stel ik een vraag. Als je het antwoord weet, moet je het zeggen. Maar als je iets zegt, vlieg ik terug naar mijn boom! Betaal vertelde. Er waren eens drie broers. Ze kregen een oude olifant van hun papa. De eerste broer wilde de olifant verkopen. De tweede broer wilde ermee werken. De derde broer zei: Deze olifant heeft ons hele leven voor ons gewerkt. Hij is moe. We laten hem rusten en zorgen goed voor hem. Betaal vroeg: Welke broer was de wijste? Vikram wist het antwoord. Hij kon het niet laten. De derde broer, zei hij. Want hij was dankbaar en lief voor de olifant. Haha! lachte Betaal. Je hebt iets gezegd! En wiesj, hij vloog terug naar de boom. Vikram zuchtte. Hij ging terug. Hij klom weer in de boom. Hij pakte Betaal weer op zijn rug. Betaal vertelde nog een verhaal. Over een slimme prinses en een dom hertje. En weer stelde hij een vraag. En weer wist Vikram het antwoord. En weer zei hij het. En weer vloog Betaal weg. Zo ging het de hele nacht. Verhaal na verhaal. Vikram gaf niet op. Op het einde stelde Betaal een heel moeilijke vraag. Vikram dacht lang na. Hij wist het antwoord niet. Dus zei hij niets. Betaal was verbaasd. Je bent eerlijk, koning. Je zegt alleen iets als je het echt weet. Je bent wijs. En je geeft nooit op. Betaal vertelde nog een geheim. Pas op voor die tovenaar. Hij is niet te vertrouwen. Hij wil je paleis stelen. Vikram bracht Betaal naar de tovenaar. Maar hij was gewaarschuwd. Hij liet zich niet bedriegen. De tovenaar liep weg en kwam nooit meer terug. Betaal en Vikram werden vrienden. Soms ging Vikram 's nachts naar de oude boom. Dan vertelde Betaal hem een nieuw verhaal. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Waar woont de geest Betaal?",
+      "right": "🌳",
+      "wrong": [
+        "🏰",
+        "🌊"
+      ],
+      "say": "Betaal woont in een oude boom.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat mag Vikram onderweg niet doen?",
+      "right": "🤐",
+      "wrong": [
+        "🏃",
+        "😴"
+      ],
+      "say": "Vikram mag onderweg niets zeggen.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Welk dier krijgen de drie broers?",
+      "right": "🐘",
+      "wrong": [
+        "🐄",
+        "🐪"
+      ],
+      "say": "De broers krijgen een oude olifant.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat gebeurt er als Vikram iets zegt?",
+      "right": "🌳",
+      "wrong": [
+        "🎁",
+        "🎉"
+      ],
+      "say": "Dan vliegt Betaal terug naar zijn boom.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de koning",
+      "emoji": "🤴",
+      "say": "Vikram is een wijze koning.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de geest",
+      "emoji": "👻",
+      "say": "Betaal is een geest.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de boom",
+      "emoji": "🌳",
+      "say": "De geest hangt in de boom.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de uil",
+      "emoji": "🦉",
+      "say": "De uilen roepen in de nacht.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de tovenaar",
+      "emoji": "🧙",
+      "say": "De tovenaar is niet te vertrouwen.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de olifant",
+      "emoji": "🐘",
+      "say": "De olifant mag rusten.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}
