@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "elemental",
+  "version": 1,
+  "title": "Vonk en Golf, vuur en water.",
+  "emoji": "🔥",
+  "text": "Er is een grote stad. In die stad wonen elementen. Vuur, water, aarde en lucht. De waterwezens zijn blauw en glad. De aardwezens hebben bloemen en bomen op hun lijf. De luchtwezens zijn wolkjes die zweven. En de vuurwezens zijn vlammetjes die branden. Vuur en water zijn nooit vrienden. Dat zeggen de mensen toch. Water maakt vuur uit. En vuur maakt water aan de kook. In een klein winkeltje woont een vuurmeisje. Ze heet Vonk. Haar papa en mama hebben de winkel. Ze verkopen lekkere vuurkoekjes. Vonk wil later de winkel overnemen. Ze helpt elke dag. Maar Vonk wordt snel boos. Als ze boos is, worden haar vlammen paars en ontploft er iets. Boem! Op een dag ontploft er een pijp in de kelder. Er stroomt water naar binnen. En met het water komt een waterjongen mee. Hij heet Golf. Golf werkt voor de stad. Hij moet melden dat de pijp kapot is. Dan moet de winkel dicht! Vonk is boos. Neen, niet de winkel van papa! Ze rent achter Golf aan. Golf is heel gevoelig. Als hij iets mooi vindt, moet hij huilen. Als hij iets verdrietig vindt, ook. Ze zoeken samen uit waar het water vandaan komt. Er is een gat in een grote muur. Ze maken het samen dicht. Vonk smelt zand tot glas. Golf houdt het water tegen. Ze worden vrienden. Golf neemt Vonk mee naar een plek waar een bloem groeit die alleen bloeit in vuur. Vonk laat Golf zien hoe ze glas blaast. Prachtige glazen kunstwerken. Ze willen elkaars hand vasthouden. Maar dat kan niet. Vuur en water. Toch? Ze proberen het voorzichtig. Golf steekt zijn hand uit. Vonk ook. Er komt een beetje stoom. Maar het gaat. Niemand gaat uit. Niemand gaat koken. Het is een wonder. Dan breekt de grote muur. Een golf water spoelt door de stad. Vonk zit vast in een kamer die vol water loopt. Golf redt haar. Maar het is heel heet. Golf verdampt. Hij wordt een wolkje. Vonk huilt. Ze vertelt Golf alles wat ze fijn aan hem vindt. En Golf, die altijd moet huilen, die hoort haar. Hij moet zo huilen dat zijn druppeltjes terugkomen. Golf is er weer! Vonk vertelt haar papa eerlijk wat ze echt wil. Ze wil glas blazen en kunst maken. Papa is trots op haar. En vuur en water? Die kunnen wel vrienden zijn. Als ze maar goed naar elkaar kijken. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Waar is Vonk van gemaakt?",
+      "right": "🔥",
+      "wrong": [
+        "💧",
+        "🌳"
+      ],
+      "say": "Vonk is een vuurmeisje.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Waar is Golf van gemaakt?",
+      "right": "💧",
+      "wrong": [
+        "🔥",
+        "💨"
+      ],
+      "say": "Golf is een waterjongen.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat doet Golf als hij iets mooi vindt?",
+      "right": "😭",
+      "wrong": [
+        "😡",
+        "😴"
+      ],
+      "say": "Golf moet huilen als hij iets mooi vindt.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat maakt Vonk van zand?",
+      "right": "🫙",
+      "wrong": [
+        "🍰",
+        "🧱"
+      ],
+      "say": "Vonk maakt glas van zand.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "het vuur",
+      "emoji": "🔥",
+      "say": "Vonk is van vuur.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "het water",
+      "emoji": "💧",
+      "say": "Golf is van water.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de wolk",
+      "emoji": "☁️",
+      "say": "Golf verdampt tot een wolkje.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de stoom",
+      "emoji": "♨️",
+      "say": "Er komt een beetje stoom.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "het glas",
+      "emoji": "🫙",
+      "say": "Vonk blaast glas.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de winkel",
+      "emoji": "🏪",
+      "say": "Papa heeft een winkel.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

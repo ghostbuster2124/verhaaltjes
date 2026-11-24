@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "luca",
+  "version": 1,
+  "title": "Luca, het zeemonstertje.",
+  "emoji": "🐟",
+  "text": "Diep in de zee, bij een mooie kust van Italië, woont een jongen. Hij heet Luca. Maar Luca is geen gewone jongen. Luca is een zeemonstertje! Hij heeft blauwe schubben, een vinnige staart en grote ogen. Hij hoedt een kudde vissen. Zoals een herder schapen hoedt. Mama zegt: Ga nooit naar boven. Daar wonen de landmonsters. De mensen. Die zijn gevaarlijk. Maar Luca is nieuwsgierig. Hij vindt dingen die van boven komen. Een wekker. Een speelkaart. Wat zou er boven zijn? Op een dag ontmoet Luca een ander zeemonstertje. Alberto. Alberto is stoer. Hij gaat altijd naar boven. Kom mee! zegt Alberto. Hij trekt Luca uit het water. En dan gebeurt er iets wonderlijks. Zodra Luca droog is, verandert hij. Zijn schubben verdwijnen. Hij heeft benen. Hij is een gewone jongen! Maar als hij nat wordt, wordt hij weer een zeemonstertje. Alberto en Luca bouwen een brommer van oude spullen. Ze rijden de heuvel af. Ze vallen in het water. Plons! Ze lachen. Ze dromen van een echte Vespa. Een scooter. Daarmee kunnen ze de hele wereld zien. Ze gaan naar het dorpje aan zee. Het heet Portorosso. Het dorpje is kleurrijk. Er wonen vissers. Er is een plein met een fontein. Ze ontmoeten Giulia. Een meisje met rood haar. Ze is lief en slim. Ze wil een wedstrijd winnen. Zwemmen, pasta eten en fietsen. Met het geld kunnen ze een Vespa kopen. Luca leert fietsen. Hij valt vaak. Maar hij oefent. Giulia leert hem ook over de sterren en de planeten. Luca wil naar school! Maar de jongens moeten oppassen. Ze mogen niet nat worden. Dan ziet iedereen dat ze zeemonsters zijn. Op de dag van de wedstrijd begint het te regenen. Luca wordt nat. Zijn schubben komen tevoorschijn. Maar Luca fietst gewoon door. Alberto komt helpen. Ook hij is een zeemonster. De mensen zien het. Eerst schrikken ze. Maar dan zien ze dat Luca en Alberto lief zijn. Ze juichen voor de jongens. Ze winnen samen met Giulia. Alberto koopt geen Vespa voor zichzelf. Hij koopt een treinkaartje voor Luca. Zo kan Luca naar school gaan, met Giulia. Luca zwaait vanuit de trein. Hij is blij. En een beetje verdrietig. Maar hij weet zeker dat hij en Alberto altijd vrienden blijven. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welke kleur hebben de schubben van Luca?",
+      "right": "🔵",
+      "wrong": [
+        "🔴",
+        "🟡"
+      ],
+      "say": "Luca heeft blauwe schubben.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat gebeurt er als Luca droog wordt?",
+      "right": "🦵",
+      "wrong": [
+        "🪽",
+        "🦒"
+      ],
+      "say": "Als Luca droog wordt, krijgt hij benen.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Waar dromen de jongens van?",
+      "right": "🛵",
+      "wrong": [
+        "🚀",
+        "🐴"
+      ],
+      "say": "Ze dromen van een Vespa, een scooter.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat valt er tijdens de wedstrijd?",
+      "right": "🌧️",
+      "wrong": [
+        "❄️",
+        "🍂"
+      ],
+      "say": "Het begint te regenen.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de zee",
+      "emoji": "🌊",
+      "say": "Luca woont in de zee.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de vis",
+      "emoji": "🐟",
+      "say": "Luca hoedt vissen.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de scooter",
+      "emoji": "🛵",
+      "say": "De jongens willen een scooter.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de fiets",
+      "emoji": "🚲",
+      "say": "Luca leert fietsen.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de pasta",
+      "emoji": "🍝",
+      "say": "In de wedstrijd moet je pasta eten.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de fontein",
+      "emoji": "⛲",
+      "say": "Op het plein staat een fontein.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

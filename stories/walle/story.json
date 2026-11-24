@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "walle",
+  "version": 1,
+  "title": "Wall-E, de kleine opruimrobot.",
+  "emoji": "🤖",
+  "text": "Lang in de toekomst is de aarde vol afval. Overal liggen bergen rommel. Er groeien geen bomen meer. De mensen zijn weggegaan in een groot ruimteschip. Er is nog maar één robot over. Een klein vierkant robotje met grote ogen als een verrekijker. Hij heet Wall-E. Elke dag ruimt Wall-E op. Hij pakt afval. Hij duwt het in zijn buik. Hij maakt er blokjes van. Krrrk. Hij stapelt de blokjes op elkaar. Zo maakt hij torens zo hoog als wolkenkrabbers. Wall-E heeft een vriendje. Een kakkerlakje. Het kakkerlakje volgt hem overal. Wall-E verzamelt schatten die hij vindt. Een lampje. Een gloeilamp. Een rubiks kubus. En een oude film. Hij kijkt elke avond naar de film. Twee mensen die dansen en elkaars hand vasthouden. Wall-E is eenzaam. Hij wil ook iemand om de hand vast te houden. Op een dag vindt Wall-E iets bijzonders. Een klein groen plantje. In een oude schoen. Hij neemt het mee naar huis. Dan landt er een raket. Er komt een witte robot uit. Ze is glad en glimmend en ze kan vliegen. Ze heet Eve. Eve is op zoek naar planten. Wall-E is meteen verliefd. Hij laat haar zijn schatten zien. En dan laat hij het plantje zien. Eve neemt het plantje. Ze stopt het in haar buik. Ze gaat slapen. Ze moet terug naar het ruimteschip. Wall-E wil haar niet kwijt. Hij springt mee op de raket. Ze vliegen de ruimte in. Op het ruimteschip zijn de mensen heel dik en lui geworden. Ze zitten de hele dag in stoeltjes. Ze kijken naar schermpjes. Ze lopen nooit. Eve geeft het plantje aan de kapitein. Er groeit weer iets op de aarde! We kunnen terug naar huis! Maar de stuurautomaat, een boze computer, wil niet terug. Hij wil het plantje weggooien. Wall-E en Eve werken samen. Ze beschermen het plantje. Wall-E wordt geplet, maar hij geeft niet op. De kapitein staat op uit zijn stoel. Hij loopt. Voor het eerst! Het schip gaat terug naar de aarde. Eve repareert Wall-E. Ze houden elkaars hand vast. Net zoals in de film. De mensen planten het plantje in de grond. Ze ruimen samen de aarde op. Langzaam groeit alles weer groen. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Wat doet Wall-E elke dag?",
+      "right": "🧹",
+      "wrong": [
+        "🍳",
+        "🎨"
+      ],
+      "say": "Wall-E ruimt elke dag afval op.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat vindt Wall-E in een oude schoen?",
+      "right": "🌱",
+      "wrong": [
+        "💍",
+        "🐟"
+      ],
+      "say": "Wall-E vindt een klein groen plantje.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Welke kleur heeft Eve?",
+      "right": "⚪",
+      "wrong": [
+        "🟤",
+        "🟠"
+      ],
+      "say": "Eve is een witte robot.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Welk diertje is het vriendje van Wall-E?",
+      "right": "🪳",
+      "wrong": [
+        "🐱",
+        "🐦"
+      ],
+      "say": "Het vriendje van Wall-E is een kakkerlakje.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de robot",
+      "emoji": "🤖",
+      "say": "Wall-E is een kleine robot.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "het afval",
+      "emoji": "🗑️",
+      "say": "Wall-E ruimt afval op.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "het plantje",
+      "emoji": "🌱",
+      "say": "Het plantje groeit in een schoen.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de raket",
+      "emoji": "🚀",
+      "say": "Eve komt met een raket.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de gloeilamp",
+      "emoji": "💡",
+      "say": "Wall-E vindt een gloeilamp.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de aarde",
+      "emoji": "🌍",
+      "say": "De aarde wordt weer groen.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}
