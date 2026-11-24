@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "alice",
+  "version": 1,
+  "title": "Alice in Wonderland.",
+  "emoji": "🐇",
+  "text": "Op een warme zomerdag zit Alice in het gras. Haar grote zus leest een boek. Er staan geen prentjes in. Alice verveelt zich. Dan rent er een wit konijn voorbij. Hij draagt een jasje en hij kijkt op een zakhorloge. O jee, o jee! Ik ben te laat! Een konijn met een horloge? Alice rent erachteraan. Het konijn springt in een groot konijnenhol. Alice kijkt erin. Ze leunt te ver. En ze valt! Ze valt en valt. Langs kastjes, potten jam en klokken. Langzaam, als een veertje. Ze landt in een kamer vol deuren. Eén deurtje is piepklein. Daarachter ziet ze een prachtige tuin. Op een tafeltje staat een flesje. Drink mij, staat erop. Alice drinkt. Ze krimpt! Nu is ze zo klein als een muis. Dan vindt ze een koekje. Eet mij, staat erop. Alice eet. Ze groeit! Haar hoofd botst tegen het plafond. Alice begint te huilen. Haar tranen worden een grote plas. Ze krimpt weer en zwemt door haar eigen tranen. Ze komt in een wonderlijk bos. Op een paddenstoel zit een blauwe rups. Hij blaast rookkringetjes. Wie ben jij? vraagt hij. In een boom zit een kat met een heel brede grijns. Het is de kat van Cheshire. Hij kan verdwijnen. Eerst zijn staart, dan zijn lijf. Alleen zijn grijns blijft over. Ze komt bij een lange tafel. Daar zitten een gekke hoedenmaker en een haas. Ze drinken thee. Het is altijd theetijd! Ze vieren hun niet-verjaardag. Gefeliciteerd met je niet-verjaardag! Dan komt Alice in de tuin van de Hartenkoningin. De rozen worden rood geverfd door speelkaarten. Want de koningin wil alleen rode rozen. De koningin speelt croquet. Met een flamingo als stok en een egel als bal. De koningin wordt boos op Alice. Haar hoofd eraf! roept ze. Alle kaarten rennen naar Alice. Alice rent weg. Zo hard ze kan. Langs de rups. Langs de theetafel. Alice, Alice, wordt wakker! Alice doet haar ogen open. Ze ligt in het gras. Haar zus kijkt naar haar. Je bent in slaap gevallen. Was alles maar een droom? Alice kijkt naar het gras. Daar ziet ze een wit konijn wegspringen. Of toch niet? Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welke kleur heeft het konijn?",
+      "right": "⚪",
+      "wrong": [
+        "🟤",
+        "⚫"
+      ],
+      "say": "Het konijn is wit.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat gebeurt er als Alice uit het flesje drinkt?",
+      "right": "🤏",
+      "wrong": [
+        "🦒",
+        "😴"
+      ],
+      "say": "Alice krimpt. Ze wordt heel klein.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat drinken de hoedenmaker en de haas?",
+      "right": "🍵",
+      "wrong": [
+        "🥛",
+        "🧃"
+      ],
+      "say": "Ze drinken thee.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Welke kleur moeten de rozen van de koningin zijn?",
+      "right": "🔴",
+      "wrong": [
+        "⚪",
+        "🟡"
+      ],
+      "say": "De rozen moeten rood zijn.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "het konijn",
+      "emoji": "🐇",
+      "say": "Het konijn is te laat.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "het horloge",
+      "emoji": "⏱️",
+      "say": "Het konijn kijkt op zijn horloge.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de rups",
+      "emoji": "🐛",
+      "say": "De rups zit op een paddenstoel.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de hoed",
+      "emoji": "🎩",
+      "say": "De hoedenmaker draagt een hoed.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de roos",
+      "emoji": "🌹",
+      "say": "De rozen zijn rood.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de koningin",
+      "emoji": "👑",
+      "say": "De koningin is boos.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}
