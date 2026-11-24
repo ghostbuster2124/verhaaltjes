@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "prahlad",
+  "version": 1,
+  "title": "Prahlad, de jongen die nooit bang was.",
+  "emoji": "🔥",
+  "text": "Dit is een oud verhaal uit India. Het gaat over het feest van Holi. Lang geleden was er een koning. Hij heette Hiranyakashipu. Een heel lange naam. Hij was sterk en trots. Te trots. De koning had een wens gekregen. Geen mens en geen dier kon hem pijn doen. Niet binnen en niet buiten. Niet overdag en niet 's nachts. De koning dacht: Nu ben ik de allerbelangrijkste. Iedereen moet tot mij bidden. Niet tot de goden. Alle mensen waren bang. Ze deden wat de koning zei. Maar de koning had een zoontje. Prahlad. Prahlad was lief en vriendelijk. Hij hield van de god Vishnu. Elke dag zong hij liedjes voor Vishnu. De koning werd boos. Je moet tot mij bidden, niet tot Vishnu! Prahlad zei vriendelijk: Papa, ik hou van jou. Maar Vishnu is overal. In de lucht, in de bomen, in jou en in mij. De koning werd nog bozer. Hij probeerde Prahlad bang te maken. Maar Prahlad was niet bang. Hij zong zijn liedjes. En elke keer werd hij beschermd. De koning had een zus. Ze heette Holika. Holika had een magische sjaal. Met die sjaal kon vuur haar niet raken. Holika zei: Ik neem Prahlad op mijn schoot. Midden in een groot vuur. Mijn sjaal beschermt mij. En dan zal Prahlad wel bang worden. Ze maakten een grote stapel hout. Holika ging erop zitten. Met Prahlad op haar schoot. Het vuur werd aangestoken. Prahlad was niet bang. Hij deed zijn ogen dicht. Hij zong zijn liedje voor Vishnu. Toen gebeurde er een wonder. Er waaide een grote wind. De sjaal vloog van de schouders van Holika. En de sjaal viel om Prahlad heen. Het vuur kon Prahlad niets doen. Hij stapte uit het vuur. Zonder één schrammetje. Maar Holika had de sjaal niet meer. Zij kon niet meer ontsnappen. Ze was weg. De mensen zagen het. Ze juichten. Het goede had gewonnen van het slechte! Daarna verscheen Vishnu. In een bijzondere vorm. Half mens en half leeuw. Op het moment dat het geen dag en geen nacht was. Bij de schemering. Op de drempel van de deur. Niet binnen en niet buiten. Zo maakte Vishnu een einde aan de boze koning. Prahlad werd de nieuwe koning. Hij was lief en eerlijk voor iedereen. En daarom maken mensen in India elk jaar een groot vuur. De avond voor Holi. Om te vieren dat het goede wint. En de volgende dag gooien ze met kleuren. Rood, geel, groen en roze. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Tot wie bidt Prahlad?",
+      "right": "🙏",
+      "wrong": [
+        "👑",
+        "🐍"
+      ],
+      "say": "Prahlad bidt tot de god Vishnu.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat heeft Holika?",
+      "right": "🧣",
+      "wrong": [
+        "👑",
+        "🗡️"
+      ],
+      "say": "Holika heeft een magische sjaal.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat gebeurt er met de sjaal?",
+      "right": "💨",
+      "wrong": [
+        "🔥",
+        "💧"
+      ],
+      "say": "De wind blaast de sjaal om Prahlad heen.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Welk feest hoort bij dit verhaal?",
+      "right": "🎨",
+      "wrong": [
+        "🎄",
+        "🎃"
+      ],
+      "say": "Dit verhaal hoort bij Holi, het feest van de kleuren.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de koning",
+      "emoji": "🤴",
+      "say": "De koning is heel trots.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "het vuur",
+      "emoji": "🔥",
+      "say": "Het vuur brandt hoog.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de sjaal",
+      "emoji": "🧣",
+      "say": "Holika heeft een sjaal.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de leeuw",
+      "emoji": "🦁",
+      "say": "Vishnu is half leeuw.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "het hout",
+      "emoji": "🪵",
+      "say": "Ze maken een stapel hout.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de kleuren",
+      "emoji": "🎨",
+      "say": "Met Holi gooien ze met kleuren.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

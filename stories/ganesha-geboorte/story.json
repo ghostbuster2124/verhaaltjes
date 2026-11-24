@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "ganesha-geboorte",
+  "version": 1,
+  "title": "Hoe Ganesha een olifantenhoofd kreeg.",
+  "emoji": "🐘",
+  "text": "Dit is een verhaal uit India. Heel lang geleden, op een hoge berg met sneeuw, woonden de god Shiva en de godin Parvati. Shiva was vaak weg. Hij mediteerde in de bergen. Hij zat heel stil en dacht na. Soms jarenlang. Parvati was vaak alleen. Ze wilde graag een kindje. Een kindje dat bij haar bleef en haar beschermde. Op een dag ging Parvati in bad. Ze nam wat klei uit de rivier. Ze maakte er een jongetje van. Ze kneedde zijn armen, zijn benen, zijn hoofd. Dan blies ze zachtjes. Het jongetje werd levend! Hij deed zijn ogen open. Hij glimlachte. Mama! Parvati was zo blij. Ze noemde hem Ganesha. Ganesha, zei ze. Ik ga in bad. Wil jij de deur bewaken? Laat niemand binnen. Ganesha knikte. Ik laat niemand binnen, mama. Dat beloof ik. Hij ging voor de deur staan. Met een stok in zijn hand. Heel trots. Toen kwam Shiva thuis. Hij was lang weg geweest. Hij wilde naar binnen. Maar Ganesha stond voor de deur. Je mag er niet in, zei hij. Shiva was verbaasd. Wie ben jij? Dit is mijn huis. Mijn mama zegt dat niemand binnen mag, zei Ganesha. Niemand. Shiva werd boos. Hij kende dit kind niet. En Ganesha kende Shiva niet. Ze maakten ruzie. Shiva was zo boos dat er iets heel ergs gebeurde. Hij nam het hoofd van Ganesha weg. Parvati hoorde het lawaai. Ze kwam naar buiten. Ze zag wat er gebeurd was. Ze huilde heel hard. Dat was mijn zoon! Hij wilde mij alleen beschermen! Shiva had zo een spijt. Hij wilde het goedmaken. Hij zei tegen zijn helpers: Ga naar het bos. Breng het hoofd van het eerste dier dat jullie zien. De helpers liepen het bos in. Het eerste dier dat ze zagen, was een olifant. Een wijze olifant met grote oren en een lange slurf. Ze brachten het olifantenhoofd. Shiva zette het op het lijf van Ganesha. Hij blies zachtjes. Ganesha deed zijn ogen weer open! Parvati lachte door haar tranen. Ganesha was terug. Met een olifantenhoofd. Shiva knuffelde Ganesha. Je bent mijn zoon. En je bent heel trouw. Je hebt je belofte gehouden. Vanaf die dag is Ganesha de god van het begin. Als mensen iets nieuws beginnen, bidden ze eerst tot Ganesha. Hij haalt alle problemen uit de weg. En Ganesha? Hij werd de slimste en liefste god van allemaal. Met de grootste oren om goed te luisteren. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Waarvan maakt Parvati het jongetje?",
+      "right": "🟤",
+      "wrong": [
+        "🪵",
+        "🧊"
+      ],
+      "say": "Parvati maakt het jongetje van klei.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat moet Ganesha bewaken?",
+      "right": "🚪",
+      "wrong": [
+        "🐄",
+        "💎"
+      ],
+      "say": "Ganesha moet de deur bewaken.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Welk dier zien de helpers eerst in het bos?",
+      "right": "🐘",
+      "wrong": [
+        "🦁",
+        "🐯"
+      ],
+      "say": "Ze zien eerst een olifant.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wanneer bidden mensen tot Ganesha?",
+      "right": "🆕",
+      "wrong": [
+        "🌙",
+        "🍽️"
+      ],
+      "say": "Als mensen iets nieuws beginnen.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de olifant",
+      "emoji": "🐘",
+      "say": "Ganesha heeft een olifantenhoofd.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de berg",
+      "emoji": "🏔️",
+      "say": "Shiva woont op een hoge berg.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de klei",
+      "emoji": "🟤",
+      "say": "Parvati maakt een jongetje van klei.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de deur",
+      "emoji": "🚪",
+      "say": "Ganesha bewaakt de deur.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de slurf",
+      "emoji": "🐘",
+      "say": "Een olifant heeft een lange slurf.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de rivier",
+      "emoji": "🏞️",
+      "say": "Parvati neemt klei uit de rivier.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

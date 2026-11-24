@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "woezel-pip",
+  "version": 1,
+  "title": "Woezel en Pip zoeken de zon.",
+  "emoji": "🐶",
+  "text": "In de Tovertuin wonen twee hondjes. Woezel en Pip. Woezel is een jongetje. Pip is een meisje. Ze zijn de allerbeste vriendjes. In de Tovertuin is alles mooi. Er zijn grote bloemen. Er is een vijver. En er staat een grote boom waar ze in een huisje wonen. Ze hebben nog meer vriendjes. Buurpoes, die altijd slaapt. Uil, die heel wijs is. En Molletje, die onder de grond woont. Op een ochtend worden Woezel en Pip wakker. Maar het is zo donker. Het is grijs buiten. Er zijn alleen wolken. Waar is de zon? vraagt Pip. Woezel kijkt naar de lucht. Ik weet het niet. De zon is weg! Zonder zon gaan de bloemen niet open. De bijtjes kunnen niet vliegen. Iedereen is een beetje verdrietig. Woezel zegt: We gaan de zon zoeken! Ze gaan eerst naar Uil. Uil zit in de boom. Uil, weet jij waar de zon is? Uil denkt na. Hoe hoe. De zon zit achter de wolken. Ze moet geholpen worden. Ga naar de heuvel. Daar is de wind. Woezel en Pip lopen naar de heuvel. Onderweg zien ze Molletje. Hij steekt zijn neusje uit de grond. Waar gaan jullie naartoe? vraagt Molletje. We zoeken de zon! Molletje wil mee. Ik ben zo vaak onder de grond. Ik wil de zon ook zien. Ze klimmen samen de heuvel op. Het is moeilijk. Molletje is moe. Pip helpt hem. Boven op de heuvel is het stil. Geen wind. Pip heeft een idee. Als wij heel hard blazen, komt de wind misschien ook! Ze blazen. Woezel blaast. Pip blaast. Molletje blaast. Pfff, pfff, pfff! Ze blazen zo hard dat hun wangen bol staan. Dan begint het blaadje van een boom te bewegen. Dan nog een blaadje. Het gaat waaien! De wind komt eraan! De wind blaast de wolken opzij. Eerst een beetje. Dan nog meer. En dan, ineens, schijnt er een warme straal. De zon! roepen ze. De zon is terug! De bloemen gaan open. De bijtjes vliegen uit. De vogeltjes zingen. Woezel, Pip en Molletje rollen van de heuvel naar beneden. Ze lachen. In de tuin is iedereen blij. Buurpoes wordt eindelijk wakker. Ze ligt te spinnen in de zon. Die avond, als de zon ondergaat, zwaaien Woezel en Pip. Tot morgen, zon. Slaap lekker. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Hoeveel hondjes zijn er?",
+      "right": "2️⃣",
+      "wrong": [
+        "1️⃣",
+        "5️⃣"
+      ],
+      "say": "Er zijn twee hondjes. Woezel en Pip.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat is er weg?",
+      "right": "☀️",
+      "wrong": [
+        "🌙",
+        "🌈"
+      ],
+      "say": "De zon is weg.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Welk dier woont onder de grond?",
+      "right": "🐀",
+      "wrong": [
+        "🐦",
+        "🐟"
+      ],
+      "say": "Molletje woont onder de grond.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat doen ze boven op de heuvel?",
+      "right": "🌬️",
+      "wrong": [
+        "🎵",
+        "💤"
+      ],
+      "say": "Ze blazen heel hard.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de hond",
+      "emoji": "🐶",
+      "say": "Woezel en Pip zijn hondjes.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de zon",
+      "emoji": "☀️",
+      "say": "De zon schijnt warm.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de wolk",
+      "emoji": "☁️",
+      "say": "De zon zit achter de wolken.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de uil",
+      "emoji": "🦉",
+      "say": "Uil is heel wijs.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de wind",
+      "emoji": "🌬️",
+      "say": "De wind blaast de wolken weg.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de bloem",
+      "emoji": "🌻",
+      "say": "De bloemen gaan open.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}
