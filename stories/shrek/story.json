@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "shrek",
+  "version": 1,
+  "title": "Shrek, de vriendelijke oger.",
+  "emoji": "🧅",
+  "text": "In een moeras woont een grote groene oger. Hij heet Shrek. Shrek heeft rare oren, als kleine toeters. Hij neemt een bad in de modder. Hij eet slakken en wormen. Bah! Shrek wil alleen zijn. Iedereen is bang van hem. Ga weg, gromt hij. Dit is mijn moeras! Op een dag komt er een praatgrage ezel. De ezel heet Ezel. Hij praat en praat en houdt nooit op. Hoi! Ik ben Ezel! Mag ik bij jou blijven? Jij bent zo groot en zo groen! Shrek zucht. Maar Ezel blijft. Dan komen er nog meer bezoekers. De drie biggetjes, Pinokkio, de grote boze wolf en zeven dwergen. Allemaal sprookjesfiguren! De boze heer Farquaad heeft ze uit zijn land gejaagd. Nu zitten ze allemaal in het moeras van Shrek. Shrek gaat naar heer Farquaad. Ik wil mijn moeras terug! Farquaad zegt: Goed. Maar eerst moet je een prinses voor mij halen. Prinses Fiona. Ze zit in een toren, en een draak bewaakt haar. Shrek en Ezel gaan op reis. Ze komen bij een kasteel vol lava. In de toren zit Fiona. De draak is groot en rood. Ze spuwt vuur. Maar de draak vindt Ezel heel lief. Ze krijgt rode wangetjes. De draak is verliefd! Shrek bevrijdt Fiona. Fiona dacht dat er een ridder zou komen. Een oger? Wat raar! Ze lopen samen terug. Shrek en Fiona praten en lachen. Shrek vertelt dat ogers zijn zoals uien. Ze hebben veel laagjes vanbinnen. Fiona leert dat Shrek lief is vanbinnen. En Shrek leert dat Fiona grappig en stoer is. Maar Fiona heeft een geheim. Elke avond, als de zon ondergaat, verandert ze. Dan wordt ze ook een oger. Ze is bang dat niemand haar dan lief vindt. Maar Shrek vindt haar precies goed zoals ze is. Hij houdt van haar. Fiona wil niet met de boze Farquaad trouwen. Ze trouwt met Shrek, in het moeras. De draak komt ook. Ezel komt ook. Alle sprookjesfiguren dansen op het feest. Shrek is niet meer alleen. Hij heeft eindelijk vrienden. En ze leven nog lang en gelukkig, in de modder. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welke kleur heeft Shrek?",
+      "right": "🟢",
+      "wrong": [
+        "🔵",
+        "🟣"
+      ],
+      "say": "Shrek is groen.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wie is de praatgrage vriend van Shrek?",
+      "right": "🫏",
+      "wrong": [
+        "🐈",
+        "🐕"
+      ],
+      "say": "Ezel is de praatgrage vriend van Shrek.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wie bewaakt de toren van Fiona?",
+      "right": "🐉",
+      "wrong": [
+        "🐺",
+        "🦁"
+      ],
+      "say": "Een draak bewaakt de toren.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Waarmee vergelijkt Shrek een oger?",
+      "right": "🧅",
+      "wrong": [
+        "🍎",
+        "🥔"
+      ],
+      "say": "Ogers zijn zoals uien. Ze hebben laagjes.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "het moeras",
+      "emoji": "🐸",
+      "say": "Shrek woont in een moeras.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de ezel",
+      "emoji": "🫏",
+      "say": "Ezel praat heel veel.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de draak",
+      "emoji": "🐉",
+      "say": "De draak spuwt vuur.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de toren",
+      "emoji": "🏰",
+      "say": "Fiona zit in een toren.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de ui",
+      "emoji": "🧅",
+      "say": "Een ui heeft veel laagjes.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de prinses",
+      "emoji": "👸",
+      "say": "Fiona is een prinses.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

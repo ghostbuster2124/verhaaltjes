@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "trolls",
+  "version": 1,
+  "title": "Poppy en de vrolijke trollen.",
+  "emoji": "🌈",
+  "text": "In een kleurrijk bos wonen de trollen. Ze zijn klein, met heel hoog haar. Roze haar, blauw haar, paars haar. De trollen zijn altijd vrolijk. Ze zingen, ze dansen en ze knuffelen. Elk uur, op een speciaal horloge, is het knuffeltijd! Poppy is de prinses van de trollen. Ze is roze en ze lacht de hele dag. Ze maakt kaartjes vol glitters voor iedereen. Maar er is één troll die nooit zingt. Hij heet Branch. Hij is grijs en hij is altijd bezorgd. Branch zegt: Jullie zingen te luid. De Bergens gaan ons horen! De Bergens zijn grote, chagrijnige wezens. Ze zijn nooit blij. Ze denken dat ze alleen blij kunnen worden als ze een trol opeten. Poppy geeft een groot feest. Met lichtjes, glitter en heel luide muziek. En ja hoor. Een Bergen hoort het. Ze pakt een paar trollen en neemt ze mee naar Bergenstad. Poppy wil haar vriendjes redden. Branch, ga mee! Branch wil eerst niet. Maar dan gaat hij toch. Ze reizen door een donker bos. Ze zien gekke spinnen en bloemen die bijten. Poppy blijft maar zingen. Branch rolt met zijn ogen. In Bergenstad zien ze een Bergen-meisje. Ze heet Bridget. Ze is het keukenmeisje. Ze is heel verdrietig. Ze is verliefd op de koning, maar ze durft niets te zeggen. Poppy krijgt een idee. De trollen maken een mooie pruik van hun haar voor Bridget. Ze ziet er prachtig uit. Bridget gaat met de koning naar de rolschaatsbaan. Ze lachen samen. Ze eten pizza. Bridget is blij. En ze heeft geen trol opgegeten! Kijk, zegt Poppy. Je hoeft niemand op te eten om blij te zijn. Blijdschap zit vanbinnen. De trollen worden bevrijd. Branch is zo opgelucht dat hij zingt. Zijn grijze kleur wordt ineens blauw! Alle Bergens en alle trollen dansen samen. Er is muziek en glitter overal. En Poppy? Die geeft iedereen een knuffel. Want het is knuffeltijd. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welke kleur heeft Poppy?",
+      "right": "🩷",
+      "wrong": [
+        "🟢",
+        "🟤"
+      ],
+      "say": "Poppy is roze.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Welke troll is altijd grijs en bezorgd?",
+      "right": "🩶",
+      "wrong": [
+        "🩷",
+        "💛"
+      ],
+      "say": "Branch is grijs.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat maken de trollen voor Bridget?",
+      "right": "💇",
+      "wrong": [
+        "🎂",
+        "👟"
+      ],
+      "say": "De trollen maken een pruik van hun haar.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat gebeurt er elk uur bij de trollen?",
+      "right": "🤗",
+      "wrong": [
+        "😴",
+        "🍽️"
+      ],
+      "say": "Elk uur is het knuffeltijd.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "het haar",
+      "emoji": "💇",
+      "say": "De trollen hebben hoog haar.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de glitter",
+      "emoji": "✨",
+      "say": "Poppy maakt kaartjes met glitter.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de knuffel",
+      "emoji": "🤗",
+      "say": "Poppy geeft iedereen een knuffel.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "het horloge",
+      "emoji": "⌚",
+      "say": "Op het horloge zie je het knuffeltijd.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de pizza",
+      "emoji": "🍕",
+      "say": "Bridget eet pizza.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de rolschaats",
+      "emoji": "🛼",
+      "say": "Ze gaan rolschaatsen.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "kungfu-panda",
+  "version": 1,
+  "title": "Po, de Kung Fu Panda.",
+  "emoji": "🐼",
+  "text": "In een dorp in China, tussen hoge bergen, woont een panda. Hij heet Po. Po is groot en rond. Hij werkt in het noedelrestaurant van zijn papa. Zijn papa is een gans. Po houdt van noedels. Hij houdt van dumplings. Maar het allermeest houdt hij van kung fu. Kung fu is een vechtsport. Je leert sterk zijn, snel zijn en rustig blijven. Boven op de berg woont meester Shifu. Hij is een kleine rode panda. Hij leert de beste kung fu aan vijf helden. De Tijgerin, de Aap, de Kraanvogel, de Slang en de Bidsprinkhaan. Op een dag is er een groot feest. De oude wijze schildpad gaat de Drakenkrijger kiezen. De allersterkste held. Po wil zo graag kijken. Hij rent de berg op. Duizend trappen! Hij hijgt en puft. Als hij boven is, is de poort dicht. Po bindt vuurpijlen aan een stoel. Hij steekt ze aan. Boem! Hij vliegt de lucht in. Po landt met een plof. Precies voor de schildpad. De schildpad wijst naar hem. Jij bent de Drakenkrijger. Iedereen is verbaasd. Een panda? Die kan niet eens zijn tenen aanraken! Meester Shifu wil Po niet leren. Maar Po geeft niet op. Elke dag valt hij. En elke dag staat hij weer op. Dan ziet Shifu iets. Als er eten is, wordt Po heel snel. Hij klimt hoog om een koekje te pakken. Hij springt heel ver voor een dumpling. Shifu lacht. Nu weet ik hoe ik je kan leren. Hij gebruikt dumplings om Po te trainen. Po leert springen. Hij leert draaien. Hij leert snel zijn. Dan komt er een boze sneeuwluipaard. Hij heet Tai Lung. Hij wil de macht over het dorp. Po gaat voor het dorp staan. Tai Lung slaat. Maar Po is zacht en rond. Alles kaatst terug. Boing! Met een slimme greep van zijn pinkje stopt Po de sneeuwluipaard. Tai Lung vliegt weg en komt nooit terug. Het hele dorp juicht. Po is de echte Drakenkrijger. Zijn papa geeft hem een kom noedels. Het geheime ingrediënt, zegt papa, is dat er geen geheim is. Je moet gewoon in jezelf geloven. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welk dier is Po?",
+      "right": "🐼",
+      "wrong": [
+        "🐻",
+        "🐯"
+      ],
+      "say": "Po is een panda.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Welk dier is de papa van Po?",
+      "right": "🪿",
+      "wrong": [
+        "🐒",
+        "🐢"
+      ],
+      "say": "De papa van Po is een gans.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat gebruikt Shifu om Po te trainen?",
+      "right": "🥟",
+      "wrong": [
+        "🍎",
+        "🥕"
+      ],
+      "say": "Shifu gebruikt dumplings.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wie kiest de Drakenkrijger?",
+      "right": "🐢",
+      "wrong": [
+        "🦊",
+        "🐘"
+      ],
+      "say": "De oude wijze schildpad kiest de Drakenkrijger.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de panda",
+      "emoji": "🐼",
+      "say": "Po is een grote panda.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de noedels",
+      "emoji": "🍜",
+      "say": "Po eet graag noedels.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de berg",
+      "emoji": "⛰️",
+      "say": "Meester Shifu woont op de berg.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de trap",
+      "emoji": "🪜",
+      "say": "Po klimt duizend trappen.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de schildpad",
+      "emoji": "🐢",
+      "say": "De schildpad is oud en wijs.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de tijger",
+      "emoji": "🐯",
+      "say": "De Tijgerin is snel.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}
