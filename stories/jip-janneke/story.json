@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "jip-janneke",
+  "version": 1,
+  "title": "Jip en Janneke bakken koekjes.",
+  "emoji": "🍪",
+  "text": "Dit is Jip. Jip woont in een huis met een tuin. Naast Jip woont Janneke. Tussen hun tuinen staat een heg. In de heg zit een gat. Door het gat kan Jip naar Janneke kruipen. En Janneke naar Jip. Jip heeft een hondje. Het hondje heet Takkie. Janneke heeft een poesje. Het poesje heet Siepie. Het regent vandaag. Tik, tik, tik op het raam. Jip en Janneke kunnen niet buiten spelen. Wat gaan we doen? vraagt Jip. Janneke denkt. Zullen we koekjes bakken? Ze vragen het aan mama. Mama zegt: Goed. Maar eerst handen wassen. Ze wassen hun handen. Ze doen een schortje aan. Janneke een rood schortje. Jip een blauw. Mama zet alles op tafel. Een grote kom. Bloem, boter, suiker en een ei. Jip mag de bloem in de kom doen. Een lepel, twee lepels, drie lepels. Een beetje bloem valt op de grond. Takkie likt eraan. Bah, zegt Takkie zijn gezicht. Iedereen lacht. Janneke mag het ei breken. Tik, tik. Het ei valt in de kom. Maar een stukje schaal ook. Mama vist het eruit. Ze kneden het deeg met hun handen. Het is zacht en plakkerig. Het zit tussen hun vingers. Mama rolt het deeg plat met een deegroller. Nu mogen Jip en Janneke vormpjes steken. Er is een hartje. Een sterretje. Een maantje. En een hondje. Jip steekt een hondje. Dit is Takkie, zegt hij. Janneke steekt een poesje. Dit is Siepie. De koekjes gaan in de oven. Nu moeten ze wachten. Jip kijkt door het glas. Ze worden bruin, zegt hij. Ze ruimen samen op. Ze vegen de bloem van de grond. Ze wassen de kom af. Het hele huis ruikt lekker. Dan gaat de bel van de oven. Ting! Mama haalt de koekjes eruit. Ze moeten eerst afkoelen. Ze zijn nog heel heet. Dan mogen ze proeven. Mmm. Lekker! Jip zegt: We geven er eentje aan papa. En eentje aan de buurvrouw. Janneke zegt: En eentje aan Takkie. En eentje aan Siepie. Maar het koekje van Takkie is niet voor honden. Takkie krijgt een hondenkoekje. Buiten stopt de regen. De zon komt. Er is een regenboog. Jip en Janneke rennen naar buiten met hun koekjes. Door het gat in de heg. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Hoe heet het hondje van Jip?",
+      "right": "🐕",
+      "wrong": [
+        "🐈",
+        "🐰"
+      ],
+      "say": "Het hondje van Jip heet Takkie.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat staat er tussen hun tuinen?",
+      "right": "🌳",
+      "wrong": [
+        "🧱",
+        "🚪"
+      ],
+      "say": "Er staat een heg tussen de tuinen.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Welk weer is het?",
+      "right": "🌧️",
+      "wrong": [
+        "☀️",
+        "❄️"
+      ],
+      "say": "Het regent.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Welke vorm steekt Janneke?",
+      "right": "🐈",
+      "wrong": [
+        "⭐",
+        "❤️"
+      ],
+      "say": "Janneke steekt een poesje.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de heg",
+      "emoji": "🌳",
+      "say": "In de heg zit een gat.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "het koekje",
+      "emoji": "🍪",
+      "say": "Jip en Janneke bakken koekjes.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "het ei",
+      "emoji": "🥚",
+      "say": "Janneke breekt het ei.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de kom",
+      "emoji": "🥣",
+      "say": "Alles gaat in de kom.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de oven",
+      "emoji": "♨️",
+      "say": "De koekjes gaan in de oven.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de regenboog",
+      "emoji": "🌈",
+      "say": "Na de regen komt de regenboog.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

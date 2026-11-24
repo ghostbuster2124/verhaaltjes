@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "kikker",
+  "version": 1,
+  "title": "Kikker en de vreemdeling.",
+  "emoji": "🐸",
+  "text": "Aan de rand van het bos, bij de rivier, woont Kikker. Kikker is groen. Hij draagt een gestreept zwembroekje. Kikker heeft veel vrienden. Eend, die altijd vrolijk is. Varkentje, die graag kookt. En Haas, die heel slim is. Haas leest boeken. Op een dag ziet Kikker rook in het bos. Er staat een tent. Bij de tent zit iemand. Het is een rat. De vrienden hebben nog nooit een rat gezien. Varkentje zegt: Ratten zijn vies. Ratten stelen. Eend zegt: Ratten zijn lui. Kikker weet het niet. Hij heeft nog nooit een rat ontmoet. Ze kijken van ver naar Rat. Rat maakt een bankje van hout. Hij timmert. Hij zingt erbij. De volgende dag gaat Kikker kijken. Rat zit bij zijn kampvuur. Hij maakt soep. Hallo, zegt Kikker verlegen. Hallo, zegt Rat. Wil je ook wat soep? Kikker gaat zitten. De soep is lekker. Rat vertelt verhalen. Over verre landen waar hij geweest is. Over bergen, zeeën en woestijnen. Kikker vindt het geweldig. Hij vertelt het aan de anderen. Maar de anderen willen niet luisteren. Een rat is een rat, zeggen ze. Op een dag valt Varkentje in de rivier. Ze kan niet zwemmen. Help! Help! Iedereen schrikt. Eend kan zwemmen, maar Varkentje is te zwaar. Kikker is te klein. Dan springt Rat in het water. Hij zwemt naar Varkentje. Hij trekt haar naar de kant. Varkentje is nat en koud. Ze rilt. Rat maakt een vuurtje en geeft haar een deken. Dank je wel, Rat, zegt Varkentje zachtjes. Het spijt me wat ik zei. Een paar dagen later is het huis van Haas lek. Het regent binnen. Rat komt helpen. Hij repareert het dak. Met hout en spijkers. Haas is blij. Hij leest Rat een verhaal voor. Nu zijn ze allemaal vrienden. Ze eten samen. Ze lachen samen. Rat vertelt elke avond een verhaal bij het kampvuur. Maar op een ochtend is de tent weg. Er ligt een briefje. Ik ga weer reizen. Ik zal jullie nooit vergeten. Jullie vriend, Rat. De vrienden zijn een beetje verdrietig. Ze gaan zitten op het bankje dat Rat gemaakt heeft. Kikker zegt: Hij was anders dan wij. Maar hij was een echte vriend. Ze knikken. En ze kijken naar de weg. Misschien komt Rat ooit terug. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welke kleur heeft Kikker?",
+      "right": "🟢",
+      "wrong": [
+        "🔴",
+        "🟡"
+      ],
+      "say": "Kikker is groen.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Welk dier woont in de tent?",
+      "right": "🐀",
+      "wrong": [
+        "🦊",
+        "🐻"
+      ],
+      "say": "Er woont een rat in de tent.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wie valt in de rivier?",
+      "right": "🐷",
+      "wrong": [
+        "🦆",
+        "🐇"
+      ],
+      "say": "Varkentje valt in de rivier.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat doet Haas graag?",
+      "right": "📚",
+      "wrong": [
+        "🎨",
+        "⚽"
+      ],
+      "say": "Haas leest graag boeken.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de kikker",
+      "emoji": "🐸",
+      "say": "Kikker woont bij de rivier.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de rat",
+      "emoji": "🐀",
+      "say": "Rat is een goede vriend.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de tent",
+      "emoji": "⛺",
+      "say": "Rat woont in een tent.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de soep",
+      "emoji": "🍲",
+      "say": "Rat maakt soep.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "het varken",
+      "emoji": "🐷",
+      "say": "Varkentje kookt graag.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de haas",
+      "emoji": "🐇",
+      "say": "Haas leest boeken.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

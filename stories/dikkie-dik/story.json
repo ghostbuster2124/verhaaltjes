@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "dikkie-dik",
+  "version": 1,
+  "title": "Dikkie Dik en de verdwenen bal.",
+  "emoji": "🐈",
+  "text": "Dit is Dikkie Dik. Dikkie Dik is een dikke rode kat. Hij heeft witte pootjes en een lange gestreepte staart. Dikkie Dik woont in een huis met een tuin. Bij een familie. Er is een papa, een mama en twee kinderen. Dikkie Dik houdt van slapen. Op de bank. Op de vensterbank. In een doos. In de wasmand. Overal waar het warm en zacht is. En Dikkie Dik houdt van eten. Brokjes. Visjes. En een schoteltje melk. Op een ochtend wordt Dikkie Dik wakker. Hij rekt zich uit. Eerst zijn voorpootjes. Dan zijn achterpootjes. Hij geeuwt. Miauw. Hij gaat naar zijn mandje. Daar ligt altijd zijn bal. Een klein rood balletje met een belletje erin. Rinkel, rinkel. Maar de bal is weg! Waar is mijn bal? Dikkie Dik gaat zoeken. Hij kijkt onder de bank. Daar ligt een sok. En een koekje. Maar geen bal. Hij kijkt in de keuken. Achter de prullenbak. Daar ligt een stukje kaas. Dikkie Dik eet het op. Mmm. Maar geen bal. Hij kijkt in de badkamer. In het bad. Daar ligt een badeendje. Piep! Dikkie Dik schrikt. Maar geen bal. Hij gaat naar de tuin. Hij snuffelt aan de bloemen. Hij kijkt onder de struik. Daar zit een merel. De merel vliegt weg. Maar geen bal. Dikkie Dik zit in het gras. Hij is verdrietig. Hij mist zijn bal. Dan hoort hij iets. Rinkel, rinkel. Het geluid komt van boven. Dikkie Dik kijkt omhoog. In de boom. Daar zit een eekhoorn. En de eekhoorn heeft het rode balletje vast! De eekhoorn dacht dat het een nootje was. Hij probeert erin te bijten. Rinkel! Het is helemaal geen nootje. Dikkie Dik klimt in de boom. Hij klimt hoger en hoger. Maar de boom is hoog. Dikkie Dik durft niet verder. De eekhoorn kijkt naar Dikkie Dik. Hij snapt het. Dit is de bal van de kat. De eekhoorn laat de bal vallen. Plof! Recht in het gras. Dikkie Dik klimt weer naar beneden. Voorzichtig, achteruit. Dan pakt hij zijn bal. Rinkel, rinkel! Hij brengt de bal naar binnen. Naar zijn mandje. Maar het was een drukke ochtend. Dikkie Dik is heel moe. Hij legt zijn kop op de bal. En hij valt in slaap. Snurk, snurk. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welke kleur heeft Dikkie Dik?",
+      "right": "🟠",
+      "wrong": [
+        "⚫",
+        "⚪"
+      ],
+      "say": "Dikkie Dik is een rode kat.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat zit er in de bal?",
+      "right": "🔔",
+      "wrong": [
+        "🍬",
+        "💧"
+      ],
+      "say": "Er zit een belletje in de bal.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wie heeft de bal?",
+      "right": "🐿️",
+      "wrong": [
+        "🐦",
+        "🐶"
+      ],
+      "say": "De eekhoorn heeft de bal.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat doet Dikkie Dik op het einde?",
+      "right": "😴",
+      "wrong": [
+        "🍽️",
+        "🏃"
+      ],
+      "say": "Dikkie Dik valt in slaap.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de kat",
+      "emoji": "🐈",
+      "say": "Dikkie Dik is een kat.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de bal",
+      "emoji": "⚽",
+      "say": "Dikkie Dik zoekt zijn bal.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "het belletje",
+      "emoji": "🔔",
+      "say": "In de bal zit een belletje.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de mand",
+      "emoji": "🧺",
+      "say": "Dikkie Dik slaapt in zijn mand.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de eekhoorn",
+      "emoji": "🐿️",
+      "say": "De eekhoorn zit in de boom.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de merel",
+      "emoji": "🐦‍⬛",
+      "say": "De merel vliegt weg.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}
