@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "incredibles",
+  "version": 1,
+  "title": "De Incredibles, een supergezin.",
+  "emoji": "🦸",
+  "text": "Dit is de familie Parr. Ze lijken een gewoon gezin. Een papa, een mama en drie kinderen. Maar ze hebben een geheim. Ze hebben allemaal superkrachten! Papa Bob is supersterk. Hij kan een auto optillen. Mama Helen is heel rekbaar. Ze kan haar armen heel lang maken. Zo lang als een tuinslang. Dochter Violet kan onzichtbaar worden. En ze kan een paars schild maken. Zoon Dash is supersnel. Hij kan over het water rennen. En de baby Jack-Jack? Niemand weet nog wat hij kan. Maar superhelden mogen hun krachten niet meer gebruiken. Dat is de regel. Dus doen ze alsof ze gewone mensen zijn. Papa vindt het moeilijk. Hij werkt op een kantoor. Zijn bureau is te klein. Hij mist het heldenwerk. Op een dag krijgt papa een geheim berichtje. Help ons. Er is een robot op een eiland. Alleen een held kan hem stoppen. Papa trekt stiekem zijn oude rode pak aan. Hij vliegt naar het eiland. Maar het is een val! Een boze man, Syndrome, vangt hem. Mama ontdekt het. Ze trekt ook haar pak aan. Ze gaat haar man redden. Violet en Dash verstoppen zich in het vliegtuig. Ze willen meehelpen. Op het eiland moeten ze allemaal hun krachten gebruiken. Dash rent zo snel dat hij over het water loopt. Violet maakt een schild om haar broertje te beschermen. Mama rekt zich uit als een parachute. Ze vinden papa. Hij zit vast in een machine. Mama bevrijdt hem. Ze knuffelen. Dan stuurt Syndrome zijn reuzenrobot naar de grote stad. De robot maakt alles kapot. De familie vliegt naar de stad. Ze werken samen. Papa tilt een auto op. Mama vangt de mensen. Dash rent rondjes. Violet maakt een schild. Ze laten de robot zijn eigen klauw tegen zichzelf gebruiken. De robot valt om. Boem! Syndrome wil de baby stelen. Hij vliegt weg met Jack-Jack. Maar dan ontdekt Jack-Jack zijn krachten! Hij verandert in vuur, in een klein monstertje, in metaal. Syndrome laat de baby los. Mama vangt Jack-Jack op. Hebbes! De familie staat samen in de stad. De mensen klappen. Hoera voor de Incredibles! Thuis eten ze samen pizza. Ze zijn een gewoon gezin. Maar ook een supergezin. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welke kracht heeft papa Bob?",
+      "right": "💪",
+      "wrong": [
+        "🏃",
+        "👻"
+      ],
+      "say": "Papa Bob is supersterk.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat kan Dash heel goed?",
+      "right": "🏃",
+      "wrong": [
+        "🧊",
+        "🎨"
+      ],
+      "say": "Dash is supersnel.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat kan Violet worden?",
+      "right": "👻",
+      "wrong": [
+        "🐉",
+        "🌳"
+      ],
+      "say": "Violet kan onzichtbaar worden.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat stuurt Syndrome naar de stad?",
+      "right": "🤖",
+      "wrong": [
+        "🐉",
+        "🌊"
+      ],
+      "say": "Syndrome stuurt een reuzenrobot.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de superheld",
+      "emoji": "🦸",
+      "say": "De familie bestaat uit superhelden.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "het eiland",
+      "emoji": "🏝️",
+      "say": "Papa vliegt naar het eiland.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de robot",
+      "emoji": "🤖",
+      "say": "De robot maakt alles kapot.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "het schild",
+      "emoji": "🛡️",
+      "say": "Violet maakt een schild.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de baby",
+      "emoji": "👶",
+      "say": "Jack-Jack is een baby.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de pizza",
+      "emoji": "🍕",
+      "say": "Ze eten samen pizza.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

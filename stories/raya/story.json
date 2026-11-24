@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "raya",
+  "version": 1,
+  "title": "Raya en de laatste draak.",
+  "emoji": "🐲",
+  "text": "Lang geleden was er een land vol water en kleur. Het heette Kumandra. Mensen en draken woonden er samen. De draken waren lief. Ze brachten water en regen. Ze hadden glinsterende kleuren. Ze konden over het water lopen. Maar op een dag kwamen er paarse wolkenmonsters. De Druun. Iedereen die ze aanraakten, werd een steen. De draken stopten hun magie in een glimmende parel. Een edelsteen. Daarmee verjoegen ze de monsters. Maar de draken zelf werden steen. Vele jaren later was het land in vijf stukken gebroken. Hart, Klauw, Rug, Staart en Tand. De mensen vertrouwden elkaar niet meer. In het land Hart woont een meisje. Ze heet Raya. Haar papa bewaakt de parel. Papa wil dat alle landen weer samen zijn. Hij nodigt iedereen uit voor een feest. Maar dan wil iemand de parel stelen. De parel breekt in vijf stukken! De monsters komen terug. Papa wordt steen. Raya is helemaal alleen. Raya gaat op zoek. Ze heeft een vriend. Tuk Tuk. Hij is een pissebed zo groot als een auto. Hij kan rollen als een bal. Raya zoekt de laatste draak. Ze vindt haar bij een rivier. Een blauwe draak met paars haar. Ze heet Sisu. Sisu is grappig en lief. Ze geeft iedereen een kans. Ze zegt: Als je wil dat iemand jou vertrouwt, moet je eerst die ander vertrouwen. Raya, Sisu en Tuk Tuk reizen naar alle landen. Ze vinden de stukjes van de parel. Onderweg krijgen ze nieuwe vrienden. Een jongen die kookt op een boot. Een baby die heel goed kan stelen, met drie aapjes. En een grote reus met een zacht hart. Maar Raya vertrouwt niemand. Ook niet het meisje Namaari, uit het land Tand. De monsters komen dichterbij. Ze maken iedereen tot steen. Ook Sisu. Raya moet kiezen. Ze geeft haar stukje parel aan Namaari. Ik vertrouw jou. En dan wordt ook Raya een steen. Alle vrienden doen hetzelfde. Ze leggen hun stukjes samen. Ze vertrouwen elkaar. Namaari zet de parel weer in elkaar. De parel begint te stralen. Een groot licht. De monsters verdwijnen. Het water komt terug. De regen valt. De stenen worden weer mensen. Papa ook. En ook Sisu en alle draken! Kumandra is weer één land. Mensen en draken samen. Raya knuffelt haar papa. Want samen zijn we sterker. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welke kleur heeft de draak Sisu?",
+      "right": "🔵",
+      "wrong": [
+        "🔴",
+        "🟢"
+      ],
+      "say": "Sisu is een blauwe draak.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat gebeurt er als de monsters iemand aanraken?",
+      "right": "🪨",
+      "wrong": [
+        "🔥",
+        "❄️"
+      ],
+      "say": "Wie de monsters aanraken, wordt een steen.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "In hoeveel stukken breekt de parel?",
+      "right": "5️⃣",
+      "wrong": [
+        "2️⃣",
+        "9️⃣"
+      ],
+      "say": "De parel breekt in vijf stukken.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat brengen de draken?",
+      "right": "🌧️",
+      "wrong": [
+        "🍕",
+        "🌵"
+      ],
+      "say": "De draken brengen water en regen.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de draak",
+      "emoji": "🐉",
+      "say": "Sisu is de laatste draak.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de parel",
+      "emoji": "💎",
+      "say": "De parel straalt.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de steen",
+      "emoji": "🪨",
+      "say": "Papa wordt een steen.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de rivier",
+      "emoji": "🏞️",
+      "say": "Sisu woont bij een rivier.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de regen",
+      "emoji": "🌧️",
+      "say": "De draken brengen regen.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de boot",
+      "emoji": "⛵",
+      "say": "De jongen kookt op een boot.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

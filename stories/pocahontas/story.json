@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "pocahontas",
+  "version": 1,
+  "title": "Pocahontas en de stem van de wind.",
+  "emoji": "🍃",
+  "text": "Lang geleden, in een groot groen land, woonde een volk bij een rivier. Ze leefden in de natuur. Ze jaagden, visten en plantten maïs. De dochter van het opperhoofd heette Pocahontas. Ze had lange zwarte haren die wapperden in de wind. Pocahontas was vrij en nieuwsgierig. Ze rende door het bos. Ze sprong van hoge rotsen in de rivier. Ze peddelde in haar kano. Ze had twee dierenvriendjes. Meeko de wasbeer. Hij at alles op wat hij vond. En Flit, een klein kolibrietje met een lange snavel. Pocahontas ging vaak naar een heel oude boom. Grootmoeder Wilg. De boom had een gezicht en kon praten. Ze gaf wijze raad. Luister naar de wind, zei Grootmoeder Wilg. De wind zal je de weg wijzen. Op een dag zag Pocahontas iets vreemds op de zee. Een groot schip met witte zeilen. Er stapten mannen uit, met helmen en zware kleren. Ze kwamen van heel ver over de zee. Ze waren op zoek naar goud. Een van die mannen was John. Hij had blond haar en blauwe ogen. Hij zag Pocahontas bij de waterval. Ze spraken niet dezelfde taal. Maar Grootmoeder Wilg zei: Luister met je hart. En toen begrepen ze elkaar. Pocahontas liet John het bos zien. Kijk, zei ze. Alles leeft. De bomen. De rivier. De wolken. Alle dieren zijn onze broers en zussen. John had nooit zo naar de natuur gekeken. Hij leerde er veel van. Maar de andere mannen wilden bomen omhakken en het land omgraven. En het volk van Pocahontas wilde dat de vreemdelingen weggingen. Beide groepen werden boos. Ze wilden vechten. Pocahontas rende naar Grootmoeder Wilg. Wat moet ik doen? Luister naar de wind, zei de boom. De wind waaide. Blaadjes dwarrelden rond Pocahontas. Ze rende naar de heuvel waar iedereen klaarstond om te vechten. Ze ging tussen de twee groepen staan. Stop! riep ze. Als jullie vechten, verliest iedereen. Kijk naar elkaar. We kunnen ook vrienden zijn. Het werd stil. Haar papa legde zijn wapen neer. Dan deed iedereen het. De mannen en het volk van Pocahontas aten samen maïs. Meeko at alle koekjes van de matrozen op. En de wind blies zachtjes door de blaadjes van de bomen. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welk dier is Meeko?",
+      "right": "🦝",
+      "wrong": [
+        "🐿️",
+        "🦊"
+      ],
+      "say": "Meeko is een wasbeer.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wie geeft Pocahontas wijze raad?",
+      "right": "🌳",
+      "wrong": [
+        "🦉",
+        "🐢"
+      ],
+      "say": "De oude boom Grootmoeder Wilg geeft raad.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Waarmee komen de mannen over de zee?",
+      "right": "⛵",
+      "wrong": [
+        "✈️",
+        "🚂"
+      ],
+      "say": "De mannen komen met een groot schip.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Waarnaar moet Pocahontas luisteren?",
+      "right": "🍃",
+      "wrong": [
+        "🎵",
+        "📞"
+      ],
+      "say": "Ze moet luisteren naar de wind.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de wasbeer",
+      "emoji": "🦝",
+      "say": "Meeko is een wasbeer.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de kano",
+      "emoji": "🛶",
+      "say": "Pocahontas peddelt in haar kano.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "het schip",
+      "emoji": "⛵",
+      "say": "Het schip heeft witte zeilen.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de maïs",
+      "emoji": "🌽",
+      "say": "Het volk plant maïs.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de wind",
+      "emoji": "🍃",
+      "say": "De wind blaast door de bladeren.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de kolibrie",
+      "emoji": "🐦",
+      "say": "Flit is een kolibrie.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}
