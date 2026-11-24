@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "baymax",
+  "version": 1,
+  "title": "Hiro en de grote witte robot Baymax.",
+  "emoji": "🤍",
+  "text": "In een stad met heel veel lichtjes woont een jongen. Hij heet Hiro. Hiro is veertien jaar en heel slim. Hij bouwt robots. Hiro woont bij zijn tante Cass. Ze heeft een café. En hij woont bij zijn grote broer Tadashi. Tadashi is ook een uitvinder. Hij heeft een robot gemaakt. Een grote, witte, zachte robot. Hij lijkt op een ballon. Hij heet Baymax. Baymax is een zorgrobot. Als iemand au zegt, komt Baymax helpen. Hallo, ik ben Baymax, jouw persoonlijke zorgrobot. Op een schaal van één tot tien, hoeveel pijn heb je? Baymax heeft pleisters, en een spray tegen pijn. Hij kan je temperatuur meten met zijn hand. Op een dag gebeurt er iets heel verdrietigs. Tadashi is er niet meer. Hiro is alleen. Hij zit op zijn kamer en wil niemand zien. Baymax komt naar Hiro. Hij ziet dat Hiro verdriet heeft. Hij begrijpt het niet goed. Maar hij weet dat knuffels helpen. Baymax spreidt zijn armen. Hij geeft Hiro een grote zachte knuffel. Hiro huilt. Maar het helpt een beetje. Dan ontdekken ze iets vreemds. Iemand gebruikt Hiro zijn uitvinding. Zijn kleine microbots. Een man met een masker wil de stad kapot maken. Hiro heeft een plan. Hij bouwt een harnas voor Baymax. Rood en sterk, met raketvuisten en vleugels. Nu kan Baymax vliegen! Hiro zit op de rug van Baymax. Ze vliegen over de stad. Tussen de wolkenkrabbers en boven de brug. Hiro juicht. Voor het eerst in lang is hij blij. De vrienden van Tadashi helpen ook. Ze maken samen een heldenteam. Er is een meisje dat snel is. Een jongen met lasers. Een meisje dat chemie gebruikt. En een grappige jongen in een monsterpak. Ze vinden de man met het masker. Samen werken ze slim. Ze stoppen de microbots. De stad is veilig. Maar dan zit er nog een meisje vast in een gevaarlijke portaal. Baymax en Hiro gaan haar redden. Baymax geeft zijn raketvuist aan Hiro. Daarmee kunnen Hiro en het meisje ontsnappen. Baymax blijft achter. Hiro is weer verdrietig. Maar in de raketvuist vindt hij het kaartje van Baymax. Met al zijn kennis. Hiro bouwt Baymax opnieuw! Hallo, zegt Baymax. Ik ben Baymax. Hiro knuffelt hem heel stevig. En Baymax knuffelt terug. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welke kleur heeft Baymax?",
+      "right": "⚪",
+      "wrong": [
+        "🔴",
+        "🟢"
+      ],
+      "say": "Baymax is een witte robot.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat geeft Baymax als iemand verdrietig is?",
+      "right": "🤗",
+      "wrong": [
+        "🍭",
+        "📺"
+      ],
+      "say": "Baymax geeft een grote zachte knuffel.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat bouwt Hiro voor Baymax om te vliegen?",
+      "right": "🦾",
+      "wrong": [
+        "🚲",
+        "⛵"
+      ],
+      "say": "Hiro bouwt een harnas met vleugels.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat heeft tante Cass?",
+      "right": "☕",
+      "wrong": [
+        "🚗",
+        "🐴"
+      ],
+      "say": "Tante Cass heeft een café.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de robot",
+      "emoji": "🤖",
+      "say": "Baymax is een robot.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de pleister",
+      "emoji": "🩹",
+      "say": "Baymax heeft pleisters.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de knuffel",
+      "emoji": "🤗",
+      "say": "Baymax geeft een knuffel.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de ballon",
+      "emoji": "🎈",
+      "say": "Baymax lijkt op een ballon.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "het masker",
+      "emoji": "🎭",
+      "say": "De man draagt een masker.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de brug",
+      "emoji": "🌉",
+      "say": "Ze vliegen boven de brug.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

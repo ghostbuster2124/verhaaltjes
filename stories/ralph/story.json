@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "ralph",
+  "version": 1,
+  "title": "Ralph en Vanellope in het spelletjesland.",
+  "emoji": "🎮",
+  "text": "In een grote speelhal staan heel veel spelletjeskasten. Overdag spelen de kinderen erop. Maar 's nachts, als de hal dicht is, komen de figuurtjes tot leven. In één spelletje woont Ralph. Ralph is groot, met reuzenhanden. In zijn spelletje moet hij een flatgebouw kapot maken. Boem, boem! Daarna komt Felix met zijn gouden hamer. Tink, tink. Felix maakt alles weer heel. Felix krijgt dan een medaille. En Ralph wordt van het dak gegooid. In de modder. Ralph is verdrietig. Iedereen vindt hem de slechterik. Niemand nodigt hem uit voor een feestje. Ik wil ook een medaille, zegt Ralph. Dan zien ze dat ik een held kan zijn. Ralph sluipt naar een ander spelletje. Daar kan hij een medaille winnen. Hij pakt de medaille! Maar hij komt per ongeluk in nog een ander spel terecht. Een spel vol snoep. Het heet Suikerrace. De bomen zijn van zuurstokken. De wegen zijn van chocolade. De bergen zijn van taart. Daar woont een klein meisje. Vanellope. Ze heeft snoepjes in haar haar. Ze is brutaal en grappig. Vanellope pakt de medaille van Ralph af. Ze wil er een raceauto mee kopen. Ze wil meedoen aan de grote race. Maar de andere kinderen in het spel lachen haar uit. Ze zeggen dat ze een foutje is. Want soms flikkert ze. Ze springt even een stukje opzij. Bzzzt. Ralph ziet dat Vanellope ook alleen is. Net zoals hij. Hij helpt haar een auto bouwen. Van koekjes en snoep en glazuur. Het wordt een rare auto. Maar Vanellope vindt hem prachtig. Ralph leert haar rijden op een berg van ijs. Ze valt vaak. Maar ze oefent. Op de dag van de race rijdt Vanellope mee. De andere auto's duwen haar. Maar dan gebruikt Vanellope haar foutje. Bzzzt! Ze springt door de andere auto's heen. Er komen boze beestjes in het spel. Ze willen alles opeten. Ralph doet iets heel dapper. Hij gooit de top van de snoepberg kapot. Er ontploft een frisdrankvulkaan. Het licht lokt de beestjes weg. Vanellope wint de race. En dan blijkt iets geweldigs. Vanellope is eigenlijk de prinses van het spel! Ralph gaat terug naar zijn eigen spelletje. Hij maakt weer dingen kapot. Maar nu vindt hij het niet erg. Want hij weet het nu. Een slechterik in een spel kan best een goede vriend zijn. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Wat doet Ralph in zijn spelletje?",
+      "right": "💥",
+      "wrong": [
+        "🍳",
+        "🎨"
+      ],
+      "say": "Ralph maakt een flatgebouw kapot.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Waarvan zijn de wegen in Suikerrace?",
+      "right": "🍫",
+      "wrong": [
+        "🧀",
+        "🥦"
+      ],
+      "say": "De wegen zijn van chocolade.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat wil Vanellope doen?",
+      "right": "🏎️",
+      "wrong": [
+        "🏊",
+        "🎤"
+      ],
+      "say": "Vanellope wil racen.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat is Vanellope op het einde?",
+      "right": "👸",
+      "wrong": [
+        "🧙",
+        "🧑‍🍳"
+      ],
+      "say": "Vanellope is de prinses van het spel.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "het spelletje",
+      "emoji": "🎮",
+      "say": "Ralph woont in een spelletje.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de hamer",
+      "emoji": "🔨",
+      "say": "Felix heeft een gouden hamer.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "het snoep",
+      "emoji": "🍭",
+      "say": "In Suikerrace is alles van snoep.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de medaille",
+      "emoji": "🏅",
+      "say": "Ralph wil een medaille.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de raceauto",
+      "emoji": "🏎️",
+      "say": "Vanellope rijdt in een raceauto.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de taart",
+      "emoji": "🎂",
+      "say": "De bergen zijn van taart.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

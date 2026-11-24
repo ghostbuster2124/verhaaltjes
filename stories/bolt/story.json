@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "bolt",
+  "version": 1,
+  "title": "Bolt, de hond die dacht dat hij een held was.",
+  "emoji": "🐶",
+  "text": "Dit is Bolt. Bolt is een wit hondje met een zwarte bliksem op zijn zij. Bolt woont bij een meisje. Ze heet Penny. Bolt houdt heel veel van Penny. Bolt denkt dat hij superkrachten heeft. Hij denkt dat hij laserogen heeft. Dat hij superhard kan blaffen. Zo hard dat auto's omvallen. Maar eigenlijk is Bolt een hondje in een televisieserie. Alles is nep. De ontploffingen zijn trucjes. Maar Bolt weet het niet. Niemand heeft het hem verteld. Op een dag denkt Bolt dat Penny ontvoerd is. Hij ontsnapt uit de studio. Hij valt in een doos. En de doos wordt met een vrachtwagen ver weg gebracht. Naar een andere stad, aan de andere kant van het land. Bolt wil terug naar Penny. Hij ontmoet een kat. Een straatkat met een zwarte vacht. Ze heet Mittens. Mittens weet alles over de stad. Bolt denkt dat Mittens een slechterik is. Hij bindt haar vast met een touw. Breng me naar Penny! Onderweg ontmoeten ze een hamster in een plastic bal. Hij heet Rhino. Rhino heeft Bolt op televisie gezien. Hij vindt Bolt de grootste held van de wereld! Bolt probeert zijn krachten. Hij blaft hard. Er gebeurt niets. Hij kijkt met zijn laserogen. Er gebeurt niets. Hij springt hoog. Au! Hij botst tegen een hek. Bolt is in de war. Waar zijn mijn krachten? Mittens legt het uit. Lieve Bolt. Je hebt nooit superkrachten gehad. Je bent een gewone hond. Bolt is verdrietig. Maar Mittens leert hem iets nieuws. Ze leert hem een echte hond zijn. Met je kop uit het autoraam hangen. Een stok halen. Spelen in het park. Bedelen om lekkers met lieve ogen. Bolt vindt het geweldig. Een gewone hond zijn is eigenlijk heel leuk. Eindelijk komen ze aan bij de studio. Maar er is brand! Penny zit vast in het gebouw. Overal is rook. Bolt rent naar binnen. Hij heeft geen superkrachten. Maar hij heeft wel een groot hart. Hij vindt Penny. Hij blaft zo hard hij kan door een luchtkoker. De brandweer hoort het. Ze redden Penny en Bolt. Penny knuffelt Bolt. Je bent mijn held. Penny stopt met de televisie. Ze verhuist naar een huis op het platteland. Met Bolt, Mittens en Rhino. Bolt rent door het gras. Hij is geen superhond meer. Hij is gewoon Bolt. En dat is meer dan genoeg. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Wat staat er op de zij van Bolt?",
+      "right": "⚡",
+      "wrong": [
+        "⭐",
+        "❤️"
+      ],
+      "say": "Bolt heeft een bliksem op zijn zij.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Welk dier is Mittens?",
+      "right": "🐈‍⬛",
+      "wrong": [
+        "🐇",
+        "🐦"
+      ],
+      "say": "Mittens is een zwarte kat.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Waarin zit de hamster Rhino?",
+      "right": "⚪",
+      "wrong": [
+        "📦",
+        "🧺"
+      ],
+      "say": "Rhino zit in een plastic bal.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat is er in de studio aan de hand?",
+      "right": "🔥",
+      "wrong": [
+        "🌊",
+        "❄️"
+      ],
+      "say": "Er is brand in de studio.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de hond",
+      "emoji": "🐕",
+      "say": "Bolt is een witte hond.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de kat",
+      "emoji": "🐈‍⬛",
+      "say": "Mittens is een slimme kat.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de hamster",
+      "emoji": "🐹",
+      "say": "Rhino is een hamster.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de televisie",
+      "emoji": "📺",
+      "say": "Bolt speelt in een televisieserie.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de rook",
+      "emoji": "💨",
+      "say": "Er is overal rook.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de stok",
+      "emoji": "🪵",
+      "say": "Bolt haalt een stok.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}
