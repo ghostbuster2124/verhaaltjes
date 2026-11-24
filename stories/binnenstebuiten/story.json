@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "binnenstebuiten",
+  "version": 1,
+  "title": "Binnenstebuiten. Plezier en Verdriet.",
+  "emoji": "😊",
+  "text": "Dit is Riley. Riley is een meisje van elf jaar. Ze houdt van ijshockey, van grapjes maken met haar papa en van haar beste vriendin. Maar weet je wat er in het hoofd van Riley gebeurt? Daar wonen vijf kleine gevoelens! Ze wonen in een grote kamer met een bedieningspaneel, vol knopjes en lichtjes. Van daaruit helpen ze Riley elke dag. Plezier is geel en straalt als een zonnetje. Ze lacht altijd en ze springt rond. Zij is de baas. Verdriet is blauw en klein, met een grote bril. Ze is altijd een beetje sloom en ze wil liefst op de grond liggen. Boosheid is rood en vierkant. Als hij boos wordt, komen er vlammen uit zijn hoofd. Angst is paars en mager. Hij schrikt van alles. Pas op! Gevaar! En Afkeer is groen. Zij vindt veel dingen vies. Bah, broccoli! Elke keer als Riley iets meemaakt, maakt het paneel een herinnering. Een klein glazen bolletje. Blije herinneringen zijn geel. Droevige zijn blauw. Boze zijn rood. Alle bolletjes worden opgeslagen in grote rekken. En de allerbelangrijkste herinneringen staan in het midden. Die maken Riley tot wie ze is. Op een dag verhuist Riley met haar mama en papa. Naar een nieuwe stad, ver weg. Het nieuwe huis is klein en donker. Haar kamer is kaal. Er zit een dode muis in de hoek. De verhuiswagen is kwijt. En op haar nieuwe school kent ze niemand. In het hoofd van Riley doet Plezier haar best. Kom op, Riley! We maken er iets leuks van! Maar Verdriet wil steeds de herinneringen aanraken. En als ze dat doet, worden ze blauw. Niet doen, Verdriet! roept Plezier. Op de eerste schooldag moet Riley zich voorstellen aan de klas. Ze vertelt over haar oude huis. En dan raakt Verdriet een herinnering aan. Riley begint te huilen. Voor de hele klas. Plezier en Verdriet maken ruzie. Ze trekken aan de belangrijke herinneringen. En plop! Ze worden allebei weggezogen. Weg uit de kamer, ver weg in het hoofd van Riley. Nu zijn alleen Boosheid, Angst en Afkeer nog bij het paneel. En die weten niet goed wat ze moeten doen. Riley wordt boos op haar ouders. Ze wil niet meer ijshockeyen. Ze is niet meer zichzelf. Plezier en Verdriet moeten terug. Ze wandelen door het hoofd van Riley. Door een land vol rekken met herinneringen. Door een pretpark van fantasie. Ze ontmoeten Bing Bong. Hij is de denkbeeldige vriend van Riley, van toen ze klein was. Hij is roze, half olifant, half kat, half dolfijn, en hij huilt snoepjes. Bing Bong helpt hen. Onderweg gebeurt er iets. Bing Bong wordt verdrietig, omdat Riley hem vergeten is. Plezier probeert hem op te vrolijken. Kom op, Bing Bong! Lach eens! Maar het lukt niet. Dan gaat Verdriet naast hem zitten. Ze zegt niets. Ze luistert alleen. Dat is heel jammer, zegt ze zacht. Je mist haar. Bing Bong huilt een beetje. En dan voelt hij zich beter. Plezier kijkt verbaasd. Verdriet kon iets wat zij niet kon. Plezier bekijkt een oude herinnering. Riley heeft een belangrijke wedstrijd verloren. Ze was heel verdrietig. Maar toen kwamen haar mama en papa. Ze troostten haar. En haar vrienden kwamen. En toen werd Riley weer blij. Plezier begrijpt het nu. Als Riley verdrietig is, komen de mensen die van haar houden haar helpen. Verdriet is ook belangrijk! Plezier en Verdriet komen eindelijk terug in de kamer. Plezier geeft het paneel aan Verdriet. Jij moet het doen, zegt ze. Verdriet raakt de herinneringen aan. Ze worden blauw. En Riley gaat naar haar mama en papa. Ze begint te huilen. Ik mis ons oude huis, zegt ze. Ik mis mijn vrienden. Mama en papa nemen haar in hun armen. Wij missen het ook, zeggen ze. Ze huilen samen. En ze lachen samen. En dan gebeurt er iets moois. Er komt een nieuwe herinnering. Ze is geel en blauw tegelijk. Blij en verdrietig samen. In het hoofd van Riley werken de vijf gevoelens nu samen. En weet je wat? Dat doen de gevoelens in jouw hoofd ook. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welke kleur heeft Plezier?",
+      "right": "🟡",
+      "wrong": [
+        "🔵",
+        "🔴"
+      ],
+      "say": "Plezier is geel."
+    },
+    {
+      "question": "Welke kleur heeft Verdriet?",
+      "right": "🔵",
+      "wrong": [
+        "🟢",
+        "🟣"
+      ],
+      "say": "Verdriet is blauw."
+    },
+    {
+      "question": "Wat komt er uit het hoofd van Boosheid?",
+      "right": "🔥",
+      "wrong": [
+        "💧",
+        "⭐"
+      ],
+      "say": "Uit het hoofd van Boosheid komen vlammen."
+    },
+    {
+      "question": "Welke sport doet Riley graag?",
+      "right": "🏒",
+      "wrong": [
+        "⚽",
+        "🏊"
+      ],
+      "say": "Riley houdt van ijshockey."
+    },
+    {
+      "question": "Wat huilt Bing Bong?",
+      "right": "🍬",
+      "wrong": [
+        "💧",
+        "🌸"
+      ],
+      "say": "Bing Bong huilt snoepjes."
+    }
+  ],
+  "words": [
+    {
+      "word": "plezier",
+      "emoji": "😊",
+      "say": "Plezier is geel en vrolijk."
+    },
+    {
+      "word": "verdriet",
+      "emoji": "😢",
+      "say": "Verdriet is blauw en klein."
+    },
+    {
+      "word": "boosheid",
+      "emoji": "😡",
+      "say": "Boosheid is rood en vierkant."
+    },
+    {
+      "word": "angst",
+      "emoji": "😨",
+      "say": "Angst schrikt van alles."
+    },
+    {
+      "word": "broccoli",
+      "emoji": "🥦",
+      "say": "Afkeer vindt broccoli vies."
+    },
+    {
+      "word": "ijshockey",
+      "emoji": "🏒",
+      "say": "Riley houdt van ijshockey."
+    }
+  ]
+}

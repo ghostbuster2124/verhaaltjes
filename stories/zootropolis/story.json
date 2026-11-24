@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "zootropolis",
+  "version": 1,
+  "title": "Zootropolis. Judy het konijn.",
+  "emoji": "🐰",
+  "text": "Op een kleine boerderij, waar wortels groeien, woont een konijntje. Ze heet Judy Hopps. Judy heeft lange grijze oren en grote paarse ogen. Ze heeft heel veel broertjes en zusjes. Wel tweehonderdvijfenzeventig! Alle konijnen in haar familie worden wortelboer. Maar Judy niet. Judy wil politieagent worden. In de grote stad Zootropolis. Haar mama en papa zijn ongerust. Judy, zeggen ze, er is nog nooit een konijn politieagent geweest. Konijnen zijn te klein. Maar Judy zegt: Dan word ik de eerste! Zootropolis is een gekke stad. Alle dieren wonen er samen. Grote dieren en kleine dieren. Olifanten en muizen. Leeuwen en schapen. Er is een stukje met sneeuw en ijs voor de ijsberen. Er is een stukje met hete zon voor de kamelen. Er is een stukje met regen en jungle. En er is een piepklein stadje voor de muizen. Judy gaat naar de politieschool. Het is heel zwaar. De andere agenten zijn groot. Neushoorns, olifanten, tijgers. Judy valt in de modder. Ze glijdt uit op het ijs. Maar ze geeft niet op. Ze oefent en oefent. En op het einde is zij de beste van de hele klas! Judy wordt politieagent. Ze krijgt een blauw uniform en een badge. Ze is zo trots. Maar op haar eerste dag krijgt ze een saaie taak. Ze moet parkeerboetes schrijven. De baas, een grote buffel, denkt dat een konijn niets anders kan. Judy schrijft tweehonderd boetes voor de middag. Maar ze wil een echte zaak. Dan komt er een mevrouw otter bij de politie. Mijn man is verdwenen, huilt ze. Hij heet meneer Otterton. Niemand zoekt hem. Judy zegt: Ik zal hem vinden! De baas is boos. Goed, zegt hij. Je krijgt twee dagen. Als je hem niet vindt, dan moet je weg. Judy heeft hulp nodig. Ze vraagt het aan een vos. Hij heet Nick. Nick is een slimme vos, maar ook een beetje een sluwerik. Hij verdient geld met stiekeme trucjes. Hij wil eerst niet helpen. Maar Judy is slim. Ze zegt: Als je niet helpt, dan schrijf ik jou een boete! Nick zucht. Oké, oké. Ik help je. Samen zoeken ze. Ze gaan naar een kantoor waar alleen luiaards werken. Luiaards zijn heel, heel traag. De luiaard die hen helpt, heet Flash. Hij doet er tien minuten over om een grapje te vertellen. Judy wordt bijna gek van ongeduld. Nick lacht zich een breuk. Ze volgen spoor na spoor. Door de sneeuw, door de jungle, door de muizenstad. Ze worden vrienden. Judy leert dat Nick niet zo slecht is als iedereen denkt. Als kleine vos werd hij altijd gepest. Iedereen zei dat vossen niet te vertrouwen zijn. Toen is hij maar sluw geworden. Maar diep vanbinnen is Nick lief. En Nick leert dat Judy dapper is, en slim, ook al is ze klein. Ze vinden meneer Otterton! En ze vinden nog veel meer verdwenen dieren. Ze waren betoverd met een rare blauwe bloem. Die bloem maakte hen wild. Iemand wilde de dieren bang maken voor elkaar. Zodat ze geen vrienden meer zouden zijn. Judy en Nick ontdekken wie het is. Het is het kleine, lieve schaap uit het stadhuis. Ze heet Bellwether. Niemand had haar verdacht! Judy en Nick zetten een slimme val. En ze vangen Bellwether. Alle dieren worden weer gewoon. Zootropolis is gered. Iedereen applaudisseert voor Judy. Het kleine konijn is een echte heldin. En Nick? Nick gaat ook naar de politieschool. En hij wordt de eerste vos van de politie. Samen met Judy. Want in Zootropolis kan iedereen alles worden. Groot of klein, konijn of vos. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welk dier is Judy?",
+      "right": "🐰",
+      "wrong": [
+        "🐭",
+        "🐱"
+      ],
+      "say": "Judy is een konijn."
+    },
+    {
+      "question": "Wat wil Judy worden?",
+      "right": "👮",
+      "wrong": [
+        "👩‍🌾",
+        "👩‍🍳"
+      ],
+      "say": "Judy wil politieagent worden."
+    },
+    {
+      "question": "Welk dier helpt Judy?",
+      "right": "🦊",
+      "wrong": [
+        "🐺",
+        "🦁"
+      ],
+      "say": "De vos Nick helpt Judy."
+    },
+    {
+      "question": "Welke dieren zijn heel traag?",
+      "right": "🦥",
+      "wrong": [
+        "🐆",
+        "🐇"
+      ],
+      "say": "De luiaards zijn heel traag."
+    },
+    {
+      "question": "Wat maakte de dieren wild?",
+      "right": "🌸",
+      "wrong": [
+        "🍔",
+        "🌧️"
+      ],
+      "say": "Een rare blauwe bloem maakte de dieren wild."
+    }
+  ],
+  "words": [
+    {
+      "word": "het konijn",
+      "emoji": "🐰",
+      "say": "Judy is een klein konijn."
+    },
+    {
+      "word": "de wortels",
+      "emoji": "🥕",
+      "say": "Op de boerderij groeien wortels."
+    },
+    {
+      "word": "de vos",
+      "emoji": "🦊",
+      "say": "De vos heet Nick."
+    },
+    {
+      "word": "de luiaard",
+      "emoji": "🦥",
+      "say": "De luiaard is heel traag."
+    },
+    {
+      "word": "de otter",
+      "emoji": "🦦",
+      "say": "De otter is verdwenen."
+    },
+    {
+      "word": "het schaap",
+      "emoji": "🐑",
+      "say": "Het schaap was de stoute."
+    }
+  ]
+}

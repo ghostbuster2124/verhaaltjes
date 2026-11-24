@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "naar-de-maan",
+  "version": 1,
+  "title": "Fei Fei vliegt naar de maan.",
+  "emoji": "🌕",
+  "text": "In een klein dorpje in China, tussen de rivieren en de rijstvelden, woont een meisje. Ze heet Fei Fei. Ze is slim en ze houdt van wetenschap. Ze maakt proefjes en ze bouwt dingen. Haar familie heeft een bakkerij. Ze bakken maancakes. Dat zijn kleine, ronde koekjes, met een zoete vulling. Je eet ze met het Maanfeest, als de maan helemaal rond is. Toen Fei Fei klein was, vertelde haar mama haar elke avond een verhaal. Het verhaal van Chang'e, de godin van de maan. Lang geleden, vertelde mama, waren Chang'e en Houyi heel verliefd. Maar Chang'e dronk een toverdrank en ze zweefde naar de maan. Houyi bleef achter op de aarde. Chang'e woont nu op de maan, met haar konijn. Ze wacht nog altijd op haar liefste. Fei Fei hield van dat verhaal. Maar haar mama werd ziek. En op een dag was ze er niet meer. Fei Fei mist haar mama heel erg. Nu, een paar jaar later, heeft papa een nieuwe vriendin. Ze heet mevrouw Zhong. Ze heeft een zoontje, Chin. Chin is heel druk. Hij springt rond als een kikker en speelt met zijn konijn. Fei Fei wil geen nieuwe mama. Ze wil haar eigen mama. Op het Maanfeest zegt Fei Fei: Ik ga naar de maan! Ik ga bewijzen dat Chang'e echt bestaat. Iedereen lacht. Maar Fei Fei is slim. Ze bouwt een raket. Ze rekent en ze tekent. Ze gebruikt een fiets, magneten en heel veel vuurwerk. En op een nacht, als de maan rond is, stijgt ze op. Woesj! Met haar konijn Bungee aan haar zijde. Maar ze is niet alleen. Chin zit stiekem achterin de raket! Fei Fei is boos. Maar het is te laat. Ze vliegen al. Hoger en hoger. De raket schudt. Maar dan grijpt er iets de raket vast. Twee grote, gouden leeuwen trekken hen omhoog, naar de maan. De maan is niet grijs en stil. Ze is vol kleuren en lichtjes. Er zijn huizen van licht, gloeiende wezens en wolken als suikerspinnen. Het is een magische stad. Lunaria! En daar is ze. Chang'e, de godin van de maan. Ze is prachtig. Ze heeft lang zwart haar en ze zingt als een popster. Fei Fei kan het niet geloven. Ze bestaat echt! Maar Chang'e is verdrietig. Ze wacht al zo lang op haar liefste Houyi. Ze wil een geschenk terug, een gloeiend stukje van haar toverkristal. Wie het vindt, krijgt wat hij wenst. Fei Fei gaat op zoek. Samen met Chin, die toch niet zo vervelend is als ze dacht. En met een grappig, groen wezentje dat Gobi heet. Ze vinden het geschenk. Maar Fei Fei begrijpt iets. Chang'e wacht al zo lang op iemand die nooit meer terugkomt. Ze is blijven stilstaan. Ze durft niet verder te gaan. En dat doet Fei Fei ook. Ze wil niet dat er iets verandert. Omdat ze haar mama zo mist. Chang'e en Fei Fei praten. Ze huilen samen. En Chang'e zegt iets wat Fei Fei nooit zal vergeten. Je mama is niet weg. Ze leeft in jouw hart. En je hart is groot genoeg om ook van nieuwe mensen te houden. Fei Fei kijkt naar Chin. Chin kijkt naar haar, met zijn grappige ogen. Hij is eigenlijk best lief. Fei Fei glimlacht. Ze vliegen terug naar de aarde. Papa en mevrouw Zhong wachten op hen. Ze zijn zo ongerust geweest. Fei Fei omhelst papa. En dan omhelst ze mevrouw Zhong. Die avond eten ze samen maancakes. Met de hele familie. Ook met Chin. Fei Fei kijkt naar de ronde maan. Ze zwaait. Dag Chang'e, fluistert ze. Dag mama. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat bakt de familie van Fei Fei?",
+      "right": "🥮",
+      "wrong": [
+        "🍕",
+        "🥐"
+      ],
+      "say": "Ze bakken maancakes."
+    },
+    {
+      "question": "Welk dier woont bij de godin op de maan?",
+      "right": "🐰",
+      "wrong": [
+        "🐈",
+        "🐉"
+      ],
+      "say": "De godin woont op de maan met haar konijn."
+    },
+    {
+      "question": "Wat bouwt Fei Fei?",
+      "right": "🚀",
+      "wrong": [
+        "🏠",
+        "🚂"
+      ],
+      "say": "Fei Fei bouwt een raket."
+    },
+    {
+      "question": "Wie zit stiekem in de raket?",
+      "right": "👦",
+      "wrong": [
+        "👴",
+        "👩"
+      ],
+      "say": "Chin zit stiekem in de raket."
+    },
+    {
+      "question": "Hoe ziet de maan er vanbinnen uit?",
+      "right": "🌈",
+      "wrong": [
+        "⚫",
+        "🧊"
+      ],
+      "say": "De maan is vol kleuren en lichtjes."
+    }
+  ],
+  "words": [
+    {
+      "word": "de maan",
+      "emoji": "🌕",
+      "say": "Fei Fei vliegt naar de maan."
+    },
+    {
+      "word": "de maancakes",
+      "emoji": "🥮",
+      "say": "Met het Maanfeest eet je maancakes."
+    },
+    {
+      "word": "de raket",
+      "emoji": "🚀",
+      "say": "Fei Fei bouwt een raket."
+    },
+    {
+      "word": "het konijn",
+      "emoji": "🐰",
+      "say": "Fei Fei heeft een konijn."
+    },
+    {
+      "word": "de leeuwen",
+      "emoji": "🦁",
+      "say": "Twee gouden leeuwen trekken de raket."
+    },
+    {
+      "word": "het vuurwerk",
+      "emoji": "🎆",
+      "say": "De raket vliegt op vuurwerk."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "rama-eekhoorn",
+  "version": 1,
+  "title": "Rama en het kleine eekhoorntje.",
+  "emoji": "🐿️",
+  "text": "Dit is een verhaal uit India, uit het grote verhaal van de Ramayana. Lang geleden leefde er een prins die Rama heette. Rama was goed en dapper. Hij had een lieve vrouw, prinses Sita. Maar Sita was ontvoerd door Ravana, een boze reus met tien hoofden. Ravana had haar meegenomen naar zijn eiland Lanka, aan de andere kant van de zee. Rama wilde Sita redden. Hij had een groot leger. Geen leger van soldaten, maar een leger van apen en beren! De sterke aap Hanuman was zijn beste helper. Maar er was een groot probleem. Tussen het land en het eiland Lanka lag de zee. Een brede, diepe zee met grote golven. Hoe moesten ze daar overkomen? Apen kunnen niet zwemmen tot zo ver. En beren ook niet. We bouwen een brug! zei een slimme aap. Een brug van stenen, over de hele zee! Alle apen en beren begonnen te werken. Ze droegen grote rotsen naar de zee. De sterkste apen tilden de zwaarste stenen. Hanuman droeg zelfs een hele berg! Ze schreven de naam van Rama op elke steen. En wonder boven wonder, de stenen bleven drijven op het water. Plons, plons, plons. Steen na steen, de brug groeide. Op het strand woonde een klein eekhoorntje. Het had een bruine vacht, een pluimstaart en grote zwarte oogjes. Het eekhoorntje keek naar al die grote, sterke apen. Ik wil ook helpen, dacht het eekhoorntje. Maar wat kan ik doen? Ik ben zo klein. Ik kan geen steen optillen. Het eekhoorntje dacht na. Toen kreeg het een idee. Het rende naar de zee. Het dook in het water, plons. Toen rende het naar het strand en rolde in het zand. Het zand bleef plakken aan zijn natte vacht. Het rende naar de brug. Het schudde zich uit. Brrrr. En het zand viel tussen de stenen. Dan rende het weer naar de zee. Plons. Rollen in het zand. Rennen naar de brug. Schudden. Brrrr. Steeds opnieuw. De hele dag lang. Zo vulde het eekhoorntje de kleine gaatjes tussen de grote stenen. Dan kon niemand erover struikelen. Een grote aap zag het eekhoorntje. Hij begon te lachen. Hahaha! Wat doe jij nu, kleintje? Jij helpt toch niet met een beetje zand! Ga opzij, je loopt in de weg! Andere apen lachten ook. Een aap duwde het eekhoorntje opzij. Het eekhoorntje viel op de grond. Het was verdrietig. Er kwamen tranen in zijn kleine oogjes. Maar Rama had alles gezien. Hij liep naar het eekhoorntje. Hij knielde neer en nam het voorzichtig in zijn hand. Hij aaide het zachtjes over zijn rug. Toen keek Rama naar de apen. Lach niet om dit eekhoorntje, zei hij. Het helpt net zoveel als jullie. Jullie dragen grote stenen, omdat jullie groot zijn. Het eekhoorntje draagt zandkorreltjes, omdat het klein is. Maar het doet het met zijn hele hart. En zonder dat zand zouden er gaten zijn in onze brug. Iedereen helpt zoveel als hij kan. En dat is wat telt. De apen schaamden zich. Sorry, eekhoorntje, zeiden ze. Toen gebeurde er iets bijzonders. Waar Rama met zijn vingers over de rug van het eekhoorntje had geaaid, kwamen drie witte strepen. Drie mooie, witte strepen, op de bruine vacht. Die strepen zijn een geschenk, zei Rama. Zodat iedereen weet hoe dapper jij bent. De brug werd af. Rama en zijn leger liepen over de zee naar Lanka. Ze versloegen Ravana en ze redden Sita. En weet je wat? Als je ooit in India bent, kijk dan eens goed naar de eekhoorntjes. Ze hebben nog altijd drie witte strepen op hun rug. Van de vingers van Rama. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wie heeft Sita meegenomen?",
+      "right": "👹",
+      "wrong": [
+        "🐒",
+        "🐻"
+      ],
+      "say": "De boze reus Ravana heeft Sita meegenomen."
+    },
+    {
+      "question": "Wat bouwen de apen over de zee?",
+      "right": "🌉",
+      "wrong": [
+        "⛵",
+        "🏰"
+      ],
+      "say": "De apen bouwen een brug."
+    },
+    {
+      "question": "Wat draagt het eekhoorntje naar de brug?",
+      "right": "🏖️",
+      "wrong": [
+        "🪨",
+        "🪵"
+      ],
+      "say": "Het eekhoorntje draagt zand."
+    },
+    {
+      "question": "Wat doen de apen eerst met het eekhoorntje?",
+      "right": "😂",
+      "wrong": [
+        "🤗",
+        "🎁"
+      ],
+      "say": "De apen lachen het eekhoorntje uit."
+    },
+    {
+      "question": "Hoeveel witte strepen krijgt het eekhoorntje?",
+      "right": "3️⃣",
+      "wrong": [
+        "1️⃣",
+        "5️⃣"
+      ],
+      "say": "Het eekhoorntje krijgt drie witte strepen."
+    }
+  ],
+  "words": [
+    {
+      "word": "het eekhoorntje",
+      "emoji": "🐿️",
+      "say": "Het eekhoorntje is klein maar dapper."
+    },
+    {
+      "word": "de brug",
+      "emoji": "🌉",
+      "say": "De apen bouwen een brug."
+    },
+    {
+      "word": "de stenen",
+      "emoji": "🪨",
+      "say": "De stenen drijven op het water."
+    },
+    {
+      "word": "het zand",
+      "emoji": "🏖️",
+      "say": "Het eekhoorntje rolt in het zand."
+    },
+    {
+      "word": "de apen",
+      "emoji": "🐒",
+      "say": "De apen dragen grote stenen."
+    },
+    {
+      "word": "het eiland",
+      "emoji": "🏝️",
+      "say": "Sita is op het eiland Lanka."
+    }
+  ]
+}

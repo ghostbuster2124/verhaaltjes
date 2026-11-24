@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "smurfen",
+  "version": 1,
+  "title": "De Smurfen en het grote feest.",
+  "emoji": "💙",
+  "text": "Diep in een groot bos, ver weg van de mensen, ligt een klein dorpje. De huisjes zijn paddenstoelen. Grote rode en witte paddenstoelen, met deurtjes en raampjes. Daar wonen de Smurfen. De Smurfen zijn piepklein. Ze zijn zo groot als drie appels op elkaar. En ze zijn blauw. Helemaal blauw! Ze dragen een witte broek en een witte muts. En ze praten een beetje grappig. Ze zeggen smurfen in plaats van heel veel andere woorden. Goedesmurf! Wat een smurfige dag! De baas van het dorp is Grote Smurf. Hij is oud en wijs. Hij heeft een witte baard en hij draagt een rode muts en een rode broek. Er zijn heel veel Smurfen. Knutselsmurf kan alles bouwen. Bolle Gijs is altijd vrolijk en maakt grapjes. Brilsmurf weet alles beter. Smulsmurf houdt van eten. Muzieksmurf speelt op zijn trompet, maar heel vals. En Smurfin, met haar lange gele haren. Zij is lief en dapper. Op een ochtend roept Grote Smurf alle Smurfen bij elkaar. Smurfen, zegt hij, over drie dagen is het het grote Smurfenfeest. Het feest van de lente. We moeten alles klaarmaken. Iedereen juicht. Joepie! Een feest! Iedereen krijgt een taak. Knutselsmurf bouwt een groot podium. Bakkerssmurf bakt een reuzegrote taart van smurfbessen. Smurfbessen zijn klein, rood en heel zoet. Muzieksmurf oefent op zijn trompet. Toeteroet! Oei, dat klinkt nog niet zo goed. En Smurfin maakt bloemenkransen voor iedereen. Maar er is iemand die niet blij is met het feest. Ver weg, in een donker kasteel, woont Gargamel. Gargamel is een tovenaar. Hij is gemeen en een beetje dom. Hij heeft een kat die Azraël heet. Gargamel wil de Smurfen vangen. Want hij wil een toverdrank maken. Ha! roept Gargamel. Een feest! Dan zijn alle Smurfen bij elkaar. Dan vang ik ze allemaal tegelijk! Hij sluipt door het bos. Azraël sluipt achter hem aan. Ze verstoppen zich achter een struik, vlak bij het dorp. Maar Smurfin is bloemen aan het plukken in het bos. Ze ziet een grote neus achter de struik. En een kattenstaart. Gargamel! fluistert ze. Ze rent zo snel als ze kan terug naar het dorp. Grote Smurf! Gargamel is in het bos! Hij wil ons vangen tijdens het feest! Grote Smurf denkt na. Hij streelt zijn baard. Dan krijgt hij een idee. Een smurfig idee. Knutselsmurf, zegt hij. Kan jij een grote smurf maken van hout en stof? Een heel grote? Knutselsmurf knikt. Hij bouwt de hele nacht. Tok, tok, tok. De volgende avond is het feest. Er branden lampjes. De taart staat klaar. Gargamel kijkt van achter zijn struik. Daar ziet hij iets heel vreemds. Een reusachtige smurf! Zo groot als een boom! Hij beweegt met zijn armen. En hij zegt met een zware stem: Wie durft mijn kleine smurfjes te pesten? Het zijn natuurlijk alle Smurfen samen, binnenin. Ze trekken aan touwtjes. En Muzieksmurf blaast door een lange buis, met een heel diepe stem. Gargamel wordt wit van schrik. Azraël zet zijn haren recht overeind. Een reuzensmurf! roept Gargamel. Wegwezen! Hij rent het bos in, zo snel als hij kan. Azraël rent achter hem aan. Ze struikelen en rollen in een modderplas. Alle Smurfen komen uit de reuzensmurf geklommen. Ze lachen zo hard. Goed gedaan, Smurfin! zegt Grote Smurf. Jij hebt ons gered. En nu het feest kan beginnen. Ze dansen rond het podium. Ze eten de taart van smurfbessen. En Muzieksmurf speelt op zijn trompet. Nog altijd vals. Maar vanavond vindt niemand dat erg. Wat een smurfig feest! Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welke kleur hebben de Smurfen?",
+      "right": "🔵",
+      "wrong": [
+        "🟢",
+        "🟡"
+      ],
+      "say": "De Smurfen zijn blauw."
+    },
+    {
+      "question": "Waarin wonen de Smurfen?",
+      "right": "🍄",
+      "wrong": [
+        "🌳",
+        "🪨"
+      ],
+      "say": "De Smurfen wonen in paddenstoelen."
+    },
+    {
+      "question": "Welk dier heeft Gargamel?",
+      "right": "🐈",
+      "wrong": [
+        "🐕",
+        "🦉"
+      ],
+      "say": "Gargamel heeft een kat."
+    },
+    {
+      "question": "Wie ziet Gargamel in het bos?",
+      "right": "👱‍♀️",
+      "wrong": [
+        "🧔",
+        "👴"
+      ],
+      "say": "Smurfin ziet Gargamel."
+    },
+    {
+      "question": "Wat maakt Knutselsmurf?",
+      "right": "🗿",
+      "wrong": [
+        "🚀",
+        "🏰"
+      ],
+      "say": "Knutselsmurf maakt een reuzensmurf."
+    }
+  ],
+  "words": [
+    {
+      "word": "de paddenstoelen",
+      "emoji": "🍄",
+      "say": "De huisjes zijn paddenstoelen."
+    },
+    {
+      "word": "de appels",
+      "emoji": "🍎",
+      "say": "Een smurf is zo groot als drie appels."
+    },
+    {
+      "word": "de trompet",
+      "emoji": "🎺",
+      "say": "Muzieksmurf speelt op zijn trompet."
+    },
+    {
+      "word": "de taart",
+      "emoji": "🎂",
+      "say": "De taart is van smurfbessen."
+    },
+    {
+      "word": "de bloemenkransen",
+      "emoji": "🌸",
+      "say": "Smurfin maakt bloemenkransen."
+    },
+    {
+      "word": "de kat",
+      "emoji": "🐈",
+      "say": "De kat heet Azraël."
+    }
+  ]
+}

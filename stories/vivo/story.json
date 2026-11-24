@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "vivo",
+  "version": 1,
+  "title": "Vivo, het muzikale aapje.",
+  "emoji": "🎶",
+  "text": "In Havana, een warme stad op het eiland Cuba, woont een klein aapje. Hij heet Vivo. Vivo is een kinkajoe. Dat is een klein bruin diertje met grote ogen en een lange staart, een beetje zoals een aapje. Vivo woont bij een oude muzikant. Hij heet Andrés. Elke dag gaan Vivo en Andrés naar het plein. Andrés speelt op zijn gitaar. En Vivo zingt en danst. Hij trommelt op een kleine trommel. Alle mensen blijven staan. Ze klappen en ze dansen mee. Andrés en Vivo zijn de beste vrienden. Ze maken al jaren samen muziek. Op een dag krijgt Andrés een brief. Een brief van een vrouw die Marta heet. Marta is een beroemde zangeres. Ze woont in Miami, in Amerika. Lang geleden waren Andrés en Marta samen muzikanten. Andrés hield heel veel van haar. Hij schreef een liedje voor haar. Een prachtig liefdesliedje. Maar hij heeft het haar nooit gegeven. Hij was te verlegen. En toen ging Marta weg om beroemd te worden. Nu geeft Marta haar laatste concert. En ze vraagt of Andrés wil komen. Andrés is zo blij. Hij neemt het liedje mee, in een oude envelop. Maar die nacht wordt Andrés ziek. En hij sterft. Vivo is heel verdrietig. Hij zit alleen op het plein. Hij heeft geen zin meer in muziek. Maar dan denkt hij aan het liedje. Andrés wilde het zo graag aan Marta geven. Vivo besluit: Ik ga het liedje naar Marta brengen! Maar Miami is heel ver weg. Over de zee! Hoe moet een klein aapje daar komen? Op de begrafenis van Andrés komt een meisje uit Miami. Ze heet Gabi. Ze is het nichtje van Andrés. Gabi is een bijzonder meisje. Ze heeft paarse haren en ze draagt laarzen in alle kleuren. Ze trommelt op alles. Ze doet altijd haar eigen zin. Vivo kruipt stiekem in de koffer van Gabi. Zo vliegt hij mee met het vliegtuig naar Amerika. In Miami ontdekt Gabi het aapje in haar koffer. Iiieeh! Een aapje! Maar Gabi kan Vivo verstaan als hij zingt. Ze hoort het verhaal van het liedje. En Gabi zegt: Ik help je! Ze gaan op weg. Maar Marta geeft haar concert in een andere stad. Heel ver weg. Gabi en Vivo moeten door de moerassen. Dat zijn grote stukken water met hoog gras en bomen. Daar wonen alligators en slangen. Er is een grote, gemene slang. Hij heet Lutador. Hij wil Vivo opeten. Maar Vivo is slim. Hij zingt een liedje en Gabi trommelt. En samen ontsnappen ze. In het moeras vallen ze ook in het water. De envelop met het liedje wordt nat. Oh nee! De noten zijn uitgelopen. Je kan ze niet meer lezen. Vivo is wanhopig. Maar dan zegt Gabi: Jij kent het liedje toch? Jij hebt het zo vaak gehoord, als Andrés het speelde. Jij kan het zingen! Ze reizen verder. Met een bus, met een boot, te voet. En eindelijk komen ze bij de grote zaal, waar Marta zingt. Ze glippen naar binnen. Ze vinden de kleedkamer van Marta. Marta is oud geworden, met zilvergrijs haar. Ze is verdrietig dat Andrés er niet is. Dan begint Vivo te zingen. Het liedje van Andrés. Gabi trommelt erbij. Marta luistert. Haar ogen vullen zich met tranen. Hij heeft het nooit vergeten, fluistert ze. Hij heeft altijd van mij gehouden. Marta zingt het liedje die avond op haar concert. Voor duizenden mensen. Voor Andrés. Het is het mooiste liedje dat ze ooit gezongen heeft. Iedereen huilt en applaudisseert. En Vivo? Vivo gaat bij Gabi wonen in Miami. Hij krijgt een nieuwe familie. En samen maken ze muziek. Vivo zingt. Gabi trommelt. En de muziek van Andrés klinkt verder. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Wat speelt Andrés?",
+      "right": "🎸",
+      "wrong": [
+        "🎹",
+        "🎺"
+      ],
+      "say": "Andrés speelt gitaar."
+    },
+    {
+      "question": "Wat wil Vivo naar Marta brengen?",
+      "right": "🎶",
+      "wrong": [
+        "🌹",
+        "🎂"
+      ],
+      "say": "Vivo wil het liedje naar Marta brengen."
+    },
+    {
+      "question": "Waarin reist Vivo mee naar Miami?",
+      "right": "🧳",
+      "wrong": [
+        "📦",
+        "🧺"
+      ],
+      "say": "Vivo kruipt in de koffer van Gabi."
+    },
+    {
+      "question": "Welke kleur heeft het haar van Gabi?",
+      "right": "🟣",
+      "wrong": [
+        "🟡",
+        "🔴"
+      ],
+      "say": "Gabi heeft paarse haren."
+    },
+    {
+      "question": "Welk gevaarlijk dier woont in het moeras?",
+      "right": "🐍",
+      "wrong": [
+        "🦈",
+        "🐻"
+      ],
+      "say": "In het moeras woont een gemene slang."
+    }
+  ],
+  "words": [
+    {
+      "word": "de gitaar",
+      "emoji": "🎸",
+      "say": "Andrés speelt op de gitaar."
+    },
+    {
+      "word": "de trommel",
+      "emoji": "🥁",
+      "say": "Gabi trommelt op alles."
+    },
+    {
+      "word": "de envelop",
+      "emoji": "✉️",
+      "say": "Het liedje zit in een envelop."
+    },
+    {
+      "word": "de koffer",
+      "emoji": "🧳",
+      "say": "Vivo kruipt in de koffer."
+    },
+    {
+      "word": "het vliegtuig",
+      "emoji": "✈️",
+      "say": "Ze vliegen met het vliegtuig."
+    },
+    {
+      "word": "de alligators",
+      "emoji": "🐊",
+      "say": "In het moeras wonen alligators."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "olifant-muizen",
+  "version": 1,
+  "title": "De olifant en de muizen.",
+  "emoji": "🐘",
+  "text": "Dit is een oud verhaal uit India, uit het boek met dierenverhalen. Lang geleden stond er aan de rand van een groot meer een oude, verlaten stad. Er woonden geen mensen meer. De huizen waren leeg. Er groeiden bloemen tussen de stenen. Maar er woonde wel iemand. Muizen! Heel veel muizen. Honderden en honderden kleine muisjes. Ze hadden hun holletjes onder de oude huizen en tussen de stenen. Ze waren gelukkig. Ze aten zaadjes en graankorrels. Ze speelden verstoppertje in de lege huizen. En de koning van de muizen was een oude, wijze muis met een grijs snoetje. In het grote bos naast de stad woonde een groep olifanten. Grote, zware olifanten, met lange slurven en grote oren. De koning van de olifanten was de grootste van allemaal. Hij had lange witte slagtanden. Op een zomer was het heel warm en droog. Alle plassen in het bos waren uitgedroogd. De olifanten hadden dorst. Heel veel dorst. Kom, zei de olifantenkoning. We gaan naar het grote meer, aan de andere kant van de oude stad. Daar is altijd water. De olifanten gingen op weg. De kortste weg naar het meer liep dwars door de oude stad. Boem, boem, boem! De olifanten stampten door de straten. De grond trilde. De stenen schudden. En de holletjes van de muizen werden plat getrapt! De muizen piepten. Ze renden alle kanten op. Sommige muisjes raakten gewond. Hun huisjes waren kapot. Maar de olifanten hoorden het niet. Ze waren zo groot en de muisjes zo klein. Ze stampten naar het meer en dronken. Elke dag gingen de olifanten zo naar het meer. En elke dag werden er meer holletjes kapot gestampt. De muizenkoning riep alle muizen bij elkaar. Zo kan het niet verder, zei hij. Als dit zo doorgaat, blijft er niets van ons over. Ik ga met de olifantenkoning praten. De andere muizen schrokken. Hij is zo groot! Hij trapt je plat! Maar de muizenkoning was dapper. Hij ging naar het bos. Hij klom op een hoge steen, zodat de olifant hem kon zien. Olifantenkoning! piepte hij zo luid als hij kon. Mag ik even met u praten? De olifantenkoning keek naar beneden. Hij zag een piepklein grijs muisje. Hij boog zijn grote hoofd. Wie ben jij? bromde hij. Ik ben de koning van de muizen, zei de muis. Wij wonen in de oude stad. Elke dag als jullie naar het meer gaan, stampen jullie onze huisjes kapot. Alstublieft, kunnen jullie een andere weg nemen? De olifantenkoning was verbaasd. Dat wisten we niet, zei hij. We zagen jullie niet. Jullie zijn zo klein. Het spijt me. Vanaf nu nemen we de weg langs de rivier. Dank u wel, zei de muizenkoning. En als u ooit hulp nodig heeft, dan zullen wij u helpen. De olifant glimlachte. Hoe kan een klein muisje een grote olifant helpen? dacht hij. Maar hij zei niets. Hij wilde de muis niet uitlachen. De olifanten namen voortaan de andere weg. De muizen waren gelukkig. Een tijd later kwamen er jagers in het bos. Ze wilden olifanten vangen voor de koning van het land. Ze maakten grote, sterke netten van dikke touwen. Ze hingen ze tussen de bomen. En op een dag liep de olifantenkoning in een net. Het net viel over hem heen. Hij trok en hij duwde. Maar hoe harder hij trok, hoe vaster hij zat. Hij riep om hulp. Een kleine olifant rende naar de oude stad. Muizen! Help! Onze koning zit vast! De muizenkoning riep alle muizen. Kom! We gaan helpen! Honderden muisjes renden naar het bos. Ze klommen op het net. En ze begonnen te knagen. Knaag, knaag, knaag. Met hun scherpe tandjes knaagden ze de dikke touwen door. Een touw, twee touwen, tien touwen. Na een tijdje was er een groot gat in het net. De olifantenkoning stapte eruit. Hij was vrij! Hij keek naar de kleine muisjes. Er stonden tranen in zijn ogen. Dank je wel, zei hij. Ik dacht dat een klein muisje nooit een grote olifant kon helpen. Maar ik had het mis. En vanaf die dag waren de olifanten en de muizen de beste vrienden. Want groot of klein, iedereen kan iemand helpen. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Waar wonen de muizen?",
+      "right": "🏚️",
+      "wrong": [
+        "🌳",
+        "🏰"
+      ],
+      "say": "De muizen wonen in een oude, verlaten stad."
+    },
+    {
+      "question": "Waarom gaan de olifanten naar het meer?",
+      "right": "💧",
+      "wrong": [
+        "🍌",
+        "😴"
+      ],
+      "say": "De olifanten hebben dorst."
+    },
+    {
+      "question": "Wat trappen de olifanten kapot?",
+      "right": "🕳️",
+      "wrong": [
+        "🌸",
+        "🌳"
+      ],
+      "say": "Ze trappen de holletjes van de muizen kapot."
+    },
+    {
+      "question": "Waarin zit de olifantenkoning vast?",
+      "right": "🕸️",
+      "wrong": [
+        "🕳️",
+        "📦"
+      ],
+      "say": "De olifant zit vast in een net."
+    },
+    {
+      "question": "Hoe bevrijden de muizen de olifant?",
+      "right": "🦷",
+      "wrong": [
+        "✂️",
+        "🔥"
+      ],
+      "say": "De muizen knagen de touwen door."
+    }
+  ],
+  "words": [
+    {
+      "word": "de olifant",
+      "emoji": "🐘",
+      "say": "De olifant is groot en zwaar."
+    },
+    {
+      "word": "de muizen",
+      "emoji": "🐭",
+      "say": "De muizen zijn klein en dapper."
+    },
+    {
+      "word": "het water",
+      "emoji": "💧",
+      "say": "De olifanten drinken water uit het meer."
+    },
+    {
+      "word": "het net",
+      "emoji": "🕸️",
+      "say": "De olifant zit vast in het net."
+    },
+    {
+      "word": "de touwen",
+      "emoji": "🪢",
+      "say": "Het net is gemaakt van dikke touwen."
+    },
+    {
+      "word": "de tandjes",
+      "emoji": "🦷",
+      "say": "De muizen knagen met hun tandjes."
+    }
+  ]
+}
