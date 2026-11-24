@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "captain-america",
+  "version": 1,
+  "title": "Captain America en het ronde schild.",
+  "emoji": "🛡️",
+  "text": "Lang geleden woonde er in New York een jongen. Hij heette Steve. Steve was klein en mager. Hij was vaak ziek. Maar Steve had een groot hart. Als iemand gepest werd, kwam hij altijd helpen. Ook als de pestkop veel groter was. Steve wilde soldaat worden en mensen beschermen. Maar ze zeiden: Jij bent te klein. Toen kwam er een slimme dokter. Hij zag hoe dapper Steve was. Jij hebt het hart van een held, zei de dokter. De dokter gaf Steve een speciaal drankje. Steve ging in een grote machine. Het licht flitste. Zoem! Toen Steve eruit kwam, was hij groot en heel sterk. Hij kon snel lopen en hoog springen. Steve kreeg een blauw pak met een witte ster. En een rond schild. Het schild was rood, wit en blauw. Het schild was heel bijzonder. Het kon niet kapot. Als Steve het gooide, vloog het rond en kwam het terug. Zoef! Vanaf nu heette Steve Captain America. Op een dag hoorde Captain America iemand roepen. Help! Help! Een schoolbus stond op een brug. De brug kraakte. Er zaten kinderen in de bus. Captain America rende zo snel hij kon. Hij hield de bus vast met zijn sterke armen. Een stuk van de brug viel naar beneden. Captain America hield zijn schild boven de kinderen. De stenen kaatsten ervan af. Tok, tok! Rustig maar, zei hij tegen de kinderen. Ik ben bij jullie. Hij duwde de bus langzaam terug op de weg. Iedereen was veilig. Een klein meisje keek naar hem. Ben jij niet bang? vroeg ze. Captain America lachte. Iedereen is soms bang. Dapper zijn betekent dat je toch helpt. Het meisje gaf hem een knuffel. Dank je wel, Captain America! Captain America zwaaide met zijn schild. Onthoud dit, riep hij. Je hoeft niet de sterkste te zijn. Als je goed bent voor anderen, ben jij ook een held. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welke vorm heeft het schild?",
+      "right": "⚪",
+      "wrong": [
+        "🟥",
+        "🔺"
+      ],
+      "say": "Het schild is rond.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Welke ster staat op het pak?",
+      "right": "⭐",
+      "wrong": [
+        "🌙",
+        "☀️"
+      ],
+      "say": "Er staat een witte ster op het pak.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wie zit er in de bus op de brug?",
+      "right": "🧒",
+      "wrong": [
+        "🐶",
+        "👮"
+      ],
+      "say": "Er zitten kinderen in de bus.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat gebeurt er als Captain America het schild gooit?",
+      "right": "🔄",
+      "wrong": [
+        "💥",
+        "🕳️"
+      ],
+      "say": "Het schild vliegt rond en komt terug.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "het schild",
+      "emoji": "🛡️",
+      "say": "Captain America heeft een rond schild.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de ster",
+      "emoji": "⭐",
+      "say": "Op zijn pak staat een ster.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de bus",
+      "emoji": "🚌",
+      "say": "De kinderen zitten in de bus.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de brug",
+      "emoji": "🌉",
+      "say": "De brug kraakt.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de dokter",
+      "emoji": "🧑‍⚕️",
+      "say": "De dokter helpt Steve.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "sterk",
+      "emoji": "💪",
+      "say": "Captain America is heel sterk.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

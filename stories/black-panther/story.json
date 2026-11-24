@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "black-panther",
+  "version": 1,
+  "title": "Black Panther en het verborgen land.",
+  "emoji": "🐆",
+  "text": "Diep in Afrika ligt een verborgen land. Het heet Wakanda. Van buiten zie je alleen bergen en bossen. Maar binnen is Wakanda vol wonderen. Er zijn zwevende treinen. Er zijn glimmende torens. En er zijn slimme machines. In Wakanda woont prins T'Challa. Hij is de beschermer van zijn land. Als hij zijn zwarte pak aantrekt, is hij Black Panther. Het pak is zwart als de nacht. Het heeft scherpe klauwen. Het is zo sterk dat niets het kapot kan maken. T'Challa heeft een slimme zus. Ze heet Shuri. Shuri is een uitvinder. Ze maakt de beste machines van de wereld. Kijk, broer, zegt Shuri. Ik heb nieuwe schoenen voor je gemaakt. Je kunt er heel stil mee lopen. Als een kat. Op een dag gebeurt er iets ergs. Iemand heeft een blauwe steen gestolen. Het is een magische steen uit Wakanda. Black Panther gaat op zoek. Hij sluipt door de nacht. Zijn nieuwe schoenen maken geen geluid. Hij springt van dak naar dak. Hij is snel en lenig, net als een echte panter. Dan ziet hij de dief. De dief rijdt weg in een snelle auto. Shuri helpt via haar computer. Ik bestuur een auto voor jou, broer! Spring erop! Black Panther springt op de auto. Shuri rijdt hem vanuit Wakanda, met haar computer. Wroem! Ze halen de dief in. Black Panther springt op de auto van de dief. De auto stopt met een schok. De dief probeert weg te rennen. Maar Black Panther is sneller. Hij pakt de blauwe steen terug. Waarom heb je hem gestolen? vraagt Black Panther. Ik wilde rijk worden, zegt de dief. Black Panther brengt de dief naar de politie. En hij brengt de steen terug naar huis. In Wakanda geven ze een groot feest. Er wordt gedanst en op trommels gespeeld. T'Challa denkt na. Wakanda heeft zoveel moois. Misschien moeten we het delen met de rest van de wereld. En dat doet hij. Hij bouwt scholen en ziekenhuizen voor kinderen overal. Want een goede koning zorgt niet alleen voor zijn eigen land. Hij zorgt voor iedereen. Wakanda voor altijd! Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welk dier is Black Panther?",
+      "right": "🐆",
+      "wrong": [
+        "🦁",
+        "🐻"
+      ],
+      "say": "Black Panther is als een panter.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Welke kleur heeft zijn pak?",
+      "right": "⚫",
+      "wrong": [
+        "🔴",
+        "🟡"
+      ],
+      "say": "Zijn pak is zwart als de nacht.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat maakt Shuri?",
+      "right": "⚙️",
+      "wrong": [
+        "🍰",
+        "👗"
+      ],
+      "say": "Shuri maakt slimme machines.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Welke kleur heeft de gestolen steen?",
+      "right": "🔵",
+      "wrong": [
+        "🟢",
+        "🟠"
+      ],
+      "say": "De gestolen steen is blauw.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de panter",
+      "emoji": "🐆",
+      "say": "Een panter loopt heel stil.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de berg",
+      "emoji": "⛰️",
+      "say": "Wakanda ligt achter de bergen.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de trein",
+      "emoji": "🚄",
+      "say": "In Wakanda zweven de treinen.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de computer",
+      "emoji": "💻",
+      "say": "Shuri werkt met haar computer.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de trommel",
+      "emoji": "🥁",
+      "say": "Op het feest spelen ze op trommels.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de dief",
+      "emoji": "🦹",
+      "say": "De dief steelt een steen.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

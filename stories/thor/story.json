@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "thor",
+  "version": 1,
+  "title": "Thor en zijn hamer.",
+  "emoji": "🔨",
+  "text": "Hoog boven de wolken ligt een gouden land. Het heet Asgard. Daar woont Thor. Thor heeft lang blond haar en een rode cape. En hij heeft een heel bijzondere hamer. De hamer heet Mjolnir. Als Thor met zijn hamer zwaait, flitst de bliksem. Rommel, rommel, zegt de donder. Maar Thor is een beetje stoer. Hij denkt dat hij de sterkste is. Hij luistert niet goed naar anderen. Zijn papa is koning Odin. Odin zegt: Thor, een echte held is niet alleen sterk. Een echte held is ook lief en helpt anderen. Maar Thor luistert niet. Hij maakt ruzie en hij wil altijd vechten. Dan wordt Odin streng. Hij stuurt Thor naar de aarde. En hij gooit de hamer ook naar beneden. Alleen wie goed en lief is, kan deze hamer optillen, zegt Odin. Thor valt op de aarde, in een woestijn. Hij heeft geen krachten meer. Daar ontmoet hij Jane. Jane bestudeert de sterren. Ze is vriendelijk. Ze geeft Thor eten en een plek om te slapen. Thor leert veel op de aarde. Hij leert dank je wel zeggen. Hij leert koffie drinken. Hij leert luisteren. Hij vindt zijn hamer in de woestijn. Hij trekt. Hij trekt nog harder. Maar de hamer beweegt niet. Dan komt er een grote metalen reus naar het dorp. Hij spuwt vuur. De mensen rennen weg. Thor heeft geen krachten. Maar hij loopt toch naar de reus. Laat de mensen met rust, zegt hij. Neem mij maar. Thor wil niet meer de sterkste zijn. Hij wil alleen de anderen beschermen. Op dat moment gaat de hamer trillen. Hij vliegt door de lucht. Recht in de hand van Thor! Thor heeft zijn krachten terug. De bliksem flitst. Bam! De reus valt om. Jane en de mensen juichen. Thor kijkt naar de lucht. Hij ziet zijn papa glimlachen. Nu ben je een echte held, zegt Odin. Thor gaat terug naar Asgard. Maar hij vergeet zijn vrienden op de aarde nooit. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Wat heeft Thor in zijn hand?",
+      "right": "🔨",
+      "wrong": [
+        "🗡️",
+        "🏹"
+      ],
+      "say": "Thor heeft een hamer. Die heet Mjolnir.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat gebeurt er als Thor met zijn hamer zwaait?",
+      "right": "⚡",
+      "wrong": [
+        "🌈",
+        "❄️"
+      ],
+      "say": "Dan flitst de bliksem.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Waar valt Thor op de aarde?",
+      "right": "🏜️",
+      "wrong": [
+        "🌊",
+        "🏔️"
+      ],
+      "say": "Thor valt in een woestijn.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat bestudeert Jane?",
+      "right": "⭐",
+      "wrong": [
+        "🐟",
+        "🌷"
+      ],
+      "say": "Jane bestudeert de sterren.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de hamer",
+      "emoji": "🔨",
+      "say": "Thor heeft een sterke hamer.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de bliksem",
+      "emoji": "⚡",
+      "say": "De bliksem flitst.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de cape",
+      "emoji": "🧣",
+      "say": "Thor heeft een rode cape.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de koning",
+      "emoji": "🤴",
+      "say": "Odin is de koning van Asgard.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de woestijn",
+      "emoji": "🏜️",
+      "say": "In de woestijn is het warm.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de reus",
+      "emoji": "🤖",
+      "say": "De metalen reus spuwt vuur.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}
