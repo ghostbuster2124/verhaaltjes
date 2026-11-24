@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "dory",
+  "version": 1,
+  "title": "Dory zoekt haar papa en mama.",
+  "emoji": "🐠",
+  "text": "In de grote blauwe zee woont een vis. Ze is blauw met een gele staart. Ze heet Dory. Dory is heel vrolijk en lief. Maar Dory vergeet alles heel snel. Wat ze net gehoord heeft, is ze een minuutje later alweer vergeten. Dory woont samen met haar vrienden. Marlin, de papa-clownvis. En Nemo, zijn zoontje. Nemo is oranje met witte strepen. Op een dag ziet Dory een groep pijlstaartroggen. Ze zwemmen voorbij. Ineens herinnert Dory zich iets. Iets van heel lang geleden. Mijn papa en mama! roept ze. Ik heb ook een papa en mama! Ik ben ze kwijt toen ik heel klein was. Ze herinnert zich nog een plaats. Het juweel van Morro Bay, Californië. Daar moet ik naartoe! Marlin en Nemo gaan mee. Ze zwemmen door de hele oceaan. Ze rijden mee op de rug van grote schildpadden. Wiiieee! Ze komen aan bij een grote gebouw. Een zeepark. Mensen helpen er zieke zeedieren. Dory wordt per ongeluk opgevangen. Ze komt in een bak. Daar ontmoet Dory een octopus. Hij heet Hank. Hank heeft maar zeven armen. Hij is chagrijnig. Maar hij kan van kleur veranderen. Hij kan zich verstoppen overal. Hank wil helpen. In ruil wil hij het kaartje van Dory. Dan mag hij naar een rustig aquarium. Dory ontmoet ook Destiny, een walvishaai die slecht kan zien. En Bailey, een witte walvis die denkt dat zijn hoofd kapot is. Dory zoekt en zoekt. Ze vergeet de weg. Maar ze vindt slimme manieren. Ze volgt schelpjes op de grond. Schelpjes! Ineens weet Dory het weer. Toen ze klein was, legden papa en mama schelpjes. Een spoor van schelpjes. Zodat ze altijd de weg naar huis zou vinden. Dory volgt de schelpjes. Eén. Twee. Drie. En daar, aan het eind van het spoor, staan twee blauwe visjes. Papa! Mama! Ze zwemmen naar elkaar toe. Ze knuffelen met hun vinnen. Ze hebben al die jaren gewacht. Elke dag legden ze nieuwe schelpjes. Voor als Dory terug zou komen. Dory is zo blij. Nu heeft ze twee families. Haar papa en mama. En Marlin en Nemo. Ze wonen allemaal samen bij het koraal. En als Dory iets vergeet? Dan helpen ze haar onthouden. Gewoon blijven zwemmen. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welke kleur heeft Dory?",
+      "right": "🔵",
+      "wrong": [
+        "🟠",
+        "🟢"
+      ],
+      "say": "Dory is blauw met een gele staart.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Hoeveel armen heeft de octopus Hank?",
+      "right": "7️⃣",
+      "wrong": [
+        "8️⃣",
+        "2️⃣"
+      ],
+      "say": "Hank heeft maar zeven armen.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat volgt Dory om haar ouders te vinden?",
+      "right": "🐚",
+      "wrong": [
+        "⭐",
+        "🌸"
+      ],
+      "say": "Dory volgt een spoor van schelpjes.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Op welke dieren rijden ze mee?",
+      "right": "🐢",
+      "wrong": [
+        "🐴",
+        "🐘"
+      ],
+      "say": "Ze rijden mee op schildpadden.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de vis",
+      "emoji": "🐠",
+      "say": "Dory is een blauwe vis.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de octopus",
+      "emoji": "🐙",
+      "say": "Hank is een octopus.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de schelp",
+      "emoji": "🐚",
+      "say": "Dory volgt de schelpjes.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de schildpad",
+      "emoji": "🐢",
+      "say": "De schildpad zwemt snel.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de walvis",
+      "emoji": "🐋",
+      "say": "Bailey is een witte walvis.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "het koraal",
+      "emoji": "🪸",
+      "say": "Ze wonen bij het koraal.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

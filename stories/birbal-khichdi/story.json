@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "birbal-khichdi",
+  "version": 1,
+  "title": "Birbal en de pot rijst in de boom.",
+  "emoji": "🍲",
+  "text": "Dit is een verhaal uit India, over keizer Akbar en zijn slimme vriend Birbal. Het was winter. In de stad Agra was het koud. Heel koud. 's Nachts vroor het zelfs. Op een ochtend wandelden keizer Akbar en Birbal langs het meer bij het paleis. Het water was ijskoud. De keizer stak zijn vinger in het water. Brrr! Hij trok zijn vinger snel terug. Birbal, zei de keizer, ik denk dat niemand een hele nacht in dit ijskoude water kan staan. Zelfs niet voor al het goud van de wereld. Birbal dacht even na. Ik denk dat er wel iemand is, majesteit, zei hij. Als iemand heel arm is en geld nodig heeft, dan kan hij heel sterk zijn. De keizer lachte. Goed dan, zei hij. Wie een hele nacht in het meer kan staan, krijgt duizend gouden munten. Het nieuws ging door de stad. Er was een arme man. Hij had een vrouw en kinderen. Ze hadden bijna niets te eten. De man dacht: Met duizend gouden munten kan mijn familie eten voor een heel jaar. Ik ga het proberen. Die avond ging hij naar het meer. Hij stapte in het ijskoude water, tot aan zijn middel. De wachters van de keizer bleven naast het meer staan om op te letten. Het was zo koud. De man klappertandde. Zijn benen werden gevoelloos. Maar hij dacht aan zijn kinderen. En hij hield vol. Ver weg, boven op de muur van het paleis, brandde een klein lampje. De man keek naar het lampje. Hij dacht: Daar is het warm. Daar is licht. Hij keek de hele nacht naar dat lampje. En de hele nacht bleef hij staan. Toen de zon opkwam, stapte de man uit het water. Hij had het gedaan! De wachters brachten hem naar de keizer. Hij heeft de hele nacht in het water gestaan, majesteit, zeiden ze. De keizer was verbaasd. Hoe heb je dat gedaan? vroeg hij. Ik keek de hele nacht naar het lampje op de muur van het paleis, zei de man. Dat hielp mij. De keizer fronste. Ha! zei hij. Dan heb je je warm gehouden aan het lampje van het paleis! Dat is valsspelen. Je krijgt geen goud. De arme man was zo verdrietig. Hij ging naar huis, met lege handen. Birbal zei niets. Maar hij was boos. Wat de keizer deed, was niet eerlijk. De volgende dag kwam Birbal niet naar het paleis. Ook de dag daarna niet. De keizer stuurde een bode. Waar blijft Birbal? De bode kwam terug. Birbal zegt dat hij aan het koken is, majesteit. Hij komt als zijn rijst klaar is. De keizer wachtte. Een uur. Twee uur. De hele dag. Geen Birbal. Uiteindelijk ging de keizer zelf naar het huis van Birbal. Daar zag hij iets heel vreemds. In de tuin brandde een klein vuurtje op de grond. En hoog, hoog in een boom hing een pot, aan een touw. Een pot met rijst en linzen. Khichdi. Birbal zat onder de boom en wachtte. Birbal! riep de keizer. Wat doe je nu? Ik kook khichdi, majesteit, zei Birbal. Maar die pot hangt heel hoog in de boom, zei de keizer. En het vuurtje is hier beneden op de grond. Zo wordt die rijst nooit gaar! Birbal stond op. Hij glimlachte. Waarom niet, majesteit? zei hij. Als een arme man warm kan worden van een lampje dat heel ver weg op een muur staat, dan kan mijn rijst toch ook gaar worden van een vuurtje dat zo dichtbij is? De keizer bleef staan. Hij keek naar de pot. Hij keek naar het vuurtje. En toen begreep hij het. Hij was oneerlijk geweest tegen de arme man. Hij schaamde zich. Je hebt gelijk, Birbal, zei hij. Ik heb een fout gemaakt. Hij liet de arme man meteen naar het paleis komen. Hij gaf hem de duizend gouden munten. En nog duizend erbij, om sorry te zeggen. De man huilde van geluk. Nu had zijn familie genoeg te eten. En de khichdi? Birbal haalde de pot uit de boom. Hij zette hem op het vuur, zoals het hoort. En die avond aten de keizer en Birbal samen een kom warme khichdi. Het was de lekkerste die de keizer ooit had gegeten. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Waarom is het water van het meer zo koud?",
+      "right": "❄️",
+      "wrong": [
+        "☀️",
+        "🌧️"
+      ],
+      "say": "Het is winter en het vriest."
+    },
+    {
+      "question": "Wat krijgt de man als hij in het water blijft?",
+      "right": "🪙",
+      "wrong": [
+        "🍞",
+        "🐄"
+      ],
+      "say": "Hij krijgt duizend gouden munten."
+    },
+    {
+      "question": "Waarnaar kijkt de man de hele nacht?",
+      "right": "💡",
+      "wrong": [
+        "🌕",
+        "⭐"
+      ],
+      "say": "Hij kijkt naar het lampje op de muur."
+    },
+    {
+      "question": "Waar hangt Birbal zijn pot?",
+      "right": "🌳",
+      "wrong": [
+        "🔥",
+        "🏠"
+      ],
+      "say": "Birbal hangt de pot hoog in een boom."
+    },
+    {
+      "question": "Wat zit er in de pot?",
+      "right": "🍚",
+      "wrong": [
+        "🍝",
+        "🍕"
+      ],
+      "say": "Er zit rijst met linzen in de pot."
+    }
+  ],
+  "words": [
+    {
+      "word": "de pot",
+      "emoji": "🍲",
+      "say": "De pot hangt hoog in de boom."
+    },
+    {
+      "word": "de rijst",
+      "emoji": "🍚",
+      "say": "Birbal kookt rijst met linzen."
+    },
+    {
+      "word": "het vuurtje",
+      "emoji": "🔥",
+      "say": "Het vuurtje brandt op de grond."
+    },
+    {
+      "word": "het lampje",
+      "emoji": "💡",
+      "say": "Het lampje brandt op de muur."
+    },
+    {
+      "word": "de munten",
+      "emoji": "🪙",
+      "say": "De man krijgt gouden munten."
+    },
+    {
+      "word": "de winter",
+      "emoji": "❄️",
+      "say": "In de winter is het water koud."
+    }
+  ]
+}

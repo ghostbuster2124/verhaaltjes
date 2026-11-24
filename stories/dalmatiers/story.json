@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "dalmatiers",
+  "version": 1,
+  "title": "De 101 Dalmatiërs.",
+  "emoji": "🐕",
+  "text": "In de stad Londen woont een hond. Hij heet Pongo. Pongo is een dalmatiër. Dat is een witte hond met zwarte vlekken. Pongo woont bij Roger, een muzikant. Roger speelt piano en hij schrijft liedjes. Pongo vindt dat Roger een vrouw nodig heeft. En hij vindt dat hij zelf ook een vrouwtje nodig heeft. Op een dag kijkt Pongo uit het raam. Daar wandelt een mooie dame met een hond. Een dalmatiër, met witte vacht en zwarte vlekken. Ze heet Perdita. En de dame heet Anita. Pongo heeft een plan. Hij trekt Roger mee naar het park. Hij loopt rond de bank waar Anita zit. Hij wikkelt de leibanden rond Roger en Anita. En plons! Ze vallen allebei in de vijver. Ze kijken elkaar aan, kletsnat. En dan lachen ze. Roger en Anita worden verliefd. Ze trouwen. En Pongo en Perdita trouwen ook. Ze wonen allemaal samen in een klein huis. Op een stormachtige avond krijgt Perdita puppy's. Vijftien puppy's! Ze zijn helemaal wit. Hun vlekjes komen pas later. Er is Lucky, die altijd tv kijkt. Rolly, die altijd honger heeft. En Patch, met een vlek rond zijn oog. Maar dan komt er iemand op bezoek. Een vreselijke vrouw. Ze heet Cruella De Vil. Ze heeft haar dat half zwart en half wit is. Ze draagt een grote bontjas. Ze rijdt in een grote rode auto, veel te snel. Cruella houdt van bontjassen. En ze wil een jas van dalmatiërvacht. Ik koop alle puppy's! zegt ze. Maar Roger zegt nee. De puppy's worden niet verkocht. Cruella is woedend. Een paar weken later gaan Roger en Anita wandelen met Pongo en Perdita. Dan komen twee boeven het huis binnen. Ze heten Horace en Jasper. Ze werken voor Cruella. Ze stoppen alle puppy's in een zak en ze nemen ze mee. Pongo en Perdita zijn wanhopig. Hoe vinden ze hun puppy's terug? Pongo heeft een idee. De avondblaf! Als het donker wordt, blaft hij vanaf een heuvel in het park. Een speciale blaf. Waf, waf, wooo! Een hond verderop hoort het. Hij blaft verder. En die hond blaft het weer verder. Zo gaat het bericht van hond tot hond, door het hele land. Wie heeft vijftien puppy's gezien? Ver weg, op een boerderij, hoort een oude hond het. Hij heet de Kolonel. Een kat helpt hem. Ze heet sergeant Tibs. Tibs sluipt naar een groot, oud kasteel. Ze kijkt door het raam. Daar ziet ze de puppy's. Vijftien! En nog veel meer. Cruella heeft wel negenennegentig puppy's gestolen! Pongo en Perdita gaan op weg. Ze lopen door de sneeuw, door de kou. Ze lopen dagen en nachten. Eindelijk komen ze bij het kasteel. Net op tijd. Horace en Jasper zitten tv te kijken. Pongo en Perdita stormen naar binnen. Ze grommen. Ze blaffen. De boeven schrikken. De puppy's rennen naar buiten, door een gat in de muur. Alle negenennegentig! Maar Cruella is in de buurt. Ze zoekt de puppy's. Pongo heeft een slim idee. Hij laat de puppy's rollen in het roet van een schoorsteen. Nu zijn ze helemaal zwart. Ze lijken niet meer op dalmatiërs, maar op zwarte labradors! Ze lopen langs Cruella, en ze ziet het niet. Ze springen in een grote vrachtwagen. Maar de sneeuw valt van een tak. Een puppy wordt weer wit. Cruella ziet het. Daar zijn ze! Ze rijdt achter de vrachtwagen aan, met haar rode auto. Maar ze rijdt te snel. Ze glijdt van de weg en botst tegen de auto van Horace en Jasper. Boem! Hun auto's vallen in de sneeuw. Kapot. Cruella gilt. Maar de vrachtwagen rijdt verder. Naar Londen. Naar huis. Roger en Anita zijn zo blij als ze Pongo en Perdita zien. En alle puppy's. Ze tellen ze. Vijftien. En nog vierentachtig. Wat moeten we met al die puppy's? vraagt Anita. Roger lacht. Hij gaat aan de piano zitten. We kopen een groot huis op het platteland, zegt hij. Een dalmatiërboerderij! Honderd en één dalmatiërs! En zo wonen ze allemaal samen. Met heel veel geblaf en heel veel vlekken. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Welke kleur hebben de vlekken van de dalmatiërs?",
+      "right": "⚫",
+      "wrong": [
+        "🟤",
+        "🔴"
+      ],
+      "say": "De dalmatiërs hebben zwarte vlekken."
+    },
+    {
+      "question": "Wat speelt Roger?",
+      "right": "🎹",
+      "wrong": [
+        "🎸",
+        "🥁"
+      ],
+      "say": "Roger speelt piano."
+    },
+    {
+      "question": "Welke kleur hebben de puppy's als ze geboren worden?",
+      "right": "⚪",
+      "wrong": [
+        "⚫",
+        "🟤"
+      ],
+      "say": "De puppy's zijn eerst helemaal wit."
+    },
+    {
+      "question": "Wat wil Cruella maken van de puppy's?",
+      "right": "🧥",
+      "wrong": [
+        "🎂",
+        "🧸"
+      ],
+      "say": "Cruella wil een jas maken."
+    },
+    {
+      "question": "Hoe maken de puppy's zich zwart?",
+      "right": "🏠",
+      "wrong": [
+        "🎨",
+        "🌊"
+      ],
+      "say": "Ze rollen in het roet van een schoorsteen."
+    }
+  ],
+  "words": [
+    {
+      "word": "de puppy's",
+      "emoji": "🐕",
+      "say": "Perdita krijgt vijftien puppy's."
+    },
+    {
+      "word": "de piano",
+      "emoji": "🎹",
+      "say": "Roger speelt piano."
+    },
+    {
+      "word": "de jas",
+      "emoji": "🧥",
+      "say": "Cruella draagt een grote jas."
+    },
+    {
+      "word": "de auto",
+      "emoji": "🚗",
+      "say": "Cruella rijdt in een rode auto."
+    },
+    {
+      "word": "de sneeuw",
+      "emoji": "❄️",
+      "say": "De honden lopen door de sneeuw."
+    },
+    {
+      "word": "de vrachtwagen",
+      "emoji": "🚚",
+      "say": "Ze springen in een vrachtwagen."
+    }
+  ]
+}

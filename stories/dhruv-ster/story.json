@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "dhruv-ster",
+  "version": 1,
+  "title": "Dhruv en de poolster.",
+  "emoji": "⭐",
+  "text": "Dit is een heel oud verhaal uit India. Lang geleden leefde er een koning. Hij heette Uttanapada. Hij had twee vrouwen en twee zonen. De ene zoon heette Uttam. Zijn mama was de koningin Suruchi. Zij was mooi, maar niet altijd lief. De andere zoon heette Dhruv. Zijn mama was Suniti. Zij was zacht en wijs en vriendelijk. De koning hield het meest van Suruchi en haar zoon Uttam. Uttam mocht altijd op de schoot van de koning zitten. Op een dag zag de kleine Dhruv dat. Dhruv was vijf jaar. Hij wilde ook zo graag op de schoot van zijn papa zitten. Hij liep naar de troon en wilde op de schoot van de koning klimmen. Maar koningin Suruchi hield hem tegen. Nee, zei ze streng. Jij mag hier niet zitten. Deze plaats is voor mijn zoon. Als je op de schoot van de koning wil zitten, dan moet je maar aan God vragen of je in een ander leven mijn zoon mag zijn. De koning zei niets. Dhruv voelde zich heel verdrietig. Zijn hart deed pijn. Hij rende huilend naar zijn mama. Suniti nam hem in haar armen. Ze veegde zijn tranen weg. Mijn lieve Dhruv, zei ze. Wees niet boos op de koningin. Boos zijn maakt je hart zwaar. Maar weet je wat? Er is iemand die van iedereen evenveel houdt. Groot of klein, rijk of arm. Dat is God, de heer Vishnu. Als je echt met je hele hart naar hem zoekt, dan zal hij je vinden. Dhruv veegde zijn neus af. Dan ga ik hem zoeken, zei hij. En hij liep weg, het grote bos in. Dhruv was nog maar vijf jaar. Het bos was groot en donker. Er waren tijgers en beren en slangen. Maar Dhruv was niet bang. In het bos ontmoette hij een wijze man. De man had een lange witte baard en hij droeg een luit. Het was de wijze Narada. Waar ga jij naartoe, kleine jongen? vroeg Narada. Ik zoek de heer Vishnu, zei Dhruv. Narada lachte vriendelijk. Dat is heel moeilijk, zei hij. Grote mannen proberen het hun hele leven. Ga maar terug naar huis. Maar Dhruv schudde zijn hoofd. Ik ga niet terug. Narada zag dat Dhruv het meende. Goed dan, zei hij. Ik zal je leren hoe je moet bidden. Ga zitten aan de rivier. Wees heel stil. Denk alleen aan Vishnu. En herhaal dit gebedje. Hij fluisterde een gebedje in het oor van Dhruv. Dhruv ging zitten aan de rivier. Hij sloot zijn ogen. Hij was heel stil. Hij herhaalde het gebedje. Dag en nacht. Hij at alleen een paar vruchten, en later alleen nog blaadjes. Hij dacht alleen aan Vishnu. De wind waaide. De regen viel. Maar Dhruv bleef zitten. De dieren van het bos kwamen kijken. De tijger ging naast hem liggen, heel rustig. De vogeltjes zongen voor hem. Zelfs de goden in de hemel zagen het. Wat is die kleine jongen sterk! zeiden ze. Na een lange tijd voelde Dhruv een warm licht. Hij deed zijn ogen open. Daar stond de heer Vishnu. Hij was blauw en straalde. Hij had vier armen en hij glimlachte. Dhruv, zei Vishnu, jij hebt met je hele hart naar mij gezocht. Wat wens je? Dhruv keek naar Vishnu. Opeens voelde hij geen verdriet meer. Geen boosheid. Zijn hart was vol licht. Ik wens niets meer, zei Dhruv. Ik heb u gevonden. Dat is genoeg. Vishnu was zo blij met dat antwoord. Je zal teruggaan naar je papa, zei hij. En later word je een goede koning. Maar ik geef je nog iets. Als je heel oud bent, dan word je een ster aan de hemel. Een ster die nooit beweegt. Alle andere sterren draaien om jou heen. En de zeelieden en reizigers zullen naar jou kijken om de weg te vinden. Dhruv ging terug naar huis. Zijn papa rende naar hem toe en nam hem in zijn armen. Het spijt me, zei de koning. Ik hou evenveel van jou. Zelfs koningin Suruchi zei sorry. En Dhruv werd later een wijze, goede koning. En kijk vannacht maar eens naar de hemel. Er is een ster die altijd op dezelfde plek staat, in het noorden. In India noemen ze die ster Dhruv Tara. De ster van Dhruv. Bij ons heet ze de poolster. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "questions": [
+    {
+      "question": "Waar wil Dhruv graag zitten?",
+      "right": "👑",
+      "wrong": [
+        "🛏️",
+        "🌳"
+      ],
+      "say": "Dhruv wil op de schoot van de koning zitten."
+    },
+    {
+      "question": "Waar gaat Dhruv naartoe?",
+      "right": "🌲",
+      "wrong": [
+        "🏖️",
+        "🏙️"
+      ],
+      "say": "Dhruv gaat het grote bos in."
+    },
+    {
+      "question": "Wat heeft de wijze Narada bij zich?",
+      "right": "🪕",
+      "wrong": [
+        "🥁",
+        "🎺"
+      ],
+      "say": "Narada draagt een luit."
+    },
+    {
+      "question": "Welk dier gaat rustig naast Dhruv liggen?",
+      "right": "🐅",
+      "wrong": [
+        "🐘",
+        "🐒"
+      ],
+      "say": "De tijger gaat naast hem liggen."
+    },
+    {
+      "question": "Wat wordt Dhruv later aan de hemel?",
+      "right": "⭐",
+      "wrong": [
+        "🌙",
+        "☁️"
+      ],
+      "say": "Dhruv wordt de poolster."
+    }
+  ],
+  "words": [
+    {
+      "word": "de ster",
+      "emoji": "⭐",
+      "say": "De poolster staat altijd stil."
+    },
+    {
+      "word": "de koning",
+      "emoji": "👑",
+      "say": "De koning heeft twee zonen."
+    },
+    {
+      "word": "het bos",
+      "emoji": "🌲",
+      "say": "Dhruv loopt het grote bos in."
+    },
+    {
+      "word": "de rivier",
+      "emoji": "🏞️",
+      "say": "Dhruv zit stil aan de rivier."
+    },
+    {
+      "word": "de tijger",
+      "emoji": "🐅",
+      "say": "De tijger ligt rustig naast hem."
+    },
+    {
+      "word": "het gebedje",
+      "emoji": "🙏",
+      "say": "Dhruv herhaalt het gebedje."
+    }
+  ]
+}
