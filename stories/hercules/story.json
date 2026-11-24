@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "hercules",
+  "version": 1,
+  "title": "Hercules, de sterkste jongen.",
+  "emoji": "💪",
+  "text": "Lang geleden, in Griekenland, woonden de goden boven op een berg. In de wolken. De berg heette de Olympus. De koning van de goden was Zeus. Hij gooide bliksems. Hij kreeg een zoontje. Het zoontje heette Hercules. Hercules was een baby met supersterke spieren. Hij kon al een zuil optillen in zijn wiegje. Maar er was een boze god, Hades. Hades woonde onder de grond. Hij was jaloers. Hij stuurde twee stoute helpers om de baby weg te nemen. Ze brachten Hercules naar de aarde. Daar vonden een lieve boer en boerin hem. Ze zorgden voor hem. Hercules groeide op. Maar hij was te sterk. Als hij iemand een hand gaf, kneep hij te hard. Als hij een bal gooide, vloog de bal tot over de bergen. Per ongeluk maakte hij een hele markt kapot. De andere kinderen noemden hem een sukkel. Hercules was verdrietig. Ik pas nergens. Op een dag ging hij naar de tempel van Zeus. Het standbeeld van Zeus begon te praten. Jij bent mijn zoon, Hercules! Als je een echte held wordt, mag je terug naar de Olympus. Zeus gaf hem een paard met vleugels. Het paard heette Pegasus. Samen vlogen ze door de lucht. Hercules ging naar een leraar. Een klein mannetje dat half een geit was. Hij heette Phil. Phil leerde hem alles over helden. Je moet slim zijn. Je moet goed mikken. En je moet nooit opgeven. Hercules oefende heel hard. Hij werd een echte held. Hij versloeg een monster met heel veel koppen. Hij redde kinderen onder grote stenen. Iedereen kende hem nu. Er waren schoenen met zijn naam. Drinkbekers met zijn gezicht. Maar Hercules mocht nog steeds niet naar de Olympus. Waarom niet? vroeg hij. Hij ontmoette een meisje. Ze heette Meg. Hades had Meg gevangen. Hercules sprong in de donkere rivier om haar te redden. Ook al was het heel gevaarlijk. Op dat moment begon Hercules te gloeien. Gouden licht! Zeus verscheen. Nu ben je een echte held, zei hij. Een echte held is niet de sterkste. Een echte held is iemand met een groot hart. Hercules mocht naar de Olympus. Maar hij koos om op aarde te blijven. Bij Meg. En bij zijn mensen. Want daar hoorde hij thuis. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Hoe heet de koning van de goden?",
+      "right": "⚡",
+      "wrong": [
+        "🌊",
+        "🔥"
+      ],
+      "say": "De koning van de goden is Zeus. Hij gooit bliksems.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat heeft het paard Pegasus?",
+      "right": "🪽",
+      "wrong": [
+        "🦄",
+        "🐟"
+      ],
+      "say": "Pegasus heeft vleugels.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat is de leraar Phil half?",
+      "right": "🐐",
+      "wrong": [
+        "🐟",
+        "🐦"
+      ],
+      "say": "Phil is half een geit.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat maakt een echte held volgens Zeus?",
+      "right": "❤️",
+      "wrong": [
+        "💪",
+        "💰"
+      ],
+      "say": "Een echte held heeft een groot hart.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de berg",
+      "emoji": "⛰️",
+      "say": "De goden wonen op een berg.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de bliksem",
+      "emoji": "⚡",
+      "say": "Zeus gooit bliksems.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "het paard",
+      "emoji": "🐴",
+      "say": "Pegasus is een vliegend paard.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de geit",
+      "emoji": "🐐",
+      "say": "Phil is half een geit.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "het monster",
+      "emoji": "🐉",
+      "say": "Hercules verslaat een monster.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de vleugels",
+      "emoji": "🪽",
+      "say": "Het paard heeft vleugels.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

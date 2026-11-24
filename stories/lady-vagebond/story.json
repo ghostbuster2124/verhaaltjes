@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "lady-vagebond",
+  "version": 1,
+  "title": "Lady en de Vagebond.",
+  "emoji": "🐕",
+  "text": "In een mooi huis woont een klein hondje. Ze heet Lady. Ze heeft lange zachte oren en een blauw halsbandje. Lady woont bij haar baasjes. Jim en Darling. Ze houden heel veel van haar. Elke ochtend brengt Lady de krant naar boven. Elke avond slaapt ze in haar mandje. Op een dag komt er nieuws. Darling krijgt een baby! Lady weet niet goed wat een baby is. Op straat woont een andere hond. Hij heeft geen huis en geen halsband. Hij heet Vagebond. Hij is vrij en ondeugend. Hij woont overal en nergens. Vagebond zegt tegen Lady: Als er een baby komt, heeft niemand nog tijd voor jou. Lady wordt een beetje bang. De baby wordt geboren. Lady mag kijken. Ze ziet een klein lief kindje in een wiegje. Ze vindt het baby'tje meteen lief. Op een dag gaan Jim en Darling op reis. Tante Sarah komt oppassen. Tante Sarah houdt niet van honden. Ze heeft twee katten. Die katten zijn stout. De katten gooien alles om. Ze willen de vis uit het aquarium. Tante Sarah denkt dat Lady het gedaan heeft. Tante Sarah koopt een muilkorf voor Lady. Lady schrikt. Ze rent weg. Op straat vinden drie grote honden haar. Ze blaffen. Maar daar is Vagebond! Hij jaagt de honden weg. Vagebond neemt Lady mee door de stad. Hij laat alles zien. Het park, de dierentuin. Een bever helpt de muilkorf af te knagen. Die avond gaan ze naar een restaurant. De kok kent Vagebond. Hij geeft ze een groot bord spaghetti met balletjes. Lady en Vagebond eten van hetzelfde bord. Ze zuigen allebei aan dezelfde sliert spaghetti. Slurp, slurp. Hun neusjes raken elkaar. Ze worden verliefd. De volgende dag gaat Lady terug naar huis. Daar ziet ze iets engs. Een grote rat sluipt door het raam. Naar de kamer van de baby! Lady blaft en blaft. Vagebond hoort het. Hij rent naar binnen en verjaagt de rat. De baby is veilig. Jim en Darling komen thuis. Ze zien wat er gebeurd is. Vagebond heeft onze baby gered! Vagebond krijgt een eigen halsband. En een eigen mandje. Hij mag blijven. Met Kerstmis zitten ze allemaal bij de kerstboom. Jim, Darling, de baby, Lady en Vagebond. En vier kleine puppy's. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welke kleur heeft het halsbandje van Lady?",
+      "right": "🔵",
+      "wrong": [
+        "🔴",
+        "🟢"
+      ],
+      "say": "Lady heeft een blauw halsbandje.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Welke dieren gooien alles om?",
+      "right": "🐈",
+      "wrong": [
+        "🐕",
+        "🐦"
+      ],
+      "say": "De twee katten gooien alles om.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat eten Lady en Vagebond in het restaurant?",
+      "right": "🍝",
+      "wrong": [
+        "🍔",
+        "🍣"
+      ],
+      "say": "Ze eten spaghetti met balletjes.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Welk dier sluipt naar de baby?",
+      "right": "🐀",
+      "wrong": [
+        "🐍",
+        "🦊"
+      ],
+      "say": "Een grote rat sluipt naar de baby.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de hond",
+      "emoji": "🐕",
+      "say": "Lady is een lief hondje.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de halsband",
+      "emoji": "📿",
+      "say": "Lady draagt een halsband.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de spaghetti",
+      "emoji": "🍝",
+      "say": "Ze eten spaghetti.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de baby",
+      "emoji": "👶",
+      "say": "De baby slaapt in een wiegje.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de rat",
+      "emoji": "🐀",
+      "say": "De rat sluipt door het raam.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de kerstboom",
+      "emoji": "🎄",
+      "say": "Ze zitten bij de kerstboom.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

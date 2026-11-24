@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "tarzan",
+  "version": 1,
+  "title": "Tarzan, de jongen van de jungle.",
+  "emoji": "🦍",
+  "text": "Diep in de jungle van Afrika woont een familie gorilla's. De mama gorilla heet Kala. Ze is lief en zacht. Op een dag hoort Kala een baby huilen. Ze vindt een mensenbaby, helemaal alleen in een boomhut. Er is niemand om voor hem te zorgen. Kala neemt de baby voorzichtig in haar armen. Hij lacht naar haar. Ik ga voor jou zorgen, zegt Kala. Ze noemt hem Tarzan. Tarzan groeit op tussen de gorilla's. Hij leert praten als een gorilla. Hij leert eten als een gorilla. Maar hij is anders. Hij heeft geen vacht. Hij is niet zo sterk. De andere apen lachen hem soms uit. Maar Tarzan geeft niet op. Hij oefent elke dag. Hij leert slingeren aan lianen. Hij surft op de takken van de bomen. Hij rent zo snel als een luipaard. Zijn beste vriendin is Terk. Een grappige jonge gorilla. En zijn beste vriend is Tantor. Een olifant die bang is voor alles. Zelfs voor kleine visjes! Tarzan wordt groot en sterk. Hij is de beste klimmer van de jungle. Op een dag hoort Tarzan een vreemd geluid. Pang! Er komen mensen in de jungle. Tarzan heeft nog nooit andere mensen gezien. Een van de mensen is Jane. Ze tekent dieren in haar schrift. Ze tekent een baviaantje. Maar het baviaantje pakt haar tekening af. En dan komt de hele familie bavianen achter Jane aan! Tarzan slingert door de jungle. Hij grijpt Jane vast en trekt haar mee door de lucht. Ze ontsnappen. Jane kijkt naar Tarzan. Hij kijkt naar haar. Ze leggen hun handen tegen elkaar. Ze zijn hetzelfde. Jane leert Tarzan woorden. Tarzan. Jane. Bloem. Boom. Tarzan leert Jane over de jungle. Maar er is ook een slechte man bij. Hij heet Clayton. Hij wil de gorilla's vangen en verkopen. Tarzan roept al zijn vrienden. Terk komt. Tantor komt. Alle dieren van de jungle komen helpen. Ze bevrijden de gorilla's uit de kooien. Clayton loopt weg en komt nooit terug. Jane moet eigenlijk terug naar huis. Maar ze kiest om te blijven. Bij Tarzan, in de jungle. Kala knuffelt haar zoon. Tarzan geeft een luide brul. Aaaa-aaa-aaaa! En de hele jungle brult terug. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welk dier is de mama van Tarzan?",
+      "right": "🦍",
+      "wrong": [
+        "🐘",
+        "🐆"
+      ],
+      "say": "De mama van Tarzan is een gorilla.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Waaraan slingert Tarzan door de jungle?",
+      "right": "🌿",
+      "wrong": [
+        "🪢",
+        "🌉"
+      ],
+      "say": "Tarzan slingert aan lianen.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Waar is Tantor bang van?",
+      "right": "🐟",
+      "wrong": [
+        "🦁",
+        "🐍"
+      ],
+      "say": "Tantor is zelfs bang van kleine visjes.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat doet Jane in haar schrift?",
+      "right": "✏️",
+      "wrong": [
+        "🍳",
+        "🎵"
+      ],
+      "say": "Jane tekent dieren.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de gorilla",
+      "emoji": "🦍",
+      "say": "Kala is een gorilla.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de jungle",
+      "emoji": "🌴",
+      "say": "Tarzan woont in de jungle.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de olifant",
+      "emoji": "🐘",
+      "say": "Tantor is een olifant.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de liaan",
+      "emoji": "🌿",
+      "say": "Tarzan slingert aan een liaan.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de kooi",
+      "emoji": "🔒",
+      "say": "De gorilla's zitten in een kooi.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de baviaan",
+      "emoji": "🐒",
+      "say": "De baviaan pakt de tekening.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}
