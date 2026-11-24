@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "tovenaar-oz",
+  "version": 1,
+  "title": "Dorothy en de tovenaar van Oz.",
+  "emoji": "👠",
+  "text": "In het platte land van Kansas woont een meisje. Ze heet Dorothy. Ze woont met tante Em en oom Henry op een boerderij. En met haar hondje Toto. Op een dag komt er een wervelstorm. Een tornado! De wind draait rond en rond. Iedereen kruipt in de kelder. Maar Dorothy is nog in huis met Toto. De storm tilt het hele huis op! Het draait en zweeft door de lucht. Hoger en hoger. Dan valt het huis naar beneden. Boem! Dorothy doet de deur open. Wat ziet ze? Een prachtig land vol kleuren. Bloemen, beekjes en kleine huisjes. Kleine mensjes komen naar haar toe. Het zijn de Munchkins. Welkom in Oz! Er komt een goede heks. Ze heet Glinda. Ze zweeft in een roze bel. Ze geeft Dorothy rode glinsterschoentjes. Ik wil naar huis, zegt Dorothy. Glinda zegt: Ga naar de grote tovenaar van Oz. Hij woont in de Smaragden Stad. Volg de weg van gele stenen. Dorothy en Toto lopen over de gele weg. Onderweg ontmoeten ze een vogelverschrikker. Hij is gemaakt van stro. Ik wil zo graag hersens, zegt hij. Dan kan ik nadenken. Dan ontmoeten ze een man van blik. Hij staat stil, helemaal verroest. Dorothy geeft hem olie. Piep, piep, nu kan hij weer bewegen. Ik wil zo graag een hart, zegt hij. Dan kan ik liefhebben. Dan springt er een leeuw uit het bos. Grrr! Maar als Toto blaft, gaat de leeuw huilen. Ik ben zo bang, zegt de leeuw. Ik wil zo graag moed. Ze gaan samen naar de tovenaar. Iedereen heeft een wens. Onderweg probeert een boze groene heks hen te stoppen. Ze wil de rode schoentjes. Ze stuurt vliegende apen. Ze vangt Dorothy. Maar de vrienden komen haar redden. De vogelverschrikker bedenkt een plan. De blikken man huilt als hij Dorothy ziet. En de leeuw is heel dapper. Dorothy gooit per ongeluk een emmer water over de heks. De heks smelt weg! Ze komen bij de tovenaar. Maar de tovenaar is gewoon een gewone man achter een gordijn. Hij geeft de vogelverschrikker een diploma. Je was al slim, zegt hij. Je bedacht een plan. Hij geeft de blikken man een hartje. Je huilde voor je vriendin. Je hebt al een hart. Hij geeft de leeuw een medaille. Je redde Dorothy. Je bent al dapper. En Dorothy? Glinda zegt: Je had de hele tijd al de kracht om naar huis te gaan. Tik drie keer met je hakken. Dorothy tikt. Tik, tik, tik. Er is nergens beter dan thuis. Ze wordt wakker in haar eigen bed. Tante Em en oom Henry zijn er. Toto likt haar gezicht. Dorothy is thuis. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welke kleur hebben de schoentjes van Dorothy?",
+      "right": "🔴",
+      "wrong": [
+        "🔵",
+        "🟢"
+      ],
+      "say": "Dorothy heeft rode glinsterschoentjes.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Welke kleur heeft de weg?",
+      "right": "🟡",
+      "wrong": [
+        "🟣",
+        "⚫"
+      ],
+      "say": "De weg is van gele stenen.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat wil de leeuw?",
+      "right": "🦁",
+      "wrong": [
+        "🧠",
+        "❤️"
+      ],
+      "say": "De leeuw wil moed. Hij wil dapper zijn.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Hoe heet het hondje van Dorothy?",
+      "right": "🐕",
+      "wrong": [
+        "🐈",
+        "🐇"
+      ],
+      "say": "Het hondje heet Toto.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de storm",
+      "emoji": "🌪️",
+      "say": "De storm tilt het huis op.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de schoen",
+      "emoji": "👠",
+      "say": "Dorothy heeft rode schoenen.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de vogelverschrikker",
+      "emoji": "🧑‍🌾",
+      "say": "De vogelverschrikker is van stro.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de leeuw",
+      "emoji": "🦁",
+      "say": "De leeuw is eigenlijk bang.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de heks",
+      "emoji": "🧙‍♀️",
+      "say": "De heks smelt weg.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "het hart",
+      "emoji": "❤️",
+      "say": "De blikken man wil een hart.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

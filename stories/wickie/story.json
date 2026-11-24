@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "wickie",
+  "version": 1,
+  "title": "Wickie de slimme Viking.",
+  "emoji": "⛵",
+  "text": "In een dorp aan de zee, in het koude noorden, wonen de Vikingen. Ze zijn groot en sterk. Ze hebben baarden en helmen met hoorns. Het opperhoofd heet Halvar. Hij is de sterkste van allemaal. Hij heeft een zoontje. Het zoontje heet Wickie. Wickie is klein. Hij heeft rood haar. Hij is niet zo sterk als de andere Vikingen. Hij is ook een beetje bang van wolven. Maar Wickie heeft iets bijzonders. Als hij nadenkt, wrijft hij over zijn neus. En dan komen er sterretjes. En dan krijgt hij een slim idee! Op een dag gaan de Vikingen op reis met hun schip. Een lang schip met een drakenkop vooraan en een groot gestreept zeil. Wickie mag mee. Halvar zegt: Blijf maar in de buurt, jongen. Een schip is geen speelplaats. Ze varen over de zee. Ze roeien. Ze zingen liedjes. Er zijn Vikingen bij die altijd ruzie maken over wie het hardst kan roeien. Dan komen ze bij een eiland. Op het eiland woont een boze kapitein. Hij heeft de schapen van een arm dorpje gestolen. Hij heeft ze opgesloten in een fort. Met een hoge muur. Halvar wil de muur kapot duwen. Hij duwt. De andere Vikingen duwen mee. Maar de muur is te sterk. Dan wrijft Wickie over zijn neus. De sterretjes komen. Ik heb een idee! Wickie bouwt een grote vlieger. Van het zeil van het schip. Met touwen en takken. De wind waait. De vlieger gaat omhoog. Aan de vlieger hangt een mandje. In het mandje zit een Viking. Hij vliegt over de muur! De Viking opent de poort van het fort. De andere Vikingen rennen naar binnen. De boze kapitein schrikt zo hard dat hij in het water valt. Plons! De schapen worden bevrijd. Ze springen bèèh-end naar buiten. De Vikingen brengen de schapen terug naar het dorpje. De mensen zijn zo blij. Ze geven de Vikingen een groot feestmaal. Halvar tilt Wickie op zijn schouders. Iedereen, luister! Mijn zoon is misschien niet de sterkste. Maar hij is de slimste! Alle Vikingen juichen. Hoera voor Wickie! Wickie bloost. Hij wrijft over zijn neus. Er komen een paar kleine sterretjes. Maar dit keer niet voor een idee. Gewoon omdat hij blij is. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welke kleur heeft het haar van Wickie?",
+      "right": "🟠",
+      "wrong": [
+        "⚫",
+        "🟡"
+      ],
+      "say": "Wickie heeft rood haar.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat doet Wickie als hij nadenkt?",
+      "right": "👃",
+      "wrong": [
+        "👂",
+        "🦶"
+      ],
+      "say": "Wickie wrijft over zijn neus.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat bouwt Wickie om over de muur te komen?",
+      "right": "🪁",
+      "wrong": [
+        "🪜",
+        "🚀"
+      ],
+      "say": "Wickie bouwt een grote vlieger.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Welke dieren worden bevrijd?",
+      "right": "🐑",
+      "wrong": [
+        "🐖",
+        "🐓"
+      ],
+      "say": "De schapen worden bevrijd.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de Viking",
+      "emoji": "🧔",
+      "say": "De Vikingen hebben baarden.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "het schip",
+      "emoji": "⛵",
+      "say": "Het schip heeft een drakenkop.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "het zeil",
+      "emoji": "🏳️",
+      "say": "Het schip heeft een groot zeil.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de muur",
+      "emoji": "🧱",
+      "say": "De muur is te sterk.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de vlieger",
+      "emoji": "🪁",
+      "say": "Wickie bouwt een vlieger.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de neus",
+      "emoji": "👃",
+      "say": "Wickie wrijft over zijn neus.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

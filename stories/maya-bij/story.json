@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "maya-bij",
+  "version": 1,
+  "title": "Maya de Bij vliegt de wereld in.",
+  "emoji": "🐝",
+  "text": "In een groot bijenvolk wordt een klein bijtje geboren. Ze is geel met zwarte strepen. En ze heeft twee grappige voelsprietjes. Ze heet Maya. Maya is nieuwsgierig. Heel nieuwsgierig. Ze wil alles weten. Ze wil alles zien. In de bijenkorf moet je werken, zegt de juf, juffrouw Cassandra. Je haalt nectar. Je maakt honing. Je blijft dicht bij de korf. Maar Maya wil de wereld zien. Op een ochtend vliegt ze weg. Zoem, zoem. Over de bloemen. Over de beek. Over de wei. Daar ontmoet ze Willy. Willy is ook een bij. Maar hij is lui. Hij slaapt graag en hij eet graag. Ik ga met je mee, zegt hij geeuwend. Ze ontmoeten een sprinkhaan. Hij heet Flip. Hij springt zo hoog. Hij draagt een hoedje en speelt viool. Flip weet alles van de wei. Flip laat de vrienden de wei zien. Ze ontmoeten een spin die een prachtig web weeft. Een lieveheersbeestje met zeven stippen. En een rups die heel veel eet. Maya vraagt de rups: Waarom eet je zoveel? De rups zegt: Wacht maar. Op een dag word ik een vlinder. En ja hoor. Een paar weken later zien ze een prachtige vlinder. Ze knipoogt naar Maya. Ik ben het, de rups! Maar dan hoort Maya iets engs. De hoornaars! Grote boze wespen. Ze willen de bijenkorf aanvallen. Ze willen alle honing stelen. Maya moet haar volk waarschuwen. Ze vliegt zo snel als ze kan. Willy helpt. Flip springt mee. Maya vliegt de bijenkorf binnen. Juffrouw Cassandra is boos. Waar was jij? Je bent weggelopen! Maar Maya roept: Er komen hoornaars! Ze komen vannacht! De bijenkoningin luistert naar Maya. Ze geeft een bevel. Alle bijen maken zich klaar. Ze bouwen een muur van was voor de deur. In de nacht komen de hoornaars. Maar de bijen zijn klaar. Ze zoemen allemaal heel luid samen. Bzzzzzz! De hoornaars schrikken en vliegen weg. De koningin bedankt Maya. Jij hebt ons allemaal gered. Omdat je zo nieuwsgierig was. Maya mag nu de wereld blijven ontdekken. Als ze maar terugkomt om verhalen te vertellen. En elke avond vertelt Maya over de wei, over Flip, over de vlinder. Alle kleine bijtjes luisteren met open mond. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welke kleuren heeft Maya?",
+      "right": "🟡",
+      "wrong": [
+        "🔴",
+        "🟣"
+      ],
+      "say": "Maya is geel met zwarte strepen.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat speelt Flip de sprinkhaan?",
+      "right": "🎻",
+      "wrong": [
+        "🥁",
+        "🎺"
+      ],
+      "say": "Flip speelt viool.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat wordt de rups?",
+      "right": "🦋",
+      "wrong": [
+        "🐝",
+        "🐞"
+      ],
+      "say": "De rups wordt een vlinder.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat willen de hoornaars stelen?",
+      "right": "🍯",
+      "wrong": [
+        "🌷",
+        "🍎"
+      ],
+      "say": "De hoornaars willen de honing stelen.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de bij",
+      "emoji": "🐝",
+      "say": "Maya is een bij.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de honing",
+      "emoji": "🍯",
+      "say": "Bijen maken honing.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de bloem",
+      "emoji": "🌼",
+      "say": "Maya vliegt naar de bloem.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de sprinkhaan",
+      "emoji": "🦗",
+      "say": "Flip is een sprinkhaan.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de vlinder",
+      "emoji": "🦋",
+      "say": "De rups wordt een vlinder.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "het lieveheersbeestje",
+      "emoji": "🐞",
+      "say": "Het lieveheersbeestje heeft stippen.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}
