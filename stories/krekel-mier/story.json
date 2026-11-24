@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "krekel-mier",
+  "version": 1,
+  "title": "De krekel en de mier.",
+  "emoji": "🦗",
+  "text": "Het is zomer. De zon schijnt warm. De bloemen bloeien. De bijtjes zoemen. In het gras zit een krekel. Hij heeft een vioolje. Hij speelt de hele dag muziek. Tsjirp, tsjirp, tsjirp! Hij danst en hij zingt. Naast de krekel loopt een mier. Ze sjouwt een graankorrel. Hij is zwaar. Maar ze draagt hem helemaal naar haar nest. Daarna gaat ze terug. Ze haalt nog een graankorrel. En nog een. En nog een. Hallo mier! roept de krekel. Waarom werk je zo hard? Het is zomer! Kom toch dansen! De mier veegt het zweet van haar voorhoofd. Ik verzamel eten voor de winter, zegt ze. In de winter is er niets meer te vinden. De krekel lacht. Winter? Dat is nog zo lang! Er is nu eten genoeg. Kijk maar, overal graan en zaadjes. De krekel speelt verder op zijn vioolje. Hij zingt een liedje over de zon. De mier werkt elke dag. Ze stapelt de graankorrels in haar nest. Netjes op een rij. De zomer gaat voorbij. Het wordt herfst. De bladeren worden geel en bruin. Ze vallen van de bomen. De krekel speelt nog steeds. Maar zijn vingers worden koud. Dan komt de winter. Het sneeuwt. Alles is wit. Het gras is weg. De bloemen zijn weg. Er is geen graankorreltje meer te vinden. De krekel heeft honger. Zijn buikje knort. Hij heeft het koud. Hij heeft geen huisje. Hij heeft geen eten. Hij denkt aan de mier. Hij loopt door de sneeuw naar het mierennest. Hij klopt op de deur. Klop, klop. De mier doet open. Binnen is het warm. Er brandt een klein vuurtje. Er is eten genoeg. Lieve mier, zegt de krekel met een zacht stemmetje. Ik heb zo een honger. Mag ik iets eten? De mier kijkt naar de krekel. Wat deed jij in de zomer? vraagt ze. Ik speelde muziek, zegt de krekel. Ik danste en ik zong. De mier denkt na. Ze ziet dat de krekel rilt van de kou. Kom maar binnen, zegt ze. Je mag bij ons blijven. Maar in ruil speel je elke avond muziek voor ons. De krekel is zo blij. Hij eet zich buikje rond. En elke avond speelt hij zijn vioolje voor de mieren. Ze dansen erop. In de lente zegt de krekel: Nu ga ik ook werken. Eerst werken en dan spelen. Want ik wil nooit meer honger hebben. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Wat speelt de krekel?",
+      "right": "🎻",
+      "wrong": [
+        "🥁",
+        "🎺"
+      ],
+      "say": "De krekel speelt op een vioolje.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat sjouwt de mier?",
+      "right": "🌾",
+      "wrong": [
+        "🍎",
+        "🪨"
+      ],
+      "say": "De mier sjouwt graankorrels.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat valt er in de winter?",
+      "right": "❄️",
+      "wrong": [
+        "🍂",
+        "☀️"
+      ],
+      "say": "In de winter sneeuwt het.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat moet de krekel doen bij de mieren?",
+      "right": "🎵",
+      "wrong": [
+        "🧹",
+        "🍳"
+      ],
+      "say": "De krekel speelt elke avond muziek.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de krekel",
+      "emoji": "🦗",
+      "say": "De krekel speelt muziek.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de mier",
+      "emoji": "🐜",
+      "say": "De mier werkt heel hard.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de viool",
+      "emoji": "🎻",
+      "say": "De krekel speelt viool.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de zomer",
+      "emoji": "☀️",
+      "say": "In de zomer is het warm.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de winter",
+      "emoji": "❄️",
+      "say": "In de winter sneeuwt het.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "het nest",
+      "emoji": "🪹",
+      "say": "De mier woont in een nest.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

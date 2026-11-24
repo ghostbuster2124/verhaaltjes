@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "jongen-wolf",
+  "version": 1,
+  "title": "De jongen die wolf riep.",
+  "emoji": "🐺",
+  "text": "In een klein dorpje in de bergen woont een jongen. Hij heet Pieter. Pieter is herder. Elke dag gaat hij met de schapen naar de heuvel. De schapen eten gras. Ze zeggen bèèh. Pieter zit onder een boom. Hij telt de schapen. Eén, twee, drie, vier, vijf. Alle schapen zijn er. Maar Pieter verveelt zich. Er gebeurt nooit iets. De hele dag alleen maar schapen en gras. Pieter krijgt een idee. Een ondeugend idee. Hij rent naar de rand van de heuvel. Hij roept zo hard hij kan. Wolf! Wolf! Er is een wolf! Help! In het dorp horen de mensen het. Ze laten alles vallen. De bakker laat zijn brood staan. De boer laat zijn koe staan. Ze rennen de heuvel op. Met stokken en harken. Waar is de wolf? vragen ze, buiten adem. Pieter lacht. Er is geen wolf. Ik maakte maar een grapje! De mensen zijn boos. Dat is niet grappig, Pieter. Ze lopen terug naar het dorp. De volgende dag verveelt Pieter zich weer. Hij doet het nog een keer. Wolf! Wolf! Help! Weer rennen de mensen de heuvel op. Weer is er geen wolf. Weer lacht Pieter. Nu zijn de mensen heel boos. Je mag niet liegen, Pieter. Je liegt over gevaar. Dat is gevaarlijk. Pieter haalt zijn schouders op. Dan, op een avond, ziet Pieter iets bewegen tussen de bomen. Twee gele ogen. Een grijze vacht. Scherpe tanden. Het is een wolf. Een echte wolf! De wolf sluipt naar de schapen. De schapen zijn bang. Bèèh! Bèèh! Pieter rent naar de rand van de heuvel. Wolf! Wolf! roept hij. Er is echt een wolf! Help, help! In het dorp horen de mensen het. Maar ze kijken elkaar aan. Daar is Pieter weer met zijn grapjes, zeggen ze. We trappen er niet meer in. Niemand komt helpen. Pieter roept en roept. Hij zwaait met zijn stok. De wolf jaagt de schapen de heuvel af. Ze rennen alle kanten op. Gelukkig komt de oude herder langs. Hij heeft een grote hond. De hond blaft. De wolf schrikt en rent het bos in. Maar de schapen zijn overal. Het duurt de hele nacht om ze allemaal terug te vinden. Pieter huilt. Waarom kwam er niemand? De oude herder legt een hand op zijn schouder. Als je liegt, gelooft niemand je meer. Zelfs niet als je de waarheid spreekt. Pieter heeft het begrepen. Vanaf die dag liegt hij nooit meer. En langzaam gaan de mensen hem weer geloven. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Op welke dieren past Pieter?",
+      "right": "🐑",
+      "wrong": [
+        "🐄",
+        "🐔"
+      ],
+      "say": "Pieter past op de schapen.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat roept Pieter als grapje?",
+      "right": "🐺",
+      "wrong": [
+        "🔥",
+        "🐻"
+      ],
+      "say": "Pieter roept wolf.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Komen de mensen als er echt een wolf is?",
+      "right": "❌",
+      "wrong": [
+        "✅",
+        "🏃"
+      ],
+      "say": "Nee, niemand komt helpen. Ze geloven hem niet meer.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wie jaagt de wolf weg?",
+      "right": "🐕",
+      "wrong": [
+        "🐈",
+        "🐴"
+      ],
+      "say": "De hond van de oude herder jaagt de wolf weg.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de herder",
+      "emoji": "🧑‍🌾",
+      "say": "Pieter is een herder.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "het schaap",
+      "emoji": "🐑",
+      "say": "Het schaap eet gras.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de wolf",
+      "emoji": "🐺",
+      "say": "De wolf heeft gele ogen.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de heuvel",
+      "emoji": "⛰️",
+      "say": "De schapen staan op de heuvel.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de stok",
+      "emoji": "🦯",
+      "say": "Pieter zwaait met zijn stok.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de hond",
+      "emoji": "🐕",
+      "say": "De hond blaft naar de wolf.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

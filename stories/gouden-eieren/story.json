@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "gouden-eieren",
+  "version": 1,
+  "title": "De gans met de gouden eieren.",
+  "emoji": "🥚",
+  "text": "Er was eens een boer en een boerin. Ze waren arm. Ze woonden in een klein boerderijtje met een rieten dak. Ze hadden een koe, een paar kippen en één gans. Een witte gans met een oranje snavel. Op een ochtend ging de boer naar het nest van de gans. Hij wilde een ei halen voor het ontbijt. In het nest lag een ei. Maar het was geen gewoon ei. Het glinsterde in de zon. Het was van goud! De boer kon zijn ogen niet geloven. Vrouw! Vrouw! Kom kijken! Een gouden ei! De boerin kwam aangerend. Ze pakte het ei. Het was zwaar. Echt goud! Ze brachten het ei naar de markt. Ze kregen er heel veel geld voor. De volgende ochtend lag er weer een gouden ei. En de ochtend daarna ook. Elke dag legde de gans één gouden ei. De boer en de boerin werden rijk. Ze kochten een groter huis. Mooie kleren. Een paard en een koets. Maar de boer werd ongeduldig. Eén ei per dag is te weinig, zei hij. Ik wil meer. Ik wil alles meteen. De boerin zei: We hebben toch genoeg? Wees blij met wat we hebben. Maar de boer luisterde niet. Hij dacht: In de buik van de gans zitten vast nog veel meer gouden eieren. Een hele schat! Hij keek naar de gans. De gans keek terug. Gaga, zei ze. Hij had een slecht plan. Hij wilde de gans openmaken om al het goud in één keer te pakken. De gans schrok. Ze sloeg met haar vleugels en vloog het nest uit. Ze vloog over het hek. Over de wei. Ver weg, naar de rivier. De boer rende erachteraan. Kom terug! Kom terug! Maar de gans vloog weg. Ze kwam nooit meer terug. De volgende ochtend ging de boer naar het nest. Het was leeg. Geen gouden ei. De ochtend daarna ook niet. En de ochtend daarna ook niet. De boer ging op de trap zitten. Hij was heel verdrietig. De boerin ging naast hem zitten. We hadden elke dag een gouden ei, zei ze. Maar jij wilde meer. Nu hebben we niets meer. De boer knikte. Ik was te gulzig. Ik had blij moeten zijn met wat ik had. En ver weg, bij de rivier, legde een witte gans elke ochtend een gouden ei. Voor de visjes. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welke kleur heeft de gans?",
+      "right": "⚪",
+      "wrong": [
+        "⚫",
+        "🟤"
+      ],
+      "say": "De gans is wit.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat legt de gans elke dag?",
+      "right": "🥚",
+      "wrong": [
+        "🪨",
+        "🍞"
+      ],
+      "say": "De gans legt elke dag een gouden ei.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat kopen ze met het geld?",
+      "right": "🐴",
+      "wrong": [
+        "🚀",
+        "🏰"
+      ],
+      "say": "Ze kopen een paard en een koets.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat doet de gans als ze schrikt?",
+      "right": "🪽",
+      "wrong": [
+        "😴",
+        "🍽️"
+      ],
+      "say": "De gans vliegt weg.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de gans",
+      "emoji": "🪿",
+      "say": "De gans legt gouden eieren.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "het ei",
+      "emoji": "🥚",
+      "say": "Het ei is van goud.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "het nest",
+      "emoji": "🪺",
+      "say": "Het ei ligt in het nest.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de boer",
+      "emoji": "👨‍🌾",
+      "say": "De boer is gulzig.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de markt",
+      "emoji": "🛒",
+      "say": "Ze verkopen het ei op de markt.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de kip",
+      "emoji": "🐔",
+      "say": "Op de boerderij wonen kippen.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}
