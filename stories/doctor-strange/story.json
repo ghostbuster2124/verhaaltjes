@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "doctor-strange",
+  "version": 1,
+  "title": "Doctor Strange en de magische mantel.",
+  "emoji": "🪄",
+  "text": "Stephen was een heel goede dokter. Hij opereerde mensen met zijn handen. Hij was slim, maar ook een beetje opschepperig. Op een dag kreeg Stephen een ongeluk met zijn auto. Zijn handen raakten gewond. Ze trilden. Hij kon niet meer opereren. Stephen was heel verdrietig. Hij zocht overal naar hulp. Iemand vertelde hem over een plek ver weg, in de bergen. Daar woonden tovenaars. Stephen reisde erheen. Hij klopte op een grote houten deur. Een vrouw deed open. Zij was de Oude. De wijze leraar van de tovenaars. Ik kan je magie leren, zei ze. Maar dan moet je wel goed leren luisteren. Stephen oefende elke dag. Eerst lukte er niets. Hij was ongeduldig. Hij werd boos. De Oude zei: Rustig ademen. Niet alles draait om jou. Stephen ademde rustig. In en uit. En toen lukte het. Er kwamen gouden cirkels uit zijn handen. Vonkjes van licht. In de bibliotheek vond Stephen een rode mantel. De mantel bewoog vanzelf. Hij vloog op Stephen zijn schouders. De mantel had Stephen gekozen! Hij kon ermee vliegen. En de mantel hielp hem als hij in gevaar was. Soms veegde de mantel zelfs zijn tranen weg. Nu was Stephen Doctor Strange. De beschermer van de magie. Op een dag kwam er een donkere wolk boven de stad. Er kwamen rare monstertjes uit. Ze wilden alle kleuren opeten. Doctor Strange vloog erheen met zijn mantel. Hij maakte een groot schild van gouden licht. Hij opende een magische deur. Een rond poortje van vonken. Hup, de monstertjes vlogen erdoor. Terug naar hun eigen wereld. De deur ging dicht. De wolk verdween. De zon kwam weer tevoorschijn. Alle kleuren kwamen terug. Doctor Strange landde zachtjes. Zijn handen trilden nog een beetje. Maar dat was niet erg. Hij had geleerd dat hij niet perfect hoefde te zijn. Hij moest alleen goed zijn. De mantel gaf hem een klopje op zijn schouder. Goed gedaan. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Wat voor werk deed Stephen eerst?",
+      "right": "🧑‍⚕️",
+      "wrong": [
+        "👨‍🍳",
+        "👨‍🚒"
+      ],
+      "say": "Stephen was een dokter.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Welke kleur heeft de magische mantel?",
+      "right": "🔴",
+      "wrong": [
+        "🟢",
+        "🟡"
+      ],
+      "say": "De mantel is rood.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Welke kleur heeft het magische licht?",
+      "right": "🟡",
+      "wrong": [
+        "🟣",
+        "⚫"
+      ],
+      "say": "Het licht is goud.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat willen de monstertjes opeten?",
+      "right": "🌈",
+      "wrong": [
+        "🍕",
+        "🌳"
+      ],
+      "say": "De monstertjes willen alle kleuren opeten.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de dokter",
+      "emoji": "🧑‍⚕️",
+      "say": "Stephen is een dokter.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de mantel",
+      "emoji": "🧥",
+      "say": "De mantel kan vliegen.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de tovenaar",
+      "emoji": "🧙‍♂️",
+      "say": "Een tovenaar kan toveren.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de bibliotheek",
+      "emoji": "📚",
+      "say": "In de bibliotheek liggen boeken.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de deur",
+      "emoji": "🚪",
+      "say": "Hij opent een magische deur.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de wolk",
+      "emoji": "☁️",
+      "say": "Er komt een donkere wolk.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

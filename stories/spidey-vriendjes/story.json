@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "spidey-vriendjes",
+  "version": 1,
+  "title": "Spidey en zijn geweldige vriendjes.",
+  "emoji": "🕸️",
+  "text": "In een grote stad wonen drie vriendjes. Peter, Miles en Gwen. Ze zijn nog jong, maar ze zijn echte helden. Peter is Spidey. Hij heeft een rood en blauw pak. Miles is Spin. Hij heeft een zwart en rood pak. En Gwen is Ghost-Spider. Haar pak is wit en roze. Ze kunnen alle drie tegen muren op klimmen. En ze kunnen webben schieten uit hun polsen. Fsjoe! Hun basis is een geheime plek. Daar wonen ook hun robotjes. Trace-E is het kleine robotje dat alles kan vinden. Op een ochtend is het dierentuindag. De kinderen gaan naar de dierentuin. Ze zien leeuwen, giraffen en pinguïns. Maar dan horen ze een alarm. Tuut, tuut, tuut! De apen zijn ontsnapt! Een stoute man heeft de kooi opengemaakt. Hij wil de bananen van de dierentuin stelen. De apen rennen door de stad. Eentje zit op een lantaarnpaal. Eentje zit in een ijswagen. En eentje klimt in een hoge toren. Tijd om te helpen, roept Spidey. Spidey-team, actie! Ghost-Spider is de snelste. Ze zwiert met haar web van gebouw naar gebouw. Ze vangt de aap op de lantaarnpaal. Spin heeft een speciale kracht. Hij kan onzichtbaar worden. Hij sluipt naar de ijswagen. De aap heeft het niet door. Hap, Spin heeft hem. Spidey klimt in de hoge toren. Hij voelt een kriebel in zijn hoofd. Dat is zijn spinnenzintuig. Het waarschuwt hem voor gevaar. De toren wiebelt. Spidey schiet snel een web. Hij maakt een net. Zo vangt hij de laatste aap. Dan zien ze de stoute man. Hij rent weg met een grote zak bananen. De drie vriendjes schieten tegelijk een web. Fsjoe, fsjoe, fsjoe! De man zit vast in een groot kleverig web. De apen gaan terug naar de dierentuin. Ze krijgen hun bananen terug. De dierenverzorger is zo blij. Hoe kan ik jullie bedanken? Spidey lacht. Mogen we de pinguïns nog eens zien? Samen kijken ze naar de pinguïns die van een glijbaan glijden. Want samen zijn ze het sterkst. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Hoeveel vriendjes zijn er?",
+      "right": "3️⃣",
+      "wrong": [
+        "1️⃣",
+        "5️⃣"
+      ],
+      "say": "Er zijn drie vriendjes. Peter, Miles en Gwen.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Welke dieren zijn ontsnapt?",
+      "right": "🐒",
+      "wrong": [
+        "🦁",
+        "🐧"
+      ],
+      "say": "De apen zijn ontsnapt.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat wil de stoute man stelen?",
+      "right": "🍌",
+      "wrong": [
+        "🍦",
+        "💰"
+      ],
+      "say": "De stoute man wil de bananen stelen.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat schieten de helden uit hun polsen?",
+      "right": "🕸️",
+      "wrong": [
+        "💧",
+        "🔥"
+      ],
+      "say": "Ze schieten webben.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "het web",
+      "emoji": "🕸️",
+      "say": "Spidey schiet een web.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de aap",
+      "emoji": "🐒",
+      "say": "De aap zit op een lantaarnpaal.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de dierentuin",
+      "emoji": "🦁",
+      "say": "In de dierentuin wonen veel dieren.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de pinguïn",
+      "emoji": "🐧",
+      "say": "De pinguïn glijdt van de glijbaan.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de banaan",
+      "emoji": "🍌",
+      "say": "Apen eten graag een banaan.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de robot",
+      "emoji": "🤖",
+      "say": "Het robotje helpt zoeken.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

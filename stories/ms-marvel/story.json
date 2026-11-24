@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "ms-marvel",
+  "version": 1,
+  "title": "Kamala, de rekbare heldin.",
+  "emoji": "✨",
+  "text": "Dit is Kamala. Kamala is een meisje uit een stad in Amerika. Haar familie komt uit Pakistan. Kamala tekent graag. Ze tekent superhelden. Haar grote heldin is Captain Marvel. Kamala droomt ervan om zelf een heldin te zijn. Maar ze denkt: Ik ben gewoon Kamala. Niets bijzonders. Kamala krijgt van haar oma een oude armband. Er zitten mooie steentjes in. Die is van onze familie, zegt oma. Kamala doet de armband om. En dan gebeurt er iets heel vreemds. De armband begint te gloeien. Paars en blauw. Er komt licht uit haar handen. Kamala kan nu glimmende stukjes licht maken. Ze kan er een trap mee maken. Of een grote hand. Of een schild. En ze kan haar arm heel lang maken. Langer en langer, zo lang als een slurf. Kamala maakt een pak. Blauw en rood, met een geel bliksemtje. Haar mama naait het voor haar. Haar beste vriend Bruno maakt een masker. Op een dag is er feest in de stad. Er is muziek, er is lekker eten en er zijn heel veel mensen. Ineens waait er een harde wind. Een groot reclamebord gaat wiebelen. Het gaat vallen. Recht op de mensen! Kamala twijfelt niet. Ze maakt een reuzengrote hand van licht. Ze vangt het bord op. Pfff, het is zwaar. Bruno roept: Je kunt het, Kamala! Ze zet het bord voorzichtig op de grond. Niemand is gewond. Dan hoort Kamala een kind huilen. Een jongetje is zijn ballon kwijt. De ballon zweeft al hoog. Kamala rekt haar arm uit. Langer en langer. Ze pakt het touwtje en geeft de ballon terug. De mensen klappen. Wie is dat? Dat is Ms Marvel! Kamala gaat naar huis en eet samen met haar familie. Ze eten rijst en lekkere curry. Oma knipoogt. Ze weet het geheim. Kamala lacht. Ze weet nu dat ze wel bijzonder is. Omdat ze gewoon zichzelf is. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Wat doet Kamala graag?",
+      "right": "✏️",
+      "wrong": [
+        "⚽",
+        "🎻"
+      ],
+      "say": "Kamala tekent graag.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat krijgt Kamala van oma?",
+      "right": "📿",
+      "wrong": [
+        "🎒",
+        "👟"
+      ],
+      "say": "Kamala krijgt een armband van oma.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat vangt Kamala met haar hand van licht?",
+      "right": "🪧",
+      "wrong": [
+        "🚗",
+        "🐦"
+      ],
+      "say": "Ze vangt een groot reclamebord.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat is het jongetje kwijt?",
+      "right": "🎈",
+      "wrong": [
+        "🧸",
+        "🍦"
+      ],
+      "say": "Het jongetje is zijn ballon kwijt.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de armband",
+      "emoji": "📿",
+      "say": "Oma geeft een armband.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "het masker",
+      "emoji": "🎭",
+      "say": "Bruno maakt een masker.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de ballon",
+      "emoji": "🎈",
+      "say": "De ballon zweeft hoog.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "het potlood",
+      "emoji": "✏️",
+      "say": "Kamala tekent met een potlood.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de oma",
+      "emoji": "👵🏽",
+      "say": "Oma kent het geheim.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de rijst",
+      "emoji": "🍚",
+      "say": "Ze eten rijst met curry.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}
