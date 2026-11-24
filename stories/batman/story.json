@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "batman",
+  "version": 1,
+  "title": "Batman en de verdwenen lichtjes.",
+  "emoji": "🦇",
+  "text": "In de stad Gotham wordt het donker. De nacht valt. De maan schijnt. Hoog op een dak staat iemand. Hij heeft een zwarte cape en een masker met puntoren. Het is Batman. Batman heeft geen superkrachten. Hij kan niet vliegen. Hij is niet onzichtbaar. Maar Batman is heel slim. Hij is sterk omdat hij elke dag traint. En hij heeft een riem vol handige spullen. Een touw, een zaklamp en een vergrootglas. Overdag is Batman gewoon Bruce. Hij woont in een groot huis. Zijn vriend Alfred zorgt voor hem. Alfred maakt elke avond warme soep. Onder het huis is een geheime grot. Daar wonen vleermuizen. En daar staat de Batmobiel. Een snelle zwarte auto. Op een avond belt de politie. In het grote ziekenhuis zijn alle lichtjes uitgegaan. Het is helemaal donker. De kinderen zijn bang. Batman springt in de Batmobiel. Wroem! Hij rijdt door de stad. In het ziekenhuis is het pikdonker. Batman knipt zijn zaklamp aan. Hij zoekt naar sporen. Met zijn vergrootglas vindt hij iets. Kleine natte voetstapjes. En een spoor van ijs. Ik weet wie dit gedaan heeft, zegt Batman. Mister Freeze! Hij houdt van kou en ijs. Batman volgt de ijssporen naar een oude fabriek. Daar zit Mister Freeze. Hij heeft alle lampen gepakt. Waarom heb je de lichtjes gestolen? vraagt Batman. Mister Freeze zucht. Mijn machine is kapot. Ik heb de stroom nodig. Anders word ik te warm. Ik kan alleen leven in de kou. Batman denkt na. Hij wil Mister Freeze niet pijn doen. Hij wil het probleem oplossen. Ik help je, zegt Batman. Hij maakt de machine van Mister Freeze. Klik, klak, klaar! De machine zoemt weer. Mister Freeze heeft het weer lekker koud. Dank je, Batman, zegt hij. Hij geeft alle lampen terug. In het ziekenhuis gaan de lichtjes weer aan. De kinderen zwaaien naar het raam. Batman kijkt omhoog. Boven de stad schijnt een licht met een vleermuis erin. Daar zal hij er weer zijn. Altijd wanneer de stad hem nodig heeft. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Welk dier zie je op het masker van Batman?",
+      "right": "🦇",
+      "wrong": [
+        "🐱",
+        "🦉"
+      ],
+      "say": "Batman lijkt op een vleermuis.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat maakt Alfred elke avond?",
+      "right": "🍲",
+      "wrong": [
+        "🍕",
+        "🎂"
+      ],
+      "say": "Alfred maakt warme soep.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat vindt Batman met zijn vergrootglas?",
+      "right": "🧊",
+      "wrong": [
+        "🍬",
+        "🌸"
+      ],
+      "say": "Hij vindt een spoor van ijs.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Waar gaan de lichtjes uit?",
+      "right": "🏥",
+      "wrong": [
+        "🏫",
+        "🏰"
+      ],
+      "say": "De lichtjes gaan uit in het ziekenhuis.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de vleermuis",
+      "emoji": "🦇",
+      "say": "In de grot wonen vleermuizen.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de zaklamp",
+      "emoji": "🔦",
+      "say": "Batman knipt zijn zaklamp aan.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "het vergrootglas",
+      "emoji": "🔍",
+      "say": "Met een vergrootglas zie je kleine dingen.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "het ijs",
+      "emoji": "🧊",
+      "say": "Mister Freeze houdt van ijs.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de maan",
+      "emoji": "🌕",
+      "say": "De maan schijnt in de nacht.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "het ziekenhuis",
+      "emoji": "🏥",
+      "say": "In het ziekenhuis is het donker.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

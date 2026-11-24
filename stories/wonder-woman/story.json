@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "wonder-woman",
+  "version": 1,
+  "title": "Wonder Woman en het gouden touw.",
+  "emoji": "⭐",
+  "text": "Op een geheim eiland in de zee wonen alleen vrouwen. Ze zijn sterk en slim. Het zijn de Amazones. Op het eiland woont een meisje. Ze heet Diana. Haar mama is de koningin. Diana wil alles leren. Ze leert rennen, springen en zwemmen. Ze leert boogschieten en paardrijden. Ze is de snelste van allemaal. Op een dag valt er iets uit de lucht. Een vliegtuigje! Het stort in de zee. Diana springt in het water. Ze zwemt naar het vliegtuig. Ze redt de piloot. Hij heet Steve. Steve vertelt over de wereld buiten het eiland. Daar is ruzie, zegt hij. De mensen hebben hulp nodig. Diana wil helpen. Mama, ik moet gaan. De koningin is verdrietig. Maar ze is ook trots. Ze geeft Diana drie cadeaus. Twee zilveren armbanden die alles tegenhouden. Een schild. En een gouden touw. Het touw van de waarheid. Wie dat touw vasthoudt, kan alleen nog de waarheid vertellen. Diana trekt een pak aan, rood en blauw, met een gouden ster. Nu is ze Wonder Woman. Diana en Steve varen naar de grote stad. Alles is nieuw voor Diana. Ze proeft voor het eerst een ijsje. Mmm! Dit is heerlijk, zegt ze. Maar in de stad is iets aan de hand. Een man heeft een grote machine gemaakt. De machine maakt mensen boos op elkaar. Wonder Woman gaat naar de machine. Een bewaker schiet lichtstralen naar haar. Ping, ping! Haar armbanden houden alles tegen. Ze vindt de man. Ze gooit het gouden touw om hem heen. Het touw gloeit. Waarom doe je dit? vraagt Wonder Woman. De man moet de waarheid zeggen. Ik was eenzaam, zegt hij. Niemand wilde mijn vriend zijn. Ik wilde dat iedereen zich ook slecht voelde. Wonder Woman kijkt hem lief aan. Ruzie maken maakt niemand blij. Vriendjes maken wel. De man zet de machine uit. De mensen worden weer vriendelijk. Ze lachen en geven elkaar een hand. Wonder Woman weet nu wat haar kracht is. Niet alleen sterk zijn. Maar ook geloven in het goede van iedereen. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Waar woont Diana?",
+      "right": "🏝️",
+      "wrong": [
+        "🏔️",
+        "🏙️"
+      ],
+      "say": "Diana woont op een eiland in de zee.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wie redt Diana uit de zee?",
+      "right": "🧑‍✈️",
+      "wrong": [
+        "🐬",
+        "🧜‍♀️"
+      ],
+      "say": "Diana redt de piloot Steve.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Welke kleur heeft het touw van de waarheid?",
+      "right": "🟡",
+      "wrong": [
+        "🔵",
+        "🟢"
+      ],
+      "say": "Het touw is goud.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat proeft Diana voor het eerst?",
+      "right": "🍦",
+      "wrong": [
+        "🍕",
+        "🍉"
+      ],
+      "say": "Diana proeft voor het eerst een ijsje.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "het eiland",
+      "emoji": "🏝️",
+      "say": "Diana woont op een eiland.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "het touw",
+      "emoji": "🪢",
+      "say": "Het gouden touw gloeit.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de koningin",
+      "emoji": "👸",
+      "say": "Haar mama is de koningin.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "het paard",
+      "emoji": "🐎",
+      "say": "Diana leert paardrijden.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de boog",
+      "emoji": "🏹",
+      "say": "Diana leert boogschieten.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "het ijsje",
+      "emoji": "🍦",
+      "say": "Diana eet een ijsje.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

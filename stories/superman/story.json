@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "superman",
+  "version": 1,
+  "title": "Superman en de kat in de boom.",
+  "emoji": "🦸",
+  "text": "Lang geleden, op een verre planeet, werd een baby geboren. De planeet ging stuk. Zijn ouders legden hem in een klein ruimteschip. Ze stuurden hem naar de aarde. Het ruimteschip landde op een boerderij. Een lieve boer en boerin vonden de baby. Ze noemden hem Clark. Ze zorgden voor hem als hun eigen kindje. Clark groeide op tussen de koeien en de maïsvelden. Maar Clark was anders dan andere kinderen. Hij kon een tractor optillen met één hand. Hij kon sneller lopen dan een trein. En hij kon door muren heen kijken. Zijn mama zei: Je hebt grote krachten, Clark. Gebruik ze altijd om anderen te helpen. Toen Clark groot was, ging hij in de stad wonen. Hij werkte bij een krant. Hij droeg een bril en een das. Niemand wist zijn geheim. Maar als er hulp nodig was, ging Clark snel weg. Hij trok zijn blauwe pak aan, met een rode cape en een grote S. Dan was hij Superman. Superman kon vliegen! Hoog boven de huizen, door de wolken. Op een middag hoorde hij met zijn superoren een meisje huilen. Mijn poesje! Mijn poesje zit in de boom! Superman vloog erheen. Hoog in een boom zat een klein grijs katje. Het miauwde. Het durfde niet naar beneden. Superman zweefde langzaam naar het katje. Kom maar, kleintje. Ik doe je geen pijn. Het katje sprong in zijn armen. Superman zweefde naar beneden en gaf het katje aan het meisje. Dank je wel, Superman! Maar toen hoorde Superman nog iets. Een trein! De rails waren kapot en de trein reed er recht op af. Superman vloog zo snel als de wind. Hij ging voor de trein staan. Hij duwde met zijn handen. De trein stopte. Net op tijd. De mensen in de trein stapten uit en klapten. De volgende dag zat Clark weer gewoon aan zijn bureau. Met zijn bril op. Zijn collega Lois las de krant. Superman heeft gisteren een poesje gered en een trein gestopt. Wat een held. Clark glimlachte. Ja, zei hij. Maar het poesje was het belangrijkste. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Waar landt het ruimteschip met de baby?",
+      "right": "🚜",
+      "wrong": [
+        "🏰",
+        "🏝️"
+      ],
+      "say": "Het ruimteschip landt op een boerderij.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Welke letter staat er op het pak van Superman?",
+      "right": "🇸",
+      "wrong": [
+        "🇦",
+        "🇲"
+      ],
+      "say": "Op zijn pak staat een grote S.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Welk dier zit er in de boom?",
+      "right": "🐈",
+      "wrong": [
+        "🐶",
+        "🐿️"
+      ],
+      "say": "Er zit een poesje in de boom.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat stopt Superman met zijn handen?",
+      "right": "🚆",
+      "wrong": [
+        "✈️",
+        "⛵"
+      ],
+      "say": "Superman stopt een trein.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de boerderij",
+      "emoji": "🚜",
+      "say": "Clark woont op een boerderij.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de koe",
+      "emoji": "🐄",
+      "say": "Op de boerderij wonen koeien.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de krant",
+      "emoji": "📰",
+      "say": "Clark werkt bij een krant.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de bril",
+      "emoji": "👓",
+      "say": "Clark draagt een bril.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de kat",
+      "emoji": "🐈",
+      "say": "De kat zit in de boom.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de trein",
+      "emoji": "🚆",
+      "say": "Superman stopt de trein.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}
