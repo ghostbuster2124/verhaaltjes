@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "nachtwacht",
+  "version": 1,
+  "title": "De Nachtwacht en de bange droom.",
+  "emoji": "🌙",
+  "text": "Als alle kinderen slapen, wordt het stil in de stad. De maan schijnt. De sterretjes twinkelen. Maar in de nacht zijn er drie kinderen wakker. Ze zijn de Nachtwacht. Ze beschermen de dromen van kinderen. Xena is snel en stoer. Ze heeft een zwaard van licht. Lewis is een beetje bang, maar heel slim. En Jens is grappig, en hij heeft een speciaal schild. Als ze aan het werk gaan, zeggen ze een spreuk. En dan zijn ze in de droomwereld. In de droomwereld kan alles. Er zijn vliegende vissen. Bomen van snoep. Wolken waarop je kunt springen. Maar in de droomwereld zijn ook stoute wezens. Die maken van fijne dromen nachtmerries. Ze maken kinderen bang in hun slaap. Op een nacht krijgt de Nachtwacht een bericht. Een klein meisje, Lotte, heeft een nare droom. Ze droomt van een donker bos. De Nachtwacht springt in haar droom. Het is donker. De bomen kraken. De wind huilt. Lotte zit onder een boom. Ze huilt. Ik ben bang. Er is een monster. Ze horen gegrom. Tussen de bomen kijken twee rode ogen. Een groot schaduwmonster komt dichterbij. Lewis begint te beven. Ik ben ook bang. Xena zegt: Het is niet erg om bang te zijn. Maar we zijn samen. Samen zijn we sterk. Jens heeft een idee. Monsters in dromen worden groter als je bang bent. En kleiner als je lacht! Ze moeten Lotte aan het lachen krijgen. Jens trekt rare gezichten. Lewis doet een gekke dans. Hij struikelt en valt op zijn billen. Lotte begint te giechelen. Een klein beetje. Kijk! zegt Xena. Het monster wordt kleiner! Lotte lacht harder. Ze ziet Jens met een tak op zijn hoofd. Ze schatert het uit. Het monster krimpt en krimpt. Het wordt zo klein als een muis. En dan zo klein als een mier. Piep! En weg is hij. Het bos verandert. De bomen worden roze. Er groeien bloemen. Er vliegen vlinders. Het wordt een vrolijk sprookjesbos. Lotte danst met de Nachtwacht tussen de bloemen. Dan wordt het ochtend. De Nachtwacht gaat terug naar huis. In haar bed wordt Lotte wakker. Ze rekt zich uit. Ze glimlacht. Ik heb zo mooi gedroomd, zegt ze tegen haar mama. En de Nachtwacht? Die slaapt nu. Tot het weer nacht wordt. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Wat beschermt de Nachtwacht?",
+      "right": "💭",
+      "wrong": [
+        "🏦",
+        "🌳"
+      ],
+      "say": "De Nachtwacht beschermt de dromen van kinderen.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Waar droomt Lotte van?",
+      "right": "🌲",
+      "wrong": [
+        "🏖️",
+        "🏰"
+      ],
+      "say": "Lotte droomt van een donker bos.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat maakt het monster kleiner?",
+      "right": "😂",
+      "wrong": [
+        "😢",
+        "😡"
+      ],
+      "say": "Het monster wordt kleiner als je lacht.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat heeft Xena?",
+      "right": "⚔️",
+      "wrong": [
+        "🔨",
+        "🎸"
+      ],
+      "say": "Xena heeft een zwaard van licht.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de droom",
+      "emoji": "💭",
+      "say": "Lotte heeft een droom.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de maan",
+      "emoji": "🌙",
+      "say": "De maan schijnt in de nacht.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "het monster",
+      "emoji": "👾",
+      "say": "Het monster wordt kleiner.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "het zwaard",
+      "emoji": "⚔️",
+      "say": "Xena heeft een zwaard.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "het schild",
+      "emoji": "🛡️",
+      "say": "Jens heeft een schild.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de vlinder",
+      "emoji": "🦋",
+      "say": "In het bos vliegen vlinders.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

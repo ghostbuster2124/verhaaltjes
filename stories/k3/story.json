@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "k3",
+  "version": 1,
+  "title": "K3 en het verloren liedje.",
+  "emoji": "🎤",
+  "text": "Er zijn drie vriendinnen. Ze zingen samen in een groep. De groep heet K3. Ze zingen vrolijke liedjes en ze dansen erbij. Hanne, Marthe en Julia. Hanne heeft roze kleren. Marthe draagt geel. En Julia draagt blauw. Ze zingen in grote zalen. Duizenden kinderen zingen mee. En iedereen danst met zijn armen omhoog. Op een dag hebben ze een groot concert. Het is in de mooiste zaal van het land. Alle kinderen hebben een kaartje. Maar 's ochtends gebeurt er iets vreemds. Hanne kan zich het nieuwe liedje niet meer herinneren. Marthe ook niet. En Julia ook niet! Het liedje stond op een blad papier. Maar het blad is weg. De wind heeft het uit het raam geblazen. O nee! zegt Julia. Het nieuwe liedje is het belangrijkste van het concert! Ze gaan op zoek. Ze lopen naar buiten. Ze kijken in de tuin. Geen blad. Een man met een hond loopt voorbij. Heeft u een blad papier gezien? vraagt Marthe. Een blad met muzieknoten? De man wijst. Ik zag iets wegwaaien. Naar het park. De drie vriendinnen rennen naar het park. Daar zien ze een eend in de vijver. En op de vijver drijft een blad papier! Het is ons liedje! roept Hanne. Maar hoe krijgen ze het uit het water? Marthe heeft een idee. Ze pakt een lange tak. Voorzichtig trekt ze het blad naar de kant. Hebbes! Maar het blad is nat. De inkt is uitgelopen. Je kunt de woorden niet meer lezen. Julia zucht. Wat moeten we nu doen? Hanne denkt na. Weet je wat? We maken een nieuw liedje. Hier, nu meteen! Ze kijken om zich heen. Ze zien de eendjes. De bloemen. De zon. De kinderen die spelen. Marthe neuriet een melodie. Hanne bedenkt woorden. Over vriendschap en de zon. Julia bedenkt een dansje met een draai en een sprong. Kinderen in het park komen kijken. Ze dansen mee. Ze vinden het prachtig. Die avond staan ze op het podium. De lichten gaan aan. De muziek begint. Dit is een gloednieuw liedje, zegt Hanne. We hebben het vandaag gemaakt. In het park. Ze zingen. Alle kinderen dansen mee. Ook de kinderen uit het park zitten in de zaal. Ze kennen het dansje al! Na het concert zijn de drie vriendinnen moe, maar heel blij. Het verloren liedje was mooi. Maar het nieuwe liedje is nog mooier. Want ze hebben het samen gemaakt. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Hoeveel meisjes zitten er in K3?",
+      "right": "3️⃣",
+      "wrong": [
+        "2️⃣",
+        "4️⃣"
+      ],
+      "say": "Er zitten drie meisjes in K3.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat is er weg?",
+      "right": "📄",
+      "wrong": [
+        "🎤",
+        "👟"
+      ],
+      "say": "Het blad met het nieuwe liedje is weg.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Welk dier zwemt in de vijver?",
+      "right": "🦆",
+      "wrong": [
+        "🐟",
+        "🐸"
+      ],
+      "say": "Er zwemt een eend in de vijver.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Waarmee trekt Marthe het blad uit het water?",
+      "right": "🪵",
+      "wrong": [
+        "🪣",
+        "🧲"
+      ],
+      "say": "Marthe trekt het blad met een lange tak.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de microfoon",
+      "emoji": "🎤",
+      "say": "K3 zingt in de microfoon.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "het liedje",
+      "emoji": "🎵",
+      "say": "Ze maken een nieuw liedje.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "het blad",
+      "emoji": "📄",
+      "say": "Het liedje staat op een blad.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de eend",
+      "emoji": "🦆",
+      "say": "De eend zwemt in de vijver.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "het park",
+      "emoji": "🌳",
+      "say": "Ze zoeken in het park.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "het podium",
+      "emoji": "🎭",
+      "say": "Ze staan op het podium.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

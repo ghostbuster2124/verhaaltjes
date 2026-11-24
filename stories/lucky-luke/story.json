@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "lucky-luke",
+  "version": 1,
+  "title": "Lucky Luke en de Daltons.",
+  "emoji": "🤠",
+  "text": "In het wilde westen van Amerika is het warm en droog. Er groeien cactussen. Er rollen bolletjes gras over de weg. Daar rijdt een cowboy op zijn paard. Hij heet Lucky Luke. Hij heeft een geel hemd, een zwart vestje en een witte hoed. Zijn paard heet Jolly Jumper. Jolly Jumper is wit met een gele manen. Hij is heel slim. Hij kan zelfs schaken! Lucky Luke is de snelste cowboy van het westen. Hij is sneller dan zijn eigen schaduw! Op een dag rijdt Lucky Luke een klein stadje binnen. Iedereen is bang. De sheriff ook. Wat is er aan de hand? vraagt Lucky Luke. De Daltons zijn ontsnapt! zegt de sheriff. Uit de gevangenis! De Daltons zijn vier broers. Ze zijn stout en ze stelen. Joe is de kleinste, maar hij is de baas. Hij wordt altijd heel snel boos. Averell is de grootste. Hij is lief maar een beetje dom. Hij denkt alleen aan eten. Er is ook een hond bij Lucky Luke. Hij heet Rataplan. Rataplan is de domste hond van het westen. Hij denkt dat hij heel slim is. Lucky Luke volgt de sporen van de Daltons. Vier paar voetstappen. Een kleine, een middelgrote, een grote en een hele grote. Rataplan snuffelt. Hij loopt de verkeerde kant op. Lucky Luke zucht. De sporen gaan naar de bank. De Daltons willen de bank leegroven! Lucky Luke heeft een plan. Hij weet dat Averell altijd honger heeft. Hij zet een grote pan bonen met spek voor de deur van de bank. Het ruikt heerlijk. Averell ruikt het. Mmm, bonen! Joe, ik heb honger! Niet nu, Averell! roept Joe. We moeten de bank beroven! Maar Averell kan het niet laten. Hij gaat eten. De andere broers willen ook proeven. Ze gaan allemaal rond de pan zitten. Lucky Luke gooit zijn lasso. Zwiep! Hij vangt alle vier de Daltons met één touw. Joe stampt van woede. Lucky Luke! Ik krijg je nog wel! De Daltons gaan terug naar de gevangenis. De mensen van het stadje juichen. Averell zwaait naar Lucky Luke. Mag ik de rest van de bonen meenemen? Lucky Luke lacht. Hij springt op Jolly Jumper. Hij rijdt weg naar de ondergaande zon. En hij zingt: Ik ben een arme eenzame cowboy, ver van huis. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Hoe heet het paard van Lucky Luke?",
+      "right": "🐴",
+      "wrong": [
+        "🐂",
+        "🫏"
+      ],
+      "say": "Het paard heet Jolly Jumper.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Hoeveel Dalton-broers zijn er?",
+      "right": "4️⃣",
+      "wrong": [
+        "2️⃣",
+        "6️⃣"
+      ],
+      "say": "Er zijn vier Daltons.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat eet Averell graag?",
+      "right": "🫘",
+      "wrong": [
+        "🍦",
+        "🥗"
+      ],
+      "say": "Averell eet graag bonen.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Waarmee vangt Lucky Luke de Daltons?",
+      "right": "🪢",
+      "wrong": [
+        "🥅",
+        "🪤"
+      ],
+      "say": "Lucky Luke vangt ze met zijn lasso.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de cowboy",
+      "emoji": "🤠",
+      "say": "Lucky Luke is een cowboy.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "het paard",
+      "emoji": "🐴",
+      "say": "Jolly Jumper is een slim paard.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de cactus",
+      "emoji": "🌵",
+      "say": "In het westen groeien cactussen.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de lasso",
+      "emoji": "🪢",
+      "say": "Lucky Luke gooit een lasso.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de bank",
+      "emoji": "🏦",
+      "say": "De Daltons willen de bank beroven.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de bonen",
+      "emoji": "🫘",
+      "say": "Averell eet bonen.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}
