@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "stadsmuis-veldmuis",
+  "version": 1,
+  "title": "De stadsmuis en de veldmuis.",
+  "emoji": "🐁",
+  "text": "Op het platteland, tussen de korenvelden, woont een kleine veldmuis. Ze woont in een holletje onder een boom. Haar huisje is eenvoudig. Een bedje van mos. Een tafeltje van een paddenstoel. Ze eet zaadjes, graankorrels en bessen. De veldmuis heeft een neef. Hij woont in de grote stad. Het is een stadsmuis. Hij draagt een chique jasje en een strikje. Op een dag komt de stadsmuis op bezoek. Hallo, nicht! Wat woon jij hier rustig. De veldmuis is blij. Ze zet al haar lekkerste eten op tafel. Gerstekorrels. Een paar bramen. Een stukje wortel. De stadsmuis trekt een vies gezicht. Is dat alles? Eet jij elke dag zaadjes? Bah. Kom mee naar de stad. Daar eten we als koningen! De veldmuis is nieuwsgierig. Ze gaat mee. Ze rijden mee op een kar met groenten. Ze komen in de grote stad. Er zijn veel huizen. Er is veel lawaai. Auto's toeteren. Mensen roepen. De stadsmuis woont in een groot huis. In een gat in de muur van de eetkamer. Kijk, fluistert de stadsmuis. Op tafel staat een groot feestmaal. De veldmuis kan haar ogen niet geloven. Er is kaas. Er is taart. Er zijn koekjes en druiven en worstjes. Alles wat je maar wilt. Ze klimmen op de tafel. De veldmuis neemt een hapje kaas. Mmm! Zo lekker! Maar dan gaat de deur open. Een grote kat komt binnen! Miauw! Snel! roept de stadsmuis. De muizen rennen naar het gat in de muur. De kat springt. Net te laat. Hun hartjes bonzen. De veldmuis trilt over haar hele lijf. Na een tijdje gaat de kat weg. Ze klimmen weer op de tafel. De veldmuis neemt een stukje taart. Dan komt de kokkin binnen met een bezem. Ze ziet de muizen. Ze slaat met de bezem. Pats, pats! Weer rennen de muizen naar het gat. De veldmuis is helemaal buiten adem. Dan komen er ook nog twee honden. Ze blaffen en snuffelen bij het gat. De veldmuis zet haar hoedje op. Dank je wel, neef. Maar ik ga naar huis. Maar we hebben nog niet alles geproefd! zegt de stadsmuis. Ik eet liever elke dag een zaadje in rust, zegt de veldmuis. Dan een feestmaal met angst. De veldmuis gaat terug naar haar holletje. Ze eet een bes. Ze ligt in haar mossen bedje. Het is stil. Ze hoort alleen de krekels. Ze glimlacht. Thuis is het fijnst. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Waar woont de veldmuis?",
+      "right": "🌾",
+      "wrong": [
+        "🏙️",
+        "🌊"
+      ],
+      "say": "De veldmuis woont op het platteland, tussen het koren.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat draagt de stadsmuis?",
+      "right": "🎀",
+      "wrong": [
+        "👑",
+        "🧢"
+      ],
+      "say": "De stadsmuis draagt een strikje.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Welk dier komt binnen in de eetkamer?",
+      "right": "🐈",
+      "wrong": [
+        "🐄",
+        "🐔"
+      ],
+      "say": "Er komt een grote kat binnen.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat eet de veldmuis het liefst thuis?",
+      "right": "🫐",
+      "wrong": [
+        "🍕",
+        "🍔"
+      ],
+      "say": "De veldmuis eet zaadjes en bessen.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de muis",
+      "emoji": "🐁",
+      "say": "De veldmuis woont in een holletje.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de kaas",
+      "emoji": "🧀",
+      "say": "Op tafel ligt kaas.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de kat",
+      "emoji": "🐈",
+      "say": "De kat wil de muizen vangen.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de bezem",
+      "emoji": "🧹",
+      "say": "De kokkin slaat met de bezem.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de bes",
+      "emoji": "🫐",
+      "say": "De veldmuis eet een bes.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de stad",
+      "emoji": "🏙️",
+      "say": "In de stad is veel lawaai.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

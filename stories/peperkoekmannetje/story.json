@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "peperkoekmannetje",
+  "version": 1,
+  "title": "Het peperkoekmannetje.",
+  "emoji": "🍪",
+  "text": "Er was eens een oude vrouw en een oude man. Ze woonden in een klein huisje bij een bos. Ze hadden geen kinderen. Op een dag zei de oude vrouw: Ik ga een peperkoekmannetje bakken. Ze maakte deeg met honing, kaneel en gember. Ze vormde een mannetje. Met armen en benen. Ze gaf hem ogen van rozijnen. Een mond van een kers. En drie knoopjes van snoep. Ze schoof hem in de oven. Het rook heerlijk in het hele huis. Na een tijdje opende ze de oven. En hop! Het peperkoekmannetje sprong eruit! Hij rende de deur uit. Kom terug! riep de oude vrouw. Kom terug! riep de oude man. Ze renden erachteraan. Maar het peperkoekmannetje lachte en zong: Ren maar, ren maar, zo hard je kan. Je vangt me niet, ik ben het peperkoekmannetje! Hij rende langs een koe in de wei. Boe! zei de koe. Wat ruik jij lekker. Ik wil je opeten! Maar het peperkoekmannetje rende harder. Ren maar, ren maar, zo hard je kan. Je vangt me niet, ik ben het peperkoekmannetje! Hij rende langs een paard. Het paard rende mee. Hij rende langs een varken. Het varken rende ook mee. Iedereen wilde hem opeten. Een hele rij rende achter hem aan. De oude vrouw, de oude man, de koe, het paard en het varken. Toen kwam het peperkoekmannetje bij een rivier. O nee. Hij kon niet zwemmen. Als hij nat werd, zou hij zacht worden en uit elkaar vallen. Bij de rivier zat een vos. Een sluwe rode vos. Ik help je wel, zei de vos met een lief stemmetje. Spring maar op mijn staart. Ik zwem je naar de overkant. Het peperkoekmannetje sprong op de staart van de vos. De vos zwom het water in. Je wordt nat, zei de vos. Spring maar op mijn rug. Het peperkoekmannetje sprong op de rug van de vos. Je wordt nog steeds nat, zei de vos. Spring maar op mijn neus. Het peperkoekmannetje sprong op de neus van de vos. En hap! De vos gooide zijn kop omhoog. Hij deed zijn bek open. Maar het peperkoekmannetje was slim. Hij had het al door. Hij sprong van de neus van de vos. Recht op een groot blad dat in het water dreef. Het blad dreef naar de overkant. Het peperkoekmannetje sprong op het droge. Daag, vos! riep hij. Je vangt me niet, ik ben het peperkoekmannetje! En hij rende weg. Het bos in. En niemand heeft hem ooit nog gevangen. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Waarvan zijn de ogen van het peperkoekmannetje?",
+      "right": "🍇",
+      "wrong": [
+        "🍒",
+        "🥕"
+      ],
+      "say": "Zijn ogen zijn van rozijnen.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Welk dier wil hem helpen over de rivier?",
+      "right": "🦊",
+      "wrong": [
+        "🐸",
+        "🦆"
+      ],
+      "say": "De vos wil hem helpen.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat gebeurt er als het mannetje nat wordt?",
+      "right": "💧",
+      "wrong": [
+        "🔥",
+        "❄️"
+      ],
+      "say": "Als hij nat wordt, valt hij uit elkaar.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Waarop drijft het mannetje naar de overkant?",
+      "right": "🍃",
+      "wrong": [
+        "⛵",
+        "🪵"
+      ],
+      "say": "Hij drijft op een groot blad.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de oven",
+      "emoji": "♨️",
+      "say": "Het mannetje bakt in de oven.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de koe",
+      "emoji": "🐄",
+      "say": "De koe wil hem opeten.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "het varken",
+      "emoji": "🐖",
+      "say": "Het varken rent mee.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de vos",
+      "emoji": "🦊",
+      "say": "De vos is sluw.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de rivier",
+      "emoji": "🏞️",
+      "say": "Het mannetje kan niet zwemmen in de rivier.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "het blad",
+      "emoji": "🍃",
+      "say": "Het blad drijft op het water.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}

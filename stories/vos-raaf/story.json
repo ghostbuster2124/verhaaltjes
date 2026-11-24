@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "vos-raaf",
+  "version": 1,
+  "title": "De vos en de raaf.",
+  "emoji": "🐦‍⬛",
+  "text": "In een groot bos staat een hoge boom. Hoog in de boom zit een raaf. Een grote zwarte vogel. De raaf heeft iets gevonden. Een groot stuk kaas! Geel en lekker. Ze houdt het vast in haar snavel. Mmm, denkt de raaf. Dit ga ik heel rustig opeten. Helemaal alleen. Onder de boom loopt een vos. Een rode vos met een pluimstaart. De vos heeft honger. Zijn buik knort. De vos ruikt iets. Hij snuift. Snuf, snuf. Dat ruikt naar kaas! Hij kijkt omhoog. Daar zit de raaf. Met een groot stuk kaas in haar snavel. De vos kan niet in de boom klimmen. Hij is niet zo goed in klimmen. Hoe kan ik die kaas krijgen? denkt hij. De vos denkt na. En dan glimlacht hij. Hij heeft een plan. Een sluw plan. Goedemorgen, mevrouw de raaf! zegt de vos met een heel lief stemmetje. De raaf kijkt naar beneden. Ze zegt niets. Want ze heeft de kaas in haar snavel. Wat ziet u er vandaag mooi uit, zegt de vos. Uw veren glanzen in de zon. Zo zwart en zo mooi. De raaf vindt dat fijn om te horen. Ze zet haar veren een beetje op. En wat hebt u een prachtige oogjes, gaat de vos verder. En wat een sierlijke snavel. De raaf voelt zich heel trots. Ze strekt haar nek. Ik heb gehoord, zegt de vos, dat u ook heel mooi kunt zingen. Ik denk dat u de koningin van alle vogels bent. Als u zo mooi zingt als u eruitziet. Zou u voor mij willen zingen? Eén klein liedje maar? De raaf is zo blij met al die lieve woordjes. Ze wil laten horen hoe mooi ze kan zingen. Ze doet haar snavel wijd open. Kraa! Kraa! Kraa! En de kaas? De kaas valt naar beneden. Plof! Recht in de bek van de vos. De vos slikt de kaas door. Dank u wel, mevrouw de raaf. Lekker! De raaf kijkt verbaasd. Waar is mijn kaas? De vos lacht. Onthoud dit goed, raaf. Pas op voor iemand die je alleen maar complimentjes geeft. Misschien wil hij iets van je. De raaf schaamt zich. Ze is haar kaas kwijt. Maar ze heeft wel iets geleerd. De volgende keer luistert ze niet zomaar naar mooie woordjes. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Wat heeft de raaf in haar snavel?",
+      "right": "🧀",
+      "wrong": [
+        "🍎",
+        "🐛"
+      ],
+      "say": "De raaf heeft een stuk kaas.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Welke kleur heeft de raaf?",
+      "right": "⚫",
+      "wrong": [
+        "🔴",
+        "🟡"
+      ],
+      "say": "De raaf is zwart.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat vraagt de vos aan de raaf?",
+      "right": "🎵",
+      "wrong": [
+        "💃",
+        "🍰"
+      ],
+      "say": "De vos vraagt of de raaf wil zingen.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wie eet de kaas op?",
+      "right": "🦊",
+      "wrong": [
+        "🐦‍⬛",
+        "🐭"
+      ],
+      "say": "De vos eet de kaas op.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de raaf",
+      "emoji": "🐦‍⬛",
+      "say": "De raaf zit in de boom.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "de vos",
+      "emoji": "🦊",
+      "say": "De vos is sluw.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de kaas",
+      "emoji": "🧀",
+      "say": "De kaas valt naar beneden.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de snavel",
+      "emoji": "🐦",
+      "say": "De raaf heeft kaas in haar snavel.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "de veer",
+      "emoji": "🪶",
+      "say": "De raaf heeft zwarte veren.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de boom",
+      "emoji": "🌳",
+      "say": "De raaf zit hoog in de boom.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}
