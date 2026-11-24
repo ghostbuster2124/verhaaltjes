@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "birbal-lijn",
+  "version": 1,
+  "title": "Birbal en de lijn op de muur.",
+  "emoji": "📏",
+  "text": "Lang geleden woonde er in India een machtige keizer. Hij heette Akbar. Akbar hield van raadsels. Hij stelde graag moeilijke vragen aan zijn ministers. Zijn slimste minister was Birbal. Birbal wist altijd een antwoord. Op een dag zat Akbar in zijn grote zaal. Alle ministers stonden om hem heen. Akbar had een stuk krijt in zijn hand. Hij liep naar de muur. Hij trok een lange lijn. Een rechte witte lijn op de muur. Akbar draaide zich om. Hier is mijn raadsel. Wie kan deze lijn korter maken? Maar je mag de lijn niet aanraken. Je mag er niets afvegen. Je mag niets uitgommen. De ministers keken elkaar aan. Ze krabden op hun hoofd. De eerste minister zei: Dat kan niet, majesteit. Een lijn korter maken zonder hem aan te raken? Onmogelijk. De tweede minister dacht lang na. Misschien kunnen we een doek ervoor hangen? Dan zie je een stukje niet. Akbar schudde zijn hoofd. Nee. Dan is de lijn nog even lang. Alleen verstopt. De derde minister zei: We kunnen ver weg gaan staan. Dan lijkt de lijn klein. Akbar lachte. Nee hoor. De lijn moet echt korter worden. Niemand wist het. Iedereen was stil. Toen keek Akbar naar Birbal. En jij, Birbal? Weet jij het? Birbal glimlachte. Hij vroeg om een stuk krijt. Hij liep naar de muur. Hij raakte de lijn van de keizer niet aan. Hij trok een nieuwe lijn. Vlak eronder. Een veel langere lijn. Hij liep helemaal tot het einde van de muur. Birbal stapte achteruit. Kijk maar, majesteit. Akbar keek. Naast de lange lijn van Birbal zag zijn eigen lijn er ineens heel kort uit. Ik heb uw lijn niet aangeraakt, zei Birbal. Maar nu is hij korter. Want naast iets groters lijkt alles kleiner. De ministers waren verbaasd. Waarom hebben wij dat niet bedacht? Akbar klapte in zijn handen. Bravo, Birbal! Weer heb je het opgelost. Birbal boog. Majesteit, zei hij. Het is net zoals met mensen. Je hoeft een ander niet kleiner te maken om zelf groot te zijn. Je kunt gewoon zelf groeien. Akbar dacht daar lang over na. Dat is de wijste les van vandaag, zei hij. Hij gaf Birbal een gouden ring. En de lijnen bleven nog lang op de muur staan. Zodat iedereen het kon onthouden. Einde.",
+  "card": "card.jpg",
+  "pictures": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+  ],
+  "audio": "story.mp3",
+  "subtitles": "story.vtt",
+  "title_audio": "title.mp3",
+  "questions": [
+    {
+      "question": "Waarmee trekt Akbar een lijn?",
+      "right": "🖍️",
+      "wrong": [
+        "🖌️",
+        "🪵"
+      ],
+      "say": "Akbar trekt een lijn met krijt.",
+      "audio": "q1.mp3",
+      "say_audio": "q1_answer.mp3"
+    },
+    {
+      "question": "Wat mag je niet doen met de lijn?",
+      "right": "✋",
+      "wrong": [
+        "👀",
+        "📏"
+      ],
+      "say": "Je mag de lijn niet aanraken.",
+      "audio": "q2.mp3",
+      "say_audio": "q2_answer.mp3"
+    },
+    {
+      "question": "Wat doet Birbal?",
+      "right": "➖",
+      "wrong": [
+        "🧽",
+        "🎨"
+      ],
+      "say": "Birbal trekt een langere lijn eronder.",
+      "audio": "q3.mp3",
+      "say_audio": "q3_answer.mp3"
+    },
+    {
+      "question": "Wat krijgt Birbal van Akbar?",
+      "right": "💍",
+      "wrong": [
+        "🐴",
+        "🍬"
+      ],
+      "say": "Birbal krijgt een gouden ring.",
+      "audio": "q4.mp3",
+      "say_audio": "q4_answer.mp3"
+    }
+  ],
+  "words": [
+    {
+      "word": "de keizer",
+      "emoji": "🤴",
+      "say": "Akbar is een keizer.",
+      "audio": "w1.mp3",
+      "say_audio": "w1_say.mp3"
+    },
+    {
+      "word": "het krijt",
+      "emoji": "🖍️",
+      "say": "Akbar heeft krijt in zijn hand.",
+      "audio": "w2.mp3",
+      "say_audio": "w2_say.mp3"
+    },
+    {
+      "word": "de lijn",
+      "emoji": "📏",
+      "say": "Birbal trekt een lange lijn.",
+      "audio": "w3.mp3",
+      "say_audio": "w3_say.mp3"
+    },
+    {
+      "word": "de muur",
+      "emoji": "🧱",
+      "say": "De lijn staat op de muur.",
+      "audio": "w4.mp3",
+      "say_audio": "w4_say.mp3"
+    },
+    {
+      "word": "het raadsel",
+      "emoji": "❓",
+      "say": "Akbar houdt van raadsels.",
+      "audio": "w5.mp3",
+      "say_audio": "w5_say.mp3"
+    },
+    {
+      "word": "de ring",
+      "emoji": "💍",
+      "say": "Birbal krijgt een ring.",
+      "audio": "w6.mp3",
+      "say_audio": "w6_say.mp3"
+    }
+  ]
+}
